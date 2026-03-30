@@ -3,10 +3,10 @@
   "lastUpdated": "2026-03-29",
   "latestMainSet": "law",
   "announcement": {
-  "id": "ann-2026-05",
-  "text": "Le set Crépuscule de la République est maintenant disponible !",
-  "color": "#7C3AED"
-}
+    "id": "ann-2026-05",
+    "text": "Le set Crépuscule de la République est maintenant disponible !",
+    "color": "#7C3AED"
+  },
   "sets": [
     {
       "id": "sor",
