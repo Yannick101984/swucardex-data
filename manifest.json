@@ -2,6 +2,11 @@
   "version": 1,
   "lastUpdated": "2026-03-29",
   "latestMainSet": "law",
+  "announcement": {
+  "id": "ann-2026-05",
+  "text": "Le set Crépuscule de la République est maintenant disponible !",
+  "color": "#7C3AED"
+}
   "sets": [
     {
       "id": "sor",
@@ -34,6 +39,205 @@
       "type": "main",
       "order": 3,
       "color": "#CC3333",
+      "foilShared": true,
+      "logoURL": null,
+      "artworkURL": null,
+      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/twi.json"
+    },
+    {
+      "id": "jtl",
+      "code": "JTL",
+      "name": "Passage en Vitesse Lumière",
+      "type": "main",
+      "order": 4,
+      "color": "#33B34D",
+      "foilShared": false,
+      "logoURL": null,
+      "artworkURL": null,
+      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/jtl.json"
+    },
+    {
+      "id": "lof",
+      "code": "LOF",
+      "name": "Légendes de la Force",
+      "type": "main",
+      "order": 5,
+      "color": "#1A66E6",
+      "foilShared": false,
+      "logoURL": null,
+      "artworkURL": null,
+      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/lof.json"
+    },
+    {
+      "id": "sec",
+      "code": "SEC",
+      "name": "Secrets du Pouvoir",
+      "type": "main",
+      "order": 6,
+      "color": "#C71780",
+      "foilShared": false,
+      "logoURL": null,
+      "artworkURL": null,
+      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/sec.json"
+    },
+    {
+      "id": "law",
+      "code": "LAW",
+      "name": "Sans Foi Ni Loi",
+      "type": "main",
+      "order": 7,
+      "color": "#FF6900",
+      "foilShared": false,
+      "logoURL": null,
+      "artworkURL": null,
+      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/law.json"
+    },
+    {
+      "id": "secw",
+      "code": "SECW",
+      "name": "Secrets du Pouvoir Weekly Play",
+      "type": "special",
+      "order": 1,
+      "color": "#C71780",
+      "foilShared": false,
+      "logoURL": null,
+      "artworkURL": null,
+      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/secw.json"
+    },
+    {
+      "id": "p26",
+      "code": "P26",
+      "name": "2026 Promo",
+      "type": "promo",
+      "order": 2,
+      "color": "#9B00CC",
+      "foilShared": false,
+      "logoURL": null,
+      "artworkURL": null,
+      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/p26.json"
+    },
+    {
+      "id": "ts26",
+      "code": "TS26",
+      "name": "2026 Twin Suns",
+      "type": "promo",
+      "order": 3,
+      "color": "#FF8C00",
+      "foilShared": false,
+      "logoURL": null,
+      "artworkURL": null,
+      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/ts26.json"
+    },
+    {
+      "id": "p25",
+      "code": "P25",
+      "name": "2025 Promo",
+      "type": "promo",
+      "order": 4,
+      "color": "#9B00CC",
+      "foilShared": false,
+      "logoURL": null,
+      "artworkURL": null,
+      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/p25.json"
+    },
+    {
+      "id": "jtlw",
+      "code": "JTLW",
+      "name": "JTL Worlds",
+      "type": "special",
+      "order": 5,
+      "color": "#FFD700",
+      "foilShared": false,
+      "logoURL": null,
+      "artworkURL": null,
+      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/jtlw.json"
+    },
+    {
+      "id": "lofw",
+      "code": "LOFW",
+      "name": "LOF Worlds",
+      "type": "special",
+      "order": 6,
+      "color": "#00CED1",
+      "foilShared": false,
+      "logoURL": null,
+      "artworkURL": null,
+      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/lofw.json"
+    },
+    {
+      "id": "j25",
+      "code": "J25",
+      "name": "Janvier 2025",
+      "type": "promo",
+      "order": 7,
+      "color": "#007AFF",
+      "foilShared": false,
+      "logoURL": null,
+      "artworkURL": null,
+      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/j25.json"
+    },
+    {
+      "id": "j24",
+      "code": "J24",
+      "name": "Janvier 2024",
+      "type": "promo",
+      "order": 8,
+      "color": "#007AFF",
+      "foilShared": false,
+      "logoURL": null,
+      "artworkURL": null,
+      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/j24.json"
+    },
+    {
+      "id": "c25",
+      "code": "C25",
+      "name": "Championship 2025",
+      "type": "special",
+      "order": 9,
+      "color": "#CC2200",
+      "foilShared": false,
+      "logoURL": null,
+      "artworkURL": null,
+      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/c25.json"
+    },
+    {
+      "id": "c24",
+      "code": "C24",
+      "name": "Championship 2024",
+      "type": "special",
+      "order": 10,
+      "color": "#CC2200",
+      "foilShared": false,
+      "logoURL": null,
+      "artworkURL": null,
+      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/c24.json"
+    },
+    {
+      "id": "ibh",
+      "code": "IBH",
+      "name": "Bataille d'intro : Hoth",
+      "type": "special",
+      "order": 11,
+      "color": "#FF8C00",
+      "foilShared": false,
+      "logoURL": null,
+      "artworkURL": null,
+      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/ibh.json"
+    },
+    {
+      "id": "gg",
+      "code": "GG",
+      "name": "Gift Guide",
+      "type": "special",
+      "order": 12,
+      "color": "#34C759",
+      "foilShared": false,
+      "logoURL": null,
+      "artworkURL": null,
+      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/gg.json"
+    }
+  ]
+}
       "foilShared": true,
       "logoURL": null,
       "artworkURL": null,
