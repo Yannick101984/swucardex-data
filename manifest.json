@@ -13,7 +13,7 @@
       "foilShared": true,
       "logoURL": null,
       "artworkURL": null,
-      "dataURL": "https://raw.githubusercontent.com/[GITHUB_ACCOUNT]/swucardex-data/main/sets/sor.json"
+      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/sor.json"
     },
     {
       "id": "shd",
@@ -25,7 +25,7 @@
       "foilShared": true,
       "logoURL": null,
       "artworkURL": null,
-      "dataURL": "https://raw.githubusercontent.com/[GITHUB_ACCOUNT]/swucardex-data/main/sets/shd.json"
+      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/shd.json"
     },
     {
       "id": "twi",
@@ -37,7 +37,7 @@
       "foilShared": true,
       "logoURL": null,
       "artworkURL": null,
-      "dataURL": "https://raw.githubusercontent.com/[GITHUB_ACCOUNT]/swucardex-data/main/sets/twi.json"
+      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/twi.json"
     },
     {
       "id": "jtl",
@@ -49,7 +49,7 @@
       "foilShared": false,
       "logoURL": null,
       "artworkURL": null,
-      "dataURL": "https://raw.githubusercontent.com/[GITHUB_ACCOUNT]/swucardex-data/main/sets/jtl.json"
+      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/jtl.json"
     },
     {
       "id": "lof",
@@ -61,7 +61,7 @@
       "foilShared": false,
       "logoURL": null,
       "artworkURL": null,
-      "dataURL": "https://raw.githubusercontent.com/[GITHUB_ACCOUNT]/swucardex-data/main/sets/lof.json"
+      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/lof.json"
     },
     {
       "id": "sec",
@@ -73,7 +73,7 @@
       "foilShared": false,
       "logoURL": null,
       "artworkURL": null,
-      "dataURL": "https://raw.githubusercontent.com/[GITHUB_ACCOUNT]/swucardex-data/main/sets/sec.json"
+      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/sec.json"
     },
     {
       "id": "law",
@@ -85,7 +85,7 @@
       "foilShared": false,
       "logoURL": null,
       "artworkURL": null,
-      "dataURL": "https://raw.githubusercontent.com/[GITHUB_ACCOUNT]/swucardex-data/main/sets/law.json"
+      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/law.json"
     },
     {
       "id": "secw",
@@ -97,7 +97,7 @@
       "foilShared": false,
       "logoURL": null,
       "artworkURL": null,
-      "dataURL": "https://raw.githubusercontent.com/[GITHUB_ACCOUNT]/swucardex-data/main/sets/secw.json"
+      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/secw.json"
     },
     {
       "id": "p26",
@@ -109,7 +109,7 @@
       "foilShared": false,
       "logoURL": null,
       "artworkURL": null,
-      "dataURL": "https://raw.githubusercontent.com/[GITHUB_ACCOUNT]/swucardex-data/main/sets/p26.json"
+      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/p26.json"
     },
     {
       "id": "ts26",
@@ -121,7 +121,7 @@
       "foilShared": false,
       "logoURL": null,
       "artworkURL": null,
-      "dataURL": "https://raw.githubusercontent.com/[GITHUB_ACCOUNT]/swucardex-data/main/sets/ts26.json"
+      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/ts26.json"
     },
     {
       "id": "p25",
@@ -133,7 +133,7 @@
       "foilShared": false,
       "logoURL": null,
       "artworkURL": null,
-      "dataURL": "https://raw.githubusercontent.com/[GITHUB_ACCOUNT]/swucardex-data/main/sets/p25.json"
+      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/p25.json"
     },
     {
       "id": "jtlw",
@@ -145,7 +145,7 @@
       "foilShared": false,
       "logoURL": null,
       "artworkURL": null,
-      "dataURL": "https://raw.githubusercontent.com/[GITHUB_ACCOUNT]/swucardex-data/main/sets/jtlw.json"
+      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/jtlw.json"
     },
     {
       "id": "lofw",
@@ -157,7 +157,7 @@
       "foilShared": false,
       "logoURL": null,
       "artworkURL": null,
-      "dataURL": "https://raw.githubusercontent.com/[GITHUB_ACCOUNT]/swucardex-data/main/sets/lofw.json"
+      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/lofw.json"
     },
     {
       "id": "j25",
@@ -169,7 +169,7 @@
       "foilShared": false,
       "logoURL": null,
       "artworkURL": null,
-      "dataURL": "https://raw.githubusercontent.com/[GITHUB_ACCOUNT]/swucardex-data/main/sets/j25.json"
+      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/j25.json"
     },
     {
       "id": "j24",
@@ -181,7 +181,7 @@
       "foilShared": false,
       "logoURL": null,
       "artworkURL": null,
-      "dataURL": "https://raw.githubusercontent.com/[GITHUB_ACCOUNT]/swucardex-data/main/sets/j24.json"
+      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/j24.json"
     },
     {
       "id": "c25",
@@ -193,7 +193,7 @@
       "foilShared": false,
       "logoURL": null,
       "artworkURL": null,
-      "dataURL": "https://raw.githubusercontent.com/[GITHUB_ACCOUNT]/swucardex-data/main/sets/c25.json"
+      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/c25.json"
     },
     {
       "id": "c24",
@@ -205,7 +205,7 @@
       "foilShared": false,
       "logoURL": null,
       "artworkURL": null,
-      "dataURL": "https://raw.githubusercontent.com/[GITHUB_ACCOUNT]/swucardex-data/main/sets/c24.json"
+      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/c24.json"
     },
     {
       "id": "ibh",
@@ -217,7 +217,7 @@
       "foilShared": false,
       "logoURL": null,
       "artworkURL": null,
-      "dataURL": "https://raw.githubusercontent.com/[GITHUB_ACCOUNT]/swucardex-data/main/sets/ibh.json"
+      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/ibh.json"
     },
     {
       "id": "gg",
@@ -229,7 +229,7 @@
       "foilShared": false,
       "logoURL": null,
       "artworkURL": null,
-      "dataURL": "https://raw.githubusercontent.com/[GITHUB_ACCOUNT]/swucardex-data/main/sets/gg.json"
+      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/gg.json"
     }
   ]
 }
