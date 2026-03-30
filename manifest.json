@@ -3,14 +3,15 @@
   "lastUpdated": "2026-03-29",
   "latestMainSet": "law",
   "announcement": {
-    "id": "ann-2026-06",
+    "id": "ann-2026-06-1",
     "text": "Merci pour votre soutien https://amazon.fr",
     "color": "#7C3AED",
-    "url": "https://ton-lien.com/regles-vader"
+    "url": "https://ko-fi.com/swucardex"
   },
   "sets": [
     {
       "id": "sor",
+      "dataVersion": 1,
       "code": "SOR",
       "name": "Étincelle de Rébellion",
       "type": "main",
