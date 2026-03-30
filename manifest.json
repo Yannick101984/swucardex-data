@@ -5,7 +5,8 @@
   "announcement": {
     "id": "ann-2026-06",
     "text": "Merci pour votre soutien https://amazon.fr",
-    "color": "#7C3AED"
+    "color": "#7C3AED",
+    "url": "https://ton-lien.com/regles-vader"
   },
   "sets": [
     {
