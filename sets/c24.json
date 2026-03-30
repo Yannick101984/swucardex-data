@@ -1,0 +1,3360 @@
+{
+  "data": [
+    {
+      "id": 8637,
+      "attributes": {
+        "cardNumber": 1,
+        "title": "Count Dooku",
+        "subtitle": "Darth Tyranus",
+        "cardCount": 6,
+        "artist": "Mona Finden",
+        "artFrontHorizontal": false,
+        "artBackHorizontal": null,
+        "hasFoil": false,
+        "cost": 7,
+        "hp": 4,
+        "power": 5,
+        "text": "Shielded\n\nWhen Played: You may defeat a unit with 4 or less remaining HP.",
+        "textStyled": "<p><strong>Shielded</strong></p><p><strong>When Played:</strong> You may defeat a unit with <strong>4</strong> or less remaining HP.</p>",
+        "deployBox": null,
+        "deployBoxStyled": "",
+        "epicAction": null,
+        "epicActionStyled": "",
+        "linkHtml": "<a href=\"/cards?cid=1401885853\" class=\"card-tooltip\" data-card=\"1401885853\">Count Dooku</a>",
+        "cardId": null,
+        "createdAt": "2024-06-07T21:49:41.428Z",
+        "updatedAt": "2024-09-27T21:45:04.380Z",
+        "publishedAt": "2024-07-10T14:55:31.617Z",
+        "locale": "fr",
+        "hyperspace": false,
+        "unique": true,
+        "showcase": false,
+        "cardUid": "1401885853",
+        "rules": null,
+        "rulesStyled": "",
+        "serialCode": "C2408001",
+        "upgradeHp": null,
+        "upgradePower": null,
+        "artFront": {
+          "data": {
+            "id": 14534,
+            "attributes": {
+              "name": "C2401001EN_Count_Dooku.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 300,
+              "height": 418,
+              "formats": {
+                "card": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//card_C2401001_EN_Count_Dooku_25db78e8b2.png",
+                  "hash": "card_C2401001_EN_Count_Dooku_25db78e8b2",
+                  "mime": "image/png",
+                  "name": "card_C2401001EN_Count_Dooku.png",
+                  "path": null,
+                  "size": 146.84,
+                  "width": 287,
+                  "height": 400
+                },
+                "xsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xsmall_C2401001_EN_Count_Dooku_25db78e8b2.png",
+                  "hash": "xsmall_C2401001_EN_Count_Dooku_25db78e8b2",
+                  "mime": "image/png",
+                  "name": "xsmall_C2401001EN_Count_Dooku.png",
+                  "path": null,
+                  "size": 92.61,
+                  "width": 215,
+                  "height": 300
+                },
+                "xxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxsmall_C2401001_EN_Count_Dooku_25db78e8b2.png",
+                  "hash": "xxsmall_C2401001_EN_Count_Dooku_25db78e8b2",
+                  "mime": "image/png",
+                  "name": "xxsmall_C2401001EN_Count_Dooku.png",
+                  "path": null,
+                  "size": 46.62,
+                  "width": 144,
+                  "height": 200
+                },
+                "xxxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxxsmall_C2401001_EN_Count_Dooku_25db78e8b2.png",
+                  "hash": "xxxsmall_C2401001_EN_Count_Dooku_25db78e8b2",
+                  "mime": "image/png",
+                  "name": "xxxsmall_C2401001EN_Count_Dooku.png",
+                  "path": null,
+                  "size": 28.82,
+                  "width": 108,
+                  "height": 150
+                },
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//thumbnail_C2401001_EN_Count_Dooku_25db78e8b2.png",
+                  "hash": "thumbnail_C2401001_EN_Count_Dooku_25db78e8b2",
+                  "mime": "image/png",
+                  "name": "thumbnail_C2401001EN_Count_Dooku.png",
+                  "path": null,
+                  "size": 67.53,
+                  "width": 179,
+                  "height": 250
+                }
+              },
+              "hash": "C2401001_EN_Count_Dooku_25db78e8b2",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 44.4,
+              "url": "https://cdn.starwarsunlimited.com//C2401001_EN_Count_Dooku_25db78e8b2.png",
+              "previewUrl": null,
+              "provider": "aws-s3",
+              "provider_metadata": null,
+              "createdAt": "2024-07-19T16:25:06.991Z",
+              "updatedAt": "2024-07-19T16:25:06.991Z"
+            }
+          }
+        },
+        "artBack": {
+          "data": null
+        },
+        "artThumbnail": {
+          "data": {
+            "id": 8455,
+            "attributes": {
+              "name": "SWHA001-Count_Dooku_Thumbnail.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 300,
+              "height": 100,
+              "formats": {
+                "xxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxsmall_SWHA_001_Count_Dooku_Thumbnail_18dcea0c0a.png",
+                  "hash": "xxsmall_SWHA_001_Count_Dooku_Thumbnail_18dcea0c0a",
+                  "mime": "image/png",
+                  "name": "xxsmall_SWHA001-Count_Dooku_Thumbnail.png",
+                  "path": null,
+                  "size": 20.94,
+                  "width": 200,
+                  "height": 67
+                },
+                "xxxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxxsmall_SWHA_001_Count_Dooku_Thumbnail_18dcea0c0a.png",
+                  "hash": "xxxsmall_SWHA_001_Count_Dooku_Thumbnail_18dcea0c0a",
+                  "mime": "image/png",
+                  "name": "xxxsmall_SWHA001-Count_Dooku_Thumbnail.png",
+                  "path": null,
+                  "size": 12.73,
+                  "width": 150,
+                  "height": 50
+                },
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//thumbnail_SWHA_001_Count_Dooku_Thumbnail_18dcea0c0a.png",
+                  "hash": "thumbnail_SWHA_001_Count_Dooku_Thumbnail_18dcea0c0a",
+                  "mime": "image/png",
+                  "name": "thumbnail_SWHA001-Count_Dooku_Thumbnail.png",
+                  "path": null,
+                  "size": 29.48,
+                  "width": 250,
+                  "height": 83
+                }
+              },
+              "hash": "SWHA_001_Count_Dooku_Thumbnail_18dcea0c0a",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 11.13,
+              "url": "https://cdn.starwarsunlimited.com//SWHA_001_Count_Dooku_Thumbnail_18dcea0c0a.png",
+              "previewUrl": null,
+              "provider": "aws-s3",
+              "provider_metadata": null,
+              "createdAt": "2024-06-07T20:36:52.890Z",
+              "updatedAt": "2024-06-07T20:36:52.890Z"
+            }
+          }
+        },
+        "localizations": {
+          "data": [
+            {
+              "id": 8639,
+              "attributes": {
+                "title": "Count Dooku",
+                "subtitle": "Darth Tyranus",
+                "cardNumber": 1,
+                "cardCount": 6,
+                "artist": "Mona Finden",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": false,
+                "cost": 7,
+                "hp": 4,
+                "power": 5,
+                "text": "Shielded\n\nWhen Played: You may defeat a unit with 4 or less remaining HP.",
+                "textStyled": "<p><strong>Shielded</strong></p><p><strong>When Played:</strong> You may defeat a unit with <strong>4</strong> or less remaining HP.</p>",
+                "deployBox": null,
+                "deployBoxStyled": "",
+                "epicAction": null,
+                "epicActionStyled": "",
+                "linkHtml": "<a href=\"/cards?cid=1401885853\" class=\"card-tooltip\" data-card=\"1401885853\">Count Dooku</a>",
+                "cardId": null,
+                "createdAt": "2024-06-07T21:54:30.266Z",
+                "updatedAt": "2024-09-27T21:45:03.852Z",
+                "publishedAt": "2024-07-10T14:55:49.159Z",
+                "locale": "it",
+                "hyperspace": false,
+                "unique": true,
+                "showcase": false,
+                "cardUid": "1401885853",
+                "rules": null,
+                "rulesStyled": "",
+                "serialCode": "C2408001",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            },
+            {
+              "id": 8638,
+              "attributes": {
+                "title": "Count Dooku",
+                "subtitle": "Darth Tyranus",
+                "cardNumber": 1,
+                "cardCount": 6,
+                "artist": "Mona Finden",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": false,
+                "cost": 7,
+                "hp": 4,
+                "power": 5,
+                "text": "Shielded\n\nWhen Played: You may defeat a unit with 4 or less remaining HP.",
+                "textStyled": "<p><strong>Shielded</strong></p><p><strong>When Played:</strong> You may defeat a unit with <strong>4</strong> or less remaining HP.</p>",
+                "deployBox": null,
+                "deployBoxStyled": "",
+                "epicAction": null,
+                "epicActionStyled": "",
+                "linkHtml": "<a href=\"/cards?cid=1401885853\" class=\"card-tooltip\" data-card=\"1401885853\">Count Dooku</a>",
+                "cardId": null,
+                "createdAt": "2024-06-07T21:53:23.980Z",
+                "updatedAt": "2024-09-27T21:45:04.364Z",
+                "publishedAt": "2024-07-10T14:55:39.691Z",
+                "locale": "es",
+                "hyperspace": false,
+                "unique": true,
+                "showcase": false,
+                "cardUid": "1401885853",
+                "rules": null,
+                "rulesStyled": "",
+                "serialCode": "C2408001",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            },
+            {
+              "id": 8636,
+              "attributes": {
+                "title": "Count Dooku",
+                "subtitle": "Darth Tyranus",
+                "cardNumber": 1,
+                "cardCount": 6,
+                "artist": "Mona Finden",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": false,
+                "cost": 7,
+                "hp": 4,
+                "power": 5,
+                "text": "Shielded\n\nWhen Played: You may defeat a unit with 4 or less remaining HP.",
+                "textStyled": "<p><strong>Shielded</strong></p><p><strong>When Played:</strong> You may defeat a unit with <strong>4</strong> or less remaining HP.</p>",
+                "deployBox": null,
+                "deployBoxStyled": "",
+                "epicAction": null,
+                "epicActionStyled": "",
+                "linkHtml": "<a href=\"/cards?cid=1401885853\" class=\"card-tooltip\" data-card=\"1401885853\">Count Dooku</a>",
+                "cardId": null,
+                "createdAt": "2024-06-07T21:46:46.522Z",
+                "updatedAt": "2024-09-27T21:45:04.410Z",
+                "publishedAt": "2024-07-10T14:55:21.878Z",
+                "locale": "de",
+                "hyperspace": false,
+                "unique": true,
+                "showcase": false,
+                "cardUid": "1401885853",
+                "rules": null,
+                "rulesStyled": "",
+                "serialCode": "C2408001",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            },
+            {
+              "id": 8634,
+              "attributes": {
+                "title": "Count Dooku",
+                "subtitle": "Darth Tyranus",
+                "cardNumber": 1,
+                "cardCount": 6,
+                "artist": "Mona Finden",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": false,
+                "cost": 7,
+                "hp": 4,
+                "power": 5,
+                "text": "Shielded\n\nWhen Played: You may defeat a unit with 4 or less remaining HP.",
+                "textStyled": "<p><strong>Shielded</strong></p><p><strong>When Played:</strong> You may defeat a unit with <strong>4</strong> or less remaining HP.</p>",
+                "deployBox": null,
+                "deployBoxStyled": "",
+                "epicAction": null,
+                "epicActionStyled": "",
+                "linkHtml": "<a href=\"/cards?cid=1401885853\" class=\"card-tooltip\" data-card=\"1401885853\">Count Dooku</a>",
+                "cardId": null,
+                "createdAt": "2024-06-07T20:41:24.497Z",
+                "updatedAt": "2024-09-27T21:45:04.439Z",
+                "publishedAt": "2024-07-10T14:55:11.684Z",
+                "locale": "en",
+                "hyperspace": false,
+                "unique": true,
+                "showcase": false,
+                "cardUid": "1401885853",
+                "rules": null,
+                "rulesStyled": "",
+                "serialCode": "C2408001",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "data": [
+            {
+              "id": 29,
+              "attributes": {
+                "name": "Infâmie",
+                "description": "<p>Se battre pour le pouvoir suprême avec les «&nbsp;méchants&nbsp;» de la galaxie Star Wars. Cette affinité permet de commander à d’immenses armées ou de provoquer de terribles destructions. Tout comme l’Héroïsme, cette affinité est souvent associée à une autre affinité sur la carte.</p>",
+                "color": "#000000",
+                "createdAt": "2023-08-10T21:20:52.826Z",
+                "updatedAt": "2024-07-15T21:40:49.895Z",
+                "publishedAt": "2024-01-02T18:25:50.235Z",
+                "locale": "fr",
+                "englishName": "Villainy",
+                "sortValue": 20
+              }
+            },
+            {
+              "id": 4,
+              "attributes": {
+                "name": "Vigilance",
+                "description": "<p>Un jeu défensif, avec des capacités pour soigner les dégâts, retirer du jeu les unités dangereuses, protéger sa base des attaques ennemies. Cette affinité est idéale pour les joueurs qui savent temporiser, en encaissant les assauts les plus meurtriers.</p>",
+                "color": "#4073d4",
+                "createdAt": "2023-08-10T21:02:26.776Z",
+                "updatedAt": "2024-07-15T21:32:24.096Z",
+                "publishedAt": "2024-01-02T18:25:33.755Z",
+                "locale": "fr",
+                "englishName": "Vigilance",
+                "sortValue": 1
+              }
+            }
+          ]
+        },
+        "aspectDuplicates": {
+          "data": []
+        },
+        "type": {
+          "data": {
+            "id": 29,
+            "attributes": {
+              "name": "Unité",
+              "description": "",
+              "value": "Unit",
+              "createdAt": "2023-08-15T18:04:32.553Z",
+              "updatedAt": "2024-04-25T13:52:29.937Z",
+              "publishedAt": "2024-01-04T21:29:14.943Z",
+              "locale": "fr",
+              "sortValue": 3
+            }
+          }
+        },
+        "type2": {
+          "data": null
+        },
+        "traits": {
+          "data": [
+            {
+              "id": 34,
+              "attributes": {
+                "name": "Force",
+                "description": null,
+                "createdAt": "2023-08-15T14:41:10.682Z",
+                "updatedAt": "2024-01-04T21:15:19.420Z",
+                "publishedAt": "2024-01-04T21:15:19.417Z",
+                "locale": "fr"
+              }
+            },
+            {
+              "id": 205,
+              "attributes": {
+                "name": "Séparatiste",
+                "description": "",
+                "createdAt": "2023-11-21T17:06:36.555Z",
+                "updatedAt": "2024-01-04T21:23:00.948Z",
+                "publishedAt": "2024-01-04T21:23:00.945Z",
+                "locale": "fr"
+              }
+            },
+            {
+              "id": 44,
+              "attributes": {
+                "name": "Sith",
+                "description": "",
+                "createdAt": "2023-08-15T14:42:17.108Z",
+                "updatedAt": "2024-01-04T21:23:19.059Z",
+                "publishedAt": "2024-01-04T21:23:19.055Z",
+                "locale": "fr"
+              }
+            }
+          ]
+        },
+        "arenas": {
+          "data": [
+            {
+              "id": 4,
+              "attributes": {
+                "name": "Terrestre",
+                "description": null,
+                "createdAt": "2023-08-15T14:32:20.801Z",
+                "updatedAt": "2024-01-04T16:49:07.912Z",
+                "publishedAt": "2023-08-18T21:37:40.768Z",
+                "locale": "fr"
+              }
+            }
+          ]
+        },
+        "keywords": {
+          "data": [
+            {
+              "id": 24,
+              "attributes": {
+                "name": "Protégée",
+                "description": "",
+                "createdAt": "2023-11-28T17:07:52.429Z",
+                "updatedAt": "2024-01-04T19:05:59.217Z",
+                "publishedAt": "2023-11-28T17:07:53.447Z",
+                "locale": "fr"
+              }
+            }
+          ]
+        },
+        "rarity": {
+          "data": {
+            "id": 24,
+            "attributes": {
+              "name": "Spéciale",
+              "character": "S",
+              "color": "#000000",
+              "createdAt": "2023-08-14T21:34:27.979Z",
+              "updatedAt": "2024-04-25T14:06:09.057Z",
+              "publishedAt": "2024-01-04T16:42:01.831Z",
+              "locale": "fr",
+              "englishName": "Special",
+              "sortValue": 1
+            }
+          }
+        },
+        "expansion": {
+          "data": {
+            "id": 15,
+            "attributes": {
+              "name": "2024 Convention Exclusive",
+              "description": "",
+              "code": "C24",
+              "createdAt": "2024-06-07T21:45:02.962Z",
+              "updatedAt": "2025-04-25T15:55:23.469Z",
+              "publishedAt": "2024-07-10T15:07:02.884Z",
+              "locale": "fr",
+              "sortValue": 38,
+              "leaderboardStartDate": null,
+              "leaderboardEndDate": null
+            }
+          }
+        },
+        "variantTypes": {
+          "data": [
+            {
+              "id": 43,
+              "attributes": {
+                "name": "Convention Exclusive",
+                "description": null,
+                "createdAt": "2024-06-26T18:28:45.358Z",
+                "updatedAt": "2024-07-15T18:20:14.740Z",
+                "publishedAt": "2024-07-15T18:20:03.400Z",
+                "locale": "fr",
+                "variantId": "08",
+                "foil": null,
+                "sortValue": 80,
+                "icon": {
+                  "data": {
+                    "id": 8695,
+                    "attributes": {
+                      "name": "icon_conventionexclusive.png",
+                      "alternativeText": null,
+                      "caption": null,
+                      "width": 144,
+                      "height": 144,
+                      "formats": null,
+                      "hash": "icon_conventionexclusive_194657d507",
+                      "ext": ".png",
+                      "mime": "image/png",
+                      "size": 0.79,
+                      "url": "https://cdn.starwarsunlimited.com//icon_conventionexclusive_194657d507.png",
+                      "previewUrl": null,
+                      "provider": "aws-s3",
+                      "provider_metadata": null,
+                      "createdAt": "2024-07-15T14:40:17.033Z",
+                      "updatedAt": "2024-07-15T14:40:17.033Z"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "variantOf": {
+          "data": null
+        },
+        "reprintOf": {
+          "data": {
+            "id": 705,
+            "attributes": {
+              "title": "Comte Dooku",
+              "subtitle": "Dark Tyranus",
+              "cardNumber": 38,
+              "cardCount": 252,
+              "artist": "Mona Finden",
+              "artFrontHorizontal": false,
+              "artBackHorizontal": null,
+              "hasFoil": false,
+              "cost": 7,
+              "hp": 4,
+              "power": 5,
+              "text": "Protégée (Quand vous jouez cette unité, donnez-lui un jeton Bouclier.)\n\nUne fois jouée : vous pouvez éliminer une unité dont les PV restants sont de 4 ou moins.",
+              "textStyled": "<p><strong>Protégée</strong><i><strong> </strong>(Quand vous jouez cette unité, donnez-lui un jeton Bouclier.)</i></p><p><strong>Une fois jouée :</strong> vous pouvez éliminer une unité dont les PV restants sont de<strong> 4</strong> ou moins.</p>",
+              "deployBox": null,
+              "deployBoxStyled": "",
+              "epicAction": null,
+              "epicActionStyled": "",
+              "linkHtml": "<a href=\"/cards?cid=9624333142\" class=\"card-tooltip\" data-card=\"9624333142\">Comte Dooku</a>",
+              "cardId": null,
+              "createdAt": "2023-11-29T23:38:04.814Z",
+              "updatedAt": "2024-07-15T17:48:44.362Z",
+              "publishedAt": "2024-01-12T23:11:53.376Z",
+              "locale": "fr",
+              "hyperspace": false,
+              "unique": true,
+              "showcase": false,
+              "cardUid": "9624333142",
+              "rules": null,
+              "rulesStyled": null,
+              "serialCode": "0101038",
+              "upgradeHp": null,
+              "upgradePower": null
+            }
+          }
+        },
+        "validationId": "9624333142"
+      }
+    },
+    {
+      "id": 8641,
+      "attributes": {
+        "cardNumber": 2,
+        "title": "Darth Vader",
+        "subtitle": "Commanding the First Legion",
+        "cardCount": 6,
+        "artist": "Ivan Dedov",
+        "artFrontHorizontal": false,
+        "artBackHorizontal": null,
+        "hasFoil": false,
+        "cost": 7,
+        "hp": 7,
+        "power": 5,
+        "text": "Ambush\n\nWhen Played: Search the top 10 cards of your deck for any number of [Infâmie] units with combined cost 3 or less and play each of them for free.",
+        "textStyled": "<p><strong>Ambush</strong></p><p><strong>When Played:</strong> Search the top 10 cards of your deck for any number of <img src=\"https://ffg-prod-uploads.s3.amazonaws.com/icon_villainy_ea34258f27.png\" alt=\"icon_villainy.png\"> units with combined cost <strong>3</strong> or less and play each of them for free.</p>",
+        "deployBox": null,
+        "deployBoxStyled": "",
+        "epicAction": null,
+        "epicActionStyled": "",
+        "linkHtml": "<a href=\"/cards?cid=8292269690\" class=\"card-tooltip\" data-card=\"8292269690\">Darth Vader</a>",
+        "cardId": null,
+        "createdAt": "2024-06-07T21:59:09.763Z",
+        "updatedAt": "2025-03-06T18:09:36.092Z",
+        "publishedAt": "2024-07-10T14:56:39.241Z",
+        "locale": "fr",
+        "hyperspace": false,
+        "unique": true,
+        "showcase": false,
+        "cardUid": "8292269690",
+        "rules": "Les capacités faisant référence au coût d’une carte, se réfèrent toujours à son coût imprimé, sans tenir compte d’éventuels modificateurs.\n« Jouer gratuitement une carte », vous permet de jouer la carte en ignorant tous ses coûts en ressource (ignorez aussi ses pénalité d’affinité), mais vous devrez tout de même payer les éventuels « coûts supplémentaires ».\nPour les capacités qui englobent plusieurs actions, résolvez chaque action (et tous les déclenchements qui en résultent) l’une après l’autre.\nEmbuscade est une capacité qui se déclenche au même moment que les capacités « Une fois jouée ». S’il n’y a aucune unité ennemie à attaquer, l’unité ne se redresse pas.\nAprès avoir cherché parmi vos cartes, remettez les cartes non-choisies sous votre deck dans un ordre aléatoire.\nLors de votre recherche, si vous choisissez des unités Pilote, vous ne pouvez les jouer qu'en tant qu'unités.\n",
+        "rulesStyled": "<figure class=\"table\"><table><tbody><tr><td>3/1/2024</td><td>Les capacités faisant référence au coût d’une carte, se réfèrent toujours à son coût imprimé, sans tenir compte d’éventuels modificateurs.</td></tr><tr><td>3/1/2024</td><td>« Jouer gratuitement une carte », vous permet de jouer la carte en ignorant tous ses coûts en ressource (ignorez aussi ses pénalité d’affinité), mais vous devrez tout de même payer les éventuels « coûts supplémentaires ».</td></tr><tr><td>3/1/2024</td><td>Pour les capacités qui englobent plusieurs actions, résolvez chaque action (et tous les déclenchements qui en résultent) l’une après l’autre.</td></tr><tr><td>3/1/2024</td><td>Embuscade est une capacité qui se déclenche au même moment que les capacités « Une fois jouée ». S’il n’y a aucune unité ennemie à attaquer, l’unité ne se redresse pas.</td></tr><tr><td>3/1/2024</td><td>Après avoir cherché parmi vos cartes, remettez les cartes non-choisies sous votre deck dans un ordre aléatoire.</td></tr><tr><td>3/6/2025</td><td>Lors de votre recherche, si vous choisissez des unités Pilote, vous ne pouvez les jouer qu'en tant qu'unités.</td></tr></tbody></table></figure>",
+        "serialCode": "C2408002",
+        "upgradeHp": null,
+        "upgradePower": null,
+        "artFront": {
+          "data": {
+            "id": 14537,
+            "attributes": {
+              "name": "C2401002EN_Darth_Vader.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 300,
+              "height": 418,
+              "formats": {
+                "card": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//card_C2401002_EN_Darth_Vader_f1d7ec131d.png",
+                  "hash": "card_C2401002_EN_Darth_Vader_f1d7ec131d",
+                  "mime": "image/png",
+                  "name": "card_C2401002EN_Darth_Vader.png",
+                  "path": null,
+                  "size": 181.56,
+                  "width": 287,
+                  "height": 400
+                },
+                "xsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xsmall_C2401002_EN_Darth_Vader_f1d7ec131d.png",
+                  "hash": "xsmall_C2401002_EN_Darth_Vader_f1d7ec131d",
+                  "mime": "image/png",
+                  "name": "xsmall_C2401002EN_Darth_Vader.png",
+                  "path": null,
+                  "size": 109.52,
+                  "width": 215,
+                  "height": 300
+                },
+                "xxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxsmall_C2401002_EN_Darth_Vader_f1d7ec131d.png",
+                  "hash": "xxsmall_C2401002_EN_Darth_Vader_f1d7ec131d",
+                  "mime": "image/png",
+                  "name": "xxsmall_C2401002EN_Darth_Vader.png",
+                  "path": null,
+                  "size": 52.9,
+                  "width": 144,
+                  "height": 200
+                },
+                "xxxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxxsmall_C2401002_EN_Darth_Vader_f1d7ec131d.png",
+                  "hash": "xxxsmall_C2401002_EN_Darth_Vader_f1d7ec131d",
+                  "mime": "image/png",
+                  "name": "xxxsmall_C2401002EN_Darth_Vader.png",
+                  "path": null,
+                  "size": 31.81,
+                  "width": 108,
+                  "height": 150
+                },
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//thumbnail_C2401002_EN_Darth_Vader_f1d7ec131d.png",
+                  "hash": "thumbnail_C2401002_EN_Darth_Vader_f1d7ec131d",
+                  "mime": "image/png",
+                  "name": "thumbnail_C2401002EN_Darth_Vader.png",
+                  "path": null,
+                  "size": 78.76,
+                  "width": 179,
+                  "height": 250
+                }
+              },
+              "hash": "C2401002_EN_Darth_Vader_f1d7ec131d",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 60.41,
+              "url": "https://cdn.starwarsunlimited.com//C2401002_EN_Darth_Vader_f1d7ec131d.png",
+              "previewUrl": null,
+              "provider": "aws-s3",
+              "provider_metadata": null,
+              "createdAt": "2024-07-19T16:25:07.388Z",
+              "updatedAt": "2024-07-19T16:25:07.388Z"
+            }
+          }
+        },
+        "artBack": {
+          "data": null
+        },
+        "artThumbnail": {
+          "data": {
+            "id": 8453,
+            "attributes": {
+              "name": "SWHA001-Darth_Vader_Thumbnail.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 300,
+              "height": 100,
+              "formats": {
+                "xxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxsmall_SWHA_001_Darth_Vader_Thumbnail_bf4b9aeaf5.png",
+                  "hash": "xxsmall_SWHA_001_Darth_Vader_Thumbnail_bf4b9aeaf5",
+                  "mime": "image/png",
+                  "name": "xxsmall_SWHA001-Darth_Vader_Thumbnail.png",
+                  "path": null,
+                  "size": 23.76,
+                  "width": 200,
+                  "height": 67
+                },
+                "xxxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxxsmall_SWHA_001_Darth_Vader_Thumbnail_bf4b9aeaf5.png",
+                  "hash": "xxxsmall_SWHA_001_Darth_Vader_Thumbnail_bf4b9aeaf5",
+                  "mime": "image/png",
+                  "name": "xxxsmall_SWHA001-Darth_Vader_Thumbnail.png",
+                  "path": null,
+                  "size": 14.46,
+                  "width": 150,
+                  "height": 50
+                },
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//thumbnail_SWHA_001_Darth_Vader_Thumbnail_bf4b9aeaf5.png",
+                  "hash": "thumbnail_SWHA_001_Darth_Vader_Thumbnail_bf4b9aeaf5",
+                  "mime": "image/png",
+                  "name": "thumbnail_SWHA001-Darth_Vader_Thumbnail.png",
+                  "path": null,
+                  "size": 34.11,
+                  "width": 250,
+                  "height": 83
+                }
+              },
+              "hash": "SWHA_001_Darth_Vader_Thumbnail_bf4b9aeaf5",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 12.92,
+              "url": "https://cdn.starwarsunlimited.com//SWHA_001_Darth_Vader_Thumbnail_bf4b9aeaf5.png",
+              "previewUrl": null,
+              "provider": "aws-s3",
+              "provider_metadata": null,
+              "createdAt": "2024-06-07T20:36:52.785Z",
+              "updatedAt": "2024-06-07T20:36:52.785Z"
+            }
+          }
+        },
+        "localizations": {
+          "data": [
+            {
+              "id": 8643,
+              "attributes": {
+                "title": "Darth Vader",
+                "subtitle": "Commanding the First Legion",
+                "cardNumber": 2,
+                "cardCount": 6,
+                "artist": "Ivan Dedov",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": false,
+                "cost": 7,
+                "hp": 7,
+                "power": 5,
+                "text": "Ambush\n\nWhen Played: Search the top 10 cards of your deck for any number of [Malvagità] units with combined cost 3 or less and play each of them for free.",
+                "textStyled": "<p><strong>Ambush</strong></p><p><strong>When Played:</strong> Search the top 10 cards of your deck for any number of <img src=\"https://ffg-prod-uploads.s3.amazonaws.com/icon_villainy_ea34258f27.png\" alt=\"icon_villainy.png\"> units with combined cost <strong>3</strong> or less and play each of them for free.</p>",
+                "deployBox": null,
+                "deployBoxStyled": "",
+                "epicAction": null,
+                "epicActionStyled": "",
+                "linkHtml": "<a href=\"/cards?cid=8292269690\" class=\"card-tooltip\" data-card=\"8292269690\">Darth Vader</a>",
+                "cardId": null,
+                "createdAt": "2024-06-07T22:01:45.575Z",
+                "updatedAt": "2025-03-06T18:09:34.977Z",
+                "publishedAt": "2024-07-10T14:56:58.255Z",
+                "locale": "it",
+                "hyperspace": false,
+                "unique": true,
+                "showcase": false,
+                "cardUid": "8292269690",
+                "rules": "Le capacità che si riferiscono al costo di una carta si riferiscono sempre al suo costo stampato, indipendentemente dai modificatori.\n\"\"Giocare gratuitamente\"\" una carta permette di ignorare tutti i suoi costi in risorse, compresa la penalità di aspetto, ma non gli altri costi aggiuntivi.\nSe una capacità comprende più azioni, risolvere ogni azione (e gli eventuali inneschi risultanti) in sequenza.\nImboscata è una capacità che si innesca nella stessa finestra di tempistica delle capacità \"\"Quando Giocata\"\". Se non ci sono unità nemiche che possono essere attaccate, l'unità con Imboscata non si appronta.\nDopo la ricerca, mettere le carte non scelte in fondo al mazzo in ordine casuale.\nSe un giocatore sceglie una qualsiasi unità PILOTA attraverso la ricerca, può giocarla solo come unità.\n",
+                "rulesStyled": "\n                <figure class=\"table\"><table><tbody><tr><td>3/1/2024</td><td>Le capacità che si riferiscono al costo di una carta si riferiscono sempre al suo costo stampato, indipendentemente dai modificatori.</td></tr><tr><td>3/1/2024</td><td>\"\"Giocare gratuitamente\"\" una carta permette di ignorare tutti i suoi costi in risorse, compresa la penalità di aspetto, ma non gli altri costi aggiuntivi.</td></tr><tr><td>3/1/2024</td><td>Se una capacità comprende più azioni, risolvere ogni azione (e gli eventuali inneschi risultanti) in sequenza.</td></tr><tr><td>3/1/2024</td><td>Imboscata è una capacità che si innesca nella stessa finestra di tempistica delle capacità \"\"Quando Giocata\"\". Se non ci sono unità nemiche che possono essere attaccate, l'unità con Imboscata non si appronta.</td></tr><tr><td>3/1/2024</td><td>Dopo la ricerca, mettere le carte non scelte in fondo al mazzo in ordine casuale.</td></tr><tr><td>3/6/2025</td><td>Se un giocatore sceglie una qualsiasi unità PILOTA attraverso la ricerca, può giocarla solo come unità.</td></tr></tbody></table></figure>\n                ",
+                "serialCode": "C2408002",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            },
+            {
+              "id": 8642,
+              "attributes": {
+                "title": "Darth Vader",
+                "subtitle": "Commanding the First Legion",
+                "cardNumber": 2,
+                "cardCount": 6,
+                "artist": "Ivan Dedov",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": false,
+                "cost": 7,
+                "hp": 7,
+                "power": 5,
+                "text": "Ambush\n\nWhen Played: Search the top 10 cards of your deck for any number of [Maldad] units with combined cost 3 or less and play each of them for free.",
+                "textStyled": "<p><strong>Ambush</strong></p><p><strong>When Played:</strong> Search the top 10 cards of your deck for any number of <img src=\"https://ffg-prod-uploads.s3.amazonaws.com/icon_villainy_ea34258f27.png\" alt=\"icon_villainy.png\"> units with combined cost <strong>3</strong> or less and play each of them for free.</p>",
+                "deployBox": null,
+                "deployBoxStyled": "",
+                "epicAction": null,
+                "epicActionStyled": "",
+                "linkHtml": "<a href=\"/cards?cid=8292269690\" class=\"card-tooltip\" data-card=\"8292269690\">Darth Vader</a>",
+                "cardId": null,
+                "createdAt": "2024-06-07T22:00:06.075Z",
+                "updatedAt": "2025-03-12T16:41:09.281Z",
+                "publishedAt": "2024-07-10T14:56:48.964Z",
+                "locale": "es",
+                "hyperspace": false,
+                "unique": true,
+                "showcase": false,
+                "cardUid": "8292269690",
+                "rules": "Las capacidades que aluden al coste de una carta siempre se refieren a su coste impreso, sin contar posibles modificadores.\n«Jugar gratis» ignora todos los costes en recursos, incluida la penalización por aspecto, pero no otros costes adicionales.\nEn el caso de las capacidades que acarrean múltiples acciones, dichas acciones (así como las capacidades activadas que puedan desencadenar por separado) debe resolverse de manera secuencial.\nLa Emboscada es una capacidad que se activa al mismo tiempo que las capacidades con el encabezado «Cuando se juegue». Si no hay ninguna unidad enemiga a la que se pueda atacar, la unidad no se prepara.\nUna vez completada una búsqueda, coloca las cartas que no se hayan elegido en la parte inferior de tu mazo en un orden aleatorio.\nSi eliges unidades Piloto como objetivos de tu búsqueda, solo podrás jugarlas como unidades.\n",
+                "rulesStyled": "\n                <figure class=\"table\"><table><tbody><tr><td>3/1/2024</td><td>Las capacidades que aluden al coste de una carta siempre se refieren a su coste impreso, sin contar posibles modificadores.</td></tr><tr><td>3/1/2024</td><td>«Jugar gratis» ignora todos los costes en recursos, incluida la penalización por aspecto, pero no otros costes adicionales.</td></tr><tr><td>3/1/2024</td><td>En el caso de las capacidades que acarrean múltiples acciones, dichas acciones (así como las capacidades activadas que puedan desencadenar por separado) debe resolverse de manera secuencial.</td></tr><tr><td>3/1/2024</td><td>La Emboscada es una capacidad que se activa al mismo tiempo que las capacidades con el encabezado «Cuando se juegue». Si no hay ninguna unidad enemiga a la que se pueda atacar, la unidad no se prepara.</td></tr><tr><td>3/1/2024</td><td>Una vez completada una búsqueda, coloca las cartas que no se hayan elegido en la parte inferior de tu mazo en un orden aleatorio.</td></tr><tr><td>3/6/2025</td><td>Si eliges unidades Piloto como objetivos de tu búsqueda, solo podrás jugarlas como unidades.</td></tr></tbody></table></figure>\n                ",
+                "serialCode": "C2408002",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            },
+            {
+              "id": 8640,
+              "attributes": {
+                "title": "Darth Vader",
+                "subtitle": "Commanding the First Legion",
+                "cardNumber": 2,
+                "cardCount": 6,
+                "artist": "Ivan Dedov",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": false,
+                "cost": 7,
+                "hp": 7,
+                "power": 5,
+                "text": "Ambush\n\nWhen Played: Search the top 10 cards of your deck for any number of [Niedertracht] units with combined cost 3 or less and play each of them for free.",
+                "textStyled": "<p><strong>Ambush</strong></p><p><strong>When Played:</strong> Search the top 10 cards of your deck for any number of <img src=\"https://ffg-prod-uploads.s3.amazonaws.com/icon_villainy_ea34258f27.png\" alt=\"icon_villainy.png\"> units with combined cost <strong>3</strong> or less and play each of them for free.</p>",
+                "deployBox": null,
+                "deployBoxStyled": "",
+                "epicAction": null,
+                "epicActionStyled": "",
+                "linkHtml": "<a href=\"/cards?cid=8292269690\" class=\"card-tooltip\" data-card=\"8292269690\">Darth Vader</a>",
+                "cardId": null,
+                "createdAt": "2024-06-07T21:57:12.978Z",
+                "updatedAt": "2025-03-06T18:09:38.286Z",
+                "publishedAt": "2024-07-10T14:56:29.876Z",
+                "locale": "de",
+                "hyperspace": false,
+                "unique": true,
+                "showcase": false,
+                "cardUid": "8292269690",
+                "rules": "Fähigkeiten, die sich auf die Kosten einer Karte beziehen, beziehen sich immer auf die aufgedruckten Kosten der Karte. Modifikatoren werden dabei nicht berücksichtigt.\nBei „kostenlos“ gespielten Karten ignorierst du alle Ressourcen-Kosten, einschließlich der Aspekt-Strafe. Falls es zusätzliche Nicht-Ressourcen-Kosten gibt, musst du sie trotzdem zahlen.\nWenn eine Fähigkeit mehrere Aktionen umfasst, handelst du jede Aktion (und alles, was durch sie ausgelöst wird) einzeln nacheinander ab.\nHinterhalt ist eine Fähigkeit, die im selben Zeitfenster ausgelöst wird wie „Wenn gespielt“-Fähigkeiten. Gibt es keine feindliche Einheit, die angegriffen werden kann, wird die Einheit mit Hinterhalt nicht spielbereit.\nLege nach dem Durchsuchen alle nicht gewählten Karten in zufälliger Reihenfolge unter dein Deck.\nFalls du beim Durchsuchen Piloten wählst, darfst du sie nur als Einheiten spielen.\n",
+                "rulesStyled": "\n                <figure class=\"table\"><table><tbody><tr><td>3/1/2024</td><td>Fähigkeiten, die sich auf die Kosten einer Karte beziehen, beziehen sich immer auf die aufgedruckten Kosten der Karte. Modifikatoren werden dabei nicht berücksichtigt.</td></tr><tr><td>3/1/2024</td><td>Bei „kostenlos“ gespielten Karten ignorierst du alle Ressourcen-Kosten, einschließlich der Aspekt-Strafe. Falls es zusätzliche Nicht-Ressourcen-Kosten gibt, musst du sie trotzdem zahlen.</td></tr><tr><td>3/1/2024</td><td>Wenn eine Fähigkeit mehrere Aktionen umfasst, handelst du jede Aktion (und alles, was durch sie ausgelöst wird) einzeln nacheinander ab.</td></tr><tr><td>3/1/2024</td><td>Hinterhalt ist eine Fähigkeit, die im selben Zeitfenster ausgelöst wird wie „Wenn gespielt“-Fähigkeiten. Gibt es keine feindliche Einheit, die angegriffen werden kann, wird die Einheit mit Hinterhalt nicht spielbereit.</td></tr><tr><td>3/1/2024</td><td>Lege nach dem Durchsuchen alle nicht gewählten Karten in zufälliger Reihenfolge unter dein Deck.</td></tr><tr><td>3/6/2025</td><td>Falls du beim Durchsuchen Piloten wählst, darfst du sie nur als Einheiten spielen.</td></tr></tbody></table></figure>\n                ",
+                "serialCode": "C2408002",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            },
+            {
+              "id": 8635,
+              "attributes": {
+                "title": "Darth Vader",
+                "subtitle": "Commanding the First Legion",
+                "cardNumber": 2,
+                "cardCount": 6,
+                "artist": "Ivan Dedov",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": false,
+                "cost": 7,
+                "hp": 7,
+                "power": 5,
+                "text": "Ambush\n\nWhen Played: Search the top 10 cards of your deck for any number of [Villainy] units with combined cost 3 or less and play each of them for free.",
+                "textStyled": "<p><strong>Ambush</strong></p><p><strong>When Played:</strong> Search the top 10 cards of your deck for any number of <img src=\"https://ffg-prod-uploads.s3.amazonaws.com/icon_villainy_ea34258f27.png\" alt=\"icon_villainy.png\"> units with combined cost <strong>3</strong> or less and play each of them for free.</p>",
+                "deployBox": null,
+                "deployBoxStyled": "",
+                "epicAction": null,
+                "epicActionStyled": "",
+                "linkHtml": "<a href=\"/cards?cid=8292269690\" class=\"card-tooltip\" data-card=\"8292269690\">Darth Vader</a>",
+                "cardId": null,
+                "createdAt": "2024-06-07T20:47:51.302Z",
+                "updatedAt": "2025-03-06T18:09:33.839Z",
+                "publishedAt": "2024-07-10T14:56:11.641Z",
+                "locale": "en",
+                "hyperspace": false,
+                "unique": true,
+                "showcase": false,
+                "cardUid": "8292269690",
+                "rules": "Abilities that refer to a card’s cost always refer to its printed cost, regardless of modifiers.\n“Play for free” ignores all resource costs, including the aspect penalty, but not other additional costs.\nFor abilities that encompass multiple actions, resolve each action (and any resulting triggers) sequentially.\nAmbush is an ability that triggers at the same time as “When Played” abilities. If there is no enemy unit that can be attacked, the unit does not ready.\nAfter searching, put any cards not chosen on the bottom of your deck in a random order.\nIf you choose any Pilot units with your search, you may only play them as units.\n",
+                "rulesStyled": "\n        <figure class=\"table\"><table><tbody><tr><td>3/1/2024</td><td>Abilities that refer to a card’s cost always refer to its printed cost, regardless of modifiers.</td></tr><tr><td>3/1/2024</td><td>“Play for free” ignores all resource costs, including the aspect penalty, but not other additional costs.</td></tr><tr><td>3/1/2024</td><td>For abilities that encompass multiple actions, resolve each action (and any resulting triggers) sequentially.</td></tr><tr><td>3/1/2024</td><td>Ambush is an ability that triggers at the same time as “When Played” abilities. If there is no enemy unit that can be attacked, the unit does not ready.</td></tr><tr><td>3/1/2024</td><td>After searching, put any cards not chosen on the bottom of your deck in a random order.</td></tr><tr><td>3/6/2025</td><td>If you choose any Pilot units with your search, you may only play them as units.</td></tr></tbody></table></figure>\n        ",
+                "serialCode": "C2408002",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "data": [
+            {
+              "id": 9,
+              "attributes": {
+                "name": "Commandement",
+                "description": "<p>Accélérer sa production de ressources, utiliser de nombreuses unités, renforcer celles qui sont déjà en jeu. C’est l’affinité de prédilection des joueurs qui veulent écraser leurs adversaires par une utilisation massive de leurs troupes.</p>",
+                "color": "#0b992d",
+                "createdAt": "2023-08-10T21:07:29.191Z",
+                "updatedAt": "2024-07-15T21:32:41.107Z",
+                "publishedAt": "2024-01-02T18:24:28.907Z",
+                "locale": "fr",
+                "englishName": "Command",
+                "sortValue": 5
+              }
+            },
+            {
+              "id": 29,
+              "attributes": {
+                "name": "Infâmie",
+                "description": "<p>Se battre pour le pouvoir suprême avec les «&nbsp;méchants&nbsp;» de la galaxie Star Wars. Cette affinité permet de commander à d’immenses armées ou de provoquer de terribles destructions. Tout comme l’Héroïsme, cette affinité est souvent associée à une autre affinité sur la carte.</p>",
+                "color": "#000000",
+                "createdAt": "2023-08-10T21:20:52.826Z",
+                "updatedAt": "2024-07-15T21:40:49.895Z",
+                "publishedAt": "2024-01-02T18:25:50.235Z",
+                "locale": "fr",
+                "englishName": "Villainy",
+                "sortValue": 20
+              }
+            }
+          ]
+        },
+        "aspectDuplicates": {
+          "data": []
+        },
+        "type": {
+          "data": {
+            "id": 29,
+            "attributes": {
+              "name": "Unité",
+              "description": "",
+              "value": "Unit",
+              "createdAt": "2023-08-15T18:04:32.553Z",
+              "updatedAt": "2024-04-25T13:52:29.937Z",
+              "publishedAt": "2024-01-04T21:29:14.943Z",
+              "locale": "fr",
+              "sortValue": 3
+            }
+          }
+        },
+        "type2": {
+          "data": null
+        },
+        "traits": {
+          "data": [
+            {
+              "id": 9,
+              "attributes": {
+                "name": "Impérial",
+                "description": "",
+                "createdAt": "2023-08-15T14:38:23.731Z",
+                "updatedAt": "2024-01-04T21:11:46.388Z",
+                "publishedAt": "2024-01-04T21:11:46.385Z",
+                "locale": "fr"
+              }
+            },
+            {
+              "id": 34,
+              "attributes": {
+                "name": "Force",
+                "description": null,
+                "createdAt": "2023-08-15T14:41:10.682Z",
+                "updatedAt": "2024-01-04T21:15:19.420Z",
+                "publishedAt": "2024-01-04T21:15:19.417Z",
+                "locale": "fr"
+              }
+            },
+            {
+              "id": 44,
+              "attributes": {
+                "name": "Sith",
+                "description": "",
+                "createdAt": "2023-08-15T14:42:17.108Z",
+                "updatedAt": "2024-01-04T21:23:19.059Z",
+                "publishedAt": "2024-01-04T21:23:19.055Z",
+                "locale": "fr"
+              }
+            }
+          ]
+        },
+        "arenas": {
+          "data": [
+            {
+              "id": 4,
+              "attributes": {
+                "name": "Terrestre",
+                "description": null,
+                "createdAt": "2023-08-15T14:32:20.801Z",
+                "updatedAt": "2024-01-04T16:49:07.912Z",
+                "publishedAt": "2023-08-18T21:37:40.768Z",
+                "locale": "fr"
+              }
+            }
+          ]
+        },
+        "keywords": {
+          "data": [
+            {
+              "id": 14,
+              "attributes": {
+                "name": "Embuscade",
+                "description": "",
+                "createdAt": "2023-11-28T17:05:34.393Z",
+                "updatedAt": "2024-01-04T17:17:00.636Z",
+                "publishedAt": "2023-11-28T17:05:39.697Z",
+                "locale": "fr"
+              }
+            }
+          ]
+        },
+        "rarity": {
+          "data": {
+            "id": 24,
+            "attributes": {
+              "name": "Spéciale",
+              "character": "S",
+              "color": "#000000",
+              "createdAt": "2023-08-14T21:34:27.979Z",
+              "updatedAt": "2024-04-25T14:06:09.057Z",
+              "publishedAt": "2024-01-04T16:42:01.831Z",
+              "locale": "fr",
+              "englishName": "Special",
+              "sortValue": 1
+            }
+          }
+        },
+        "expansion": {
+          "data": {
+            "id": 15,
+            "attributes": {
+              "name": "2024 Convention Exclusive",
+              "description": "",
+              "code": "C24",
+              "createdAt": "2024-06-07T21:45:02.962Z",
+              "updatedAt": "2025-04-25T15:55:23.469Z",
+              "publishedAt": "2024-07-10T15:07:02.884Z",
+              "locale": "fr",
+              "sortValue": 38,
+              "leaderboardStartDate": null,
+              "leaderboardEndDate": null
+            }
+          }
+        },
+        "variantTypes": {
+          "data": [
+            {
+              "id": 43,
+              "attributes": {
+                "name": "Convention Exclusive",
+                "description": null,
+                "createdAt": "2024-06-26T18:28:45.358Z",
+                "updatedAt": "2024-07-15T18:20:14.740Z",
+                "publishedAt": "2024-07-15T18:20:03.400Z",
+                "locale": "fr",
+                "variantId": "08",
+                "foil": null,
+                "sortValue": 80,
+                "icon": {
+                  "data": {
+                    "id": 8695,
+                    "attributes": {
+                      "name": "icon_conventionexclusive.png",
+                      "alternativeText": null,
+                      "caption": null,
+                      "width": 144,
+                      "height": 144,
+                      "formats": null,
+                      "hash": "icon_conventionexclusive_194657d507",
+                      "ext": ".png",
+                      "mime": "image/png",
+                      "size": 0.79,
+                      "url": "https://cdn.starwarsunlimited.com//icon_conventionexclusive_194657d507.png",
+                      "previewUrl": null,
+                      "provider": "aws-s3",
+                      "provider_metadata": null,
+                      "createdAt": "2024-07-15T14:40:17.033Z",
+                      "updatedAt": "2024-07-15T14:40:17.033Z"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "variantOf": {
+          "data": null
+        },
+        "reprintOf": {
+          "data": {
+            "id": 807,
+            "attributes": {
+              "title": "Dark Vador",
+              "subtitle": "Commandant De La Premiére Légion",
+              "cardNumber": 87,
+              "cardCount": 252,
+              "artist": "Ivan Dedov",
+              "artFrontHorizontal": false,
+              "artBackHorizontal": null,
+              "hasFoil": false,
+              "cost": 7,
+              "hp": 7,
+              "power": 5,
+              "text": "Embuscade\n\nUne fois jouée : cherchez parmi les 10 cartes du dessus de votre deck n'importe quel nombre d'unités [Infâmie] pour un coût combiné de 3 ou moins et jouez chacune d'entre elles gratuitement.",
+              "textStyled": "<p><strong>Embuscade</strong></p><p><strong>Une fois jouée :</strong> cherchez parmi les 10 cartes du dessus de votre deck n’importe quel nombre d’unités <img src=\"https://ffg-prod-uploads.s3.amazonaws.com/icon_villainy_ea34258f27.png\" alt=\"icon_villainy.png\"> pour un coût combiné de <strong>3</strong> ou moins et jouez chacune d’entre elles gratuitement.</p>",
+              "deployBox": null,
+              "deployBoxStyled": "",
+              "epicAction": null,
+              "epicActionStyled": "",
+              "linkHtml": "<a href=\"/cards?cid=8506660490\" class=\"card-tooltip\" data-card=\"8506660490\">Dark Vador</a>",
+              "cardId": null,
+              "createdAt": "2023-12-04T17:05:12.089Z",
+              "updatedAt": "2025-03-06T18:09:35.200Z",
+              "publishedAt": "2024-01-12T21:57:55.047Z",
+              "locale": "fr",
+              "hyperspace": false,
+              "unique": true,
+              "showcase": false,
+              "cardUid": "8506660490",
+              "rules": "Les capacités faisant référence au coût d’une carte, se réfèrent toujours à son coût imprimé, sans tenir compte d’éventuels modificateurs.\n« Jouer gratuitement une carte », vous permet de jouer la carte en ignorant tous ses coûts en ressource (ignorez aussi ses pénalité d’affinité), mais vous devrez tout de même payer les éventuels « coûts supplémentaires ».\nPour les capacités qui englobent plusieurs actions, résolvez chaque action (et tous les déclenchements qui en résultent) l’une après l’autre.\nEmbuscade est une capacité qui se déclenche au même moment que les capacités « Une fois jouée ». S’il n’y a aucune unité ennemie à attaquer, l’unité ne se redresse pas.\nAprès avoir cherché parmi vos cartes, remettez les cartes non-choisies sous votre deck dans un ordre aléatoire.\nLors de votre recherche, si vous choisissez des unités Pilote, vous ne pouvez les jouer qu'en tant qu'unités.\n",
+              "rulesStyled": "<figure class=\"table\"><table><tbody><tr><td>3/1/2024</td><td>Les capacités faisant référence au coût d’une carte, se réfèrent toujours à son coût imprimé, sans tenir compte d’éventuels modificateurs.</td></tr><tr><td>3/1/2024</td><td>« Jouer gratuitement une carte », vous permet de jouer la carte en ignorant tous ses coûts en ressource (ignorez aussi ses pénalité d’affinité), mais vous devrez tout de même payer les éventuels « coûts supplémentaires ».</td></tr><tr><td>3/1/2024</td><td>Pour les capacités qui englobent plusieurs actions, résolvez chaque action (et tous les déclenchements qui en résultent) l’une après l’autre.</td></tr><tr><td>3/1/2024</td><td>Embuscade est une capacité qui se déclenche au même moment que les capacités « Une fois jouée ». S’il n’y a aucune unité ennemie à attaquer, l’unité ne se redresse pas.</td></tr><tr><td>3/1/2024</td><td>Après avoir cherché parmi vos cartes, remettez les cartes non-choisies sous votre deck dans un ordre aléatoire.</td></tr><tr><td>3/6/2025</td><td>Lors de votre recherche, si vous choisissez des unités Pilote, vous ne pouvez les jouer qu'en tant qu'unités.</td></tr></tbody></table></figure>",
+              "serialCode": "0101087",
+              "upgradeHp": null,
+              "upgradePower": null
+            }
+          }
+        },
+        "validationId": "8506660490"
+      }
+    },
+    {
+      "id": 8646,
+      "attributes": {
+        "cardNumber": 3,
+        "title": "Emperor Palpatine",
+        "subtitle": "Master of the Dark Side",
+        "cardCount": 6,
+        "artist": "Didier Nguyen",
+        "artFrontHorizontal": false,
+        "artBackHorizontal": null,
+        "hasFoil": false,
+        "cost": 8,
+        "hp": 6,
+        "power": 6,
+        "text": "Overwhelm\n\nWhen Played: Deal 6 damage divided as you choose among enemy units.",
+        "textStyled": "<p><strong>Overwhelm</strong></p><p><strong>When Played:</strong> Deal 6 damage divided as you choose among enemy units.</p>",
+        "deployBox": null,
+        "deployBoxStyled": "",
+        "epicAction": null,
+        "epicActionStyled": "",
+        "linkHtml": "<a href=\"/cards?cid=9954244145\" class=\"card-tooltip\" data-card=\"9954244145\">Emperor Palpatine</a>",
+        "cardId": null,
+        "createdAt": "2024-06-10T16:17:01.412Z",
+        "updatedAt": "2024-09-27T21:43:07.942Z",
+        "publishedAt": "2024-07-10T14:58:13.078Z",
+        "locale": "fr",
+        "hyperspace": false,
+        "unique": true,
+        "showcase": false,
+        "cardUid": "9954244145",
+        "rules": null,
+        "rulesStyled": "",
+        "serialCode": "C2408003",
+        "upgradeHp": null,
+        "upgradePower": null,
+        "artFront": {
+          "data": {
+            "id": 14535,
+            "attributes": {
+              "name": "C2401003EN_Emperor_Palpatine.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 300,
+              "height": 418,
+              "formats": {
+                "card": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//card_C2401003_EN_Emperor_Palpatine_b1dcbfe7ae.png",
+                  "hash": "card_C2401003_EN_Emperor_Palpatine_b1dcbfe7ae",
+                  "mime": "image/png",
+                  "name": "card_C2401003EN_Emperor_Palpatine.png",
+                  "path": null,
+                  "size": 172.47,
+                  "width": 287,
+                  "height": 400
+                },
+                "xsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xsmall_C2401003_EN_Emperor_Palpatine_b1dcbfe7ae.png",
+                  "hash": "xsmall_C2401003_EN_Emperor_Palpatine_b1dcbfe7ae",
+                  "mime": "image/png",
+                  "name": "xsmall_C2401003EN_Emperor_Palpatine.png",
+                  "path": null,
+                  "size": 107.63,
+                  "width": 215,
+                  "height": 300
+                },
+                "xxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxsmall_C2401003_EN_Emperor_Palpatine_b1dcbfe7ae.png",
+                  "hash": "xxsmall_C2401003_EN_Emperor_Palpatine_b1dcbfe7ae",
+                  "mime": "image/png",
+                  "name": "xxsmall_C2401003EN_Emperor_Palpatine.png",
+                  "path": null,
+                  "size": 53.66,
+                  "width": 144,
+                  "height": 200
+                },
+                "xxxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxxsmall_C2401003_EN_Emperor_Palpatine_b1dcbfe7ae.png",
+                  "hash": "xxxsmall_C2401003_EN_Emperor_Palpatine_b1dcbfe7ae",
+                  "mime": "image/png",
+                  "name": "xxxsmall_C2401003EN_Emperor_Palpatine.png",
+                  "path": null,
+                  "size": 32.9,
+                  "width": 108,
+                  "height": 150
+                },
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//thumbnail_C2401003_EN_Emperor_Palpatine_b1dcbfe7ae.png",
+                  "hash": "thumbnail_C2401003_EN_Emperor_Palpatine_b1dcbfe7ae",
+                  "mime": "image/png",
+                  "name": "thumbnail_C2401003EN_Emperor_Palpatine.png",
+                  "path": null,
+                  "size": 78.44,
+                  "width": 179,
+                  "height": 250
+                }
+              },
+              "hash": "C2401003_EN_Emperor_Palpatine_b1dcbfe7ae",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 48.55,
+              "url": "https://cdn.starwarsunlimited.com//C2401003_EN_Emperor_Palpatine_b1dcbfe7ae.png",
+              "previewUrl": null,
+              "provider": "aws-s3",
+              "provider_metadata": null,
+              "createdAt": "2024-07-19T16:25:07.012Z",
+              "updatedAt": "2024-07-19T16:25:07.012Z"
+            }
+          }
+        },
+        "artBack": {
+          "data": null
+        },
+        "artThumbnail": {
+          "data": {
+            "id": 8458,
+            "attributes": {
+              "name": "SWHA001_Emperor_Palpatine_Thumbnail.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 300,
+              "height": 100,
+              "formats": {
+                "xxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxsmall_SWHA_001_Emperor_Palpatine_Thumbnail_37a7fd044d.png",
+                  "hash": "xxsmall_SWHA_001_Emperor_Palpatine_Thumbnail_37a7fd044d",
+                  "mime": "image/png",
+                  "name": "xxsmall_SWHA001_Emperor_Palpatine_Thumbnail.png",
+                  "path": null,
+                  "size": 25.49,
+                  "width": 200,
+                  "height": 67
+                },
+                "xxxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxxsmall_SWHA_001_Emperor_Palpatine_Thumbnail_37a7fd044d.png",
+                  "hash": "xxxsmall_SWHA_001_Emperor_Palpatine_Thumbnail_37a7fd044d",
+                  "mime": "image/png",
+                  "name": "xxxsmall_SWHA001_Emperor_Palpatine_Thumbnail.png",
+                  "path": null,
+                  "size": 15.46,
+                  "width": 150,
+                  "height": 50
+                },
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//thumbnail_SWHA_001_Emperor_Palpatine_Thumbnail_37a7fd044d.png",
+                  "hash": "thumbnail_SWHA_001_Emperor_Palpatine_Thumbnail_37a7fd044d",
+                  "mime": "image/png",
+                  "name": "thumbnail_SWHA001_Emperor_Palpatine_Thumbnail.png",
+                  "path": null,
+                  "size": 36.55,
+                  "width": 250,
+                  "height": 83
+                }
+              },
+              "hash": "SWHA_001_Emperor_Palpatine_Thumbnail_37a7fd044d",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 14.14,
+              "url": "https://cdn.starwarsunlimited.com//SWHA_001_Emperor_Palpatine_Thumbnail_37a7fd044d.png",
+              "previewUrl": null,
+              "provider": "aws-s3",
+              "provider_metadata": null,
+              "createdAt": "2024-06-07T20:36:53.107Z",
+              "updatedAt": "2024-06-07T20:36:53.107Z"
+            }
+          }
+        },
+        "localizations": {
+          "data": [
+            {
+              "id": 8648,
+              "attributes": {
+                "title": "Emperor Palpatine",
+                "subtitle": "Master of the Dark Side",
+                "cardNumber": 3,
+                "cardCount": 6,
+                "artist": "Didier Nguyen",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": false,
+                "cost": 8,
+                "hp": 6,
+                "power": 6,
+                "text": "Overwhelm\n\nWhen Played: Deal 6 damage divided as you choose among enemy units.",
+                "textStyled": "<p><strong>Overwhelm</strong></p><p><strong>When Played:</strong> Deal 6 damage divided as you choose among enemy units.</p>",
+                "deployBox": null,
+                "deployBoxStyled": "",
+                "epicAction": null,
+                "epicActionStyled": "",
+                "linkHtml": "<a href=\"/cards?cid=9954244145\" class=\"card-tooltip\" data-card=\"9954244145\">Emperor Palpatine</a>",
+                "cardId": null,
+                "createdAt": "2024-06-10T16:19:05.501Z",
+                "updatedAt": "2024-09-27T21:43:07.411Z",
+                "publishedAt": "2024-07-10T14:58:42.016Z",
+                "locale": "it",
+                "hyperspace": false,
+                "unique": true,
+                "showcase": false,
+                "cardUid": "9954244145",
+                "rules": null,
+                "rulesStyled": "",
+                "serialCode": "C2408003",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            },
+            {
+              "id": 8647,
+              "attributes": {
+                "title": "Emperor Palpatine",
+                "subtitle": "Master of the Dark Side",
+                "cardNumber": 3,
+                "cardCount": 6,
+                "artist": "Didier Nguyen",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": false,
+                "cost": 8,
+                "hp": 6,
+                "power": 6,
+                "text": "Overwhelm\n\nWhen Played: Deal 6 damage divided as you choose among enemy units.",
+                "textStyled": "<p><strong>Overwhelm</strong></p><p><strong>When Played:</strong> Deal 6 damage divided as you choose among enemy units.</p>",
+                "deployBox": null,
+                "deployBoxStyled": "",
+                "epicAction": null,
+                "epicActionStyled": "",
+                "linkHtml": "<a href=\"/cards?cid=9954244145\" class=\"card-tooltip\" data-card=\"9954244145\">Emperor Palpatine</a>",
+                "cardId": null,
+                "createdAt": "2024-06-10T16:17:55.858Z",
+                "updatedAt": "2024-09-27T21:43:07.927Z",
+                "publishedAt": "2024-07-10T14:58:26.692Z",
+                "locale": "es",
+                "hyperspace": false,
+                "unique": true,
+                "showcase": false,
+                "cardUid": "9954244145",
+                "rules": null,
+                "rulesStyled": "",
+                "serialCode": "C2408003",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            },
+            {
+              "id": 8645,
+              "attributes": {
+                "title": "Emperor Palpatine",
+                "subtitle": "Master of the Dark Side",
+                "cardNumber": 3,
+                "cardCount": 6,
+                "artist": "Didier Nguyen",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": false,
+                "cost": 8,
+                "hp": 6,
+                "power": 6,
+                "text": "Overwhelm\n\nWhen Played: Deal 6 damage divided as you choose among enemy units.",
+                "textStyled": "<p><strong>Overwhelm</strong></p><p><strong>When Played:</strong> Deal 6 damage divided as you choose among enemy units.</p>",
+                "deployBox": null,
+                "deployBoxStyled": "",
+                "epicAction": null,
+                "epicActionStyled": "",
+                "linkHtml": "<a href=\"/cards?cid=9954244145\" class=\"card-tooltip\" data-card=\"9954244145\">Emperor Palpatine</a>",
+                "cardId": null,
+                "createdAt": "2024-06-10T16:15:26.111Z",
+                "updatedAt": "2024-09-27T21:43:07.963Z",
+                "publishedAt": "2024-07-10T14:57:43.625Z",
+                "locale": "de",
+                "hyperspace": false,
+                "unique": true,
+                "showcase": false,
+                "cardUid": "9954244145",
+                "rules": null,
+                "rulesStyled": "",
+                "serialCode": "C2408003",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            },
+            {
+              "id": 8644,
+              "attributes": {
+                "title": "Emperor Palpatine",
+                "subtitle": "Master of the Dark Side",
+                "cardNumber": 3,
+                "cardCount": 6,
+                "artist": "Didier Nguyen",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": false,
+                "cost": 8,
+                "hp": 6,
+                "power": 6,
+                "text": "Overwhelm\n\nWhen Played: Deal 6 damage divided as you choose among enemy units.",
+                "textStyled": "<p><strong>Overwhelm</strong></p><p><strong>When Played:</strong> Deal 6 damage divided as you choose among enemy units.</p>",
+                "deployBox": null,
+                "deployBoxStyled": "",
+                "epicAction": null,
+                "epicActionStyled": "",
+                "linkHtml": "<a href=\"/cards?cid=9954244145\" class=\"card-tooltip\" data-card=\"9954244145\">Emperor Palpatine</a>",
+                "cardId": null,
+                "createdAt": "2024-06-10T15:55:48.042Z",
+                "updatedAt": "2024-09-27T21:43:07.983Z",
+                "publishedAt": "2024-07-10T14:57:27.592Z",
+                "locale": "en",
+                "hyperspace": false,
+                "unique": true,
+                "showcase": false,
+                "cardUid": "9954244145",
+                "rules": null,
+                "rulesStyled": "",
+                "serialCode": "C2408003",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "data": [
+            {
+              "id": 14,
+              "attributes": {
+                "name": "Agressivité",
+                "description": "<p>Attaquer avec un maximum d’efficacité et infliger énormément de dégâts. Cette affinité convient parfaitement aux joueurs qui aiment un style de jeu rapide et agressif, brisant les défenses adverses et se ruant vers la victoire quel que soit le prix à payer.</p>",
+                "color": "#d30808",
+                "createdAt": "2023-08-10T21:10:46.362Z",
+                "updatedAt": "2024-07-15T21:39:33.927Z",
+                "publishedAt": "2024-01-02T18:23:52.395Z",
+                "locale": "fr",
+                "englishName": "Aggression",
+                "sortValue": 10
+              }
+            },
+            {
+              "id": 29,
+              "attributes": {
+                "name": "Infâmie",
+                "description": "<p>Se battre pour le pouvoir suprême avec les «&nbsp;méchants&nbsp;» de la galaxie Star Wars. Cette affinité permet de commander à d’immenses armées ou de provoquer de terribles destructions. Tout comme l’Héroïsme, cette affinité est souvent associée à une autre affinité sur la carte.</p>",
+                "color": "#000000",
+                "createdAt": "2023-08-10T21:20:52.826Z",
+                "updatedAt": "2024-07-15T21:40:49.895Z",
+                "publishedAt": "2024-01-02T18:25:50.235Z",
+                "locale": "fr",
+                "englishName": "Villainy",
+                "sortValue": 20
+              }
+            }
+          ]
+        },
+        "aspectDuplicates": {
+          "data": []
+        },
+        "type": {
+          "data": {
+            "id": 29,
+            "attributes": {
+              "name": "Unité",
+              "description": "",
+              "value": "Unit",
+              "createdAt": "2023-08-15T18:04:32.553Z",
+              "updatedAt": "2024-04-25T13:52:29.937Z",
+              "publishedAt": "2024-01-04T21:29:14.943Z",
+              "locale": "fr",
+              "sortValue": 3
+            }
+          }
+        },
+        "type2": {
+          "data": null
+        },
+        "traits": {
+          "data": [
+            {
+              "id": 9,
+              "attributes": {
+                "name": "Impérial",
+                "description": "",
+                "createdAt": "2023-08-15T14:38:23.731Z",
+                "updatedAt": "2024-01-04T21:11:46.388Z",
+                "publishedAt": "2024-01-04T21:11:46.385Z",
+                "locale": "fr"
+              }
+            },
+            {
+              "id": 34,
+              "attributes": {
+                "name": "Force",
+                "description": null,
+                "createdAt": "2023-08-15T14:41:10.682Z",
+                "updatedAt": "2024-01-04T21:15:19.420Z",
+                "publishedAt": "2024-01-04T21:15:19.417Z",
+                "locale": "fr"
+              }
+            },
+            {
+              "id": 44,
+              "attributes": {
+                "name": "Sith",
+                "description": "",
+                "createdAt": "2023-08-15T14:42:17.108Z",
+                "updatedAt": "2024-01-04T21:23:19.059Z",
+                "publishedAt": "2024-01-04T21:23:19.055Z",
+                "locale": "fr"
+              }
+            },
+            {
+              "id": 14,
+              "attributes": {
+                "name": "Officiel",
+                "description": "",
+                "createdAt": "2023-08-15T14:38:52.136Z",
+                "updatedAt": "2024-01-04T21:08:45.141Z",
+                "publishedAt": "2024-01-04T21:08:45.138Z",
+                "locale": "fr"
+              }
+            }
+          ]
+        },
+        "arenas": {
+          "data": [
+            {
+              "id": 4,
+              "attributes": {
+                "name": "Terrestre",
+                "description": null,
+                "createdAt": "2023-08-15T14:32:20.801Z",
+                "updatedAt": "2024-01-04T16:49:07.912Z",
+                "publishedAt": "2023-08-18T21:37:40.768Z",
+                "locale": "fr"
+              }
+            }
+          ]
+        },
+        "keywords": {
+          "data": [
+            {
+              "id": 29,
+              "attributes": {
+                "name": "Débordement",
+                "description": "",
+                "createdAt": "2023-11-28T17:10:00.435Z",
+                "updatedAt": "2024-01-04T19:00:43.837Z",
+                "publishedAt": "2023-11-28T17:10:07.902Z",
+                "locale": "fr"
+              }
+            }
+          ]
+        },
+        "rarity": {
+          "data": {
+            "id": 14,
+            "attributes": {
+              "name": "Rare",
+              "character": "R",
+              "color": "#f1c000",
+              "createdAt": "2023-08-14T21:29:34.676Z",
+              "updatedAt": "2025-06-17T21:46:47.442Z",
+              "publishedAt": "2024-01-04T16:41:34.918Z",
+              "locale": "fr",
+              "englishName": "Rare",
+              "sortValue": 4
+            }
+          }
+        },
+        "expansion": {
+          "data": {
+            "id": 15,
+            "attributes": {
+              "name": "2024 Convention Exclusive",
+              "description": "",
+              "code": "C24",
+              "createdAt": "2024-06-07T21:45:02.962Z",
+              "updatedAt": "2025-04-25T15:55:23.469Z",
+              "publishedAt": "2024-07-10T15:07:02.884Z",
+              "locale": "fr",
+              "sortValue": 38,
+              "leaderboardStartDate": null,
+              "leaderboardEndDate": null
+            }
+          }
+        },
+        "variantTypes": {
+          "data": [
+            {
+              "id": 43,
+              "attributes": {
+                "name": "Convention Exclusive",
+                "description": null,
+                "createdAt": "2024-06-26T18:28:45.358Z",
+                "updatedAt": "2024-07-15T18:20:14.740Z",
+                "publishedAt": "2024-07-15T18:20:03.400Z",
+                "locale": "fr",
+                "variantId": "08",
+                "foil": null,
+                "sortValue": 80,
+                "icon": {
+                  "data": {
+                    "id": 8695,
+                    "attributes": {
+                      "name": "icon_conventionexclusive.png",
+                      "alternativeText": null,
+                      "caption": null,
+                      "width": 144,
+                      "height": 144,
+                      "formats": null,
+                      "hash": "icon_conventionexclusive_194657d507",
+                      "ext": ".png",
+                      "mime": "image/png",
+                      "size": 0.79,
+                      "url": "https://cdn.starwarsunlimited.com//icon_conventionexclusive_194657d507.png",
+                      "previewUrl": null,
+                      "provider": "aws-s3",
+                      "provider_metadata": null,
+                      "createdAt": "2024-07-15T14:40:17.033Z",
+                      "updatedAt": "2024-07-15T14:40:17.033Z"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "variantOf": {
+          "data": null
+        },
+        "reprintOf": {
+          "data": {
+            "id": 717,
+            "attributes": {
+              "title": "Empereur Palpatine",
+              "subtitle": "Maître Du Côté Obscur",
+              "cardNumber": 135,
+              "cardCount": 252,
+              "artist": "Dider Nguyen",
+              "artFrontHorizontal": false,
+              "artBackHorizontal": null,
+              "hasFoil": false,
+              "cost": 8,
+              "hp": 6,
+              "power": 6,
+              "text": "Débordement (Lorsque cette unité attaque une unité ennemie, infligez les dégâts en excès à la base de l'adversaire.)\n\nUne fois jouée : infligez 6 dégâts à répartir comme vous voulez entre des unités ennemies.",
+              "textStyled": "<p><strong>Débordement</strong><i> (Lorsque cette unité attaque une unité ennemie, infligez les dégâts en excès à la base de l’adversaire.)</i></p><p><strong>Une fois jouée :</strong> infligez 6 dégâts à répartir comme vous voulez entre des unités ennemies.</p>",
+              "deployBox": null,
+              "deployBoxStyled": "",
+              "epicAction": null,
+              "epicActionStyled": "",
+              "linkHtml": "<a href=\"/cards?cid=9097316363\" class=\"card-tooltip\" data-card=\"9097316363\">Empereur Palpatine</a>",
+              "cardId": null,
+              "createdAt": "2023-11-30T15:48:25.710Z",
+              "updatedAt": "2024-10-24T04:05:32.181Z",
+              "publishedAt": "2024-01-12T23:20:31.134Z",
+              "locale": "fr",
+              "hyperspace": false,
+              "unique": true,
+              "showcase": false,
+              "cardUid": "9097316363",
+              "rules": "Vous pouvez choisir d’assigner à une unité plus de dégâts que ses PV restants.\nTous les dégâts infligés par la capacité sont infligés en même temps.\nLes boucliers empêchent tout dégât infligé par une unité avec Débordement. Il n’y a donc aucun dégât en excès puisque le défendeur n’est pas éliminé.\nSi le défenseur est éliminé pendant l’attaque avant que les dégâts de combat ne soient infligés, tous les dégâts de combat sont considérés comme des dégâts en excès pour la résolution de Débordement.\n",
+              "rulesStyled": "<figure class=\"table\"><table><tbody><tr><td>3/1/2024</td><td>Vous pouvez choisir d’assigner à une unité plus de dégâts que ses PV restants.</td></tr><tr><td>3/1/2024</td><td>Tous les dégâts infligés par la capacité sont infligés en même temps.</td></tr><tr><td>3/1/2024</td><td>Les boucliers empêchent tout dégât infligé par une unité avec Débordement. Il n’y a donc aucun dégât en excès puisque le défendeur n’est pas éliminé.</td></tr><tr><td>3/1/2024</td><td>Si le défenseur est éliminé pendant l’attaque avant que les dégâts de combat ne soient infligés, tous les dégâts de combat sont considérés comme des dégâts en excès pour la résolution de Débordement.</td></tr></tbody></table></figure>",
+              "serialCode": "0101135",
+              "upgradeHp": null,
+              "upgradePower": null
+            }
+          }
+        },
+        "validationId": "9097316363"
+      }
+    },
+    {
+      "id": 8651,
+      "attributes": {
+        "cardNumber": 4,
+        "title": "Kylo Ren",
+        "subtitle": "Killing the Past",
+        "cardCount": 6,
+        "artist": "Amélie Hutt",
+        "artFrontHorizontal": false,
+        "artBackHorizontal": null,
+        "hasFoil": false,
+        "cost": 6,
+        "hp": 7,
+        "power": 6,
+        "text": "While playing this unit, ignore his Infâmie aspect penalty if you control Rey.\nOn Attack: Give a unit +2/+0 for this phase. If it's a non-Infâmie unit, also give an Experience token to it.",
+        "textStyled": "<p>While playing this unit, ignore his <img src=\"https://ffg-prod-uploads.s3.amazonaws.com/icon_villainy_ea34258f27.png\" alt=\"icon_villainy.png\"> aspect penalty if you control Rey.</p><p><strong>On Attack:</strong> Give a unit <strong>+2</strong>/<strong>+0</strong> for this phase. If it’s a non-<img src=\"https://ffg-prod-uploads.s3.amazonaws.com/icon_villainy_ea34258f27.png\" alt=\"icon_villainy.png\"> unit, also give an Experience token to it.</p>",
+        "deployBox": null,
+        "deployBoxStyled": "",
+        "epicAction": null,
+        "epicActionStyled": "",
+        "linkHtml": "<a href=\"/cards?cid=3038397952\" class=\"card-tooltip\" data-card=\"3038397952\">Kylo Ren</a>",
+        "cardId": null,
+        "createdAt": "2024-06-10T17:03:36.980Z",
+        "updatedAt": "2024-10-24T04:07:08.422Z",
+        "publishedAt": "2024-07-10T14:59:25.484Z",
+        "locale": "fr",
+        "hyperspace": false,
+        "unique": true,
+        "showcase": false,
+        "cardUid": "3038397952",
+        "rules": null,
+        "rulesStyled": "",
+        "serialCode": "C2408004",
+        "upgradeHp": null,
+        "upgradePower": null,
+        "artFront": {
+          "data": {
+            "id": 14539,
+            "attributes": {
+              "name": "C2401004EN_Kylo_Ren.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 300,
+              "height": 418,
+              "formats": {
+                "card": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//card_C2401004_EN_Kylo_Ren_80b4812b8c.png",
+                  "hash": "card_C2401004_EN_Kylo_Ren_80b4812b8c",
+                  "mime": "image/png",
+                  "name": "card_C2401004EN_Kylo_Ren.png",
+                  "path": null,
+                  "size": 222.16,
+                  "width": 287,
+                  "height": 400
+                },
+                "xsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xsmall_C2401004_EN_Kylo_Ren_80b4812b8c.png",
+                  "hash": "xsmall_C2401004_EN_Kylo_Ren_80b4812b8c",
+                  "mime": "image/png",
+                  "name": "xsmall_C2401004EN_Kylo_Ren.png",
+                  "path": null,
+                  "size": 134.01,
+                  "width": 215,
+                  "height": 300
+                },
+                "xxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxsmall_C2401004_EN_Kylo_Ren_80b4812b8c.png",
+                  "hash": "xxsmall_C2401004_EN_Kylo_Ren_80b4812b8c",
+                  "mime": "image/png",
+                  "name": "xxsmall_C2401004EN_Kylo_Ren.png",
+                  "path": null,
+                  "size": 65.55,
+                  "width": 144,
+                  "height": 200
+                },
+                "xxxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxxsmall_C2401004_EN_Kylo_Ren_80b4812b8c.png",
+                  "hash": "xxxsmall_C2401004_EN_Kylo_Ren_80b4812b8c",
+                  "mime": "image/png",
+                  "name": "xxxsmall_C2401004EN_Kylo_Ren.png",
+                  "path": null,
+                  "size": 39.93,
+                  "width": 108,
+                  "height": 150
+                },
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//thumbnail_C2401004_EN_Kylo_Ren_80b4812b8c.png",
+                  "hash": "thumbnail_C2401004_EN_Kylo_Ren_80b4812b8c",
+                  "mime": "image/png",
+                  "name": "thumbnail_C2401004EN_Kylo_Ren.png",
+                  "path": null,
+                  "size": 96.77,
+                  "width": 179,
+                  "height": 250
+                }
+              },
+              "hash": "C2401004_EN_Kylo_Ren_80b4812b8c",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 76.54,
+              "url": "https://cdn.starwarsunlimited.com//C2401004_EN_Kylo_Ren_80b4812b8c.png",
+              "previewUrl": null,
+              "provider": "aws-s3",
+              "provider_metadata": null,
+              "createdAt": "2024-07-19T16:25:07.583Z",
+              "updatedAt": "2024-07-19T16:25:07.583Z"
+            }
+          }
+        },
+        "artBack": {
+          "data": null
+        },
+        "artThumbnail": {
+          "data": {
+            "id": 8457,
+            "attributes": {
+              "name": "SWHA001-Kylo_Ren_Thumbnail.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 300,
+              "height": 100,
+              "formats": {
+                "xxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxsmall_SWHA_001_Kylo_Ren_Thumbnail_abd3f32979.png",
+                  "hash": "xxsmall_SWHA_001_Kylo_Ren_Thumbnail_abd3f32979",
+                  "mime": "image/png",
+                  "name": "xxsmall_SWHA001-Kylo_Ren_Thumbnail.png",
+                  "path": null,
+                  "size": 32.39,
+                  "width": 200,
+                  "height": 67
+                },
+                "xxxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxxsmall_SWHA_001_Kylo_Ren_Thumbnail_abd3f32979.png",
+                  "hash": "xxxsmall_SWHA_001_Kylo_Ren_Thumbnail_abd3f32979",
+                  "mime": "image/png",
+                  "name": "xxxsmall_SWHA001-Kylo_Ren_Thumbnail.png",
+                  "path": null,
+                  "size": 19.44,
+                  "width": 150,
+                  "height": 50
+                },
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//thumbnail_SWHA_001_Kylo_Ren_Thumbnail_abd3f32979.png",
+                  "hash": "thumbnail_SWHA_001_Kylo_Ren_Thumbnail_abd3f32979",
+                  "mime": "image/png",
+                  "name": "thumbnail_SWHA001-Kylo_Ren_Thumbnail.png",
+                  "path": null,
+                  "size": 47.12,
+                  "width": 250,
+                  "height": 83
+                }
+              },
+              "hash": "SWHA_001_Kylo_Ren_Thumbnail_abd3f32979",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 21.07,
+              "url": "https://cdn.starwarsunlimited.com//SWHA_001_Kylo_Ren_Thumbnail_abd3f32979.png",
+              "previewUrl": null,
+              "provider": "aws-s3",
+              "provider_metadata": null,
+              "createdAt": "2024-06-07T20:36:53.106Z",
+              "updatedAt": "2024-06-07T20:36:53.106Z"
+            }
+          }
+        },
+        "localizations": {
+          "data": [
+            {
+              "id": 8653,
+              "attributes": {
+                "title": "Kylo Ren",
+                "subtitle": "Killing the Past",
+                "cardNumber": 4,
+                "cardCount": 6,
+                "artist": "Amélie Hutt",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": false,
+                "cost": 6,
+                "hp": 7,
+                "power": 6,
+                "text": "While playing this unit, ignore his Malvagità aspect penalty if you control Rey.\nOn Attack: Give a unit +2/+0 for this phase. If it's a non-Malvagità unit, also give an Experience token to it.",
+                "textStyled": "<p>While playing this unit, ignore his <img src=\"https://ffg-prod-uploads.s3.amazonaws.com/icon_villainy_ea34258f27.png\" alt=\"icon_villainy.png\"> aspect penalty if you control Rey.</p><p><strong>On Attack:</strong> Give a unit <strong>+2</strong>/<strong>+0</strong> for this phase. If it’s a non-<img src=\"https://ffg-prod-uploads.s3.amazonaws.com/icon_villainy_ea34258f27.png\" alt=\"icon_villainy.png\"> unit, also give an Experience token to it.</p>",
+                "deployBox": null,
+                "deployBoxStyled": "",
+                "epicAction": null,
+                "epicActionStyled": "",
+                "linkHtml": "<a href=\"/cards?cid=3038397952\" class=\"card-tooltip\" data-card=\"3038397952\">Kylo Ren</a>",
+                "cardId": null,
+                "createdAt": "2024-06-10T17:13:14.989Z",
+                "updatedAt": "2024-10-24T04:12:27.693Z",
+                "publishedAt": "2024-07-10T14:59:44.226Z",
+                "locale": "it",
+                "hyperspace": false,
+                "unique": true,
+                "showcase": false,
+                "cardUid": "3038397952",
+                "rules": null,
+                "rulesStyled": "",
+                "serialCode": "C2408004",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            },
+            {
+              "id": 8652,
+              "attributes": {
+                "title": "Kylo Ren",
+                "subtitle": "Killing the Past",
+                "cardNumber": 4,
+                "cardCount": 6,
+                "artist": "Amélie Hutt",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": false,
+                "cost": 6,
+                "hp": 7,
+                "power": 6,
+                "text": "While playing this unit, ignore his Maldad aspect penalty if you control Rey.\nOn Attack: Give a unit +2/+0 for this phase. If it's a non-Maldad unit, also give an Experience token to it.",
+                "textStyled": "<p>While playing this unit, ignore his <img src=\"https://ffg-prod-uploads.s3.amazonaws.com/icon_villainy_ea34258f27.png\" alt=\"icon_villainy.png\"> aspect penalty if you control Rey.</p><p><strong>On Attack:</strong> Give a unit <strong>+2</strong>/<strong>+0</strong> for this phase. If it’s a non-<img src=\"https://ffg-prod-uploads.s3.amazonaws.com/icon_villainy_ea34258f27.png\" alt=\"icon_villainy.png\"> unit, also give an Experience token to it.</p>",
+                "deployBox": null,
+                "deployBoxStyled": "",
+                "epicAction": null,
+                "epicActionStyled": "",
+                "linkHtml": "<a href=\"/cards?cid=3038397952\" class=\"card-tooltip\" data-card=\"3038397952\">Kylo Ren</a>",
+                "cardId": null,
+                "createdAt": "2024-06-10T17:09:36.385Z",
+                "updatedAt": "2024-10-24T04:05:08.515Z",
+                "publishedAt": "2024-07-10T14:59:34.198Z",
+                "locale": "es",
+                "hyperspace": false,
+                "unique": true,
+                "showcase": false,
+                "cardUid": "3038397952",
+                "rules": null,
+                "rulesStyled": "",
+                "serialCode": "C2408004",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            },
+            {
+              "id": 8650,
+              "attributes": {
+                "title": "Kylo Ren",
+                "subtitle": "Killing the Past",
+                "cardNumber": 4,
+                "cardCount": 6,
+                "artist": "Amélie Hutt",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": false,
+                "cost": 6,
+                "hp": 7,
+                "power": 6,
+                "text": "While playing this unit, ignore his Niedertracht aspect penalty if you control Rey.\nOn Attack: Give a unit +2/+0 for this phase. If it's a non-Niedertracht unit, also give an Experience token to it.",
+                "textStyled": "<p>While playing this unit, ignore his <img src=\"https://ffg-prod-uploads.s3.amazonaws.com/icon_villainy_ea34258f27.png\" alt=\"icon_villainy.png\"> aspect penalty if you control Rey.</p><p><strong>On Attack:</strong> Give a unit <strong>+2</strong>/<strong>+0</strong> for this phase. If it’s a non-<img src=\"https://ffg-prod-uploads.s3.amazonaws.com/icon_villainy_ea34258f27.png\" alt=\"icon_villainy.png\"> unit, also give an Experience token to it.</p>",
+                "deployBox": null,
+                "deployBoxStyled": "",
+                "epicAction": null,
+                "epicActionStyled": "",
+                "linkHtml": "<a href=\"/cards?cid=3038397952\" class=\"card-tooltip\" data-card=\"3038397952\">Kylo Ren</a>",
+                "cardId": null,
+                "createdAt": "2024-06-10T16:59:34.213Z",
+                "updatedAt": "2024-10-24T04:04:39.803Z",
+                "publishedAt": "2024-07-10T14:59:17.149Z",
+                "locale": "de",
+                "hyperspace": false,
+                "unique": true,
+                "showcase": false,
+                "cardUid": "3038397952",
+                "rules": null,
+                "rulesStyled": "",
+                "serialCode": "C2408004",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            },
+            {
+              "id": 8649,
+              "attributes": {
+                "title": "Kylo Ren",
+                "subtitle": "Killing the Past",
+                "cardNumber": 4,
+                "cardCount": 6,
+                "artist": "Amélie Hutt",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": false,
+                "cost": 6,
+                "hp": 7,
+                "power": 6,
+                "text": "While playing this unit, ignore his Villainy aspect penalty if you control Rey.\nOn Attack: Give a unit +2/+0 for this phase. If it's a non-Villainy unit, also give an Experience token to it.",
+                "textStyled": "<p>While playing this unit, ignore his <img src=\"https://ffg-prod-uploads.s3.amazonaws.com/icon_villainy_ea34258f27.png\" alt=\"icon_villainy.png\"> aspect penalty if you control Rey.</p><p><strong>On Attack:</strong> Give a unit <strong>+2</strong>/<strong>+0</strong> for this phase. If it’s a non-<img src=\"https://ffg-prod-uploads.s3.amazonaws.com/icon_villainy_ea34258f27.png\" alt=\"icon_villainy.png\"> unit, also give an Experience token to it.</p>",
+                "deployBox": null,
+                "deployBoxStyled": "",
+                "epicAction": null,
+                "epicActionStyled": "",
+                "linkHtml": "<a href=\"/cards?cid=3038397952\" class=\"card-tooltip\" data-card=\"3038397952\">Kylo Ren</a>",
+                "cardId": null,
+                "createdAt": "2024-06-10T16:47:10.842Z",
+                "updatedAt": "2024-10-24T04:02:51.896Z",
+                "publishedAt": "2024-07-10T14:59:06.689Z",
+                "locale": "en",
+                "hyperspace": false,
+                "unique": true,
+                "showcase": false,
+                "cardUid": "3038397952",
+                "rules": null,
+                "rulesStyled": "",
+                "serialCode": "C2408004",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "data": [
+            {
+              "id": 14,
+              "attributes": {
+                "name": "Agressivité",
+                "description": "<p>Attaquer avec un maximum d’efficacité et infliger énormément de dégâts. Cette affinité convient parfaitement aux joueurs qui aiment un style de jeu rapide et agressif, brisant les défenses adverses et se ruant vers la victoire quel que soit le prix à payer.</p>",
+                "color": "#d30808",
+                "createdAt": "2023-08-10T21:10:46.362Z",
+                "updatedAt": "2024-07-15T21:39:33.927Z",
+                "publishedAt": "2024-01-02T18:23:52.395Z",
+                "locale": "fr",
+                "englishName": "Aggression",
+                "sortValue": 10
+              }
+            },
+            {
+              "id": 29,
+              "attributes": {
+                "name": "Infâmie",
+                "description": "<p>Se battre pour le pouvoir suprême avec les «&nbsp;méchants&nbsp;» de la galaxie Star Wars. Cette affinité permet de commander à d’immenses armées ou de provoquer de terribles destructions. Tout comme l’Héroïsme, cette affinité est souvent associée à une autre affinité sur la carte.</p>",
+                "color": "#000000",
+                "createdAt": "2023-08-10T21:20:52.826Z",
+                "updatedAt": "2024-07-15T21:40:49.895Z",
+                "publishedAt": "2024-01-02T18:25:50.235Z",
+                "locale": "fr",
+                "englishName": "Villainy",
+                "sortValue": 20
+              }
+            }
+          ]
+        },
+        "aspectDuplicates": {
+          "data": []
+        },
+        "type": {
+          "data": {
+            "id": 29,
+            "attributes": {
+              "name": "Unité",
+              "description": "",
+              "value": "Unit",
+              "createdAt": "2023-08-15T18:04:32.553Z",
+              "updatedAt": "2024-04-25T13:52:29.937Z",
+              "publishedAt": "2024-01-04T21:29:14.943Z",
+              "locale": "fr",
+              "sortValue": 3
+            }
+          }
+        },
+        "type2": {
+          "data": null
+        },
+        "traits": {
+          "data": [
+            {
+              "id": 34,
+              "attributes": {
+                "name": "Force",
+                "description": null,
+                "createdAt": "2023-08-15T14:41:10.682Z",
+                "updatedAt": "2024-01-04T21:15:19.420Z",
+                "publishedAt": "2024-01-04T21:15:19.417Z",
+                "locale": "fr"
+              }
+            },
+            {
+              "id": 255,
+              "attributes": {
+                "name": "Premier Ordre",
+                "description": "",
+                "createdAt": "2024-04-09T16:17:34.012Z",
+                "updatedAt": "2024-05-21T18:02:07.628Z",
+                "publishedAt": "2024-05-21T18:02:07.625Z",
+                "locale": "fr"
+              }
+            }
+          ]
+        },
+        "arenas": {
+          "data": [
+            {
+              "id": 4,
+              "attributes": {
+                "name": "Terrestre",
+                "description": null,
+                "createdAt": "2023-08-15T14:32:20.801Z",
+                "updatedAt": "2024-01-04T16:49:07.912Z",
+                "publishedAt": "2023-08-18T21:37:40.768Z",
+                "locale": "fr"
+              }
+            }
+          ]
+        },
+        "keywords": {
+          "data": []
+        },
+        "rarity": {
+          "data": {
+            "id": 24,
+            "attributes": {
+              "name": "Spéciale",
+              "character": "S",
+              "color": "#000000",
+              "createdAt": "2023-08-14T21:34:27.979Z",
+              "updatedAt": "2024-04-25T14:06:09.057Z",
+              "publishedAt": "2024-01-04T16:42:01.831Z",
+              "locale": "fr",
+              "englishName": "Special",
+              "sortValue": 1
+            }
+          }
+        },
+        "expansion": {
+          "data": {
+            "id": 15,
+            "attributes": {
+              "name": "2024 Convention Exclusive",
+              "description": "",
+              "code": "C24",
+              "createdAt": "2024-06-07T21:45:02.962Z",
+              "updatedAt": "2025-04-25T15:55:23.469Z",
+              "publishedAt": "2024-07-10T15:07:02.884Z",
+              "locale": "fr",
+              "sortValue": 38,
+              "leaderboardStartDate": null,
+              "leaderboardEndDate": null
+            }
+          }
+        },
+        "variantTypes": {
+          "data": [
+            {
+              "id": 43,
+              "attributes": {
+                "name": "Convention Exclusive",
+                "description": null,
+                "createdAt": "2024-06-26T18:28:45.358Z",
+                "updatedAt": "2024-07-15T18:20:14.740Z",
+                "publishedAt": "2024-07-15T18:20:03.400Z",
+                "locale": "fr",
+                "variantId": "08",
+                "foil": null,
+                "sortValue": 80,
+                "icon": {
+                  "data": {
+                    "id": 8695,
+                    "attributes": {
+                      "name": "icon_conventionexclusive.png",
+                      "alternativeText": null,
+                      "caption": null,
+                      "width": 144,
+                      "height": 144,
+                      "formats": null,
+                      "hash": "icon_conventionexclusive_194657d507",
+                      "ext": ".png",
+                      "mime": "image/png",
+                      "size": 0.79,
+                      "url": "https://cdn.starwarsunlimited.com//icon_conventionexclusive_194657d507.png",
+                      "previewUrl": null,
+                      "provider": "aws-s3",
+                      "provider_metadata": null,
+                      "createdAt": "2024-07-15T14:40:17.033Z",
+                      "updatedAt": "2024-07-15T14:40:17.033Z"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "variantOf": {
+          "data": null
+        },
+        "reprintOf": {
+          "data": {
+            "id": 8101,
+            "attributes": {
+              "title": "Kylo Ren",
+              "subtitle": "Tuer Le Passé",
+              "cardNumber": 141,
+              "cardCount": 262,
+              "artist": "Amélie Hutt",
+              "artFrontHorizontal": false,
+              "artBackHorizontal": null,
+              "hasFoil": false,
+              "cost": 6,
+              "hp": 7,
+              "power": 6,
+              "text": "Lorsque vous jouez cette unité, ignorez sa pénalité d'affinité Infâmie si vous contrôlez Rey.\nEn attaque : donnez +2/+0 à une unité pour cette phase. Si c'est une unité non-Infâmie, donnez-lui également un jeton Expérience.",
+              "textStyled": "<p>Lorsque vous jouez cette unité, ignorez sa pénalité d’affinité <img src=\"https://ffg-prod-uploads.s3.amazonaws.com/icon_villainy_ea34258f27.png\" alt=\"icon_villainy.png\"> si vous contrôlez Rey.</p><p><strong>En attaque :</strong> donnez <strong>+2</strong>/<strong>+0</strong> à une unité pour cette phase. Si c’est une unité non-<img src=\"https://ffg-prod-uploads.s3.amazonaws.com/icon_villainy_ea34258f27.png\" alt=\"icon_villainy.png\">, donnez-lui également un jeton Expérience.</p>",
+              "deployBox": null,
+              "deployBoxStyled": "",
+              "epicAction": null,
+              "epicActionStyled": "",
+              "linkHtml": "<a href=\"/cards?cid=6263178121\" class=\"card-tooltip\" data-card=\"6263178121\">Kylo Ren</a>",
+              "cardId": null,
+              "createdAt": "2024-05-06T20:50:34.350Z",
+              "updatedAt": "2024-10-24T04:06:55.603Z",
+              "publishedAt": "2024-06-27T00:00:00.000Z",
+              "locale": "fr",
+              "hyperspace": false,
+              "unique": true,
+              "showcase": false,
+              "cardUid": "6263178121",
+              "rules": null,
+              "rulesStyled": "",
+              "serialCode": "0201141",
+              "upgradeHp": null,
+              "upgradePower": null
+            }
+          }
+        },
+        "validationId": "6263178121"
+      }
+    },
+    {
+      "id": 8656,
+      "attributes": {
+        "cardNumber": 5,
+        "title": "Asajj Ventress",
+        "subtitle": "Count Dooku's Assassin",
+        "cardCount": 6,
+        "artist": "Elena Skitalets",
+        "artFrontHorizontal": false,
+        "artBackHorizontal": null,
+        "hasFoil": false,
+        "cost": 4,
+        "hp": 4,
+        "power": 2,
+        "text": "Exploit 2\n\nOn Attack: If you've attacked with another SEPARATIST unit this phase, this unit gets +3/+0 for this phase.",
+        "textStyled": "<p><strong>Exploit 2</strong></p><p><strong>On Attack:</strong> If you've attacked with another <i><strong>SEPARATIST</strong></i> unit this phase, this unit gets +3/+0 for this phase.</p>",
+        "deployBox": null,
+        "deployBoxStyled": "",
+        "epicAction": null,
+        "epicActionStyled": "",
+        "linkHtml": "<a href=\"/cards?cid=7315203824\" class=\"card-tooltip\" data-card=\"7315203824\">Asajj Ventress</a>",
+        "cardId": null,
+        "createdAt": "2024-06-18T18:41:10.489Z",
+        "updatedAt": "2024-09-27T21:41:47.104Z",
+        "publishedAt": "2024-07-10T15:00:44.417Z",
+        "locale": "fr",
+        "hyperspace": false,
+        "unique": false,
+        "showcase": false,
+        "cardUid": "7315203824",
+        "rules": null,
+        "rulesStyled": "",
+        "serialCode": "C2408005",
+        "upgradeHp": null,
+        "upgradePower": null,
+        "artFront": {
+          "data": {
+            "id": 8449,
+            "attributes": {
+              "name": "SWHA001_2024_Convention_Exclusive_Asajj_Ventress.png",
+              "alternativeText": "Convention Exclusive Asajj Ventress",
+              "caption": null,
+              "width": 300,
+              "height": 418,
+              "formats": {
+                "card": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//card_SWHA_001_2024_Convention_Exclusive_Article_Asajj_Ventress_card_21bab5c8e0.png",
+                  "hash": "card_SWHA_001_2024_Convention_Exclusive_Article_Asajj_Ventress_card_21bab5c8e0",
+                  "mime": "image/png",
+                  "name": "card_SWHA001_2024_Convention_Exclusive_Asajj_Ventress.png",
+                  "path": null,
+                  "size": 197.24,
+                  "width": 287,
+                  "height": 400
+                },
+                "xsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xsmall_SWHA_001_2024_Convention_Exclusive_Article_Asajj_Ventress_card_21bab5c8e0.png",
+                  "hash": "xsmall_SWHA_001_2024_Convention_Exclusive_Article_Asajj_Ventress_card_21bab5c8e0",
+                  "mime": "image/png",
+                  "name": "xsmall_SWHA001_2024_Convention_Exclusive_Asajj_Ventress.png",
+                  "path": null,
+                  "size": 119.91,
+                  "width": 215,
+                  "height": 300
+                },
+                "xxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxsmall_SWHA_001_2024_Convention_Exclusive_Article_Asajj_Ventress_card_21bab5c8e0.png",
+                  "hash": "xxsmall_SWHA_001_2024_Convention_Exclusive_Article_Asajj_Ventress_card_21bab5c8e0",
+                  "mime": "image/png",
+                  "name": "xxsmall_SWHA001_2024_Convention_Exclusive_Asajj_Ventress.png",
+                  "path": null,
+                  "size": 58.4,
+                  "width": 144,
+                  "height": 200
+                },
+                "xxxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxxsmall_SWHA_001_2024_Convention_Exclusive_Article_Asajj_Ventress_card_21bab5c8e0.png",
+                  "hash": "xxxsmall_SWHA_001_2024_Convention_Exclusive_Article_Asajj_Ventress_card_21bab5c8e0",
+                  "mime": "image/png",
+                  "name": "xxxsmall_SWHA001_2024_Convention_Exclusive_Asajj_Ventress.png",
+                  "path": null,
+                  "size": 35.27,
+                  "width": 108,
+                  "height": 150
+                },
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//thumbnail_SWHA_001_2024_Convention_Exclusive_Article_Asajj_Ventress_card_21bab5c8e0.png",
+                  "hash": "thumbnail_SWHA_001_2024_Convention_Exclusive_Article_Asajj_Ventress_card_21bab5c8e0",
+                  "mime": "image/png",
+                  "name": "thumbnail_SWHA001_2024_Convention_Exclusive_Asajj_Ventress.png",
+                  "path": null,
+                  "size": 86.38,
+                  "width": 179,
+                  "height": 250
+                }
+              },
+              "hash": "SWHA_001_2024_Convention_Exclusive_Article_Asajj_Ventress_card_21bab5c8e0",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 60.3,
+              "url": "https://cdn.starwarsunlimited.com//SWHA_001_2024_Convention_Exclusive_Article_Asajj_Ventress_card_21bab5c8e0.png",
+              "previewUrl": null,
+              "provider": "aws-s3",
+              "provider_metadata": null,
+              "createdAt": "2024-06-07T19:52:44.423Z",
+              "updatedAt": "2024-07-18T21:30:38.009Z"
+            }
+          }
+        },
+        "artBack": {
+          "data": null
+        },
+        "artThumbnail": {
+          "data": {
+            "id": 8456,
+            "attributes": {
+              "name": "SWHA001-Asajj_Ventress_Thumbnail.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 300,
+              "height": 100,
+              "formats": {
+                "xxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxsmall_SWHA_001_Asajj_Ventress_Thumbnail_c5c4930e5a.png",
+                  "hash": "xxsmall_SWHA_001_Asajj_Ventress_Thumbnail_c5c4930e5a",
+                  "mime": "image/png",
+                  "name": "xxsmall_SWHA001-Asajj_Ventress_Thumbnail.png",
+                  "path": null,
+                  "size": 23.63,
+                  "width": 200,
+                  "height": 67
+                },
+                "xxxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxxsmall_SWHA_001_Asajj_Ventress_Thumbnail_c5c4930e5a.png",
+                  "hash": "xxxsmall_SWHA_001_Asajj_Ventress_Thumbnail_c5c4930e5a",
+                  "mime": "image/png",
+                  "name": "xxxsmall_SWHA001-Asajj_Ventress_Thumbnail.png",
+                  "path": null,
+                  "size": 14.26,
+                  "width": 150,
+                  "height": 50
+                },
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//thumbnail_SWHA_001_Asajj_Ventress_Thumbnail_c5c4930e5a.png",
+                  "hash": "thumbnail_SWHA_001_Asajj_Ventress_Thumbnail_c5c4930e5a",
+                  "mime": "image/png",
+                  "name": "thumbnail_SWHA001-Asajj_Ventress_Thumbnail.png",
+                  "path": null,
+                  "size": 34.48,
+                  "width": 250,
+                  "height": 83
+                }
+              },
+              "hash": "SWHA_001_Asajj_Ventress_Thumbnail_c5c4930e5a",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 15.24,
+              "url": "https://cdn.starwarsunlimited.com//SWHA_001_Asajj_Ventress_Thumbnail_c5c4930e5a.png",
+              "previewUrl": null,
+              "provider": "aws-s3",
+              "provider_metadata": null,
+              "createdAt": "2024-06-07T20:36:53.079Z",
+              "updatedAt": "2024-06-07T20:36:53.079Z"
+            }
+          }
+        },
+        "localizations": {
+          "data": [
+            {
+              "id": 8658,
+              "attributes": {
+                "title": "Asajj Ventress",
+                "subtitle": "Count Dooku's Assassin",
+                "cardNumber": 5,
+                "cardCount": 6,
+                "artist": "Elena Skitalets",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": false,
+                "cost": 4,
+                "hp": 4,
+                "power": 2,
+                "text": "Exploit 2\n\nOn Attack: If you've attacked with another SEPARATIST unit this phase, this unit gets +3/+0 for this phase.",
+                "textStyled": "<p><strong>Exploit 2</strong></p><p><strong>On Attack:</strong> If you've attacked with another <i><strong>SEPARATIST</strong></i> unit this phase, this unit gets +3/+0 for this phase.</p>",
+                "deployBox": null,
+                "deployBoxStyled": "",
+                "epicAction": null,
+                "epicActionStyled": "",
+                "linkHtml": "<a href=\"/cards?cid=7315203824\" class=\"card-tooltip\" data-card=\"7315203824\">Asajj Ventress</a>",
+                "cardId": null,
+                "createdAt": "2024-06-18T18:47:20.239Z",
+                "updatedAt": "2024-09-27T21:41:46.559Z",
+                "publishedAt": "2024-07-10T15:01:17.821Z",
+                "locale": "it",
+                "hyperspace": false,
+                "unique": false,
+                "showcase": false,
+                "cardUid": "7315203824",
+                "rules": null,
+                "rulesStyled": "",
+                "serialCode": "C2408005",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            },
+            {
+              "id": 8657,
+              "attributes": {
+                "title": "Asajj Ventress",
+                "subtitle": "Count Dooku's Assassin",
+                "cardNumber": 5,
+                "cardCount": 6,
+                "artist": "Elena Skitalets",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": false,
+                "cost": 4,
+                "hp": 4,
+                "power": 2,
+                "text": "Exploit 2\n\nOn Attack: If you've attacked with another SEPARATIST unit this phase, this unit gets +3/+0 for this phase.",
+                "textStyled": "<p><strong>Exploit 2</strong></p><p><strong>On Attack:</strong> If you've attacked with another <i><strong>SEPARATIST</strong></i> unit this phase, this unit gets +3/+0 for this phase.</p>",
+                "deployBox": null,
+                "deployBoxStyled": "",
+                "epicAction": null,
+                "epicActionStyled": "",
+                "linkHtml": "<a href=\"/cards?cid=7315203824\" class=\"card-tooltip\" data-card=\"7315203824\">Asajj Ventress</a>",
+                "cardId": null,
+                "createdAt": "2024-06-18T18:45:28.044Z",
+                "updatedAt": "2024-09-27T21:41:47.066Z",
+                "publishedAt": "2024-07-10T15:01:06.667Z",
+                "locale": "es",
+                "hyperspace": false,
+                "unique": false,
+                "showcase": false,
+                "cardUid": "7315203824",
+                "rules": null,
+                "rulesStyled": "",
+                "serialCode": "C2408005",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            },
+            {
+              "id": 8654,
+              "attributes": {
+                "title": "Asajj Ventress",
+                "subtitle": "Count Dooku's Assassin",
+                "cardNumber": 5,
+                "cardCount": 6,
+                "artist": "Elena Skitalets",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": false,
+                "cost": 4,
+                "hp": 4,
+                "power": 2,
+                "text": "Exploit 2\n\nOn Attack: If you've attacked with another SEPARATIST unit this phase, this unit gets +3/+0 for this phase.",
+                "textStyled": "<p><strong>Exploit 2</strong></p><p><strong>On Attack:</strong> If you've attacked with another <i><strong>SEPARATIST</strong></i> unit this phase, this unit gets +3/+0 for this phase.</p>",
+                "deployBox": null,
+                "deployBoxStyled": "",
+                "epicAction": null,
+                "epicActionStyled": "",
+                "linkHtml": "<a href=\"/cards?cid=7315203824\" class=\"card-tooltip\" data-card=\"7315203824\">Asajj Ventress</a>",
+                "cardId": null,
+                "createdAt": "2024-06-10T21:26:10.241Z",
+                "updatedAt": "2024-09-27T21:41:47.084Z",
+                "publishedAt": "2024-07-10T15:00:00.873Z",
+                "locale": "en",
+                "hyperspace": false,
+                "unique": false,
+                "showcase": false,
+                "cardUid": "7315203824",
+                "rules": null,
+                "rulesStyled": "",
+                "serialCode": "C2408005",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            },
+            {
+              "id": 8655,
+              "attributes": {
+                "title": "Asajj Ventress",
+                "subtitle": "Count Dooku's Assassin",
+                "cardNumber": 5,
+                "cardCount": 6,
+                "artist": "Elena Skitalets",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": false,
+                "cost": 4,
+                "hp": 4,
+                "power": 2,
+                "text": "Exploit 2\n\nOn Attack: If you've attacked with another SEPARATIST unit this phase, this unit gets +3/+0 for this phase.",
+                "textStyled": "<p><strong>Exploit 2</strong></p><p><strong>On Attack:</strong> If you've attacked with another <i><strong>SEPARATIST</strong></i> unit this phase, this unit gets +3/+0 for this phase.</p>",
+                "deployBox": null,
+                "deployBoxStyled": "",
+                "epicAction": null,
+                "epicActionStyled": "",
+                "linkHtml": "<a href=\"/cards?cid=7315203824\" class=\"card-tooltip\" data-card=\"7315203824\">Asajj Ventress</a>",
+                "cardId": null,
+                "createdAt": "2024-06-10T21:35:01.626Z",
+                "updatedAt": "2024-09-27T21:41:47.122Z",
+                "publishedAt": "2024-07-10T15:00:12.330Z",
+                "locale": "de",
+                "hyperspace": false,
+                "unique": false,
+                "showcase": false,
+                "cardUid": "7315203824",
+                "rules": null,
+                "rulesStyled": "",
+                "serialCode": "C2408005",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "data": [
+            {
+              "id": 14,
+              "attributes": {
+                "name": "Agressivité",
+                "description": "<p>Attaquer avec un maximum d’efficacité et infliger énormément de dégâts. Cette affinité convient parfaitement aux joueurs qui aiment un style de jeu rapide et agressif, brisant les défenses adverses et se ruant vers la victoire quel que soit le prix à payer.</p>",
+                "color": "#d30808",
+                "createdAt": "2023-08-10T21:10:46.362Z",
+                "updatedAt": "2024-07-15T21:39:33.927Z",
+                "publishedAt": "2024-01-02T18:23:52.395Z",
+                "locale": "fr",
+                "englishName": "Aggression",
+                "sortValue": 10
+              }
+            },
+            {
+              "id": 29,
+              "attributes": {
+                "name": "Infâmie",
+                "description": "<p>Se battre pour le pouvoir suprême avec les «&nbsp;méchants&nbsp;» de la galaxie Star Wars. Cette affinité permet de commander à d’immenses armées ou de provoquer de terribles destructions. Tout comme l’Héroïsme, cette affinité est souvent associée à une autre affinité sur la carte.</p>",
+                "color": "#000000",
+                "createdAt": "2023-08-10T21:20:52.826Z",
+                "updatedAt": "2024-07-15T21:40:49.895Z",
+                "publishedAt": "2024-01-02T18:25:50.235Z",
+                "locale": "fr",
+                "englishName": "Villainy",
+                "sortValue": 20
+              }
+            }
+          ]
+        },
+        "aspectDuplicates": {
+          "data": []
+        },
+        "type": {
+          "data": {
+            "id": 29,
+            "attributes": {
+              "name": "Unité",
+              "description": "",
+              "value": "Unit",
+              "createdAt": "2023-08-15T18:04:32.553Z",
+              "updatedAt": "2024-04-25T13:52:29.937Z",
+              "publishedAt": "2024-01-04T21:29:14.943Z",
+              "locale": "fr",
+              "sortValue": 3
+            }
+          }
+        },
+        "type2": {
+          "data": null
+        },
+        "traits": {
+          "data": [
+            {
+              "id": 34,
+              "attributes": {
+                "name": "Force",
+                "description": null,
+                "createdAt": "2023-08-15T14:41:10.682Z",
+                "updatedAt": "2024-01-04T21:15:19.420Z",
+                "publishedAt": "2024-01-04T21:15:19.417Z",
+                "locale": "fr"
+              }
+            },
+            {
+              "id": 205,
+              "attributes": {
+                "name": "Séparatiste",
+                "description": "",
+                "createdAt": "2023-11-21T17:06:36.555Z",
+                "updatedAt": "2024-01-04T21:23:00.948Z",
+                "publishedAt": "2024-01-04T21:23:00.945Z",
+                "locale": "fr"
+              }
+            },
+            {
+              "id": 44,
+              "attributes": {
+                "name": "Sith",
+                "description": "",
+                "createdAt": "2023-08-15T14:42:17.108Z",
+                "updatedAt": "2024-01-04T21:23:19.059Z",
+                "publishedAt": "2024-01-04T21:23:19.055Z",
+                "locale": "fr"
+              }
+            }
+          ]
+        },
+        "arenas": {
+          "data": [
+            {
+              "id": 4,
+              "attributes": {
+                "name": "Terrestre",
+                "description": null,
+                "createdAt": "2023-08-15T14:32:20.801Z",
+                "updatedAt": "2024-01-04T16:49:07.912Z",
+                "publishedAt": "2023-08-18T21:37:40.768Z",
+                "locale": "fr"
+              }
+            }
+          ]
+        },
+        "keywords": {
+          "data": [
+            {
+              "id": 54,
+              "attributes": {
+                "name": "Valorisation",
+                "description": "",
+                "createdAt": "2024-06-10T21:26:59.639Z",
+                "updatedAt": "2024-07-30T21:49:29.520Z",
+                "publishedAt": "2024-07-30T21:49:29.517Z",
+                "locale": "fr"
+              }
+            }
+          ]
+        },
+        "rarity": {
+          "data": {
+            "id": 24,
+            "attributes": {
+              "name": "Spéciale",
+              "character": "S",
+              "color": "#000000",
+              "createdAt": "2023-08-14T21:34:27.979Z",
+              "updatedAt": "2024-04-25T14:06:09.057Z",
+              "publishedAt": "2024-01-04T16:42:01.831Z",
+              "locale": "fr",
+              "englishName": "Special",
+              "sortValue": 1
+            }
+          }
+        },
+        "expansion": {
+          "data": {
+            "id": 15,
+            "attributes": {
+              "name": "2024 Convention Exclusive",
+              "description": "",
+              "code": "C24",
+              "createdAt": "2024-06-07T21:45:02.962Z",
+              "updatedAt": "2025-04-25T15:55:23.469Z",
+              "publishedAt": "2024-07-10T15:07:02.884Z",
+              "locale": "fr",
+              "sortValue": 38,
+              "leaderboardStartDate": null,
+              "leaderboardEndDate": null
+            }
+          }
+        },
+        "variantTypes": {
+          "data": [
+            {
+              "id": 43,
+              "attributes": {
+                "name": "Convention Exclusive",
+                "description": null,
+                "createdAt": "2024-06-26T18:28:45.358Z",
+                "updatedAt": "2024-07-15T18:20:14.740Z",
+                "publishedAt": "2024-07-15T18:20:03.400Z",
+                "locale": "fr",
+                "variantId": "08",
+                "foil": null,
+                "sortValue": 80,
+                "icon": {
+                  "data": {
+                    "id": 8695,
+                    "attributes": {
+                      "name": "icon_conventionexclusive.png",
+                      "alternativeText": null,
+                      "caption": null,
+                      "width": 144,
+                      "height": 144,
+                      "formats": null,
+                      "hash": "icon_conventionexclusive_194657d507",
+                      "ext": ".png",
+                      "mime": "image/png",
+                      "size": 0.79,
+                      "url": "https://cdn.starwarsunlimited.com//icon_conventionexclusive_194657d507.png",
+                      "previewUrl": null,
+                      "provider": "aws-s3",
+                      "provider_metadata": null,
+                      "createdAt": "2024-07-15T14:40:17.033Z",
+                      "updatedAt": "2024-07-15T14:40:17.033Z"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "variantOf": {
+          "data": null
+        },
+        "reprintOf": {
+          "data": {
+            "id": 14859,
+            "attributes": {
+              "title": "Asajj Ventress",
+              "subtitle": "Assassin Du Comte Dooku",
+              "cardNumber": 134,
+              "cardCount": 257,
+              "artist": "Elena Skitalets",
+              "artFrontHorizontal": false,
+              "artBackHorizontal": null,
+              "hasFoil": true,
+              "cost": 4,
+              "hp": 4,
+              "power": 2,
+              "text": "Valorisation 2 (Quand vous jouez cette carte, éliminez jusqu'à 2 unités que vous contrôlez. Cette carte coûte 2 ressources de moins pour chaque unité ainsi éliminée.)\nEn attaque : si vous avez attaqué avec une autre unité SÉPARATISTE à cette phase, cette unité a +3/+0 pour cette phase.",
+              "textStyled": "<p><strong>Valorisation 2</strong> <i>(Quand vous jouez cette carte, éliminez jusqu’à 2 unités que vous contrôlez. Cette carte coûte </i><img src=\"https://ffg-prod-uploads.s3.amazonaws.com/icon_cost_2_cd0914a233.png\" alt=\"icon_cost_2.png\"><i> de moins pour chaque unité ainsi éliminée.)</i></p><p><strong>En attaque :</strong> si vous avez attaqué avec une autre unité <i><strong>SÉPARATISTE</strong></i> à cette phase, cette unité a <strong>+3</strong>/<strong>+0</strong> pour cette phase.</p>",
+              "deployBox": null,
+              "deployBoxStyled": "",
+              "epicAction": null,
+              "epicActionStyled": null,
+              "linkHtml": "<a href=\"/cards?cid=3556557330\" class=\"card-tooltip\" data-card=\"3556557330\">Asajj Ventress</a>",
+              "cardId": null,
+              "createdAt": "2024-08-09T21:45:22.073Z",
+              "updatedAt": "2024-10-24T04:19:42.895Z",
+              "publishedAt": "2024-10-24T06:00:00.000Z",
+              "locale": "fr",
+              "hyperspace": false,
+              "unique": true,
+              "showcase": false,
+              "cardUid": "3556557330",
+              "rules": null,
+              "rulesStyled": null,
+              "serialCode": "0301134",
+              "upgradeHp": null,
+              "upgradePower": null
+            }
+          }
+        },
+        "validationId": "3556557330"
+      }
+    },
+    {
+      "id": 8661,
+      "attributes": {
+        "cardNumber": 6,
+        "title": "Darth Maul",
+        "subtitle": "Revenge At Last",
+        "cardCount": 6,
+        "artist": "Leonardo Giammichele",
+        "artFrontHorizontal": false,
+        "artBackHorizontal": null,
+        "hasFoil": false,
+        "cost": 5,
+        "hp": 6,
+        "power": 5,
+        "text": "This unit can attack 2 units instead of 1.",
+        "textStyled": "<p>This unit can attack 2 units instead of 1.</p>",
+        "deployBox": null,
+        "deployBoxStyled": "",
+        "epicAction": null,
+        "epicActionStyled": "",
+        "linkHtml": "<a href=\"/cards?cid=5866567543\" class=\"card-tooltip\" data-card=\"5866567543\">Darth Maul</a>",
+        "cardId": null,
+        "createdAt": "2024-06-26T18:41:02.612Z",
+        "updatedAt": "2024-10-31T12:54:24.724Z",
+        "publishedAt": "2024-07-10T15:01:53.443Z",
+        "locale": "fr",
+        "hyperspace": false,
+        "unique": true,
+        "showcase": false,
+        "cardUid": "5866567543",
+        "rules": "Si Dark Maul attaque deux unités au lieu d'une, on considère les deux unités comme étant les défenseurs d'une seule et même attaque. Chaque étape de l'attaque et toute capacité déclenchée ne s'appliquent qu'une seule fois, comme d'habitude. Dark Maul inflige un nombre de dégâts de combat égal à sa puissance aux deux défenseurs et les deux défenseurs infligent leur dégâts de combat à Dark Maul en retour. Tous les dégâts de combat sont infligés simultanément.\nDark Maul ne peut pas attaquer une base et une unité simultanément.\nSi Dark Maul a Débordement, il peut infliger un nombre de dégâts à la base du joueur défenseur égal à la somme des dégâts en excès de ses attaques sur les deux défenseurs.\nLorsque le joueur défenseur contrôle au moins une unité ayant Sentinelle, Dark Maul ne peut choisir des défenseurs que parmi ces Sentinelles, sauf s'il possède lui-même Saboteur.\n",
+        "rulesStyled": "\n                <figure class=\"table\"><table><tbody><tr><td>10/31/2024</td><td>Si Dark Maul attaque deux unités au lieu d'une, on considère les deux unités comme étant les défenseurs d'une seule et même attaque. Chaque étape de l'attaque et toute capacité déclenchée ne s'appliquent qu'une seule fois, comme d'habitude. Dark Maul inflige un nombre de dégâts de combat égal à sa puissance aux deux défenseurs et les deux défenseurs infligent leur dégâts de combat à Dark Maul en retour. Tous les dégâts de combat sont infligés simultanément.</td></tr><tr><td>10/31/2024</td><td>Dark Maul ne peut pas attaquer une base et une unité simultanément.</td></tr><tr><td>10/31/2024</td><td>Si Dark Maul a Débordement, il peut infliger un nombre de dégâts à la base du joueur défenseur égal à la somme des dégâts en excès de ses attaques sur les deux défenseurs.</td></tr><tr><td>10/31/2024</td><td>Lorsque le joueur défenseur contrôle au moins une unité ayant Sentinelle, Dark Maul ne peut choisir des défenseurs que parmi ces Sentinelles, sauf s'il possède lui-même Saboteur.</td></tr></tbody></table></figure>\n                ",
+        "serialCode": "C2408006",
+        "upgradeHp": null,
+        "upgradePower": null,
+        "artFront": {
+          "data": {
+            "id": 14536,
+            "attributes": {
+              "name": "C2401006EN_Darth_Maul.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 300,
+              "height": 418,
+              "formats": {
+                "card": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//card_C2401006_EN_Darth_Maul_e9cf78f3ff.png",
+                  "hash": "card_C2401006_EN_Darth_Maul_e9cf78f3ff",
+                  "mime": "image/png",
+                  "name": "card_C2401006EN_Darth_Maul.png",
+                  "path": null,
+                  "size": 180.46,
+                  "width": 287,
+                  "height": 400
+                },
+                "xsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xsmall_C2401006_EN_Darth_Maul_e9cf78f3ff.png",
+                  "hash": "xsmall_C2401006_EN_Darth_Maul_e9cf78f3ff",
+                  "mime": "image/png",
+                  "name": "xsmall_C2401006EN_Darth_Maul.png",
+                  "path": null,
+                  "size": 108.57,
+                  "width": 215,
+                  "height": 300
+                },
+                "xxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxsmall_C2401006_EN_Darth_Maul_e9cf78f3ff.png",
+                  "hash": "xxsmall_C2401006_EN_Darth_Maul_e9cf78f3ff",
+                  "mime": "image/png",
+                  "name": "xxsmall_C2401006EN_Darth_Maul.png",
+                  "path": null,
+                  "size": 51.61,
+                  "width": 144,
+                  "height": 200
+                },
+                "xxxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxxsmall_C2401006_EN_Darth_Maul_e9cf78f3ff.png",
+                  "hash": "xxxsmall_C2401006_EN_Darth_Maul_e9cf78f3ff",
+                  "mime": "image/png",
+                  "name": "xxxsmall_C2401006EN_Darth_Maul.png",
+                  "path": null,
+                  "size": 31.1,
+                  "width": 108,
+                  "height": 150
+                },
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//thumbnail_C2401006_EN_Darth_Maul_e9cf78f3ff.png",
+                  "hash": "thumbnail_C2401006_EN_Darth_Maul_e9cf78f3ff",
+                  "mime": "image/png",
+                  "name": "thumbnail_C2401006EN_Darth_Maul.png",
+                  "path": null,
+                  "size": 77.71,
+                  "width": 179,
+                  "height": 250
+                }
+              },
+              "hash": "C2401006_EN_Darth_Maul_e9cf78f3ff",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 59.78,
+              "url": "https://cdn.starwarsunlimited.com//C2401006_EN_Darth_Maul_e9cf78f3ff.png",
+              "previewUrl": null,
+              "provider": "aws-s3",
+              "provider_metadata": null,
+              "createdAt": "2024-07-19T16:25:07.059Z",
+              "updatedAt": "2024-07-19T16:25:07.059Z"
+            }
+          }
+        },
+        "artBack": {
+          "data": null
+        },
+        "artThumbnail": {
+          "data": {
+            "id": 8454,
+            "attributes": {
+              "name": "SWHA001-Darth_Maul_Thumbnail.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 300,
+              "height": 100,
+              "formats": {
+                "xxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxsmall_SWHA_001_Darth_Maul_Thumbnail_0de5a5bb64.png",
+                  "hash": "xxsmall_SWHA_001_Darth_Maul_Thumbnail_0de5a5bb64",
+                  "mime": "image/png",
+                  "name": "xxsmall_SWHA001-Darth_Maul_Thumbnail.png",
+                  "path": null,
+                  "size": 25.22,
+                  "width": 200,
+                  "height": 67
+                },
+                "xxxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxxsmall_SWHA_001_Darth_Maul_Thumbnail_0de5a5bb64.png",
+                  "hash": "xxxsmall_SWHA_001_Darth_Maul_Thumbnail_0de5a5bb64",
+                  "mime": "image/png",
+                  "name": "xxxsmall_SWHA001-Darth_Maul_Thumbnail.png",
+                  "path": null,
+                  "size": 15.51,
+                  "width": 150,
+                  "height": 50
+                },
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//thumbnail_SWHA_001_Darth_Maul_Thumbnail_0de5a5bb64.png",
+                  "hash": "thumbnail_SWHA_001_Darth_Maul_Thumbnail_0de5a5bb64",
+                  "mime": "image/png",
+                  "name": "thumbnail_SWHA001-Darth_Maul_Thumbnail.png",
+                  "path": null,
+                  "size": 36.38,
+                  "width": 250,
+                  "height": 83
+                }
+              },
+              "hash": "SWHA_001_Darth_Maul_Thumbnail_0de5a5bb64",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 14.93,
+              "url": "https://cdn.starwarsunlimited.com//SWHA_001_Darth_Maul_Thumbnail_0de5a5bb64.png",
+              "previewUrl": null,
+              "provider": "aws-s3",
+              "provider_metadata": null,
+              "createdAt": "2024-06-07T20:36:52.826Z",
+              "updatedAt": "2024-06-07T20:36:52.826Z"
+            }
+          }
+        },
+        "localizations": {
+          "data": [
+            {
+              "id": 8663,
+              "attributes": {
+                "title": "Darth Maul",
+                "subtitle": "Revenge At Last",
+                "cardNumber": 6,
+                "cardCount": 6,
+                "artist": "Leonardo Giammichele",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": false,
+                "cost": 5,
+                "hp": 6,
+                "power": 5,
+                "text": "This unit can attack 2 units instead of 1.",
+                "textStyled": "<p>This unit can attack 2 units instead of 1.</p>",
+                "deployBox": null,
+                "deployBoxStyled": "",
+                "epicAction": null,
+                "epicActionStyled": "",
+                "linkHtml": "<a href=\"/cards?cid=5866567543\" class=\"card-tooltip\" data-card=\"5866567543\">Darth Maul</a>",
+                "cardId": null,
+                "createdAt": "2024-06-26T18:43:00.863Z",
+                "updatedAt": "2024-10-31T12:54:23.533Z",
+                "publishedAt": "2024-07-10T15:02:24.983Z",
+                "locale": "it",
+                "hyperspace": false,
+                "unique": true,
+                "showcase": false,
+                "cardUid": "5866567543",
+                "rules": "Se Darth Maul attacca 2 unità invece di 1, entrambe le unità sono considerate difensori dell'attacco. Ogni passo dell'attacco e ogni capacità innescata si verificano una volta come di consueto. Darth Maul infligge danni da combattimento pari alla sua potenza a entrambi i difensori, ed entrambi i difensori infliggono danni da combattimento a Darth Maul. Tutti i danni da combattimento vengono inflitti simultaneamente.\nDarth Maul non può attaccare una base e un'unità simultaneamente.\nSe Darth Maul ottiene Sopraffazione, può infliggere danni alla base del giocatore difensore pari al totale dei danni in eccesso del suo attacco a entrambi i difensori.\nSe il giocatore difensore controlla 1 o più unità con Sentinella, Darth Maul può scegliere solo unità con Sentinella come difensori per il suo attacco, a meno che esso non abbia Sabotatore.\n",
+                "rulesStyled": "\n                <figure class=\"table\"><table><tbody><tr><td>10/31/2024</td><td>Se Darth Maul attacca 2 unità invece di 1, entrambe le unità sono considerate difensori dell'attacco. Ogni passo dell'attacco e ogni capacità innescata si verificano una volta come di consueto. Darth Maul infligge danni da combattimento pari alla sua potenza a entrambi i difensori, ed entrambi i difensori infliggono danni da combattimento a Darth Maul. Tutti i danni da combattimento vengono inflitti simultaneamente.</td></tr><tr><td>10/31/2024</td><td>Darth Maul non può attaccare una base e un'unità simultaneamente.</td></tr><tr><td>10/31/2024</td><td>Se Darth Maul ottiene Sopraffazione, può infliggere danni alla base del giocatore difensore pari al totale dei danni in eccesso del suo attacco a entrambi i difensori.</td></tr><tr><td>10/31/2024</td><td>Se il giocatore difensore controlla 1 o più unità con Sentinella, Darth Maul può scegliere solo unità con Sentinella come difensori per il suo attacco, a meno che esso non abbia Sabotatore.</td></tr></tbody></table></figure>\n                ",
+                "serialCode": "C2408006",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            },
+            {
+              "id": 8662,
+              "attributes": {
+                "title": "Darth Maul",
+                "subtitle": "Revenge At Last",
+                "cardNumber": 6,
+                "cardCount": 6,
+                "artist": "Leonardo Giammichele",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": false,
+                "cost": 5,
+                "hp": 6,
+                "power": 5,
+                "text": "This unit can attack 2 units instead of 1.",
+                "textStyled": "<p>This unit can attack 2 units instead of 1.</p>",
+                "deployBox": null,
+                "deployBoxStyled": "",
+                "epicAction": null,
+                "epicActionStyled": "",
+                "linkHtml": "<a href=\"/cards?cid=5866567543\" class=\"card-tooltip\" data-card=\"5866567543\">Darth Maul</a>",
+                "cardId": null,
+                "createdAt": "2024-06-26T18:42:03.955Z",
+                "updatedAt": "2024-10-31T12:54:26.076Z",
+                "publishedAt": "2024-07-10T15:02:14.503Z",
+                "locale": "es",
+                "hyperspace": false,
+                "unique": true,
+                "showcase": false,
+                "cardUid": "5866567543",
+                "rules": "Si Darth Maul ataca a dos unidades en lugar de una, ambas unidades se consideran defensoras de un ataque. Cada paso del ataque y cualquier activación de capacidad solo ocurren una vez, como es habitual. Darth Maul inflige un daño de combate igual a su poder a ambos defensores, y ambos defensores le infligen daño de combate a Darth Maul. Todo el daño de combate se inflige simultáneamente.\nDarth Maul no puede atacar una base y una unidad simultáneamente.\nSi Darth Maul tiene Formidable, puede infligir a la base del jugador defensor un daño igual a la suma de los daños sobrantes de su ataque a ambos defensores.\nSi el jugador defensor controla al menos una unidad con Centinela, Darth Maul solo puede elegir Centinelas como defensores de su ataque, a menos que tenga Sabotaje.\n",
+                "rulesStyled": "\n                <figure class=\"table\"><table><tbody><tr><td>10/31/2024</td><td>Si Darth Maul ataca a dos unidades en lugar de una, ambas unidades se consideran defensoras de un ataque. Cada paso del ataque y cualquier activación de capacidad solo ocurren una vez, como es habitual. Darth Maul inflige un daño de combate igual a su poder a ambos defensores, y ambos defensores le infligen daño de combate a Darth Maul. Todo el daño de combate se inflige simultáneamente.</td></tr><tr><td>10/31/2024</td><td>Darth Maul no puede atacar una base y una unidad simultáneamente.</td></tr><tr><td>10/31/2024</td><td>Si Darth Maul tiene Formidable, puede infligir a la base del jugador defensor un daño igual a la suma de los daños sobrantes de su ataque a ambos defensores.</td></tr><tr><td>10/31/2024</td><td>Si el jugador defensor controla al menos una unidad con Centinela, Darth Maul solo puede elegir Centinelas como defensores de su ataque, a menos que tenga Sabotaje.</td></tr></tbody></table></figure>\n                ",
+                "serialCode": "C2408006",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            },
+            {
+              "id": 8660,
+              "attributes": {
+                "title": "Darth Maul",
+                "subtitle": "Revenge At Last",
+                "cardNumber": 6,
+                "cardCount": 6,
+                "artist": "Leonardo Giammichele",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": false,
+                "cost": 5,
+                "hp": 6,
+                "power": 5,
+                "text": "This unit can attack 2 units instead of 1.",
+                "textStyled": "<p>This unit can attack 2 units instead of 1.</p>",
+                "deployBox": null,
+                "deployBoxStyled": "",
+                "epicAction": null,
+                "epicActionStyled": "",
+                "linkHtml": "<a href=\"/cards?cid=5866567543\" class=\"card-tooltip\" data-card=\"5866567543\">Darth Maul</a>",
+                "cardId": null,
+                "createdAt": "2024-06-26T18:40:10.161Z",
+                "updatedAt": "2024-10-31T12:54:27.401Z",
+                "publishedAt": "2024-07-10T15:01:45.322Z",
+                "locale": "de",
+                "hyperspace": false,
+                "unique": true,
+                "showcase": false,
+                "cardUid": "5866567543",
+                "rules": "Falls Darth Maul 2 Einheiten angreift statt 1, gelten beiden Einheiten als Verteidiger eines einzelnen Angriffs. Jeder Schritt des Angriffs und alle ausgelösten Fähigkeiten treten wie gewohnt nur ein Mal ein. Darth Maul fügt beiden Verteidigern Kampfschaden in Höhe seiner Stärke zu und beide Verteidiger fügen Darth Maul Kampfschaden zu. Sämtlicher Schaden wird gleichzeitig zugefügt.\nDarth Maul darf nicht gleichzeitig eine Basis und eine Einheit angreifen.\nFalls Darth Maul Überwältigen hat, darf er der Basis des verteidigenden Spielers Schaden in Höhe des zusammengezählten überschüssigen Schadens auf beiden Verteidigern zufügen.\nFalls der Verteidiger mindestens 1 Einheit mit Wachposten kontrolliert, darf Darth Maul für seinen Angriff nur Wachposten als Verteidiger wählen, außer er hat Saboteur.\n",
+                "rulesStyled": "\n                <figure class=\"table\"><table><tbody><tr><td>10/31/2024</td><td>Falls Darth Maul 2 Einheiten angreift statt 1, gelten beiden Einheiten als Verteidiger eines einzelnen Angriffs. Jeder Schritt des Angriffs und alle ausgelösten Fähigkeiten treten wie gewohnt nur ein Mal ein. Darth Maul fügt beiden Verteidigern Kampfschaden in Höhe seiner Stärke zu und beide Verteidiger fügen Darth Maul Kampfschaden zu. Sämtlicher Schaden wird gleichzeitig zugefügt.</td></tr><tr><td>10/31/2024</td><td>Darth Maul darf nicht gleichzeitig eine Basis und eine Einheit angreifen.</td></tr><tr><td>10/31/2024</td><td>Falls Darth Maul Überwältigen hat, darf er der Basis des verteidigenden Spielers Schaden in Höhe des zusammengezählten überschüssigen Schadens auf beiden Verteidigern zufügen.</td></tr><tr><td>10/31/2024</td><td>Falls der Verteidiger mindestens 1 Einheit mit Wachposten kontrolliert, darf Darth Maul für seinen Angriff nur Wachposten als Verteidiger wählen, außer er hat Saboteur.</td></tr></tbody></table></figure>\n                ",
+                "serialCode": "C2408006",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            },
+            {
+              "id": 8659,
+              "attributes": {
+                "title": "Darth Maul",
+                "subtitle": "Revenge At Last",
+                "cardNumber": 6,
+                "cardCount": 6,
+                "artist": "Leonardo Giammichele",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": false,
+                "cost": 5,
+                "hp": 6,
+                "power": 5,
+                "text": "This unit can attack 2 units instead of 1.",
+                "textStyled": "<p>This unit can attack 2 units instead of 1.</p>",
+                "deployBox": null,
+                "deployBoxStyled": "",
+                "epicAction": null,
+                "epicActionStyled": "",
+                "linkHtml": "<a href=\"/cards?cid=5866567543\" class=\"card-tooltip\" data-card=\"5866567543\">Darth Maul</a>",
+                "cardId": null,
+                "createdAt": "2024-06-26T18:34:24.844Z",
+                "updatedAt": "2024-10-31T12:54:22.345Z",
+                "publishedAt": "2024-07-10T15:01:35.214Z",
+                "locale": "en",
+                "hyperspace": false,
+                "unique": true,
+                "showcase": false,
+                "cardUid": "5866567543",
+                "rules": "If Darth Maul attacks two units instead of one, both units are considered defenders of one attack. Each step of the attack and any triggered abilities only occur once, as usual. Darth Maul deals combat damage equal to his power to both defenders, and both defenders deal combat damage to Darth Maul. All combat damage is dealt simultaneously.\nDarth Maul may not attack a base and a unit simultaneously.\nIf Darth Maul has Overwhelm, he may deal damage to the defending player's base equal to the combined excess damage of his attack on both defenders.\nIf the defending player controls at least one unit with Sentinel, Darth Maul may only choose Sentinels as the defenders for his attack, unless he has Saboteur.\n",
+                "rulesStyled": "\n        <figure class=\"table\"><table><tbody><tr><td>10/31/2024</td><td>If Darth Maul attacks two units instead of one, both units are considered defenders of one attack. Each step of the attack and any triggered abilities only occur once, as usual. Darth Maul deals combat damage equal to his power to both defenders, and both defenders deal combat damage to Darth Maul. All combat damage is dealt simultaneously.</td></tr><tr><td>10/31/2024</td><td>Darth Maul may not attack a base and a unit simultaneously.</td></tr><tr><td>10/31/2024</td><td>If Darth Maul has Overwhelm, he may deal damage to the defending player's base equal to the combined excess damage of his attack on both defenders.</td></tr><tr><td>10/31/2024</td><td>If the defending player controls at least one unit with Sentinel, Darth Maul may only choose Sentinels as the defenders for his attack, unless he has Saboteur.</td></tr></tbody></table></figure>\n        ",
+                "serialCode": "C2408006",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "data": [
+            {
+              "id": 14,
+              "attributes": {
+                "name": "Agressivité",
+                "description": "<p>Attaquer avec un maximum d’efficacité et infliger énormément de dégâts. Cette affinité convient parfaitement aux joueurs qui aiment un style de jeu rapide et agressif, brisant les défenses adverses et se ruant vers la victoire quel que soit le prix à payer.</p>",
+                "color": "#d30808",
+                "createdAt": "2023-08-10T21:10:46.362Z",
+                "updatedAt": "2024-07-15T21:39:33.927Z",
+                "publishedAt": "2024-01-02T18:23:52.395Z",
+                "locale": "fr",
+                "englishName": "Aggression",
+                "sortValue": 10
+              }
+            },
+            {
+              "id": 29,
+              "attributes": {
+                "name": "Infâmie",
+                "description": "<p>Se battre pour le pouvoir suprême avec les «&nbsp;méchants&nbsp;» de la galaxie Star Wars. Cette affinité permet de commander à d’immenses armées ou de provoquer de terribles destructions. Tout comme l’Héroïsme, cette affinité est souvent associée à une autre affinité sur la carte.</p>",
+                "color": "#000000",
+                "createdAt": "2023-08-10T21:20:52.826Z",
+                "updatedAt": "2024-07-15T21:40:49.895Z",
+                "publishedAt": "2024-01-02T18:25:50.235Z",
+                "locale": "fr",
+                "englishName": "Villainy",
+                "sortValue": 20
+              }
+            }
+          ]
+        },
+        "aspectDuplicates": {
+          "data": []
+        },
+        "type": {
+          "data": {
+            "id": 29,
+            "attributes": {
+              "name": "Unité",
+              "description": "",
+              "value": "Unit",
+              "createdAt": "2023-08-15T18:04:32.553Z",
+              "updatedAt": "2024-04-25T13:52:29.937Z",
+              "publishedAt": "2024-01-04T21:29:14.943Z",
+              "locale": "fr",
+              "sortValue": 3
+            }
+          }
+        },
+        "type2": {
+          "data": null
+        },
+        "traits": {
+          "data": [
+            {
+              "id": 34,
+              "attributes": {
+                "name": "Force",
+                "description": null,
+                "createdAt": "2023-08-15T14:41:10.682Z",
+                "updatedAt": "2024-01-04T21:15:19.420Z",
+                "publishedAt": "2024-01-04T21:15:19.417Z",
+                "locale": "fr"
+              }
+            },
+            {
+              "id": 44,
+              "attributes": {
+                "name": "Sith",
+                "description": "",
+                "createdAt": "2023-08-15T14:42:17.108Z",
+                "updatedAt": "2024-01-04T21:23:19.059Z",
+                "publishedAt": "2024-01-04T21:23:19.055Z",
+                "locale": "fr"
+              }
+            }
+          ]
+        },
+        "arenas": {
+          "data": [
+            {
+              "id": 4,
+              "attributes": {
+                "name": "Terrestre",
+                "description": null,
+                "createdAt": "2023-08-15T14:32:20.801Z",
+                "updatedAt": "2024-01-04T16:49:07.912Z",
+                "publishedAt": "2023-08-18T21:37:40.768Z",
+                "locale": "fr"
+              }
+            }
+          ]
+        },
+        "keywords": {
+          "data": []
+        },
+        "rarity": {
+          "data": {
+            "id": 24,
+            "attributes": {
+              "name": "Spéciale",
+              "character": "S",
+              "color": "#000000",
+              "createdAt": "2023-08-14T21:34:27.979Z",
+              "updatedAt": "2024-04-25T14:06:09.057Z",
+              "publishedAt": "2024-01-04T16:42:01.831Z",
+              "locale": "fr",
+              "englishName": "Special",
+              "sortValue": 1
+            }
+          }
+        },
+        "expansion": {
+          "data": {
+            "id": 15,
+            "attributes": {
+              "name": "2024 Convention Exclusive",
+              "description": "",
+              "code": "C24",
+              "createdAt": "2024-06-07T21:45:02.962Z",
+              "updatedAt": "2025-04-25T15:55:23.469Z",
+              "publishedAt": "2024-07-10T15:07:02.884Z",
+              "locale": "fr",
+              "sortValue": 38,
+              "leaderboardStartDate": null,
+              "leaderboardEndDate": null
+            }
+          }
+        },
+        "variantTypes": {
+          "data": [
+            {
+              "id": 43,
+              "attributes": {
+                "name": "Convention Exclusive",
+                "description": null,
+                "createdAt": "2024-06-26T18:28:45.358Z",
+                "updatedAt": "2024-07-15T18:20:14.740Z",
+                "publishedAt": "2024-07-15T18:20:03.400Z",
+                "locale": "fr",
+                "variantId": "08",
+                "foil": null,
+                "sortValue": 80,
+                "icon": {
+                  "data": {
+                    "id": 8695,
+                    "attributes": {
+                      "name": "icon_conventionexclusive.png",
+                      "alternativeText": null,
+                      "caption": null,
+                      "width": 144,
+                      "height": 144,
+                      "formats": null,
+                      "hash": "icon_conventionexclusive_194657d507",
+                      "ext": ".png",
+                      "mime": "image/png",
+                      "size": 0.79,
+                      "url": "https://cdn.starwarsunlimited.com//icon_conventionexclusive_194657d507.png",
+                      "previewUrl": null,
+                      "provider": "aws-s3",
+                      "provider_metadata": null,
+                      "createdAt": "2024-07-15T14:40:17.033Z",
+                      "updatedAt": "2024-07-15T14:40:17.033Z"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "variantOf": {
+          "data": null
+        },
+        "reprintOf": {
+          "data": {
+            "id": 14864,
+            "attributes": {
+              "title": "Dark Maul",
+              "subtitle": "Se Venge Enfin",
+              "cardNumber": 135,
+              "cardCount": 257,
+              "artist": "Leonardo Giammichele",
+              "artFrontHorizontal": false,
+              "artBackHorizontal": null,
+              "hasFoil": true,
+              "cost": 5,
+              "hp": 6,
+              "power": 5,
+              "text": "Cette unité peut attaquer 2 unités au lieu de 1.  (Cette unité inflige ses dégâts de combat aux deux défenseurs et ils infligent tous les deux leurs dégâts de combat à cette unité. Tous les dégâts sont infligés simultanément.)",
+              "textStyled": "<p>Cette unité peut attaquer 2 unités au lieu de 1. <i>(Cette unité inflige ses dégâts de combat aux deux défenseurs et ils infligent tous les deux leurs dégâts de combat à cette unité. Tous les dégâts sont infligés simultanément.)</i></p>",
+              "deployBox": null,
+              "deployBoxStyled": null,
+              "epicAction": null,
+              "epicActionStyled": null,
+              "linkHtml": "<a href=\"/cards?cid=8613680163\" class=\"card-tooltip\" data-card=\"8613680163\">Dark Maul</a>",
+              "cardId": null,
+              "createdAt": "2024-08-09T21:45:23.739Z",
+              "updatedAt": "2024-10-31T12:54:23.757Z",
+              "publishedAt": "2024-10-24T06:00:00.000Z",
+              "locale": "fr",
+              "hyperspace": false,
+              "unique": true,
+              "showcase": false,
+              "cardUid": "8613680163",
+              "rules": "Si Dark Maul attaque deux unités au lieu d'une, on considère les deux unités comme étant les défenseurs d'une seule et même attaque. Chaque étape de l'attaque et toute capacité déclenchée ne s'appliquent qu'une seule fois, comme d'habitude. Dark Maul inflige un nombre de dégâts de combat égal à sa puissance aux deux défenseurs et les deux défenseurs infligent leur dégâts de combat à Dark Maul en retour. Tous les dégâts de combat sont infligés simultanément.\nDark Maul ne peut pas attaquer une base et une unité simultanément.\nSi Dark Maul a Débordement, il peut infliger un nombre de dégâts à la base du joueur défenseur égal à la somme des dégâts en excès de ses attaques sur les deux défenseurs.\nLorsque le joueur défenseur contrôle au moins une unité ayant Sentinelle, Dark Maul ne peut choisir des défenseurs que parmi ces Sentinelles, sauf s'il possède lui-même Saboteur.\n",
+              "rulesStyled": "\n                <figure class=\"table\"><table><tbody><tr><td>10/31/2024</td><td>Si Dark Maul attaque deux unités au lieu d'une, on considère les deux unités comme étant les défenseurs d'une seule et même attaque. Chaque étape de l'attaque et toute capacité déclenchée ne s'appliquent qu'une seule fois, comme d'habitude. Dark Maul inflige un nombre de dégâts de combat égal à sa puissance aux deux défenseurs et les deux défenseurs infligent leur dégâts de combat à Dark Maul en retour. Tous les dégâts de combat sont infligés simultanément.</td></tr><tr><td>10/31/2024</td><td>Dark Maul ne peut pas attaquer une base et une unité simultanément.</td></tr><tr><td>10/31/2024</td><td>Si Dark Maul a Débordement, il peut infliger un nombre de dégâts à la base du joueur défenseur égal à la somme des dégâts en excès de ses attaques sur les deux défenseurs.</td></tr><tr><td>10/31/2024</td><td>Lorsque le joueur défenseur contrôle au moins une unité ayant Sentinelle, Dark Maul ne peut choisir des défenseurs que parmi ces Sentinelles, sauf s'il possède lui-même Saboteur.</td></tr></tbody></table></figure>\n                ",
+              "serialCode": "0301135",
+              "upgradeHp": null,
+              "upgradePower": null
+            }
+          }
+        },
+        "validationId": "8613680163"
+      }
+    }
+  ],
+  "variants": []
+}

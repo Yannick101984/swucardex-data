@@ -1,0 +1,2957 @@
+{
+  "data": [
+    {
+      "id": 25489,
+      "attributes": {
+        "cardNumber": 1,
+        "title": "Dagobah Swamp",
+        "subtitle": null,
+        "cardCount": 0,
+        "artist": "EJ Dela Cruz",
+        "artFrontHorizontal": true,
+        "artBackHorizontal": null,
+        "hasFoil": true,
+        "cost": null,
+        "hp": 30,
+        "power": null,
+        "text": null,
+        "textStyled": "",
+        "deployBox": null,
+        "deployBoxStyled": "",
+        "epicAction": null,
+        "epicActionStyled": "",
+        "linkHtml": "<a href=\"/cards?cid=5804775032\" class=\"card-tooltip\" data-card=\"5804775032\">Dagobah Swamp</a>",
+        "cardId": null,
+        "createdAt": "2025-02-28T21:16:40.785Z",
+        "updatedAt": "2025-03-03T18:51:27.514Z",
+        "publishedAt": "2025-03-03T06:00:00.000Z",
+        "locale": "fr",
+        "hyperspace": false,
+        "unique": false,
+        "showcase": false,
+        "cardUid": "5804775032",
+        "rules": null,
+        "rulesStyled": "",
+        "serialCode": "gg320001",
+        "upgradeHp": null,
+        "upgradePower": null,
+        "artFront": {
+          "data": {
+            "id": 28991,
+            "attributes": {
+              "name": "GG320001EN_Dagobah_Swamp.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 419,
+              "height": 300,
+              "formats": {
+                "card": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//card_GG_320001_EN_Dagobah_Swamp_5710302ded.png",
+                  "hash": "card_GG_320001_EN_Dagobah_Swamp_5710302ded",
+                  "mime": "image/png",
+                  "name": "card_GG320001EN_Dagobah_Swamp.png",
+                  "path": null,
+                  "size": 326.96,
+                  "width": 400,
+                  "height": 286
+                },
+                "xsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xsmall_GG_320001_EN_Dagobah_Swamp_5710302ded.png",
+                  "hash": "xsmall_GG_320001_EN_Dagobah_Swamp_5710302ded",
+                  "mime": "image/png",
+                  "name": "xsmall_GG320001EN_Dagobah_Swamp.png",
+                  "path": null,
+                  "size": 190.6,
+                  "width": 300,
+                  "height": 215
+                },
+                "xxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxsmall_GG_320001_EN_Dagobah_Swamp_5710302ded.png",
+                  "hash": "xxsmall_GG_320001_EN_Dagobah_Swamp_5710302ded",
+                  "mime": "image/png",
+                  "name": "xxsmall_GG320001EN_Dagobah_Swamp.png",
+                  "path": null,
+                  "size": 87.55,
+                  "width": 200,
+                  "height": 143
+                },
+                "xxxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxxsmall_GG_320001_EN_Dagobah_Swamp_5710302ded.png",
+                  "hash": "xxxsmall_GG_320001_EN_Dagobah_Swamp_5710302ded",
+                  "mime": "image/png",
+                  "name": "xxxsmall_GG320001EN_Dagobah_Swamp.png",
+                  "path": null,
+                  "size": 50.37,
+                  "width": 150,
+                  "height": 107
+                },
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//thumbnail_GG_320001_EN_Dagobah_Swamp_5710302ded.png",
+                  "hash": "thumbnail_GG_320001_EN_Dagobah_Swamp_5710302ded",
+                  "mime": "image/png",
+                  "name": "thumbnail_GG320001EN_Dagobah_Swamp.png",
+                  "path": null,
+                  "size": 134.77,
+                  "width": 250,
+                  "height": 179
+                }
+              },
+              "hash": "GG_320001_EN_Dagobah_Swamp_5710302ded",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 94.11,
+              "url": "https://cdn.starwarsunlimited.com//GG_320001_EN_Dagobah_Swamp_5710302ded.png",
+              "previewUrl": null,
+              "provider": "aws-s3",
+              "provider_metadata": null,
+              "createdAt": "2025-02-28T21:51:52.617Z",
+              "updatedAt": "2025-02-28T21:51:52.617Z"
+            }
+          }
+        },
+        "artBack": {
+          "data": null
+        },
+        "artThumbnail": {
+          "data": {
+            "id": 27756,
+            "attributes": {
+              "name": "GG320001EN_Dagobah_Swamp_Thumbnail.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 300,
+              "height": 100,
+              "formats": {
+                "xxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxsmall_GG_320001_EN_Dagobah_Swamp_Thumbnail_3fd235a8d6.png",
+                  "hash": "xxsmall_GG_320001_EN_Dagobah_Swamp_Thumbnail_3fd235a8d6",
+                  "mime": "image/png",
+                  "name": "xxsmall_GG320001EN_Dagobah_Swamp_Thumbnail.png",
+                  "path": null,
+                  "size": 39.51,
+                  "width": 200,
+                  "height": 67
+                },
+                "xxxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxxsmall_GG_320001_EN_Dagobah_Swamp_Thumbnail_3fd235a8d6.png",
+                  "hash": "xxxsmall_GG_320001_EN_Dagobah_Swamp_Thumbnail_3fd235a8d6",
+                  "mime": "image/png",
+                  "name": "xxxsmall_GG320001EN_Dagobah_Swamp_Thumbnail.png",
+                  "path": null,
+                  "size": 22.21,
+                  "width": 150,
+                  "height": 50
+                },
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//thumbnail_GG_320001_EN_Dagobah_Swamp_Thumbnail_3fd235a8d6.png",
+                  "hash": "thumbnail_GG_320001_EN_Dagobah_Swamp_Thumbnail_3fd235a8d6",
+                  "mime": "image/png",
+                  "name": "thumbnail_GG320001EN_Dagobah_Swamp_Thumbnail.png",
+                  "path": null,
+                  "size": 60.86,
+                  "width": 250,
+                  "height": 83
+                }
+              },
+              "hash": "GG_320001_EN_Dagobah_Swamp_Thumbnail_3fd235a8d6",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 28.74,
+              "url": "https://cdn.starwarsunlimited.com//GG_320001_EN_Dagobah_Swamp_Thumbnail_3fd235a8d6.png",
+              "previewUrl": null,
+              "provider": "aws-s3",
+              "provider_metadata": null,
+              "createdAt": "2025-02-27T21:30:11.433Z",
+              "updatedAt": "2025-02-27T21:30:11.433Z"
+            }
+          }
+        },
+        "localizations": {
+          "data": [
+            {
+              "id": 25490,
+              "attributes": {
+                "title": "Dagobah Swamp",
+                "subtitle": null,
+                "cardNumber": 1,
+                "cardCount": 0,
+                "artist": "EJ Dela Cruz",
+                "artFrontHorizontal": true,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": null,
+                "hp": 30,
+                "power": null,
+                "text": null,
+                "textStyled": "",
+                "deployBox": null,
+                "deployBoxStyled": "",
+                "epicAction": null,
+                "epicActionStyled": "",
+                "linkHtml": "<a href=\"/cards?cid=5804775032\" class=\"card-tooltip\" data-card=\"5804775032\">Dagobah Swamp</a>",
+                "cardId": null,
+                "createdAt": "2025-02-28T21:16:41.819Z",
+                "updatedAt": "2025-03-03T18:51:27.302Z",
+                "publishedAt": "2025-03-03T06:00:00.000Z",
+                "locale": "de",
+                "hyperspace": false,
+                "unique": false,
+                "showcase": false,
+                "cardUid": "5804775032",
+                "rules": null,
+                "rulesStyled": "",
+                "serialCode": "gg320001",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            },
+            {
+              "id": 25486,
+              "attributes": {
+                "title": "Dagobah Swamp",
+                "subtitle": null,
+                "cardNumber": 1,
+                "cardCount": 0,
+                "artist": "EJ Dela Cruz",
+                "artFrontHorizontal": true,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": null,
+                "hp": 30,
+                "power": null,
+                "text": null,
+                "textStyled": "",
+                "deployBox": null,
+                "deployBoxStyled": "",
+                "epicAction": null,
+                "epicActionStyled": "",
+                "linkHtml": "<a href=\"/cards?cid=5804775032\" class=\"card-tooltip\" data-card=\"5804775032\">Dagobah Swamp</a>",
+                "cardId": null,
+                "createdAt": "2025-02-28T21:16:37.719Z",
+                "updatedAt": "2025-03-03T18:51:27.074Z",
+                "publishedAt": "2025-03-03T06:00:00.000Z",
+                "locale": "en",
+                "hyperspace": false,
+                "unique": false,
+                "showcase": false,
+                "cardUid": "5804775032",
+                "rules": null,
+                "rulesStyled": "",
+                "serialCode": "gg320001",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            },
+            {
+              "id": 25488,
+              "attributes": {
+                "title": "Dagobah Swamp",
+                "subtitle": null,
+                "cardNumber": 1,
+                "cardCount": 0,
+                "artist": "EJ Dela Cruz",
+                "artFrontHorizontal": true,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": null,
+                "hp": 30,
+                "power": null,
+                "text": null,
+                "textStyled": "",
+                "deployBox": null,
+                "deployBoxStyled": "",
+                "epicAction": null,
+                "epicActionStyled": "",
+                "linkHtml": "<a href=\"/cards?cid=5804775032\" class=\"card-tooltip\" data-card=\"5804775032\">Dagobah Swamp</a>",
+                "cardId": null,
+                "createdAt": "2025-02-28T21:16:39.761Z",
+                "updatedAt": "2025-03-03T18:51:27.735Z",
+                "publishedAt": "2025-03-03T06:00:00.000Z",
+                "locale": "es",
+                "hyperspace": false,
+                "unique": false,
+                "showcase": false,
+                "cardUid": "5804775032",
+                "rules": null,
+                "rulesStyled": "",
+                "serialCode": "gg320001",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            },
+            {
+              "id": 25487,
+              "attributes": {
+                "title": "Dagobah Swamp",
+                "subtitle": null,
+                "cardNumber": 1,
+                "cardCount": 0,
+                "artist": "EJ Dela Cruz",
+                "artFrontHorizontal": true,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": null,
+                "hp": 30,
+                "power": null,
+                "text": null,
+                "textStyled": "",
+                "deployBox": null,
+                "deployBoxStyled": "",
+                "epicAction": null,
+                "epicActionStyled": "",
+                "linkHtml": "<a href=\"/cards?cid=5804775032\" class=\"card-tooltip\" data-card=\"5804775032\">Dagobah Swamp</a>",
+                "cardId": null,
+                "createdAt": "2025-02-28T21:16:38.745Z",
+                "updatedAt": "2025-03-03T18:51:27.948Z",
+                "publishedAt": "2025-03-03T06:00:00.000Z",
+                "locale": "it",
+                "hyperspace": false,
+                "unique": false,
+                "showcase": false,
+                "cardUid": "5804775032",
+                "rules": null,
+                "rulesStyled": "",
+                "serialCode": "gg320001",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "data": [
+            {
+              "id": 4,
+              "attributes": {
+                "name": "Vigilance",
+                "description": "<p>Un jeu défensif, avec des capacités pour soigner les dégâts, retirer du jeu les unités dangereuses, protéger sa base des attaques ennemies. Cette affinité est idéale pour les joueurs qui savent temporiser, en encaissant les assauts les plus meurtriers.</p>",
+                "color": "#4073d4",
+                "createdAt": "2023-08-10T21:02:26.776Z",
+                "updatedAt": "2024-07-15T21:32:24.096Z",
+                "publishedAt": "2024-01-02T18:25:33.755Z",
+                "locale": "fr",
+                "englishName": "Vigilance",
+                "sortValue": 1
+              }
+            }
+          ]
+        },
+        "aspectDuplicates": {
+          "data": []
+        },
+        "type": {
+          "data": {
+            "id": 13,
+            "attributes": {
+              "name": "Base",
+              "description": "",
+              "value": "Base",
+              "createdAt": "2023-08-15T18:02:39.563Z",
+              "updatedAt": "2024-04-25T13:53:09.133Z",
+              "publishedAt": "2024-01-04T21:28:55.550Z",
+              "locale": "fr",
+              "sortValue": 2
+            }
+          }
+        },
+        "type2": {
+          "data": null
+        },
+        "traits": {
+          "data": []
+        },
+        "arenas": {
+          "data": []
+        },
+        "keywords": {
+          "data": []
+        },
+        "rarity": {
+          "data": {
+            "id": 4,
+            "attributes": {
+              "name": "Commune",
+              "character": "C",
+              "color": "#964d02",
+              "createdAt": "2023-08-14T21:22:45.653Z",
+              "updatedAt": "2025-06-17T22:15:21.748Z",
+              "publishedAt": "2024-01-04T16:40:07.939Z",
+              "locale": "fr",
+              "englishName": "Common",
+              "sortValue": 2
+            }
+          }
+        },
+        "expansion": {
+          "data": {
+            "id": 45,
+            "attributes": {
+              "name": "Gamegenic",
+              "description": "",
+              "code": "GG",
+              "createdAt": "2025-02-27T21:30:59.961Z",
+              "updatedAt": "2025-03-03T20:32:38.586Z",
+              "publishedAt": "2025-03-03T20:32:31.414Z",
+              "locale": "fr",
+              "sortValue": 44,
+              "leaderboardStartDate": null,
+              "leaderboardEndDate": null
+            }
+          }
+        },
+        "variantTypes": {
+          "data": [
+            {
+              "id": 63,
+              "attributes": {
+                "name": "Hyperspace Foil",
+                "description": null,
+                "createdAt": "2024-07-15T14:55:32.021Z",
+                "updatedAt": "2024-07-15T19:53:37.738Z",
+                "publishedAt": "2024-07-15T19:53:31.582Z",
+                "locale": "fr",
+                "variantId": "32",
+                "foil": true,
+                "sortValue": 21,
+                "icon": {
+                  "data": {
+                    "id": 8698,
+                    "attributes": {
+                      "name": "icon_hyperspace_foil.png",
+                      "alternativeText": null,
+                      "caption": null,
+                      "width": 144,
+                      "height": 144,
+                      "formats": null,
+                      "hash": "icon_hyperspace_foil_bd8834fef2",
+                      "ext": ".png",
+                      "mime": "image/png",
+                      "size": 2.19,
+                      "url": "https://cdn.starwarsunlimited.com//icon_hyperspace_foil_bd8834fef2.png",
+                      "previewUrl": null,
+                      "provider": "aws-s3",
+                      "provider_metadata": null,
+                      "createdAt": "2024-07-15T14:40:17.037Z",
+                      "updatedAt": "2024-07-15T14:40:17.037Z"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "variantOf": {
+          "data": null
+        },
+        "reprintOf": {
+          "data": {
+            "id": 988,
+            "attributes": {
+              "title": "Marais de Dagobah",
+              "subtitle": null,
+              "cardNumber": 21,
+              "cardCount": 252,
+              "artist": "Tyler Edlin",
+              "artFrontHorizontal": true,
+              "artBackHorizontal": null,
+              "hasFoil": false,
+              "cost": null,
+              "hp": 30,
+              "power": null,
+              "text": null,
+              "textStyled": "",
+              "deployBox": null,
+              "deployBoxStyled": "",
+              "epicAction": null,
+              "epicActionStyled": "",
+              "linkHtml": "<a href=\"/cards?cid=3810584393\" class=\"card-tooltip\" data-card=\"3810584393\">Marais de Dagobah</a>",
+              "cardId": null,
+              "createdAt": "2024-01-10T21:28:08.717Z",
+              "updatedAt": "2024-07-15T17:51:37.134Z",
+              "publishedAt": "2024-01-12T23:04:15.481Z",
+              "locale": "fr",
+              "hyperspace": false,
+              "unique": false,
+              "showcase": false,
+              "cardUid": "3810584393",
+              "rules": null,
+              "rulesStyled": null,
+              "serialCode": "0101021",
+              "upgradeHp": null,
+              "upgradePower": null
+            }
+          }
+        },
+        "validationId": "3810584393"
+      }
+    },
+    {
+      "id": 25499,
+      "attributes": {
+        "cardNumber": 2,
+        "title": "Echo Base",
+        "subtitle": null,
+        "cardCount": 0,
+        "artist": "EJ Dela Cruz",
+        "artFrontHorizontal": true,
+        "artBackHorizontal": null,
+        "hasFoil": true,
+        "cost": null,
+        "hp": 30,
+        "power": null,
+        "text": null,
+        "textStyled": "",
+        "deployBox": null,
+        "deployBoxStyled": "",
+        "epicAction": null,
+        "epicActionStyled": "",
+        "linkHtml": "<a href=\"/cards?cid=1278608465\" class=\"card-tooltip\" data-card=\"1278608465\">Echo Base</a>",
+        "cardId": null,
+        "createdAt": "2025-02-28T21:16:50.920Z",
+        "updatedAt": "2025-03-03T18:51:28.582Z",
+        "publishedAt": "2025-03-03T06:00:00.000Z",
+        "locale": "fr",
+        "hyperspace": false,
+        "unique": false,
+        "showcase": false,
+        "cardUid": "1278608465",
+        "rules": null,
+        "rulesStyled": "",
+        "serialCode": "gg320002",
+        "upgradeHp": null,
+        "upgradePower": null,
+        "artFront": {
+          "data": {
+            "id": 28989,
+            "attributes": {
+              "name": "GG320002EN_Echo_Base.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 419,
+              "height": 300,
+              "formats": {
+                "card": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//card_GG_320002_EN_Echo_Base_e68bf90d04.png",
+                  "hash": "card_GG_320002_EN_Echo_Base_e68bf90d04",
+                  "mime": "image/png",
+                  "name": "card_GG320002EN_Echo_Base.png",
+                  "path": null,
+                  "size": 279.72,
+                  "width": 400,
+                  "height": 286
+                },
+                "xsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xsmall_GG_320002_EN_Echo_Base_e68bf90d04.png",
+                  "hash": "xsmall_GG_320002_EN_Echo_Base_e68bf90d04",
+                  "mime": "image/png",
+                  "name": "xsmall_GG320002EN_Echo_Base.png",
+                  "path": null,
+                  "size": 163.81,
+                  "width": 300,
+                  "height": 215
+                },
+                "xxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxsmall_GG_320002_EN_Echo_Base_e68bf90d04.png",
+                  "hash": "xxsmall_GG_320002_EN_Echo_Base_e68bf90d04",
+                  "mime": "image/png",
+                  "name": "xxsmall_GG320002EN_Echo_Base.png",
+                  "path": null,
+                  "size": 77.07,
+                  "width": 200,
+                  "height": 143
+                },
+                "xxxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxxsmall_GG_320002_EN_Echo_Base_e68bf90d04.png",
+                  "hash": "xxxsmall_GG_320002_EN_Echo_Base_e68bf90d04",
+                  "mime": "image/png",
+                  "name": "xxxsmall_GG320002EN_Echo_Base.png",
+                  "path": null,
+                  "size": 45.45,
+                  "width": 150,
+                  "height": 107
+                },
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//thumbnail_GG_320002_EN_Echo_Base_e68bf90d04.png",
+                  "hash": "thumbnail_GG_320002_EN_Echo_Base_e68bf90d04",
+                  "mime": "image/png",
+                  "name": "thumbnail_GG320002EN_Echo_Base.png",
+                  "path": null,
+                  "size": 117.5,
+                  "width": 250,
+                  "height": 179
+                }
+              },
+              "hash": "GG_320002_EN_Echo_Base_e68bf90d04",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 84.89,
+              "url": "https://cdn.starwarsunlimited.com//GG_320002_EN_Echo_Base_e68bf90d04.png",
+              "previewUrl": null,
+              "provider": "aws-s3",
+              "provider_metadata": null,
+              "createdAt": "2025-02-28T21:51:52.080Z",
+              "updatedAt": "2025-02-28T21:51:52.080Z"
+            }
+          }
+        },
+        "artBack": {
+          "data": null
+        },
+        "artThumbnail": {
+          "data": {
+            "id": 27780,
+            "attributes": {
+              "name": "GG320002EN_Echo_Base_Thumbnail.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 300,
+              "height": 100,
+              "formats": {
+                "xxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxsmall_GG_320002_EN_Echo_Base_Thumbnail_8276b069df.png",
+                  "hash": "xxsmall_GG_320002_EN_Echo_Base_Thumbnail_8276b069df",
+                  "mime": "image/png",
+                  "name": "xxsmall_GG320002EN_Echo_Base_Thumbnail.png",
+                  "path": null,
+                  "size": 36.66,
+                  "width": 200,
+                  "height": 67
+                },
+                "xxxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxxsmall_GG_320002_EN_Echo_Base_Thumbnail_8276b069df.png",
+                  "hash": "xxxsmall_GG_320002_EN_Echo_Base_Thumbnail_8276b069df",
+                  "mime": "image/png",
+                  "name": "xxxsmall_GG320002EN_Echo_Base_Thumbnail.png",
+                  "path": null,
+                  "size": 20.89,
+                  "width": 150,
+                  "height": 50
+                },
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//thumbnail_GG_320002_EN_Echo_Base_Thumbnail_8276b069df.png",
+                  "hash": "thumbnail_GG_320002_EN_Echo_Base_Thumbnail_8276b069df",
+                  "mime": "image/png",
+                  "name": "thumbnail_GG320002EN_Echo_Base_Thumbnail.png",
+                  "path": null,
+                  "size": 55.98,
+                  "width": 250,
+                  "height": 83
+                }
+              },
+              "hash": "GG_320002_EN_Echo_Base_Thumbnail_8276b069df",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 28.07,
+              "url": "https://cdn.starwarsunlimited.com//GG_320002_EN_Echo_Base_Thumbnail_8276b069df.png",
+              "previewUrl": null,
+              "provider": "aws-s3",
+              "provider_metadata": null,
+              "createdAt": "2025-02-27T21:30:28.036Z",
+              "updatedAt": "2025-02-27T21:30:28.036Z"
+            }
+          }
+        },
+        "localizations": {
+          "data": [
+            {
+              "id": 25500,
+              "attributes": {
+                "title": "Echo Base",
+                "subtitle": null,
+                "cardNumber": 2,
+                "cardCount": 0,
+                "artist": "EJ Dela Cruz",
+                "artFrontHorizontal": true,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": null,
+                "hp": 30,
+                "power": null,
+                "text": null,
+                "textStyled": "",
+                "deployBox": null,
+                "deployBoxStyled": "",
+                "epicAction": null,
+                "epicActionStyled": "",
+                "linkHtml": "<a href=\"/cards?cid=1278608465\" class=\"card-tooltip\" data-card=\"1278608465\">Echo Base</a>",
+                "cardId": null,
+                "createdAt": "2025-02-28T21:16:51.956Z",
+                "updatedAt": "2025-03-03T18:51:28.370Z",
+                "publishedAt": "2025-03-03T06:00:00.000Z",
+                "locale": "de",
+                "hyperspace": false,
+                "unique": false,
+                "showcase": false,
+                "cardUid": "1278608465",
+                "rules": null,
+                "rulesStyled": null,
+                "serialCode": "gg320002",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            },
+            {
+              "id": 25496,
+              "attributes": {
+                "title": "Echo Base",
+                "subtitle": null,
+                "cardNumber": 2,
+                "cardCount": 0,
+                "artist": "EJ Dela Cruz",
+                "artFrontHorizontal": true,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": null,
+                "hp": 30,
+                "power": null,
+                "text": null,
+                "textStyled": "",
+                "deployBox": null,
+                "deployBoxStyled": "",
+                "epicAction": null,
+                "epicActionStyled": "",
+                "linkHtml": "<a href=\"/cards?cid=1278608465\" class=\"card-tooltip\" data-card=\"1278608465\">Echo Base</a>",
+                "cardId": null,
+                "createdAt": "2025-02-28T21:16:48.023Z",
+                "updatedAt": "2025-03-03T18:51:28.158Z",
+                "publishedAt": "2025-03-03T06:00:00.000Z",
+                "locale": "en",
+                "hyperspace": false,
+                "unique": false,
+                "showcase": false,
+                "cardUid": "1278608465",
+                "rules": null,
+                "rulesStyled": "",
+                "serialCode": "gg320002",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            },
+            {
+              "id": 25498,
+              "attributes": {
+                "title": "Echo Base",
+                "subtitle": null,
+                "cardNumber": 2,
+                "cardCount": 0,
+                "artist": "EJ Dela Cruz",
+                "artFrontHorizontal": true,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": null,
+                "hp": 30,
+                "power": null,
+                "text": null,
+                "textStyled": "",
+                "deployBox": null,
+                "deployBoxStyled": "",
+                "epicAction": null,
+                "epicActionStyled": "",
+                "linkHtml": "<a href=\"/cards?cid=1278608465\" class=\"card-tooltip\" data-card=\"1278608465\">Echo Base</a>",
+                "cardId": null,
+                "createdAt": "2025-02-28T21:16:49.893Z",
+                "updatedAt": "2025-03-03T18:51:28.791Z",
+                "publishedAt": "2025-03-03T06:00:00.000Z",
+                "locale": "es",
+                "hyperspace": false,
+                "unique": false,
+                "showcase": false,
+                "cardUid": "1278608465",
+                "rules": null,
+                "rulesStyled": "",
+                "serialCode": "gg320002",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            },
+            {
+              "id": 25497,
+              "attributes": {
+                "title": "Echo Base",
+                "subtitle": null,
+                "cardNumber": 2,
+                "cardCount": 0,
+                "artist": "EJ Dela Cruz",
+                "artFrontHorizontal": true,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": null,
+                "hp": 30,
+                "power": null,
+                "text": null,
+                "textStyled": "",
+                "deployBox": null,
+                "deployBoxStyled": "",
+                "epicAction": null,
+                "epicActionStyled": "",
+                "linkHtml": "<a href=\"/cards?cid=1278608465\" class=\"card-tooltip\" data-card=\"1278608465\">Echo Base</a>",
+                "cardId": null,
+                "createdAt": "2025-02-28T21:16:48.978Z",
+                "updatedAt": "2025-03-03T18:51:29.003Z",
+                "publishedAt": "2025-03-03T06:00:00.000Z",
+                "locale": "it",
+                "hyperspace": false,
+                "unique": false,
+                "showcase": false,
+                "cardUid": "1278608465",
+                "rules": null,
+                "rulesStyled": "",
+                "serialCode": "gg320002",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "data": [
+            {
+              "id": 9,
+              "attributes": {
+                "name": "Commandement",
+                "description": "<p>Accélérer sa production de ressources, utiliser de nombreuses unités, renforcer celles qui sont déjà en jeu. C’est l’affinité de prédilection des joueurs qui veulent écraser leurs adversaires par une utilisation massive de leurs troupes.</p>",
+                "color": "#0b992d",
+                "createdAt": "2023-08-10T21:07:29.191Z",
+                "updatedAt": "2024-07-15T21:32:41.107Z",
+                "publishedAt": "2024-01-02T18:24:28.907Z",
+                "locale": "fr",
+                "englishName": "Command",
+                "sortValue": 5
+              }
+            }
+          ]
+        },
+        "aspectDuplicates": {
+          "data": []
+        },
+        "type": {
+          "data": {
+            "id": 13,
+            "attributes": {
+              "name": "Base",
+              "description": "",
+              "value": "Base",
+              "createdAt": "2023-08-15T18:02:39.563Z",
+              "updatedAt": "2024-04-25T13:53:09.133Z",
+              "publishedAt": "2024-01-04T21:28:55.550Z",
+              "locale": "fr",
+              "sortValue": 2
+            }
+          }
+        },
+        "type2": {
+          "data": null
+        },
+        "traits": {
+          "data": []
+        },
+        "arenas": {
+          "data": []
+        },
+        "keywords": {
+          "data": []
+        },
+        "rarity": {
+          "data": {
+            "id": 4,
+            "attributes": {
+              "name": "Commune",
+              "character": "C",
+              "color": "#964d02",
+              "createdAt": "2023-08-14T21:22:45.653Z",
+              "updatedAt": "2025-06-17T22:15:21.748Z",
+              "publishedAt": "2024-01-04T16:40:07.939Z",
+              "locale": "fr",
+              "englishName": "Common",
+              "sortValue": 2
+            }
+          }
+        },
+        "expansion": {
+          "data": {
+            "id": 45,
+            "attributes": {
+              "name": "Gamegenic",
+              "description": "",
+              "code": "GG",
+              "createdAt": "2025-02-27T21:30:59.961Z",
+              "updatedAt": "2025-03-03T20:32:38.586Z",
+              "publishedAt": "2025-03-03T20:32:31.414Z",
+              "locale": "fr",
+              "sortValue": 44,
+              "leaderboardStartDate": null,
+              "leaderboardEndDate": null
+            }
+          }
+        },
+        "variantTypes": {
+          "data": [
+            {
+              "id": 63,
+              "attributes": {
+                "name": "Hyperspace Foil",
+                "description": null,
+                "createdAt": "2024-07-15T14:55:32.021Z",
+                "updatedAt": "2024-07-15T19:53:37.738Z",
+                "publishedAt": "2024-07-15T19:53:31.582Z",
+                "locale": "fr",
+                "variantId": "32",
+                "foil": true,
+                "sortValue": 21,
+                "icon": {
+                  "data": {
+                    "id": 8698,
+                    "attributes": {
+                      "name": "icon_hyperspace_foil.png",
+                      "alternativeText": null,
+                      "caption": null,
+                      "width": 144,
+                      "height": 144,
+                      "formats": null,
+                      "hash": "icon_hyperspace_foil_bd8834fef2",
+                      "ext": ".png",
+                      "mime": "image/png",
+                      "size": 2.19,
+                      "url": "https://cdn.starwarsunlimited.com//icon_hyperspace_foil_bd8834fef2.png",
+                      "previewUrl": null,
+                      "provider": "aws-s3",
+                      "provider_metadata": null,
+                      "createdAt": "2024-07-15T14:40:17.037Z",
+                      "updatedAt": "2024-07-15T14:40:17.037Z"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "variantOf": {
+          "data": null
+        },
+        "reprintOf": {
+          "data": {
+            "id": 586,
+            "attributes": {
+              "title": "Base Echo",
+              "subtitle": null,
+              "cardNumber": 24,
+              "cardCount": 252,
+              "artist": "Stephen Zavala",
+              "artFrontHorizontal": true,
+              "artBackHorizontal": null,
+              "hasFoil": false,
+              "cost": null,
+              "hp": 30,
+              "power": null,
+              "text": null,
+              "textStyled": "",
+              "deployBox": null,
+              "deployBoxStyled": "",
+              "epicAction": null,
+              "epicActionStyled": "",
+              "linkHtml": "<a href=\"/cards?cid=2055904747\" class=\"card-tooltip\" data-card=\"2055904747\">Base Echo</a>",
+              "cardId": null,
+              "createdAt": "2023-11-29T18:40:08.092Z",
+              "updatedAt": "2024-07-15T17:48:34.785Z",
+              "publishedAt": "2024-01-12T23:13:12.339Z",
+              "locale": "fr",
+              "hyperspace": false,
+              "unique": false,
+              "showcase": false,
+              "cardUid": "2055904747",
+              "rules": null,
+              "rulesStyled": null,
+              "serialCode": "0101024",
+              "upgradeHp": null,
+              "upgradePower": null
+            }
+          }
+        },
+        "validationId": "2055904747"
+      }
+    },
+    {
+      "id": 25514,
+      "attributes": {
+        "cardNumber": 3,
+        "title": "Catacombs of Cadera",
+        "subtitle": null,
+        "cardCount": 0,
+        "artist": "EJ Dela Cruz",
+        "artFrontHorizontal": true,
+        "artBackHorizontal": null,
+        "hasFoil": true,
+        "cost": null,
+        "hp": 30,
+        "power": null,
+        "text": null,
+        "textStyled": "",
+        "deployBox": null,
+        "deployBoxStyled": "",
+        "epicAction": null,
+        "epicActionStyled": "",
+        "linkHtml": "<a href=\"/cards?cid=5821036108\" class=\"card-tooltip\" data-card=\"5821036108\">Catacombs of Cadera</a>",
+        "cardId": null,
+        "createdAt": "2025-02-28T21:17:06.797Z",
+        "updatedAt": "2025-03-03T18:51:29.630Z",
+        "publishedAt": "2025-03-03T06:00:00.000Z",
+        "locale": "fr",
+        "hyperspace": false,
+        "unique": false,
+        "showcase": false,
+        "cardUid": "5821036108",
+        "rules": null,
+        "rulesStyled": "",
+        "serialCode": "gg320003",
+        "upgradeHp": null,
+        "upgradePower": null,
+        "artFront": {
+          "data": {
+            "id": 28990,
+            "attributes": {
+              "name": "GG320003EN_Catacombs_of_Cadera.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 419,
+              "height": 300,
+              "formats": {
+                "card": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//card_GG_320003_EN_Catacombs_of_Cadera_70a0eaa2f7.png",
+                  "hash": "card_GG_320003_EN_Catacombs_of_Cadera_70a0eaa2f7",
+                  "mime": "image/png",
+                  "name": "card_GG320003EN_Catacombs_of_Cadera.png",
+                  "path": null,
+                  "size": 336.87,
+                  "width": 400,
+                  "height": 286
+                },
+                "xsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xsmall_GG_320003_EN_Catacombs_of_Cadera_70a0eaa2f7.png",
+                  "hash": "xsmall_GG_320003_EN_Catacombs_of_Cadera_70a0eaa2f7",
+                  "mime": "image/png",
+                  "name": "xsmall_GG320003EN_Catacombs_of_Cadera.png",
+                  "path": null,
+                  "size": 195.93,
+                  "width": 300,
+                  "height": 215
+                },
+                "xxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxsmall_GG_320003_EN_Catacombs_of_Cadera_70a0eaa2f7.png",
+                  "hash": "xxsmall_GG_320003_EN_Catacombs_of_Cadera_70a0eaa2f7",
+                  "mime": "image/png",
+                  "name": "xxsmall_GG320003EN_Catacombs_of_Cadera.png",
+                  "path": null,
+                  "size": 90.04,
+                  "width": 200,
+                  "height": 143
+                },
+                "xxxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxxsmall_GG_320003_EN_Catacombs_of_Cadera_70a0eaa2f7.png",
+                  "hash": "xxxsmall_GG_320003_EN_Catacombs_of_Cadera_70a0eaa2f7",
+                  "mime": "image/png",
+                  "name": "xxxsmall_GG320003EN_Catacombs_of_Cadera.png",
+                  "path": null,
+                  "size": 51.57,
+                  "width": 150,
+                  "height": 107
+                },
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//thumbnail_GG_320003_EN_Catacombs_of_Cadera_70a0eaa2f7.png",
+                  "hash": "thumbnail_GG_320003_EN_Catacombs_of_Cadera_70a0eaa2f7",
+                  "mime": "image/png",
+                  "name": "thumbnail_GG320003EN_Catacombs_of_Cadera.png",
+                  "path": null,
+                  "size": 138.26,
+                  "width": 250,
+                  "height": 179
+                }
+              },
+              "hash": "GG_320003_EN_Catacombs_of_Cadera_70a0eaa2f7",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 96.41,
+              "url": "https://cdn.starwarsunlimited.com//GG_320003_EN_Catacombs_of_Cadera_70a0eaa2f7.png",
+              "previewUrl": null,
+              "provider": "aws-s3",
+              "provider_metadata": null,
+              "createdAt": "2025-02-28T21:51:52.406Z",
+              "updatedAt": "2025-02-28T21:51:52.406Z"
+            }
+          }
+        },
+        "artBack": {
+          "data": null
+        },
+        "artThumbnail": {
+          "data": {
+            "id": 27786,
+            "attributes": {
+              "name": "GG320003EN_Catacombs_of_Cadera_Thumbnail.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 300,
+              "height": 100,
+              "formats": {
+                "xxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxsmall_GG_320003_EN_Catacombs_of_Cadera_Thumbnail_7d8d80c780.png",
+                  "hash": "xxsmall_GG_320003_EN_Catacombs_of_Cadera_Thumbnail_7d8d80c780",
+                  "mime": "image/png",
+                  "name": "xxsmall_GG320003EN_Catacombs_of_Cadera_Thumbnail.png",
+                  "path": null,
+                  "size": 40.12,
+                  "width": 200,
+                  "height": 67
+                },
+                "xxxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxxsmall_GG_320003_EN_Catacombs_of_Cadera_Thumbnail_7d8d80c780.png",
+                  "hash": "xxxsmall_GG_320003_EN_Catacombs_of_Cadera_Thumbnail_7d8d80c780",
+                  "mime": "image/png",
+                  "name": "xxxsmall_GG320003EN_Catacombs_of_Cadera_Thumbnail.png",
+                  "path": null,
+                  "size": 22.51,
+                  "width": 150,
+                  "height": 50
+                },
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//thumbnail_GG_320003_EN_Catacombs_of_Cadera_Thumbnail_7d8d80c780.png",
+                  "hash": "thumbnail_GG_320003_EN_Catacombs_of_Cadera_Thumbnail_7d8d80c780",
+                  "mime": "image/png",
+                  "name": "thumbnail_GG320003EN_Catacombs_of_Cadera_Thumbnail.png",
+                  "path": null,
+                  "size": 62.02,
+                  "width": 250,
+                  "height": 83
+                }
+              },
+              "hash": "GG_320003_EN_Catacombs_of_Cadera_Thumbnail_7d8d80c780",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 29.48,
+              "url": "https://cdn.starwarsunlimited.com//GG_320003_EN_Catacombs_of_Cadera_Thumbnail_7d8d80c780.png",
+              "previewUrl": null,
+              "provider": "aws-s3",
+              "provider_metadata": null,
+              "createdAt": "2025-02-27T21:30:31.780Z",
+              "updatedAt": "2025-02-27T21:30:31.780Z"
+            }
+          }
+        },
+        "localizations": {
+          "data": [
+            {
+              "id": 25515,
+              "attributes": {
+                "title": "Catacombs of Cadera",
+                "subtitle": null,
+                "cardNumber": 3,
+                "cardCount": 0,
+                "artist": "EJ Dela Cruz",
+                "artFrontHorizontal": true,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": null,
+                "hp": 30,
+                "power": null,
+                "text": null,
+                "textStyled": "",
+                "deployBox": null,
+                "deployBoxStyled": "",
+                "epicAction": null,
+                "epicActionStyled": "",
+                "linkHtml": "<a href=\"/cards?cid=5821036108\" class=\"card-tooltip\" data-card=\"5821036108\">Catacombs of Cadera</a>",
+                "cardId": null,
+                "createdAt": "2025-02-28T21:17:07.821Z",
+                "updatedAt": "2025-03-03T18:51:29.412Z",
+                "publishedAt": "2025-03-03T06:00:00.000Z",
+                "locale": "de",
+                "hyperspace": false,
+                "unique": false,
+                "showcase": false,
+                "cardUid": "5821036108",
+                "rules": null,
+                "rulesStyled": "",
+                "serialCode": "gg320003",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            },
+            {
+              "id": 25511,
+              "attributes": {
+                "title": "Catacombs of Cadera",
+                "subtitle": null,
+                "cardNumber": 3,
+                "cardCount": 0,
+                "artist": "EJ Dela Cruz",
+                "artFrontHorizontal": true,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": null,
+                "hp": 30,
+                "power": null,
+                "text": null,
+                "textStyled": "",
+                "deployBox": null,
+                "deployBoxStyled": "",
+                "epicAction": null,
+                "epicActionStyled": "",
+                "linkHtml": "<a href=\"/cards?cid=5821036108\" class=\"card-tooltip\" data-card=\"5821036108\">Catacombs of Cadera</a>",
+                "cardId": null,
+                "createdAt": "2025-02-28T21:17:03.535Z",
+                "updatedAt": "2025-03-03T18:51:29.208Z",
+                "publishedAt": "2025-03-03T06:00:00.000Z",
+                "locale": "en",
+                "hyperspace": false,
+                "unique": false,
+                "showcase": false,
+                "cardUid": "5821036108",
+                "rules": null,
+                "rulesStyled": "",
+                "serialCode": "gg320003",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            },
+            {
+              "id": 25513,
+              "attributes": {
+                "title": "Catacombs of Cadera",
+                "subtitle": null,
+                "cardNumber": 3,
+                "cardCount": 0,
+                "artist": "EJ Dela Cruz",
+                "artFrontHorizontal": true,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": null,
+                "hp": 30,
+                "power": null,
+                "text": null,
+                "textStyled": "",
+                "deployBox": null,
+                "deployBoxStyled": "",
+                "epicAction": null,
+                "epicActionStyled": "",
+                "linkHtml": "<a href=\"/cards?cid=5821036108\" class=\"card-tooltip\" data-card=\"5821036108\">Catacombs of Cadera</a>",
+                "cardId": null,
+                "createdAt": "2025-02-28T21:17:05.775Z",
+                "updatedAt": "2025-03-03T18:51:29.844Z",
+                "publishedAt": "2025-03-03T06:00:00.000Z",
+                "locale": "es",
+                "hyperspace": false,
+                "unique": false,
+                "showcase": false,
+                "cardUid": "5821036108",
+                "rules": null,
+                "rulesStyled": "",
+                "serialCode": "gg320003",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            },
+            {
+              "id": 25512,
+              "attributes": {
+                "title": "Catacombs of Cadera",
+                "subtitle": null,
+                "cardNumber": 3,
+                "cardCount": 0,
+                "artist": "EJ Dela Cruz",
+                "artFrontHorizontal": true,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": null,
+                "hp": 30,
+                "power": null,
+                "text": null,
+                "textStyled": "",
+                "deployBox": null,
+                "deployBoxStyled": "",
+                "epicAction": null,
+                "epicActionStyled": "",
+                "linkHtml": "<a href=\"/cards?cid=5821036108\" class=\"card-tooltip\" data-card=\"5821036108\">Catacombs of Cadera</a>",
+                "cardId": null,
+                "createdAt": "2025-02-28T21:17:04.543Z",
+                "updatedAt": "2025-03-03T18:51:30.047Z",
+                "publishedAt": "2025-03-03T06:00:00.000Z",
+                "locale": "it",
+                "hyperspace": false,
+                "unique": false,
+                "showcase": false,
+                "cardUid": "5821036108",
+                "rules": null,
+                "rulesStyled": "",
+                "serialCode": "gg320003",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "data": [
+            {
+              "id": 14,
+              "attributes": {
+                "name": "Agressivité",
+                "description": "<p>Attaquer avec un maximum d’efficacité et infliger énormément de dégâts. Cette affinité convient parfaitement aux joueurs qui aiment un style de jeu rapide et agressif, brisant les défenses adverses et se ruant vers la victoire quel que soit le prix à payer.</p>",
+                "color": "#d30808",
+                "createdAt": "2023-08-10T21:10:46.362Z",
+                "updatedAt": "2024-07-15T21:39:33.927Z",
+                "publishedAt": "2024-01-02T18:23:52.395Z",
+                "locale": "fr",
+                "englishName": "Aggression",
+                "sortValue": 10
+              }
+            }
+          ]
+        },
+        "aspectDuplicates": {
+          "data": []
+        },
+        "type": {
+          "data": {
+            "id": 13,
+            "attributes": {
+              "name": "Base",
+              "description": "",
+              "value": "Base",
+              "createdAt": "2023-08-15T18:02:39.563Z",
+              "updatedAt": "2024-04-25T13:53:09.133Z",
+              "publishedAt": "2024-01-04T21:28:55.550Z",
+              "locale": "fr",
+              "sortValue": 2
+            }
+          }
+        },
+        "type2": {
+          "data": null
+        },
+        "traits": {
+          "data": []
+        },
+        "arenas": {
+          "data": []
+        },
+        "keywords": {
+          "data": []
+        },
+        "rarity": {
+          "data": {
+            "id": 4,
+            "attributes": {
+              "name": "Commune",
+              "character": "C",
+              "color": "#964d02",
+              "createdAt": "2023-08-14T21:22:45.653Z",
+              "updatedAt": "2025-06-17T22:15:21.748Z",
+              "publishedAt": "2024-01-04T16:40:07.939Z",
+              "locale": "fr",
+              "englishName": "Common",
+              "sortValue": 2
+            }
+          }
+        },
+        "expansion": {
+          "data": {
+            "id": 45,
+            "attributes": {
+              "name": "Gamegenic",
+              "description": "",
+              "code": "GG",
+              "createdAt": "2025-02-27T21:30:59.961Z",
+              "updatedAt": "2025-03-03T20:32:38.586Z",
+              "publishedAt": "2025-03-03T20:32:31.414Z",
+              "locale": "fr",
+              "sortValue": 44,
+              "leaderboardStartDate": null,
+              "leaderboardEndDate": null
+            }
+          }
+        },
+        "variantTypes": {
+          "data": [
+            {
+              "id": 63,
+              "attributes": {
+                "name": "Hyperspace Foil",
+                "description": null,
+                "createdAt": "2024-07-15T14:55:32.021Z",
+                "updatedAt": "2024-07-15T19:53:37.738Z",
+                "publishedAt": "2024-07-15T19:53:31.582Z",
+                "locale": "fr",
+                "variantId": "32",
+                "foil": true,
+                "sortValue": 21,
+                "icon": {
+                  "data": {
+                    "id": 8698,
+                    "attributes": {
+                      "name": "icon_hyperspace_foil.png",
+                      "alternativeText": null,
+                      "caption": null,
+                      "width": 144,
+                      "height": 144,
+                      "formats": null,
+                      "hash": "icon_hyperspace_foil_bd8834fef2",
+                      "ext": ".png",
+                      "mime": "image/png",
+                      "size": 2.19,
+                      "url": "https://cdn.starwarsunlimited.com//icon_hyperspace_foil_bd8834fef2.png",
+                      "previewUrl": null,
+                      "provider": "aws-s3",
+                      "provider_metadata": null,
+                      "createdAt": "2024-07-15T14:40:17.037Z",
+                      "updatedAt": "2024-07-15T14:40:17.037Z"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "variantOf": {
+          "data": null
+        },
+        "reprintOf": {
+          "data": {
+            "id": 599,
+            "attributes": {
+              "title": "Catacombes de Cadera",
+              "subtitle": null,
+              "cardNumber": 26,
+              "cardCount": 252,
+              "artist": "Tyler Edlin",
+              "artFrontHorizontal": true,
+              "artBackHorizontal": null,
+              "hasFoil": false,
+              "cost": null,
+              "hp": 30,
+              "power": null,
+              "text": null,
+              "textStyled": "",
+              "deployBox": null,
+              "deployBoxStyled": "",
+              "epicAction": null,
+              "epicActionStyled": "",
+              "linkHtml": "<a href=\"/cards?cid=8659924257\" class=\"card-tooltip\" data-card=\"8659924257\">Catacombes de Cadera</a>",
+              "cardId": null,
+              "createdAt": "2023-11-29T19:46:45.741Z",
+              "updatedAt": "2024-07-15T17:48:37.372Z",
+              "publishedAt": "2024-01-12T23:20:20.992Z",
+              "locale": "fr",
+              "hyperspace": false,
+              "unique": false,
+              "showcase": false,
+              "cardUid": "8659924257",
+              "rules": null,
+              "rulesStyled": null,
+              "serialCode": "0101026",
+              "upgradeHp": null,
+              "upgradePower": null
+            }
+          }
+        },
+        "validationId": "8659924257"
+      }
+    },
+    {
+      "id": 25349,
+      "attributes": {
+        "cardNumber": 4,
+        "title": "Jabba's Palace",
+        "subtitle": "",
+        "cardCount": 0,
+        "artist": "Tyler Edlin",
+        "artFrontHorizontal": true,
+        "artBackHorizontal": null,
+        "hasFoil": true,
+        "cost": null,
+        "hp": 30,
+        "power": null,
+        "text": "",
+        "textStyled": "",
+        "deployBox": null,
+        "deployBoxStyled": "",
+        "epicAction": "",
+        "epicActionStyled": "",
+        "linkHtml": "<a href=\"/cards?cid=2537094666\" class=\"card-tooltip\" data-card=\"2537094666\">Jabba's Palace</a>",
+        "cardId": null,
+        "createdAt": "2025-02-28T06:22:12.136Z",
+        "updatedAt": "2025-03-03T18:51:17.732Z",
+        "publishedAt": "2025-03-03T06:00:00.000Z",
+        "locale": "fr",
+        "hyperspace": false,
+        "unique": false,
+        "showcase": false,
+        "cardUid": "2537094666",
+        "rules": null,
+        "rulesStyled": "",
+        "serialCode": "gg320004",
+        "upgradeHp": null,
+        "upgradePower": null,
+        "artFront": {
+          "data": {
+            "id": 28988,
+            "attributes": {
+              "name": "GG320004EN_Jabbas_Palace.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 419,
+              "height": 300,
+              "formats": {
+                "card": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//card_GG_320004_EN_Jabbas_Palace_e7f5003362.png",
+                  "hash": "card_GG_320004_EN_Jabbas_Palace_e7f5003362",
+                  "mime": "image/png",
+                  "name": "card_GG320004EN_Jabbas_Palace.png",
+                  "path": null,
+                  "size": 292.33,
+                  "width": 400,
+                  "height": 286
+                },
+                "xsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xsmall_GG_320004_EN_Jabbas_Palace_e7f5003362.png",
+                  "hash": "xsmall_GG_320004_EN_Jabbas_Palace_e7f5003362",
+                  "mime": "image/png",
+                  "name": "xsmall_GG320004EN_Jabbas_Palace.png",
+                  "path": null,
+                  "size": 173.88,
+                  "width": 300,
+                  "height": 215
+                },
+                "xxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxsmall_GG_320004_EN_Jabbas_Palace_e7f5003362.png",
+                  "hash": "xxsmall_GG_320004_EN_Jabbas_Palace_e7f5003362",
+                  "mime": "image/png",
+                  "name": "xxsmall_GG320004EN_Jabbas_Palace.png",
+                  "path": null,
+                  "size": 82.38,
+                  "width": 200,
+                  "height": 143
+                },
+                "xxxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxxsmall_GG_320004_EN_Jabbas_Palace_e7f5003362.png",
+                  "hash": "xxxsmall_GG_320004_EN_Jabbas_Palace_e7f5003362",
+                  "mime": "image/png",
+                  "name": "xxxsmall_GG320004EN_Jabbas_Palace.png",
+                  "path": null,
+                  "size": 48.43,
+                  "width": 150,
+                  "height": 107
+                },
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//thumbnail_GG_320004_EN_Jabbas_Palace_e7f5003362.png",
+                  "hash": "thumbnail_GG_320004_EN_Jabbas_Palace_e7f5003362",
+                  "mime": "image/png",
+                  "name": "thumbnail_GG320004EN_Jabbas_Palace.png",
+                  "path": null,
+                  "size": 124.8,
+                  "width": 250,
+                  "height": 179
+                }
+              },
+              "hash": "GG_320004_EN_Jabbas_Palace_e7f5003362",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 73.7,
+              "url": "https://cdn.starwarsunlimited.com//GG_320004_EN_Jabbas_Palace_e7f5003362.png",
+              "previewUrl": null,
+              "provider": "aws-s3",
+              "provider_metadata": null,
+              "createdAt": "2025-02-28T20:16:07.387Z",
+              "updatedAt": "2025-02-28T20:16:07.387Z"
+            }
+          }
+        },
+        "artBack": {
+          "data": null
+        },
+        "artThumbnail": {
+          "data": {
+            "id": 27844,
+            "attributes": {
+              "name": "GG320004EN_Jabbas_Palace_Thumbnail.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 300,
+              "height": 100,
+              "formats": {
+                "xxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxsmall_GG_320004_EN_Jabbas_Palace_Thumbnail_9b53953081.png",
+                  "hash": "xxsmall_GG_320004_EN_Jabbas_Palace_Thumbnail_9b53953081",
+                  "mime": "image/png",
+                  "name": "xxsmall_GG320004EN_Jabbas_Palace_Thumbnail.png",
+                  "path": null,
+                  "size": 38.32,
+                  "width": 200,
+                  "height": 67
+                },
+                "xxxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxxsmall_GG_320004_EN_Jabbas_Palace_Thumbnail_9b53953081.png",
+                  "hash": "xxxsmall_GG_320004_EN_Jabbas_Palace_Thumbnail_9b53953081",
+                  "mime": "image/png",
+                  "name": "xxxsmall_GG320004EN_Jabbas_Palace_Thumbnail.png",
+                  "path": null,
+                  "size": 21.84,
+                  "width": 150,
+                  "height": 50
+                },
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//thumbnail_GG_320004_EN_Jabbas_Palace_Thumbnail_9b53953081.png",
+                  "hash": "thumbnail_GG_320004_EN_Jabbas_Palace_Thumbnail_9b53953081",
+                  "mime": "image/png",
+                  "name": "thumbnail_GG320004EN_Jabbas_Palace_Thumbnail.png",
+                  "path": null,
+                  "size": 56.59,
+                  "width": 245,
+                  "height": 82
+                }
+              },
+              "hash": "GG_320004_EN_Jabbas_Palace_Thumbnail_9b53953081",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 23.99,
+              "url": "https://cdn.starwarsunlimited.com//GG_320004_EN_Jabbas_Palace_Thumbnail_9b53953081.png",
+              "previewUrl": null,
+              "provider": "aws-s3",
+              "provider_metadata": null,
+              "createdAt": "2025-02-27T21:31:13.345Z",
+              "updatedAt": "2025-02-27T21:31:13.345Z"
+            }
+          }
+        },
+        "localizations": {
+          "data": [
+            {
+              "id": 25350,
+              "attributes": {
+                "title": "Jabba's Palace",
+                "subtitle": "",
+                "cardNumber": 4,
+                "cardCount": 0,
+                "artist": "Tyler Edlin",
+                "artFrontHorizontal": true,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": null,
+                "hp": 30,
+                "power": null,
+                "text": "",
+                "textStyled": "",
+                "deployBox": null,
+                "deployBoxStyled": "",
+                "epicAction": "",
+                "epicActionStyled": "",
+                "linkHtml": "<a href=\"/cards?cid=2537094666\" class=\"card-tooltip\" data-card=\"2537094666\">Jabba's Palace</a>",
+                "cardId": null,
+                "createdAt": "2025-02-28T06:22:12.442Z",
+                "updatedAt": "2025-03-03T18:51:17.518Z",
+                "publishedAt": "2025-03-03T06:00:00.000Z",
+                "locale": "it",
+                "hyperspace": false,
+                "unique": false,
+                "showcase": false,
+                "cardUid": "2537094666",
+                "rules": null,
+                "rulesStyled": "",
+                "serialCode": "gg320004",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            },
+            {
+              "id": 25346,
+              "attributes": {
+                "title": "Jabba's Palace",
+                "subtitle": "",
+                "cardNumber": 4,
+                "cardCount": 0,
+                "artist": "Tyler Edlin",
+                "artFrontHorizontal": true,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": null,
+                "hp": 30,
+                "power": null,
+                "text": "",
+                "textStyled": "",
+                "deployBox": null,
+                "deployBoxStyled": "",
+                "epicAction": "",
+                "epicActionStyled": "",
+                "linkHtml": "<a href=\"/cards?cid=2537094666\" class=\"card-tooltip\" data-card=\"2537094666\">Jabba's Palace</a>",
+                "cardId": null,
+                "createdAt": "2025-02-28T06:22:11.317Z",
+                "updatedAt": "2025-03-03T18:51:17.295Z",
+                "publishedAt": "2025-03-03T06:00:00.000Z",
+                "locale": "en",
+                "hyperspace": false,
+                "unique": false,
+                "showcase": false,
+                "cardUid": "2537094666",
+                "rules": null,
+                "rulesStyled": "",
+                "serialCode": "gg320004",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            },
+            {
+              "id": 25348,
+              "attributes": {
+                "title": "Jabba's Palace",
+                "subtitle": "",
+                "cardNumber": 4,
+                "cardCount": 0,
+                "artist": "Tyler Edlin",
+                "artFrontHorizontal": true,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": null,
+                "hp": 30,
+                "power": null,
+                "text": "",
+                "textStyled": "",
+                "deployBox": null,
+                "deployBoxStyled": "",
+                "epicAction": "",
+                "epicActionStyled": "",
+                "linkHtml": "<a href=\"/cards?cid=2537094666\" class=\"card-tooltip\" data-card=\"2537094666\">Jabba's Palace</a>",
+                "cardId": null,
+                "createdAt": "2025-02-28T06:22:11.857Z",
+                "updatedAt": "2025-03-03T18:51:17.940Z",
+                "publishedAt": "2025-03-03T06:00:00.000Z",
+                "locale": "es",
+                "hyperspace": false,
+                "unique": false,
+                "showcase": false,
+                "cardUid": "2537094666",
+                "rules": null,
+                "rulesStyled": "",
+                "serialCode": "gg320004",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            },
+            {
+              "id": 25347,
+              "attributes": {
+                "title": "Jabba's Palace",
+                "subtitle": "",
+                "cardNumber": 4,
+                "cardCount": 0,
+                "artist": "Tyler Edlin",
+                "artFrontHorizontal": true,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": null,
+                "hp": 30,
+                "power": null,
+                "text": "",
+                "textStyled": "",
+                "deployBox": null,
+                "deployBoxStyled": "",
+                "epicAction": "",
+                "epicActionStyled": "",
+                "linkHtml": "<a href=\"/cards?cid=2537094666\" class=\"card-tooltip\" data-card=\"2537094666\">Jabba's Palace</a>",
+                "cardId": null,
+                "createdAt": "2025-02-28T06:22:11.602Z",
+                "updatedAt": "2025-03-03T18:51:18.158Z",
+                "publishedAt": "2025-03-03T06:00:00.000Z",
+                "locale": "de",
+                "hyperspace": false,
+                "unique": false,
+                "showcase": false,
+                "cardUid": "2537094666",
+                "rules": null,
+                "rulesStyled": "",
+                "serialCode": "gg320004",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "data": [
+            {
+              "id": 19,
+              "attributes": {
+                "name": "Ruse",
+                "description": "<p>S’adapter à la situation du moment, grâce à de puissants effets instantanés et à une variété de moyens pour perturber les plans de l’adversaire. Cette affinité convient parfaitement à ceux qui préfèrent réagir rapidement aux menaces et avoir une réponse à toutes les actions adverses.</p>",
+                "color": "#eb9f1c",
+                "createdAt": "2023-08-10T21:13:50.160Z",
+                "updatedAt": "2024-07-15T21:39:45.132Z",
+                "publishedAt": "2024-01-02T18:24:48.755Z",
+                "locale": "fr",
+                "englishName": "Cunning",
+                "sortValue": 15
+              }
+            }
+          ]
+        },
+        "aspectDuplicates": {
+          "data": []
+        },
+        "type": {
+          "data": {
+            "id": 13,
+            "attributes": {
+              "name": "Base",
+              "description": "",
+              "value": "Base",
+              "createdAt": "2023-08-15T18:02:39.563Z",
+              "updatedAt": "2024-04-25T13:53:09.133Z",
+              "publishedAt": "2024-01-04T21:28:55.550Z",
+              "locale": "fr",
+              "sortValue": 2
+            }
+          }
+        },
+        "type2": {
+          "data": null
+        },
+        "traits": {
+          "data": []
+        },
+        "arenas": {
+          "data": []
+        },
+        "keywords": {
+          "data": []
+        },
+        "rarity": {
+          "data": {
+            "id": 4,
+            "attributes": {
+              "name": "Commune",
+              "character": "C",
+              "color": "#964d02",
+              "createdAt": "2023-08-14T21:22:45.653Z",
+              "updatedAt": "2025-06-17T22:15:21.748Z",
+              "publishedAt": "2024-01-04T16:40:07.939Z",
+              "locale": "fr",
+              "englishName": "Common",
+              "sortValue": 2
+            }
+          }
+        },
+        "expansion": {
+          "data": {
+            "id": 45,
+            "attributes": {
+              "name": "Gamegenic",
+              "description": "",
+              "code": "GG",
+              "createdAt": "2025-02-27T21:30:59.961Z",
+              "updatedAt": "2025-03-03T20:32:38.586Z",
+              "publishedAt": "2025-03-03T20:32:31.414Z",
+              "locale": "fr",
+              "sortValue": 44,
+              "leaderboardStartDate": null,
+              "leaderboardEndDate": null
+            }
+          }
+        },
+        "variantTypes": {
+          "data": [
+            {
+              "id": 63,
+              "attributes": {
+                "name": "Hyperspace Foil",
+                "description": null,
+                "createdAt": "2024-07-15T14:55:32.021Z",
+                "updatedAt": "2024-07-15T19:53:37.738Z",
+                "publishedAt": "2024-07-15T19:53:31.582Z",
+                "locale": "fr",
+                "variantId": "32",
+                "foil": true,
+                "sortValue": 21,
+                "icon": {
+                  "data": {
+                    "id": 8698,
+                    "attributes": {
+                      "name": "icon_hyperspace_foil.png",
+                      "alternativeText": null,
+                      "caption": null,
+                      "width": 144,
+                      "height": 144,
+                      "formats": null,
+                      "hash": "icon_hyperspace_foil_bd8834fef2",
+                      "ext": ".png",
+                      "mime": "image/png",
+                      "size": 2.19,
+                      "url": "https://cdn.starwarsunlimited.com//icon_hyperspace_foil_bd8834fef2.png",
+                      "previewUrl": null,
+                      "provider": "aws-s3",
+                      "provider_metadata": null,
+                      "createdAt": "2024-07-15T14:40:17.037Z",
+                      "updatedAt": "2024-07-15T14:40:17.037Z"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "variantOf": {
+          "data": null
+        },
+        "reprintOf": {
+          "data": {
+            "id": 5474,
+            "attributes": {
+              "title": "Palais de Jabba",
+              "subtitle": "",
+              "cardNumber": 26,
+              "cardCount": 262,
+              "artist": "Tyler Edlin",
+              "artFrontHorizontal": true,
+              "artBackHorizontal": null,
+              "hasFoil": false,
+              "cost": null,
+              "hp": 30,
+              "power": null,
+              "text": "",
+              "textStyled": "<p></p>",
+              "deployBox": null,
+              "deployBoxStyled": null,
+              "epicAction": null,
+              "epicActionStyled": null,
+              "linkHtml": "<a href=\"/cards?cid=9617095664\" class=\"card-tooltip\" data-card=\"9617095664\">Palais de Jabba</a>",
+              "cardId": null,
+              "createdAt": "2024-04-26T15:38:07.221Z",
+              "updatedAt": "2024-07-15T18:02:57.168Z",
+              "publishedAt": "2024-06-27T00:00:00.000Z",
+              "locale": "fr",
+              "hyperspace": false,
+              "unique": false,
+              "showcase": false,
+              "cardUid": "9617095664",
+              "rules": null,
+              "rulesStyled": null,
+              "serialCode": "0201026",
+              "upgradeHp": null,
+              "upgradePower": null
+            }
+          }
+        },
+        "validationId": "9617095664"
+      }
+    },
+    {
+      "id": 25534,
+      "attributes": {
+        "cardNumber": 5,
+        "title": "Expérience",
+        "subtitle": null,
+        "cardCount": 0,
+        "artist": "David Buisan",
+        "artFrontHorizontal": false,
+        "artBackHorizontal": null,
+        "hasFoil": true,
+        "cost": 0,
+        "hp": null,
+        "power": null,
+        "text": null,
+        "textStyled": "",
+        "deployBox": null,
+        "deployBoxStyled": "",
+        "epicAction": null,
+        "epicActionStyled": "",
+        "linkHtml": "<a href=\"/cards?cid=3322369493\" class=\"card-tooltip\" data-card=\"3322369493\">Expérience</a>",
+        "cardId": null,
+        "createdAt": "2025-02-28T21:17:30.114Z",
+        "updatedAt": "2025-03-03T18:51:30.680Z",
+        "publishedAt": "2025-03-03T06:00:00.000Z",
+        "locale": "fr",
+        "hyperspace": false,
+        "unique": false,
+        "showcase": false,
+        "cardUid": "3322369493",
+        "rules": null,
+        "rulesStyled": null,
+        "serialCode": "gg320005",
+        "upgradeHp": 1,
+        "upgradePower": 1,
+        "artFront": {
+          "data": {
+            "id": 28488,
+            "attributes": {
+              "name": "GG320005FR_ExperiFRce.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 300,
+              "height": 419,
+              "formats": {
+                "card": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//card_GG_320005_FR_Experi_F_Rce_09fec48ade.png",
+                  "hash": "card_GG_320005_FR_Experi_F_Rce_09fec48ade",
+                  "mime": "image/png",
+                  "name": "card_GG320005FR_ExperiFRce.png",
+                  "path": null,
+                  "size": 304.31,
+                  "width": 286,
+                  "height": 400
+                },
+                "xsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xsmall_GG_320005_FR_Experi_F_Rce_09fec48ade.png",
+                  "hash": "xsmall_GG_320005_FR_Experi_F_Rce_09fec48ade",
+                  "mime": "image/png",
+                  "name": "xsmall_GG320005FR_ExperiFRce.png",
+                  "path": null,
+                  "size": 182.55,
+                  "width": 215,
+                  "height": 300
+                },
+                "xxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxsmall_GG_320005_FR_Experi_F_Rce_09fec48ade.png",
+                  "hash": "xxsmall_GG_320005_FR_Experi_F_Rce_09fec48ade",
+                  "mime": "image/png",
+                  "name": "xxsmall_GG320005FR_ExperiFRce.png",
+                  "path": null,
+                  "size": 85.18,
+                  "width": 143,
+                  "height": 200
+                },
+                "xxxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxxsmall_GG_320005_FR_Experi_F_Rce_09fec48ade.png",
+                  "hash": "xxxsmall_GG_320005_FR_Experi_F_Rce_09fec48ade",
+                  "mime": "image/png",
+                  "name": "xxxsmall_GG320005FR_ExperiFRce.png",
+                  "path": null,
+                  "size": 49.21,
+                  "width": 107,
+                  "height": 150
+                },
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//thumbnail_GG_320005_FR_Experi_F_Rce_09fec48ade.png",
+                  "hash": "thumbnail_GG_320005_FR_Experi_F_Rce_09fec48ade",
+                  "mime": "image/png",
+                  "name": "thumbnail_GG320005FR_ExperiFRce.png",
+                  "path": null,
+                  "size": 129.7,
+                  "width": 179,
+                  "height": 250
+                }
+              },
+              "hash": "GG_320005_FR_Experi_F_Rce_09fec48ade",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 71.83,
+              "url": "https://cdn.starwarsunlimited.com//GG_320005_FR_Experi_F_Rce_09fec48ade.png",
+              "previewUrl": null,
+              "provider": "aws-s3",
+              "provider_metadata": null,
+              "createdAt": "2025-02-27T21:48:28.084Z",
+              "updatedAt": "2025-02-27T21:48:28.084Z"
+            }
+          }
+        },
+        "artBack": {
+          "data": null
+        },
+        "artThumbnail": {
+          "data": {
+            "id": 27731,
+            "attributes": {
+              "name": "GG320005EN_Experience_Thumbnail.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 300,
+              "height": 100,
+              "formats": {
+                "xxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxsmall_GG_320005_EN_Experience_Thumbnail_6dd24baaac.png",
+                  "hash": "xxsmall_GG_320005_EN_Experience_Thumbnail_6dd24baaac",
+                  "mime": "image/png",
+                  "name": "xxsmall_GG320005EN_Experience_Thumbnail.png",
+                  "path": null,
+                  "size": 38.23,
+                  "width": 200,
+                  "height": 67
+                },
+                "xxxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxxsmall_GG_320005_EN_Experience_Thumbnail_6dd24baaac.png",
+                  "hash": "xxxsmall_GG_320005_EN_Experience_Thumbnail_6dd24baaac",
+                  "mime": "image/png",
+                  "name": "xxxsmall_GG320005EN_Experience_Thumbnail.png",
+                  "path": null,
+                  "size": 21.78,
+                  "width": 150,
+                  "height": 50
+                },
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//thumbnail_GG_320005_EN_Experience_Thumbnail_6dd24baaac.png",
+                  "hash": "thumbnail_GG_320005_EN_Experience_Thumbnail_6dd24baaac",
+                  "mime": "image/png",
+                  "name": "thumbnail_GG320005EN_Experience_Thumbnail.png",
+                  "path": null,
+                  "size": 58.42,
+                  "width": 250,
+                  "height": 83
+                }
+              },
+              "hash": "GG_320005_EN_Experience_Thumbnail_6dd24baaac",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 24.09,
+              "url": "https://cdn.starwarsunlimited.com//GG_320005_EN_Experience_Thumbnail_6dd24baaac.png",
+              "previewUrl": null,
+              "provider": "aws-s3",
+              "provider_metadata": null,
+              "createdAt": "2025-02-27T21:29:53.862Z",
+              "updatedAt": "2025-02-27T21:29:53.862Z"
+            }
+          }
+        },
+        "localizations": {
+          "data": [
+            {
+              "id": 25535,
+              "attributes": {
+                "title": "Erfahrung",
+                "subtitle": null,
+                "cardNumber": 5,
+                "cardCount": 0,
+                "artist": "David Buisan",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": 0,
+                "hp": null,
+                "power": null,
+                "text": null,
+                "textStyled": "",
+                "deployBox": null,
+                "deployBoxStyled": "",
+                "epicAction": null,
+                "epicActionStyled": "",
+                "linkHtml": "<a href=\"/cards?cid=3322369493\" class=\"card-tooltip\" data-card=\"3322369493\">Erfahrung</a>",
+                "cardId": null,
+                "createdAt": "2025-02-28T21:17:31.073Z",
+                "updatedAt": "2025-03-03T18:51:30.475Z",
+                "publishedAt": "2025-03-03T06:00:00.000Z",
+                "locale": "de",
+                "hyperspace": false,
+                "unique": false,
+                "showcase": false,
+                "cardUid": "3322369493",
+                "rules": null,
+                "rulesStyled": null,
+                "serialCode": "gg320005",
+                "upgradeHp": 1,
+                "upgradePower": 1
+              }
+            },
+            {
+              "id": 25531,
+              "attributes": {
+                "title": "Experience",
+                "subtitle": null,
+                "cardNumber": 5,
+                "cardCount": 0,
+                "artist": "David Buisan",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": 0,
+                "hp": null,
+                "power": null,
+                "text": null,
+                "textStyled": "",
+                "deployBox": null,
+                "deployBoxStyled": "",
+                "epicAction": null,
+                "epicActionStyled": "",
+                "linkHtml": "<a href=\"/cards?cid=3322369493\" class=\"card-tooltip\" data-card=\"3322369493\">Experience</a>",
+                "cardId": null,
+                "createdAt": "2025-02-28T21:17:27.268Z",
+                "updatedAt": "2025-03-03T18:51:30.260Z",
+                "publishedAt": "2025-03-03T06:00:00.000Z",
+                "locale": "en",
+                "hyperspace": false,
+                "unique": false,
+                "showcase": false,
+                "cardUid": "3322369493",
+                "rules": null,
+                "rulesStyled": null,
+                "serialCode": "gg320005",
+                "upgradeHp": 1,
+                "upgradePower": 1
+              }
+            },
+            {
+              "id": 25533,
+              "attributes": {
+                "title": "Experiencia",
+                "subtitle": null,
+                "cardNumber": 5,
+                "cardCount": 0,
+                "artist": "David Buisan",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": 0,
+                "hp": null,
+                "power": null,
+                "text": null,
+                "textStyled": "",
+                "deployBox": null,
+                "deployBoxStyled": "",
+                "epicAction": null,
+                "epicActionStyled": "",
+                "linkHtml": "<a href=\"/cards?cid=3322369493\" class=\"card-tooltip\" data-card=\"3322369493\">Experiencia</a>",
+                "cardId": null,
+                "createdAt": "2025-02-28T21:17:29.100Z",
+                "updatedAt": "2025-03-03T18:51:30.899Z",
+                "publishedAt": "2025-03-03T06:00:00.000Z",
+                "locale": "es",
+                "hyperspace": false,
+                "unique": false,
+                "showcase": false,
+                "cardUid": "3322369493",
+                "rules": null,
+                "rulesStyled": null,
+                "serialCode": "gg320005",
+                "upgradeHp": 1,
+                "upgradePower": 1
+              }
+            },
+            {
+              "id": 25532,
+              "attributes": {
+                "title": "Esperienza",
+                "subtitle": null,
+                "cardNumber": 5,
+                "cardCount": 0,
+                "artist": "David Buisan",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": 0,
+                "hp": null,
+                "power": null,
+                "text": null,
+                "textStyled": "",
+                "deployBox": null,
+                "deployBoxStyled": "",
+                "epicAction": null,
+                "epicActionStyled": "",
+                "linkHtml": "<a href=\"/cards?cid=3322369493\" class=\"card-tooltip\" data-card=\"3322369493\">Esperienza</a>",
+                "cardId": null,
+                "createdAt": "2025-02-28T21:17:28.204Z",
+                "updatedAt": "2025-03-03T18:51:31.118Z",
+                "publishedAt": "2025-03-03T06:00:00.000Z",
+                "locale": "it",
+                "hyperspace": false,
+                "unique": false,
+                "showcase": false,
+                "cardUid": "3322369493",
+                "rules": null,
+                "rulesStyled": null,
+                "serialCode": "gg320005",
+                "upgradeHp": 1,
+                "upgradePower": 1
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "data": []
+        },
+        "aspectDuplicates": {
+          "data": []
+        },
+        "type": {
+          "data": {
+            "id": 25,
+            "attributes": {
+              "name": "Jeton Amélioration",
+              "description": "",
+              "value": "Token",
+              "createdAt": "2023-08-15T18:04:09.135Z",
+              "updatedAt": "2024-11-19T22:37:07.263Z",
+              "publishedAt": "2024-01-04T21:29:10.694Z",
+              "locale": "fr",
+              "sortValue": 4
+            }
+          }
+        },
+        "type2": {
+          "data": null
+        },
+        "traits": {
+          "data": [
+            {
+              "id": 134,
+              "attributes": {
+                "name": "Acquis",
+                "description": "",
+                "createdAt": "2023-08-15T15:45:14.411Z",
+                "updatedAt": "2024-01-04T21:10:01.216Z",
+                "publishedAt": "2024-01-04T21:10:01.212Z",
+                "locale": "fr"
+              }
+            }
+          ]
+        },
+        "arenas": {
+          "data": []
+        },
+        "keywords": {
+          "data": []
+        },
+        "rarity": {
+          "data": {
+            "id": 4,
+            "attributes": {
+              "name": "Commune",
+              "character": "C",
+              "color": "#964d02",
+              "createdAt": "2023-08-14T21:22:45.653Z",
+              "updatedAt": "2025-06-17T22:15:21.748Z",
+              "publishedAt": "2024-01-04T16:40:07.939Z",
+              "locale": "fr",
+              "englishName": "Common",
+              "sortValue": 2
+            }
+          }
+        },
+        "expansion": {
+          "data": {
+            "id": 45,
+            "attributes": {
+              "name": "Gamegenic",
+              "description": "",
+              "code": "GG",
+              "createdAt": "2025-02-27T21:30:59.961Z",
+              "updatedAt": "2025-03-03T20:32:38.586Z",
+              "publishedAt": "2025-03-03T20:32:31.414Z",
+              "locale": "fr",
+              "sortValue": 44,
+              "leaderboardStartDate": null,
+              "leaderboardEndDate": null
+            }
+          }
+        },
+        "variantTypes": {
+          "data": [
+            {
+              "id": 63,
+              "attributes": {
+                "name": "Hyperspace Foil",
+                "description": null,
+                "createdAt": "2024-07-15T14:55:32.021Z",
+                "updatedAt": "2024-07-15T19:53:37.738Z",
+                "publishedAt": "2024-07-15T19:53:31.582Z",
+                "locale": "fr",
+                "variantId": "32",
+                "foil": true,
+                "sortValue": 21,
+                "icon": {
+                  "data": {
+                    "id": 8698,
+                    "attributes": {
+                      "name": "icon_hyperspace_foil.png",
+                      "alternativeText": null,
+                      "caption": null,
+                      "width": 144,
+                      "height": 144,
+                      "formats": null,
+                      "hash": "icon_hyperspace_foil_bd8834fef2",
+                      "ext": ".png",
+                      "mime": "image/png",
+                      "size": 2.19,
+                      "url": "https://cdn.starwarsunlimited.com//icon_hyperspace_foil_bd8834fef2.png",
+                      "previewUrl": null,
+                      "provider": "aws-s3",
+                      "provider_metadata": null,
+                      "createdAt": "2024-07-15T14:40:17.037Z",
+                      "updatedAt": "2024-07-15T14:40:17.037Z"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "variantOf": {
+          "data": null
+        },
+        "reprintOf": {
+          "data": {
+            "id": 227,
+            "attributes": {
+              "title": "Expérience",
+              "subtitle": null,
+              "cardNumber": 1,
+              "cardCount": 4,
+              "artist": "Mona Finden",
+              "artFrontHorizontal": false,
+              "artBackHorizontal": null,
+              "hasFoil": false,
+              "cost": 0,
+              "hp": null,
+              "power": null,
+              "text": null,
+              "textStyled": "",
+              "deployBox": null,
+              "deployBoxStyled": "",
+              "epicAction": null,
+              "epicActionStyled": "",
+              "linkHtml": "<a href=\"/cards?cid=2007868442\" class=\"card-tooltip\" data-card=\"2007868442\">Expérience</a>",
+              "cardId": "2007868442",
+              "createdAt": "2023-09-01T16:18:19.279Z",
+              "updatedAt": "2024-07-15T17:48:08.358Z",
+              "publishedAt": "2023-09-01T16:18:22.328Z",
+              "locale": "fr",
+              "hyperspace": false,
+              "unique": false,
+              "showcase": false,
+              "cardUid": "2007868442",
+              "rules": null,
+              "rulesStyled": "",
+              "serialCode": "0101T01",
+              "upgradeHp": 1,
+              "upgradePower": 1
+            }
+          }
+        },
+        "validationId": "2007868442"
+      }
+    },
+    {
+      "id": 25559,
+      "attributes": {
+        "cardNumber": 6,
+        "title": "Bouclier",
+        "subtitle": null,
+        "cardCount": 0,
+        "artist": "EJ Dela Cruz",
+        "artFrontHorizontal": false,
+        "artBackHorizontal": null,
+        "hasFoil": true,
+        "cost": 0,
+        "hp": null,
+        "power": null,
+        "text": "If damage would be dealt to attached unit, prevent that damage. If you do, defeat a Shield token on it.",
+        "textStyled": "<p>If damage would be dealt to attached unit, prevent that damage. If you do, defeat a Shield token on it.</p>",
+        "deployBox": null,
+        "deployBoxStyled": "",
+        "epicAction": null,
+        "epicActionStyled": "",
+        "linkHtml": "<a href=\"/cards?cid=2831743136\" class=\"card-tooltip\" data-card=\"2831743136\">Bouclier</a>",
+        "cardId": null,
+        "createdAt": "2025-02-28T21:17:56.148Z",
+        "updatedAt": "2025-03-03T18:51:31.767Z",
+        "publishedAt": "2025-03-03T06:00:00.000Z",
+        "locale": "fr",
+        "hyperspace": false,
+        "unique": false,
+        "showcase": false,
+        "cardUid": "2831743136",
+        "rules": null,
+        "rulesStyled": null,
+        "serialCode": "gg320006",
+        "upgradeHp": null,
+        "upgradePower": null,
+        "artFront": {
+          "data": {
+            "id": 28334,
+            "attributes": {
+              "name": "GG320006FR_Shield.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 300,
+              "height": 419,
+              "formats": {
+                "card": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//card_GG_320006_FR_Shield_e749b12b5b.png",
+                  "hash": "card_GG_320006_FR_Shield_e749b12b5b",
+                  "mime": "image/png",
+                  "name": "card_GG320006FR_Shield.png",
+                  "path": null,
+                  "size": 264.62,
+                  "width": 286,
+                  "height": 400
+                },
+                "xsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xsmall_GG_320006_FR_Shield_e749b12b5b.png",
+                  "hash": "xsmall_GG_320006_FR_Shield_e749b12b5b",
+                  "mime": "image/png",
+                  "name": "xsmall_GG320006FR_Shield.png",
+                  "path": null,
+                  "size": 157.63,
+                  "width": 215,
+                  "height": 300
+                },
+                "xxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxsmall_GG_320006_FR_Shield_e749b12b5b.png",
+                  "hash": "xxsmall_GG_320006_FR_Shield_e749b12b5b",
+                  "mime": "image/png",
+                  "name": "xxsmall_GG320006FR_Shield.png",
+                  "path": null,
+                  "size": 73.81,
+                  "width": 143,
+                  "height": 200
+                },
+                "xxxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxxsmall_GG_320006_FR_Shield_e749b12b5b.png",
+                  "hash": "xxxsmall_GG_320006_FR_Shield_e749b12b5b",
+                  "mime": "image/png",
+                  "name": "xxxsmall_GG320006FR_Shield.png",
+                  "path": null,
+                  "size": 42.79,
+                  "width": 107,
+                  "height": 150
+                },
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//thumbnail_GG_320006_FR_Shield_e749b12b5b.png",
+                  "hash": "thumbnail_GG_320006_FR_Shield_e749b12b5b",
+                  "mime": "image/png",
+                  "name": "thumbnail_GG320006FR_Shield.png",
+                  "path": null,
+                  "size": 112.34,
+                  "width": 179,
+                  "height": 250
+                }
+              },
+              "hash": "GG_320006_FR_Shield_e749b12b5b",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 77.7,
+              "url": "https://cdn.starwarsunlimited.com//GG_320006_FR_Shield_e749b12b5b.png",
+              "previewUrl": null,
+              "provider": "aws-s3",
+              "provider_metadata": null,
+              "createdAt": "2025-02-27T21:45:51.251Z",
+              "updatedAt": "2025-02-27T21:45:51.251Z"
+            }
+          }
+        },
+        "artBack": {
+          "data": null
+        },
+        "artThumbnail": {
+          "data": {
+            "id": 27778,
+            "attributes": {
+              "name": "GG320006EN_Shield_Thumbnail.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 298,
+              "height": 100,
+              "formats": {
+                "xxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxsmall_GG_320006_EN_Shield_Thumbnail_2b40dfec9f.png",
+                  "hash": "xxsmall_GG_320006_EN_Shield_Thumbnail_2b40dfec9f",
+                  "mime": "image/png",
+                  "name": "xxsmall_GG320006EN_Shield_Thumbnail.png",
+                  "path": null,
+                  "size": 39.33,
+                  "width": 200,
+                  "height": 67
+                },
+                "xxxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxxsmall_GG_320006_EN_Shield_Thumbnail_2b40dfec9f.png",
+                  "hash": "xxxsmall_GG_320006_EN_Shield_Thumbnail_2b40dfec9f",
+                  "mime": "image/png",
+                  "name": "xxxsmall_GG320006EN_Shield_Thumbnail.png",
+                  "path": null,
+                  "size": 22.54,
+                  "width": 150,
+                  "height": 50
+                },
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//thumbnail_GG_320006_EN_Shield_Thumbnail_2b40dfec9f.png",
+                  "hash": "thumbnail_GG_320006_EN_Shield_Thumbnail_2b40dfec9f",
+                  "mime": "image/png",
+                  "name": "thumbnail_GG320006EN_Shield_Thumbnail.png",
+                  "path": null,
+                  "size": 60.47,
+                  "width": 250,
+                  "height": 84
+                }
+              },
+              "hash": "GG_320006_EN_Shield_Thumbnail_2b40dfec9f",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 24.55,
+              "url": "https://cdn.starwarsunlimited.com//GG_320006_EN_Shield_Thumbnail_2b40dfec9f.png",
+              "previewUrl": null,
+              "provider": "aws-s3",
+              "provider_metadata": null,
+              "createdAt": "2025-02-27T21:30:26.668Z",
+              "updatedAt": "2025-02-27T21:30:26.668Z"
+            }
+          }
+        },
+        "localizations": {
+          "data": [
+            {
+              "id": 25560,
+              "attributes": {
+                "title": "Schild",
+                "subtitle": null,
+                "cardNumber": 6,
+                "cardCount": 0,
+                "artist": "EJ Dela Cruz",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": 0,
+                "hp": null,
+                "power": null,
+                "text": "If damage would be dealt to attached unit, prevent that damage. If you do, defeat a Shield token on it.",
+                "textStyled": "<p>If damage would be dealt to attached unit, prevent that damage. If you do, defeat a Shield token on it.</p>",
+                "deployBox": null,
+                "deployBoxStyled": "",
+                "epicAction": null,
+                "epicActionStyled": "",
+                "linkHtml": "<a href=\"/cards?cid=2831743136\" class=\"card-tooltip\" data-card=\"2831743136\">Schild</a>",
+                "cardId": null,
+                "createdAt": "2025-02-28T21:17:57.087Z",
+                "updatedAt": "2025-03-03T18:51:31.548Z",
+                "publishedAt": "2025-03-03T06:00:00.000Z",
+                "locale": "de",
+                "hyperspace": false,
+                "unique": false,
+                "showcase": false,
+                "cardUid": "2831743136",
+                "rules": null,
+                "rulesStyled": null,
+                "serialCode": "gg320006",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            },
+            {
+              "id": 25556,
+              "attributes": {
+                "title": "Shield",
+                "subtitle": null,
+                "cardNumber": 6,
+                "cardCount": 0,
+                "artist": "EJ Dela Cruz",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": 0,
+                "hp": null,
+                "power": null,
+                "text": "If damage would be dealt to attached unit, prevent that damage. If you do, defeat a Shield token on it.",
+                "textStyled": "<p>If damage would be dealt to attached unit, prevent that damage. If you do, defeat a Shield token on it.</p>",
+                "deployBox": null,
+                "deployBoxStyled": "",
+                "epicAction": null,
+                "epicActionStyled": "",
+                "linkHtml": "<a href=\"/cards?cid=2831743136\" class=\"card-tooltip\" data-card=\"2831743136\">Shield</a>",
+                "cardId": null,
+                "createdAt": "2025-02-28T21:17:53.285Z",
+                "updatedAt": "2025-03-03T18:51:31.341Z",
+                "publishedAt": "2025-03-03T06:00:00.000Z",
+                "locale": "en",
+                "hyperspace": false,
+                "unique": false,
+                "showcase": false,
+                "cardUid": "2831743136",
+                "rules": null,
+                "rulesStyled": null,
+                "serialCode": "gg320006",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            },
+            {
+              "id": 25558,
+              "attributes": {
+                "title": "Escudo",
+                "subtitle": null,
+                "cardNumber": 6,
+                "cardCount": 0,
+                "artist": "EJ Dela Cruz",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": 0,
+                "hp": null,
+                "power": null,
+                "text": "If damage would be dealt to attached unit, prevent that damage. If you do, defeat a Shield token on it.",
+                "textStyled": "<p>If damage would be dealt to attached unit, prevent that damage. If you do, defeat a Shield token on it.</p>",
+                "deployBox": null,
+                "deployBoxStyled": "",
+                "epicAction": null,
+                "epicActionStyled": "",
+                "linkHtml": "<a href=\"/cards?cid=2831743136\" class=\"card-tooltip\" data-card=\"2831743136\">Escudo</a>",
+                "cardId": null,
+                "createdAt": "2025-02-28T21:17:55.216Z",
+                "updatedAt": "2025-03-03T18:51:31.978Z",
+                "publishedAt": "2025-03-03T06:00:00.000Z",
+                "locale": "es",
+                "hyperspace": false,
+                "unique": false,
+                "showcase": false,
+                "cardUid": "2831743136",
+                "rules": null,
+                "rulesStyled": null,
+                "serialCode": "gg320006",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            },
+            {
+              "id": 25557,
+              "attributes": {
+                "title": "Scudo",
+                "subtitle": null,
+                "cardNumber": 6,
+                "cardCount": 0,
+                "artist": "EJ Dela Cruz",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": 0,
+                "hp": null,
+                "power": null,
+                "text": "If damage would be dealt to attached unit, prevent that damage. If you do, defeat a Shield token on it.",
+                "textStyled": "<p>If damage would be dealt to attached unit, prevent that damage. If you do, defeat a Shield token on it.</p>",
+                "deployBox": null,
+                "deployBoxStyled": "",
+                "epicAction": null,
+                "epicActionStyled": "",
+                "linkHtml": "<a href=\"/cards?cid=2831743136\" class=\"card-tooltip\" data-card=\"2831743136\">Scudo</a>",
+                "cardId": null,
+                "createdAt": "2025-02-28T21:17:54.301Z",
+                "updatedAt": "2025-03-03T18:51:32.188Z",
+                "publishedAt": "2025-03-03T06:00:00.000Z",
+                "locale": "it",
+                "hyperspace": false,
+                "unique": false,
+                "showcase": false,
+                "cardUid": "2831743136",
+                "rules": null,
+                "rulesStyled": null,
+                "serialCode": "gg320006",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "data": []
+        },
+        "aspectDuplicates": {
+          "data": []
+        },
+        "type": {
+          "data": {
+            "id": 25,
+            "attributes": {
+              "name": "Jeton Amélioration",
+              "description": "",
+              "value": "Token",
+              "createdAt": "2023-08-15T18:04:09.135Z",
+              "updatedAt": "2024-11-19T22:37:07.263Z",
+              "publishedAt": "2024-01-04T21:29:10.694Z",
+              "locale": "fr",
+              "sortValue": 4
+            }
+          }
+        },
+        "type2": {
+          "data": null
+        },
+        "traits": {
+          "data": [
+            {
+              "id": 129,
+              "attributes": {
+                "name": "Armure",
+                "description": "",
+                "createdAt": "2023-08-15T15:43:46.801Z",
+                "updatedAt": "2024-01-04T21:22:46.913Z",
+                "publishedAt": "2024-01-04T21:22:46.909Z",
+                "locale": "fr"
+              }
+            }
+          ]
+        },
+        "arenas": {
+          "data": []
+        },
+        "keywords": {
+          "data": []
+        },
+        "rarity": {
+          "data": {
+            "id": 4,
+            "attributes": {
+              "name": "Commune",
+              "character": "C",
+              "color": "#964d02",
+              "createdAt": "2023-08-14T21:22:45.653Z",
+              "updatedAt": "2025-06-17T22:15:21.748Z",
+              "publishedAt": "2024-01-04T16:40:07.939Z",
+              "locale": "fr",
+              "englishName": "Common",
+              "sortValue": 2
+            }
+          }
+        },
+        "expansion": {
+          "data": {
+            "id": 45,
+            "attributes": {
+              "name": "Gamegenic",
+              "description": "",
+              "code": "GG",
+              "createdAt": "2025-02-27T21:30:59.961Z",
+              "updatedAt": "2025-03-03T20:32:38.586Z",
+              "publishedAt": "2025-03-03T20:32:31.414Z",
+              "locale": "fr",
+              "sortValue": 44,
+              "leaderboardStartDate": null,
+              "leaderboardEndDate": null
+            }
+          }
+        },
+        "variantTypes": {
+          "data": [
+            {
+              "id": 63,
+              "attributes": {
+                "name": "Hyperspace Foil",
+                "description": null,
+                "createdAt": "2024-07-15T14:55:32.021Z",
+                "updatedAt": "2024-07-15T19:53:37.738Z",
+                "publishedAt": "2024-07-15T19:53:31.582Z",
+                "locale": "fr",
+                "variantId": "32",
+                "foil": true,
+                "sortValue": 21,
+                "icon": {
+                  "data": {
+                    "id": 8698,
+                    "attributes": {
+                      "name": "icon_hyperspace_foil.png",
+                      "alternativeText": null,
+                      "caption": null,
+                      "width": 144,
+                      "height": 144,
+                      "formats": null,
+                      "hash": "icon_hyperspace_foil_bd8834fef2",
+                      "ext": ".png",
+                      "mime": "image/png",
+                      "size": 2.19,
+                      "url": "https://cdn.starwarsunlimited.com//icon_hyperspace_foil_bd8834fef2.png",
+                      "previewUrl": null,
+                      "provider": "aws-s3",
+                      "provider_metadata": null,
+                      "createdAt": "2024-07-15T14:40:17.037Z",
+                      "updatedAt": "2024-07-15T14:40:17.037Z"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "variantOf": {
+          "data": null
+        },
+        "reprintOf": {
+          "data": {
+            "id": 197,
+            "attributes": {
+              "title": "Bouclier",
+              "subtitle": null,
+              "cardNumber": 2,
+              "cardCount": 4,
+              "artist": "Francois Cannels",
+              "artFrontHorizontal": false,
+              "artBackHorizontal": null,
+              "hasFoil": false,
+              "cost": 0,
+              "hp": null,
+              "power": null,
+              "text": "Si des dégâts devaient être infligés à l'unité attachée, prévenez ces dégâts. Dans ce cas, éliminez un jeton Bouclier de cette unité.",
+              "textStyled": "<p>Si des dégâts devaient être infligés à l’unité attachée, prévenez ces dégâts. Dans ce cas, éliminez un jeton Bouclier de cette unité.</p>",
+              "deployBox": null,
+              "deployBoxStyled": "",
+              "epicAction": null,
+              "epicActionStyled": "",
+              "linkHtml": "<a href=\"/cards?cid=8752877738\" class=\"card-tooltip\" data-card=\"8752877738\">Bouclier</a>",
+              "cardId": "8752877738",
+              "createdAt": "2023-08-21T21:39:11.851Z",
+              "updatedAt": "2024-10-24T04:05:24.619Z",
+              "publishedAt": "2023-08-21T21:40:09.762Z",
+              "locale": "fr",
+              "hyperspace": false,
+              "unique": false,
+              "showcase": false,
+              "cardUid": "8752877738",
+              "rules": null,
+              "rulesStyled": "",
+              "serialCode": "0101T02",
+              "upgradeHp": null,
+              "upgradePower": null
+            }
+          }
+        },
+        "validationId": "8752877738"
+      }
+    }
+  ],
+  "variants": []
+}

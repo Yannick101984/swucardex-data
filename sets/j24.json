@@ -1,0 +1,3324 @@
+{
+  "data": [
+    {
+      "id": 25589,
+      "attributes": {
+        "cardNumber": 1,
+        "title": "Avenger",
+        "subtitle": "Destroyer Stellaire En Chasse",
+        "cardCount": 0,
+        "artist": "Francois Cannels",
+        "artFrontHorizontal": false,
+        "artBackHorizontal": null,
+        "hasFoil": true,
+        "cost": 9,
+        "hp": 8,
+        "power": 8,
+        "text": "When Played/On Attack: An opponent chooses a non‑leader unit they control. Defeat that unit.",
+        "textStyled": "<p><strong>When Played/On Attack: </strong>An opponent chooses a non‑leader unit they control. Defeat that unit.</p><p>&nbsp;</p>",
+        "deployBox": null,
+        "deployBoxStyled": "",
+        "epicAction": null,
+        "epicActionStyled": "",
+        "linkHtml": "<a href=\"/cards?cid=3187141304\" class=\"card-tooltip\" data-card=\"3187141304\">Avenger</a>",
+        "cardId": null,
+        "createdAt": "2025-02-28T21:18:26.356Z",
+        "updatedAt": "2025-03-03T18:51:32.812Z",
+        "publishedAt": "2025-03-03T06:00:00.000Z",
+        "locale": "fr",
+        "hyperspace": false,
+        "unique": true,
+        "showcase": false,
+        "cardUid": "3187141304",
+        "rules": null,
+        "rulesStyled": "",
+        "serialCode": "j24070001",
+        "upgradeHp": null,
+        "upgradePower": null,
+        "artFront": {
+          "data": {
+            "id": 28134,
+            "attributes": {
+              "name": "J24070001FR_Avenger.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 300,
+              "height": 419,
+              "formats": {
+                "card": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//card_J24070001_FR_Avenger_0b29b970ed.png",
+                  "hash": "card_J24070001_FR_Avenger_0b29b970ed",
+                  "mime": "image/png",
+                  "name": "card_J24070001FR_Avenger.png",
+                  "path": null,
+                  "size": 167.16,
+                  "width": 286,
+                  "height": 400
+                },
+                "xsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xsmall_J24070001_FR_Avenger_0b29b970ed.png",
+                  "hash": "xsmall_J24070001_FR_Avenger_0b29b970ed",
+                  "mime": "image/png",
+                  "name": "xsmall_J24070001FR_Avenger.png",
+                  "path": null,
+                  "size": 103.92,
+                  "width": 215,
+                  "height": 300
+                },
+                "xxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxsmall_J24070001_FR_Avenger_0b29b970ed.png",
+                  "hash": "xxsmall_J24070001_FR_Avenger_0b29b970ed",
+                  "mime": "image/png",
+                  "name": "xxsmall_J24070001FR_Avenger.png",
+                  "path": null,
+                  "size": 52.48,
+                  "width": 143,
+                  "height": 200
+                },
+                "xxxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxxsmall_J24070001_FR_Avenger_0b29b970ed.png",
+                  "hash": "xxxsmall_J24070001_FR_Avenger_0b29b970ed",
+                  "mime": "image/png",
+                  "name": "xxxsmall_J24070001FR_Avenger.png",
+                  "path": null,
+                  "size": 32.55,
+                  "width": 107,
+                  "height": 150
+                },
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//thumbnail_J24070001_FR_Avenger_0b29b970ed.png",
+                  "hash": "thumbnail_J24070001_FR_Avenger_0b29b970ed",
+                  "mime": "image/png",
+                  "name": "thumbnail_J24070001FR_Avenger.png",
+                  "path": null,
+                  "size": 76.72,
+                  "width": 179,
+                  "height": 250
+                }
+              },
+              "hash": "J24070001_FR_Avenger_0b29b970ed",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 46.43,
+              "url": "https://cdn.starwarsunlimited.com//J24070001_FR_Avenger_0b29b970ed.png",
+              "previewUrl": null,
+              "provider": "aws-s3",
+              "provider_metadata": null,
+              "createdAt": "2025-02-27T21:41:13.651Z",
+              "updatedAt": "2025-02-27T21:41:13.651Z"
+            }
+          }
+        },
+        "artBack": {
+          "data": null
+        },
+        "artThumbnail": {
+          "data": {
+            "id": 27772,
+            "attributes": {
+              "name": "J24070001EN_Avenger_Thumbnail.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 300,
+              "height": 100,
+              "formats": {
+                "xxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxsmall_J24070001_EN_Avenger_Thumbnail_6c75797439.png",
+                  "hash": "xxsmall_J24070001_EN_Avenger_Thumbnail_6c75797439",
+                  "mime": "image/png",
+                  "name": "xxsmall_J24070001EN_Avenger_Thumbnail.png",
+                  "path": null,
+                  "size": 26.5,
+                  "width": 200,
+                  "height": 67
+                },
+                "xxxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxxsmall_J24070001_EN_Avenger_Thumbnail_6c75797439.png",
+                  "hash": "xxxsmall_J24070001_EN_Avenger_Thumbnail_6c75797439",
+                  "mime": "image/png",
+                  "name": "xxxsmall_J24070001EN_Avenger_Thumbnail.png",
+                  "path": null,
+                  "size": 15.87,
+                  "width": 150,
+                  "height": 50
+                },
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//thumbnail_J24070001_EN_Avenger_Thumbnail_6c75797439.png",
+                  "hash": "thumbnail_J24070001_EN_Avenger_Thumbnail_6c75797439",
+                  "mime": "image/png",
+                  "name": "thumbnail_J24070001EN_Avenger_Thumbnail.png",
+                  "path": null,
+                  "size": 37.45,
+                  "width": 245,
+                  "height": 82
+                }
+              },
+              "hash": "J24070001_EN_Avenger_Thumbnail_6c75797439",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 16.62,
+              "url": "https://cdn.starwarsunlimited.com//J24070001_EN_Avenger_Thumbnail_6c75797439.png",
+              "previewUrl": null,
+              "provider": "aws-s3",
+              "provider_metadata": null,
+              "createdAt": "2025-02-27T21:30:22.558Z",
+              "updatedAt": "2025-02-27T21:30:22.558Z"
+            }
+          }
+        },
+        "localizations": {
+          "data": [
+            {
+              "id": 25590,
+              "attributes": {
+                "title": "Avenger",
+                "subtitle": "Sternenzerstörer Auf Der Jagd",
+                "cardNumber": 1,
+                "cardCount": 0,
+                "artist": "Francois Cannels",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": 9,
+                "hp": 8,
+                "power": 8,
+                "text": "When Played/On Attack: An opponent chooses a non‑leader unit they control. Defeat that unit.",
+                "textStyled": "<p><strong>When Played/On Attack: </strong>An opponent chooses a non‑leader unit they control. Defeat that unit.</p><p>&nbsp;</p>",
+                "deployBox": null,
+                "deployBoxStyled": "",
+                "epicAction": null,
+                "epicActionStyled": "",
+                "linkHtml": "<a href=\"/cards?cid=3187141304\" class=\"card-tooltip\" data-card=\"3187141304\">Avenger</a>",
+                "cardId": null,
+                "createdAt": "2025-02-28T21:18:27.394Z",
+                "updatedAt": "2025-03-03T18:51:32.599Z",
+                "publishedAt": "2025-03-03T06:00:00.000Z",
+                "locale": "de",
+                "hyperspace": false,
+                "unique": true,
+                "showcase": false,
+                "cardUid": "3187141304",
+                "rules": null,
+                "rulesStyled": "",
+                "serialCode": "j24070001",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            },
+            {
+              "id": 25586,
+              "attributes": {
+                "title": "Avenger",
+                "subtitle": "Hunting Star Destroyer",
+                "cardNumber": 1,
+                "cardCount": 0,
+                "artist": "Francois Cannels",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": 9,
+                "hp": 8,
+                "power": 8,
+                "text": "When Played/On Attack: An opponent chooses a non‑leader unit they control. Defeat that unit.",
+                "textStyled": "<p><strong>When Played/On Attack: </strong>An opponent chooses a non‑leader unit they control. Defeat that unit.</p><p>&nbsp;</p>",
+                "deployBox": null,
+                "deployBoxStyled": "",
+                "epicAction": null,
+                "epicActionStyled": "",
+                "linkHtml": "<a href=\"/cards?cid=3187141304\" class=\"card-tooltip\" data-card=\"3187141304\">Avenger</a>",
+                "cardId": null,
+                "createdAt": "2025-02-28T21:18:23.389Z",
+                "updatedAt": "2025-03-03T18:51:32.392Z",
+                "publishedAt": "2025-03-03T06:00:00.000Z",
+                "locale": "en",
+                "hyperspace": false,
+                "unique": true,
+                "showcase": false,
+                "cardUid": "3187141304",
+                "rules": null,
+                "rulesStyled": "",
+                "serialCode": "j24070001",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            },
+            {
+              "id": 25588,
+              "attributes": {
+                "title": "Vengador",
+                "subtitle": "Sternenzerstörer Auf Der Jagd",
+                "cardNumber": 1,
+                "cardCount": 0,
+                "artist": "Francois Cannels",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": 9,
+                "hp": 8,
+                "power": 8,
+                "text": "When Played/On Attack: An opponent chooses a non‑leader unit they control. Defeat that unit.",
+                "textStyled": "<p><strong>When Played/On Attack: </strong>An opponent chooses a non‑leader unit they control. Defeat that unit.</p><p>&nbsp;</p>",
+                "deployBox": null,
+                "deployBoxStyled": "",
+                "epicAction": null,
+                "epicActionStyled": "",
+                "linkHtml": "<a href=\"/cards?cid=3187141304\" class=\"card-tooltip\" data-card=\"3187141304\">Vengador</a>",
+                "cardId": null,
+                "createdAt": "2025-02-28T21:18:25.331Z",
+                "updatedAt": "2025-03-03T18:51:33.019Z",
+                "publishedAt": "2025-03-03T06:00:00.000Z",
+                "locale": "es",
+                "hyperspace": false,
+                "unique": true,
+                "showcase": false,
+                "cardUid": "3187141304",
+                "rules": null,
+                "rulesStyled": "",
+                "serialCode": "j24070001",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            },
+            {
+              "id": 25587,
+              "attributes": {
+                "title": "Avenger",
+                "subtitle": "Star Destroyer Cacciatore",
+                "cardNumber": 1,
+                "cardCount": 0,
+                "artist": "Francois Cannels",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": 9,
+                "hp": 8,
+                "power": 8,
+                "text": "When Played/On Attack: An opponent chooses a non‑leader unit they control. Defeat that unit.",
+                "textStyled": "<p><strong>When Played/On Attack: </strong>An opponent chooses a non‑leader unit they control. Defeat that unit.</p><p>&nbsp;</p>",
+                "deployBox": null,
+                "deployBoxStyled": "",
+                "epicAction": null,
+                "epicActionStyled": "",
+                "linkHtml": "<a href=\"/cards?cid=3187141304\" class=\"card-tooltip\" data-card=\"3187141304\">Avenger</a>",
+                "cardId": null,
+                "createdAt": "2025-02-28T21:18:24.368Z",
+                "updatedAt": "2025-03-03T18:51:33.220Z",
+                "publishedAt": "2025-03-03T06:00:00.000Z",
+                "locale": "it",
+                "hyperspace": false,
+                "unique": true,
+                "showcase": false,
+                "cardUid": "3187141304",
+                "rules": null,
+                "rulesStyled": "",
+                "serialCode": "j24070001",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "data": [
+            {
+              "id": 4,
+              "attributes": {
+                "name": "Vigilance",
+                "description": "<p>Un jeu défensif, avec des capacités pour soigner les dégâts, retirer du jeu les unités dangereuses, protéger sa base des attaques ennemies. Cette affinité est idéale pour les joueurs qui savent temporiser, en encaissant les assauts les plus meurtriers.</p>",
+                "color": "#4073d4",
+                "createdAt": "2023-08-10T21:02:26.776Z",
+                "updatedAt": "2024-07-15T21:32:24.096Z",
+                "publishedAt": "2024-01-02T18:25:33.755Z",
+                "locale": "fr",
+                "englishName": "Vigilance",
+                "sortValue": 1
+              }
+            },
+            {
+              "id": 29,
+              "attributes": {
+                "name": "Infâmie",
+                "description": "<p>Se battre pour le pouvoir suprême avec les «&nbsp;méchants&nbsp;» de la galaxie Star Wars. Cette affinité permet de commander à d’immenses armées ou de provoquer de terribles destructions. Tout comme l’Héroïsme, cette affinité est souvent associée à une autre affinité sur la carte.</p>",
+                "color": "#000000",
+                "createdAt": "2023-08-10T21:20:52.826Z",
+                "updatedAt": "2024-07-15T21:40:49.895Z",
+                "publishedAt": "2024-01-02T18:25:50.235Z",
+                "locale": "fr",
+                "englishName": "Villainy",
+                "sortValue": 20
+              }
+            }
+          ]
+        },
+        "aspectDuplicates": {
+          "data": []
+        },
+        "type": {
+          "data": {
+            "id": 29,
+            "attributes": {
+              "name": "Unité",
+              "description": "",
+              "value": "Unit",
+              "createdAt": "2023-08-15T18:04:32.553Z",
+              "updatedAt": "2024-04-25T13:52:29.937Z",
+              "publishedAt": "2024-01-04T21:29:14.943Z",
+              "locale": "fr",
+              "sortValue": 3
+            }
+          }
+        },
+        "type2": {
+          "data": null
+        },
+        "traits": {
+          "data": [
+            {
+              "id": 9,
+              "attributes": {
+                "name": "Impérial",
+                "description": "",
+                "createdAt": "2023-08-15T14:38:23.731Z",
+                "updatedAt": "2024-01-04T21:11:46.388Z",
+                "publishedAt": "2024-01-04T21:11:46.385Z",
+                "locale": "fr"
+              }
+            },
+            {
+              "id": 54,
+              "attributes": {
+                "name": "Véhicule",
+                "description": "",
+                "createdAt": "2023-08-15T14:44:05.531Z",
+                "updatedAt": "2024-01-04T21:10:15.100Z",
+                "publishedAt": "2024-01-04T21:10:15.097Z",
+                "locale": "fr"
+              }
+            },
+            {
+              "id": 109,
+              "attributes": {
+                "name": "Vaisseau Capital",
+                "description": "",
+                "createdAt": "2023-08-15T14:51:56.881Z",
+                "updatedAt": "2024-01-04T21:11:28.338Z",
+                "publishedAt": "2024-01-04T21:11:28.335Z",
+                "locale": "fr"
+              }
+            }
+          ]
+        },
+        "arenas": {
+          "data": [
+            {
+              "id": 9,
+              "attributes": {
+                "name": "Spatiale",
+                "description": null,
+                "createdAt": "2023-08-15T18:46:01.290Z",
+                "updatedAt": "2024-01-04T16:50:11.127Z",
+                "publishedAt": "2024-01-04T16:50:11.124Z",
+                "locale": "fr"
+              }
+            }
+          ]
+        },
+        "keywords": {
+          "data": []
+        },
+        "rarity": {
+          "data": {
+            "id": 19,
+            "attributes": {
+              "name": "Légendaire",
+              "character": "L",
+              "color": "#00c8f3",
+              "createdAt": "2023-08-14T21:31:56.477Z",
+              "updatedAt": "2024-04-25T14:07:09.463Z",
+              "publishedAt": "2024-01-04T16:41:14.814Z",
+              "locale": "fr",
+              "englishName": "Legendary",
+              "sortValue": 5
+            }
+          }
+        },
+        "expansion": {
+          "data": {
+            "id": 30,
+            "attributes": {
+              "name": "2024 Judge Program",
+              "description": "",
+              "code": "J24",
+              "createdAt": "2025-02-27T21:21:32.332Z",
+              "updatedAt": "2025-03-03T20:32:15.701Z",
+              "publishedAt": "2025-03-03T20:32:04.384Z",
+              "locale": "fr",
+              "sortValue": 45,
+              "leaderboardStartDate": null,
+              "leaderboardEndDate": null
+            }
+          }
+        },
+        "variantTypes": {
+          "data": [
+            {
+              "id": 128,
+              "attributes": {
+                "name": "Judge Program",
+                "description": null,
+                "createdAt": "2025-02-27T23:10:53.910Z",
+                "updatedAt": "2025-03-03T20:33:15.012Z",
+                "publishedAt": "2025-03-03T20:33:05.848Z",
+                "locale": "fr",
+                "variantId": "07",
+                "foil": null,
+                "sortValue": 70,
+                "icon": {
+                  "data": {
+                    "id": 27667,
+                    "attributes": {
+                      "name": "icon_judgeprogram.png",
+                      "alternativeText": null,
+                      "caption": null,
+                      "width": 145,
+                      "height": 144,
+                      "formats": null,
+                      "hash": "icon_judgeprogram_299cea1d3b",
+                      "ext": ".png",
+                      "mime": "image/png",
+                      "size": 0.63,
+                      "url": "https://cdn.starwarsunlimited.com//icon_judgeprogram_299cea1d3b.png",
+                      "previewUrl": null,
+                      "provider": "aws-s3",
+                      "provider_metadata": null,
+                      "createdAt": "2025-02-27T21:19:29.909Z",
+                      "updatedAt": "2025-02-27T21:19:29.909Z"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "variantOf": {
+          "data": null
+        },
+        "reprintOf": {
+          "data": {
+            "id": 1004,
+            "attributes": {
+              "title": "Avenger",
+              "subtitle": "Destroyer Stellaire En Chasse",
+              "cardNumber": 40,
+              "cardCount": 252,
+              "artist": "Francois Cannels",
+              "artFrontHorizontal": false,
+              "artBackHorizontal": null,
+              "hasFoil": false,
+              "cost": 9,
+              "hp": 8,
+              "power": 8,
+              "text": "Une fois jouée/En attaque : un adversaire choisit une unité non-leader qu'il contrôle. Éliminez l'unité choisie.",
+              "textStyled": "<p><strong>Une fois jouée/En attaque :</strong> un adversaire choisit une unité non-leader qu’il contrôle. Éliminez l’unité choisie.</p><p>&nbsp;</p>",
+              "deployBox": null,
+              "deployBoxStyled": "",
+              "epicAction": null,
+              "epicActionStyled": "",
+              "linkHtml": "<a href=\"/cards?cid=8240629990\" class=\"card-tooltip\" data-card=\"8240629990\">Avenger</a>",
+              "cardId": null,
+              "createdAt": "2024-01-10T21:58:01.848Z",
+              "updatedAt": "2024-10-24T04:05:40.689Z",
+              "publishedAt": "2024-01-12T22:08:05.637Z",
+              "locale": "fr",
+              "hyperspace": false,
+              "unique": true,
+              "showcase": false,
+              "cardUid": "8240629990",
+              "rules": "S’il y a plusieurs adversaires, le contrôleur de cette carte choisit le joueur qui sera son adversaire pour cette capacité.\n",
+              "rulesStyled": "\n                <figure class=\"table\"><table><tbody><tr><td>3/1/2024</td><td>S’il y a plusieurs adversaires, le contrôleur de cette carte choisit le joueur qui sera son adversaire pour cette capacité.</td></tr></tbody></table></figure>\n                ",
+              "serialCode": "0101040",
+              "upgradeHp": null,
+              "upgradePower": null
+            }
+          }
+        },
+        "validationId": "8240629990"
+      }
+    },
+    {
+      "id": 25624,
+      "attributes": {
+        "cardNumber": 2,
+        "title": "K-2SO",
+        "subtitle": "Partenaire De Cassian",
+        "cardCount": 0,
+        "artist": "Ross Taylor",
+        "artFrontHorizontal": false,
+        "artBackHorizontal": null,
+        "hasFoil": true,
+        "cost": 4,
+        "hp": 4,
+        "power": 4,
+        "text": "Overwhelm\n\nWhen Defeated: For each opponent, choose one: either deal 3 damage to that player's base, or that player discards a card from their hand.",
+        "textStyled": "<p><strong>Overwhelm</strong></p><p><strong>When Defeated:</strong> For each opponent, choose one: either deal 3 damage to that player's base, or that player discards a card from their hand.</p><p>&nbsp;</p>",
+        "deployBox": null,
+        "deployBoxStyled": "",
+        "epicAction": null,
+        "epicActionStyled": "",
+        "linkHtml": "<a href=\"/cards?cid=2225121939\" class=\"card-tooltip\" data-card=\"2225121939\">K-2SO</a>",
+        "cardId": null,
+        "createdAt": "2025-02-28T21:19:03.770Z",
+        "updatedAt": "2025-03-03T18:51:33.844Z",
+        "publishedAt": "2025-03-03T06:00:00.000Z",
+        "locale": "fr",
+        "hyperspace": false,
+        "unique": true,
+        "showcase": false,
+        "cardUid": "2225121939",
+        "rules": null,
+        "rulesStyled": "",
+        "serialCode": "j24070002",
+        "upgradeHp": null,
+        "upgradePower": null,
+        "artFront": {
+          "data": {
+            "id": 28203,
+            "attributes": {
+              "name": "J24070002FR_K-2S0.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 300,
+              "height": 419,
+              "formats": {
+                "card": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//card_J24070002_FR_K_2_S0_443abc6a5c.png",
+                  "hash": "card_J24070002_FR_K_2_S0_443abc6a5c",
+                  "mime": "image/png",
+                  "name": "card_J24070002FR_K-2S0.png",
+                  "path": null,
+                  "size": 183.2,
+                  "width": 286,
+                  "height": 400
+                },
+                "xsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xsmall_J24070002_FR_K_2_S0_443abc6a5c.png",
+                  "hash": "xsmall_J24070002_FR_K_2_S0_443abc6a5c",
+                  "mime": "image/png",
+                  "name": "xsmall_J24070002FR_K-2S0.png",
+                  "path": null,
+                  "size": 112.75,
+                  "width": 215,
+                  "height": 300
+                },
+                "xxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxsmall_J24070002_FR_K_2_S0_443abc6a5c.png",
+                  "hash": "xxsmall_J24070002_FR_K_2_S0_443abc6a5c",
+                  "mime": "image/png",
+                  "name": "xxsmall_J24070002FR_K-2S0.png",
+                  "path": null,
+                  "size": 56.1,
+                  "width": 143,
+                  "height": 200
+                },
+                "xxxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxxsmall_J24070002_FR_K_2_S0_443abc6a5c.png",
+                  "hash": "xxxsmall_J24070002_FR_K_2_S0_443abc6a5c",
+                  "mime": "image/png",
+                  "name": "xxxsmall_J24070002FR_K-2S0.png",
+                  "path": null,
+                  "size": 34.61,
+                  "width": 107,
+                  "height": 150
+                },
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//thumbnail_J24070002_FR_K_2_S0_443abc6a5c.png",
+                  "hash": "thumbnail_J24070002_FR_K_2_S0_443abc6a5c",
+                  "mime": "image/png",
+                  "name": "thumbnail_J24070002FR_K-2S0.png",
+                  "path": null,
+                  "size": 82.65,
+                  "width": 179,
+                  "height": 250
+                }
+              },
+              "hash": "J24070002_FR_K_2_S0_443abc6a5c",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 55.13,
+              "url": "https://cdn.starwarsunlimited.com//J24070002_FR_K_2_S0_443abc6a5c.png",
+              "previewUrl": null,
+              "provider": "aws-s3",
+              "provider_metadata": null,
+              "createdAt": "2025-02-27T21:42:27.585Z",
+              "updatedAt": "2025-02-27T21:42:27.585Z"
+            }
+          }
+        },
+        "artBack": {
+          "data": null
+        },
+        "artThumbnail": {
+          "data": {
+            "id": 27787,
+            "attributes": {
+              "name": "J24070002EN_K-2S0_Thumbnail.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 300,
+              "height": 100,
+              "formats": {
+                "xxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxsmall_J24070002_EN_K_2_S0_Thumbnail_a31d923197.png",
+                  "hash": "xxsmall_J24070002_EN_K_2_S0_Thumbnail_a31d923197",
+                  "mime": "image/png",
+                  "name": "xxsmall_J24070002EN_K-2S0_Thumbnail.png",
+                  "path": null,
+                  "size": 30.14,
+                  "width": 200,
+                  "height": 67
+                },
+                "xxxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxxsmall_J24070002_EN_K_2_S0_Thumbnail_a31d923197.png",
+                  "hash": "xxxsmall_J24070002_EN_K_2_S0_Thumbnail_a31d923197",
+                  "mime": "image/png",
+                  "name": "xxxsmall_J24070002EN_K-2S0_Thumbnail.png",
+                  "path": null,
+                  "size": 17.98,
+                  "width": 150,
+                  "height": 50
+                },
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//thumbnail_J24070002_EN_K_2_S0_Thumbnail_a31d923197.png",
+                  "hash": "thumbnail_J24070002_EN_K_2_S0_Thumbnail_a31d923197",
+                  "mime": "image/png",
+                  "name": "thumbnail_J24070002EN_K-2S0_Thumbnail.png",
+                  "path": null,
+                  "size": 44.21,
+                  "width": 250,
+                  "height": 83
+                }
+              },
+              "hash": "J24070002_EN_K_2_S0_Thumbnail_a31d923197",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 19.09,
+              "url": "https://cdn.starwarsunlimited.com//J24070002_EN_K_2_S0_Thumbnail_a31d923197.png",
+              "previewUrl": null,
+              "provider": "aws-s3",
+              "provider_metadata": null,
+              "createdAt": "2025-02-27T21:30:32.512Z",
+              "updatedAt": "2025-02-27T21:30:32.512Z"
+            }
+          }
+        },
+        "localizations": {
+          "data": [
+            {
+              "id": 25625,
+              "attributes": {
+                "title": "K-2SO",
+                "subtitle": "Cassians Gegenstück",
+                "cardNumber": 2,
+                "cardCount": 0,
+                "artist": "Ross Taylor",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": 4,
+                "hp": 4,
+                "power": 4,
+                "text": "Overwhelm\n\nWhen Defeated: For each opponent, choose one: either deal 3 damage to that player's base, or that player discards a card from their hand.",
+                "textStyled": "<p><strong>Overwhelm</strong></p><p><strong>When Defeated:</strong> For each opponent, choose one: either deal 3 damage to that player's base, or that player discards a card from their hand.</p><p>&nbsp;</p>",
+                "deployBox": null,
+                "deployBoxStyled": "",
+                "epicAction": null,
+                "epicActionStyled": "",
+                "linkHtml": "<a href=\"/cards?cid=2225121939\" class=\"card-tooltip\" data-card=\"2225121939\">K-2SO</a>",
+                "cardId": null,
+                "createdAt": "2025-02-28T21:19:04.862Z",
+                "updatedAt": "2025-03-03T18:51:33.631Z",
+                "publishedAt": "2025-03-03T06:00:00.000Z",
+                "locale": "de",
+                "hyperspace": false,
+                "unique": true,
+                "showcase": false,
+                "cardUid": "2225121939",
+                "rules": null,
+                "rulesStyled": "",
+                "serialCode": "j24070002",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            },
+            {
+              "id": 25621,
+              "attributes": {
+                "title": "K-2SO",
+                "subtitle": "Cassian's Counterpart",
+                "cardNumber": 2,
+                "cardCount": 0,
+                "artist": "Ross Taylor",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": 4,
+                "hp": 4,
+                "power": 4,
+                "text": "Overwhelm\n\nWhen Defeated: For each opponent, choose one: either deal 3 damage to that player's base, or that player discards a card from their hand.",
+                "textStyled": "<p><strong>Overwhelm</strong></p><p><strong>When Defeated:</strong> For each opponent, choose one: either deal 3 damage to that player's base, or that player discards a card from their hand.</p><p>&nbsp;</p>",
+                "deployBox": null,
+                "deployBoxStyled": "",
+                "epicAction": null,
+                "epicActionStyled": "",
+                "linkHtml": "<a href=\"/cards?cid=2225121939\" class=\"card-tooltip\" data-card=\"2225121939\">K-2SO</a>",
+                "cardId": null,
+                "createdAt": "2025-02-28T21:19:00.788Z",
+                "updatedAt": "2025-03-03T18:51:33.422Z",
+                "publishedAt": "2025-03-03T06:00:00.000Z",
+                "locale": "en",
+                "hyperspace": false,
+                "unique": true,
+                "showcase": false,
+                "cardUid": "2225121939",
+                "rules": null,
+                "rulesStyled": "",
+                "serialCode": "j24070002",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            },
+            {
+              "id": 25623,
+              "attributes": {
+                "title": "K-2SO",
+                "subtitle": "Contrapartida De Cassian",
+                "cardNumber": 2,
+                "cardCount": 0,
+                "artist": "Ross Taylor",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": 4,
+                "hp": 4,
+                "power": 4,
+                "text": "Overwhelm\n\nWhen Defeated: For each opponent, choose one: either deal 3 damage to that player's base, or that player discards a card from their hand.",
+                "textStyled": "<p><strong>Overwhelm</strong></p><p><strong>When Defeated:</strong> For each opponent, choose one: either deal 3 damage to that player's base, or that player discards a card from their hand.</p><p>&nbsp;</p>",
+                "deployBox": null,
+                "deployBoxStyled": "",
+                "epicAction": null,
+                "epicActionStyled": "",
+                "linkHtml": "<a href=\"/cards?cid=2225121939\" class=\"card-tooltip\" data-card=\"2225121939\">K-2SO</a>",
+                "cardId": null,
+                "createdAt": "2025-02-28T21:19:02.722Z",
+                "updatedAt": "2025-03-03T18:51:34.056Z",
+                "publishedAt": "2025-03-03T06:00:00.000Z",
+                "locale": "es",
+                "hyperspace": false,
+                "unique": true,
+                "showcase": false,
+                "cardUid": "2225121939",
+                "rules": null,
+                "rulesStyled": "",
+                "serialCode": "j24070002",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            },
+            {
+              "id": 25622,
+              "attributes": {
+                "title": "K-2SO",
+                "subtitle": "Spalla Di Cassian",
+                "cardNumber": 2,
+                "cardCount": 0,
+                "artist": "Ross Taylor",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": 4,
+                "hp": 4,
+                "power": 4,
+                "text": "Overwhelm\n\nWhen Defeated: For each opponent, choose one: either deal 3 damage to that player's base, or that player discards a card from their hand.",
+                "textStyled": "<p><strong>Overwhelm</strong></p><p><strong>When Defeated:</strong> For each opponent, choose one: either deal 3 damage to that player's base, or that player discards a card from their hand.</p><p>&nbsp;</p>",
+                "deployBox": null,
+                "deployBoxStyled": "",
+                "epicAction": null,
+                "epicActionStyled": "",
+                "linkHtml": "<a href=\"/cards?cid=2225121939\" class=\"card-tooltip\" data-card=\"2225121939\">K-2SO</a>",
+                "cardId": null,
+                "createdAt": "2025-02-28T21:19:01.784Z",
+                "updatedAt": "2025-03-03T18:51:34.264Z",
+                "publishedAt": "2025-03-03T06:00:00.000Z",
+                "locale": "it",
+                "hyperspace": false,
+                "unique": true,
+                "showcase": false,
+                "cardUid": "2225121939",
+                "rules": null,
+                "rulesStyled": "",
+                "serialCode": "j24070002",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "data": [
+            {
+              "id": 14,
+              "attributes": {
+                "name": "Agressivité",
+                "description": "<p>Attaquer avec un maximum d’efficacité et infliger énormément de dégâts. Cette affinité convient parfaitement aux joueurs qui aiment un style de jeu rapide et agressif, brisant les défenses adverses et se ruant vers la victoire quel que soit le prix à payer.</p>",
+                "color": "#d30808",
+                "createdAt": "2023-08-10T21:10:46.362Z",
+                "updatedAt": "2024-07-15T21:39:33.927Z",
+                "publishedAt": "2024-01-02T18:23:52.395Z",
+                "locale": "fr",
+                "englishName": "Aggression",
+                "sortValue": 10
+              }
+            },
+            {
+              "id": 24,
+              "attributes": {
+                "name": "Héroïsme",
+                "description": "<p>Lutter pour la paix et la justice avec des cartes représentant les «&nbsp;gentils&nbsp;» de la galaxie Star Wars. Cette affinité est idéale pour ceux qui souhaitent que leurs cartes se soutiennent et se protègent mutuellement tout en attaquant. Cette affinité est souvent associée à une autre affinité sur la carte.</p>",
+                "color": "#ffffff",
+                "createdAt": "2023-08-10T21:17:26.974Z",
+                "updatedAt": "2024-07-15T21:41:00.637Z",
+                "publishedAt": "2024-01-02T18:25:10.259Z",
+                "locale": "fr",
+                "englishName": "Heroism",
+                "sortValue": 25
+              }
+            }
+          ]
+        },
+        "aspectDuplicates": {
+          "data": []
+        },
+        "type": {
+          "data": {
+            "id": 29,
+            "attributes": {
+              "name": "Unité",
+              "description": "",
+              "value": "Unit",
+              "createdAt": "2023-08-15T18:04:32.553Z",
+              "updatedAt": "2024-04-25T13:52:29.937Z",
+              "publishedAt": "2024-01-04T21:29:14.943Z",
+              "locale": "fr",
+              "sortValue": 3
+            }
+          }
+        },
+        "type2": {
+          "data": null
+        },
+        "traits": {
+          "data": [
+            {
+              "id": 39,
+              "attributes": {
+                "name": "Rebelle",
+                "description": "",
+                "createdAt": "2023-08-15T14:41:39.554Z",
+                "updatedAt": "2024-01-04T21:20:25.621Z",
+                "publishedAt": "2024-01-04T21:20:25.617Z",
+                "locale": "fr"
+              }
+            },
+            {
+              "id": 49,
+              "attributes": {
+                "name": "Droïde",
+                "description": "",
+                "createdAt": "2023-08-15T14:42:47.972Z",
+                "updatedAt": "2024-01-04T21:09:43.421Z",
+                "publishedAt": "2024-01-04T21:09:43.408Z",
+                "locale": "fr"
+              }
+            }
+          ]
+        },
+        "arenas": {
+          "data": [
+            {
+              "id": 4,
+              "attributes": {
+                "name": "Terrestre",
+                "description": null,
+                "createdAt": "2023-08-15T14:32:20.801Z",
+                "updatedAt": "2024-01-04T16:49:07.912Z",
+                "publishedAt": "2023-08-18T21:37:40.768Z",
+                "locale": "fr"
+              }
+            }
+          ]
+        },
+        "keywords": {
+          "data": [
+            {
+              "id": 29,
+              "attributes": {
+                "name": "Débordement",
+                "description": "",
+                "createdAt": "2023-11-28T17:10:00.435Z",
+                "updatedAt": "2024-01-04T19:00:43.837Z",
+                "publishedAt": "2023-11-28T17:10:07.902Z",
+                "locale": "fr"
+              }
+            }
+          ]
+        },
+        "rarity": {
+          "data": {
+            "id": 14,
+            "attributes": {
+              "name": "Rare",
+              "character": "R",
+              "color": "#f1c000",
+              "createdAt": "2023-08-14T21:29:34.676Z",
+              "updatedAt": "2025-06-17T21:46:47.442Z",
+              "publishedAt": "2024-01-04T16:41:34.918Z",
+              "locale": "fr",
+              "englishName": "Rare",
+              "sortValue": 4
+            }
+          }
+        },
+        "expansion": {
+          "data": {
+            "id": 30,
+            "attributes": {
+              "name": "2024 Judge Program",
+              "description": "",
+              "code": "J24",
+              "createdAt": "2025-02-27T21:21:32.332Z",
+              "updatedAt": "2025-03-03T20:32:15.701Z",
+              "publishedAt": "2025-03-03T20:32:04.384Z",
+              "locale": "fr",
+              "sortValue": 45,
+              "leaderboardStartDate": null,
+              "leaderboardEndDate": null
+            }
+          }
+        },
+        "variantTypes": {
+          "data": [
+            {
+              "id": 128,
+              "attributes": {
+                "name": "Judge Program",
+                "description": null,
+                "createdAt": "2025-02-27T23:10:53.910Z",
+                "updatedAt": "2025-03-03T20:33:15.012Z",
+                "publishedAt": "2025-03-03T20:33:05.848Z",
+                "locale": "fr",
+                "variantId": "07",
+                "foil": null,
+                "sortValue": 70,
+                "icon": {
+                  "data": {
+                    "id": 27667,
+                    "attributes": {
+                      "name": "icon_judgeprogram.png",
+                      "alternativeText": null,
+                      "caption": null,
+                      "width": 145,
+                      "height": 144,
+                      "formats": null,
+                      "hash": "icon_judgeprogram_299cea1d3b",
+                      "ext": ".png",
+                      "mime": "image/png",
+                      "size": 0.63,
+                      "url": "https://cdn.starwarsunlimited.com//icon_judgeprogram_299cea1d3b.png",
+                      "previewUrl": null,
+                      "provider": "aws-s3",
+                      "provider_metadata": null,
+                      "createdAt": "2025-02-27T21:19:29.909Z",
+                      "updatedAt": "2025-02-27T21:19:29.909Z"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "variantOf": {
+          "data": null
+        },
+        "reprintOf": {
+          "data": {
+            "id": 693,
+            "attributes": {
+              "title": "K-2SO",
+              "subtitle": "Partenaire De Cassian",
+              "cardNumber": 145,
+              "cardCount": 252,
+              "artist": "Ross Taylor",
+              "artFrontHorizontal": false,
+              "artBackHorizontal": null,
+              "hasFoil": false,
+              "cost": 4,
+              "hp": 4,
+              "power": 4,
+              "text": "Débordement\n\nUne fois éliminée : pour chaque adversaire, choisissez entre : soit infliger 3 dégâts à la base de ce joueur, soit ce joueur défausse une carte de sa main.",
+              "textStyled": "<p><strong>Débordement</strong></p><p><strong>Une fois éliminée : </strong>pour chaque adversaire, choisissez entre : soit infliger 3 dégâts à la base de ce joueur, soit ce joueur défausse une carte de sa main.</p><p>&nbsp;</p>",
+              "deployBox": null,
+              "deployBoxStyled": "",
+              "epicAction": null,
+              "epicActionStyled": "",
+              "linkHtml": "<a href=\"/cards?cid=3232845719\" class=\"card-tooltip\" data-card=\"3232845719\">K-2SO</a>",
+              "cardId": null,
+              "createdAt": "2023-11-29T22:09:41.317Z",
+              "updatedAt": "2024-07-19T16:42:10.139Z",
+              "publishedAt": "2023-12-12T01:02:04.283Z",
+              "locale": "fr",
+              "hyperspace": false,
+              "unique": true,
+              "showcase": false,
+              "cardUid": "3232845719",
+              "rules": "Les boucliers empêchent tout dégât infligé par une unité avec Débordement. Il n’y a donc aucun dégât en excès puisque le défendeur n’est pas éliminé.\nSi le défenseur est éliminé pendant l’attaque avant que les dégâts de combat ne soient infligés, tous les dégâts de combat sont considérés comme des dégâts en excès pour la résolution de Débordement.\n",
+              "rulesStyled": "\n                <figure class=\"table\"><table><tbody><tr><td>3/1/2024</td><td>Les boucliers empêchent tout dégât infligé par une unité avec Débordement. Il n’y a donc aucun dégât en excès puisque le défendeur n’est pas éliminé.</td></tr><tr><td>3/1/2024</td><td>Si le défenseur est éliminé pendant l’attaque avant que les dégâts de combat ne soient infligés, tous les dégâts de combat sont considérés comme des dégâts en excès pour la résolution de Débordement.</td></tr></tbody></table></figure>\n                ",
+              "serialCode": "0101145",
+              "upgradeHp": null,
+              "upgradePower": null
+            }
+          }
+        },
+        "validationId": "3232845719"
+      }
+    },
+    {
+      "id": 25354,
+      "attributes": {
+        "cardNumber": 3,
+        "title": "Supreme Leader Snoke",
+        "subtitle": "Shadow Ruler",
+        "cardCount": 0,
+        "artist": "Amad Mir",
+        "artFrontHorizontal": false,
+        "artBackHorizontal": null,
+        "hasFoil": true,
+        "cost": 8,
+        "hp": 6,
+        "power": 6,
+        "text": "Each enemy non-leader unit gets –2/–2.",
+        "textStyled": "<p>Each enemy non-leader unit gets <strong><strong>–2</strong></strong>/–2.</p>",
+        "deployBox": null,
+        "deployBoxStyled": null,
+        "epicAction": "",
+        "epicActionStyled": "<p></p>",
+        "linkHtml": "<a href=\"/cards?cid=1391345786\" class=\"card-tooltip\" data-card=\"1391345786\">Supreme Leader Snoke</a>",
+        "cardId": null,
+        "createdAt": "2025-02-28T06:22:13.613Z",
+        "updatedAt": "2025-03-03T18:51:18.802Z",
+        "publishedAt": "2025-03-03T06:00:00.000Z",
+        "locale": "fr",
+        "hyperspace": false,
+        "unique": true,
+        "showcase": false,
+        "cardUid": "1391345786",
+        "rules": null,
+        "rulesStyled": null,
+        "serialCode": "j24070003",
+        "upgradeHp": null,
+        "upgradePower": null,
+        "artFront": {
+          "data": {
+            "id": 28921,
+            "attributes": {
+              "name": "J24070003FR_Supreme_Leader_Snoke.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 300,
+              "height": 419,
+              "formats": {
+                "card": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//card_J24070003_FR_Supreme_Leader_Snoke_a6296742d1.png",
+                  "hash": "card_J24070003_FR_Supreme_Leader_Snoke_a6296742d1",
+                  "mime": "image/png",
+                  "name": "card_J24070003FR_Supreme_Leader_Snoke.png",
+                  "path": null,
+                  "size": 196.6,
+                  "width": 286,
+                  "height": 400
+                },
+                "xsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xsmall_J24070003_FR_Supreme_Leader_Snoke_a6296742d1.png",
+                  "hash": "xsmall_J24070003_FR_Supreme_Leader_Snoke_a6296742d1",
+                  "mime": "image/png",
+                  "name": "xsmall_J24070003FR_Supreme_Leader_Snoke.png",
+                  "path": null,
+                  "size": 119.48,
+                  "width": 215,
+                  "height": 300
+                },
+                "xxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxsmall_J24070003_FR_Supreme_Leader_Snoke_a6296742d1.png",
+                  "hash": "xxsmall_J24070003_FR_Supreme_Leader_Snoke_a6296742d1",
+                  "mime": "image/png",
+                  "name": "xxsmall_J24070003FR_Supreme_Leader_Snoke.png",
+                  "path": null,
+                  "size": 58.87,
+                  "width": 143,
+                  "height": 200
+                },
+                "xxxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxxsmall_J24070003_FR_Supreme_Leader_Snoke_a6296742d1.png",
+                  "hash": "xxxsmall_J24070003_FR_Supreme_Leader_Snoke_a6296742d1",
+                  "mime": "image/png",
+                  "name": "xxxsmall_J24070003FR_Supreme_Leader_Snoke.png",
+                  "path": null,
+                  "size": 35.98,
+                  "width": 107,
+                  "height": 150
+                },
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//thumbnail_J24070003_FR_Supreme_Leader_Snoke_a6296742d1.png",
+                  "hash": "thumbnail_J24070003_FR_Supreme_Leader_Snoke_a6296742d1",
+                  "mime": "image/png",
+                  "name": "thumbnail_J24070003FR_Supreme_Leader_Snoke.png",
+                  "path": null,
+                  "size": 86.79,
+                  "width": 179,
+                  "height": 250
+                }
+              },
+              "hash": "J24070003_FR_Supreme_Leader_Snoke_a6296742d1",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 57.14,
+              "url": "https://cdn.starwarsunlimited.com//J24070003_FR_Supreme_Leader_Snoke_a6296742d1.png",
+              "previewUrl": null,
+              "provider": "aws-s3",
+              "provider_metadata": null,
+              "createdAt": "2025-02-27T21:57:01.714Z",
+              "updatedAt": "2025-02-27T21:57:01.714Z"
+            }
+          }
+        },
+        "artBack": {
+          "data": null
+        },
+        "artThumbnail": {
+          "data": {
+            "id": 27859,
+            "attributes": {
+              "name": "J24070003EN_Supreme_Leader_Snoke_Thumbnail.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 300,
+              "height": 100,
+              "formats": {
+                "xxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxsmall_J24070003_EN_Supreme_Leader_Snoke_Thumbnail_bb8cb2376a.png",
+                  "hash": "xxsmall_J24070003_EN_Supreme_Leader_Snoke_Thumbnail_bb8cb2376a",
+                  "mime": "image/png",
+                  "name": "xxsmall_J24070003EN_Supreme_Leader_Snoke_Thumbnail.png",
+                  "path": null,
+                  "size": 28.71,
+                  "width": 200,
+                  "height": 67
+                },
+                "xxxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxxsmall_J24070003_EN_Supreme_Leader_Snoke_Thumbnail_bb8cb2376a.png",
+                  "hash": "xxxsmall_J24070003_EN_Supreme_Leader_Snoke_Thumbnail_bb8cb2376a",
+                  "mime": "image/png",
+                  "name": "xxxsmall_J24070003EN_Supreme_Leader_Snoke_Thumbnail.png",
+                  "path": null,
+                  "size": 17.1,
+                  "width": 150,
+                  "height": 50
+                },
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//thumbnail_J24070003_EN_Supreme_Leader_Snoke_Thumbnail_bb8cb2376a.png",
+                  "hash": "thumbnail_J24070003_EN_Supreme_Leader_Snoke_Thumbnail_bb8cb2376a",
+                  "mime": "image/png",
+                  "name": "thumbnail_J24070003EN_Supreme_Leader_Snoke_Thumbnail.png",
+                  "path": null,
+                  "size": 41.5,
+                  "width": 245,
+                  "height": 82
+                }
+              },
+              "hash": "J24070003_EN_Supreme_Leader_Snoke_Thumbnail_bb8cb2376a",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 19.15,
+              "url": "https://cdn.starwarsunlimited.com//J24070003_EN_Supreme_Leader_Snoke_Thumbnail_bb8cb2376a.png",
+              "previewUrl": null,
+              "provider": "aws-s3",
+              "provider_metadata": null,
+              "createdAt": "2025-02-27T21:31:22.377Z",
+              "updatedAt": "2025-02-27T21:31:22.377Z"
+            }
+          }
+        },
+        "localizations": {
+          "data": [
+            {
+              "id": 25355,
+              "attributes": {
+                "title": "Supreme Leader Snoke",
+                "subtitle": "Shadow Ruler",
+                "cardNumber": 3,
+                "cardCount": 0,
+                "artist": "Amad Mir",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": 8,
+                "hp": 6,
+                "power": 6,
+                "text": "Each enemy non-leader unit gets –2/–2.",
+                "textStyled": "<p>Each enemy non-leader unit gets <strong><strong>–2</strong></strong>/–2.</p>",
+                "deployBox": null,
+                "deployBoxStyled": null,
+                "epicAction": "",
+                "epicActionStyled": "<p></p>",
+                "linkHtml": "<a href=\"/cards?cid=1391345786\" class=\"card-tooltip\" data-card=\"1391345786\">Supreme Leader Snoke</a>",
+                "cardId": null,
+                "createdAt": "2025-02-28T06:22:13.932Z",
+                "updatedAt": "2025-03-03T18:51:18.581Z",
+                "publishedAt": "2025-03-03T06:00:00.000Z",
+                "locale": "it",
+                "hyperspace": false,
+                "unique": true,
+                "showcase": false,
+                "cardUid": "1391345786",
+                "rules": null,
+                "rulesStyled": null,
+                "serialCode": "j24070003",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            },
+            {
+              "id": 25351,
+              "attributes": {
+                "title": "Supreme Leader Snoke",
+                "subtitle": "Shadow Ruler",
+                "cardNumber": 3,
+                "cardCount": 0,
+                "artist": "Amad Mir",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": 8,
+                "hp": 6,
+                "power": 6,
+                "text": "Each enemy non-leader unit gets –2/–2.",
+                "textStyled": "<p>Each enemy non-leader unit gets <strong><strong>–2</strong></strong>/–2.</p>",
+                "deployBox": null,
+                "deployBoxStyled": null,
+                "epicAction": "",
+                "epicActionStyled": "<p></p>",
+                "linkHtml": "<a href=\"/cards?cid=1391345786\" class=\"card-tooltip\" data-card=\"1391345786\">Supreme Leader Snoke</a>",
+                "cardId": null,
+                "createdAt": "2025-02-28T06:22:12.756Z",
+                "updatedAt": "2025-03-03T18:51:18.371Z",
+                "publishedAt": "2025-03-03T06:00:00.000Z",
+                "locale": "en",
+                "hyperspace": false,
+                "unique": true,
+                "showcase": false,
+                "cardUid": "1391345786",
+                "rules": null,
+                "rulesStyled": null,
+                "serialCode": "j24070003",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            },
+            {
+              "id": 25353,
+              "attributes": {
+                "title": "Supreme Leader Snoke",
+                "subtitle": "Shadow Ruler",
+                "cardNumber": 3,
+                "cardCount": 0,
+                "artist": "Amad Mir",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": 8,
+                "hp": 6,
+                "power": 6,
+                "text": "Each enemy non-leader unit gets –2/–2.",
+                "textStyled": "<p>Each enemy non-leader unit gets <strong><strong>–2</strong></strong>/–2.</p>",
+                "deployBox": null,
+                "deployBoxStyled": null,
+                "epicAction": "",
+                "epicActionStyled": "<p></p>",
+                "linkHtml": "<a href=\"/cards?cid=1391345786\" class=\"card-tooltip\" data-card=\"1391345786\">Supreme Leader Snoke</a>",
+                "cardId": null,
+                "createdAt": "2025-02-28T06:22:13.318Z",
+                "updatedAt": "2025-03-03T18:51:19.010Z",
+                "publishedAt": "2025-03-03T06:00:00.000Z",
+                "locale": "es",
+                "hyperspace": false,
+                "unique": true,
+                "showcase": false,
+                "cardUid": "1391345786",
+                "rules": null,
+                "rulesStyled": null,
+                "serialCode": "j24070003",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            },
+            {
+              "id": 25352,
+              "attributes": {
+                "title": "Supreme Leader Snoke",
+                "subtitle": "Shadow Ruler",
+                "cardNumber": 3,
+                "cardCount": 0,
+                "artist": "Amad Mir",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": 8,
+                "hp": 6,
+                "power": 6,
+                "text": "Each enemy non-leader unit gets –2/–2.",
+                "textStyled": "<p>Each enemy non-leader unit gets <strong><strong>–2</strong></strong>/–2.</p>",
+                "deployBox": null,
+                "deployBoxStyled": null,
+                "epicAction": "",
+                "epicActionStyled": "<p></p>",
+                "linkHtml": "<a href=\"/cards?cid=1391345786\" class=\"card-tooltip\" data-card=\"1391345786\">Supreme Leader Snoke</a>",
+                "cardId": null,
+                "createdAt": "2025-02-28T06:22:13.049Z",
+                "updatedAt": "2025-03-03T18:51:19.220Z",
+                "publishedAt": "2025-03-03T06:00:00.000Z",
+                "locale": "de",
+                "hyperspace": false,
+                "unique": true,
+                "showcase": false,
+                "cardUid": "1391345786",
+                "rules": null,
+                "rulesStyled": null,
+                "serialCode": "j24070003",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "data": [
+            {
+              "id": 4,
+              "attributes": {
+                "name": "Vigilance",
+                "description": "<p>Un jeu défensif, avec des capacités pour soigner les dégâts, retirer du jeu les unités dangereuses, protéger sa base des attaques ennemies. Cette affinité est idéale pour les joueurs qui savent temporiser, en encaissant les assauts les plus meurtriers.</p>",
+                "color": "#4073d4",
+                "createdAt": "2023-08-10T21:02:26.776Z",
+                "updatedAt": "2024-07-15T21:32:24.096Z",
+                "publishedAt": "2024-01-02T18:25:33.755Z",
+                "locale": "fr",
+                "englishName": "Vigilance",
+                "sortValue": 1
+              }
+            },
+            {
+              "id": 29,
+              "attributes": {
+                "name": "Infâmie",
+                "description": "<p>Se battre pour le pouvoir suprême avec les «&nbsp;méchants&nbsp;» de la galaxie Star Wars. Cette affinité permet de commander à d’immenses armées ou de provoquer de terribles destructions. Tout comme l’Héroïsme, cette affinité est souvent associée à une autre affinité sur la carte.</p>",
+                "color": "#000000",
+                "createdAt": "2023-08-10T21:20:52.826Z",
+                "updatedAt": "2024-07-15T21:40:49.895Z",
+                "publishedAt": "2024-01-02T18:25:50.235Z",
+                "locale": "fr",
+                "englishName": "Villainy",
+                "sortValue": 20
+              }
+            }
+          ]
+        },
+        "aspectDuplicates": {
+          "data": []
+        },
+        "type": {
+          "data": {
+            "id": 29,
+            "attributes": {
+              "name": "Unité",
+              "description": "",
+              "value": "Unit",
+              "createdAt": "2023-08-15T18:04:32.553Z",
+              "updatedAt": "2024-04-25T13:52:29.937Z",
+              "publishedAt": "2024-01-04T21:29:14.943Z",
+              "locale": "fr",
+              "sortValue": 3
+            }
+          }
+        },
+        "type2": {
+          "data": null
+        },
+        "traits": {
+          "data": [
+            {
+              "id": 34,
+              "attributes": {
+                "name": "Force",
+                "description": null,
+                "createdAt": "2023-08-15T14:41:10.682Z",
+                "updatedAt": "2024-01-04T21:15:19.420Z",
+                "publishedAt": "2024-01-04T21:15:19.417Z",
+                "locale": "fr"
+              }
+            },
+            {
+              "id": 255,
+              "attributes": {
+                "name": "Premier Ordre",
+                "description": "",
+                "createdAt": "2024-04-09T16:17:34.012Z",
+                "updatedAt": "2024-05-21T18:02:07.628Z",
+                "publishedAt": "2024-05-21T18:02:07.625Z",
+                "locale": "fr"
+              }
+            },
+            {
+              "id": 14,
+              "attributes": {
+                "name": "Officiel",
+                "description": "",
+                "createdAt": "2023-08-15T14:38:52.136Z",
+                "updatedAt": "2024-01-04T21:08:45.141Z",
+                "publishedAt": "2024-01-04T21:08:45.138Z",
+                "locale": "fr"
+              }
+            }
+          ]
+        },
+        "arenas": {
+          "data": [
+            {
+              "id": 4,
+              "attributes": {
+                "name": "Terrestre",
+                "description": null,
+                "createdAt": "2023-08-15T14:32:20.801Z",
+                "updatedAt": "2024-01-04T16:49:07.912Z",
+                "publishedAt": "2023-08-18T21:37:40.768Z",
+                "locale": "fr"
+              }
+            }
+          ]
+        },
+        "keywords": {
+          "data": []
+        },
+        "rarity": {
+          "data": {
+            "id": 19,
+            "attributes": {
+              "name": "Légendaire",
+              "character": "L",
+              "color": "#00c8f3",
+              "createdAt": "2023-08-14T21:31:56.477Z",
+              "updatedAt": "2024-04-25T14:07:09.463Z",
+              "publishedAt": "2024-01-04T16:41:14.814Z",
+              "locale": "fr",
+              "englishName": "Legendary",
+              "sortValue": 5
+            }
+          }
+        },
+        "expansion": {
+          "data": {
+            "id": 30,
+            "attributes": {
+              "name": "2024 Judge Program",
+              "description": "",
+              "code": "J24",
+              "createdAt": "2025-02-27T21:21:32.332Z",
+              "updatedAt": "2025-03-03T20:32:15.701Z",
+              "publishedAt": "2025-03-03T20:32:04.384Z",
+              "locale": "fr",
+              "sortValue": 45,
+              "leaderboardStartDate": null,
+              "leaderboardEndDate": null
+            }
+          }
+        },
+        "variantTypes": {
+          "data": [
+            {
+              "id": 128,
+              "attributes": {
+                "name": "Judge Program",
+                "description": null,
+                "createdAt": "2025-02-27T23:10:53.910Z",
+                "updatedAt": "2025-03-03T20:33:15.012Z",
+                "publishedAt": "2025-03-03T20:33:05.848Z",
+                "locale": "fr",
+                "variantId": "07",
+                "foil": null,
+                "sortValue": 70,
+                "icon": {
+                  "data": {
+                    "id": 27667,
+                    "attributes": {
+                      "name": "icon_judgeprogram.png",
+                      "alternativeText": null,
+                      "caption": null,
+                      "width": 145,
+                      "height": 144,
+                      "formats": null,
+                      "hash": "icon_judgeprogram_299cea1d3b",
+                      "ext": ".png",
+                      "mime": "image/png",
+                      "size": 0.63,
+                      "url": "https://cdn.starwarsunlimited.com//icon_judgeprogram_299cea1d3b.png",
+                      "previewUrl": null,
+                      "provider": "aws-s3",
+                      "provider_metadata": null,
+                      "createdAt": "2025-02-27T21:19:29.909Z",
+                      "updatedAt": "2025-02-27T21:19:29.909Z"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "variantOf": {
+          "data": null
+        },
+        "reprintOf": {
+          "data": {
+            "id": 7976,
+            "attributes": {
+              "title": "Suprême Leader Snoke",
+              "subtitle": "Dirigeant Fictif",
+              "cardNumber": 37,
+              "cardCount": 262,
+              "artist": "Amad Mir",
+              "artFrontHorizontal": false,
+              "artBackHorizontal": null,
+              "hasFoil": false,
+              "cost": 8,
+              "hp": 6,
+              "power": 6,
+              "text": "Chaque unité ennemie non-leader a –2/–2.",
+              "textStyled": "<p>Chaque unité ennemie non-leader a <strong>–2/–2</strong>.</p>",
+              "deployBox": null,
+              "deployBoxStyled": "",
+              "epicAction": null,
+              "epicActionStyled": "",
+              "linkHtml": "<a href=\"/cards?cid=3731235174\" class=\"card-tooltip\" data-card=\"3731235174\">Suprême Leader Snoke</a>",
+              "cardId": null,
+              "createdAt": "2024-05-06T20:49:45.922Z",
+              "updatedAt": "2024-07-15T18:12:53.580Z",
+              "publishedAt": "2024-06-10T21:46:33.824Z",
+              "locale": "fr",
+              "hyperspace": false,
+              "unique": true,
+              "showcase": false,
+              "cardUid": "3731235174",
+              "rules": null,
+              "rulesStyled": "",
+              "serialCode": "0201037",
+              "upgradeHp": null,
+              "upgradePower": null
+            }
+          }
+        },
+        "validationId": "3731235174"
+      }
+    },
+    {
+      "id": 25359,
+      "attributes": {
+        "cardNumber": 4,
+        "title": "Maul",
+        "subtitle": "Shadow Collective Visionary",
+        "cardCount": 0,
+        "artist": "Amad Mir",
+        "artFrontHorizontal": false,
+        "artBackHorizontal": null,
+        "hasFoil": true,
+        "cost": 7,
+        "hp": 6,
+        "power": 7,
+        "text": "Ambush, Overwhelm\nOn Attack: You may choose another friendly Underworld unit. If you do, all combat damage that would be dealt to this unit during this attack is dealt to the chosen unit instead.",
+        "textStyled": "<p><strong>Ambush</strong>, <strong>Overwhelm</strong></p><p><strong>On Attack:</strong> You may choose another friendly <strong><i>Underworld</i></strong> unit. If you do, all combat damage that would be dealt to this unit during this attack is dealt to the chosen unit instead.</p>",
+        "deployBox": null,
+        "deployBoxStyled": null,
+        "epicAction": "",
+        "epicActionStyled": "<p></p>",
+        "linkHtml": "<a href=\"/cards?cid=8441034878\" class=\"card-tooltip\" data-card=\"8441034878\">Maul</a>",
+        "cardId": null,
+        "createdAt": "2025-02-28T06:22:15.141Z",
+        "updatedAt": "2025-03-03T18:51:19.872Z",
+        "publishedAt": "2025-03-03T06:00:00.000Z",
+        "locale": "fr",
+        "hyperspace": false,
+        "unique": true,
+        "showcase": false,
+        "cardUid": "8441034878",
+        "rules": null,
+        "rulesStyled": null,
+        "serialCode": "j24070004",
+        "upgradeHp": null,
+        "upgradePower": null,
+        "artFront": {
+          "data": {
+            "id": 28661,
+            "attributes": {
+              "name": "J24070004FR_Maul.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 300,
+              "height": 419,
+              "formats": {
+                "card": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//card_J24070004_FR_Maul_a08b6bce00.png",
+                  "hash": "card_J24070004_FR_Maul_a08b6bce00",
+                  "mime": "image/png",
+                  "name": "card_J24070004FR_Maul.png",
+                  "path": null,
+                  "size": 216.62,
+                  "width": 286,
+                  "height": 400
+                },
+                "xsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xsmall_J24070004_FR_Maul_a08b6bce00.png",
+                  "hash": "xsmall_J24070004_FR_Maul_a08b6bce00",
+                  "mime": "image/png",
+                  "name": "xsmall_J24070004FR_Maul.png",
+                  "path": null,
+                  "size": 131.34,
+                  "width": 215,
+                  "height": 300
+                },
+                "xxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxsmall_J24070004_FR_Maul_a08b6bce00.png",
+                  "hash": "xxsmall_J24070004_FR_Maul_a08b6bce00",
+                  "mime": "image/png",
+                  "name": "xxsmall_J24070004FR_Maul.png",
+                  "path": null,
+                  "size": 64.58,
+                  "width": 143,
+                  "height": 200
+                },
+                "xxxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxxsmall_J24070004_FR_Maul_a08b6bce00.png",
+                  "hash": "xxxsmall_J24070004_FR_Maul_a08b6bce00",
+                  "mime": "image/png",
+                  "name": "xxxsmall_J24070004FR_Maul.png",
+                  "path": null,
+                  "size": 38.97,
+                  "width": 107,
+                  "height": 150
+                },
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//thumbnail_J24070004_FR_Maul_a08b6bce00.png",
+                  "hash": "thumbnail_J24070004_FR_Maul_a08b6bce00",
+                  "mime": "image/png",
+                  "name": "thumbnail_J24070004FR_Maul.png",
+                  "path": null,
+                  "size": 95.69,
+                  "width": 179,
+                  "height": 250
+                }
+              },
+              "hash": "J24070004_FR_Maul_a08b6bce00",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 62,
+              "url": "https://cdn.starwarsunlimited.com//J24070004_FR_Maul_a08b6bce00.png",
+              "previewUrl": null,
+              "provider": "aws-s3",
+              "provider_metadata": null,
+              "createdAt": "2025-02-27T21:52:29.697Z",
+              "updatedAt": "2025-02-27T21:52:29.697Z"
+            }
+          }
+        },
+        "artBack": {
+          "data": null
+        },
+        "artThumbnail": {
+          "data": {
+            "id": 27829,
+            "attributes": {
+              "name": "J24070004EN_Maul_Thumbnail.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 300,
+              "height": 100,
+              "formats": {
+                "xxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxsmall_J24070004_EN_Maul_Thumbnail_f075a455e4.png",
+                  "hash": "xxsmall_J24070004_EN_Maul_Thumbnail_f075a455e4",
+                  "mime": "image/png",
+                  "name": "xxsmall_J24070004EN_Maul_Thumbnail.png",
+                  "path": null,
+                  "size": 35.64,
+                  "width": 200,
+                  "height": 67
+                },
+                "xxxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxxsmall_J24070004_EN_Maul_Thumbnail_f075a455e4.png",
+                  "hash": "xxxsmall_J24070004_EN_Maul_Thumbnail_f075a455e4",
+                  "mime": "image/png",
+                  "name": "xxxsmall_J24070004EN_Maul_Thumbnail.png",
+                  "path": null,
+                  "size": 20.73,
+                  "width": 150,
+                  "height": 50
+                },
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//thumbnail_J24070004_EN_Maul_Thumbnail_f075a455e4.png",
+                  "hash": "thumbnail_J24070004_EN_Maul_Thumbnail_f075a455e4",
+                  "mime": "image/png",
+                  "name": "thumbnail_J24070004EN_Maul_Thumbnail.png",
+                  "path": null,
+                  "size": 51.69,
+                  "width": 245,
+                  "height": 82
+                }
+              },
+              "hash": "J24070004_EN_Maul_Thumbnail_f075a455e4",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 24.3,
+              "url": "https://cdn.starwarsunlimited.com//J24070004_EN_Maul_Thumbnail_f075a455e4.png",
+              "previewUrl": null,
+              "provider": "aws-s3",
+              "provider_metadata": null,
+              "createdAt": "2025-02-27T21:31:02.517Z",
+              "updatedAt": "2025-02-27T21:31:02.517Z"
+            }
+          }
+        },
+        "localizations": {
+          "data": [
+            {
+              "id": 25360,
+              "attributes": {
+                "title": "Maul",
+                "subtitle": "Shadow Collective Visionary",
+                "cardNumber": 4,
+                "cardCount": 0,
+                "artist": "Amad Mir",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": 7,
+                "hp": 6,
+                "power": 7,
+                "text": "Ambush, Overwhelm\nOn Attack: You may choose another friendly Underworld unit. If you do, all combat damage that would be dealt to this unit during this attack is dealt to the chosen unit instead.",
+                "textStyled": "<p><strong>Ambush</strong>, <strong>Overwhelm</strong></p><p><strong>On Attack:</strong> You may choose another friendly <strong><i>Underworld</i></strong> unit. If you do, all combat damage that would be dealt to this unit during this attack is dealt to the chosen unit instead.</p>",
+                "deployBox": null,
+                "deployBoxStyled": null,
+                "epicAction": "",
+                "epicActionStyled": "<p></p>",
+                "linkHtml": "<a href=\"/cards?cid=8441034878\" class=\"card-tooltip\" data-card=\"8441034878\">Maul</a>",
+                "cardId": null,
+                "createdAt": "2025-02-28T06:22:15.461Z",
+                "updatedAt": "2025-03-03T18:51:19.654Z",
+                "publishedAt": "2025-03-03T06:00:00.000Z",
+                "locale": "it",
+                "hyperspace": false,
+                "unique": true,
+                "showcase": false,
+                "cardUid": "8441034878",
+                "rules": null,
+                "rulesStyled": null,
+                "serialCode": "j24070004",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            },
+            {
+              "id": 25356,
+              "attributes": {
+                "title": "Maul",
+                "subtitle": "Shadow Collective Visionary",
+                "cardNumber": 4,
+                "cardCount": 0,
+                "artist": "Amad Mir",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": 7,
+                "hp": 6,
+                "power": 7,
+                "text": "Ambush, Overwhelm\nOn Attack: You may choose another friendly Underworld unit. If you do, all combat damage that would be dealt to this unit during this attack is dealt to the chosen unit instead.",
+                "textStyled": "<p><strong>Ambush</strong>, <strong>Overwhelm</strong></p><p><strong>On Attack:</strong> You may choose another friendly <strong><i>Underworld</i></strong> unit. If you do, all combat damage that would be dealt to this unit during this attack is dealt to the chosen unit instead.</p>",
+                "deployBox": null,
+                "deployBoxStyled": null,
+                "epicAction": "",
+                "epicActionStyled": "<p></p>",
+                "linkHtml": "<a href=\"/cards?cid=8441034878\" class=\"card-tooltip\" data-card=\"8441034878\">Maul</a>",
+                "cardId": null,
+                "createdAt": "2025-02-28T06:22:14.268Z",
+                "updatedAt": "2025-03-03T18:51:19.438Z",
+                "publishedAt": "2025-03-03T06:00:00.000Z",
+                "locale": "en",
+                "hyperspace": false,
+                "unique": true,
+                "showcase": false,
+                "cardUid": "8441034878",
+                "rules": null,
+                "rulesStyled": null,
+                "serialCode": "j24070004",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            },
+            {
+              "id": 25358,
+              "attributes": {
+                "title": "Maul",
+                "subtitle": "Shadow Collective Visionary",
+                "cardNumber": 4,
+                "cardCount": 0,
+                "artist": "Amad Mir",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": 7,
+                "hp": 6,
+                "power": 7,
+                "text": "Ambush, Overwhelm\nOn Attack: You may choose another friendly Underworld unit. If you do, all combat damage that would be dealt to this unit during this attack is dealt to the chosen unit instead.",
+                "textStyled": "<p><strong>Ambush</strong>, <strong>Overwhelm</strong></p><p><strong>On Attack:</strong> You may choose another friendly <strong><i>Underworld</i></strong> unit. If you do, all combat damage that would be dealt to this unit during this attack is dealt to the chosen unit instead.</p>",
+                "deployBox": null,
+                "deployBoxStyled": null,
+                "epicAction": "",
+                "epicActionStyled": "<p></p>",
+                "linkHtml": "<a href=\"/cards?cid=8441034878\" class=\"card-tooltip\" data-card=\"8441034878\">Maul</a>",
+                "cardId": null,
+                "createdAt": "2025-02-28T06:22:14.843Z",
+                "updatedAt": "2025-03-03T18:51:20.097Z",
+                "publishedAt": "2025-03-03T06:00:00.000Z",
+                "locale": "es",
+                "hyperspace": false,
+                "unique": true,
+                "showcase": false,
+                "cardUid": "8441034878",
+                "rules": null,
+                "rulesStyled": null,
+                "serialCode": "j24070004",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            },
+            {
+              "id": 25357,
+              "attributes": {
+                "title": "Maul",
+                "subtitle": "Shadow Collective Visionary",
+                "cardNumber": 4,
+                "cardCount": 0,
+                "artist": "Amad Mir",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": 7,
+                "hp": 6,
+                "power": 7,
+                "text": "Ambush, Overwhelm\nOn Attack: You may choose another friendly Underworld unit. If you do, all combat damage that would be dealt to this unit during this attack is dealt to the chosen unit instead.",
+                "textStyled": "<p><strong>Ambush</strong>, <strong>Overwhelm</strong></p><p><strong>On Attack:</strong> You may choose another friendly <strong><i>Underworld</i></strong> unit. If you do, all combat damage that would be dealt to this unit during this attack is dealt to the chosen unit instead.</p>",
+                "deployBox": null,
+                "deployBoxStyled": null,
+                "epicAction": "",
+                "epicActionStyled": "<p></p>",
+                "linkHtml": "<a href=\"/cards?cid=8441034878\" class=\"card-tooltip\" data-card=\"8441034878\">Maul</a>",
+                "cardId": null,
+                "createdAt": "2025-02-28T06:22:14.576Z",
+                "updatedAt": "2025-03-03T18:51:20.309Z",
+                "publishedAt": "2025-03-03T06:00:00.000Z",
+                "locale": "de",
+                "hyperspace": false,
+                "unique": true,
+                "showcase": false,
+                "cardUid": "8441034878",
+                "rules": null,
+                "rulesStyled": null,
+                "serialCode": "j24070004",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "data": [
+            {
+              "id": 9,
+              "attributes": {
+                "name": "Commandement",
+                "description": "<p>Accélérer sa production de ressources, utiliser de nombreuses unités, renforcer celles qui sont déjà en jeu. C’est l’affinité de prédilection des joueurs qui veulent écraser leurs adversaires par une utilisation massive de leurs troupes.</p>",
+                "color": "#0b992d",
+                "createdAt": "2023-08-10T21:07:29.191Z",
+                "updatedAt": "2024-07-15T21:32:41.107Z",
+                "publishedAt": "2024-01-02T18:24:28.907Z",
+                "locale": "fr",
+                "englishName": "Command",
+                "sortValue": 5
+              }
+            },
+            {
+              "id": 29,
+              "attributes": {
+                "name": "Infâmie",
+                "description": "<p>Se battre pour le pouvoir suprême avec les «&nbsp;méchants&nbsp;» de la galaxie Star Wars. Cette affinité permet de commander à d’immenses armées ou de provoquer de terribles destructions. Tout comme l’Héroïsme, cette affinité est souvent associée à une autre affinité sur la carte.</p>",
+                "color": "#000000",
+                "createdAt": "2023-08-10T21:20:52.826Z",
+                "updatedAt": "2024-07-15T21:40:49.895Z",
+                "publishedAt": "2024-01-02T18:25:50.235Z",
+                "locale": "fr",
+                "englishName": "Villainy",
+                "sortValue": 20
+              }
+            }
+          ]
+        },
+        "aspectDuplicates": {
+          "data": []
+        },
+        "type": {
+          "data": {
+            "id": 29,
+            "attributes": {
+              "name": "Unité",
+              "description": "",
+              "value": "Unit",
+              "createdAt": "2023-08-15T18:04:32.553Z",
+              "updatedAt": "2024-04-25T13:52:29.937Z",
+              "publishedAt": "2024-01-04T21:29:14.943Z",
+              "locale": "fr",
+              "sortValue": 3
+            }
+          }
+        },
+        "type2": {
+          "data": null
+        },
+        "traits": {
+          "data": [
+            {
+              "id": 34,
+              "attributes": {
+                "name": "Force",
+                "description": null,
+                "createdAt": "2023-08-15T14:41:10.682Z",
+                "updatedAt": "2024-01-04T21:15:19.420Z",
+                "publishedAt": "2024-01-04T21:15:19.417Z",
+                "locale": "fr"
+              }
+            },
+            {
+              "id": 24,
+              "attributes": {
+                "name": "Pègre",
+                "description": "",
+                "createdAt": "2023-08-15T14:39:46.306Z",
+                "updatedAt": "2024-04-08T21:45:30.258Z",
+                "publishedAt": "2024-01-04T21:26:50.390Z",
+                "locale": "fr"
+              }
+            }
+          ]
+        },
+        "arenas": {
+          "data": [
+            {
+              "id": 4,
+              "attributes": {
+                "name": "Terrestre",
+                "description": null,
+                "createdAt": "2023-08-15T14:32:20.801Z",
+                "updatedAt": "2024-01-04T16:49:07.912Z",
+                "publishedAt": "2023-08-18T21:37:40.768Z",
+                "locale": "fr"
+              }
+            }
+          ]
+        },
+        "keywords": {
+          "data": [
+            {
+              "id": 14,
+              "attributes": {
+                "name": "Embuscade",
+                "description": "",
+                "createdAt": "2023-11-28T17:05:34.393Z",
+                "updatedAt": "2024-01-04T17:17:00.636Z",
+                "publishedAt": "2023-11-28T17:05:39.697Z",
+                "locale": "fr"
+              }
+            },
+            {
+              "id": 29,
+              "attributes": {
+                "name": "Débordement",
+                "description": "",
+                "createdAt": "2023-11-28T17:10:00.435Z",
+                "updatedAt": "2024-01-04T19:00:43.837Z",
+                "publishedAt": "2023-11-28T17:10:07.902Z",
+                "locale": "fr"
+              }
+            }
+          ]
+        },
+        "rarity": {
+          "data": {
+            "id": 14,
+            "attributes": {
+              "name": "Rare",
+              "character": "R",
+              "color": "#f1c000",
+              "createdAt": "2023-08-14T21:29:34.676Z",
+              "updatedAt": "2025-06-17T21:46:47.442Z",
+              "publishedAt": "2024-01-04T16:41:34.918Z",
+              "locale": "fr",
+              "englishName": "Rare",
+              "sortValue": 4
+            }
+          }
+        },
+        "expansion": {
+          "data": {
+            "id": 30,
+            "attributes": {
+              "name": "2024 Judge Program",
+              "description": "",
+              "code": "J24",
+              "createdAt": "2025-02-27T21:21:32.332Z",
+              "updatedAt": "2025-03-03T20:32:15.701Z",
+              "publishedAt": "2025-03-03T20:32:04.384Z",
+              "locale": "fr",
+              "sortValue": 45,
+              "leaderboardStartDate": null,
+              "leaderboardEndDate": null
+            }
+          }
+        },
+        "variantTypes": {
+          "data": [
+            {
+              "id": 128,
+              "attributes": {
+                "name": "Judge Program",
+                "description": null,
+                "createdAt": "2025-02-27T23:10:53.910Z",
+                "updatedAt": "2025-03-03T20:33:15.012Z",
+                "publishedAt": "2025-03-03T20:33:05.848Z",
+                "locale": "fr",
+                "variantId": "07",
+                "foil": null,
+                "sortValue": 70,
+                "icon": {
+                  "data": {
+                    "id": 27667,
+                    "attributes": {
+                      "name": "icon_judgeprogram.png",
+                      "alternativeText": null,
+                      "caption": null,
+                      "width": 145,
+                      "height": 144,
+                      "formats": null,
+                      "hash": "icon_judgeprogram_299cea1d3b",
+                      "ext": ".png",
+                      "mime": "image/png",
+                      "size": 0.63,
+                      "url": "https://cdn.starwarsunlimited.com//icon_judgeprogram_299cea1d3b.png",
+                      "previewUrl": null,
+                      "provider": "aws-s3",
+                      "provider_metadata": null,
+                      "createdAt": "2025-02-27T21:19:29.909Z",
+                      "updatedAt": "2025-02-27T21:19:29.909Z"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "variantOf": {
+          "data": null
+        },
+        "reprintOf": {
+          "data": {
+            "id": 8041,
+            "attributes": {
+              "title": "Maul",
+              "subtitle": "Visionnaire Du Collectif Des Ombres",
+              "cardNumber": 90,
+              "cardCount": 262,
+              "artist": "Amad Mir",
+              "artFrontHorizontal": false,
+              "artBackHorizontal": null,
+              "hasFoil": false,
+              "cost": 7,
+              "hp": 6,
+              "power": 7,
+              "text": "Embuscade, Débordement\nEn attaque : vous pouvez choisir une autre unité PÈGRE amie. Dans ce cas, tous les dégâts de combat qui devraient être infligés à cette unité pendant cette attaque, le sont à l'unité choisie à la place.",
+              "textStyled": "<p><strong>Embuscade</strong>, <strong>Débordement</strong></p><p><strong>En attaque :</strong> vous pouvez choisir une autre unité <i><strong>PÈGRE</strong></i> amie. Dans ce cas, tous les dégâts de combat qui devraient être infligés à cette unité pendant cette attaque, le sont à l’unité choisie à la place.</p>",
+              "deployBox": null,
+              "deployBoxStyled": "",
+              "epicAction": null,
+              "epicActionStyled": "",
+              "linkHtml": "<a href=\"/cards?cid=8862896760\" class=\"card-tooltip\" data-card=\"8862896760\">Maul</a>",
+              "cardId": null,
+              "createdAt": "2024-05-06T20:50:11.308Z",
+              "updatedAt": "2024-10-24T04:06:54.305Z",
+              "publishedAt": "2024-06-01T04:19:15.586Z",
+              "locale": "fr",
+              "hyperspace": false,
+              "unique": true,
+              "showcase": false,
+              "cardUid": "8862896760",
+              "rules": "Embuscade est une capacité qui se déclenche en même temps que la capacité « Une fois jouée ». S’il n’y a aucun ennemi à attaquer, l’unité ne peut être redressée.\n« Dégâts de combat » désigne les dégâts infligés lors de l’étape « infliger des dégâts de combat » d’une attaque.\nLes boucliers protègent de tout dégât infligé par une unité avec Débordement. Il n’y a donc aucun dégât en excès puisque le défendeur n’est pas éliminé.\nSi le défenseur est éliminé pendant l’attaque avant que les dégâts de combat soient infligés, tous les dégâts de combat avec Débordement sont considérés comme des dégâts en excès.\n",
+              "rulesStyled": "\n                <figure class=\"table\"><table><tbody><tr><td>7/16/2024</td><td>Embuscade est une capacité qui se déclenche en même temps que la capacité « Une fois jouée ». S’il n’y a aucun ennemi à attaquer, l’unité ne peut être redressée.</td></tr><tr><td>7/16/2024</td><td>« Dégâts de combat » désigne les dégâts infligés lors de l’étape « infliger des dégâts de combat » d’une attaque.</td></tr><tr><td>7/16/2024</td><td>Les boucliers protègent de tout dégât infligé par une unité avec Débordement. Il n’y a donc aucun dégât en excès puisque le défendeur n’est pas éliminé.</td></tr><tr><td>7/16/2024</td><td>Si le défenseur est éliminé pendant l’attaque avant que les dégâts de combat soient infligés, tous les dégâts de combat avec Débordement sont considérés comme des dégâts en excès.</td></tr></tbody></table></figure>\n                ",
+              "serialCode": "0201090",
+              "upgradeHp": null,
+              "upgradePower": null
+            }
+          }
+        },
+        "validationId": "8862896760"
+      }
+    },
+    {
+      "id": 25364,
+      "attributes": {
+        "cardNumber": 5,
+        "title": "Wrecker",
+        "subtitle": "Boom!",
+        "cardCount": 0,
+        "artist": "Stefano Landini",
+        "artFrontHorizontal": false,
+        "artBackHorizontal": null,
+        "hasFoil": true,
+        "cost": 6,
+        "hp": 6,
+        "power": 7,
+        "text": "Overwhelm\nWhen Played: You may defeat a friendly resource. If you do, deal 5 damage to a ground unit.",
+        "textStyled": "<p><strong>Overwhelm</strong></p><p><strong>When Played:</strong> You may defeat a friendly resource. If you do, deal 5 damage to a ground unit.</p>",
+        "deployBox": null,
+        "deployBoxStyled": null,
+        "epicAction": "",
+        "epicActionStyled": "<p></p>",
+        "linkHtml": "<a href=\"/cards?cid=6181330491\" class=\"card-tooltip\" data-card=\"6181330491\">Wrecker</a>",
+        "cardId": null,
+        "createdAt": "2025-02-28T06:22:16.656Z",
+        "updatedAt": "2025-03-03T18:51:20.962Z",
+        "publishedAt": "2025-03-03T06:00:00.000Z",
+        "locale": "fr",
+        "hyperspace": false,
+        "unique": true,
+        "showcase": false,
+        "cardUid": "6181330491",
+        "rules": null,
+        "rulesStyled": null,
+        "serialCode": "j24070005",
+        "upgradeHp": null,
+        "upgradePower": null,
+        "artFront": {
+          "data": {
+            "id": 28151,
+            "attributes": {
+              "name": "J24070005FR_Wrecker.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 300,
+              "height": 419,
+              "formats": {
+                "card": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//card_J24070005_FR_Wrecker_bd93d80e61.png",
+                  "hash": "card_J24070005_FR_Wrecker_bd93d80e61",
+                  "mime": "image/png",
+                  "name": "card_J24070005FR_Wrecker.png",
+                  "path": null,
+                  "size": 182.99,
+                  "width": 286,
+                  "height": 400
+                },
+                "xsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xsmall_J24070005_FR_Wrecker_bd93d80e61.png",
+                  "hash": "xsmall_J24070005_FR_Wrecker_bd93d80e61",
+                  "mime": "image/png",
+                  "name": "xsmall_J24070005FR_Wrecker.png",
+                  "path": null,
+                  "size": 112.16,
+                  "width": 215,
+                  "height": 300
+                },
+                "xxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxsmall_J24070005_FR_Wrecker_bd93d80e61.png",
+                  "hash": "xxsmall_J24070005_FR_Wrecker_bd93d80e61",
+                  "mime": "image/png",
+                  "name": "xxsmall_J24070005FR_Wrecker.png",
+                  "path": null,
+                  "size": 56.23,
+                  "width": 143,
+                  "height": 200
+                },
+                "xxxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxxsmall_J24070005_FR_Wrecker_bd93d80e61.png",
+                  "hash": "xxxsmall_J24070005_FR_Wrecker_bd93d80e61",
+                  "mime": "image/png",
+                  "name": "xxxsmall_J24070005FR_Wrecker.png",
+                  "path": null,
+                  "size": 34.56,
+                  "width": 107,
+                  "height": 150
+                },
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//thumbnail_J24070005_FR_Wrecker_bd93d80e61.png",
+                  "hash": "thumbnail_J24070005_FR_Wrecker_bd93d80e61",
+                  "mime": "image/png",
+                  "name": "thumbnail_J24070005FR_Wrecker.png",
+                  "path": null,
+                  "size": 81.99,
+                  "width": 179,
+                  "height": 250
+                }
+              },
+              "hash": "J24070005_FR_Wrecker_bd93d80e61",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 53.65,
+              "url": "https://cdn.starwarsunlimited.com//J24070005_FR_Wrecker_bd93d80e61.png",
+              "previewUrl": null,
+              "provider": "aws-s3",
+              "provider_metadata": null,
+              "createdAt": "2025-02-27T21:41:31.043Z",
+              "updatedAt": "2025-02-27T21:41:31.043Z"
+            }
+          }
+        },
+        "artBack": {
+          "data": null
+        },
+        "artThumbnail": {
+          "data": {
+            "id": 27722,
+            "attributes": {
+              "name": "J24070005EN_Wrecker_Thumbnail.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 300,
+              "height": 100,
+              "formats": {
+                "xxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxsmall_J24070005_EN_Wrecker_Thumbnail_5e53241909.png",
+                  "hash": "xxsmall_J24070005_EN_Wrecker_Thumbnail_5e53241909",
+                  "mime": "image/png",
+                  "name": "xxsmall_J24070005EN_Wrecker_Thumbnail.png",
+                  "path": null,
+                  "size": 26.77,
+                  "width": 200,
+                  "height": 67
+                },
+                "xxxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxxsmall_J24070005_EN_Wrecker_Thumbnail_5e53241909.png",
+                  "hash": "xxxsmall_J24070005_EN_Wrecker_Thumbnail_5e53241909",
+                  "mime": "image/png",
+                  "name": "xxxsmall_J24070005EN_Wrecker_Thumbnail.png",
+                  "path": null,
+                  "size": 15.92,
+                  "width": 150,
+                  "height": 50
+                },
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//thumbnail_J24070005_EN_Wrecker_Thumbnail_5e53241909.png",
+                  "hash": "thumbnail_J24070005_EN_Wrecker_Thumbnail_5e53241909",
+                  "mime": "image/png",
+                  "name": "thumbnail_J24070005EN_Wrecker_Thumbnail.png",
+                  "path": null,
+                  "size": 38.17,
+                  "width": 245,
+                  "height": 82
+                }
+              },
+              "hash": "J24070005_EN_Wrecker_Thumbnail_5e53241909",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 19.27,
+              "url": "https://cdn.starwarsunlimited.com//J24070005_EN_Wrecker_Thumbnail_5e53241909.png",
+              "previewUrl": null,
+              "provider": "aws-s3",
+              "provider_metadata": null,
+              "createdAt": "2025-02-27T21:29:48.777Z",
+              "updatedAt": "2025-02-27T21:29:48.777Z"
+            }
+          }
+        },
+        "localizations": {
+          "data": [
+            {
+              "id": 25365,
+              "attributes": {
+                "title": "Wrecker",
+                "subtitle": "Boom!",
+                "cardNumber": 5,
+                "cardCount": 0,
+                "artist": "Stefano Landini",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": 6,
+                "hp": 6,
+                "power": 7,
+                "text": "Overwhelm\nWhen Played: You may defeat a friendly resource. If you do, deal 5 damage to a ground unit.",
+                "textStyled": "<p><strong>Overwhelm</strong></p><p><strong>When Played:</strong> You may defeat a friendly resource. If you do, deal 5 damage to a ground unit.</p>",
+                "deployBox": null,
+                "deployBoxStyled": null,
+                "epicAction": "",
+                "epicActionStyled": "<p></p>",
+                "linkHtml": "<a href=\"/cards?cid=6181330491\" class=\"card-tooltip\" data-card=\"6181330491\">Wrecker</a>",
+                "cardId": null,
+                "createdAt": "2025-02-28T06:22:16.968Z",
+                "updatedAt": "2025-03-03T18:51:20.742Z",
+                "publishedAt": "2025-03-03T06:00:00.000Z",
+                "locale": "it",
+                "hyperspace": false,
+                "unique": true,
+                "showcase": false,
+                "cardUid": "6181330491",
+                "rules": null,
+                "rulesStyled": null,
+                "serialCode": "j24070005",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            },
+            {
+              "id": 25361,
+              "attributes": {
+                "title": "Wrecker",
+                "subtitle": "BOOM!",
+                "cardNumber": 5,
+                "cardCount": 0,
+                "artist": "Stefano Landini",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": 6,
+                "hp": 6,
+                "power": 7,
+                "text": "Overwhelm\nWhen Played: You may defeat a friendly resource. If you do, deal 5 damage to a ground unit.",
+                "textStyled": "<p><strong>Overwhelm</strong></p><p><strong>When Played:</strong> You may defeat a friendly resource. If you do, deal 5 damage to a ground unit.</p>",
+                "deployBox": null,
+                "deployBoxStyled": null,
+                "epicAction": "",
+                "epicActionStyled": "<p></p>",
+                "linkHtml": "<a href=\"/cards?cid=6181330491\" class=\"card-tooltip\" data-card=\"6181330491\">Wrecker</a>",
+                "cardId": null,
+                "createdAt": "2025-02-28T06:22:15.793Z",
+                "updatedAt": "2025-03-03T18:51:20.522Z",
+                "publishedAt": "2025-03-03T06:00:00.000Z",
+                "locale": "en",
+                "hyperspace": false,
+                "unique": true,
+                "showcase": false,
+                "cardUid": "6181330491",
+                "rules": null,
+                "rulesStyled": null,
+                "serialCode": "j24070005",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            },
+            {
+              "id": 25363,
+              "attributes": {
+                "title": "Wrecker",
+                "subtitle": "BOOM!",
+                "cardNumber": 5,
+                "cardCount": 0,
+                "artist": "Stefano Landini",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": 6,
+                "hp": 6,
+                "power": 7,
+                "text": "Overwhelm\nWhen Played: You may defeat a friendly resource. If you do, deal 5 damage to a ground unit.",
+                "textStyled": "<p><strong>Overwhelm</strong></p><p><strong>When Played:</strong> You may defeat a friendly resource. If you do, deal 5 damage to a ground unit.</p>",
+                "deployBox": null,
+                "deployBoxStyled": null,
+                "epicAction": "",
+                "epicActionStyled": "<p></p>",
+                "linkHtml": "<a href=\"/cards?cid=6181330491\" class=\"card-tooltip\" data-card=\"6181330491\">Wrecker</a>",
+                "cardId": null,
+                "createdAt": "2025-02-28T06:22:16.365Z",
+                "updatedAt": "2025-03-03T18:51:21.312Z",
+                "publishedAt": "2025-03-03T06:00:00.000Z",
+                "locale": "es",
+                "hyperspace": false,
+                "unique": true,
+                "showcase": false,
+                "cardUid": "6181330491",
+                "rules": null,
+                "rulesStyled": null,
+                "serialCode": "j24070005",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            },
+            {
+              "id": 25362,
+              "attributes": {
+                "title": "Wrecker",
+                "subtitle": "BOOM!",
+                "cardNumber": 5,
+                "cardCount": 0,
+                "artist": "Stefano Landini",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": 6,
+                "hp": 6,
+                "power": 7,
+                "text": "Overwhelm\nWhen Played: You may defeat a friendly resource. If you do, deal 5 damage to a ground unit.",
+                "textStyled": "<p><strong>Overwhelm</strong></p><p><strong>When Played:</strong> You may defeat a friendly resource. If you do, deal 5 damage to a ground unit.</p>",
+                "deployBox": null,
+                "deployBoxStyled": null,
+                "epicAction": "",
+                "epicActionStyled": "<p></p>",
+                "linkHtml": "<a href=\"/cards?cid=6181330491\" class=\"card-tooltip\" data-card=\"6181330491\">Wrecker</a>",
+                "cardId": null,
+                "createdAt": "2025-02-28T06:22:16.100Z",
+                "updatedAt": "2025-03-03T18:51:21.521Z",
+                "publishedAt": "2025-03-03T06:00:00.000Z",
+                "locale": "de",
+                "hyperspace": false,
+                "unique": true,
+                "showcase": false,
+                "cardUid": "6181330491",
+                "rules": null,
+                "rulesStyled": null,
+                "serialCode": "j24070005",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "data": [
+            {
+              "id": 14,
+              "attributes": {
+                "name": "Agressivité",
+                "description": "<p>Attaquer avec un maximum d’efficacité et infliger énormément de dégâts. Cette affinité convient parfaitement aux joueurs qui aiment un style de jeu rapide et agressif, brisant les défenses adverses et se ruant vers la victoire quel que soit le prix à payer.</p>",
+                "color": "#d30808",
+                "createdAt": "2023-08-10T21:10:46.362Z",
+                "updatedAt": "2024-07-15T21:39:33.927Z",
+                "publishedAt": "2024-01-02T18:23:52.395Z",
+                "locale": "fr",
+                "englishName": "Aggression",
+                "sortValue": 10
+              }
+            },
+            {
+              "id": 24,
+              "attributes": {
+                "name": "Héroïsme",
+                "description": "<p>Lutter pour la paix et la justice avec des cartes représentant les «&nbsp;gentils&nbsp;» de la galaxie Star Wars. Cette affinité est idéale pour ceux qui souhaitent que leurs cartes se soutiennent et se protègent mutuellement tout en attaquant. Cette affinité est souvent associée à une autre affinité sur la carte.</p>",
+                "color": "#ffffff",
+                "createdAt": "2023-08-10T21:17:26.974Z",
+                "updatedAt": "2024-07-15T21:41:00.637Z",
+                "publishedAt": "2024-01-02T18:25:10.259Z",
+                "locale": "fr",
+                "englishName": "Heroism",
+                "sortValue": 25
+              }
+            }
+          ]
+        },
+        "aspectDuplicates": {
+          "data": []
+        },
+        "type": {
+          "data": {
+            "id": 29,
+            "attributes": {
+              "name": "Unité",
+              "description": "",
+              "value": "Unit",
+              "createdAt": "2023-08-15T18:04:32.553Z",
+              "updatedAt": "2024-04-25T13:52:29.937Z",
+              "publishedAt": "2024-01-04T21:29:14.943Z",
+              "locale": "fr",
+              "sortValue": 3
+            }
+          }
+        },
+        "type2": {
+          "data": null
+        },
+        "traits": {
+          "data": [
+            {
+              "id": 89,
+              "attributes": {
+                "name": "Frange",
+                "description": "",
+                "createdAt": "2023-08-15T14:49:14.488Z",
+                "updatedAt": "2024-01-04T21:10:34.249Z",
+                "publishedAt": "2024-01-04T21:10:34.246Z",
+                "locale": "fr"
+              }
+            },
+            {
+              "id": 227,
+              "attributes": {
+                "name": "Clone",
+                "description": "",
+                "createdAt": "2024-01-11T20:49:21.745Z",
+                "updatedAt": "2024-01-11T20:49:44.939Z",
+                "publishedAt": "2024-01-11T20:49:44.935Z",
+                "locale": "fr"
+              }
+            }
+          ]
+        },
+        "arenas": {
+          "data": [
+            {
+              "id": 4,
+              "attributes": {
+                "name": "Terrestre",
+                "description": null,
+                "createdAt": "2023-08-15T14:32:20.801Z",
+                "updatedAt": "2024-01-04T16:49:07.912Z",
+                "publishedAt": "2023-08-18T21:37:40.768Z",
+                "locale": "fr"
+              }
+            }
+          ]
+        },
+        "keywords": {
+          "data": [
+            {
+              "id": 29,
+              "attributes": {
+                "name": "Débordement",
+                "description": "",
+                "createdAt": "2023-11-28T17:10:00.435Z",
+                "updatedAt": "2024-01-04T19:00:43.837Z",
+                "publishedAt": "2023-11-28T17:10:07.902Z",
+                "locale": "fr"
+              }
+            }
+          ]
+        },
+        "rarity": {
+          "data": {
+            "id": 14,
+            "attributes": {
+              "name": "Rare",
+              "character": "R",
+              "color": "#f1c000",
+              "createdAt": "2023-08-14T21:29:34.676Z",
+              "updatedAt": "2025-06-17T21:46:47.442Z",
+              "publishedAt": "2024-01-04T16:41:34.918Z",
+              "locale": "fr",
+              "englishName": "Rare",
+              "sortValue": 4
+            }
+          }
+        },
+        "expansion": {
+          "data": {
+            "id": 30,
+            "attributes": {
+              "name": "2024 Judge Program",
+              "description": "",
+              "code": "J24",
+              "createdAt": "2025-02-27T21:21:32.332Z",
+              "updatedAt": "2025-03-03T20:32:15.701Z",
+              "publishedAt": "2025-03-03T20:32:04.384Z",
+              "locale": "fr",
+              "sortValue": 45,
+              "leaderboardStartDate": null,
+              "leaderboardEndDate": null
+            }
+          }
+        },
+        "variantTypes": {
+          "data": [
+            {
+              "id": 128,
+              "attributes": {
+                "name": "Judge Program",
+                "description": null,
+                "createdAt": "2025-02-27T23:10:53.910Z",
+                "updatedAt": "2025-03-03T20:33:15.012Z",
+                "publishedAt": "2025-03-03T20:33:05.848Z",
+                "locale": "fr",
+                "variantId": "07",
+                "foil": null,
+                "sortValue": 70,
+                "icon": {
+                  "data": {
+                    "id": 27667,
+                    "attributes": {
+                      "name": "icon_judgeprogram.png",
+                      "alternativeText": null,
+                      "caption": null,
+                      "width": 145,
+                      "height": 144,
+                      "formats": null,
+                      "hash": "icon_judgeprogram_299cea1d3b",
+                      "ext": ".png",
+                      "mime": "image/png",
+                      "size": 0.63,
+                      "url": "https://cdn.starwarsunlimited.com//icon_judgeprogram_299cea1d3b.png",
+                      "previewUrl": null,
+                      "provider": "aws-s3",
+                      "provider_metadata": null,
+                      "createdAt": "2025-02-27T21:19:29.909Z",
+                      "updatedAt": "2025-02-27T21:19:29.909Z"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "variantOf": {
+          "data": null
+        },
+        "reprintOf": {
+          "data": {
+            "id": 8121,
+            "attributes": {
+              "title": "Wrecker",
+              "subtitle": "Boum !",
+              "cardNumber": 154,
+              "cardCount": 262,
+              "artist": "Stefano Landini",
+              "artFrontHorizontal": false,
+              "artBackHorizontal": null,
+              "hasFoil": false,
+              "cost": 6,
+              "hp": 6,
+              "power": 7,
+              "text": "Débordement\nUne fois jouée : vous pouvez éliminer une ressource amie. Dans ce cas, infligez 5 dégâts à une unité terrestre.",
+              "textStyled": "<p><strong>Débordement</strong></p><p><strong>Une fois jouée :</strong> vous pouvez éliminer une ressource amie. Dans ce cas, infligez 5 dégâts à une unité terrestre.</p>",
+              "deployBox": null,
+              "deployBoxStyled": "",
+              "epicAction": null,
+              "epicActionStyled": "",
+              "linkHtml": "<a href=\"/cards?cid=2470093702\" class=\"card-tooltip\" data-card=\"2470093702\">Wrecker</a>",
+              "cardId": null,
+              "createdAt": "2024-05-06T20:50:41.151Z",
+              "updatedAt": "2024-07-26T21:02:31.058Z",
+              "publishedAt": "2024-05-07T14:37:49.318Z",
+              "locale": "fr",
+              "hyperspace": false,
+              "unique": true,
+              "showcase": false,
+              "cardUid": "2470093702",
+              "rules": "Les boucliers protègent de tout dégât infligé par une unité avec Débordement. Il n’y a donc aucun dégât en excès puisque le défendeur n’est pas éliminé.\nSi le défenseur est éliminé pendant l’attaque avant que les dégâts de combat soient infligés, tous les dégâts de combat avec Débordement sont considérés comme des dégâts en excès.\n",
+              "rulesStyled": "\n                <figure class=\"table\"><table><tbody><tr><td>7/16/2024</td><td>Les boucliers protègent de tout dégât infligé par une unité avec Débordement. Il n’y a donc aucun dégât en excès puisque le défendeur n’est pas éliminé.</td></tr><tr><td>7/16/2024</td><td>Si le défenseur est éliminé pendant l’attaque avant que les dégâts de combat soient infligés, tous les dégâts de combat avec Débordement sont considérés comme des dégâts en excès.</td></tr></tbody></table></figure>\n                ",
+              "serialCode": "0201154",
+              "upgradeHp": null,
+              "upgradePower": null
+            }
+          }
+        },
+        "validationId": "2470093702"
+      }
+    },
+    {
+      "id": 25369,
+      "attributes": {
+        "cardNumber": 6,
+        "title": "Tech",
+        "subtitle": "Source Of Insight",
+        "cardCount": 0,
+        "artist": "Kyle Petchock",
+        "artFrontHorizontal": false,
+        "artBackHorizontal": null,
+        "hasFoil": true,
+        "cost": 3,
+        "hp": 5,
+        "power": 2,
+        "text": "Each friendly resource gains Smuggle. The gained Smuggle cost is that card's cost plus 2 ressources and its aspect icons.\nSmuggle [4 ressources Héroïsme]",
+        "textStyled": "<p>Each friendly resource gains <strong>Smuggle</strong>. The gained Smuggle cost is that card's cost plus <img src=\"https://ffg-prod-uploads.s3.amazonaws.com/icon_cost_2_cd0914a233.png\" alt=\"icon_cost_2.png\"> and its aspect icons.</p><p>Smuggle <strong>[</strong><img src=\"https://ffg-prod-uploads.s3.amazonaws.com/icon_cost_4_8df699e37c.png\" alt=\"icon_cost_4.png\"> <img src=\"https://ffg-prod-uploads.s3.amazonaws.com/icon_heroism_895bfc1dc1.png\" alt=\"icon_heroism.png\"><strong>]</strong></p>",
+        "deployBox": null,
+        "deployBoxStyled": null,
+        "epicAction": "",
+        "epicActionStyled": "<p></p>",
+        "linkHtml": "<a href=\"/cards?cid=4019234570\" class=\"card-tooltip\" data-card=\"4019234570\">Tech</a>",
+        "cardId": null,
+        "createdAt": "2025-02-28T06:22:18.184Z",
+        "updatedAt": "2025-03-03T18:51:22.166Z",
+        "publishedAt": "2025-03-03T06:00:00.000Z",
+        "locale": "fr",
+        "hyperspace": false,
+        "unique": true,
+        "showcase": false,
+        "cardUid": "4019234570",
+        "rules": null,
+        "rulesStyled": null,
+        "serialCode": "j24070006",
+        "upgradeHp": null,
+        "upgradePower": null,
+        "artFront": {
+          "data": {
+            "id": 28542,
+            "attributes": {
+              "name": "J24070006FR_Tech.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 300,
+              "height": 419,
+              "formats": {
+                "card": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//card_J24070006_FR_Tech_8e924c9e73.png",
+                  "hash": "card_J24070006_FR_Tech_8e924c9e73",
+                  "mime": "image/png",
+                  "name": "card_J24070006FR_Tech.png",
+                  "path": null,
+                  "size": 203.3,
+                  "width": 286,
+                  "height": 400
+                },
+                "xsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xsmall_J24070006_FR_Tech_8e924c9e73.png",
+                  "hash": "xsmall_J24070006_FR_Tech_8e924c9e73",
+                  "mime": "image/png",
+                  "name": "xsmall_J24070006FR_Tech.png",
+                  "path": null,
+                  "size": 123.5,
+                  "width": 215,
+                  "height": 300
+                },
+                "xxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxsmall_J24070006_FR_Tech_8e924c9e73.png",
+                  "hash": "xxsmall_J24070006_FR_Tech_8e924c9e73",
+                  "mime": "image/png",
+                  "name": "xxsmall_J24070006FR_Tech.png",
+                  "path": null,
+                  "size": 61.07,
+                  "width": 143,
+                  "height": 200
+                },
+                "xxxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxxsmall_J24070006_FR_Tech_8e924c9e73.png",
+                  "hash": "xxxsmall_J24070006_FR_Tech_8e924c9e73",
+                  "mime": "image/png",
+                  "name": "xxxsmall_J24070006FR_Tech.png",
+                  "path": null,
+                  "size": 36.94,
+                  "width": 107,
+                  "height": 150
+                },
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//thumbnail_J24070006_FR_Tech_8e924c9e73.png",
+                  "hash": "thumbnail_J24070006_FR_Tech_8e924c9e73",
+                  "mime": "image/png",
+                  "name": "thumbnail_J24070006FR_Tech.png",
+                  "path": null,
+                  "size": 90.2,
+                  "width": 179,
+                  "height": 250
+                }
+              },
+              "hash": "J24070006_FR_Tech_8e924c9e73",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 58.11,
+              "url": "https://cdn.starwarsunlimited.com//J24070006_FR_Tech_8e924c9e73.png",
+              "previewUrl": null,
+              "provider": "aws-s3",
+              "provider_metadata": null,
+              "createdAt": "2025-02-27T21:50:25.482Z",
+              "updatedAt": "2025-02-27T21:50:25.482Z"
+            }
+          }
+        },
+        "artBack": {
+          "data": null
+        },
+        "artThumbnail": {
+          "data": {
+            "id": 27832,
+            "attributes": {
+              "name": "J24070006EN_Tech_Thumbnail.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 300,
+              "height": 100,
+              "formats": {
+                "xxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxsmall_J24070006_EN_Tech_Thumbnail_2374c13292.png",
+                  "hash": "xxsmall_J24070006_EN_Tech_Thumbnail_2374c13292",
+                  "mime": "image/png",
+                  "name": "xxsmall_J24070006EN_Tech_Thumbnail.png",
+                  "path": null,
+                  "size": 34,
+                  "width": 200,
+                  "height": 67
+                },
+                "xxxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxxsmall_J24070006_EN_Tech_Thumbnail_2374c13292.png",
+                  "hash": "xxxsmall_J24070006_EN_Tech_Thumbnail_2374c13292",
+                  "mime": "image/png",
+                  "name": "xxxsmall_J24070006EN_Tech_Thumbnail.png",
+                  "path": null,
+                  "size": 19.94,
+                  "width": 150,
+                  "height": 50
+                },
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//thumbnail_J24070006_EN_Tech_Thumbnail_2374c13292.png",
+                  "hash": "thumbnail_J24070006_EN_Tech_Thumbnail_2374c13292",
+                  "mime": "image/png",
+                  "name": "thumbnail_J24070006EN_Tech_Thumbnail.png",
+                  "path": null,
+                  "size": 48.75,
+                  "width": 245,
+                  "height": 82
+                }
+              },
+              "hash": "J24070006_EN_Tech_Thumbnail_2374c13292",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 21.78,
+              "url": "https://cdn.starwarsunlimited.com//J24070006_EN_Tech_Thumbnail_2374c13292.png",
+              "previewUrl": null,
+              "provider": "aws-s3",
+              "provider_metadata": null,
+              "createdAt": "2025-02-27T21:31:04.540Z",
+              "updatedAt": "2025-02-27T21:31:04.540Z"
+            }
+          }
+        },
+        "localizations": {
+          "data": [
+            {
+              "id": 25370,
+              "attributes": {
+                "title": "Tech",
+                "subtitle": "Source Of Insight",
+                "cardNumber": 6,
+                "cardCount": 0,
+                "artist": "Kyle Petchock",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": 3,
+                "hp": 5,
+                "power": 2,
+                "text": "Each friendly resource gains Smuggle. The gained Smuggle cost is that card's cost plus 2 risorse and its aspect icons.\nSmuggle [4 risorse Eroismo]",
+                "textStyled": "<p>Each friendly resource gains <strong>Smuggle</strong>. The gained Smuggle cost is that card's cost plus <img src=\"https://ffg-prod-uploads.s3.amazonaws.com/icon_cost_2_cd0914a233.png\" alt=\"icon_cost_2.png\"> and its aspect icons.</p><p>Smuggle <strong>[</strong><img src=\"https://ffg-prod-uploads.s3.amazonaws.com/icon_cost_4_8df699e37c.png\" alt=\"icon_cost_4.png\"> <img src=\"https://ffg-prod-uploads.s3.amazonaws.com/icon_heroism_895bfc1dc1.png\" alt=\"icon_heroism.png\"><strong>]</strong></p>",
+                "deployBox": null,
+                "deployBoxStyled": null,
+                "epicAction": "",
+                "epicActionStyled": "<p></p>",
+                "linkHtml": "<a href=\"/cards?cid=4019234570\" class=\"card-tooltip\" data-card=\"4019234570\">Tech</a>",
+                "cardId": null,
+                "createdAt": "2025-02-28T06:22:18.494Z",
+                "updatedAt": "2025-03-03T18:51:21.951Z",
+                "publishedAt": "2025-03-03T06:00:00.000Z",
+                "locale": "it",
+                "hyperspace": false,
+                "unique": true,
+                "showcase": false,
+                "cardUid": "4019234570",
+                "rules": null,
+                "rulesStyled": null,
+                "serialCode": "j24070006",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            },
+            {
+              "id": 25366,
+              "attributes": {
+                "title": "Tech",
+                "subtitle": "Source of Insight",
+                "cardNumber": 6,
+                "cardCount": 0,
+                "artist": "Kyle Petchock",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": 3,
+                "hp": 5,
+                "power": 2,
+                "text": "Each friendly resource gains Smuggle. The gained Smuggle cost is that card's cost plus 2 resources and its aspect icons.\nSmuggle [4 resources Heroism]",
+                "textStyled": "<p>Each friendly resource gains <strong>Smuggle</strong>. The gained Smuggle cost is that card's cost plus <img src=\"https://ffg-prod-uploads.s3.amazonaws.com/icon_cost_2_cd0914a233.png\" alt=\"icon_cost_2.png\"> and its aspect icons.</p><p>Smuggle <strong>[</strong><img src=\"https://ffg-prod-uploads.s3.amazonaws.com/icon_cost_4_8df699e37c.png\" alt=\"icon_cost_4.png\"> <img src=\"https://ffg-prod-uploads.s3.amazonaws.com/icon_heroism_895bfc1dc1.png\" alt=\"icon_heroism.png\"><strong>]</strong></p>",
+                "deployBox": null,
+                "deployBoxStyled": null,
+                "epicAction": "",
+                "epicActionStyled": "<p></p>",
+                "linkHtml": "<a href=\"/cards?cid=4019234570\" class=\"card-tooltip\" data-card=\"4019234570\">Tech</a>",
+                "cardId": null,
+                "createdAt": "2025-02-28T06:22:17.306Z",
+                "updatedAt": "2025-03-03T18:51:21.743Z",
+                "publishedAt": "2025-03-03T06:00:00.000Z",
+                "locale": "en",
+                "hyperspace": false,
+                "unique": true,
+                "showcase": false,
+                "cardUid": "4019234570",
+                "rules": null,
+                "rulesStyled": null,
+                "serialCode": "j24070006",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            },
+            {
+              "id": 25368,
+              "attributes": {
+                "title": "Tech",
+                "subtitle": "Source of Insight",
+                "cardNumber": 6,
+                "cardCount": 0,
+                "artist": "Kyle Petchock",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": 3,
+                "hp": 5,
+                "power": 2,
+                "text": "Each friendly resource gains Smuggle. The gained Smuggle cost is that card's cost plus 2 recursos and its aspect icons.\nSmuggle [4 recursos Heroísmo]",
+                "textStyled": "<p>Each friendly resource gains <strong>Smuggle</strong>. The gained Smuggle cost is that card's cost plus <img src=\"https://ffg-prod-uploads.s3.amazonaws.com/icon_cost_2_cd0914a233.png\" alt=\"icon_cost_2.png\"> and its aspect icons.</p><p>Smuggle <strong>[</strong><img src=\"https://ffg-prod-uploads.s3.amazonaws.com/icon_cost_4_8df699e37c.png\" alt=\"icon_cost_4.png\"> <img src=\"https://ffg-prod-uploads.s3.amazonaws.com/icon_heroism_895bfc1dc1.png\" alt=\"icon_heroism.png\"><strong>]</strong></p>",
+                "deployBox": null,
+                "deployBoxStyled": null,
+                "epicAction": "",
+                "epicActionStyled": "<p></p>",
+                "linkHtml": "<a href=\"/cards?cid=4019234570\" class=\"card-tooltip\" data-card=\"4019234570\">Tech</a>",
+                "cardId": null,
+                "createdAt": "2025-02-28T06:22:17.886Z",
+                "updatedAt": "2025-03-03T18:51:22.386Z",
+                "publishedAt": "2025-03-03T06:00:00.000Z",
+                "locale": "es",
+                "hyperspace": false,
+                "unique": true,
+                "showcase": false,
+                "cardUid": "4019234570",
+                "rules": null,
+                "rulesStyled": null,
+                "serialCode": "j24070006",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            },
+            {
+              "id": 25367,
+              "attributes": {
+                "title": "Tech",
+                "subtitle": "Source of Insight",
+                "cardNumber": 6,
+                "cardCount": 0,
+                "artist": "Kyle Petchock",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": 3,
+                "hp": 5,
+                "power": 2,
+                "text": "Each friendly resource gains Smuggle. The gained Smuggle cost is that card's cost plus 2 ressourcen and its aspect icons.\nSmuggle [4 ressourcen Heldentum]",
+                "textStyled": "<p>Each friendly resource gains <strong>Smuggle</strong>. The gained Smuggle cost is that card's cost plus <img src=\"https://ffg-prod-uploads.s3.amazonaws.com/icon_cost_2_cd0914a233.png\" alt=\"icon_cost_2.png\"> and its aspect icons.</p><p>Smuggle <strong>[</strong><img src=\"https://ffg-prod-uploads.s3.amazonaws.com/icon_cost_4_8df699e37c.png\" alt=\"icon_cost_4.png\"> <img src=\"https://ffg-prod-uploads.s3.amazonaws.com/icon_heroism_895bfc1dc1.png\" alt=\"icon_heroism.png\"><strong>]</strong></p>",
+                "deployBox": null,
+                "deployBoxStyled": null,
+                "epicAction": "",
+                "epicActionStyled": "<p></p>",
+                "linkHtml": "<a href=\"/cards?cid=4019234570\" class=\"card-tooltip\" data-card=\"4019234570\">Tech</a>",
+                "cardId": null,
+                "createdAt": "2025-02-28T06:22:17.617Z",
+                "updatedAt": "2025-03-03T18:51:22.600Z",
+                "publishedAt": "2025-03-03T06:00:00.000Z",
+                "locale": "de",
+                "hyperspace": false,
+                "unique": true,
+                "showcase": false,
+                "cardUid": "4019234570",
+                "rules": null,
+                "rulesStyled": null,
+                "serialCode": "j24070006",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "data": [
+            {
+              "id": 24,
+              "attributes": {
+                "name": "Héroïsme",
+                "description": "<p>Lutter pour la paix et la justice avec des cartes représentant les «&nbsp;gentils&nbsp;» de la galaxie Star Wars. Cette affinité est idéale pour ceux qui souhaitent que leurs cartes se soutiennent et se protègent mutuellement tout en attaquant. Cette affinité est souvent associée à une autre affinité sur la carte.</p>",
+                "color": "#ffffff",
+                "createdAt": "2023-08-10T21:17:26.974Z",
+                "updatedAt": "2024-07-15T21:41:00.637Z",
+                "publishedAt": "2024-01-02T18:25:10.259Z",
+                "locale": "fr",
+                "englishName": "Heroism",
+                "sortValue": 25
+              }
+            }
+          ]
+        },
+        "aspectDuplicates": {
+          "data": []
+        },
+        "type": {
+          "data": {
+            "id": 29,
+            "attributes": {
+              "name": "Unité",
+              "description": "",
+              "value": "Unit",
+              "createdAt": "2023-08-15T18:04:32.553Z",
+              "updatedAt": "2024-04-25T13:52:29.937Z",
+              "publishedAt": "2024-01-04T21:29:14.943Z",
+              "locale": "fr",
+              "sortValue": 3
+            }
+          }
+        },
+        "type2": {
+          "data": null
+        },
+        "traits": {
+          "data": [
+            {
+              "id": 89,
+              "attributes": {
+                "name": "Frange",
+                "description": "",
+                "createdAt": "2023-08-15T14:49:14.488Z",
+                "updatedAt": "2024-01-04T21:10:34.249Z",
+                "publishedAt": "2024-01-04T21:10:34.246Z",
+                "locale": "fr"
+              }
+            },
+            {
+              "id": 227,
+              "attributes": {
+                "name": "Clone",
+                "description": "",
+                "createdAt": "2024-01-11T20:49:21.745Z",
+                "updatedAt": "2024-01-11T20:49:44.939Z",
+                "publishedAt": "2024-01-11T20:49:44.935Z",
+                "locale": "fr"
+              }
+            }
+          ]
+        },
+        "arenas": {
+          "data": [
+            {
+              "id": 4,
+              "attributes": {
+                "name": "Terrestre",
+                "description": null,
+                "createdAt": "2023-08-15T14:32:20.801Z",
+                "updatedAt": "2024-01-04T16:49:07.912Z",
+                "publishedAt": "2023-08-18T21:37:40.768Z",
+                "locale": "fr"
+              }
+            }
+          ]
+        },
+        "keywords": {
+          "data": [
+            {
+              "id": 49,
+              "attributes": {
+                "name": "Contrebande",
+                "description": "",
+                "createdAt": "2024-04-09T20:59:07.748Z",
+                "updatedAt": "2024-04-17T18:30:01.045Z",
+                "publishedAt": "2024-04-17T18:30:01.042Z",
+                "locale": "fr"
+              }
+            }
+          ]
+        },
+        "rarity": {
+          "data": {
+            "id": 14,
+            "attributes": {
+              "name": "Rare",
+              "character": "R",
+              "color": "#f1c000",
+              "createdAt": "2023-08-14T21:29:34.676Z",
+              "updatedAt": "2025-06-17T21:46:47.442Z",
+              "publishedAt": "2024-01-04T16:41:34.918Z",
+              "locale": "fr",
+              "englishName": "Rare",
+              "sortValue": 4
+            }
+          }
+        },
+        "expansion": {
+          "data": {
+            "id": 30,
+            "attributes": {
+              "name": "2024 Judge Program",
+              "description": "",
+              "code": "J24",
+              "createdAt": "2025-02-27T21:21:32.332Z",
+              "updatedAt": "2025-03-03T20:32:15.701Z",
+              "publishedAt": "2025-03-03T20:32:04.384Z",
+              "locale": "fr",
+              "sortValue": 45,
+              "leaderboardStartDate": null,
+              "leaderboardEndDate": null
+            }
+          }
+        },
+        "variantTypes": {
+          "data": [
+            {
+              "id": 128,
+              "attributes": {
+                "name": "Judge Program",
+                "description": null,
+                "createdAt": "2025-02-27T23:10:53.910Z",
+                "updatedAt": "2025-03-03T20:33:15.012Z",
+                "publishedAt": "2025-03-03T20:33:05.848Z",
+                "locale": "fr",
+                "variantId": "07",
+                "foil": null,
+                "sortValue": 70,
+                "icon": {
+                  "data": {
+                    "id": 27667,
+                    "attributes": {
+                      "name": "icon_judgeprogram.png",
+                      "alternativeText": null,
+                      "caption": null,
+                      "width": 145,
+                      "height": 144,
+                      "formats": null,
+                      "hash": "icon_judgeprogram_299cea1d3b",
+                      "ext": ".png",
+                      "mime": "image/png",
+                      "size": 0.63,
+                      "url": "https://cdn.starwarsunlimited.com//icon_judgeprogram_299cea1d3b.png",
+                      "previewUrl": null,
+                      "provider": "aws-s3",
+                      "provider_metadata": null,
+                      "createdAt": "2025-02-27T21:19:29.909Z",
+                      "updatedAt": "2025-02-27T21:19:29.909Z"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "variantOf": {
+          "data": null
+        },
+        "reprintOf": {
+          "data": {
+            "id": 6529,
+            "attributes": {
+              "title": "Tech",
+              "subtitle": "Source d'Information",
+              "cardNumber": 248,
+              "cardCount": 262,
+              "artist": "Kyle Petchock",
+              "artFrontHorizontal": false,
+              "artBackHorizontal": null,
+              "hasFoil": false,
+              "cost": 3,
+              "hp": 5,
+              "power": 2,
+              "text": "Chaque ressource amie gagne Contrebande. Le coût de Contrebande ainsi gagné est le coût de la carte plus 2 ressources et ses icônes d'affinité. \nContrebande [4 ressources Héroïsme]",
+              "textStyled": "<p>Chaque ressource amie gagne <strong>Contrebande</strong>. Le coût de <strong>Contrebande</strong> ainsi gagné est le coût de la carte plus <img src=\"https://ffg-prod-uploads.s3.amazonaws.com/icon_cost_2_cd0914a233.png\" alt=\"icon_cost_2.png\"> et ses icônes d’affinité.</p><p><strong>Contrebande [<img src=\"https://ffg-prod-uploads.s3.amazonaws.com/icon_cost_4_8df699e37c.png\" alt=\"icon_cost_4.png\"> <img src=\"https://ffg-prod-uploads.s3.amazonaws.com/icon_heroism_895bfc1dc1.png\" alt=\"icon_heroism.png\">]</strong></p>",
+              "deployBox": null,
+              "deployBoxStyled": "",
+              "epicAction": null,
+              "epicActionStyled": "",
+              "linkHtml": "<a href=\"/cards?cid=3881257511\" class=\"card-tooltip\" data-card=\"3881257511\">Tech</a>",
+              "cardId": null,
+              "createdAt": "2024-04-26T15:43:48.352Z",
+              "updatedAt": "2024-10-24T04:06:34.127Z",
+              "publishedAt": "2024-05-02T22:13:44.930Z",
+              "locale": "fr",
+              "hyperspace": false,
+              "unique": true,
+              "showcase": false,
+              "cardUid": "3881257511",
+              "rules": "Les capacités faisant référence au coût d’une carte, se réfèrent toujours à son coût imprimé, sans tenir compte d’éventuels modificateurs.\n",
+              "rulesStyled": "\n                <figure class=\"table\"><table><tbody><tr><td>7/16/2024</td><td>Les capacités faisant référence au coût d’une carte, se réfèrent toujours à son coût imprimé, sans tenir compte d’éventuels modificateurs.</td></tr></tbody></table></figure>\n                ",
+              "serialCode": "0201248",
+              "upgradeHp": null,
+              "upgradePower": null
+            }
+          }
+        },
+        "validationId": "3881257511"
+      }
+    }
+  ],
+  "variants": []
+}

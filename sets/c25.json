@@ -1,0 +1,3274 @@
+{
+  "data": [
+    {
+      "id": 38337,
+      "attributes": {
+        "cardNumber": 1,
+        "title": "L3-37",
+        "subtitle": "Get Out Of My Seat",
+        "cardCount": 0,
+        "artist": "Stephen Somers",
+        "artFrontHorizontal": false,
+        "artBackHorizontal": null,
+        "hasFoil": true,
+        "cost": 3,
+        "hp": 3,
+        "power": 3,
+        "text": "If this unit would be defeated, you may instead attach her as an upgrade to a friendly Vehicle unit without a Pilot on it. ",
+        "textStyled": "<p>If this unit would be defeated, you may instead attach her as an upgrade to a friendly <strong><i>Vehicle</i></strong> unit without a <strong><i>Pilot</i></strong> on it. <i></i></p>",
+        "deployBox": null,
+        "deployBoxStyled": null,
+        "epicAction": "Piloting [3 resources Vigilance Heroism]",
+        "epicActionStyled": "<p><strong>Piloting</strong> <strong>[</strong><img src=\"https://ffg-prod-uploads.s3.amazonaws.com/icon_cost_3_5b5918aa29.png\" alt=\"icon_cost_3.png\"> <img src=\"https://ffg-prod-uploads.s3.amazonaws.com/icon_vigilance_cd5c27a54d.png\" alt=\"icon_vigilance.png\"> <img src=\"https://ffg-prod-uploads.s3.amazonaws.com/icon_heroism_895bfc1dc1.png\" alt=\"icon_heroism.png\"><strong>]</strong></p>",
+        "linkHtml": "<a href=\"/cards?cid=0674244654\" class=\"card-tooltip\" data-card=\"0674244654\">L3-37</a>",
+        "cardId": null,
+        "createdAt": "2025-04-29T21:54:57.968Z",
+        "updatedAt": "2025-05-05T14:38:09.251Z",
+        "publishedAt": "2025-05-05T14:37:51.617Z",
+        "locale": "fr",
+        "hyperspace": false,
+        "unique": true,
+        "showcase": false,
+        "cardUid": "0674244654",
+        "rules": null,
+        "rulesStyled": null,
+        "serialCode": "c25080001",
+        "upgradeHp": 3,
+        "upgradePower": 3,
+        "artFront": {
+          "data": {
+            "id": 36531,
+            "attributes": {
+              "name": "C25080001EN_L337.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 300,
+              "height": 419,
+              "formats": {
+                "card": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//card_C25080001_EN_L337_e9302ba0aa.png",
+                  "hash": "card_C25080001_EN_L337_e9302ba0aa",
+                  "mime": "image/png",
+                  "name": "card_C25080001EN_L337.png",
+                  "path": null,
+                  "size": 166.91,
+                  "width": 286,
+                  "height": 400
+                },
+                "xsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xsmall_C25080001_EN_L337_e9302ba0aa.png",
+                  "hash": "xsmall_C25080001_EN_L337_e9302ba0aa",
+                  "mime": "image/png",
+                  "name": "xsmall_C25080001EN_L337.png",
+                  "path": null,
+                  "size": 102.29,
+                  "width": 215,
+                  "height": 300
+                },
+                "xxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxsmall_C25080001_EN_L337_e9302ba0aa.png",
+                  "hash": "xxsmall_C25080001_EN_L337_e9302ba0aa",
+                  "mime": "image/png",
+                  "name": "xxsmall_C25080001EN_L337.png",
+                  "path": null,
+                  "size": 52.64,
+                  "width": 143,
+                  "height": 200
+                },
+                "xxxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxxsmall_C25080001_EN_L337_e9302ba0aa.png",
+                  "hash": "xxxsmall_C25080001_EN_L337_e9302ba0aa",
+                  "mime": "image/png",
+                  "name": "xxxsmall_C25080001EN_L337.png",
+                  "path": null,
+                  "size": 32.5,
+                  "width": 107,
+                  "height": 150
+                },
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//thumbnail_C25080001_EN_L337_e9302ba0aa.png",
+                  "hash": "thumbnail_C25080001_EN_L337_e9302ba0aa",
+                  "mime": "image/png",
+                  "name": "thumbnail_C25080001EN_L337.png",
+                  "path": null,
+                  "size": 76.08,
+                  "width": 179,
+                  "height": 250
+                }
+              },
+              "hash": "C25080001_EN_L337_e9302ba0aa",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 46.4,
+              "url": "https://cdn.starwarsunlimited.com//C25080001_EN_L337_e9302ba0aa.png",
+              "previewUrl": null,
+              "provider": "aws-s3",
+              "provider_metadata": null,
+              "createdAt": "2025-04-25T15:55:38.151Z",
+              "updatedAt": "2025-04-25T15:55:38.151Z"
+            }
+          }
+        },
+        "artBack": {
+          "data": null
+        },
+        "artThumbnail": {
+          "data": {
+            "id": 36525,
+            "attributes": {
+              "name": "C25080001EN_L337_Thumbnail.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 300,
+              "height": 100,
+              "formats": {
+                "xxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxsmall_C25080001_EN_L337_Thumbnail_1206bc194e.png",
+                  "hash": "xxsmall_C25080001_EN_L337_Thumbnail_1206bc194e",
+                  "mime": "image/png",
+                  "name": "xxsmall_C25080001EN_L337_Thumbnail.png",
+                  "path": null,
+                  "size": 22.3,
+                  "width": 200,
+                  "height": 67
+                },
+                "xxxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxxsmall_C25080001_EN_L337_Thumbnail_1206bc194e.png",
+                  "hash": "xxxsmall_C25080001_EN_L337_Thumbnail_1206bc194e",
+                  "mime": "image/png",
+                  "name": "xxxsmall_C25080001EN_L337_Thumbnail.png",
+                  "path": null,
+                  "size": 13.62,
+                  "width": 150,
+                  "height": 50
+                },
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//thumbnail_C25080001_EN_L337_Thumbnail_1206bc194e.png",
+                  "hash": "thumbnail_C25080001_EN_L337_Thumbnail_1206bc194e",
+                  "mime": "image/png",
+                  "name": "thumbnail_C25080001EN_L337_Thumbnail.png",
+                  "path": null,
+                  "size": 31.84,
+                  "width": 250,
+                  "height": 83
+                }
+              },
+              "hash": "C25080001_EN_L337_Thumbnail_1206bc194e",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 11.52,
+              "url": "https://cdn.starwarsunlimited.com//C25080001_EN_L337_Thumbnail_1206bc194e.png",
+              "previewUrl": null,
+              "provider": "aws-s3",
+              "provider_metadata": null,
+              "createdAt": "2025-04-25T15:55:22.978Z",
+              "updatedAt": "2025-04-25T15:55:22.978Z"
+            }
+          }
+        },
+        "localizations": {
+          "data": [
+            {
+              "id": 38339,
+              "attributes": {
+                "title": "L3-37",
+                "subtitle": "Get Out Of My Seat",
+                "cardNumber": 1,
+                "cardCount": 0,
+                "artist": "Stephen Somers",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": 3,
+                "hp": 3,
+                "power": 3,
+                "text": "If this unit would be defeated, you may instead attach her as an upgrade to a friendly Vehicle unit without a Pilot on it. ",
+                "textStyled": "<p>If this unit would be defeated, you may instead attach her as an upgrade to a friendly <strong><i>Vehicle</i></strong> unit without a <strong><i>Pilot</i></strong> on it. <i></i></p>",
+                "deployBox": null,
+                "deployBoxStyled": null,
+                "epicAction": "Piloting [3 resources Vigilance Heroism]",
+                "epicActionStyled": "<p><strong>Piloting</strong> <strong>[</strong><img src=\"https://ffg-prod-uploads.s3.amazonaws.com/icon_cost_3_5b5918aa29.png\" alt=\"icon_cost_3.png\"> <img src=\"https://ffg-prod-uploads.s3.amazonaws.com/icon_vigilance_cd5c27a54d.png\" alt=\"icon_vigilance.png\"> <img src=\"https://ffg-prod-uploads.s3.amazonaws.com/icon_heroism_895bfc1dc1.png\" alt=\"icon_heroism.png\"><strong>]</strong></p>",
+                "linkHtml": "<a href=\"/cards?cid=0674244654\" class=\"card-tooltip\" data-card=\"0674244654\">L3-37</a>",
+                "cardId": null,
+                "createdAt": "2025-04-29T21:55:00.981Z",
+                "updatedAt": "2025-05-05T14:38:09.198Z",
+                "publishedAt": "2025-05-05T14:37:43.867Z",
+                "locale": "de",
+                "hyperspace": false,
+                "unique": true,
+                "showcase": false,
+                "cardUid": "0674244654",
+                "rules": null,
+                "rulesStyled": null,
+                "serialCode": "c25080001",
+                "upgradeHp": 3,
+                "upgradePower": 3
+              }
+            },
+            {
+              "id": 38335,
+              "attributes": {
+                "title": "L3-37",
+                "subtitle": "Get Out Of My Seat",
+                "cardNumber": 1,
+                "cardCount": 0,
+                "artist": "Stephen Somers",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": 3,
+                "hp": 3,
+                "power": 3,
+                "text": "If this unit would be defeated, you may instead attach her as an upgrade to a friendly Vehicle unit without a Pilot on it. ",
+                "textStyled": "<p>If this unit would be defeated, you may instead attach her as an upgrade to a friendly <strong><i>Vehicle</i></strong> unit without a <strong><i>Pilot</i></strong> on it. <i></i></p>",
+                "deployBox": null,
+                "deployBoxStyled": null,
+                "epicAction": "Piloting [3 resources Vigilance Heroism]",
+                "epicActionStyled": "<p><strong>Piloting</strong> <strong>[</strong><img src=\"https://ffg-prod-uploads.s3.amazonaws.com/icon_cost_3_5b5918aa29.png\" alt=\"icon_cost_3.png\"> <img src=\"https://ffg-prod-uploads.s3.amazonaws.com/icon_vigilance_cd5c27a54d.png\" alt=\"icon_vigilance.png\"> <img src=\"https://ffg-prod-uploads.s3.amazonaws.com/icon_heroism_895bfc1dc1.png\" alt=\"icon_heroism.png\"><strong>]</strong></p>",
+                "linkHtml": "<a href=\"/cards?cid=0674244654\" class=\"card-tooltip\" data-card=\"0674244654\">L3-37</a>",
+                "cardId": null,
+                "createdAt": "2025-04-29T21:54:55.507Z",
+                "updatedAt": "2025-05-05T14:38:09.215Z",
+                "publishedAt": "2025-05-05T14:37:34.091Z",
+                "locale": "en",
+                "hyperspace": false,
+                "unique": true,
+                "showcase": false,
+                "cardUid": "0674244654",
+                "rules": null,
+                "rulesStyled": null,
+                "serialCode": "c25080001",
+                "upgradeHp": 3,
+                "upgradePower": 3
+              }
+            },
+            {
+              "id": 38338,
+              "attributes": {
+                "title": "L3-37",
+                "subtitle": "Get Out Of My Seat",
+                "cardNumber": 1,
+                "cardCount": 0,
+                "artist": "Stephen Somers",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": 3,
+                "hp": 3,
+                "power": 3,
+                "text": "If this unit would be defeated, you may instead attach her as an upgrade to a friendly Vehicle unit without a Pilot on it. ",
+                "textStyled": "<p>If this unit would be defeated, you may instead attach her as an upgrade to a friendly <strong><i>Vehicle</i></strong> unit without a <strong><i>Pilot</i></strong> on it. <i></i></p>",
+                "deployBox": null,
+                "deployBoxStyled": null,
+                "epicAction": "Piloting [3 resources Vigilance Heroism]",
+                "epicActionStyled": "<p><strong>Piloting</strong> <strong>[</strong><img src=\"https://ffg-prod-uploads.s3.amazonaws.com/icon_cost_3_5b5918aa29.png\" alt=\"icon_cost_3.png\"> <img src=\"https://ffg-prod-uploads.s3.amazonaws.com/icon_vigilance_cd5c27a54d.png\" alt=\"icon_vigilance.png\"> <img src=\"https://ffg-prod-uploads.s3.amazonaws.com/icon_heroism_895bfc1dc1.png\" alt=\"icon_heroism.png\"><strong>]</strong></p>",
+                "linkHtml": "<a href=\"/cards?cid=0674244654\" class=\"card-tooltip\" data-card=\"0674244654\">L3-37</a>",
+                "cardId": null,
+                "createdAt": "2025-04-29T21:54:59.497Z",
+                "updatedAt": "2025-05-05T14:38:09.232Z",
+                "publishedAt": "2025-05-05T14:37:59.231Z",
+                "locale": "es",
+                "hyperspace": false,
+                "unique": true,
+                "showcase": false,
+                "cardUid": "0674244654",
+                "rules": null,
+                "rulesStyled": null,
+                "serialCode": "c25080001",
+                "upgradeHp": 3,
+                "upgradePower": 3
+              }
+            },
+            {
+              "id": 38336,
+              "attributes": {
+                "title": "L3-37",
+                "subtitle": "Get Out Of My Seat",
+                "cardNumber": 1,
+                "cardCount": 0,
+                "artist": "Stephen Somers",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": 3,
+                "hp": 3,
+                "power": 3,
+                "text": "If this unit would be defeated, you may instead attach her as an upgrade to a friendly Vehicle unit without a Pilot on it. ",
+                "textStyled": "<p>If this unit would be defeated, you may instead attach her as an upgrade to a friendly <i><strong>Vehicle</strong></i> unit without a <i><strong>Pilot</strong></i> on it.</p>",
+                "deployBox": null,
+                "deployBoxStyled": null,
+                "epicAction": "Piloting [3 resources Vigilance Heroism]",
+                "epicActionStyled": "<p><strong>Piloting</strong> <strong>[</strong><img src=\"https://ffg-prod-uploads.s3.amazonaws.com/icon_cost_3_5b5918aa29.png\" alt=\"icon_cost_3.png\"> <img src=\"https://ffg-prod-uploads.s3.amazonaws.com/icon_vigilance_cd5c27a54d.png\" alt=\"icon_vigilance.png\"> <img src=\"https://ffg-prod-uploads.s3.amazonaws.com/icon_heroism_895bfc1dc1.png\" alt=\"icon_heroism.png\"><strong>]</strong></p>",
+                "linkHtml": "<a href=\"/cards?cid=0674244654\" class=\"card-tooltip\" data-card=\"0674244654\">L3-37</a>",
+                "cardId": null,
+                "createdAt": "2025-04-29T21:54:56.747Z",
+                "updatedAt": "2025-05-05T14:38:08.369Z",
+                "publishedAt": "2025-05-05T14:38:06.780Z",
+                "locale": "it",
+                "hyperspace": false,
+                "unique": true,
+                "showcase": false,
+                "cardUid": "0674244654",
+                "rules": null,
+                "rulesStyled": null,
+                "serialCode": "c25080001",
+                "upgradeHp": 3,
+                "upgradePower": 3
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "data": [
+            {
+              "id": 4,
+              "attributes": {
+                "name": "Vigilance",
+                "description": "<p>Un jeu défensif, avec des capacités pour soigner les dégâts, retirer du jeu les unités dangereuses, protéger sa base des attaques ennemies. Cette affinité est idéale pour les joueurs qui savent temporiser, en encaissant les assauts les plus meurtriers.</p>",
+                "color": "#4073d4",
+                "createdAt": "2023-08-10T21:02:26.776Z",
+                "updatedAt": "2024-07-15T21:32:24.096Z",
+                "publishedAt": "2024-01-02T18:25:33.755Z",
+                "locale": "fr",
+                "englishName": "Vigilance",
+                "sortValue": 1
+              }
+            },
+            {
+              "id": 24,
+              "attributes": {
+                "name": "Héroïsme",
+                "description": "<p>Lutter pour la paix et la justice avec des cartes représentant les «&nbsp;gentils&nbsp;» de la galaxie Star Wars. Cette affinité est idéale pour ceux qui souhaitent que leurs cartes se soutiennent et se protègent mutuellement tout en attaquant. Cette affinité est souvent associée à une autre affinité sur la carte.</p>",
+                "color": "#ffffff",
+                "createdAt": "2023-08-10T21:17:26.974Z",
+                "updatedAt": "2024-07-15T21:41:00.637Z",
+                "publishedAt": "2024-01-02T18:25:10.259Z",
+                "locale": "fr",
+                "englishName": "Heroism",
+                "sortValue": 25
+              }
+            }
+          ]
+        },
+        "aspectDuplicates": {
+          "data": []
+        },
+        "type": {
+          "data": {
+            "id": 29,
+            "attributes": {
+              "name": "Unité",
+              "description": "",
+              "value": "Unit",
+              "createdAt": "2023-08-15T18:04:32.553Z",
+              "updatedAt": "2024-04-25T13:52:29.937Z",
+              "publishedAt": "2024-01-04T21:29:14.943Z",
+              "locale": "fr",
+              "sortValue": 3
+            }
+          }
+        },
+        "type2": {
+          "data": null
+        },
+        "traits": {
+          "data": [
+            {
+              "id": 24,
+              "attributes": {
+                "name": "Pègre",
+                "description": "",
+                "createdAt": "2023-08-15T14:39:46.306Z",
+                "updatedAt": "2024-04-08T21:45:30.258Z",
+                "publishedAt": "2024-01-04T21:26:50.390Z",
+                "locale": "fr"
+              }
+            },
+            {
+              "id": 49,
+              "attributes": {
+                "name": "Droïde",
+                "description": "",
+                "createdAt": "2023-08-15T14:42:47.972Z",
+                "updatedAt": "2024-01-04T21:09:43.421Z",
+                "publishedAt": "2024-01-04T21:09:43.408Z",
+                "locale": "fr"
+              }
+            },
+            {
+              "id": 280,
+              "attributes": {
+                "name": "Pilote",
+                "description": "",
+                "createdAt": "2024-11-19T20:43:59.572Z",
+                "updatedAt": "2024-12-04T16:09:35.538Z",
+                "publishedAt": "2024-12-04T16:09:35.534Z",
+                "locale": "fr"
+              }
+            }
+          ]
+        },
+        "arenas": {
+          "data": [
+            {
+              "id": 4,
+              "attributes": {
+                "name": "Terrestre",
+                "description": null,
+                "createdAt": "2023-08-15T14:32:20.801Z",
+                "updatedAt": "2024-01-04T16:49:07.912Z",
+                "publishedAt": "2023-08-18T21:37:40.768Z",
+                "locale": "fr"
+              }
+            }
+          ]
+        },
+        "keywords": {
+          "data": [
+            {
+              "id": 69,
+              "attributes": {
+                "name": "Pilotage",
+                "description": "",
+                "createdAt": "2024-11-19T21:12:32.366Z",
+                "updatedAt": "2024-12-04T16:10:03.154Z",
+                "publishedAt": "2024-12-04T16:10:03.150Z",
+                "locale": "fr"
+              }
+            }
+          ]
+        },
+        "rarity": {
+          "data": {
+            "id": 14,
+            "attributes": {
+              "name": "Rare",
+              "character": "R",
+              "color": "#f1c000",
+              "createdAt": "2023-08-14T21:29:34.676Z",
+              "updatedAt": "2025-06-17T21:46:47.442Z",
+              "publishedAt": "2024-01-04T16:41:34.918Z",
+              "locale": "fr",
+              "englishName": "Rare",
+              "sortValue": 4
+            }
+          }
+        },
+        "expansion": {
+          "data": {
+            "id": 65,
+            "attributes": {
+              "name": "2025 Convention Exclusive",
+              "description": "",
+              "code": "C25",
+              "createdAt": "2025-04-25T15:56:54.630Z",
+              "updatedAt": "2025-05-05T14:55:51.755Z",
+              "publishedAt": "2025-05-05T14:55:44.627Z",
+              "locale": "fr",
+              "sortValue": 57,
+              "leaderboardStartDate": null,
+              "leaderboardEndDate": null
+            }
+          }
+        },
+        "variantTypes": {
+          "data": [
+            {
+              "id": 43,
+              "attributes": {
+                "name": "Convention Exclusive",
+                "description": null,
+                "createdAt": "2024-06-26T18:28:45.358Z",
+                "updatedAt": "2024-07-15T18:20:14.740Z",
+                "publishedAt": "2024-07-15T18:20:03.400Z",
+                "locale": "fr",
+                "variantId": "08",
+                "foil": null,
+                "sortValue": 80,
+                "icon": {
+                  "data": {
+                    "id": 8695,
+                    "attributes": {
+                      "name": "icon_conventionexclusive.png",
+                      "alternativeText": null,
+                      "caption": null,
+                      "width": 144,
+                      "height": 144,
+                      "formats": null,
+                      "hash": "icon_conventionexclusive_194657d507",
+                      "ext": ".png",
+                      "mime": "image/png",
+                      "size": 0.79,
+                      "url": "https://cdn.starwarsunlimited.com//icon_conventionexclusive_194657d507.png",
+                      "previewUrl": null,
+                      "provider": "aws-s3",
+                      "provider_metadata": null,
+                      "createdAt": "2024-07-15T14:40:17.033Z",
+                      "updatedAt": "2024-07-15T14:40:17.033Z"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "variantOf": {
+          "data": null
+        },
+        "reprintOf": {
+          "data": {
+            "id": 19719,
+            "attributes": {
+              "title": "L3-37",
+              "subtitle": "Dégage De Mon Siège",
+              "cardNumber": 49,
+              "cardCount": 262,
+              "artist": "David Nash",
+              "artFrontHorizontal": false,
+              "artBackHorizontal": null,
+              "hasFoil": true,
+              "cost": 3,
+              "hp": 3,
+              "power": 3,
+              "text": "Si cette unité devait être éliminée, vous pouvez à la place l'attacher en tant qu'amélioration à une unité VÉHICULE amie sans PILOTE dessus. (L3-37 n'est plus une unité. Éliminez toutes les améliorations qui seraient dessus et retirez-lui tous ses dégâts.)",
+              "textStyled": "<p>Si cette unité devait être éliminée, vous pouvez à la place l'attacher en tant qu'amélioration à une unité <strong><i>VÉHICULE</i></strong> amie sans <strong><i>PILOTE</i></strong> dessus. (<i>L3-37 n'est plus une unité. Éliminez toutes les améliorations qui seraient dessus et retirez-lui tous ses dégâts.</i>)</p>",
+              "deployBox": null,
+              "deployBoxStyled": null,
+              "epicAction": "Pilotage [3 ressources Vigilance Héroïsme]",
+              "epicActionStyled": "<p><strong>Pilotage</strong> <strong>[</strong><img src=\"https://ffg-prod-uploads.s3.amazonaws.com/icon_cost_3_5b5918aa29.png\" alt=\"icon_cost_3.png\"> <img src=\"https://ffg-prod-uploads.s3.amazonaws.com/icon_vigilance_cd5c27a54d.png\" alt=\"icon_vigilance.png\"> <img src=\"https://ffg-prod-uploads.s3.amazonaws.com/icon_heroism_895bfc1dc1.png\" alt=\"icon_heroism.png\"><strong>]</strong></p>",
+              "linkHtml": "<a href=\"/cards?cid=6032641503\" class=\"card-tooltip\" data-card=\"6032641503\">L3-37</a>",
+              "cardId": null,
+              "createdAt": "2024-11-27T04:41:51.619Z",
+              "updatedAt": "2025-03-06T20:29:46.003Z",
+              "publishedAt": "2025-03-03T06:00:00.000Z",
+              "locale": "fr",
+              "hyperspace": false,
+              "unique": true,
+              "showcase": false,
+              "cardUid": "6032641503",
+              "rules": "Les Pilotes sont considérés comme des unités tant qu’ils ne sont pas en jeu. Si vous utilisez une capacité qui dit de « jouer une unité », vous ne pouvez jouer un Pilote qu’en tant qu’unité. Si vous utilisez une capacité qui dit de « jouer une amélioration », vous ne pouvez jouer un Pilote qu’en tant qu’amélioration. Si vous utilisez une capacité qui dit « jouer une carte », vous pouvez faire l’un ou l’autre.\nSi vous choisissez d’attacher L3-37 à une unité en tant qu’amélioration au lieu de l’éliminer, éliminez toutes les améliorations qui seraient sur L3-37 et retirez-lui tous ses dégâts.\n",
+              "rulesStyled": "\n                <figure class=\"table\"><table><tbody><tr><td>3/6/2025</td><td>Les Pilotes sont considérés comme des unités tant qu’ils ne sont pas en jeu. Si vous utilisez une capacité qui dit de « jouer une unité », vous ne pouvez jouer un Pilote qu’en tant qu’unité. Si vous utilisez une capacité qui dit de « jouer une amélioration », vous ne pouvez jouer un Pilote qu’en tant qu’amélioration. Si vous utilisez une capacité qui dit « jouer une carte », vous pouvez faire l’un ou l’autre.</td></tr><tr><td>3/6/2025</td><td>Si vous choisissez d’attacher L3-37 à une unité en tant qu’amélioration au lieu de l’éliminer, éliminez toutes les améliorations qui seraient sur L3-37 et retirez-lui tous ses dégâts.</td></tr></tbody></table></figure>\n                ",
+              "serialCode": "04010049",
+              "upgradeHp": 3,
+              "upgradePower": 3
+            }
+          }
+        },
+        "validationId": "6032641503"
+      }
+    },
+    {
+      "id": 38342,
+      "attributes": {
+        "cardNumber": 2,
+        "title": "BB-8",
+        "subtitle": "Happy Beeps",
+        "cardCount": 0,
+        "artist": "Stephen Somers",
+        "artFrontHorizontal": false,
+        "artBackHorizontal": null,
+        "hasFoil": true,
+        "cost": 1,
+        "hp": 4,
+        "power": 1,
+        "text": "",
+        "textStyled": "",
+        "deployBox": null,
+        "deployBoxStyled": null,
+        "epicAction": "Piloting [1 resource Aggression Heroism] \nWhen played as an upgrade: You may pay 2 resources. If you do, ready a Resistance unit.",
+        "epicActionStyled": "<p><strong>Piloting</strong> <strong>[</strong><img src=\"https://ffg-prod-uploads.s3.amazonaws.com/icon_cost_1_6878a6fe98.png\" alt=\"icon_cost_1.png\"> <img src=\"https://ffg-prod-uploads.s3.amazonaws.com/icon_aggression_847a987450.png\" alt=\"icon_aggression.png\"> <img src=\"https://ffg-prod-uploads.s3.amazonaws.com/icon_heroism_895bfc1dc1.png\" alt=\"icon_heroism.png\"><strong>]</strong></p><p><strong>When played as an upgrade:</strong> You may pay <img src=\"https://ffg-prod-uploads.s3.amazonaws.com/icon_cost_2_cd0914a233.png\" alt=\"icon_cost_2.png\">. If you do, ready a <i><strong>Resistance</strong></i> unit.</p>",
+        "linkHtml": "<a href=\"/cards?cid=6378343916\" class=\"card-tooltip\" data-card=\"6378343916\">BB-8</a>",
+        "cardId": null,
+        "createdAt": "2025-04-29T21:55:05.440Z",
+        "updatedAt": "2025-05-05T14:42:56.240Z",
+        "publishedAt": "2025-05-05T14:42:01.883Z",
+        "locale": "fr",
+        "hyperspace": false,
+        "unique": true,
+        "showcase": false,
+        "cardUid": "6378343916",
+        "rules": null,
+        "rulesStyled": null,
+        "serialCode": "c25080002",
+        "upgradeHp": 2,
+        "upgradePower": 1,
+        "artFront": {
+          "data": {
+            "id": 36532,
+            "attributes": {
+              "name": "C25080002EN_BB8.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 300,
+              "height": 419,
+              "formats": {
+                "card": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//card_C25080002_EN_BB_8_228559782a.png",
+                  "hash": "card_C25080002_EN_BB_8_228559782a",
+                  "mime": "image/png",
+                  "name": "card_C25080002EN_BB8.png",
+                  "path": null,
+                  "size": 154,
+                  "width": 286,
+                  "height": 400
+                },
+                "xsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xsmall_C25080002_EN_BB_8_228559782a.png",
+                  "hash": "xsmall_C25080002_EN_BB_8_228559782a",
+                  "mime": "image/png",
+                  "name": "xsmall_C25080002EN_BB8.png",
+                  "path": null,
+                  "size": 96.81,
+                  "width": 215,
+                  "height": 300
+                },
+                "xxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxsmall_C25080002_EN_BB_8_228559782a.png",
+                  "hash": "xxsmall_C25080002_EN_BB_8_228559782a",
+                  "mime": "image/png",
+                  "name": "xxsmall_C25080002EN_BB8.png",
+                  "path": null,
+                  "size": 51.75,
+                  "width": 143,
+                  "height": 200
+                },
+                "xxxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxxsmall_C25080002_EN_BB_8_228559782a.png",
+                  "hash": "xxxsmall_C25080002_EN_BB_8_228559782a",
+                  "mime": "image/png",
+                  "name": "xxxsmall_C25080002EN_BB8.png",
+                  "path": null,
+                  "size": 32.77,
+                  "width": 107,
+                  "height": 150
+                },
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//thumbnail_C25080002_EN_BB_8_228559782a.png",
+                  "hash": "thumbnail_C25080002_EN_BB_8_228559782a",
+                  "mime": "image/png",
+                  "name": "thumbnail_C25080002EN_BB8.png",
+                  "path": null,
+                  "size": 72.99,
+                  "width": 179,
+                  "height": 250
+                }
+              },
+              "hash": "C25080002_EN_BB_8_228559782a",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 42.83,
+              "url": "https://cdn.starwarsunlimited.com//C25080002_EN_BB_8_228559782a.png",
+              "previewUrl": null,
+              "provider": "aws-s3",
+              "provider_metadata": null,
+              "createdAt": "2025-04-25T15:55:39.103Z",
+              "updatedAt": "2025-04-25T15:55:39.103Z"
+            }
+          }
+        },
+        "artBack": {
+          "data": null
+        },
+        "artThumbnail": {
+          "data": {
+            "id": 36526,
+            "attributes": {
+              "name": "C25080002EN_BB8_Thumbnail.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 300,
+              "height": 100,
+              "formats": {
+                "xxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxsmall_C25080002_EN_BB_8_Thumbnail_1861107e49.png",
+                  "hash": "xxsmall_C25080002_EN_BB_8_Thumbnail_1861107e49",
+                  "mime": "image/png",
+                  "name": "xxsmall_C25080002EN_BB8_Thumbnail.png",
+                  "path": null,
+                  "size": 23.05,
+                  "width": 200,
+                  "height": 67
+                },
+                "xxxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxxsmall_C25080002_EN_BB_8_Thumbnail_1861107e49.png",
+                  "hash": "xxxsmall_C25080002_EN_BB_8_Thumbnail_1861107e49",
+                  "mime": "image/png",
+                  "name": "xxxsmall_C25080002EN_BB8_Thumbnail.png",
+                  "path": null,
+                  "size": 14.4,
+                  "width": 150,
+                  "height": 50
+                },
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//thumbnail_C25080002_EN_BB_8_Thumbnail_1861107e49.png",
+                  "hash": "thumbnail_C25080002_EN_BB_8_Thumbnail_1861107e49",
+                  "mime": "image/png",
+                  "name": "thumbnail_C25080002EN_BB8_Thumbnail.png",
+                  "path": null,
+                  "size": 32.83,
+                  "width": 250,
+                  "height": 83
+                }
+              },
+              "hash": "C25080002_EN_BB_8_Thumbnail_1861107e49",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 11.98,
+              "url": "https://cdn.starwarsunlimited.com//C25080002_EN_BB_8_Thumbnail_1861107e49.png",
+              "previewUrl": null,
+              "provider": "aws-s3",
+              "provider_metadata": null,
+              "createdAt": "2025-04-25T15:55:23.895Z",
+              "updatedAt": "2025-04-25T15:55:23.895Z"
+            }
+          }
+        },
+        "localizations": {
+          "data": [
+            {
+              "id": 38344,
+              "attributes": {
+                "title": "BB-8",
+                "subtitle": "Happy Beeps",
+                "cardNumber": 2,
+                "cardCount": 0,
+                "artist": "Stephen Somers",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": 1,
+                "hp": 4,
+                "power": 1,
+                "text": "",
+                "textStyled": "",
+                "deployBox": null,
+                "deployBoxStyled": null,
+                "epicAction": "Piloting [1 resource Aggression Heroism] \nWhen played as an upgrade: You may pay 2 resources. If you do, ready a Resistance unit.",
+                "epicActionStyled": "<p><strong>Piloting</strong> <strong>[</strong><img src=\"https://ffg-prod-uploads.s3.amazonaws.com/icon_cost_1_6878a6fe98.png\" alt=\"icon_cost_1.png\"> <img src=\"https://ffg-prod-uploads.s3.amazonaws.com/icon_aggression_847a987450.png\" alt=\"icon_aggression.png\"> <img src=\"https://ffg-prod-uploads.s3.amazonaws.com/icon_heroism_895bfc1dc1.png\" alt=\"icon_heroism.png\"><strong>]</strong> <i></i></p><p><strong>When played as an upgrade:</strong> You may pay <img src=\"https://ffg-prod-uploads.s3.amazonaws.com/icon_cost_2_cd0914a233.png\" alt=\"icon_cost_2.png\">. If you do, ready a <i><strong>Resistance</strong></i> unit.</p>",
+                "linkHtml": "<a href=\"/cards?cid=6378343916\" class=\"card-tooltip\" data-card=\"6378343916\">BB-8</a>",
+                "cardId": null,
+                "createdAt": "2025-04-29T21:55:08.514Z",
+                "updatedAt": "2025-05-05T14:42:56.192Z",
+                "publishedAt": "2025-05-05T14:41:49.506Z",
+                "locale": "de",
+                "hyperspace": false,
+                "unique": true,
+                "showcase": false,
+                "cardUid": "6378343916",
+                "rules": null,
+                "rulesStyled": null,
+                "serialCode": "c25080002",
+                "upgradeHp": 2,
+                "upgradePower": 1
+              }
+            },
+            {
+              "id": 38340,
+              "attributes": {
+                "title": "BB-8",
+                "subtitle": "Happy Beeps",
+                "cardNumber": 2,
+                "cardCount": 0,
+                "artist": "Stephen Somers",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": 1,
+                "hp": 4,
+                "power": 1,
+                "text": "",
+                "textStyled": "",
+                "deployBox": null,
+                "deployBoxStyled": "",
+                "epicAction": "Piloting [1 resource Aggression Heroism] \nWhen played as an upgrade: You may pay 2 resources. If you do, ready a Resistance unit.",
+                "epicActionStyled": "<p><strong>Piloting</strong> <strong>[</strong><img src=\"https://ffg-prod-uploads.s3.amazonaws.com/icon_cost_1_6878a6fe98.png\" alt=\"icon_cost_1.png\"> <img src=\"https://ffg-prod-uploads.s3.amazonaws.com/icon_aggression_847a987450.png\" alt=\"icon_aggression.png\"> <img src=\"https://ffg-prod-uploads.s3.amazonaws.com/icon_heroism_895bfc1dc1.png\" alt=\"icon_heroism.png\"><strong>]</strong></p><p><strong>When played as an upgrade:</strong> You may pay <img src=\"https://ffg-prod-uploads.s3.amazonaws.com/icon_cost_2_cd0914a233.png\" alt=\"icon_cost_2.png\">. If you do, ready a <i><strong>Resistance</strong></i> unit.</p>",
+                "linkHtml": "<a href=\"/cards?cid=6378343916\" class=\"card-tooltip\" data-card=\"6378343916\">BB-8</a>",
+                "cardId": null,
+                "createdAt": "2025-04-29T21:55:02.577Z",
+                "updatedAt": "2025-05-05T14:42:56.206Z",
+                "publishedAt": "2025-05-05T14:41:39.665Z",
+                "locale": "en",
+                "hyperspace": false,
+                "unique": true,
+                "showcase": false,
+                "cardUid": "6378343916",
+                "rules": null,
+                "rulesStyled": "",
+                "serialCode": "c25080002",
+                "upgradeHp": 2,
+                "upgradePower": 1
+              }
+            },
+            {
+              "id": 38343,
+              "attributes": {
+                "title": "BB-8",
+                "subtitle": "Happy Beeps",
+                "cardNumber": 2,
+                "cardCount": 0,
+                "artist": "Stephen Somers",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": 1,
+                "hp": 4,
+                "power": 1,
+                "text": "",
+                "textStyled": "",
+                "deployBox": null,
+                "deployBoxStyled": null,
+                "epicAction": "Piloting [1 resource Aggression Heroism] \nWhen played as an upgrade: You may pay 2 resources. If you do, ready a Resistance unit.",
+                "epicActionStyled": "<p><strong>Piloting</strong> <strong>[</strong><img src=\"https://ffg-prod-uploads.s3.amazonaws.com/icon_cost_1_6878a6fe98.png\" alt=\"icon_cost_1.png\"> <img src=\"https://ffg-prod-uploads.s3.amazonaws.com/icon_aggression_847a987450.png\" alt=\"icon_aggression.png\"> <img src=\"https://ffg-prod-uploads.s3.amazonaws.com/icon_heroism_895bfc1dc1.png\" alt=\"icon_heroism.png\"><strong>]</strong></p><p><strong>When played as an upgrade:</strong> You may pay <img src=\"https://ffg-prod-uploads.s3.amazonaws.com/icon_cost_2_cd0914a233.png\" alt=\"icon_cost_2.png\">. If you do, ready a <i><strong>Resistance</strong></i> unit.</p>",
+                "linkHtml": "<a href=\"/cards?cid=6378343916\" class=\"card-tooltip\" data-card=\"6378343916\">BB-8</a>",
+                "cardId": null,
+                "createdAt": "2025-04-29T21:55:06.989Z",
+                "updatedAt": "2025-05-05T14:42:56.221Z",
+                "publishedAt": "2025-05-05T14:42:29.413Z",
+                "locale": "es",
+                "hyperspace": false,
+                "unique": true,
+                "showcase": false,
+                "cardUid": "6378343916",
+                "rules": null,
+                "rulesStyled": null,
+                "serialCode": "c25080002",
+                "upgradeHp": 2,
+                "upgradePower": 1
+              }
+            },
+            {
+              "id": 38341,
+              "attributes": {
+                "title": "BB-8",
+                "subtitle": "Happy Beeps",
+                "cardNumber": 2,
+                "cardCount": 0,
+                "artist": "Stephen Somers",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": 1,
+                "hp": 4,
+                "power": 1,
+                "text": "",
+                "textStyled": "",
+                "deployBox": null,
+                "deployBoxStyled": null,
+                "epicAction": "Piloting [1 resource Aggression Heroism] \nWhen played as an upgrade: You may pay 2 resources. If you do, ready a Resistance unit.",
+                "epicActionStyled": "<p><strong>Piloting</strong> <strong>[</strong><img src=\"https://ffg-prod-uploads.s3.amazonaws.com/icon_cost_1_6878a6fe98.png\" alt=\"icon_cost_1.png\"> <img src=\"https://ffg-prod-uploads.s3.amazonaws.com/icon_aggression_847a987450.png\" alt=\"icon_aggression.png\"> <img src=\"https://ffg-prod-uploads.s3.amazonaws.com/icon_heroism_895bfc1dc1.png\" alt=\"icon_heroism.png\"><strong>]</strong></p><p><strong>When played as an upgrade:</strong> You may pay <img src=\"https://ffg-prod-uploads.s3.amazonaws.com/icon_cost_2_cd0914a233.png\" alt=\"icon_cost_2.png\">. If you do, ready a <i><strong>Resistance</strong></i> unit.</p>",
+                "linkHtml": "<a href=\"/cards?cid=6378343916\" class=\"card-tooltip\" data-card=\"6378343916\">BB-8</a>",
+                "cardId": null,
+                "createdAt": "2025-04-29T21:55:04.001Z",
+                "updatedAt": "2025-05-05T14:42:55.379Z",
+                "publishedAt": "2025-05-05T14:42:51.862Z",
+                "locale": "it",
+                "hyperspace": false,
+                "unique": true,
+                "showcase": false,
+                "cardUid": "6378343916",
+                "rules": null,
+                "rulesStyled": null,
+                "serialCode": "c25080002",
+                "upgradeHp": 2,
+                "upgradePower": 1
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "data": [
+            {
+              "id": 14,
+              "attributes": {
+                "name": "Agressivité",
+                "description": "<p>Attaquer avec un maximum d’efficacité et infliger énormément de dégâts. Cette affinité convient parfaitement aux joueurs qui aiment un style de jeu rapide et agressif, brisant les défenses adverses et se ruant vers la victoire quel que soit le prix à payer.</p>",
+                "color": "#d30808",
+                "createdAt": "2023-08-10T21:10:46.362Z",
+                "updatedAt": "2024-07-15T21:39:33.927Z",
+                "publishedAt": "2024-01-02T18:23:52.395Z",
+                "locale": "fr",
+                "englishName": "Aggression",
+                "sortValue": 10
+              }
+            },
+            {
+              "id": 24,
+              "attributes": {
+                "name": "Héroïsme",
+                "description": "<p>Lutter pour la paix et la justice avec des cartes représentant les «&nbsp;gentils&nbsp;» de la galaxie Star Wars. Cette affinité est idéale pour ceux qui souhaitent que leurs cartes se soutiennent et se protègent mutuellement tout en attaquant. Cette affinité est souvent associée à une autre affinité sur la carte.</p>",
+                "color": "#ffffff",
+                "createdAt": "2023-08-10T21:17:26.974Z",
+                "updatedAt": "2024-07-15T21:41:00.637Z",
+                "publishedAt": "2024-01-02T18:25:10.259Z",
+                "locale": "fr",
+                "englishName": "Heroism",
+                "sortValue": 25
+              }
+            }
+          ]
+        },
+        "aspectDuplicates": {
+          "data": []
+        },
+        "type": {
+          "data": {
+            "id": 29,
+            "attributes": {
+              "name": "Unité",
+              "description": "",
+              "value": "Unit",
+              "createdAt": "2023-08-15T18:04:32.553Z",
+              "updatedAt": "2024-04-25T13:52:29.937Z",
+              "publishedAt": "2024-01-04T21:29:14.943Z",
+              "locale": "fr",
+              "sortValue": 3
+            }
+          }
+        },
+        "type2": {
+          "data": null
+        },
+        "traits": {
+          "data": [
+            {
+              "id": 201,
+              "attributes": {
+                "name": "Résistance",
+                "description": "",
+                "createdAt": "2023-11-21T17:02:22.327Z",
+                "updatedAt": "2024-01-04T21:27:19.912Z",
+                "publishedAt": "2024-01-04T21:27:19.909Z",
+                "locale": "fr"
+              }
+            },
+            {
+              "id": 49,
+              "attributes": {
+                "name": "Droïde",
+                "description": "",
+                "createdAt": "2023-08-15T14:42:47.972Z",
+                "updatedAt": "2024-01-04T21:09:43.421Z",
+                "publishedAt": "2024-01-04T21:09:43.408Z",
+                "locale": "fr"
+              }
+            },
+            {
+              "id": 280,
+              "attributes": {
+                "name": "Pilote",
+                "description": "",
+                "createdAt": "2024-11-19T20:43:59.572Z",
+                "updatedAt": "2024-12-04T16:09:35.538Z",
+                "publishedAt": "2024-12-04T16:09:35.534Z",
+                "locale": "fr"
+              }
+            }
+          ]
+        },
+        "arenas": {
+          "data": [
+            {
+              "id": 4,
+              "attributes": {
+                "name": "Terrestre",
+                "description": null,
+                "createdAt": "2023-08-15T14:32:20.801Z",
+                "updatedAt": "2024-01-04T16:49:07.912Z",
+                "publishedAt": "2023-08-18T21:37:40.768Z",
+                "locale": "fr"
+              }
+            }
+          ]
+        },
+        "keywords": {
+          "data": [
+            {
+              "id": 69,
+              "attributes": {
+                "name": "Pilotage",
+                "description": "",
+                "createdAt": "2024-11-19T21:12:32.366Z",
+                "updatedAt": "2024-12-04T16:10:03.154Z",
+                "publishedAt": "2024-12-04T16:10:03.150Z",
+                "locale": "fr"
+              }
+            }
+          ]
+        },
+        "rarity": {
+          "data": {
+            "id": 10,
+            "attributes": {
+              "name": "Peu Commune",
+              "character": "U",
+              "color": "#d1d1d1",
+              "createdAt": "2023-08-14T21:26:54.105Z",
+              "updatedAt": "2024-04-25T14:06:27.031Z",
+              "publishedAt": "2024-01-04T16:42:27.978Z",
+              "locale": "fr",
+              "englishName": "Uncommon",
+              "sortValue": 3
+            }
+          }
+        },
+        "expansion": {
+          "data": {
+            "id": 65,
+            "attributes": {
+              "name": "2025 Convention Exclusive",
+              "description": "",
+              "code": "C25",
+              "createdAt": "2025-04-25T15:56:54.630Z",
+              "updatedAt": "2025-05-05T14:55:51.755Z",
+              "publishedAt": "2025-05-05T14:55:44.627Z",
+              "locale": "fr",
+              "sortValue": 57,
+              "leaderboardStartDate": null,
+              "leaderboardEndDate": null
+            }
+          }
+        },
+        "variantTypes": {
+          "data": [
+            {
+              "id": 43,
+              "attributes": {
+                "name": "Convention Exclusive",
+                "description": null,
+                "createdAt": "2024-06-26T18:28:45.358Z",
+                "updatedAt": "2024-07-15T18:20:14.740Z",
+                "publishedAt": "2024-07-15T18:20:03.400Z",
+                "locale": "fr",
+                "variantId": "08",
+                "foil": null,
+                "sortValue": 80,
+                "icon": {
+                  "data": {
+                    "id": 8695,
+                    "attributes": {
+                      "name": "icon_conventionexclusive.png",
+                      "alternativeText": null,
+                      "caption": null,
+                      "width": 144,
+                      "height": 144,
+                      "formats": null,
+                      "hash": "icon_conventionexclusive_194657d507",
+                      "ext": ".png",
+                      "mime": "image/png",
+                      "size": 0.79,
+                      "url": "https://cdn.starwarsunlimited.com//icon_conventionexclusive_194657d507.png",
+                      "previewUrl": null,
+                      "provider": "aws-s3",
+                      "provider_metadata": null,
+                      "createdAt": "2024-07-15T14:40:17.033Z",
+                      "updatedAt": "2024-07-15T14:40:17.033Z"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "variantOf": {
+          "data": null
+        },
+        "reprintOf": {
+          "data": {
+            "id": 20199,
+            "attributes": {
+              "title": "BB-8",
+              "subtitle": "Bips Joyeux",
+              "cardNumber": 145,
+              "cardCount": 262,
+              "artist": "Arthur Mougne",
+              "artFrontHorizontal": false,
+              "artBackHorizontal": null,
+              "hasFoil": true,
+              "cost": 1,
+              "hp": 4,
+              "power": 1,
+              "text": "",
+              "textStyled": "",
+              "deployBox": null,
+              "deployBoxStyled": null,
+              "epicAction": "Pilotage [1 ressource Agressivité Héroïsme] (Vous pouvez jouer cette carte en tant qu'amélioration sur un Véhicule ami sans Pilote.)\nUne fois jouée en tant qu'amélioration : vous pouvez payer 2 ressources. Dans ce cas, redressez une unité RÉSISTANCE.",
+              "epicActionStyled": "<p><strong>Pilotage</strong> <strong>[</strong><img src=\"https://ffg-prod-uploads.s3.amazonaws.com/icon_cost_1_6878a6fe98.png\" alt=\"icon_cost_1.png\"> <img src=\"https://ffg-prod-uploads.s3.amazonaws.com/icon_aggression_847a987450.png\" alt=\"icon_aggression.png\"> <img src=\"https://ffg-prod-uploads.s3.amazonaws.com/icon_heroism_895bfc1dc1.png\" alt=\"icon_heroism.png\"><strong>]</strong> (<i>Vous pouvez jouer cette carte en tant qu'amélioration sur un Véhicule ami sans Pilote.</i>)</p><p><strong>Une fois jouée en tant qu'amélioration :</strong> vous pouvez payer <img src=\"https://ffg-prod-uploads.s3.amazonaws.com/icon_cost_2_cd0914a233.png\" alt=\"icon_cost_2.png\">. Dans ce cas, redressez une unité <i><strong>RÉSISTANCE</strong></i>.</p>",
+              "linkHtml": "<a href=\"/cards?cid=2283726359\" class=\"card-tooltip\" data-card=\"2283726359\">BB-8</a>",
+              "cardId": null,
+              "createdAt": "2024-11-27T04:44:52.123Z",
+              "updatedAt": "2025-03-06T20:31:43.464Z",
+              "publishedAt": "2025-01-27T16:52:39.197Z",
+              "locale": "fr",
+              "hyperspace": false,
+              "unique": true,
+              "showcase": false,
+              "cardUid": "2283726359",
+              "rules": "Les Pilotes sont considérés comme des unités tant qu’ils ne sont pas en jeu. Si vous utilisez une capacité qui dit de « jouer une unité », vous ne pouvez jouer un Pilote qu’en tant qu’unité. Si vous utilisez une capacité qui dit de « jouer une amélioration », vous ne pouvez jouer un Pilote qu’en tant qu’amélioration. Si vous utilisez une capacité qui dit « jouer une carte », vous pouvez faire l’un ou l’autre.\n",
+              "rulesStyled": "\n                <figure class=\"table\"><table><tbody><tr><td>3/6/2025</td><td>Les Pilotes sont considérés comme des unités tant qu’ils ne sont pas en jeu. Si vous utilisez une capacité qui dit de « jouer une unité », vous ne pouvez jouer un Pilote qu’en tant qu’unité. Si vous utilisez une capacité qui dit de « jouer une amélioration », vous ne pouvez jouer un Pilote qu’en tant qu’amélioration. Si vous utilisez une capacité qui dit « jouer une carte », vous pouvez faire l’un ou l’autre.</td></tr></tbody></table></figure>\n                ",
+              "serialCode": "04010145",
+              "upgradeHp": 2,
+              "upgradePower": 1
+            }
+          }
+        },
+        "validationId": "2283726359"
+      }
+    },
+    {
+      "id": 38347,
+      "attributes": {
+        "cardNumber": 3,
+        "title": "R2-D2",
+        "subtitle": "Artooooooooo!",
+        "cardCount": 0,
+        "artist": "Stephen Somers",
+        "artFrontHorizontal": false,
+        "artBackHorizontal": null,
+        "hasFoil": true,
+        "cost": 1,
+        "hp": 4,
+        "power": 1,
+        "text": "",
+        "textStyled": "",
+        "deployBox": null,
+        "deployBoxStyled": "",
+        "epicAction": "Piloting [0 resources Heroism]\nThis upgrade can be played on a friendly Vehicle unit with a Pilot on it.\nAttached unit gains: “You may play or deploy 1 additional Pilot on this unit.”",
+        "epicActionStyled": "<p><strong>Piloting</strong> <strong>[</strong><img src=\"https://cdn.starwarsunlimited.com//icon_cost_0_f38612bcf3.png\" alt=\"icon_cost_0.png\"> <img src=\"https://ffg-prod-uploads.s3.amazonaws.com/icon_heroism_895bfc1dc1.png\" alt=\"icon_heroism.png\"><strong>]</strong></p><p>This upgrade can be played on a friendly <i><strong>Vehicle</strong></i> unit with a Pilot on it.</p><p>Attached unit gains: “You may play or deploy 1 additional Pilot on this unit.”</p>",
+        "linkHtml": "<a href=\"/cards?cid=4387847003\" class=\"card-tooltip\" data-card=\"4387847003\">R2-D2</a>",
+        "cardId": null,
+        "createdAt": "2025-04-29T21:55:12.203Z",
+        "updatedAt": "2025-05-05T14:44:26.989Z",
+        "publishedAt": "2025-05-05T14:43:59.338Z",
+        "locale": "fr",
+        "hyperspace": false,
+        "unique": true,
+        "showcase": false,
+        "cardUid": "4387847003",
+        "rules": null,
+        "rulesStyled": null,
+        "serialCode": "c25080003",
+        "upgradeHp": 1,
+        "upgradePower": 1,
+        "artFront": {
+          "data": {
+            "id": 36528,
+            "attributes": {
+              "name": "C25080003EN_R2D2.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 300,
+              "height": 419,
+              "formats": {
+                "card": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//card_C25080003_EN_R2_D2_56f3eb1550.png",
+                  "hash": "card_C25080003_EN_R2_D2_56f3eb1550",
+                  "mime": "image/png",
+                  "name": "card_C25080003EN_R2D2.png",
+                  "path": null,
+                  "size": 154.66,
+                  "width": 286,
+                  "height": 400
+                },
+                "xsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xsmall_C25080003_EN_R2_D2_56f3eb1550.png",
+                  "hash": "xsmall_C25080003_EN_R2_D2_56f3eb1550",
+                  "mime": "image/png",
+                  "name": "xsmall_C25080003EN_R2D2.png",
+                  "path": null,
+                  "size": 97.74,
+                  "width": 215,
+                  "height": 300
+                },
+                "xxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxsmall_C25080003_EN_R2_D2_56f3eb1550.png",
+                  "hash": "xxsmall_C25080003_EN_R2_D2_56f3eb1550",
+                  "mime": "image/png",
+                  "name": "xxsmall_C25080003EN_R2D2.png",
+                  "path": null,
+                  "size": 51.96,
+                  "width": 143,
+                  "height": 200
+                },
+                "xxxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxxsmall_C25080003_EN_R2_D2_56f3eb1550.png",
+                  "hash": "xxxsmall_C25080003_EN_R2_D2_56f3eb1550",
+                  "mime": "image/png",
+                  "name": "xxxsmall_C25080003EN_R2D2.png",
+                  "path": null,
+                  "size": 32.77,
+                  "width": 107,
+                  "height": 150
+                },
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//thumbnail_C25080003_EN_R2_D2_56f3eb1550.png",
+                  "hash": "thumbnail_C25080003_EN_R2_D2_56f3eb1550",
+                  "mime": "image/png",
+                  "name": "thumbnail_C25080003EN_R2D2.png",
+                  "path": null,
+                  "size": 73.73,
+                  "width": 179,
+                  "height": 250
+                }
+              },
+              "hash": "C25080003_EN_R2_D2_56f3eb1550",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 39.13,
+              "url": "https://cdn.starwarsunlimited.com//C25080003_EN_R2_D2_56f3eb1550.png",
+              "previewUrl": null,
+              "provider": "aws-s3",
+              "provider_metadata": null,
+              "createdAt": "2025-04-25T15:55:35.382Z",
+              "updatedAt": "2025-04-25T15:55:35.382Z"
+            }
+          }
+        },
+        "artBack": {
+          "data": null
+        },
+        "artThumbnail": {
+          "data": {
+            "id": 36522,
+            "attributes": {
+              "name": "C25080003EN_R2D2_Thumbnail.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 300,
+              "height": 100,
+              "formats": {
+                "xxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxsmall_C25080003_EN_R2_D2_Thumbnail_0e32217b09.png",
+                  "hash": "xxsmall_C25080003_EN_R2_D2_Thumbnail_0e32217b09",
+                  "mime": "image/png",
+                  "name": "xxsmall_C25080003EN_R2D2_Thumbnail.png",
+                  "path": null,
+                  "size": 24.78,
+                  "width": 200,
+                  "height": 67
+                },
+                "xxxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxxsmall_C25080003_EN_R2_D2_Thumbnail_0e32217b09.png",
+                  "hash": "xxxsmall_C25080003_EN_R2_D2_Thumbnail_0e32217b09",
+                  "mime": "image/png",
+                  "name": "xxxsmall_C25080003EN_R2D2_Thumbnail.png",
+                  "path": null,
+                  "size": 15.63,
+                  "width": 150,
+                  "height": 50
+                },
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//thumbnail_C25080003_EN_R2_D2_Thumbnail_0e32217b09.png",
+                  "hash": "thumbnail_C25080003_EN_R2_D2_Thumbnail_0e32217b09",
+                  "mime": "image/png",
+                  "name": "thumbnail_C25080003EN_R2D2_Thumbnail.png",
+                  "path": null,
+                  "size": 34.85,
+                  "width": 250,
+                  "height": 83
+                }
+              },
+              "hash": "C25080003_EN_R2_D2_Thumbnail_0e32217b09",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 11.72,
+              "url": "https://cdn.starwarsunlimited.com//C25080003_EN_R2_D2_Thumbnail_0e32217b09.png",
+              "previewUrl": null,
+              "provider": "aws-s3",
+              "provider_metadata": null,
+              "createdAt": "2025-04-25T15:55:21.173Z",
+              "updatedAt": "2025-04-25T15:55:21.173Z"
+            }
+          }
+        },
+        "localizations": {
+          "data": [
+            {
+              "id": 38349,
+              "attributes": {
+                "title": "R2-D2",
+                "subtitle": "Artooooooooo!",
+                "cardNumber": 3,
+                "cardCount": 0,
+                "artist": "Stephen Somers",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": 1,
+                "hp": 4,
+                "power": 1,
+                "text": "",
+                "textStyled": "",
+                "deployBox": null,
+                "deployBoxStyled": "",
+                "epicAction": "Piloting [0 resources Heroism]\nThis upgrade can be played on a friendly Vehicle unit with a Pilot on it.\nAttached unit gains: “You may play or deploy 1 additional Pilot on this unit.”",
+                "epicActionStyled": "<p><strong>Piloting</strong> <strong>[</strong><img src=\"https://cdn.starwarsunlimited.com//icon_cost_0_f38612bcf3.png\" alt=\"icon_cost_0.png\"> <img src=\"https://ffg-prod-uploads.s3.amazonaws.com/icon_heroism_895bfc1dc1.png\" alt=\"icon_heroism.png\"><strong>]</strong></p><p>This upgrade can be played on a friendly <i><strong>Vehicle</strong></i> unit with a Pilot on it.</p><p>Attached unit gains: “You may play or deploy 1 additional Pilot on this unit.”</p>",
+                "linkHtml": "<a href=\"/cards?cid=4387847003\" class=\"card-tooltip\" data-card=\"4387847003\">R2-D2</a>",
+                "cardId": null,
+                "createdAt": "2025-04-29T21:55:14.662Z",
+                "updatedAt": "2025-05-05T14:44:26.937Z",
+                "publishedAt": "2025-05-05T14:43:51.673Z",
+                "locale": "de",
+                "hyperspace": false,
+                "unique": true,
+                "showcase": false,
+                "cardUid": "4387847003",
+                "rules": null,
+                "rulesStyled": null,
+                "serialCode": "c25080003",
+                "upgradeHp": 1,
+                "upgradePower": 1
+              }
+            },
+            {
+              "id": 38345,
+              "attributes": {
+                "title": "R2-D2",
+                "subtitle": "Artooooooooo!",
+                "cardNumber": 3,
+                "cardCount": 0,
+                "artist": "Stephen Somers",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": 1,
+                "hp": 4,
+                "power": 1,
+                "text": "",
+                "textStyled": "",
+                "deployBox": null,
+                "deployBoxStyled": "",
+                "epicAction": "Piloting [0 resources Heroism]\nThis upgrade can be played on a friendly Vehicle unit with a Pilot on it.\nAttached unit gains: “You may play or deploy 1 additional Pilot on this unit.”",
+                "epicActionStyled": "<p><strong>Piloting</strong> <strong>[</strong><img src=\"https://cdn.starwarsunlimited.com//icon_cost_0_f38612bcf3.png\" alt=\"icon_cost_0.png\"> <img src=\"https://ffg-prod-uploads.s3.amazonaws.com/icon_heroism_895bfc1dc1.png\" alt=\"icon_heroism.png\"><strong>]</strong></p><p>This upgrade can be played on a friendly <i><strong>Vehicle</strong></i> unit with a Pilot on it.</p><p>Attached unit gains: “You may play or deploy 1 additional Pilot on this unit.”</p>",
+                "linkHtml": "<a href=\"/cards?cid=4387847003\" class=\"card-tooltip\" data-card=\"4387847003\">R2-D2</a>",
+                "cardId": null,
+                "createdAt": "2025-04-29T21:55:09.877Z",
+                "updatedAt": "2025-05-05T14:44:26.952Z",
+                "publishedAt": "2025-05-05T14:43:38.461Z",
+                "locale": "en",
+                "hyperspace": false,
+                "unique": true,
+                "showcase": false,
+                "cardUid": "4387847003",
+                "rules": null,
+                "rulesStyled": null,
+                "serialCode": "c25080003",
+                "upgradeHp": 1,
+                "upgradePower": 1
+              }
+            },
+            {
+              "id": 38348,
+              "attributes": {
+                "title": "R2-D2",
+                "subtitle": "Artooooooooo!",
+                "cardNumber": 3,
+                "cardCount": 0,
+                "artist": "Stephen Somers",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": 1,
+                "hp": 4,
+                "power": 1,
+                "text": "",
+                "textStyled": "",
+                "deployBox": null,
+                "deployBoxStyled": "",
+                "epicAction": "Piloting [0 resources Heroism]\nThis upgrade can be played on a friendly Vehicle unit with a Pilot on it.\nAttached unit gains: “You may play or deploy 1 additional Pilot on this unit.”",
+                "epicActionStyled": "<p><strong>Piloting</strong> <strong>[</strong><img src=\"https://cdn.starwarsunlimited.com//icon_cost_0_f38612bcf3.png\" alt=\"icon_cost_0.png\"> <img src=\"https://ffg-prod-uploads.s3.amazonaws.com/icon_heroism_895bfc1dc1.png\" alt=\"icon_heroism.png\"><strong>]</strong></p><p>This upgrade can be played on a friendly <i><strong>Vehicle</strong></i> unit with a Pilot on it.</p><p>Attached unit gains: “You may play or deploy 1 additional Pilot on this unit.”</p>",
+                "linkHtml": "<a href=\"/cards?cid=4387847003\" class=\"card-tooltip\" data-card=\"4387847003\">R2-D2</a>",
+                "cardId": null,
+                "createdAt": "2025-04-29T21:55:13.425Z",
+                "updatedAt": "2025-05-05T14:44:26.968Z",
+                "publishedAt": "2025-05-05T14:44:14.595Z",
+                "locale": "es",
+                "hyperspace": false,
+                "unique": true,
+                "showcase": false,
+                "cardUid": "4387847003",
+                "rules": null,
+                "rulesStyled": "",
+                "serialCode": "c25080003",
+                "upgradeHp": 1,
+                "upgradePower": 1
+              }
+            },
+            {
+              "id": 38346,
+              "attributes": {
+                "title": "R2-D2",
+                "subtitle": "Artooooooooo!",
+                "cardNumber": 3,
+                "cardCount": 0,
+                "artist": "Stephen Somers",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": 1,
+                "hp": 4,
+                "power": 1,
+                "text": "",
+                "textStyled": "",
+                "deployBox": null,
+                "deployBoxStyled": "",
+                "epicAction": "Piloting [0 resources Heroism]\nThis upgrade can be played on a friendly Vehicle unit with a Pilot on it.\nAttached unit gains: “You may play or deploy 1 additional Pilot on this unit.”",
+                "epicActionStyled": "<p><strong>Piloting</strong> <strong>[</strong><img src=\"https://cdn.starwarsunlimited.com//icon_cost_0_f38612bcf3.png\" alt=\"icon_cost_0.png\"> <img src=\"https://ffg-prod-uploads.s3.amazonaws.com/icon_heroism_895bfc1dc1.png\" alt=\"icon_heroism.png\"><strong>]</strong></p><p>This upgrade can be played on a friendly <i><strong>Vehicle</strong></i> unit with a Pilot on it.</p><p>Attached unit gains: “You may play or deploy 1 additional Pilot on this unit.”</p>",
+                "linkHtml": "<a href=\"/cards?cid=4387847003\" class=\"card-tooltip\" data-card=\"4387847003\">R2-D2</a>",
+                "cardId": null,
+                "createdAt": "2025-04-29T21:55:11.072Z",
+                "updatedAt": "2025-05-05T14:44:26.638Z",
+                "publishedAt": "2025-05-05T14:44:26.631Z",
+                "locale": "it",
+                "hyperspace": false,
+                "unique": true,
+                "showcase": false,
+                "cardUid": "4387847003",
+                "rules": null,
+                "rulesStyled": null,
+                "serialCode": "c25080003",
+                "upgradeHp": 1,
+                "upgradePower": 1
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "data": [
+            {
+              "id": 24,
+              "attributes": {
+                "name": "Héroïsme",
+                "description": "<p>Lutter pour la paix et la justice avec des cartes représentant les «&nbsp;gentils&nbsp;» de la galaxie Star Wars. Cette affinité est idéale pour ceux qui souhaitent que leurs cartes se soutiennent et se protègent mutuellement tout en attaquant. Cette affinité est souvent associée à une autre affinité sur la carte.</p>",
+                "color": "#ffffff",
+                "createdAt": "2023-08-10T21:17:26.974Z",
+                "updatedAt": "2024-07-15T21:41:00.637Z",
+                "publishedAt": "2024-01-02T18:25:10.259Z",
+                "locale": "fr",
+                "englishName": "Heroism",
+                "sortValue": 25
+              }
+            }
+          ]
+        },
+        "aspectDuplicates": {
+          "data": []
+        },
+        "type": {
+          "data": {
+            "id": 29,
+            "attributes": {
+              "name": "Unité",
+              "description": "",
+              "value": "Unit",
+              "createdAt": "2023-08-15T18:04:32.553Z",
+              "updatedAt": "2024-04-25T13:52:29.937Z",
+              "publishedAt": "2024-01-04T21:29:14.943Z",
+              "locale": "fr",
+              "sortValue": 3
+            }
+          }
+        },
+        "type2": {
+          "data": null
+        },
+        "traits": {
+          "data": [
+            {
+              "id": 39,
+              "attributes": {
+                "name": "Rebelle",
+                "description": "",
+                "createdAt": "2023-08-15T14:41:39.554Z",
+                "updatedAt": "2024-01-04T21:20:25.621Z",
+                "publishedAt": "2024-01-04T21:20:25.617Z",
+                "locale": "fr"
+              }
+            },
+            {
+              "id": 49,
+              "attributes": {
+                "name": "Droïde",
+                "description": "",
+                "createdAt": "2023-08-15T14:42:47.972Z",
+                "updatedAt": "2024-01-04T21:09:43.421Z",
+                "publishedAt": "2024-01-04T21:09:43.408Z",
+                "locale": "fr"
+              }
+            },
+            {
+              "id": 280,
+              "attributes": {
+                "name": "Pilote",
+                "description": "",
+                "createdAt": "2024-11-19T20:43:59.572Z",
+                "updatedAt": "2024-12-04T16:09:35.538Z",
+                "publishedAt": "2024-12-04T16:09:35.534Z",
+                "locale": "fr"
+              }
+            }
+          ]
+        },
+        "arenas": {
+          "data": [
+            {
+              "id": 4,
+              "attributes": {
+                "name": "Terrestre",
+                "description": null,
+                "createdAt": "2023-08-15T14:32:20.801Z",
+                "updatedAt": "2024-01-04T16:49:07.912Z",
+                "publishedAt": "2023-08-18T21:37:40.768Z",
+                "locale": "fr"
+              }
+            }
+          ]
+        },
+        "keywords": {
+          "data": [
+            {
+              "id": 69,
+              "attributes": {
+                "name": "Pilotage",
+                "description": "",
+                "createdAt": "2024-11-19T21:12:32.366Z",
+                "updatedAt": "2024-12-04T16:10:03.154Z",
+                "publishedAt": "2024-12-04T16:10:03.150Z",
+                "locale": "fr"
+              }
+            }
+          ]
+        },
+        "rarity": {
+          "data": {
+            "id": 10,
+            "attributes": {
+              "name": "Peu Commune",
+              "character": "U",
+              "color": "#d1d1d1",
+              "createdAt": "2023-08-14T21:26:54.105Z",
+              "updatedAt": "2024-04-25T14:06:27.031Z",
+              "publishedAt": "2024-01-04T16:42:27.978Z",
+              "locale": "fr",
+              "englishName": "Uncommon",
+              "sortValue": 3
+            }
+          }
+        },
+        "expansion": {
+          "data": {
+            "id": 65,
+            "attributes": {
+              "name": "2025 Convention Exclusive",
+              "description": "",
+              "code": "C25",
+              "createdAt": "2025-04-25T15:56:54.630Z",
+              "updatedAt": "2025-05-05T14:55:51.755Z",
+              "publishedAt": "2025-05-05T14:55:44.627Z",
+              "locale": "fr",
+              "sortValue": 57,
+              "leaderboardStartDate": null,
+              "leaderboardEndDate": null
+            }
+          }
+        },
+        "variantTypes": {
+          "data": [
+            {
+              "id": 43,
+              "attributes": {
+                "name": "Convention Exclusive",
+                "description": null,
+                "createdAt": "2024-06-26T18:28:45.358Z",
+                "updatedAt": "2024-07-15T18:20:14.740Z",
+                "publishedAt": "2024-07-15T18:20:03.400Z",
+                "locale": "fr",
+                "variantId": "08",
+                "foil": null,
+                "sortValue": 80,
+                "icon": {
+                  "data": {
+                    "id": 8695,
+                    "attributes": {
+                      "name": "icon_conventionexclusive.png",
+                      "alternativeText": null,
+                      "caption": null,
+                      "width": 144,
+                      "height": 144,
+                      "formats": null,
+                      "hash": "icon_conventionexclusive_194657d507",
+                      "ext": ".png",
+                      "mime": "image/png",
+                      "size": 0.79,
+                      "url": "https://cdn.starwarsunlimited.com//icon_conventionexclusive_194657d507.png",
+                      "previewUrl": null,
+                      "provider": "aws-s3",
+                      "provider_metadata": null,
+                      "createdAt": "2024-07-15T14:40:17.033Z",
+                      "updatedAt": "2024-07-15T14:40:17.033Z"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "variantOf": {
+          "data": null
+        },
+        "reprintOf": {
+          "data": {
+            "id": 20699,
+            "attributes": {
+              "title": "R2-D2",
+              "subtitle": "Artooooooooo !",
+              "cardNumber": 245,
+              "cardCount": 262,
+              "artist": "Stephen Zavala",
+              "artFrontHorizontal": false,
+              "artBackHorizontal": null,
+              "hasFoil": true,
+              "cost": 1,
+              "hp": 4,
+              "power": 1,
+              "text": "",
+              "textStyled": "",
+              "deployBox": null,
+              "deployBoxStyled": "",
+              "epicAction": "Pilotage [0 ressources Héroïsme]\nCette amélioration peut être jouée sur une unité VÉHICULE amie ayant un PILOTE dessus.\nL'unité attachée gagne : « Vous pouvez jouer ou déployer 1 PILOTE supplémentaire sur cette unité. »",
+              "epicActionStyled": "<p><strong>Pilotage</strong> <strong>[</strong><img src=\"https://cdn.starwarsunlimited.com//icon_cost_0_f38612bcf3.png\" alt=\"icon_cost_0.png\"> <img src=\"https://ffg-prod-uploads.s3.amazonaws.com/icon_heroism_895bfc1dc1.png\" alt=\"icon_heroism.png\"><strong>]</strong></p><p>Cette amélioration peut être jouée sur une unité <i><strong>VÉHICULE</strong></i> amie ayant un <i><strong>PILOTE</strong></i> dessus.</p><p>L'unité attachée gagne : « Vous pouvez jouer ou déployer 1 PILOTE supplémentaire sur cette unité. »</p>",
+              "linkHtml": "<a href=\"/cards?cid=5375722883\" class=\"card-tooltip\" data-card=\"5375722883\">R2-D2</a>",
+              "cardId": null,
+              "createdAt": "2024-11-27T04:48:09.324Z",
+              "updatedAt": "2025-03-06T20:33:37.420Z",
+              "publishedAt": "2025-01-22T19:17:24.495Z",
+              "locale": "fr",
+              "hyperspace": false,
+              "unique": true,
+              "showcase": false,
+              "cardUid": "5375722883",
+              "rules": "Les Pilotes sont considérés comme des unités tant qu’ils ne sont pas en jeu. Si vous utilisez une capacité qui dit de « jouer une unité », vous ne pouvez jouer un Pilote qu’en tant qu’unité. Si vous utilisez une capacité qui dit de « jouer une amélioration », vous ne pouvez jouer un Pilote qu’en tant qu’amélioration. Si vous utilisez une capacité qui dit « jouer une carte », vous pouvez faire l’un ou l’autre.\nLa capacité de R2-D2 annule la restriction habituelle du mot-clé Pilotage et la capacité de déploiement des leaders Pilote qui indique qu’ils doivent être attachés à une unité sans Pilote. Si R2-D2 est attaché à une unité, un autre Pilote peut être joué ou déployé sur cette même unité. Plusieurs capacités de ce type peuvent se cumuler.\n",
+              "rulesStyled": "\n                <figure class=\"table\"><table><tbody><tr><td>3/6/2025</td><td>Les Pilotes sont considérés comme des unités tant qu’ils ne sont pas en jeu. Si vous utilisez une capacité qui dit de « jouer une unité », vous ne pouvez jouer un Pilote qu’en tant qu’unité. Si vous utilisez une capacité qui dit de « jouer une amélioration », vous ne pouvez jouer un Pilote qu’en tant qu’amélioration. Si vous utilisez une capacité qui dit « jouer une carte », vous pouvez faire l’un ou l’autre.</td></tr><tr><td>3/6/2025</td><td>La capacité de R2-D2 annule la restriction habituelle du mot-clé Pilotage et la capacité de déploiement des leaders Pilote qui indique qu’ils doivent être attachés à une unité sans Pilote. Si R2-D2 est attaché à une unité, un autre Pilote peut être joué ou déployé sur cette même unité. Plusieurs capacités de ce type peuvent se cumuler.</td></tr></tbody></table></figure>\n                ",
+              "serialCode": "04010245",
+              "upgradeHp": 1,
+              "upgradePower": 1
+            }
+          }
+        },
+        "validationId": "5375722883"
+      }
+    },
+    {
+      "id": 38353,
+      "attributes": {
+        "cardNumber": 4,
+        "title": "BD-1",
+        "subtitle": "Beep Boo Boo Bweep",
+        "cardCount": 0,
+        "artist": "Stephen Somers",
+        "artFrontHorizontal": false,
+        "artBackHorizontal": null,
+        "hasFoil": true,
+        "cost": 1,
+        "hp": 3,
+        "power": 1,
+        "text": "Hidden \nWhen Played: Choose another friendly unit. While this unit is in play, the chosen unit gets +1/+0 and gains Saboteur.",
+        "textStyled": "<p><strong>Hidden</strong></p><p><strong>When Played:</strong> Choose another friendly unit. While this unit is in play, the chosen unit gets <strong>+1</strong>/<strong>+0</strong> and gains <strong>Saboteur</strong>.</p>",
+        "deployBox": null,
+        "deployBoxStyled": null,
+        "epicAction": "",
+        "epicActionStyled": "",
+        "linkHtml": "<a href=\"/cards?cid=4988607060\" class=\"card-tooltip\" data-card=\"4988607060\">BD-1</a>",
+        "cardId": null,
+        "createdAt": "2025-04-29T21:55:20.764Z",
+        "updatedAt": "2025-07-14T22:20:23.777Z",
+        "publishedAt": "2025-05-05T14:45:55.869Z",
+        "locale": "fr",
+        "hyperspace": false,
+        "unique": true,
+        "showcase": false,
+        "cardUid": "4988607060",
+        "rules": "Si BD-1 est capturé, puis secouru, sa capacité « Une fois jouée » ne se déclenche pas à nouveau.\nSi une unité a Dissimulée et Sentinelle en même temps, elle peut être attaquée.\nTant que BD-1 est en jeu, l’unité choisie a +1/+0 et Saboteur. Cet effet continue de s’appliquer même si un adversaire prend le contrôle de BD-1.\n",
+        "rulesStyled": "\n                <figure class=\"table\"><table><tbody><tr><td>7/14/2025</td><td>Si BD-1 est capturé, puis secouru, sa capacité « Une fois jouée » ne se déclenche pas à nouveau.</td></tr><tr><td>7/14/2025</td><td>Si une unité a Dissimulée et Sentinelle en même temps, elle peut être attaquée.</td></tr><tr><td>7/14/2025</td><td>Tant que BD-1 est en jeu, l’unité choisie a +1/+0 et Saboteur. Cet effet continue de s’appliquer même si un adversaire prend le contrôle de BD-1.</td></tr></tbody></table></figure>\n                ",
+        "serialCode": "c25080004",
+        "upgradeHp": null,
+        "upgradePower": null,
+        "artFront": {
+          "data": {
+            "id": 36530,
+            "attributes": {
+              "name": "C25080004EN_BD1.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 300,
+              "height": 419,
+              "formats": {
+                "card": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//card_C25080004_EN_BD_1_1816476eed.png",
+                  "hash": "card_C25080004_EN_BD_1_1816476eed",
+                  "mime": "image/png",
+                  "name": "card_C25080004EN_BD1.png",
+                  "path": null,
+                  "size": 139.35,
+                  "width": 286,
+                  "height": 400
+                },
+                "xsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xsmall_C25080004_EN_BD_1_1816476eed.png",
+                  "hash": "xsmall_C25080004_EN_BD_1_1816476eed",
+                  "mime": "image/png",
+                  "name": "xsmall_C25080004EN_BD1.png",
+                  "path": null,
+                  "size": 87.86,
+                  "width": 215,
+                  "height": 300
+                },
+                "xxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxsmall_C25080004_EN_BD_1_1816476eed.png",
+                  "hash": "xxsmall_C25080004_EN_BD_1_1816476eed",
+                  "mime": "image/png",
+                  "name": "xxsmall_C25080004EN_BD1.png",
+                  "path": null,
+                  "size": 46.96,
+                  "width": 143,
+                  "height": 200
+                },
+                "xxxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxxsmall_C25080004_EN_BD_1_1816476eed.png",
+                  "hash": "xxxsmall_C25080004_EN_BD_1_1816476eed",
+                  "mime": "image/png",
+                  "name": "xxxsmall_C25080004EN_BD1.png",
+                  "path": null,
+                  "size": 30.15,
+                  "width": 107,
+                  "height": 150
+                },
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//thumbnail_C25080004_EN_BD_1_1816476eed.png",
+                  "hash": "thumbnail_C25080004_EN_BD_1_1816476eed",
+                  "mime": "image/png",
+                  "name": "thumbnail_C25080004EN_BD1.png",
+                  "path": null,
+                  "size": 66.41,
+                  "width": 179,
+                  "height": 250
+                }
+              },
+              "hash": "C25080004_EN_BD_1_1816476eed",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 38.69,
+              "url": "https://cdn.starwarsunlimited.com//C25080004_EN_BD_1_1816476eed.png",
+              "previewUrl": null,
+              "provider": "aws-s3",
+              "provider_metadata": null,
+              "createdAt": "2025-04-25T15:55:37.332Z",
+              "updatedAt": "2025-04-25T15:55:37.332Z"
+            }
+          }
+        },
+        "artBack": {
+          "data": null
+        },
+        "artThumbnail": {
+          "data": {
+            "id": 36523,
+            "attributes": {
+              "name": "C25080004EN_BD1_Thumbnail.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 300,
+              "height": 100,
+              "formats": {
+                "xxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxsmall_C25080004_EN_BD_1_Thumbnail_4d80246051.png",
+                  "hash": "xxsmall_C25080004_EN_BD_1_Thumbnail_4d80246051",
+                  "mime": "image/png",
+                  "name": "xxsmall_C25080004EN_BD1_Thumbnail.png",
+                  "path": null,
+                  "size": 22.44,
+                  "width": 200,
+                  "height": 67
+                },
+                "xxxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxxsmall_C25080004_EN_BD_1_Thumbnail_4d80246051.png",
+                  "hash": "xxxsmall_C25080004_EN_BD_1_Thumbnail_4d80246051",
+                  "mime": "image/png",
+                  "name": "xxxsmall_C25080004EN_BD1_Thumbnail.png",
+                  "path": null,
+                  "size": 14.06,
+                  "width": 150,
+                  "height": 50
+                },
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//thumbnail_C25080004_EN_BD_1_Thumbnail_4d80246051.png",
+                  "hash": "thumbnail_C25080004_EN_BD_1_Thumbnail_4d80246051",
+                  "mime": "image/png",
+                  "name": "thumbnail_C25080004EN_BD1_Thumbnail.png",
+                  "path": null,
+                  "size": 31.68,
+                  "width": 250,
+                  "height": 83
+                }
+              },
+              "hash": "C25080004_EN_BD_1_Thumbnail_4d80246051",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 11.71,
+              "url": "https://cdn.starwarsunlimited.com//C25080004_EN_BD_1_Thumbnail_4d80246051.png",
+              "previewUrl": null,
+              "provider": "aws-s3",
+              "provider_metadata": null,
+              "createdAt": "2025-04-25T15:55:21.687Z",
+              "updatedAt": "2025-04-25T15:55:21.687Z"
+            }
+          }
+        },
+        "localizations": {
+          "data": [
+            {
+              "id": 38354,
+              "attributes": {
+                "title": "BD-1",
+                "subtitle": "Beep Boo Boo Bweep",
+                "cardNumber": 4,
+                "cardCount": 0,
+                "artist": "Stephen Somers",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": 1,
+                "hp": 3,
+                "power": 1,
+                "text": "Hidden \nWhen Played: Choose another friendly unit. While this unit is in play, the chosen unit gets +1/+0 and gains Saboteur.",
+                "textStyled": "<p><strong>Hidden</strong></p><p><strong>When Played:</strong> Choose another friendly unit. While this unit is in play, the chosen unit gets <strong>+1</strong>/<strong>+0</strong> and gains <strong>Saboteur</strong>.</p>",
+                "deployBox": null,
+                "deployBoxStyled": null,
+                "epicAction": "",
+                "epicActionStyled": "",
+                "linkHtml": "<a href=\"/cards?cid=4988607060\" class=\"card-tooltip\" data-card=\"4988607060\">BD-1</a>",
+                "cardId": null,
+                "createdAt": "2025-04-29T21:55:22.257Z",
+                "updatedAt": "2025-07-14T22:20:25.343Z",
+                "publishedAt": "2025-05-05T14:46:04.631Z",
+                "locale": "es",
+                "hyperspace": false,
+                "unique": true,
+                "showcase": false,
+                "cardUid": "4988607060",
+                "rules": "Hasta que BD-1 abandone el juego, la unidad aliada recibe +1/+0 y Sabotaje. Este efecto no cambia si un adversario toma el control de BD-1.\nSi BD-1 es capturado y luego rescatado, el efecto de su enunciado «Cuando se juegue» no se reanuda.\nSi una unidad tiene Ocultación y Centinela al mismo tiempo, puede ser atacada.\n",
+                "rulesStyled": "\n                <figure class=\"table\"><table><tbody><tr><td>7/14/2025</td><td>Hasta que BD-1 abandone el juego, la unidad aliada recibe +1/+0 y Sabotaje. Este efecto no cambia si un adversario toma el control de BD-1.</td></tr><tr><td>7/14/2025</td><td>Si BD-1 es capturado y luego rescatado, el efecto de su enunciado «Cuando se juegue» no se reanuda.</td></tr><tr><td>7/14/2025</td><td>Si una unidad tiene Ocultación y Centinela al mismo tiempo, puede ser atacada.</td></tr></tbody></table></figure>\n                ",
+                "serialCode": "c25080004",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            },
+            {
+              "id": 38350,
+              "attributes": {
+                "title": "BD-1",
+                "subtitle": "Beep Boo Boo Bweep",
+                "cardNumber": 4,
+                "cardCount": 0,
+                "artist": "Stephen Somers",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": 1,
+                "hp": 3,
+                "power": 1,
+                "text": "Hidden \nWhen Played: Choose another friendly unit. While this unit is in play, the chosen unit gets +1/+0 and gains Saboteur.",
+                "textStyled": "<p><strong>Hidden</strong></p><p><strong>When Played:</strong> Choose another friendly unit. While this unit is in play, the chosen unit gets <strong>+1</strong>/<strong>+0</strong> and gains <strong>Saboteur</strong>.</p>",
+                "deployBox": null,
+                "deployBoxStyled": "",
+                "epicAction": "",
+                "epicActionStyled": "",
+                "linkHtml": "<a href=\"/cards?cid=4988607060\" class=\"card-tooltip\" data-card=\"4988607060\">BD-1</a>",
+                "cardId": null,
+                "createdAt": "2025-04-29T21:55:16.296Z",
+                "updatedAt": "2025-07-14T22:20:19.035Z",
+                "publishedAt": "2025-05-05T14:45:33.559Z",
+                "locale": "en",
+                "hyperspace": false,
+                "unique": true,
+                "showcase": false,
+                "cardUid": "4988607060",
+                "rules": "If a unit has Hidden and Sentinel at the same time, it can be attacked.\nIf BD-1 is captured and then rescued, his \"When Played\" effect does not resume.\nUntil BD-1 leaves play, the friendly unit gets +1/+0 and Saboteur. This effect is not changed if an opponent takes control of BD-1.\n",
+                "rulesStyled": "\n        <figure class=\"table\"><table><tbody><tr><td>7/14/2025</td><td>If a unit has Hidden and Sentinel at the same time, it can be attacked.</td></tr><tr><td>7/14/2025</td><td>If BD-1 is captured and then rescued, his \"When Played\" effect does not resume.</td></tr><tr><td>7/14/2025</td><td>Until BD-1 leaves play, the friendly unit gets +1/+0 and Saboteur. This effect is not changed if an opponent takes control of BD-1.</td></tr></tbody></table></figure>\n        ",
+                "serialCode": "c25080004",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            },
+            {
+              "id": 38352,
+              "attributes": {
+                "title": "BD-1",
+                "subtitle": "Beep Boo Boo Bweep",
+                "cardNumber": 4,
+                "cardCount": 0,
+                "artist": "Stephen Somers",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": 1,
+                "hp": 3,
+                "power": 1,
+                "text": "Hidden \nWhen Played: Choose another friendly unit. While this unit is in play, the chosen unit gets +1/+0 and gains Saboteur.",
+                "textStyled": "<p><strong>Hidden</strong></p><p><strong>When Played:</strong> Choose another friendly unit. While this unit is in play, the chosen unit gets <strong>+1</strong>/<strong>+0</strong> and gains <strong>Saboteur</strong>.</p>",
+                "deployBox": null,
+                "deployBoxStyled": null,
+                "epicAction": "",
+                "epicActionStyled": "",
+                "linkHtml": "<a href=\"/cards?cid=4988607060\" class=\"card-tooltip\" data-card=\"4988607060\">BD-1</a>",
+                "cardId": null,
+                "createdAt": "2025-04-29T21:55:19.172Z",
+                "updatedAt": "2025-07-14T22:20:22.197Z",
+                "publishedAt": "2025-05-05T14:46:19.867Z",
+                "locale": "it",
+                "hyperspace": false,
+                "unique": true,
+                "showcase": false,
+                "cardUid": "4988607060",
+                "rules": "Finché BD-1 rimane in gioco, l'unità amica riceve +1/+0 e Sabotatore. Questo effetto non cambia se un avversario prende il controllo di BD-1.\nSe BD-1 viene catturato e poi salvato, il suo effetto \"Quando Giocata\" non viene ripristinato.\nSe un'unità ha le capacità Nascosta e Sentinella nello stesso momento, può essere attaccata.\n",
+                "rulesStyled": "\n                <figure class=\"table\"><table><tbody><tr><td>7/14/2025</td><td>Finché BD-1 rimane in gioco, l'unità amica riceve +1/+0 e Sabotatore. Questo effetto non cambia se un avversario prende il controllo di BD-1.</td></tr><tr><td>7/14/2025</td><td>Se BD-1 viene catturato e poi salvato, il suo effetto \"Quando Giocata\" non viene ripristinato.</td></tr><tr><td>7/14/2025</td><td>Se un'unità ha le capacità Nascosta e Sentinella nello stesso momento, può essere attaccata.</td></tr></tbody></table></figure>\n                ",
+                "serialCode": "c25080004",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            },
+            {
+              "id": 38351,
+              "attributes": {
+                "title": "BD-1",
+                "subtitle": "Beep Boo Boo Bweep",
+                "cardNumber": 4,
+                "cardCount": 0,
+                "artist": "Stephen Somers",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": 1,
+                "hp": 3,
+                "power": 1,
+                "text": "Hidden \nWhen Played: Choose another friendly unit. While this unit is in play, the chosen unit gets +1/+0 and gains Saboteur.",
+                "textStyled": "<p><strong>Hidden</strong></p><p><strong>When Played:</strong> Choose another friendly unit. While this unit is in play, the chosen unit gets <strong>+1</strong>/<strong>+0</strong> and gains <strong>Saboteur</strong>.</p>",
+                "deployBox": null,
+                "deployBoxStyled": null,
+                "epicAction": "",
+                "epicActionStyled": "",
+                "linkHtml": "<a href=\"/cards?cid=4988607060\" class=\"card-tooltip\" data-card=\"4988607060\">BD-1</a>",
+                "cardId": null,
+                "createdAt": "2025-04-29T21:55:17.732Z",
+                "updatedAt": "2025-07-14T22:20:20.595Z",
+                "publishedAt": "2025-05-05T14:45:46.539Z",
+                "locale": "de",
+                "hyperspace": false,
+                "unique": true,
+                "showcase": false,
+                "cardUid": "4988607060",
+                "rules": "Die gewählte Einheit behält +1/+0 und Saboteur, bis BD-1 das Spiel verlässt. Der Effekt ändert sich nicht, wenn ein Gegner die Kontrolle über BD-1 übernimmt.\nFalls BD-1 gefangen genommen und später gerettet wird, wird sein „Wenn gespielt\"-Effekt nicht erneut aktiv.\nWenn eine Einheit gleichzeitig Verborgen und Wachposten hat, kann sie angegriffen werden.\n",
+                "rulesStyled": "\n                <figure class=\"table\"><table><tbody><tr><td>7/14/2025</td><td>Die gewählte Einheit behält +1/+0 und Saboteur, bis BD-1 das Spiel verlässt. Der Effekt ändert sich nicht, wenn ein Gegner die Kontrolle über BD-1 übernimmt.</td></tr><tr><td>7/14/2025</td><td>Falls BD-1 gefangen genommen und später gerettet wird, wird sein „Wenn gespielt\"-Effekt nicht erneut aktiv.</td></tr><tr><td>7/14/2025</td><td>Wenn eine Einheit gleichzeitig Verborgen und Wachposten hat, kann sie angegriffen werden.</td></tr></tbody></table></figure>\n                ",
+                "serialCode": "c25080004",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "data": [
+            {
+              "id": 19,
+              "attributes": {
+                "name": "Ruse",
+                "description": "<p>S’adapter à la situation du moment, grâce à de puissants effets instantanés et à une variété de moyens pour perturber les plans de l’adversaire. Cette affinité convient parfaitement à ceux qui préfèrent réagir rapidement aux menaces et avoir une réponse à toutes les actions adverses.</p>",
+                "color": "#eb9f1c",
+                "createdAt": "2023-08-10T21:13:50.160Z",
+                "updatedAt": "2024-07-15T21:39:45.132Z",
+                "publishedAt": "2024-01-02T18:24:48.755Z",
+                "locale": "fr",
+                "englishName": "Cunning",
+                "sortValue": 15
+              }
+            },
+            {
+              "id": 24,
+              "attributes": {
+                "name": "Héroïsme",
+                "description": "<p>Lutter pour la paix et la justice avec des cartes représentant les «&nbsp;gentils&nbsp;» de la galaxie Star Wars. Cette affinité est idéale pour ceux qui souhaitent que leurs cartes se soutiennent et se protègent mutuellement tout en attaquant. Cette affinité est souvent associée à une autre affinité sur la carte.</p>",
+                "color": "#ffffff",
+                "createdAt": "2023-08-10T21:17:26.974Z",
+                "updatedAt": "2024-07-15T21:41:00.637Z",
+                "publishedAt": "2024-01-02T18:25:10.259Z",
+                "locale": "fr",
+                "englishName": "Heroism",
+                "sortValue": 25
+              }
+            }
+          ]
+        },
+        "aspectDuplicates": {
+          "data": []
+        },
+        "type": {
+          "data": {
+            "id": 29,
+            "attributes": {
+              "name": "Unité",
+              "description": "",
+              "value": "Unit",
+              "createdAt": "2023-08-15T18:04:32.553Z",
+              "updatedAt": "2024-04-25T13:52:29.937Z",
+              "publishedAt": "2024-01-04T21:29:14.943Z",
+              "locale": "fr",
+              "sortValue": 3
+            }
+          }
+        },
+        "type2": {
+          "data": null
+        },
+        "traits": {
+          "data": [
+            {
+              "id": 89,
+              "attributes": {
+                "name": "Frange",
+                "description": "",
+                "createdAt": "2023-08-15T14:49:14.488Z",
+                "updatedAt": "2024-01-04T21:10:34.249Z",
+                "publishedAt": "2024-01-04T21:10:34.246Z",
+                "locale": "fr"
+              }
+            },
+            {
+              "id": 49,
+              "attributes": {
+                "name": "Droïde",
+                "description": "",
+                "createdAt": "2023-08-15T14:42:47.972Z",
+                "updatedAt": "2024-01-04T21:09:43.421Z",
+                "publishedAt": "2024-01-04T21:09:43.408Z",
+                "locale": "fr"
+              }
+            }
+          ]
+        },
+        "arenas": {
+          "data": [
+            {
+              "id": 4,
+              "attributes": {
+                "name": "Terrestre",
+                "description": null,
+                "createdAt": "2023-08-15T14:32:20.801Z",
+                "updatedAt": "2024-01-04T16:49:07.912Z",
+                "publishedAt": "2023-08-18T21:37:40.768Z",
+                "locale": "fr"
+              }
+            }
+          ]
+        },
+        "keywords": {
+          "data": [
+            {
+              "id": 74,
+              "attributes": {
+                "name": "Dissimulée",
+                "description": "",
+                "createdAt": "2025-04-18T15:36:55.980Z",
+                "updatedAt": "2025-05-01T19:37:12.786Z",
+                "publishedAt": "2025-05-01T19:37:12.783Z",
+                "locale": "fr"
+              }
+            },
+            {
+              "id": 4,
+              "attributes": {
+                "name": "Saboteur",
+                "description": "",
+                "createdAt": "2023-11-21T19:15:20.718Z",
+                "updatedAt": "2023-11-28T16:57:22.434Z",
+                "publishedAt": "2023-11-28T16:57:22.429Z",
+                "locale": "fr"
+              }
+            }
+          ]
+        },
+        "rarity": {
+          "data": {
+            "id": 10,
+            "attributes": {
+              "name": "Peu Commune",
+              "character": "U",
+              "color": "#d1d1d1",
+              "createdAt": "2023-08-14T21:26:54.105Z",
+              "updatedAt": "2024-04-25T14:06:27.031Z",
+              "publishedAt": "2024-01-04T16:42:27.978Z",
+              "locale": "fr",
+              "englishName": "Uncommon",
+              "sortValue": 3
+            }
+          }
+        },
+        "expansion": {
+          "data": {
+            "id": 65,
+            "attributes": {
+              "name": "2025 Convention Exclusive",
+              "description": "",
+              "code": "C25",
+              "createdAt": "2025-04-25T15:56:54.630Z",
+              "updatedAt": "2025-05-05T14:55:51.755Z",
+              "publishedAt": "2025-05-05T14:55:44.627Z",
+              "locale": "fr",
+              "sortValue": 57,
+              "leaderboardStartDate": null,
+              "leaderboardEndDate": null
+            }
+          }
+        },
+        "variantTypes": {
+          "data": [
+            {
+              "id": 43,
+              "attributes": {
+                "name": "Convention Exclusive",
+                "description": null,
+                "createdAt": "2024-06-26T18:28:45.358Z",
+                "updatedAt": "2024-07-15T18:20:14.740Z",
+                "publishedAt": "2024-07-15T18:20:03.400Z",
+                "locale": "fr",
+                "variantId": "08",
+                "foil": null,
+                "sortValue": 80,
+                "icon": {
+                  "data": {
+                    "id": 8695,
+                    "attributes": {
+                      "name": "icon_conventionexclusive.png",
+                      "alternativeText": null,
+                      "caption": null,
+                      "width": 144,
+                      "height": 144,
+                      "formats": null,
+                      "hash": "icon_conventionexclusive_194657d507",
+                      "ext": ".png",
+                      "mime": "image/png",
+                      "size": 0.79,
+                      "url": "https://cdn.starwarsunlimited.com//icon_conventionexclusive_194657d507.png",
+                      "previewUrl": null,
+                      "provider": "aws-s3",
+                      "provider_metadata": null,
+                      "createdAt": "2024-07-15T14:40:17.033Z",
+                      "updatedAt": "2024-07-15T14:40:17.033Z"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "variantOf": {
+          "data": null
+        },
+        "reprintOf": {
+          "data": {
+            "id": 27982,
+            "attributes": {
+              "title": "BD-1",
+              "subtitle": "Beep Boo Boo Bweep",
+              "cardNumber": 191,
+              "cardCount": 264,
+              "artist": "Kyle Petchock",
+              "artFrontHorizontal": false,
+              "artBackHorizontal": null,
+              "hasFoil": true,
+              "cost": 1,
+              "hp": 3,
+              "power": 1,
+              "text": "Dissimulée (Cette unité ne peut pas être attaquée si elle a été jouée à cette phase.)\nUne fois jouée : choisissez une autre unité amie. Tant que cet exemplaire de BD-1 est en jeu, l'unité choisie a +1/+0 et gagne Saboteur.",
+              "textStyled": "<p><strong>Dissimulée</strong> (<i>Cette unité ne peut pas être attaquée si elle a été jouée à cette phase.</i>)</p><p><strong>Une fois jouée :</strong> choisissez une autre unité amie. Tant que cet exemplaire de BD-1 est en jeu, l'unité choisie a <strong>+1</strong>/<strong>+0</strong> et gagne <strong>Saboteur</strong>.</p>",
+              "deployBox": null,
+              "deployBoxStyled": null,
+              "epicAction": "",
+              "epicActionStyled": "<p></p>",
+              "linkHtml": "<a href=\"/cards?cid=0024409893\" class=\"card-tooltip\" data-card=\"0024409893\">BD-1</a>",
+              "cardId": null,
+              "createdAt": "2025-04-24T18:35:47.400Z",
+              "updatedAt": "2025-07-14T22:20:22.421Z",
+              "publishedAt": "2025-03-05T06:00:00.000Z",
+              "locale": "fr",
+              "hyperspace": false,
+              "unique": true,
+              "showcase": false,
+              "cardUid": "0024409893",
+              "rules": "Si BD-1 est capturé, puis secouru, sa capacité « Une fois jouée » ne se déclenche pas à nouveau.\nSi une unité a Dissimulée et Sentinelle en même temps, elle peut être attaquée.\nTant que BD-1 est en jeu, l’unité choisie a +1/+0 et Saboteur. Cet effet continue de s’appliquer même si un adversaire prend le contrôle de BD-1.\n",
+              "rulesStyled": "\n                <figure class=\"table\"><table><tbody><tr><td>7/14/2025</td><td>Si BD-1 est capturé, puis secouru, sa capacité « Une fois jouée » ne se déclenche pas à nouveau.</td></tr><tr><td>7/14/2025</td><td>Si une unité a Dissimulée et Sentinelle en même temps, elle peut être attaquée.</td></tr><tr><td>7/14/2025</td><td>Tant que BD-1 est en jeu, l’unité choisie a +1/+0 et Saboteur. Cet effet continue de s’appliquer même si un adversaire prend le contrôle de BD-1.</td></tr></tbody></table></figure>\n                ",
+              "serialCode": "05010191",
+              "upgradeHp": null,
+              "upgradePower": null
+            }
+          }
+        },
+        "validationId": "0024409893"
+      }
+    },
+    {
+      "id": 38397,
+      "attributes": {
+        "cardNumber": 6,
+        "title": "Chopper",
+        "subtitle": "War Hero",
+        "cardCount": 6,
+        "artist": "Stephen Somers",
+        "artFrontHorizontal": false,
+        "artBackHorizontal": null,
+        "hasFoil": true,
+        "cost": 2,
+        "hp": 1,
+        "power": 4,
+        "text": "When this unit deals combat damage to a base: Each player discards a card from their hand.",
+        "textStyled": "<p><strong>When this unit deals combat damage to a base:</strong> Each player discards a card from their hand.</p>",
+        "deployBox": null,
+        "deployBoxStyled": "",
+        "epicAction": null,
+        "epicActionStyled": "",
+        "linkHtml": "<a href=\"/cards?cid=4363379257\" class=\"card-tooltip\" data-card=\"4363379257\">Chopper</a>",
+        "cardId": null,
+        "createdAt": "2025-05-02T19:39:29.790Z",
+        "updatedAt": "2025-05-05T14:51:53.196Z",
+        "publishedAt": "2025-05-05T14:51:12.042Z",
+        "locale": "fr",
+        "hyperspace": false,
+        "unique": true,
+        "showcase": false,
+        "cardUid": "4363379257",
+        "rules": null,
+        "rulesStyled": "",
+        "serialCode": "C25080006",
+        "upgradeHp": null,
+        "upgradePower": null,
+        "artFront": {
+          "data": {
+            "id": 36533,
+            "attributes": {
+              "name": "C25080006EN_Chopper.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 300,
+              "height": 419,
+              "formats": {
+                "card": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//card_C25080006_EN_Chopper_ed27fd941a.png",
+                  "hash": "card_C25080006_EN_Chopper_ed27fd941a",
+                  "mime": "image/png",
+                  "name": "card_C25080006EN_Chopper.png",
+                  "path": null,
+                  "size": 131.17,
+                  "width": 286,
+                  "height": 400
+                },
+                "xsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xsmall_C25080006_EN_Chopper_ed27fd941a.png",
+                  "hash": "xsmall_C25080006_EN_Chopper_ed27fd941a",
+                  "mime": "image/png",
+                  "name": "xsmall_C25080006EN_Chopper.png",
+                  "path": null,
+                  "size": 82.97,
+                  "width": 215,
+                  "height": 300
+                },
+                "xxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxsmall_C25080006_EN_Chopper_ed27fd941a.png",
+                  "hash": "xxsmall_C25080006_EN_Chopper_ed27fd941a",
+                  "mime": "image/png",
+                  "name": "xxsmall_C25080006EN_Chopper.png",
+                  "path": null,
+                  "size": 43.84,
+                  "width": 143,
+                  "height": 200
+                },
+                "xxxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxxsmall_C25080006_EN_Chopper_ed27fd941a.png",
+                  "hash": "xxxsmall_C25080006_EN_Chopper_ed27fd941a",
+                  "mime": "image/png",
+                  "name": "xxxsmall_C25080006EN_Chopper.png",
+                  "path": null,
+                  "size": 27.82,
+                  "width": 107,
+                  "height": 150
+                },
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//thumbnail_C25080006_EN_Chopper_ed27fd941a.png",
+                  "hash": "thumbnail_C25080006_EN_Chopper_ed27fd941a",
+                  "mime": "image/png",
+                  "name": "thumbnail_C25080006EN_Chopper.png",
+                  "path": null,
+                  "size": 62.19,
+                  "width": 179,
+                  "height": 250
+                }
+              },
+              "hash": "C25080006_EN_Chopper_ed27fd941a",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 39.8,
+              "url": "https://cdn.starwarsunlimited.com//C25080006_EN_Chopper_ed27fd941a.png",
+              "previewUrl": null,
+              "provider": "aws-s3",
+              "provider_metadata": null,
+              "createdAt": "2025-04-25T15:55:39.851Z",
+              "updatedAt": "2025-04-25T15:55:39.851Z"
+            }
+          }
+        },
+        "artBack": {
+          "data": null
+        },
+        "artThumbnail": {
+          "data": {
+            "id": 36527,
+            "attributes": {
+              "name": "C25080006EN_Chopper_Thumbnail.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 300,
+              "height": 100,
+              "formats": {
+                "xxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxsmall_C25080006_EN_Chopper_Thumbnail_6b22c45369.png",
+                  "hash": "xxsmall_C25080006_EN_Chopper_Thumbnail_6b22c45369",
+                  "mime": "image/png",
+                  "name": "xxsmall_C25080006EN_Chopper_Thumbnail.png",
+                  "path": null,
+                  "size": 17.87,
+                  "width": 200,
+                  "height": 67
+                },
+                "xxxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxxsmall_C25080006_EN_Chopper_Thumbnail_6b22c45369.png",
+                  "hash": "xxxsmall_C25080006_EN_Chopper_Thumbnail_6b22c45369",
+                  "mime": "image/png",
+                  "name": "xxxsmall_C25080006EN_Chopper_Thumbnail.png",
+                  "path": null,
+                  "size": 11.5,
+                  "width": 150,
+                  "height": 50
+                },
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//thumbnail_C25080006_EN_Chopper_Thumbnail_6b22c45369.png",
+                  "hash": "thumbnail_C25080006_EN_Chopper_Thumbnail_6b22c45369",
+                  "mime": "image/png",
+                  "name": "thumbnail_C25080006EN_Chopper_Thumbnail.png",
+                  "path": null,
+                  "size": 24.61,
+                  "width": 250,
+                  "height": 83
+                }
+              },
+              "hash": "C25080006_EN_Chopper_Thumbnail_6b22c45369",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 9.01,
+              "url": "https://cdn.starwarsunlimited.com//C25080006_EN_Chopper_Thumbnail_6b22c45369.png",
+              "previewUrl": null,
+              "provider": "aws-s3",
+              "provider_metadata": null,
+              "createdAt": "2025-04-25T15:55:24.470Z",
+              "updatedAt": "2025-04-25T15:55:24.470Z"
+            }
+          }
+        },
+        "localizations": {
+          "data": [
+            {
+              "id": 38399,
+              "attributes": {
+                "title": "Chopper",
+                "subtitle": "War Hero",
+                "cardNumber": 6,
+                "cardCount": 6,
+                "artist": "Stephen Somers",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": 2,
+                "hp": 1,
+                "power": 4,
+                "text": "When this unit deals combat damage to a base: Each player discards a card from their hand.",
+                "textStyled": "<p><strong>When this unit deals combat damage to a base:</strong> Each player discards a card from their hand.</p>",
+                "deployBox": null,
+                "deployBoxStyled": "",
+                "epicAction": null,
+                "epicActionStyled": "",
+                "linkHtml": "<a href=\"/cards?cid=4363379257\" class=\"card-tooltip\" data-card=\"4363379257\">Chopper</a>",
+                "cardId": null,
+                "createdAt": "2025-05-02T19:41:51.166Z",
+                "updatedAt": "2025-05-05T14:51:52.888Z",
+                "publishedAt": "2025-05-05T14:51:52.877Z",
+                "locale": "it",
+                "hyperspace": false,
+                "unique": true,
+                "showcase": false,
+                "cardUid": "4363379257",
+                "rules": null,
+                "rulesStyled": "",
+                "serialCode": "C25080006",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            },
+            {
+              "id": 38398,
+              "attributes": {
+                "title": "Chopper",
+                "subtitle": "War Hero",
+                "cardNumber": 6,
+                "cardCount": 6,
+                "artist": "Stephen Somers",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": 2,
+                "hp": 1,
+                "power": 4,
+                "text": "When this unit deals combat damage to a base: Each player discards a card from their hand.",
+                "textStyled": "<p><strong>When this unit deals combat damage to a base:</strong> Each player discards a card from their hand.</p>",
+                "deployBox": null,
+                "deployBoxStyled": "",
+                "epicAction": null,
+                "epicActionStyled": "",
+                "linkHtml": "<a href=\"/cards?cid=4363379257\" class=\"card-tooltip\" data-card=\"4363379257\">Chopper</a>",
+                "cardId": null,
+                "createdAt": "2025-05-02T19:41:00.170Z",
+                "updatedAt": "2025-05-05T14:51:53.182Z",
+                "publishedAt": "2025-05-05T14:51:38.266Z",
+                "locale": "es",
+                "hyperspace": false,
+                "unique": true,
+                "showcase": false,
+                "cardUid": "4363379257",
+                "rules": null,
+                "rulesStyled": "",
+                "serialCode": "C25080006",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            },
+            {
+              "id": 38396,
+              "attributes": {
+                "title": "Chopper",
+                "subtitle": "War Hero",
+                "cardNumber": 6,
+                "cardCount": 6,
+                "artist": "Stephen Somers",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": 2,
+                "hp": 1,
+                "power": 4,
+                "text": "When this unit deals combat damage to a base: Each player discards a card from their hand.",
+                "textStyled": "<p><strong>When this unit deals combat damage to a base:</strong> Each player discards a card from their hand.</p>",
+                "deployBox": null,
+                "deployBoxStyled": "",
+                "epicAction": null,
+                "epicActionStyled": "",
+                "linkHtml": "<a href=\"/cards?cid=4363379257\" class=\"card-tooltip\" data-card=\"4363379257\">Chopper</a>",
+                "cardId": null,
+                "createdAt": "2025-05-02T19:38:24.209Z",
+                "updatedAt": "2025-05-05T14:51:53.217Z",
+                "publishedAt": "2025-05-05T14:51:04.953Z",
+                "locale": "de",
+                "hyperspace": false,
+                "unique": true,
+                "showcase": false,
+                "cardUid": "4363379257",
+                "rules": null,
+                "rulesStyled": "",
+                "serialCode": "C25080006",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            },
+            {
+              "id": 38395,
+              "attributes": {
+                "title": "Chopper",
+                "subtitle": "War Hero",
+                "cardNumber": 6,
+                "cardCount": 6,
+                "artist": "Stephen Somers",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": 2,
+                "hp": 1,
+                "power": 4,
+                "text": "When this unit deals combat damage to a base: Each player discards a card from their hand.",
+                "textStyled": "<p><strong>When this unit deals combat damage to a base:</strong> Each player discards a card from their hand.</p>",
+                "deployBox": null,
+                "deployBoxStyled": "",
+                "epicAction": null,
+                "epicActionStyled": "",
+                "linkHtml": "<a href=\"/cards?cid=4363379257\" class=\"card-tooltip\" data-card=\"4363379257\">Chopper</a>",
+                "cardId": null,
+                "createdAt": "2025-05-02T19:36:09.568Z",
+                "updatedAt": "2025-05-05T14:51:53.232Z",
+                "publishedAt": "2025-05-05T14:50:54.514Z",
+                "locale": "en",
+                "hyperspace": false,
+                "unique": true,
+                "showcase": false,
+                "cardUid": "4363379257",
+                "rules": null,
+                "rulesStyled": "",
+                "serialCode": "C25080006",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "data": [
+            {
+              "id": 14,
+              "attributes": {
+                "name": "Agressivité",
+                "description": "<p>Attaquer avec un maximum d’efficacité et infliger énormément de dégâts. Cette affinité convient parfaitement aux joueurs qui aiment un style de jeu rapide et agressif, brisant les défenses adverses et se ruant vers la victoire quel que soit le prix à payer.</p>",
+                "color": "#d30808",
+                "createdAt": "2023-08-10T21:10:46.362Z",
+                "updatedAt": "2024-07-15T21:39:33.927Z",
+                "publishedAt": "2024-01-02T18:23:52.395Z",
+                "locale": "fr",
+                "englishName": "Aggression",
+                "sortValue": 10
+              }
+            },
+            {
+              "id": 24,
+              "attributes": {
+                "name": "Héroïsme",
+                "description": "<p>Lutter pour la paix et la justice avec des cartes représentant les «&nbsp;gentils&nbsp;» de la galaxie Star Wars. Cette affinité est idéale pour ceux qui souhaitent que leurs cartes se soutiennent et se protègent mutuellement tout en attaquant. Cette affinité est souvent associée à une autre affinité sur la carte.</p>",
+                "color": "#ffffff",
+                "createdAt": "2023-08-10T21:17:26.974Z",
+                "updatedAt": "2024-07-15T21:41:00.637Z",
+                "publishedAt": "2024-01-02T18:25:10.259Z",
+                "locale": "fr",
+                "englishName": "Heroism",
+                "sortValue": 25
+              }
+            }
+          ]
+        },
+        "aspectDuplicates": {
+          "data": []
+        },
+        "type": {
+          "data": {
+            "id": 29,
+            "attributes": {
+              "name": "Unité",
+              "description": "",
+              "value": "Unit",
+              "createdAt": "2023-08-15T18:04:32.553Z",
+              "updatedAt": "2024-04-25T13:52:29.937Z",
+              "publishedAt": "2024-01-04T21:29:14.943Z",
+              "locale": "fr",
+              "sortValue": 3
+            }
+          }
+        },
+        "type2": {
+          "data": null
+        },
+        "traits": {
+          "data": [
+            {
+              "id": 39,
+              "attributes": {
+                "name": "Rebelle",
+                "description": "",
+                "createdAt": "2023-08-15T14:41:39.554Z",
+                "updatedAt": "2024-01-04T21:20:25.621Z",
+                "publishedAt": "2024-01-04T21:20:25.617Z",
+                "locale": "fr"
+              }
+            },
+            {
+              "id": 49,
+              "attributes": {
+                "name": "Droïde",
+                "description": "",
+                "createdAt": "2023-08-15T14:42:47.972Z",
+                "updatedAt": "2024-01-04T21:09:43.421Z",
+                "publishedAt": "2024-01-04T21:09:43.408Z",
+                "locale": "fr"
+              }
+            },
+            {
+              "id": 159,
+              "attributes": {
+                "name": "Spectre",
+                "description": "",
+                "createdAt": "2023-10-09T19:48:39.657Z",
+                "updatedAt": "2024-01-04T21:23:39.357Z",
+                "publishedAt": "2024-01-04T21:23:39.352Z",
+                "locale": "fr"
+              }
+            }
+          ]
+        },
+        "arenas": {
+          "data": [
+            {
+              "id": 4,
+              "attributes": {
+                "name": "Terrestre",
+                "description": null,
+                "createdAt": "2023-08-15T14:32:20.801Z",
+                "updatedAt": "2024-01-04T16:49:07.912Z",
+                "publishedAt": "2023-08-18T21:37:40.768Z",
+                "locale": "fr"
+              }
+            }
+          ]
+        },
+        "keywords": {
+          "data": []
+        },
+        "rarity": {
+          "data": {
+            "id": 24,
+            "attributes": {
+              "name": "Spéciale",
+              "character": "S",
+              "color": "#000000",
+              "createdAt": "2023-08-14T21:34:27.979Z",
+              "updatedAt": "2024-04-25T14:06:09.057Z",
+              "publishedAt": "2024-01-04T16:42:01.831Z",
+              "locale": "fr",
+              "englishName": "Special",
+              "sortValue": 1
+            }
+          }
+        },
+        "expansion": {
+          "data": {
+            "id": 65,
+            "attributes": {
+              "name": "2025 Convention Exclusive",
+              "description": "",
+              "code": "C25",
+              "createdAt": "2025-04-25T15:56:54.630Z",
+              "updatedAt": "2025-05-05T14:55:51.755Z",
+              "publishedAt": "2025-05-05T14:55:44.627Z",
+              "locale": "fr",
+              "sortValue": 57,
+              "leaderboardStartDate": null,
+              "leaderboardEndDate": null
+            }
+          }
+        },
+        "variantTypes": {
+          "data": [
+            {
+              "id": 43,
+              "attributes": {
+                "name": "Convention Exclusive",
+                "description": null,
+                "createdAt": "2024-06-26T18:28:45.358Z",
+                "updatedAt": "2024-07-15T18:20:14.740Z",
+                "publishedAt": "2024-07-15T18:20:03.400Z",
+                "locale": "fr",
+                "variantId": "08",
+                "foil": null,
+                "sortValue": 80,
+                "icon": {
+                  "data": {
+                    "id": 8695,
+                    "attributes": {
+                      "name": "icon_conventionexclusive.png",
+                      "alternativeText": null,
+                      "caption": null,
+                      "width": 144,
+                      "height": 144,
+                      "formats": null,
+                      "hash": "icon_conventionexclusive_194657d507",
+                      "ext": ".png",
+                      "mime": "image/png",
+                      "size": 0.79,
+                      "url": "https://cdn.starwarsunlimited.com//icon_conventionexclusive_194657d507.png",
+                      "previewUrl": null,
+                      "provider": "aws-s3",
+                      "provider_metadata": null,
+                      "createdAt": "2024-07-15T14:40:17.033Z",
+                      "updatedAt": "2024-07-15T14:40:17.033Z"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "variantOf": {
+          "data": null
+        },
+        "reprintOf": {
+          "data": null
+        },
+        "validationId": "4363379257"
+      }
+    },
+    {
+      "id": 38392,
+      "attributes": {
+        "cardNumber": 5,
+        "title": "C-3PO",
+        "subtitle": "Anything I Might Do?",
+        "cardCount": 6,
+        "artist": "Stephen Somers",
+        "artFrontHorizontal": false,
+        "artBackHorizontal": null,
+        "hasFoil": true,
+        "cost": 1,
+        "hp": 3,
+        "power": 1,
+        "text": "Action [exhaust, return this unit to its owner’s hand]: Give a unit +2/+2 for this phase.",
+        "textStyled": "<p><strong>Action [<img src=\"https://cdn.starwarsunlimited.com/icon_exhaust_0c450d09d4.png\" alt=\"icon_exhaust.png\">, return this unit to its owner’s hand]:</strong> Give a unit <strong>+2/+2</strong> for this phase.</p>",
+        "deployBox": null,
+        "deployBoxStyled": "",
+        "epicAction": null,
+        "epicActionStyled": "",
+        "linkHtml": "<a href=\"/cards?cid=5125502286\" class=\"card-tooltip\" data-card=\"5125502286\">C-3PO</a>",
+        "cardId": null,
+        "createdAt": "2025-05-02T16:31:01.727Z",
+        "updatedAt": "2025-05-05T14:50:34.894Z",
+        "publishedAt": "2025-05-05T14:50:18.525Z",
+        "locale": "fr",
+        "hyperspace": false,
+        "unique": true,
+        "showcase": false,
+        "cardUid": "5125502286",
+        "rules": null,
+        "rulesStyled": "",
+        "serialCode": "C25080005",
+        "upgradeHp": null,
+        "upgradePower": null,
+        "artFront": {
+          "data": {
+            "id": 36529,
+            "attributes": {
+              "name": "C25080005EN_C3P0.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 300,
+              "height": 419,
+              "formats": {
+                "card": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//card_C25080005_EN_C3_P0_795050b390.png",
+                  "hash": "card_C25080005_EN_C3_P0_795050b390",
+                  "mime": "image/png",
+                  "name": "card_C25080005EN_C3P0.png",
+                  "path": null,
+                  "size": 167.19,
+                  "width": 286,
+                  "height": 400
+                },
+                "xsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xsmall_C25080005_EN_C3_P0_795050b390.png",
+                  "hash": "xsmall_C25080005_EN_C3_P0_795050b390",
+                  "mime": "image/png",
+                  "name": "xsmall_C25080005EN_C3P0.png",
+                  "path": null,
+                  "size": 100.05,
+                  "width": 215,
+                  "height": 300
+                },
+                "xxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxsmall_C25080005_EN_C3_P0_795050b390.png",
+                  "hash": "xxsmall_C25080005_EN_C3_P0_795050b390",
+                  "mime": "image/png",
+                  "name": "xxsmall_C25080005EN_C3P0.png",
+                  "path": null,
+                  "size": 49.72,
+                  "width": 143,
+                  "height": 200
+                },
+                "xxxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxxsmall_C25080005_EN_C3_P0_795050b390.png",
+                  "hash": "xxxsmall_C25080005_EN_C3_P0_795050b390",
+                  "mime": "image/png",
+                  "name": "xxxsmall_C25080005EN_C3P0.png",
+                  "path": null,
+                  "size": 30.77,
+                  "width": 107,
+                  "height": 150
+                },
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//thumbnail_C25080005_EN_C3_P0_795050b390.png",
+                  "hash": "thumbnail_C25080005_EN_C3_P0_795050b390",
+                  "mime": "image/png",
+                  "name": "thumbnail_C25080005EN_C3P0.png",
+                  "path": null,
+                  "size": 72.92,
+                  "width": 179,
+                  "height": 250
+                }
+              },
+              "hash": "C25080005_EN_C3_P0_795050b390",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 52.04,
+              "url": "https://cdn.starwarsunlimited.com//C25080005_EN_C3_P0_795050b390.png",
+              "previewUrl": null,
+              "provider": "aws-s3",
+              "provider_metadata": null,
+              "createdAt": "2025-04-25T15:55:36.375Z",
+              "updatedAt": "2025-04-25T15:55:36.375Z"
+            }
+          }
+        },
+        "artBack": {
+          "data": null
+        },
+        "artThumbnail": {
+          "data": {
+            "id": 36524,
+            "attributes": {
+              "name": "C25080005EN_C3P0_Thumbnail.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 300,
+              "height": 100,
+              "formats": {
+                "xxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxsmall_C25080005_EN_C3_P0_Thumbnail_42ba514b87.png",
+                  "hash": "xxsmall_C25080005_EN_C3_P0_Thumbnail_42ba514b87",
+                  "mime": "image/png",
+                  "name": "xxsmall_C25080005EN_C3P0_Thumbnail.png",
+                  "path": null,
+                  "size": 20.85,
+                  "width": 200,
+                  "height": 67
+                },
+                "xxxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxxsmall_C25080005_EN_C3_P0_Thumbnail_42ba514b87.png",
+                  "hash": "xxxsmall_C25080005_EN_C3_P0_Thumbnail_42ba514b87",
+                  "mime": "image/png",
+                  "name": "xxxsmall_C25080005EN_C3P0_Thumbnail.png",
+                  "path": null,
+                  "size": 12.63,
+                  "width": 150,
+                  "height": 50
+                },
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//thumbnail_C25080005_EN_C3_P0_Thumbnail_42ba514b87.png",
+                  "hash": "thumbnail_C25080005_EN_C3_P0_Thumbnail_42ba514b87",
+                  "mime": "image/png",
+                  "name": "thumbnail_C25080005EN_C3P0_Thumbnail.png",
+                  "path": null,
+                  "size": 30.23,
+                  "width": 250,
+                  "height": 83
+                }
+              },
+              "hash": "C25080005_EN_C3_P0_Thumbnail_42ba514b87",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 10.98,
+              "url": "https://cdn.starwarsunlimited.com//C25080005_EN_C3_P0_Thumbnail_42ba514b87.png",
+              "previewUrl": null,
+              "provider": "aws-s3",
+              "provider_metadata": null,
+              "createdAt": "2025-04-25T15:55:22.397Z",
+              "updatedAt": "2025-04-25T15:55:22.397Z"
+            }
+          }
+        },
+        "localizations": {
+          "data": [
+            {
+              "id": 38394,
+              "attributes": {
+                "title": "C-3PO",
+                "subtitle": "Anything I Might Do?",
+                "cardNumber": 5,
+                "cardCount": 6,
+                "artist": "Stephen Somers",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": 1,
+                "hp": 3,
+                "power": 1,
+                "text": "Action [exhaust, return this unit to its owner’s hand]: Give a unit +2/+2 for this phase.",
+                "textStyled": "<p><strong>Action [<img src=\"https://cdn.starwarsunlimited.com/icon_exhaust_0c450d09d4.png\" alt=\"icon_exhaust.png\">, return this unit to its owner’s hand]:</strong> Give a unit <strong>+2/+2</strong> for this phase.</p>",
+                "deployBox": null,
+                "deployBoxStyled": "",
+                "epicAction": null,
+                "epicActionStyled": "",
+                "linkHtml": "<a href=\"/cards?cid=5125502286\" class=\"card-tooltip\" data-card=\"5125502286\">C-3PO</a>",
+                "cardId": null,
+                "createdAt": "2025-05-02T16:33:09.389Z",
+                "updatedAt": "2025-05-05T14:50:34.583Z",
+                "publishedAt": "2025-05-05T14:50:34.572Z",
+                "locale": "it",
+                "hyperspace": false,
+                "unique": true,
+                "showcase": false,
+                "cardUid": "5125502286",
+                "rules": null,
+                "rulesStyled": "",
+                "serialCode": "C25080005",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            },
+            {
+              "id": 38393,
+              "attributes": {
+                "title": "C-3PO",
+                "subtitle": "Anything I Might Do?",
+                "cardNumber": 5,
+                "cardCount": 6,
+                "artist": "Stephen Somers",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": 1,
+                "hp": 3,
+                "power": 1,
+                "text": "Action [exhaust, return this unit to its owner’s hand]: Give a unit +2/+2 for this phase.",
+                "textStyled": "<p><strong>Action [<img src=\"https://cdn.starwarsunlimited.com/icon_exhaust_0c450d09d4.png\" alt=\"icon_exhaust.png\">, return this unit to its owner’s hand]:</strong> Give a unit <strong>+2/+2</strong> for this phase.</p>",
+                "deployBox": null,
+                "deployBoxStyled": "",
+                "epicAction": null,
+                "epicActionStyled": "",
+                "linkHtml": "<a href=\"/cards?cid=5125502286\" class=\"card-tooltip\" data-card=\"5125502286\">C-3PO</a>",
+                "cardId": null,
+                "createdAt": "2025-05-02T16:32:11.813Z",
+                "updatedAt": "2025-05-05T14:50:34.879Z",
+                "publishedAt": "2025-05-05T14:50:28.109Z",
+                "locale": "es",
+                "hyperspace": false,
+                "unique": true,
+                "showcase": false,
+                "cardUid": "5125502286",
+                "rules": null,
+                "rulesStyled": "",
+                "serialCode": "C25080005",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            },
+            {
+              "id": 38391,
+              "attributes": {
+                "title": "C-3PO",
+                "subtitle": "Anything I Might Do?",
+                "cardNumber": 5,
+                "cardCount": 6,
+                "artist": "Stephen Somers",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": 1,
+                "hp": 3,
+                "power": 1,
+                "text": "Action [exhaust, return this unit to its owner’s hand]: Give a unit +2/+2 for this phase.",
+                "textStyled": "<p><strong>Action [<img src=\"https://cdn.starwarsunlimited.com/icon_exhaust_0c450d09d4.png\" alt=\"icon_exhaust.png\">, return this unit to its owner’s hand]:</strong> Give a unit <strong>+2/+2</strong> for this phase.</p>",
+                "deployBox": null,
+                "deployBoxStyled": "",
+                "epicAction": null,
+                "epicActionStyled": "",
+                "linkHtml": "<a href=\"/cards?cid=5125502286\" class=\"card-tooltip\" data-card=\"5125502286\">C-3PO</a>",
+                "cardId": null,
+                "createdAt": "2025-05-02T16:30:02.920Z",
+                "updatedAt": "2025-05-05T14:50:34.913Z",
+                "publishedAt": "2025-05-05T14:50:10.817Z",
+                "locale": "de",
+                "hyperspace": false,
+                "unique": true,
+                "showcase": false,
+                "cardUid": "5125502286",
+                "rules": null,
+                "rulesStyled": "",
+                "serialCode": "C25080005",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            },
+            {
+              "id": 38390,
+              "attributes": {
+                "title": "C-3PO",
+                "subtitle": "Anything I Might Do?",
+                "cardNumber": 5,
+                "cardCount": 6,
+                "artist": "Stephen Somers",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": 1,
+                "hp": 3,
+                "power": 1,
+                "text": "Action [exhaust, return this unit to its owner’s hand]: Give a unit +2/+2 for this phase.",
+                "textStyled": "<p><strong>Action [<img src=\"https://cdn.starwarsunlimited.com/icon_exhaust_0c450d09d4.png\" alt=\"icon_exhaust.png\">, return this unit to its owner’s hand]:</strong> Give a unit <strong>+2/+2</strong> for this phase.</p>",
+                "deployBox": null,
+                "deployBoxStyled": "",
+                "epicAction": null,
+                "epicActionStyled": "",
+                "linkHtml": "<a href=\"/cards?cid=5125502286\" class=\"card-tooltip\" data-card=\"5125502286\">C-3PO</a>",
+                "cardId": null,
+                "createdAt": "2025-05-02T15:57:17.391Z",
+                "updatedAt": "2025-05-05T14:50:34.941Z",
+                "publishedAt": "2025-05-05T14:49:58.915Z",
+                "locale": "en",
+                "hyperspace": false,
+                "unique": true,
+                "showcase": false,
+                "cardUid": "5125502286",
+                "rules": null,
+                "rulesStyled": "",
+                "serialCode": "C25080005",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "data": [
+            {
+              "id": 9,
+              "attributes": {
+                "name": "Commandement",
+                "description": "<p>Accélérer sa production de ressources, utiliser de nombreuses unités, renforcer celles qui sont déjà en jeu. C’est l’affinité de prédilection des joueurs qui veulent écraser leurs adversaires par une utilisation massive de leurs troupes.</p>",
+                "color": "#0b992d",
+                "createdAt": "2023-08-10T21:07:29.191Z",
+                "updatedAt": "2024-07-15T21:32:41.107Z",
+                "publishedAt": "2024-01-02T18:24:28.907Z",
+                "locale": "fr",
+                "englishName": "Command",
+                "sortValue": 5
+              }
+            },
+            {
+              "id": 24,
+              "attributes": {
+                "name": "Héroïsme",
+                "description": "<p>Lutter pour la paix et la justice avec des cartes représentant les «&nbsp;gentils&nbsp;» de la galaxie Star Wars. Cette affinité est idéale pour ceux qui souhaitent que leurs cartes se soutiennent et se protègent mutuellement tout en attaquant. Cette affinité est souvent associée à une autre affinité sur la carte.</p>",
+                "color": "#ffffff",
+                "createdAt": "2023-08-10T21:17:26.974Z",
+                "updatedAt": "2024-07-15T21:41:00.637Z",
+                "publishedAt": "2024-01-02T18:25:10.259Z",
+                "locale": "fr",
+                "englishName": "Heroism",
+                "sortValue": 25
+              }
+            }
+          ]
+        },
+        "aspectDuplicates": {
+          "data": []
+        },
+        "type": {
+          "data": {
+            "id": 42,
+            "attributes": {
+              "name": "Jeton Unité",
+              "description": "",
+              "value": "Token",
+              "createdAt": "2024-07-30T21:31:20.754Z",
+              "updatedAt": "2024-11-19T22:32:45.666Z",
+              "publishedAt": "2024-11-19T22:32:38.015Z",
+              "locale": "fr",
+              "sortValue": 4
+            }
+          }
+        },
+        "type2": {
+          "data": null
+        },
+        "traits": {
+          "data": [
+            {
+              "id": 197,
+              "attributes": {
+                "name": "République",
+                "description": "",
+                "createdAt": "2023-11-21T16:58:33.573Z",
+                "updatedAt": "2024-01-04T21:20:39.852Z",
+                "publishedAt": "2024-01-04T21:20:39.849Z",
+                "locale": "fr"
+              }
+            },
+            {
+              "id": 49,
+              "attributes": {
+                "name": "Droïde",
+                "description": "",
+                "createdAt": "2023-08-15T14:42:47.972Z",
+                "updatedAt": "2024-01-04T21:09:43.421Z",
+                "publishedAt": "2024-01-04T21:09:43.408Z",
+                "locale": "fr"
+              }
+            }
+          ]
+        },
+        "arenas": {
+          "data": [
+            {
+              "id": 4,
+              "attributes": {
+                "name": "Terrestre",
+                "description": null,
+                "createdAt": "2023-08-15T14:32:20.801Z",
+                "updatedAt": "2024-01-04T16:49:07.912Z",
+                "publishedAt": "2023-08-18T21:37:40.768Z",
+                "locale": "fr"
+              }
+            }
+          ]
+        },
+        "keywords": {
+          "data": []
+        },
+        "rarity": {
+          "data": {
+            "id": 24,
+            "attributes": {
+              "name": "Spéciale",
+              "character": "S",
+              "color": "#000000",
+              "createdAt": "2023-08-14T21:34:27.979Z",
+              "updatedAt": "2024-04-25T14:06:09.057Z",
+              "publishedAt": "2024-01-04T16:42:01.831Z",
+              "locale": "fr",
+              "englishName": "Special",
+              "sortValue": 1
+            }
+          }
+        },
+        "expansion": {
+          "data": {
+            "id": 65,
+            "attributes": {
+              "name": "2025 Convention Exclusive",
+              "description": "",
+              "code": "C25",
+              "createdAt": "2025-04-25T15:56:54.630Z",
+              "updatedAt": "2025-05-05T14:55:51.755Z",
+              "publishedAt": "2025-05-05T14:55:44.627Z",
+              "locale": "fr",
+              "sortValue": 57,
+              "leaderboardStartDate": null,
+              "leaderboardEndDate": null
+            }
+          }
+        },
+        "variantTypes": {
+          "data": [
+            {
+              "id": 43,
+              "attributes": {
+                "name": "Convention Exclusive",
+                "description": null,
+                "createdAt": "2024-06-26T18:28:45.358Z",
+                "updatedAt": "2024-07-15T18:20:14.740Z",
+                "publishedAt": "2024-07-15T18:20:03.400Z",
+                "locale": "fr",
+                "variantId": "08",
+                "foil": null,
+                "sortValue": 80,
+                "icon": {
+                  "data": {
+                    "id": 8695,
+                    "attributes": {
+                      "name": "icon_conventionexclusive.png",
+                      "alternativeText": null,
+                      "caption": null,
+                      "width": 144,
+                      "height": 144,
+                      "formats": null,
+                      "hash": "icon_conventionexclusive_194657d507",
+                      "ext": ".png",
+                      "mime": "image/png",
+                      "size": 0.79,
+                      "url": "https://cdn.starwarsunlimited.com//icon_conventionexclusive_194657d507.png",
+                      "previewUrl": null,
+                      "provider": "aws-s3",
+                      "provider_metadata": null,
+                      "createdAt": "2024-07-15T14:40:17.033Z",
+                      "updatedAt": "2024-07-15T14:40:17.033Z"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "variantOf": {
+          "data": null
+        },
+        "reprintOf": {
+          "data": null
+        },
+        "validationId": "5125502286"
+      }
+    }
+  ],
+  "variants": []
+}
