@@ -3,8 +3,8 @@
   "lastUpdated": "2026-03-29",
   "latestMainSet": "law",
   "announcement": {
-    "id": "ann-2026-06-3",
-    "text": "Merci pour votre soutien",
+    "id": "ann-2026-06-4",
+    "text": "Pour faire un don, cliquez ici =>",
     "color": "#7C3AED",
     "url": "https://ko-fi.com/swucardex"
   },
@@ -145,7 +145,7 @@
     {
       "id": "jtlw",
       "code": "JTLW",
-      "name": "JTL Worlds",
+      "name": "Passage En Vitesse Lumière Weekly Play",
       "type": "special",
       "order": 5,
       "color": "#FFD700",
@@ -157,7 +157,7 @@
     {
       "id": "lofw",
       "code": "LOFW",
-      "name": "LOF Worlds",
+      "name": "Légendes de la Force Weekly Play",
       "type": "special",
       "order": 6,
       "color": "#00CED1",
@@ -169,7 +169,7 @@
     {
       "id": "j25",
       "code": "J25",
-      "name": "Janvier 2025",
+      "name": "2025 Judge Program",
       "type": "promo",
       "order": 7,
       "color": "#007AFF",
@@ -181,7 +181,7 @@
     {
       "id": "j24",
       "code": "J24",
-      "name": "Janvier 2024",
+      "name": "2024 Judge Program",
       "type": "promo",
       "order": 8,
       "color": "#007AFF",
@@ -193,7 +193,7 @@
     {
       "id": "c25",
       "code": "C25",
-      "name": "Championship 2025",
+      "name": "2025 Convention Exclusive",
       "type": "special",
       "order": 9,
       "color": "#CC2200",
@@ -205,7 +205,7 @@
     {
       "id": "c24",
       "code": "C24",
-      "name": "Championship 2024",
+      "name": "2024 Convention Exclusive",
       "type": "special",
       "order": 10,
       "color": "#CC2200",
@@ -229,7 +229,7 @@
     {
       "id": "gg",
       "code": "GG",
-      "name": "Gift Guide",
+      "name": "Gamegenic",
       "type": "special",
       "order": 12,
       "color": "#34C759",
