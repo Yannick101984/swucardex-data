@@ -297,7 +297,7 @@ for key, swu_info in swu_index.items():
 
     is_leader = card_type == "Leader"
 
-    # Leaders  : nonfoil rang 0 → hyperspace, rang 1 → showcase
+    # Leaders     : nonfoil rang 0 → hyperspace uniquement (showcase = produit foil sur CM)
     # Non-Leaders : nonfoil rang 0 → hyperspace, rang 1 → standard_prestige
     for rank, (idp, pr) in enumerate(nonfoil_prods + both_prods):
         avg = pr.get("avg")
@@ -306,15 +306,17 @@ for key, swu_info in swu_index.items():
         if rank == 0:
             key = "hyperspace"
         elif rank == 1:
-            key = "showcase" if is_leader else "standard_prestige"
+            if is_leader:
+                break  # Les Leaders n'ont pas de nonfoil rang 1
+            key = "standard_prestige"
         else:
             break
         if key not in prices_out:
             prices_out[key] = {"idProduct": idp, **price_entry(pr)}
 
-    # Leaders  : foil rang 0 → foil_prestige, rang 1 → serialized_prestige (pas d'hyperspace_foil)
+    # Leaders     : foil rang 0 → showcase, rang 1 → foil_prestige, rang 2 → serialized_prestige
     # Non-Leaders : foil rang 0 → hyperspace_foil, rang 1 → foil_prestige, rang 2 → serialized_prestige
-    foil_keys = ["foil_prestige", "serialized_prestige"] if is_leader else ["hyperspace_foil", "foil_prestige", "serialized_prestige"]
+    foil_keys = ["showcase", "foil_prestige", "serialized_prestige"] if is_leader else ["hyperspace_foil", "foil_prestige", "serialized_prestige"]
     for rank, (idp, pr) in enumerate(foil_prods):
         if rank >= len(foil_keys):
             break
