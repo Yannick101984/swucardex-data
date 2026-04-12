@@ -110,6 +110,21 @@ def is_nonfoil_only(price_dict):
     """Produit vendu uniquement en non-foil."""
     return price_dict.get("avg") is not None and price_dict.get("avg-foil") is None
 
+# Ordre attendu des variantes dans l'expansion CM (du plus ancien idProduct au plus récent)
+# Les variantes absentes du SWU data seront sautées automatiquement
+_VT_NONFOIL_ORDER = ["Hyperspace", "Standard Prestige"]
+_VT_FOIL_ORDER    = ["Showcase", "Hyperspace Foil", "Foil Prestige", "Serialized Prestige"]
+# Pour les Leaders, Showcase passe en premier et Hyperspace Foil n'existe pas
+_VT_FOIL_ORDER_LEADER = ["Showcase", "Foil Prestige", "Serialized Prestige"]
+_VT_TO_KEY = {
+    "Hyperspace":        "hyperspace",
+    "Standard Prestige": "standard_prestige",
+    "Hyperspace Foil":   "hyperspace_foil",
+    "Showcase":          "showcase",
+    "Foil Prestige":     "foil_prestige",
+    "Serialized Prestige":"serialized_prestige",
+}
+
 def get_en_name(attrs):
     """Récupère le nom EN d'une carte depuis ses localisations."""
     locs = attrs.get("localizations", {})
@@ -206,7 +221,8 @@ for set_code, fname in SET_FILES.items():
     with open(path) as f:
         data = json.load(f)
     cards = data.get("data", data) if isinstance(data, dict) else data
-    for card in cards:
+    variants_list = data.get("variants", []) if isinstance(data, dict) else []
+    for card in list(cards) + list(variants_list):
         attrs = card.get("attributes", card)
         en_name = get_en_name(attrs)
         norm    = normalize(en_name)
@@ -290,39 +306,44 @@ for key, swu_info in swu_index.items():
     # Trier par idProduct croissant (ordre de création = Standard < Hyperspace < Prestige)
     variants_sorted = sorted(cm_data["variants"], key=lambda x: x[0])
 
-    foil_prods    = [(idp, pr) for idp, pr, _ in variants_sorted if is_foil_only(pr)]
-    nonfoil_prods = [(idp, pr) for idp, pr, _ in variants_sorted if is_nonfoil_only(pr)]
-    both_prods    = [(idp, pr) for idp, pr, _ in variants_sorted
+    foil_prods    = [(idp, pr) for idp, pr, nm in variants_sorted if is_foil_only(pr)]
+    nonfoil_prods = [(idp, pr) for idp, pr, nm in variants_sorted if is_nonfoil_only(pr)]
+    both_prods    = [(idp, pr) for idp, pr, nm in variants_sorted
                      if not is_foil_only(pr) and not is_nonfoil_only(pr)]
 
     is_leader = card_type == "Leader"
 
-    # Leaders     : nonfoil rang 0 → hyperspace uniquement (showcase = produit foil sur CM)
-    # Non-Leaders : nonfoil rang 0 → hyperspace, rang 1 → standard_prestige
-    for rank, (idp, pr) in enumerate(nonfoil_prods + both_prods):
-        avg = pr.get("avg")
-        if avg is None:
-            continue
-        if rank == 0:
-            key = "hyperspace"
-        elif rank == 1:
-            if is_leader:
-                break  # Les Leaders n'ont pas de nonfoil rang 1
-            key = "standard_prestige"
-        else:
-            break
-        if key not in prices_out:
-            prices_out[key] = {"idProduct": idp, **price_entry(pr)}
+    # Construire les séquences attendues d'après les variant_types SWU (source de vérité)
+    foil_order = _VT_FOIL_ORDER_LEADER if is_leader else _VT_FOIL_ORDER
+    nonfoil_seq = [_VT_TO_KEY[vt] for vt in _VT_NONFOIL_ORDER if vt in variant_types]
+    foil_seq    = [_VT_TO_KEY[vt] for vt in foil_order        if vt in variant_types]
 
-    # Leaders     : foil rang 0 → showcase, rang 1 → foil_prestige, rang 2 → serialized_prestige
-    # Non-Leaders : foil rang 0 → hyperspace_foil, rang 1 → foil_prestige, rang 2 → serialized_prestige
-    foil_keys = ["showcase", "foil_prestige", "serialized_prestige"] if is_leader else ["hyperspace_foil", "foil_prestige", "serialized_prestige"]
+    # Non-foil variants
+    for rank, (idp, pr) in enumerate(nonfoil_prods + both_prods):
+        if pr.get("avg") is None:
+            continue
+        if rank < len(nonfoil_seq):
+            k = nonfoil_seq[rank]
+            if k not in prices_out:
+                prices_out[k] = {"idProduct": idp, **price_entry(pr)}
+        # Si plus de produits que de variantes connues → on ignore le surplus
+
+    # Foil variants — si plus de produits CM que de variantes connues, étendre
+    # avec les clés manquantes de l'ordre complet (cas : données SWU incomplètes)
+    if len(foil_prods) > len(foil_seq):
+        full_foil_order = _VT_FOIL_ORDER_LEADER if is_leader else _VT_FOIL_ORDER
+        for vt in full_foil_order:
+            k = _VT_TO_KEY[vt]
+            if k not in foil_seq:
+                foil_seq.append(k)
+            if len(foil_seq) >= len(foil_prods):
+                break
+
     for rank, (idp, pr) in enumerate(foil_prods):
-        if rank >= len(foil_keys):
-            break
-        key = foil_keys[rank]
-        if key not in prices_out:
-            prices_out[key] = {"idProduct": idp, **price_entry(pr)}
+        if rank < len(foil_seq):
+            k = foil_seq[rank]
+            if k not in prices_out:
+                prices_out[k] = {"idProduct": idp, **price_entry(pr)}
 
     # Anciens sets (SOR/SHD/TWI) — produits "both" : avg-foil → Hyperspace Foil si non renseigné
     for idp, pr in both_prods:
