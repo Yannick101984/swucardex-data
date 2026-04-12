@@ -136,7 +136,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 757489,
           "avg": 0.05,
           "low": 0.02,
@@ -151,7 +151,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 757434,
           "avg": null,
           "low": 59,
@@ -192,7 +192,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 757494,
           "avg": 0.49,
           "low": 0.08,
@@ -207,7 +207,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 757439,
           "avg": null,
           "low": 55,
@@ -248,7 +248,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 757497,
           "avg": 0.05,
           "low": 0.02,
@@ -263,7 +263,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 757443,
           "avg": null,
           "low": 49.99,
@@ -304,7 +304,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 757518,
           "avg": 0.23,
           "low": 0.08,
@@ -319,7 +319,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 757447,
           "avg": null,
           "low": 30,
@@ -360,7 +360,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 758163,
           "avg": 2.51,
           "low": 1.1,
@@ -375,7 +375,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 759958,
           "avg": null,
           "low": 0.09,
@@ -416,7 +416,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 757522,
           "avg": 0.87,
           "low": 0.1,
@@ -431,7 +431,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 757452,
           "avg": null,
           "low": 125,
@@ -472,7 +472,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 757535,
           "avg": 0.07,
           "low": 0.02,
@@ -487,7 +487,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 757456,
           "avg": null,
           "low": 70,
@@ -528,7 +528,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 757539,
           "avg": 0.82,
           "low": 0.09,
@@ -543,7 +543,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 757459,
           "avg": null,
           "low": 70,
@@ -584,7 +584,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 757543,
           "avg": 0.24,
           "low": 0.02,
@@ -599,7 +599,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 757461,
           "avg": null,
           "low": 80,
@@ -640,7 +640,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 758164,
           "avg": 1.95,
           "low": 1.49,
@@ -655,7 +655,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 759956,
           "avg": null,
           "low": 0.35,
@@ -670,7 +670,7 @@
           "avg7_foil": 0.81,
           "avg30_foil": 0.83
         },
-        "foil_prestige": {
+        "serialized_prestige": {
           "idProduct": 759957,
           "avg": null,
           "low": 2.95,
@@ -711,7 +711,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 757546,
           "avg": 0.65,
           "low": 0.02,
@@ -726,7 +726,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 757464,
           "avg": null,
           "low": 40,
@@ -767,7 +767,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 757551,
           "avg": 0.11,
           "low": 0.02,
@@ -782,7 +782,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 757467,
           "avg": null,
           "low": 29.99,
@@ -823,7 +823,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 757555,
           "avg": 0.41,
           "low": 0.03,
@@ -838,7 +838,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 757471,
           "avg": null,
           "low": 44,
@@ -879,7 +879,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 757558,
           "avg": 0.1,
           "low": 0.02,
@@ -894,7 +894,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 757473,
           "avg": null,
           "low": 99.95,
@@ -935,7 +935,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 757562,
           "avg": 0.09,
           "low": 0.02,
@@ -950,7 +950,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 757476,
           "avg": null,
           "low": 150,
@@ -991,7 +991,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 757565,
           "avg": 0.41,
           "low": 0.1,
@@ -1006,7 +1006,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 757479,
           "avg": null,
           "low": 55,
@@ -1047,7 +1047,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 757569,
           "avg": 0.64,
           "low": 0.15,
@@ -1062,7 +1062,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 757482,
           "avg": null,
           "low": 105.93,
@@ -1103,7 +1103,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 757573,
           "avg": 0.04,
           "low": 0.02,
@@ -1118,7 +1118,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 757485,
           "avg": null,
           "low": 30.99,
@@ -16423,7 +16423,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 776474,
           "avg": 0.12,
           "low": 0.02,
@@ -16438,7 +16438,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 776857,
           "avg": null,
           "low": 65,
@@ -16479,7 +16479,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 776475,
           "avg": 0.72,
           "low": 0.2,
@@ -16494,7 +16494,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 776858,
           "avg": null,
           "low": 120,
@@ -16535,7 +16535,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 776476,
           "avg": 0.45,
           "low": 0.05,
@@ -16550,7 +16550,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 776859,
           "avg": null,
           "low": 40,
@@ -16591,7 +16591,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 776477,
           "avg": 0.09,
           "low": 0.02,
@@ -16606,7 +16606,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 776860,
           "avg": null,
           "low": 75,
@@ -16647,7 +16647,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 776861,
           "avg": null,
           "low": 40,
@@ -16688,7 +16688,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 776479,
           "avg": 0.59,
           "low": 0.29,
@@ -16703,7 +16703,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 776862,
           "avg": null,
           "low": 60,
@@ -16744,7 +16744,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 776855,
           "avg": null,
           "low": 0.02,
@@ -16759,7 +16759,7 @@
           "avg7_foil": 0.23,
           "avg30_foil": 0.16
         },
-        "foil_prestige": {
+        "serialized_prestige": {
           "idProduct": 776863,
           "avg": null,
           "low": 23,
@@ -16773,21 +16773,6 @@
           "avg1_foil": 45,
           "avg7_foil": 45.98,
           "avg30_foil": 50.16
-        },
-        "serialized_prestige": {
-          "idProduct": 778578,
-          "avg": null,
-          "low": 0.02,
-          "trend": 0,
-          "avg_foil": 0.3,
-          "low_foil": 0.02,
-          "trend_foil": 0.02,
-          "avg1": null,
-          "avg7": null,
-          "avg30": null,
-          "avg1_foil": 0.3,
-          "avg7_foil": 0.36,
-          "avg30_foil": 2.09
         }
       }
     },
@@ -16815,7 +16800,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 776480,
           "avg": 0.1,
           "low": 0.02,
@@ -16830,7 +16815,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 776864,
           "avg": null,
           "low": 39.99,
@@ -16871,7 +16856,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 776481,
           "avg": 0.67,
           "low": 0.1,
@@ -16886,7 +16871,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 776866,
           "avg": null,
           "low": 45,
@@ -16927,7 +16912,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 776482,
           "avg": 0.08,
           "low": 0.02,
@@ -16942,7 +16927,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 776867,
           "avg": null,
           "low": 49.95,
@@ -16983,7 +16968,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 776483,
           "avg": 0.43,
           "low": 0.1,
@@ -16998,7 +16983,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 776868,
           "avg": null,
           "low": 79.85,
@@ -17039,7 +17024,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 776484,
           "avg": 0.54,
           "low": 0.06,
@@ -17054,7 +17039,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 776869,
           "avg": null,
           "low": 60,
@@ -17095,7 +17080,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 776485,
           "avg": 0.09,
           "low": 0.02,
@@ -17110,7 +17095,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 776870,
           "avg": null,
           "low": 80,
@@ -17151,7 +17136,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 776486,
           "avg": 0.14,
           "low": 0.02,
@@ -17166,7 +17151,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 776871,
           "avg": null,
           "low": 95,
@@ -17207,7 +17192,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 776487,
           "avg": 0.25,
           "low": 0.1,
@@ -17222,7 +17207,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 776872,
           "avg": null,
           "low": 35,
@@ -17263,7 +17248,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 776488,
           "avg": 0.11,
           "low": 0.02,
@@ -17278,7 +17263,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 776873,
           "avg": null,
           "low": 40,
@@ -17319,7 +17304,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 776489,
           "avg": 0.27,
           "low": 0.09,
@@ -17334,7 +17319,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 776874,
           "avg": null,
           "low": 29.99,
@@ -17375,7 +17360,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 776856,
           "avg": null,
           "low": 0.02,
@@ -17390,7 +17375,7 @@
           "avg7_foil": 0.34,
           "avg30_foil": 0.25
         },
-        "foil_prestige": {
+        "serialized_prestige": {
           "idProduct": 776875,
           "avg": null,
           "low": 78,
@@ -17404,21 +17389,6 @@
           "avg1_foil": 94.39,
           "avg7_foil": 99.34,
           "avg30_foil": 95.69
-        },
-        "serialized_prestige": {
-          "idProduct": 778579,
-          "avg": null,
-          "low": 0.03,
-          "trend": 0,
-          "avg_foil": 0.25,
-          "low_foil": 0.03,
-          "trend_foil": 0.05,
-          "avg1": null,
-          "avg7": null,
-          "avg30": null,
-          "avg1_foil": 0.25,
-          "avg7_foil": 0.38,
-          "avg30_foil": 0.72
         }
       }
     },
@@ -32326,7 +32296,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 795742,
           "avg": 0.37,
           "low": 0.02,
@@ -32341,7 +32311,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 796089,
           "avg": null,
           "low": 34,
@@ -32383,7 +32353,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 795743,
           "avg": 0.07,
           "low": 0.02,
@@ -32398,7 +32368,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 796090,
           "avg": null,
           "low": 25,
@@ -32440,7 +32410,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 795744,
           "avg": 0.03,
           "low": 0.02,
@@ -32455,7 +32425,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 796092,
           "avg": null,
           "low": 48,
@@ -32497,7 +32467,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 795745,
           "avg": 0.53,
           "low": 0.1,
@@ -32512,7 +32482,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 796093,
           "avg": null,
           "low": 115,
@@ -32554,7 +32524,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 795746,
           "avg": 0.08,
           "low": 0.02,
@@ -32569,7 +32539,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 796095,
           "avg": null,
           "low": 49,
@@ -32611,7 +32581,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 795747,
           "avg": 0.37,
           "low": 0.02,
@@ -32626,7 +32596,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 796097,
           "avg": null,
           "low": 34.99,
@@ -32668,7 +32638,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 795748,
           "avg": 1.04,
           "low": 0.05,
@@ -32683,7 +32653,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 796098,
           "avg": null,
           "low": 65,
@@ -32725,7 +32695,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 795749,
           "avg": 0.02,
           "low": 0.02,
@@ -32740,7 +32710,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 796100,
           "avg": null,
           "low": 44.99,
@@ -32782,7 +32752,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 795750,
           "avg": 0.16,
           "low": 0.02,
@@ -32797,7 +32767,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 796102,
           "avg": null,
           "low": 70,
@@ -32839,7 +32809,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 795751,
           "avg": 0.24,
           "low": 0.02,
@@ -32854,7 +32824,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 796104,
           "avg": null,
           "low": 39,
@@ -32895,7 +32865,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 796081,
           "avg": 0.33,
           "low": 0.02,
@@ -32910,7 +32880,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 796105,
           "avg": null,
           "low": 48,
@@ -32952,7 +32922,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 795752,
           "avg": 0.11,
           "low": 0.02,
@@ -32967,7 +32937,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 796107,
           "avg": null,
           "low": 100,
@@ -33009,7 +32979,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 795753,
           "avg": 0.32,
           "low": 0.03,
@@ -33024,7 +32994,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 796110,
           "avg": null,
           "low": 60,
@@ -33066,7 +33036,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 795755,
           "avg": 0.6,
           "low": 0.05,
@@ -33081,7 +33051,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 796111,
           "avg": null,
           "low": 57.99,
@@ -33122,7 +33092,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 796083,
           "avg": 0.27,
           "low": 0.02,
@@ -33137,7 +33107,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 796113,
           "avg": null,
           "low": 50,
@@ -33179,7 +33149,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 795757,
           "avg": 0.08,
           "low": 0.02,
@@ -33194,7 +33164,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 796114,
           "avg": null,
           "low": 79.9,
@@ -33235,7 +33205,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 795758,
           "avg": 1.14,
           "low": 0.04,
@@ -33250,7 +33220,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 796116,
           "avg": null,
           "low": 130,
@@ -33292,7 +33262,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 795759,
           "avg": 0.08,
           "low": 0.02,
@@ -33307,7 +33277,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 796117,
           "avg": null,
           "low": 75,
@@ -48668,7 +48638,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 814876,
           "avg": 0.14,
           "low": 0.02,
@@ -48683,7 +48653,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 815807,
           "avg": null,
           "low": 32,
@@ -48724,7 +48694,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 814877,
           "avg": 0.03,
           "low": 0.02,
@@ -48739,7 +48709,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 815808,
           "avg": null,
           "low": 79.99,
@@ -48780,7 +48750,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 814878,
           "avg": 0.27,
           "low": 0.02,
@@ -48795,7 +48765,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 815809,
           "avg": null,
           "low": 24,
@@ -48836,7 +48806,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 814879,
           "avg": 0.03,
           "low": 0.02,
@@ -48851,7 +48821,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 815810,
           "avg": null,
           "low": 16,
@@ -48892,7 +48862,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 814880,
           "avg": 0.31,
           "low": 0.02,
@@ -48907,7 +48877,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 815811,
           "avg": null,
           "low": 80,
@@ -48948,7 +48918,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 814881,
           "avg": 0.13,
           "low": 0.02,
@@ -48963,7 +48933,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 815812,
           "avg": null,
           "low": 88.95,
@@ -49004,7 +48974,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 814882,
           "avg": 0.42,
           "low": 0.02,
@@ -49019,7 +48989,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 815813,
           "avg": null,
           "low": 18,
@@ -49060,7 +49030,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 814883,
           "avg": 0.05,
           "low": 0.02,
@@ -49075,7 +49045,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 815814,
           "avg": null,
           "low": 26.5,
@@ -49116,7 +49086,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 814884,
           "avg": 0.44,
           "low": 0.02,
@@ -49131,7 +49101,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 815815,
           "avg": null,
           "low": 100,
@@ -49172,7 +49142,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 814885,
           "avg": 0.23,
           "low": 0.02,
@@ -49213,7 +49183,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 814886,
           "avg": 0.09,
           "low": 0.02,
@@ -49228,7 +49198,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 815817,
           "avg": null,
           "low": 29.89,
@@ -49269,7 +49239,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 814887,
           "avg": 0.08,
           "low": 0.02,
@@ -49284,7 +49254,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 815818,
           "avg": null,
           "low": 60,
@@ -49325,7 +49295,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 814888,
           "avg": 0.07,
           "low": 0.02,
@@ -49340,7 +49310,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 815819,
           "avg": null,
           "low": 40,
@@ -49381,7 +49351,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 814889,
           "avg": 0.26,
           "low": 0.02,
@@ -49396,7 +49366,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 815820,
           "avg": null,
           "low": 34.5,
@@ -49437,7 +49407,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 814890,
           "avg": 0.05,
           "low": 0.02,
@@ -49452,7 +49422,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 815821,
           "avg": null,
           "low": 17,
@@ -49493,7 +49463,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 814891,
           "avg": 0.05,
           "low": 0.02,
@@ -49508,7 +49478,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 815822,
           "avg": null,
           "low": 28.74,
@@ -49549,7 +49519,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 814892,
           "avg": 0.21,
           "low": 0.02,
@@ -49564,7 +49534,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 815823,
           "avg": null,
           "low": 45,
@@ -49605,7 +49575,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 814893,
           "avg": 0.19,
           "low": 0.02,
@@ -49620,7 +49590,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 815824,
           "avg": null,
           "low": 45,
@@ -68350,7 +68320,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 831265,
           "avg": 0.52,
           "low": 0.02,
@@ -68365,7 +68335,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 833163,
           "avg": null,
           "low": 95.89,
@@ -68406,7 +68376,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 831266,
           "avg": 0.09,
           "low": 0.02,
@@ -68421,7 +68391,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 833165,
           "avg": null,
           "low": 99.99,
@@ -68462,7 +68432,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 831267,
           "avg": 0.16,
           "low": 0.02,
@@ -68477,7 +68447,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 833168,
           "avg": null,
           "low": 25,
@@ -68518,7 +68488,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 831268,
           "avg": 0.39,
           "low": 0.02,
@@ -68533,7 +68503,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 833169,
           "avg": null,
           "low": 42,
@@ -68574,7 +68544,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 831269,
           "avg": 0.4,
           "low": 0.02,
@@ -68589,7 +68559,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 833171,
           "avg": null,
           "low": 15,
@@ -68630,7 +68600,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 831270,
           "avg": 0.07,
           "low": 0.02,
@@ -68645,7 +68615,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 833173,
           "avg": null,
           "low": 32,
@@ -68686,7 +68656,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 831271,
           "avg": 0.34,
           "low": 0.05,
@@ -68701,7 +68671,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 833174,
           "avg": null,
           "low": 50,
@@ -68742,7 +68712,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 831272,
           "avg": 0.13,
           "low": 0.02,
@@ -68757,7 +68727,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 833176,
           "avg": null,
           "low": 95,
@@ -68798,7 +68768,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 831273,
           "avg": 0.39,
           "low": 0.02,
@@ -68813,7 +68783,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 833178,
           "avg": null,
           "low": 80,
@@ -68854,7 +68824,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 831274,
           "avg": 0.1,
           "low": 0.02,
@@ -68869,7 +68839,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 833179,
           "avg": null,
           "low": 22,
@@ -68910,7 +68880,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 831275,
           "avg": 0.15,
           "low": 0.02,
@@ -68925,7 +68895,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 833180,
           "avg": null,
           "low": 28,
@@ -68966,7 +68936,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 831276,
           "avg": 0.64,
           "low": 0.02,
@@ -68981,7 +68951,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 833182,
           "avg": null,
           "low": 30,
@@ -69022,7 +68992,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 831277,
           "avg": 0.29,
           "low": 0.02,
@@ -69037,7 +69007,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 833191,
           "avg": null,
           "low": 35,
@@ -69078,7 +69048,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 831278,
           "avg": 0.09,
           "low": 0.02,
@@ -69093,7 +69063,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 833192,
           "avg": null,
           "low": 20,
@@ -69134,7 +69104,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 831279,
           "avg": 0.07,
           "low": 0.02,
@@ -69149,7 +69119,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 833194,
           "avg": null,
           "low": 25,
@@ -69190,7 +69160,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 831280,
           "avg": 0.39,
           "low": 0.02,
@@ -69205,7 +69175,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 833195,
           "avg": null,
           "low": 60,
@@ -69246,7 +69216,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 831281,
           "avg": 0.46,
           "low": 0.04,
@@ -69261,7 +69231,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 833197,
           "avg": null,
           "low": 135,
@@ -69302,7 +69272,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 831282,
           "avg": 0.37,
           "low": 0.05,
@@ -69317,7 +69287,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 833198,
           "avg": null,
           "low": 39,
@@ -88536,7 +88506,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 856535,
           "avg": 0.43,
           "low": 0.02,
@@ -88551,7 +88521,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 856801,
           "avg": null,
           "low": 60,
@@ -88594,7 +88564,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 856536,
           "avg": 0.16,
           "low": 0.02,
@@ -88609,7 +88579,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 856802,
           "avg": null,
           "low": 68,
@@ -88652,7 +88622,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 856537,
           "avg": 0.47,
           "low": 0.02,
@@ -88667,7 +88637,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 856803,
           "avg": null,
           "low": 30,
@@ -88710,7 +88680,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 856538,
           "avg": 0.11,
           "low": 0.02,
@@ -88725,7 +88695,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 856804,
           "avg": null,
           "low": 28,
@@ -88768,7 +88738,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 856539,
           "avg": 0.29,
           "low": 0.05,
@@ -88783,7 +88753,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 856805,
           "avg": null,
           "low": 34,
@@ -88826,7 +88796,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 856540,
           "avg": 0.1,
           "low": 0.02,
@@ -88841,7 +88811,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 856806,
           "avg": null,
           "low": 60,
@@ -88884,7 +88854,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 856541,
           "avg": 0.35,
           "low": 0.09,
@@ -88899,7 +88869,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 856807,
           "avg": null,
           "low": 49.99,
@@ -88942,7 +88912,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 856542,
           "avg": 0.37,
           "low": 0.02,
@@ -88957,7 +88927,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 856808,
           "avg": null,
           "low": 40,
@@ -89000,7 +88970,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 856543,
           "avg": 0.1,
           "low": 0.02,
@@ -89015,7 +88985,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 856809,
           "avg": null,
           "low": 27,
@@ -89058,7 +89028,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 856544,
           "avg": 0.18,
           "low": 0.02,
@@ -89073,7 +89043,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 856810,
           "avg": null,
           "low": 70,
@@ -89116,7 +89086,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 856545,
           "avg": 0.68,
           "low": 0.09,
@@ -89131,7 +89101,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 856811,
           "avg": null,
           "low": 30,
@@ -89174,7 +89144,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 856546,
           "avg": 0.54,
           "low": 0.07,
@@ -89189,7 +89159,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 856812,
           "avg": null,
           "low": 90,
@@ -89232,7 +89202,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 856547,
           "avg": 0.16,
           "low": 0.02,
@@ -89247,7 +89217,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 856813,
           "avg": null,
           "low": 30,
@@ -89290,7 +89260,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 856548,
           "avg": 0.14,
           "low": 0.02,
@@ -89305,7 +89275,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 856814,
           "avg": null,
           "low": 38,
@@ -89348,7 +89318,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 856549,
           "avg": 0.13,
           "low": 0.02,
@@ -89363,7 +89333,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 856815,
           "avg": null,
           "low": 25,
@@ -89406,7 +89376,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 856550,
           "avg": 0.43,
           "low": 0.02,
@@ -89421,7 +89391,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 856816,
           "avg": null,
           "low": 49,
@@ -89464,7 +89434,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 856551,
           "avg": 0.58,
           "low": 0.02,
@@ -89479,7 +89449,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 856817,
           "avg": null,
           "low": 145,
@@ -89522,7 +89492,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 856552,
           "avg": 0.29,
           "low": 0.04,
@@ -89537,7 +89507,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 856818,
           "avg": null,
           "low": 29.99,
@@ -109322,7 +109292,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 875955,
           "avg": 0.46,
           "low": 0.02,
@@ -109337,7 +109307,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 876457,
           "avg": null,
           "low": 69,
@@ -109380,7 +109350,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 875956,
           "avg": 0.58,
           "low": 0.05,
@@ -109395,7 +109365,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 876458,
           "avg": null,
           "low": 100,
@@ -109438,7 +109408,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 875957,
           "avg": 0.34,
           "low": 0.04,
@@ -109453,7 +109423,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 876459,
           "avg": null,
           "low": 95,
@@ -109496,7 +109466,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 875958,
           "avg": 0.08,
           "low": 0.02,
@@ -109511,7 +109481,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 876460,
           "avg": null,
           "low": 75,
@@ -109554,7 +109524,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 875959,
           "avg": 0.32,
           "low": 0.04,
@@ -109569,7 +109539,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 876461,
           "avg": null,
           "low": 100,
@@ -109612,7 +109582,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 875960,
           "avg": 0.05,
           "low": 0.02,
@@ -109627,7 +109597,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 876462,
           "avg": null,
           "low": 150,
@@ -109670,7 +109640,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 875961,
           "avg": 0.08,
           "low": 0.02,
@@ -109685,7 +109655,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 876463,
           "avg": null,
           "low": 90,
@@ -109728,7 +109698,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 875962,
           "avg": 0.39,
           "low": 0.04,
@@ -109743,7 +109713,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 876464,
           "avg": null,
           "low": 90,
@@ -109786,7 +109756,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 875963,
           "avg": 0.08,
           "low": 0.02,
@@ -109801,7 +109771,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 876465,
           "avg": null,
           "low": 60,
@@ -109844,7 +109814,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 875964,
           "avg": 0.55,
           "low": 0.03,
@@ -109859,7 +109829,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 876466,
           "avg": null,
           "low": 45,
@@ -109902,7 +109872,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 875965,
           "avg": 0.08,
           "low": 0.02,
@@ -109917,7 +109887,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 876467,
           "avg": null,
           "low": 150,
@@ -109960,7 +109930,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 875966,
           "avg": 0.45,
           "low": 0.08,
@@ -109975,7 +109945,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 876468,
           "avg": null,
           "low": 100,
@@ -110018,7 +109988,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 875967,
           "avg": 0.36,
           "low": 0.02,
@@ -110033,7 +110003,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 876469,
           "avg": null,
           "low": 130,
@@ -110076,7 +110046,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 875968,
           "avg": 0.06,
           "low": 0.02,
@@ -110091,7 +110061,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 876470,
           "avg": null,
           "low": 120,
@@ -110134,7 +110104,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 875969,
           "avg": 0.55,
           "low": 0.05,
@@ -110149,7 +110119,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 876471,
           "avg": null,
           "low": 80,
@@ -110192,7 +110162,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 875970,
           "avg": 0.07,
           "low": 0.02,
@@ -110207,7 +110177,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 876472,
           "avg": null,
           "low": 60,
@@ -110250,7 +110220,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 875971,
           "avg": 0.08,
           "low": 0.02,
@@ -110265,7 +110235,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 876473,
           "avg": null,
           "low": 50,
@@ -110308,7 +110278,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "showcase": {
+        "hyperspace": {
           "idProduct": 875972,
           "avg": 0.43,
           "low": 0.03,
@@ -110323,7 +110293,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "foil_prestige": {
           "idProduct": 876474,
           "avg": null,
           "low": 199,
