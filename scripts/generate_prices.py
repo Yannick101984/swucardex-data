@@ -103,8 +103,14 @@ def price_entry(price_dict):
     }
 
 def is_foil_only(price_dict):
-    """Produit vendu uniquement en foil (pas de prix non-foil)."""
-    return price_dict.get("avg") is None and price_dict.get("avg-foil") is not None
+    """Produit vendu uniquement en foil.
+    Cas normal  : avg-foil présent et avg absent.
+    Cas limite  : avg et avg-foil absents mais low-foil présent (ex: Serialized Prestige
+                  peu liquide dont CM n'a pas encore calculé avg-foil)."""
+    if price_dict.get("avg-foil") is not None:
+        return price_dict.get("avg") is None
+    # avg-foil absent : foil_only seulement si low-foil présent ET avg absent
+    return price_dict.get("low-foil") is not None and price_dict.get("avg") is None
 
 def is_nonfoil_only(price_dict):
     """Produit vendu uniquement en non-foil."""
