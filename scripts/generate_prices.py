@@ -3,54 +3,144 @@
 Génération de cardmarket_prices.json pour SWUCardex.
 Usage : python3 generate_prices.py [--repo-root /chemin/vers/swucardex-data]
 
-Structure attendue dans le repo :
-  cardmarket/products_singles.json   — catalogue Cardmarket (téléchargé depuis CM)
-  cardmarket/price_guide.json        — prix Cardmarket (téléchargé depuis CM)
-  sets/sor.json, sets/law.json …     — JSONs des sets SWU
-  prices/cardmarket_prices.json      — GÉNÉRÉ par ce script
+Algorithmes de matching :
+  - Anciens sets (SOR/SHD/TWI) : un produit CM couvre foil + non-foil → split foil/non-foil
+  - Nouveaux sets (JTL+) : matching positionnel par numéro de carte SWU
+  - Weekly Play (JTLW/LOFW/SECW/LAWP) : NF → weekly_play, FOIL → weekly_play_foil
+  - Sets spéciaux multi-set (C24/C25/GG/J24/J25/P25/P26) : lookup par nom
 
 Appelé automatiquement par GitHub Actions à chaque push sur cardmarket/*.json
 """
-import argparse, sys
+import argparse
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--repo-root", default=".", help="Chemin racine du repo swucardex-data")
+parser.add_argument("--verbose", action="store_true", help="Afficher les détails de mapping")
 args, _ = parser.parse_known_args()
 REPO_ROOT = args.repo_root
+VERBOSE   = args.verbose
 
 import json, os, re, unicodedata
 from collections import defaultdict, Counter
 
-# ── Chemins (relatifs à la racine du repo) ────────────────────────────────────
+# ── Chemins ───────────────────────────────────────────────────────────────────
 CM_DIR   = os.path.join(REPO_ROOT, "cardmarket")
 SETS_DIR = os.path.join(REPO_ROOT, "sets")
 OUT_DIR  = os.path.join(REPO_ROOT, "prices")
 
 SET_FILES = {
+    # Sets principaux
     "SOR":"sor.json","SHD":"shd.json","TWI":"twi.json","JTL":"jtl.json",
     "LOF":"lof.json","SEC":"sec.json","LAW":"law.json",
-    "SECW":"secw.json","JTLW":"jtlw.json","LOFW":"lofw.json",
-    "C24":"c24.json","C25":"c25.json","IBH":"ibh.json","GG":"gg.json",
-    "J24":"j24.json","J25":"j25.json","P25":"p25.json","P26":"p26.json","TS26":"ts26.json",
+    # Weekly Play
+    "JTLW":"jtlw.json","LOFW":"lofw.json","SECW":"secw.json","LAWP":"lawp.json",
+    # Sets spéciaux
+    "C24":"c24.json","C25":"c25.json","GG":"gg.json",
+    "J24":"j24.json","J25":"j25.json",
+    "P25":"p25.json","P26":"p26.json",
+    "IBH":"ibh.json","TS26":"ts26.json",
 }
 
-# Correspondance idExpansion → set_code — CONFIRMÉE (ne pas modifier manuellement)
-# Régénérée automatiquement si de nouveaux idExpansion apparaissent dans les fichiers CM.
-# expansion_role: "standard" = uniquement cartes standard non-foil
-#                 "variants" = hyperspace + foils + showcase + prestige
-#                 "special"  = sets spéciaux/promos
+# Sets avec foil+non-foil sur le même produit CM (ancien format)
+OLD_SETS         = {"SOR", "SHD", "TWI"}
+# Sets Weekly Play : NF → weekly_play / FOIL → weekly_play_foil
+WEEKLY_PLAY_SETS = {"JTLW", "LOFW", "SECW", "LAWP"}
+# Sets spéciaux "purs" : toutes leurs cartes ont un type de variante non-standard
+SPECIAL_PURE_SETS = {"C24", "C25", "GG", "J24", "J25", "P25", "P26", "IBH", "TS26"}
+
+# ── Correspondance idExpansion → (set_code, role) ─────────────────────────────
+# Rôles :
+#   "standard"  → expansion principale (Standard + Standard Foil pour les nouveaux sets)
+#   "variants"  → expansion variantes (Hyperspace, Prestige, Showcase, etc.)
+#   "multi"     → expansion multi-sets → lookup par nom dans plusieurs sets spéciaux
+#   "ignored"   → promos store non présentes dans les JSON SWU (5688/5839/5939)
 EXPANSION_MAP_CONFIRMED = {
-    5618: ("SOR", "standard"), 5638: ("SOR", "variants"), 5626: ("SOR", "special"), 5688: ("SOR", "special"),
-    5769: ("SHD", "standard"), 5781: ("SHD", "variants"), 5839: ("SHD", "special"),
-    5888: ("TWI", "standard"), 5937: ("TWI", "variants"), 5939: ("TWI", "special"),
-    5995: ("JTL", "standard"), 6074: ("JTL", "variants"), 6075: ("JTL", "special"), 6023: ("JTL", "special"),
-    6105: ("LOF", "standard"), 6188: ("LOF", "variants"), 6206: ("LOF", "special"), 6418: ("LOF", "special"),
-    6101: ("P25", "standard"),
-    6268: ("IBH", "standard"),
-    6333: ("SEC", "standard"), 6364: ("SEC", "variants"), 6386: ("SEC", "special"),
-    6451: ("LAW", "standard"), 6452: ("LAW", "variants"), 6453: ("LAW", "special"),
-    6472: ("P26", "standard"),
+    # SOR
+    5618: ("SOR",  "standard"), 5638: ("SOR",  "variants"),
+    5626: ("SOR",  "multi"),    # C24 + C25 + GG mélangés
+    5688: ("SOR",  "ignored"),  # Promos store SOR non trackées dans SWU
+    # SHD
+    5769: ("SHD",  "standard"), 5781: ("SHD",  "variants"),
+    5839: ("SHD",  "ignored"),  # Promos store SHD
+    # TWI
+    5888: ("TWI",  "standard"), 5937: ("TWI",  "variants"),
+    5939: ("TWI",  "ignored"),  # Promos store TWI
+    # JTL
+    5995: ("JTL",  "standard"), 6074: ("JTL",  "variants"),
+    6075: ("JTLW", "standard"), # Weekly Play JTL → remappe sur JTLW
+    6023: ("JTL",  "multi"),    # J24 + J25 + P25 + P26 mélangés
+    # LOF
+    6105: ("LOF",  "standard"), 6188: ("LOF",  "variants"),
+    6206: ("LOFW", "standard"), # Weekly Play LOF → remappe sur LOFW
+    6418: ("LOF",  "multi"),    # P25 LOF-era
+    # IBH
+    6268: ("IBH",  "standard"),
+    # P25
+    6101: ("P25",  "standard"),
+    # SEC
+    6333: ("SEC",  "standard"), 6364: ("SEC",  "variants"),
+    6386: ("SECW", "standard"), # Weekly Play SEC → remappe sur SECW
+    # LAW
+    6451: ("LAW",  "standard"), 6452: ("LAW",  "variants"),
+    6453: ("LAWP", "standard"), # Weekly Play LAW → remappe sur LAWP
+    # P26
+    6472: ("P26",  "standard"),
 }
+
+# Priorité de set pour les expansions multi-sets (premier set prioritaire)
+# 5626 = SOR special : C24 (Conv. Exclusive SOR) > GG > C25 > J25 > P25
+# 6023 = JTL special : J24 > J25 > P25 > P26
+# 6418 = LOF special2 : P25 > C25 > P26
+MULTI_PRIORITY = {
+    5626: ["C24", "C25", "GG", "J24", "J25", "P25"],
+    6023: ["J24", "J25", "C24", "P25", "P26", "LOF", "SEC"],
+    6418: ["P25", "C25", "P26"],
+}
+
+# ── Correspondance variant_type SWU → clé de prix ─────────────────────────────
+_VT_TO_KEY = {
+    # Sets principaux
+    "Hyperspace":           "hyperspace",
+    "Hyperspace Foil":      "hyperspace_foil",
+    "Showcase":             "showcase",
+    "Standard Prestige":    "standard_prestige",
+    "Foil Prestige":        "foil_prestige",
+    "Serialized Prestige":  "serialized_prestige",
+    "Standard Foil":        "standard_foil",    # anciens sets
+    # Weekly Play
+    "Weekly Play":          "weekly_play",
+    "Weekly Play Foil":     "weekly_play_foil",
+    # Sets spéciaux
+    "Convention Exclusive": "convention_exclusive",
+    "Judge Program":        "judge_program",
+    "GC VIP Promo":         "gc_vip_promo",
+    "GC Event Pack":        "gc_event_pack",
+    "GC Prize Wall":        "gc_prize_wall",
+    "SQ Prize Wall":        "sq_prize_wall",
+    "SQ Event Pack":        "sq_event_pack",
+    "RQ Prize Wall":        "rq_prize_wall",
+    "SS Participation":     "ss_participation",
+    "SS Champion":          "ss_champion",
+    "PQ Champion":          "pq_champion",
+    "SQ Champion":          "sq_champion",
+    "RQ Champion":          "rq_champion",
+    "GC Top 64":            "gc_top64",
+    "GC Top 8":             "gc_top8",
+    "GC Champion":          "gc_champion",
+    "Standard":             "standard",         # IBH / TS26
+}
+
+# Types traités par l'expansion "variants" CM pour les nouveaux sets
+_STD_EXP_VT  = {"Standard", "Standard Foil"}
+_VAR_EXP_VT  = {
+    "Hyperspace", "Hyperspace Foil", "Showcase",
+    "Standard Prestige", "Foil Prestige", "Serialized Prestige",
+}
+
+# Pour les anciens sets (SOR/SHD/TWI)
+_OLD_VT_NONFOIL_ORDER  = ["Hyperspace", "Standard Prestige"]
+_OLD_VT_FOIL_ORDER     = ["Showcase", "Hyperspace Foil", "Foil Prestige", "Serialized Prestige"]
+_OLD_VT_FOIL_ORDER_LDR = ["Showcase", "Foil Prestige", "Serialized Prestige"]
 
 # ── Helpers ───────────────────────────────────────────────────────────────────
 def normalize(s):
@@ -63,76 +153,47 @@ def normalize(s):
     return re.sub(r"\s+", " ", s)
 
 def cm_name_to_card_name(cm_name):
-    """Extrait le nom de la carte depuis le nom CM.
-    Cas 1 - Base + Token : 'Capital City // Experience Token' → 'Capital City'
-    Cas 2 - Leader double face : 'Chancellor Palpatine // Darth Sidious, Playing Both Sides'
-             → 'Chancellor Palpatine, Playing Both Sides'
-             (premier titre + sous-titre de la seconde face)
-    """
+    """'Capital City // Experience Token' → 'Capital City'
+       'Chancellor Palpatine // Darth Sidious, Playing Both Sides' → 'Chancellor Palpatine, Playing Both Sides'
+       'Battle Droid Token' → 'Battle Droid'  (strip Token suffix for token cards)"""
     if "//" not in cm_name:
-        return cm_name.strip()
+        name = cm_name.strip()
+        if name.endswith(" Token"):
+            name = name[: -len(" Token")]
+        return name
     left, right = [s.strip() for s in cm_name.split("//", 1)]
-    # Si la partie droite contient une virgule c'est une double-face avec sous-titre
     if "," in right:
         subtitle = right.split(",", 1)[1].strip()
         return f"{left}, {subtitle}"
-    # Sinon c'est Base // Token : garder seulement la partie gauche
     return left
 
 def price_entry(price_dict):
-    """Construit un dict de prix propre depuis une entrée priceGuide."""
     if not price_dict:
-        return None
-    avg      = price_dict.get("avg")
-    low      = price_dict.get("low")
-    trend    = price_dict.get("trend")
-    avg_foil = price_dict.get("avg-foil")
-    low_foil = price_dict.get("low-foil")
-    trend_foil = price_dict.get("trend-foil")
-    avg1     = price_dict.get("avg1")
-    avg7     = price_dict.get("avg7")
-    avg30    = price_dict.get("avg30")
-    avg1f    = price_dict.get("avg1-foil")
-    avg7f    = price_dict.get("avg7-foil")
-    avg30f   = price_dict.get("avg30-foil")
+        return {}
     return {
-        "avg": avg, "low": low, "trend": trend,
-        "avg_foil": avg_foil, "low_foil": low_foil, "trend_foil": trend_foil,
-        "avg1": avg1, "avg7": avg7, "avg30": avg30,
-        "avg1_foil": avg1f, "avg7_foil": avg7f, "avg30_foil": avg30f,
+        "avg":         price_dict.get("avg"),
+        "low":         price_dict.get("low"),
+        "trend":       price_dict.get("trend"),
+        "avg_foil":    price_dict.get("avg-foil"),
+        "low_foil":    price_dict.get("low-foil"),
+        "trend_foil":  price_dict.get("trend-foil"),
+        "avg1":        price_dict.get("avg1"),
+        "avg7":        price_dict.get("avg7"),
+        "avg30":       price_dict.get("avg30"),
+        "avg1_foil":   price_dict.get("avg1-foil"),
+        "avg7_foil":   price_dict.get("avg7-foil"),
+        "avg30_foil":  price_dict.get("avg30-foil"),
     }
 
-def is_foil_only(price_dict):
-    """Produit vendu uniquement en foil.
-    Cas normal  : avg-foil présent et avg absent.
-    Cas limite  : avg et avg-foil absents mais low-foil présent (ex: Serialized Prestige
-                  peu liquide dont CM n'a pas encore calculé avg-foil)."""
-    if price_dict.get("avg-foil") is not None:
-        return price_dict.get("avg") is None
-    # avg-foil absent : foil_only seulement si low-foil présent ET avg absent
-    return price_dict.get("low-foil") is not None and price_dict.get("avg") is None
+def is_foil_only(pd):
+    if pd.get("avg-foil") is not None:
+        return pd.get("avg") is None
+    return pd.get("low-foil") is not None and pd.get("avg") is None
 
-def is_nonfoil_only(price_dict):
-    """Produit vendu uniquement en non-foil."""
-    return price_dict.get("avg") is not None and price_dict.get("avg-foil") is None
-
-# Ordre attendu des variantes dans l'expansion CM (du plus ancien idProduct au plus récent)
-# Les variantes absentes du SWU data seront sautées automatiquement
-_VT_NONFOIL_ORDER = ["Hyperspace", "Standard Prestige"]
-_VT_FOIL_ORDER    = ["Showcase", "Hyperspace Foil", "Foil Prestige", "Serialized Prestige"]
-# Pour les Leaders, Showcase passe en premier et Hyperspace Foil n'existe pas
-_VT_FOIL_ORDER_LEADER = ["Showcase", "Foil Prestige", "Serialized Prestige"]
-_VT_TO_KEY = {
-    "Hyperspace":        "hyperspace",
-    "Standard Prestige": "standard_prestige",
-    "Hyperspace Foil":   "hyperspace_foil",
-    "Showcase":          "showcase",
-    "Foil Prestige":     "foil_prestige",
-    "Serialized Prestige":"serialized_prestige",
-}
+def is_nonfoil_only(pd):
+    return pd.get("avg") is not None and pd.get("avg-foil") is None
 
 def get_en_name(attrs):
-    """Récupère le nom EN d'une carte depuis ses localisations."""
     locs = attrs.get("localizations", {})
     loc_data = locs.get("data", []) if isinstance(locs, dict) else []
     for loc in loc_data:
@@ -141,7 +202,6 @@ def get_en_name(attrs):
             title    = (la.get("title")    or "").strip()
             subtitle = (la.get("subtitle") or "").strip()
             return f"{title}, {subtitle}" if subtitle else title
-    # Fallback titre principal
     title    = (attrs.get("title")    or "").strip()
     subtitle = (attrs.get("subtitle") or "").strip()
     return f"{title}, {subtitle}" if subtitle else title
@@ -161,9 +221,8 @@ cm_prices   = {p["idProduct"]: p for p in prices_data["priceGuides"]}
 print(f"  {len(cm_products)} singles | {len(cm_prices)} prix | snapshot: {prices_data['createdAt']}")
 
 # ── Auto-détection des nouvelles expansions ───────────────────────────────────
-# Charger les sets SWU pour le matching (index nom EN normalisé)
 def _build_swu_name_index():
-    idx = {}  # set_code → set of norm_en_names
+    idx = {}
     for sc, fname in SET_FILES.items():
         path = f"{SETS_DIR}/{fname}"
         if not os.path.exists(path):
@@ -171,11 +230,7 @@ def _build_swu_name_index():
         with open(path) as f:
             data = json.load(f)
         cards = data.get("data", data) if isinstance(data, dict) else data
-        names = set()
-        for card in cards:
-            attrs = card.get("attributes", card)
-            names.add(normalize(get_en_name(attrs)))
-        idx[sc] = names
+        idx[sc] = {normalize(get_en_name(c.get("attributes", c))) for c in cards}
     return idx
 
 _swu_name_idx = _build_swu_name_index()
@@ -183,12 +238,10 @@ _swu_name_idx = _build_swu_name_index()
 all_exp_ids = set(p["idExpansion"] for p in singles_data["products"])
 new_exp_ids = all_exp_ids - set(EXPANSION_MAP_CONFIRMED.keys())
 
-EXPANSION_MAP = dict(EXPANSION_MAP_CONFIRMED)  # copie de travail
+EXPANSION_MAP = dict(EXPANSION_MAP_CONFIRMED)
 
 if new_exp_ids:
-    print(f"\n  ⚠️  {len(new_exp_ids)} nouvelle(s) expansion(s) CM détectée(s) — auto-mapping :")
-    # Pour chaque nouvelle expansion, trouver le meilleur set SWU par overlap de noms
-    from collections import Counter as _C
+    print(f"\n  ⚠️  {len(new_exp_ids)} nouvelle(s) expansion(s) CM — auto-mapping :")
     exp_prods = {eid: [p for p in singles_data["products"] if p["idExpansion"] == eid]
                  for eid in new_exp_ids}
     for exp_id in sorted(new_exp_ids):
@@ -200,25 +253,24 @@ if new_exp_ids:
                 best_score, best_set = score, sc
         n_prods = len(exp_prods[exp_id])
         pct = best_score / len(cm_names) * 100 if cm_names else 0
-        # Rôle : si toutes les expansions connues pour ce set ont déjà un "standard"
-        # et que le count est plus grand → "variants", sinon "standard"
         known_for_set = [(eid, role) for eid, (sc, role) in EXPANSION_MAP.items() if sc == best_set]
         has_standard = any(r == "standard" for _, r in known_for_set)
         role = "variants" if has_standard else "standard"
         if best_score > 0:
             EXPANSION_MAP[exp_id] = (best_set, role)
-            print(f"    idExpansion {exp_id:6d} ({n_prods:4d} prods) → {best_set} [{role}]  ({best_score} matchs, {pct:.0f}%) ← À CONFIRMER")
+            print(f"    idExpansion {exp_id:6d} ({n_prods:4d} prods) → {best_set} [{role}] ({best_score}/{len(cm_names)}) ← À CONFIRMER")
         else:
-            print(f"    idExpansion {exp_id:6d} ({n_prods:4d} prods) → ??? (0 matchs — set inconnu, ignoré)")
+            print(f"    idExpansion {exp_id:6d} ({n_prods:4d} prods) → ??? (0 matchs — ignoré)")
 else:
     print("  ✅ Aucune nouvelle expansion CM.")
 
 # ── Chargement SWU ────────────────────────────────────────────────────────────
 print("\nChargement sets SWU...")
 
-# Index : (set_code, norm_en_name) → {card_number, list of variant_types disponibles}
-swu_index = defaultdict(lambda: {"card_number": None, "variant_types": set(), "en_name": ""})
-swu_card_types = {}  # (set_code, norm_en_name) → type de carte (Leader, Unité, Base…)
+# swu_cards[(set_code, norm_name)] = {
+#   "en_name", "card_type", "standard_cn", "all_variants" [(cn,vt)…], "variant_types"
+# }
+swu_cards = {}
 
 for set_code, fname in SET_FILES.items():
     path = f"{SETS_DIR}/{fname}"
@@ -226,153 +278,268 @@ for set_code, fname in SET_FILES.items():
         continue
     with open(path) as f:
         data = json.load(f)
-    cards = data.get("data", data) if isinstance(data, dict) else data
-    variants_list = data.get("variants", []) if isinstance(data, dict) else []
-    for card in list(cards) + list(variants_list):
+    cards        = data.get("data", data) if isinstance(data, dict) else data
+    variants_lst = data.get("variants", []) if isinstance(data, dict) else []
+
+    for card in list(cards) + list(variants_lst):
         attrs = card.get("attributes", card)
         en_name = get_en_name(attrs)
         norm    = normalize(en_name)
-        card_number = attrs.get("cardNumber")
-        vt_data = attrs.get("variantTypes", {}).get("data", [])
+        cn      = attrs.get("cardNumber")
+
+        vt_data      = attrs.get("variantTypes", {}).get("data", [])
         variant_type = vt_data[0]["attributes"]["name"] if vt_data else "Standard"
+
         card_type_obj = attrs.get("type", {})
+        card_type = ""
         if isinstance(card_type_obj, dict):
             card_type = card_type_obj.get("data", {}).get("attributes", {}).get("name", "")
-        else:
-            card_type = ""
 
         key = (set_code, norm)
-        swu_index[key]["card_number"] = card_number
-        swu_index[key]["en_name"]     = en_name
-        swu_index[key]["variant_types"].add(variant_type)
-        swu_card_types[key] = card_type
+        if key not in swu_cards:
+            swu_cards[key] = {
+                "en_name":       en_name,
+                "card_type":     card_type,
+                "standard_cn":   None,
+                "all_variants":  [],
+                "variant_types": set(),
+            }
+        entry = swu_cards[key]
+        entry["variant_types"].add(variant_type)
+        if cn is not None:
+            entry["all_variants"].append((cn, variant_type))
+        if variant_type == "Standard" and cn is not None:
+            entry["standard_cn"] = cn
 
-total_cards = len(swu_index)
+total_cards = len(swu_cards)
 print(f"  {total_cards} cartes uniques (nom × set)")
 
-# ── Groupement des produits CM par (set_code, norm_en_name) ──────────────────
+# Trier les variantes par numéro de carte
+for key, entry in swu_cards.items():
+    entry["all_variants"].sort(key=lambda x: (x[0] if x[0] is not None else 9999))
+    # Fallback standard_cn : si pas de Standard, utiliser le numéro minimum
+    if entry["standard_cn"] is None and entry["all_variants"]:
+        entry["standard_cn"] = next(
+            (cn for cn, _ in entry["all_variants"] if cn is not None), None
+        )
+
+# ── Index multi-sets pour les expansions "multi" ──────────────────────────────
+# Construit un index global : norm_name → [(set_code, cn, vt), ...]
+# Pour les sets impliqués dans les expansions "multi"
+MULTI_SETS = set()
+for priority_list in MULTI_PRIORITY.values():
+    MULTI_SETS.update(priority_list)
+
+multi_idx = defaultdict(list)  # norm_name → [(set_code, cn, vt), ...]
+for (sc, norm), entry in swu_cards.items():
+    if sc not in MULTI_SETS:
+        continue
+    for cn, vt in entry["all_variants"]:
+        multi_idx[norm].append((sc, cn, vt))
+
+# ── Groupement des produits CM par (set_code, norm_name) ─────────────────────
 print("\nGroupement produits CM...")
 
-# cm_by_card[(set_code, norm_name)] = {
-#     "standard": [list of (idProduct, price_dict)],
-#     "variants": [list of (idProduct, price_dict)],
-#     "special":  [list of (idProduct, price_dict)],
-# }
 cm_by_card = defaultdict(lambda: {"standard": [], "variants": [], "special": []})
+unmapped_exp  = Counter()
+multi_matched = Counter()   # (exp_id, set_code) → nb produits matchés
+multi_orphans = []           # produits multi non matchés
 
-unmapped_exp = Counter()
 for prod in singles_data["products"]:
     exp_id = prod["idExpansion"]
     if exp_id not in EXPANSION_MAP:
         unmapped_exp[exp_id] += 1
         continue
+
     set_code, role = EXPANSION_MAP[exp_id]
+
+    if role == "ignored":
+        continue
+
     card_name = cm_name_to_card_name(prod["name"])
-    norm = normalize(card_name)
-    price = cm_prices.get(prod["idProduct"], {})
+    norm      = normalize(card_name)
+    price     = cm_prices.get(prod["idProduct"], {})
+
+    if role == "multi":
+        # Chercher le set_code SWU par priorité
+        priority = MULTI_PRIORITY.get(exp_id, [])
+        candidates = multi_idx.get(norm, [])
+        # Ensembles présents dans les candidats
+        cand_sets = {c[0] for c in candidates}
+        matched_sc = next((sc for sc in priority if sc in cand_sets), None)
+        if matched_sc:
+            cm_by_card[(matched_sc, norm)]["standard"].append(
+                (prod["idProduct"], price, prod["name"])
+            )
+            multi_matched[(exp_id, matched_sc)] += 1
+        else:
+            multi_orphans.append((exp_id, prod["name"]))
+        continue
+
     cm_by_card[(set_code, norm)][role].append((prod["idProduct"], price, prod["name"]))
 
 if unmapped_exp:
     print(f"  ⚠️  Expansions non mappées: {dict(unmapped_exp)}")
+if multi_matched:
+    print("  Multi-sets matchés :")
+    for (exp_id, sc), n in sorted(multi_matched.items()):
+        print(f"    exp {exp_id} → {sc}: {n} produits")
+if multi_orphans:
+    print(f"  Multi-sets non matchés : {len(multi_orphans)} produits")
+    if VERBOSE:
+        for exp_id, name in multi_orphans[:10]:
+            print(f"    exp={exp_id} '{name}'")
 
 # ── Construction de la table de prix ─────────────────────────────────────────
 print("\nConstruction table de prix...")
 
-price_table = []  # résultat final
-unmatched   = []  # cartes SWU sans données CM
-no_swu_card = []  # produits CM sans carte SWU correspondante
+price_table = []
+unmatched   = []
+mapping_log = []
 
-for key, swu_info in swu_index.items():
-    set_code, norm = key
-    en_name      = swu_info["en_name"]
-    card_number  = swu_info["card_number"]
-    variant_types = swu_info["variant_types"]
-    card_type    = swu_card_types.get(key, "")
-    cm_data      = cm_by_card.get(key, {"standard": [], "variants": [], "special": []})
+for key, swu_info in swu_cards.items():
+    set_code, norm  = key
+    en_name         = swu_info["en_name"]
+    standard_cn     = swu_info["standard_cn"]
+    card_type       = swu_info["card_type"]
+    variant_types   = swu_info["variant_types"]
+    all_variants    = swu_info["all_variants"]
+    cm_data         = cm_by_card.get(key, {"standard": [], "variants": [], "special": []})
 
     prices_out = {}
+    is_old_set    = set_code in OLD_SETS
+    is_weekly     = set_code in WEEKLY_PLAY_SETS
+    is_special    = set_code in SPECIAL_PURE_SETS
 
     # ── Expansion Standard ──────────────────────────────────────────────────
-    # Habituellement 1 seul produit par carte dans l'expansion standard.
-    # Pour SOR/SHD/TWI le même produit peut avoir avg (Standard) + avg-foil (Standard Foil).
-    for idp, pr, _ in cm_data["standard"]:
+    # Détermine les clés selon le type de set
+    if is_weekly:
+        std_key, foil_key = "weekly_play", "weekly_play_foil"
+    elif is_special:
+        # Pour les sets spéciaux purs : la clé est celle de leur unique variant type
+        primary_vt = next((vt for _, vt in all_variants if vt != "Standard"), None)
+        std_key  = _VT_TO_KEY.get(primary_vt, "standard") if primary_vt else "standard"
+        foil_key = std_key  # pas de distinction foil/non-foil pour ces sets
+    else:
+        std_key, foil_key = "standard", "standard_foil"
+
+    for idp, pr, _ in sorted(cm_data["standard"], key=lambda x: x[0]):
         if is_foil_only(pr):
-            # Produit foil dans l'expansion standard (rare)
-            if "standard_foil" not in prices_out:
-                prices_out["standard_foil"] = {"idProduct": idp, **price_entry(pr)}
+            if foil_key not in prices_out:
+                prices_out[foil_key] = {"idProduct": idp, **price_entry(pr)}
+            # Anciens sets : un produit foil-only couvre quand même la variante non-foil
+            if is_old_set and std_key not in prices_out:
+                prices_out[std_key] = {"idProduct": idp, **price_entry(pr)}
         else:
-            # Produit Standard (peut aussi avoir un avg-foil = Standard Foil sur anciens sets)
-            if "standard" not in prices_out:
-                prices_out["standard"] = {"idProduct": idp, **price_entry(pr)}
-            # Sur anciens sets (SOR/SHD/TWI), avg-foil dans le même produit = Standard Foil
-            if pr.get("avg-foil") and "standard_foil" not in prices_out:
-                prices_out["standard_foil"] = {"idProduct": idp, **price_entry(pr)}
+            if std_key not in prices_out:
+                prices_out[std_key] = {"idProduct": idp, **price_entry(pr)}
+            # Anciens sets / multi-prods : avg-foil dans même produit
+            if pr.get("avg-foil") and foil_key not in prices_out and foil_key != std_key:
+                prices_out[foil_key] = {"idProduct": idp, **price_entry(pr)}
 
     # ── Expansion Variants ──────────────────────────────────────────────────
-    # Trier par idProduct croissant (ordre de création = Standard < Hyperspace < Prestige)
-    variants_sorted = sorted(cm_data["variants"], key=lambda x: x[0])
+    if is_special or is_weekly:
+        pass  # Ces sets n'ont pas d'expansion "variants" CM
 
-    foil_prods    = [(idp, pr) for idp, pr, nm in variants_sorted if is_foil_only(pr)]
-    nonfoil_prods = [(idp, pr) for idp, pr, nm in variants_sorted if is_nonfoil_only(pr)]
-    both_prods    = [(idp, pr) for idp, pr, nm in variants_sorted
-                     if not is_foil_only(pr) and not is_nonfoil_only(pr)]
+    elif is_old_set:
+        # Anciens sets (SOR/SHD/TWI) : matching positionnel
+        # Les produits CM sont triés par idProduct : d'abord les variantes non-foil
+        # (Hyperspace, Standard Prestige), puis les variantes foil (Showcase, etc.)
+        # Un même produit couvre à la fois la variante non-foil (avg) ET foil (avg-foil)
+        all_sorted = sorted(cm_data["variants"], key=lambda x: x[0])
+        is_leader  = card_type == "Leader"
+        foil_order = _OLD_VT_FOIL_ORDER_LDR if is_leader else _OLD_VT_FOIL_ORDER
+        nf_seq   = [_VT_TO_KEY[vt] for vt in _OLD_VT_NONFOIL_ORDER if vt in variant_types]
+        foil_seq = [_VT_TO_KEY[vt] for vt in foil_order            if vt in variant_types]
 
-    is_leader = card_type == "Leader"
+        # Étendre foil_seq si plus de produits que prévu
+        n_expected = len(nf_seq) + len(foil_seq)
+        if len(all_sorted) > n_expected:
+            for vt in foil_order:
+                k = _VT_TO_KEY[vt]
+                if k not in foil_seq:
+                    foil_seq.append(k)
+                if len(nf_seq) + len(foil_seq) >= len(all_sorted):
+                    break
 
-    # Construire les séquences attendues d'après les variant_types SWU (source de vérité)
-    foil_order = _VT_FOIL_ORDER_LEADER if is_leader else _VT_FOIL_ORDER
-    nonfoil_seq = [_VT_TO_KEY[vt] for vt in _VT_NONFOIL_ORDER if vt in variant_types]
-    foil_seq    = [_VT_TO_KEY[vt] for vt in foil_order        if vt in variant_types]
+        # Correspondance non-foil → sa contrepartie foil pour le même produit
+        _NF_TO_FOIL_KEY = {"hyperspace": "hyperspace_foil", "standard_prestige": "foil_prestige"}
+        # Clés de prix effectivement attendues pour cette carte
+        valid_price_keys = {_VT_TO_KEY[vt] for vt in variant_types if vt in _VT_TO_KEY}
 
-    # Non-foil variants
-    for rank, (idp, pr) in enumerate(nonfoil_prods + both_prods):
-        if pr.get("avg") is None:
-            continue
-        if rank < len(nonfoil_seq):
-            k = nonfoil_seq[rank]
-            if k not in prices_out:
-                prices_out[k] = {"idProduct": idp, **price_entry(pr)}
-        # Si plus de produits que de variantes connues → on ignore le surplus
+        n_nf = len(nf_seq)
+        for rank, (idp, pr, _) in enumerate(all_sorted):
+            if rank < n_nf:
+                # Slot non-foil : le produit couvre la variante NF et éventuellement sa version foil
+                k = nf_seq[rank]
+                if k not in prices_out:
+                    prices_out[k] = {"idProduct": idp, **price_entry(pr)}
+                foil_k = _NF_TO_FOIL_KEY.get(k)
+                if (foil_k and foil_k in valid_price_keys
+                        and pr.get("avg-foil") is not None and foil_k not in prices_out):
+                    prices_out[foil_k] = {"idProduct": idp, **price_entry(pr)}
+            else:
+                fi = rank - n_nf
+                if fi < len(foil_seq):
+                    k = foil_seq[fi]
+                    if k not in prices_out:
+                        prices_out[k] = {"idProduct": idp, **price_entry(pr)}
 
-    # Foil variants — si plus de produits CM que de variantes connues, étendre
-    # avec les clés manquantes de l'ordre complet (cas : données SWU incomplètes)
-    if len(foil_prods) > len(foil_seq):
-        full_foil_order = _VT_FOIL_ORDER_LEADER if is_leader else _VT_FOIL_ORDER
-        for vt in full_foil_order:
-            k = _VT_TO_KEY[vt]
-            if k not in foil_seq:
-                foil_seq.append(k)
-            if len(foil_seq) >= len(foil_prods):
-                break
+    else:
+        # Nouveaux sets (JTL+) : matching positionnel
+        variants_sorted = sorted(cm_data["variants"], key=lambda x: x[0])
+        expected_variants = [
+            (cn, vt) for cn, vt in all_variants if vt in _VAR_EXP_VT
+        ]
 
-    for rank, (idp, pr) in enumerate(foil_prods):
-        if rank < len(foil_seq):
-            k = foil_seq[rank]
-            if k not in prices_out:
-                prices_out[k] = {"idProduct": idp, **price_entry(pr)}
+        # Si plus de produits CM que de variantes SWU (ex : bases multi-tokens)
+        # → favoriser les produits avec des données de prix
+        if len(variants_sorted) > len(expected_variants):
+            def _has_price(item):
+                pr = item[1]
+                return pr.get("avg") is not None or pr.get("avg-foil") is not None
+            variants_for_match = sorted(
+                variants_sorted, key=lambda x: (not _has_price(x), x[0])
+            )
+        else:
+            variants_for_match = variants_sorted
 
-    # Anciens sets (SOR/SHD/TWI) — produits "both" : avg-foil → Hyperspace Foil si non renseigné
-    for idp, pr in both_prods:
-        if pr.get("avg-foil") and "hyperspace_foil" not in prices_out and not is_leader:
-            prices_out["hyperspace_foil"] = {"idProduct": idp, **price_entry(pr)}
+        log_entries = []
+        for rank, ((idp, pr, cm_name), (cn, vt)) in enumerate(
+                zip(variants_for_match, expected_variants)):
+            key_out = _VT_TO_KEY.get(vt)
+            if key_out and key_out not in prices_out:
+                prices_out[key_out] = {"idProduct": idp, "card_number": cn, **price_entry(pr)}
+                if VERBOSE:
+                    log_entries.append(
+                        f"      [{rank}] #{cn:4d} {vt:20s} ← CM id={idp} '{cm_name[:35]}'"
+                    )
 
-    # ── Special/promos ──────────────────────────────────────────────────────
-    # On les ignore pour les prix principaux (variant_type exotiques)
+        n_cm  = len(variants_sorted)
+        n_swu = len(expected_variants)
+        if n_cm != n_swu and (VERBOSE or abs(n_cm - n_swu) > 2):
+            mapping_log.append(
+                f"  ⚠️  {set_code} '{en_name}': {n_cm} produits CM vs {n_swu} variantes SWU"
+            )
+            if VERBOSE:
+                mapping_log.extend(log_entries)
 
+    # ── Assemblage ─────────────────────────────────────────────────────────
     if prices_out:
-        entry = {
-            "set_code": set_code,
-            "en_name": en_name,
-            "card_number": card_number,
-            "card_type": card_type,
+        price_table.append({
+            "set_code":             set_code,
+            "en_name":              en_name,
+            "card_number":          standard_cn,
+            "card_type":            card_type,
             "variant_types_in_app": sorted(variant_types),
-            "prices": prices_out,
-        }
-        price_table.append(entry)
+            "prices":               prices_out,
+        })
     else:
         unmatched.append({
-            "set_code": set_code, "en_name": en_name,
-            "card_number": card_number, "variant_types": sorted(variant_types)
+            "set_code":      set_code,
+            "en_name":       en_name,
+            "card_number":   standard_cn,
+            "variant_types": sorted(variant_types),
         })
 
 # ── Rapport ───────────────────────────────────────────────────────────────────
@@ -382,10 +549,8 @@ print(f"  Cartes avec prix     : {len(price_table)}")
 print(f"  Cartes sans prix CM  : {len(unmatched)}")
 print(f"  Couverture           : {len(price_table)/total_cards*100:.1f}%")
 
-# Par set
-from collections import Counter as C
-by_set_total   = C(k[0] for k in swu_index.keys())
-by_set_matched = C(e["set_code"] for e in price_table)
+by_set_total   = Counter(k[0] for k in swu_cards.keys())
+by_set_matched = Counter(e["set_code"] for e in price_table)
 print("\n  Par set :")
 for sc in sorted(by_set_total.keys()):
     total   = by_set_total[sc]
@@ -393,37 +558,53 @@ for sc in sorted(by_set_total.keys()):
     bar = "█" * int(matched / total * 20) + "░" * (20 - int(matched / total * 20))
     print(f"    {sc:6s} {bar} {matched:4d}/{total:4d} ({matched/total*100:.0f}%)")
 
-# Types de prix disponibles
 price_keys_count = Counter()
 for e in price_table:
     for k in e["prices"]:
         price_keys_count[k] += 1
 print("\n  Prix disponibles par type :")
 for k, count in price_keys_count.most_common():
-    print(f"    {k:20s}: {count:5d} cartes")
+    print(f"    {k:25s}: {count:5d} cartes")
 
-# Cartes SWU non matchées (échantillon)
 if unmatched:
-    print(f"\n  Non matchées ({len(unmatched)}) — échantillon :")
-    # Grouper par raison probable
+    print(f"\n  Non matchées ({len(unmatched)}) :")
     tokens = [u for u in unmatched if u["en_name"] in ("Experience", "Shield", "Force", "Credit")]
-    bases  = [u for u in unmatched if "Base" in " ".join(u["variant_types"])]
-    other  = [u for u in unmatched if u not in tokens and u not in bases]
-    if tokens:   print(f"    Tokens (Experience/Shield…) : {len(tokens)} — normal, pas de prix CM")
-    if bases:    print(f"    Bases sans match           : {len(bases)}")
-    for u in other[:10]:
-        print(f"    {u['set_code']:6s} #{u['card_number']:4} {u['en_name'][:50]}")
+    other  = [u for u in unmatched if u not in tokens]
+    if tokens: print(f"    Tokens génériques : {len(tokens)} — normal")
+    for u in other[:12]:
+        print(f"    {u['set_code']:6s} #{str(u['card_number'] or '?'):4} {u['en_name'][:50]}")
+
+if mapping_log:
+    print(f"\n  Décalages CM ↔ SWU ({len(mapping_log)}) :")
+    for line in mapping_log[:20]:
+        print(line)
+
+# Couverture variantes (nouveaux sets principaux)
+print("\n  Couverture variantes (nouveaux sets) :")
+check_sets = [sc for sc in by_set_total if sc not in OLD_SETS | WEEKLY_PLAY_SETS | SPECIAL_PURE_SETS
+              and by_set_total[sc] > 5]
+for sc in sorted(check_sets):
+    expected = sum(
+        len([vt for _, vt in e["all_variants"] if vt in _VAR_EXP_VT])
+        for (s, _), e in swu_cards.items() if s == sc
+    )
+    produced = sum(
+        len([k for k in e["prices"] if k not in ("standard", "standard_foil")])
+        for e in price_table if e["set_code"] == sc
+    )
+    pct = produced / expected * 100 if expected else 0
+    bar = "█" * int(pct / 5) + "░" * (20 - int(pct / 5))
+    print(f"    {sc:6s} {bar} {produced:4d}/{expected:4d} ({pct:.0f}%)")
 
 # ── Export prix courants ──────────────────────────────────────────────────────
-price_date = prices_data.get("createdAt", "")
-# Extraire juste la date YYYY-MM-DD
+price_date    = prices_data.get("createdAt", "")
 snapshot_date = price_date[:10] if price_date else "unknown"
 
 output = {
-    "version": 1,
-    "priceDate": price_date,
+    "version":       2,
+    "priceDate":     price_date,
     "expansion_map": {str(k): {"set_code": v[0], "role": v[1]} for k, v in EXPANSION_MAP.items()},
-    "prices": price_table,
+    "prices":        price_table,
 }
 os.makedirs(OUT_DIR, exist_ok=True)
 out_path = f"{OUT_DIR}/cardmarket_prices.json"
@@ -431,10 +612,8 @@ with open(out_path, "w") as f:
     json.dump(output, f, ensure_ascii=False, indent=2)
 print(f"\n✅ {out_path} exporté ({len(price_table)} entrées)")
 
-# ── Export historique (accumulation des snapshots) ────────────────────────────
-# Format compact pour l'historique : seulement avg par variante pour économiser l'espace
+# ── Export historique ─────────────────────────────────────────────────────────
 def compact_snapshot(entries):
-    """Réduit chaque entrée à {set_code|en_name: {variant: avg}}."""
     result = {}
     for e in entries:
         key = f"{e['set_code']}|{e['en_name']}"
@@ -446,34 +625,27 @@ def compact_snapshot(entries):
     return result
 
 history_path = f"{OUT_DIR}/cardmarket_prices_history.json"
-
-# Charger l'historique existant (ou créer un nouveau)
 if os.path.exists(history_path):
     with open(history_path) as f:
         history = json.load(f)
 else:
     history = {"version": 1, "snapshots": []}
 
-# Vérifier si ce snapshot existe déjà (même date)
 existing_dates = {s["date"] for s in history["snapshots"]}
 if snapshot_date in existing_dates:
-    print(f"  ℹ️  Snapshot {snapshot_date} déjà présent dans l'historique — mise à jour")
+    print(f"  ℹ️  Snapshot {snapshot_date} déjà présent — mise à jour")
     history["snapshots"] = [s for s in history["snapshots"] if s["date"] != snapshot_date]
 
-# Ajouter le nouveau snapshot
 history["snapshots"].append({
-    "date": snapshot_date,
+    "date":   snapshot_date,
     "prices": compact_snapshot(price_table),
 })
-
-# Trier par date croissante
 history["snapshots"].sort(key=lambda s: s["date"])
 
 with open(history_path, "w") as f:
-    json.dump(history, f, ensure_ascii=False, separators=(",", ":"))  # compact pour minimiser la taille
+    json.dump(history, f, ensure_ascii=False, separators=(",", ":"))
 
-nb_snapshots = len(history["snapshots"])
+nb = len(history["snapshots"])
 dates = [s["date"] for s in history["snapshots"]]
-print(f"✅ {history_path} mis à jour ({nb_snapshots} snapshot(s) : {', '.join(dates)})")
-
+print(f"✅ {history_path} mis à jour ({nb} snapshot(s) : {', '.join(dates)})")
 print("\nFin.")
