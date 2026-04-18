@@ -5,6 +5,7 @@ on:
     paths:
       - "cardmarket/products_singles.json"
       - "cardmarket/price_guide.json"
+      - "cardmarket/manual_mappings.json"  # déclenché aussi quand tu ajoutes un ID manuellement
   workflow_dispatch:  # permet de relancer manuellement depuis GitHub
 
 jobs:
@@ -29,6 +30,6 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add prices/cardmarket_prices.json prices/cardmarket_prices_history.json
+          git add prices/cardmarket_prices.json prices/cardmarket_prices_history.json cardmarket/manual_mappings.json
           git diff --cached --quiet || git commit -m "Auto: prix Cardmarket mis à jour [$(date '+%Y-%m-%d')]"
           git push

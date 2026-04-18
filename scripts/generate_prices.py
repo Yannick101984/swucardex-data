@@ -390,6 +390,23 @@ if multi_orphans:
         for exp_id, name in multi_orphans[:10]:
             print(f"    exp={exp_id} '{name}'")
 
+# ── Chargement overrides manuels ─────────────────────────────────────────────
+MANUAL_PATH = f"{CM_DIR}/manual_mappings.json"
+manual_overrides = {}   # (set_code, norm_name, price_key) → idProduct
+
+if os.path.exists(MANUAL_PATH):
+    with open(MANUAL_PATH) as f:
+        _manual_raw = json.load(f)
+    for m in _manual_raw:
+        if not m.get("idProduct"):
+            continue
+        sc  = m["set_code"]
+        n   = normalize(m["en_name"])
+        pk  = _VT_TO_KEY.get(m["variant_type"], m["variant_type"].lower().replace(" ", "_"))
+        manual_overrides[(sc, n, pk)] = m["idProduct"]
+    if manual_overrides:
+        print(f"  {len(manual_overrides)} override(s) manuel(s) chargé(s)")
+
 # ── Construction de la table de prix ─────────────────────────────────────────
 print("\nConstruction table de prix...")
 
@@ -542,6 +559,38 @@ for key, swu_info in swu_cards.items():
             "variant_types": sorted(variant_types),
         })
 
+# ── Application des overrides manuels ────────────────────────────────────────
+if manual_overrides:
+    # Index price_table par (set_code, norm_name) pour lookup rapide
+    pt_idx = {(e["set_code"], normalize(e["en_name"])): e for e in price_table}
+    applied = 0
+    for (sc, n, pk), idp in manual_overrides.items():
+        pr = cm_prices.get(idp, {})
+        pe = {"idProduct": idp, **price_entry(pr)}
+        if (sc, n) in pt_idx:
+            if pk not in pt_idx[(sc, n)]["prices"]:
+                pt_idx[(sc, n)]["prices"][pk] = pe
+                applied += 1
+        else:
+            # Carte entièrement absente du price_table → la créer
+            swu_key = (sc, n)
+            if swu_key in swu_cards:
+                info = swu_cards[swu_key]
+                new_e = {
+                    "set_code":             sc,
+                    "en_name":              info["en_name"],
+                    "card_number":          info["standard_cn"],
+                    "card_type":            info["card_type"],
+                    "variant_types_in_app": sorted(info["variant_types"]),
+                    "prices":               {pk: pe},
+                }
+                price_table.append(new_e)
+                pt_idx[(sc, n)] = new_e
+                unmatched = [u for u in unmatched
+                             if not (u["set_code"] == sc and normalize(u["en_name"]) == n)]
+                applied += 1
+    print(f"\n  ✅ {applied} override(s) manuel(s) appliqué(s)")
+
 # ── Rapport ───────────────────────────────────────────────────────────────────
 print("\n" + "=" * 65)
 print("RÉSULTATS")
@@ -648,4 +697,51 @@ with open(history_path, "w") as f:
 nb = len(history["snapshots"])
 dates = [s["date"] for s in history["snapshots"]]
 print(f"✅ {history_path} mis à jour ({nb} snapshot(s) : {', '.join(dates)})")
+
+# ── Mise à jour manual_mappings.json ─────────────────────────────────────────
+# Calcule les variantes encore non couvertes après tout le matching
+covered_now = set()
+for e in price_table:
+    n = normalize(e["en_name"])
+    for pk in e["prices"]:
+        covered_now.add((e["set_code"], n, pk))
+
+# Construit la liste des entrées non couvertes (triées set/numéro de carte)
+uncovered_entries = []
+for (sc, norm_name), info in sorted(swu_cards.items(), key=lambda x: (x[0][0], x[0][1])):
+    for cn, vt in info["all_variants"]:
+        pk = _VT_TO_KEY.get(vt, vt.lower().replace(" ", "_"))
+        if (sc, norm_name, pk) not in covered_now:
+            uncovered_entries.append({
+                "set_code":     sc,
+                "en_name":      info["en_name"],
+                "card_number":  cn,
+                "variant_type": vt,
+                "idProduct":    None,
+                "note":         "",
+            })
+uncovered_entries.sort(key=lambda x: (x["set_code"], x["card_number"] or 0))
+
+# Préserve les overrides manuels existants (idProduct renseigné)
+existing_manual_map = {}
+if os.path.exists(MANUAL_PATH):
+    with open(MANUAL_PATH) as f:
+        for m in json.load(f):
+            if m.get("idProduct"):
+                k = (m["set_code"], normalize(m["en_name"]),
+                     _VT_TO_KEY.get(m["variant_type"], m["variant_type"].lower().replace(" ", "_")))
+                existing_manual_map[k] = m
+
+# Fusionne : entrées non couvertes + overrides préservés
+manual_result = []
+for entry in uncovered_entries:
+    pk = _VT_TO_KEY.get(entry["variant_type"], entry["variant_type"].lower().replace(" ", "_"))
+    k  = (entry["set_code"], normalize(entry["en_name"]), pk)
+    manual_result.append(existing_manual_map.get(k, entry))
+
+with open(MANUAL_PATH, "w") as f:
+    json.dump(manual_result, f, ensure_ascii=False, indent=2)
+
+n_filled = sum(1 for e in manual_result if e.get("idProduct"))
+print(f"✅ {MANUAL_PATH} mis à jour ({len(manual_result)} entrées, {n_filled} ID renseigné(s))")
 print("\nFin.")
