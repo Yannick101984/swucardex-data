@@ -1,0 +1,31 @@
+name: Récupérer price_guide Cardmarket
+
+on:
+  schedule:
+    - cron: "1 0 * * *"   # tous les jours à 00h01 UTC
+  workflow_dispatch:       # déclenchement manuel depuis GitHub
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Télécharger price_guide.json
+        run: |
+          curl -sSL "https://downloads.s3.cardmarket.com/productCatalog/priceGuide/price_guide_21.json" \
+            -o cardmarket/price_guide.json
+
+      - name: Commit et push si modifié
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add cardmarket/price_guide.json
+          git diff --cached --quiet && echo "Aucun changement." || (
+            git commit -m "Auto: price_guide Cardmarket mis à jour [$(date '+%Y-%m-%d')]"
+            git push
+          )
