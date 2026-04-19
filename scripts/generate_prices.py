@@ -170,11 +170,17 @@ def cm_name_to_card_name(cm_name):
 def price_entry(price_dict):
     if not price_dict:
         return {}
+    avg = price_dict.get("avg")
+    avg_foil = price_dict.get("avg-foil")
+    # Pour les variantes foil-only (showcase, prestige, etc.), avg est null dans CM
+    # mais le prix réel est dans avg-foil. On le copie dans avg pour une lecture uniforme.
+    if avg is None and avg_foil is not None:
+        avg = avg_foil
     return {
-        "avg":         price_dict.get("avg"),
+        "avg":         avg,
         "low":         price_dict.get("low"),
         "trend":       price_dict.get("trend"),
-        "avg_foil":    price_dict.get("avg-foil"),
+        "avg_foil":    avg_foil,
         "low_foil":    price_dict.get("low-foil"),
         "trend_foil":  price_dict.get("trend-foil"),
         "avg1":        price_dict.get("avg1"),
