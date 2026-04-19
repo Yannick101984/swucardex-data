@@ -108,7 +108,7 @@
     },
     {
       "id": "secw",
-      "code": "SECP",
+      "code": "SECW",
       "name": "Secrets du Pouvoir Weekly Play",
       "type": "special",
       "order": 2,
