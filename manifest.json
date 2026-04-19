@@ -107,8 +107,8 @@
       "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/lawp.json"
     },
     {
-      "id": "secw",
-      "code": "SECW",
+      "id": "secp",
+      "code": "SECP",
       "name": "Secrets du Pouvoir Weekly Play",
       "type": "special",
       "order": 2,
