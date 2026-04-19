@@ -459,48 +459,67 @@ for key, swu_info in swu_cards.items():
         pass  # Ces sets n'ont pas d'expansion "variants" CM
 
     elif is_old_set:
-        # Anciens sets (SOR/SHD/TWI) : matching positionnel
-        # Les produits CM sont triés par idProduct : d'abord les variantes non-foil
-        # (Hyperspace, Standard Prestige), puis les variantes foil (Showcase, etc.)
-        # Un même produit couvre à la fois la variante non-foil (avg) ET foil (avg-foil)
-        all_sorted = sorted(cm_data["variants"], key=lambda x: x[0])
-        is_leader  = card_type == "Leader"
+        # Anciens sets (SOR/SHD/TWI) : split foil/non-foil
+        all_sorted  = sorted(cm_data["variants"], key=lambda x: x[0])
+        is_leader   = card_type == "Leader"
+        foil_prods  = [(idp, pr) for idp, pr, _ in all_sorted if is_foil_only(pr)]
+        nf_prods    = [(idp, pr) for idp, pr, _ in all_sorted if is_nonfoil_only(pr)]
+        both_prods  = [(idp, pr) for idp, pr, _ in all_sorted
+                       if not is_foil_only(pr) and not is_nonfoil_only(pr)]
+
         foil_order = _OLD_VT_FOIL_ORDER_LDR if is_leader else _OLD_VT_FOIL_ORDER
         nf_seq   = [_VT_TO_KEY[vt] for vt in _OLD_VT_NONFOIL_ORDER if vt in variant_types]
         foil_seq = [_VT_TO_KEY[vt] for vt in foil_order            if vt in variant_types]
 
-        # Étendre foil_seq si plus de produits que prévu
-        n_expected = len(nf_seq) + len(foil_seq)
-        if len(all_sorted) > n_expected:
+        # Clés valides pour cette carte (évite d'assigner hyperspace_foil à un leader)
+        valid_price_keys = {_VT_TO_KEY[vt] for vt in variant_types if vt in _VT_TO_KEY}
+        _NF_TO_FOIL_KEY  = {"hyperspace": "hyperspace_foil", "standard_prestige": "foil_prestige"}
+
+        # Cas normal : les produits sont différentiables par foil/non-foil
+        for rank, (idp, pr) in enumerate(nf_prods + both_prods):
+            if pr.get("avg") is None:
+                continue
+            if rank < len(nf_seq):
+                k = nf_seq[rank]
+                if k not in prices_out:
+                    prices_out[k] = {"idProduct": idp, **price_entry(pr)}
+
+        # Foil d'un produit "both" (ex: Hyperspace Foil = avg-foil du produit Hyperspace)
+        for idp, pr in both_prods:
+            foil_k = _NF_TO_FOIL_KEY.get(nf_seq[0]) if nf_seq else None
+            if (foil_k and foil_k in valid_price_keys
+                    and pr.get("avg-foil") is not None and foil_k not in prices_out):
+                prices_out[foil_k] = {"idProduct": idp, **price_entry(pr)}
+
+        if len(foil_prods) > len(foil_seq):
             for vt in foil_order:
                 k = _VT_TO_KEY[vt]
                 if k not in foil_seq:
                     foil_seq.append(k)
-                if len(nf_seq) + len(foil_seq) >= len(all_sorted):
+                if len(foil_seq) >= len(foil_prods):
                     break
 
-        # Correspondance non-foil → sa contrepartie foil pour le même produit
-        _NF_TO_FOIL_KEY = {"hyperspace": "hyperspace_foil", "standard_prestige": "foil_prestige"}
-        # Clés de prix effectivement attendues pour cette carte
-        valid_price_keys = {_VT_TO_KEY[vt] for vt in variant_types if vt in _VT_TO_KEY}
-
-        n_nf = len(nf_seq)
-        for rank, (idp, pr, _) in enumerate(all_sorted):
-            if rank < n_nf:
-                # Slot non-foil : le produit couvre la variante NF et éventuellement sa version foil
-                k = nf_seq[rank]
+        for rank, (idp, pr) in enumerate(foil_prods):
+            if rank < len(foil_seq):
+                k = foil_seq[rank]
                 if k not in prices_out:
                     prices_out[k] = {"idProduct": idp, **price_entry(pr)}
-                foil_k = _NF_TO_FOIL_KEY.get(k)
-                if (foil_k and foil_k in valid_price_keys
-                        and pr.get("avg-foil") is not None and foil_k not in prices_out):
-                    prices_out[foil_k] = {"idProduct": idp, **price_entry(pr)}
-            else:
-                fi = rank - n_nf
-                if fi < len(foil_seq):
-                    k = foil_seq[fi]
+
+        # Fallback positionnel : quand TOUS les produits sont foil-only et que nf_seq
+        # n'a pas été rempli (ex : leader dont tous les produits variants sont foil-only).
+        # On prend les premiers produits foil_prods non déjà assignés pour nf_seq.
+        if nf_seq and all(k not in prices_out for k in nf_seq):
+            assigned_ids = {v["idProduct"] for v in prices_out.values()}
+            spare = [(idp, pr) for idp, pr in foil_prods if idp not in assigned_ids]
+            for rank, k in enumerate(nf_seq):
+                if rank < len(spare):
+                    idp, pr = spare[rank]
                     if k not in prices_out:
                         prices_out[k] = {"idProduct": idp, **price_entry(pr)}
+                    foil_k = _NF_TO_FOIL_KEY.get(k)
+                    if (foil_k and foil_k in valid_price_keys
+                            and pr.get("avg-foil") is not None and foil_k not in prices_out):
+                        prices_out[foil_k] = {"idProduct": idp, **price_entry(pr)}
 
     else:
         # Nouveaux sets (JTL+) : matching positionnel
