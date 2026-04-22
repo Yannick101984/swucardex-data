@@ -58,13 +58,13 @@ EXPANSION_MAP_CONFIRMED = {
     # SOR
     5618: ("SOR",  "standard"), 5638: ("SOR",  "variants"),
     5626: ("SOR",  "multi"),    # C24 + C25 + GG mélangés
-    5688: ("SOR",  "ignored"),  # Promos store SOR non trackées dans SWU
+    5688: ("SOR",  "weekly_promo"),  # Promos store SOR : Weekly Play + tournois
     # SHD
     5769: ("SHD",  "standard"), 5781: ("SHD",  "variants"),
-    5839: ("SHD",  "ignored"),  # Promos store SHD
+    5839: ("SHD",  "weekly_promo"),  # Promos store SHD : Weekly Play + tournois
     # TWI
     5888: ("TWI",  "standard"), 5937: ("TWI",  "variants"),
-    5939: ("TWI",  "ignored"),  # Promos store TWI
+    5939: ("TWI",  "weekly_promo"),  # Promos store TWI : Weekly Play + tournois
     # JTL
     5995: ("JTL",  "standard"), 6074: ("JTL",  "variants"),
     6075: ("JTLW", "standard"), # Weekly Play JTL → remappe sur JTLW
@@ -384,7 +384,7 @@ for (sc, norm), entry in swu_cards.items():
 # ── Groupement des produits CM par (set_code, norm_name) ─────────────────────
 print("\nGroupement produits CM...")
 
-cm_by_card = defaultdict(lambda: {"standard": [], "variants": [], "special": []})
+cm_by_card = defaultdict(lambda: {"standard": [], "variants": [], "special": [], "weekly": []})
 unmapped_exp  = Counter()
 multi_matched = Counter()   # (exp_id, set_code) → nb produits matchés
 multi_orphans = []           # produits multi non matchés
@@ -403,6 +403,16 @@ for prod in singles_data["products"]:
     card_name = cm_name_to_card_name(prod["name"])
     norm      = normalize(card_name)
     price     = cm_prices.get(prod["idProduct"], {})
+
+    if role == "weekly_promo":
+        # Seulement si la carte SWU a une variante Weekly Play
+        swu_entry = swu_cards.get((set_code, norm))
+        if swu_entry and ("Weekly Play" in swu_entry["variant_types"]
+                          or "Weekly Play Foil" in swu_entry["variant_types"]):
+            cm_by_card[(set_code, norm)]["weekly"].append(
+                (prod["idProduct"], price, prod["name"])
+            )
+        continue
 
     if role == "multi":
         # Chercher le set_code SWU par priorité
@@ -465,7 +475,7 @@ for key, swu_info in swu_cards.items():
     card_type       = swu_info["card_type"]
     variant_types   = swu_info["variant_types"]
     all_variants    = swu_info["all_variants"]
-    cm_data         = cm_by_card.get(key, {"standard": [], "variants": [], "special": []})
+    cm_data         = cm_by_card.get(key, {"standard": [], "variants": [], "special": [], "weekly": []})
 
     prices_out = {}
     is_old_set    = set_code in OLD_SETS
@@ -498,6 +508,19 @@ for key, swu_info in swu_cards.items():
             if _has_foil_price(pr) and foil_key not in prices_out and foil_key != std_key:
                 _pe = foil_price_entry if (is_old_set and card_type != "Leader") else price_entry
                 prices_out[foil_key] = {"idProduct": idp, **_pe(pr)}
+
+    # ── Weekly Play (anciens sets SOR/SHD/TWI) ─────────────────────────────
+    if is_old_set and cm_data["weekly"]:
+        for idp, pr, _ in sorted(cm_data["weekly"], key=lambda x: x[0]):
+            if is_foil_only(pr):
+                if "weekly_play_foil" not in prices_out:
+                    prices_out["weekly_play_foil"] = {"idProduct": idp, **price_entry(pr)}
+            else:
+                if "weekly_play" not in prices_out:
+                    prices_out["weekly_play"] = {"idProduct": idp, **price_entry(pr)}
+                if _has_foil_price(pr) and "weekly_play_foil" not in prices_out:
+                    _pe = foil_price_entry if card_type != "Leader" else price_entry
+                    prices_out["weekly_play_foil"] = {"idProduct": idp, **_pe(pr)}
 
     # ── Expansion Variants ──────────────────────────────────────────────────
     if is_special or is_weekly:

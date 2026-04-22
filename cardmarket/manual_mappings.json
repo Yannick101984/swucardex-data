@@ -1297,14 +1297,6 @@
   },
   {
     "set_code": "SHD",
-    "en_name": "Nite Owl Skirmisher",
-    "card_number": 1,
-    "variant_type": "Weekly Play",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
     "en_name": "Doctor Evazan, Wanted on Twelve Systems",
     "card_number": 2,
     "variant_type": "PQ Top 16",
@@ -1348,14 +1340,6 @@
     "en_name": "Shield",
     "card_number": 2,
     "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Take Captive",
-    "card_number": 2,
-    "variant_type": "Weekly Play",
     "idProduct": null,
     "note": ""
   },
@@ -1412,22 +1396,6 @@
     "en_name": "Experience",
     "card_number": 3,
     "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Weequay Pirate Gang",
-    "card_number": 3,
-    "variant_type": "Weekly Play",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Pyke Sentinel",
-    "card_number": 4,
-    "variant_type": "Weekly Play",
     "idProduct": null,
     "note": ""
   },
@@ -1492,134 +1460,6 @@
     "en_name": "Phase-III Dark Trooper",
     "card_number": 12,
     "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Relentless Pursuit",
-    "card_number": 13,
-    "variant_type": "Weekly Play",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Relentless Pursuit",
-    "card_number": 13,
-    "variant_type": "Weekly Play Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Cloud-Rider",
-    "card_number": 14,
-    "variant_type": "Weekly Play",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Cloud-Rider",
-    "card_number": 14,
-    "variant_type": "Weekly Play Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Enfys Nest, Marauder",
-    "card_number": 15,
-    "variant_type": "Weekly Play",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Enfys Nest, Marauder",
-    "card_number": 15,
-    "variant_type": "Weekly Play Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Millennium Falcon, Lando's Pride",
-    "card_number": 16,
-    "variant_type": "Weekly Play",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Millennium Falcon, Lando's Pride",
-    "card_number": 16,
-    "variant_type": "Weekly Play Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "IG-11, I Cannot Be Captured",
-    "card_number": 17,
-    "variant_type": "Weekly Play",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "IG-11, I Cannot Be Captured",
-    "card_number": 17,
-    "variant_type": "Weekly Play Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Jango Fett, Renowned Bounty Hunter",
-    "card_number": 18,
-    "variant_type": "Weekly Play",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Jango Fett, Renowned Bounty Hunter",
-    "card_number": 18,
-    "variant_type": "Weekly Play Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Remnant Reserves",
-    "card_number": 19,
-    "variant_type": "Weekly Play",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Remnant Reserves",
-    "card_number": 19,
-    "variant_type": "Weekly Play Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Kuiil, I Have Spoken",
-    "card_number": 20,
-    "variant_type": "Weekly Play",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Kuiil, I Have Spoken",
-    "card_number": 20,
-    "variant_type": "Weekly Play Foil",
     "idProduct": null,
     "note": ""
   },
@@ -1785,14 +1625,6 @@
   },
   {
     "set_code": "SOR",
-    "en_name": "Green Squadron A-Wing",
-    "card_number": 2,
-    "variant_type": "Weekly Play",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
     "en_name": "Luke Skywalker, Faithful Friend",
     "card_number": 2,
     "variant_type": "Prerelease Promo",
@@ -1844,14 +1676,6 @@
     "en_name": "Experience",
     "card_number": 3,
     "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "Waylay",
-    "card_number": 3,
-    "variant_type": "Weekly Play",
     "idProduct": null,
     "note": ""
   },
@@ -1924,142 +1748,6 @@
     "en_name": "Leia Organa, Defiant Princess",
     "card_number": 11,
     "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "Resupply",
-    "card_number": 12,
-    "variant_type": "Weekly Play Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "Death Star Stormtrooper",
-    "card_number": 13,
-    "variant_type": "Weekly Play",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "Death Star Stormtrooper",
-    "card_number": 13,
-    "variant_type": "Weekly Play Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "Death Trooper",
-    "card_number": 14,
-    "variant_type": "Weekly Play",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "Death Trooper",
-    "card_number": 14,
-    "variant_type": "Weekly Play Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "Bossk, Deadly Stalker",
-    "card_number": 15,
-    "variant_type": "Weekly Play",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "Bossk, Deadly Stalker",
-    "card_number": 15,
-    "variant_type": "Weekly Play Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "Yoda, Old Master",
-    "card_number": 16,
-    "variant_type": "Weekly Play",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "Yoda, Old Master",
-    "card_number": 16,
-    "variant_type": "Weekly Play Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "Sabine Wren, Explosives Artist",
-    "card_number": 17,
-    "variant_type": "Weekly Play",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "Sabine Wren, Explosives Artist",
-    "card_number": 17,
-    "variant_type": "Weekly Play Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "Greedo, Slow on the Draw",
-    "card_number": 18,
-    "variant_type": "Weekly Play",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "Greedo, Slow on the Draw",
-    "card_number": 18,
-    "variant_type": "Weekly Play Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "General Dodonna, Massassi Group Commander",
-    "card_number": 19,
-    "variant_type": "Weekly Play",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "General Dodonna, Massassi Group Commander",
-    "card_number": 19,
-    "variant_type": "Weekly Play Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "General Veers, Blizzard Force Commander",
-    "card_number": 20,
-    "variant_type": "Weekly Play",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "General Veers, Blizzard Force Commander",
-    "card_number": 20,
-    "variant_type": "Weekly Play Foil",
     "idProduct": null,
     "note": ""
   },
@@ -2889,14 +2577,6 @@
   },
   {
     "set_code": "TWI",
-    "en_name": "Perilous Position",
-    "card_number": 1,
-    "variant_type": "Weekly Play",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
     "en_name": "Savage Opress, Monster",
     "card_number": 1,
     "variant_type": "SS Participation",
@@ -2940,14 +2620,6 @@
     "en_name": "Clone Trooper",
     "card_number": 2,
     "variant_type": "Standard Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "Droideka Security",
-    "card_number": 2,
-    "variant_type": "Weekly Play",
     "idProduct": null,
     "note": ""
   },
@@ -3121,169 +2793,9 @@
   },
   {
     "set_code": "TWI",
-    "en_name": "B1 Security Team",
-    "card_number": 11,
-    "variant_type": "Weekly Play",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "B1 Security Team",
-    "card_number": 11,
-    "variant_type": "Weekly Play Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "Clone Cohort",
-    "card_number": 12,
-    "variant_type": "Weekly Play",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "Clone Cohort",
-    "card_number": 12,
-    "variant_type": "Weekly Play Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "Confederate Courier",
-    "card_number": 13,
-    "variant_type": "Weekly Play",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "Confederate Courier",
-    "card_number": 13,
-    "variant_type": "Weekly Play Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "Disruptive Burst",
-    "card_number": 14,
-    "variant_type": "Weekly Play",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "Disruptive Burst",
-    "card_number": 14,
-    "variant_type": "Weekly Play Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
     "en_name": "General Grievous, General of the Droid Armies",
     "card_number": 15,
     "variant_type": "Prerelease Judge",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "Shaak Ti, Unity Wins Wars",
-    "card_number": 15,
-    "variant_type": "Weekly Play",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "Shaak Ti, Unity Wins Wars",
-    "card_number": 15,
-    "variant_type": "Weekly Play Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "Kalani, Analytical General",
-    "card_number": 16,
-    "variant_type": "Weekly Play",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "Kalani, Analytical General",
-    "card_number": 16,
-    "variant_type": "Weekly Play Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "R2-D2, Full of Solutions",
-    "card_number": 17,
-    "variant_type": "Weekly Play",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "R2-D2, Full of Solutions",
-    "card_number": 17,
-    "variant_type": "Weekly Play Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "Hello There",
-    "card_number": 18,
-    "variant_type": "Weekly Play",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "Hello There",
-    "card_number": 18,
-    "variant_type": "Weekly Play Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "On Top of Things",
-    "card_number": 19,
-    "variant_type": "Weekly Play",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "On Top of Things",
-    "card_number": 19,
-    "variant_type": "Weekly Play Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "Battle Droid Legion",
-    "card_number": 20,
-    "variant_type": "Weekly Play",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "Battle Droid Legion",
-    "card_number": 20,
-    "variant_type": "Weekly Play Foil",
     "idProduct": null,
     "note": ""
   },
