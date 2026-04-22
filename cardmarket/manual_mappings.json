@@ -2553,6 +2553,14 @@
   },
   {
     "set_code": "SOR",
+    "en_name": "Leia Organa, Defiant Princess",
+    "card_number": 11,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
     "en_name": "Resupply",
     "card_number": 12,
     "variant_type": "Weekly Play Foil",
@@ -2573,22 +2581,6 @@
     "card_number": 13,
     "variant_type": "Weekly Play Foil",
     "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "Death Trooper",
-    "card_number": 14,
-    "variant_type": "Weekly Play",
-    "idProduct": 760865,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "Death Trooper",
-    "card_number": 14,
-    "variant_type": "Weekly Play Foil",
-    "idProduct": 760865,
     "note": ""
   },
   {
