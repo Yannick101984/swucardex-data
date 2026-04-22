@@ -202,6 +202,23 @@ def price_entry(price_dict):
         "avg30_foil":  price_dict.get("avg30-foil"),
     }
 
+def foil_price_entry(price_dict):
+    """Prix foil promus en champs primaires — pour Standard Foil / Hyperspace Foil des anciens sets."""
+    return {
+        "avg":         price_dict.get("avg-foil"),
+        "low":         price_dict.get("low-foil"),
+        "trend":       price_dict.get("trend-foil"),
+        "avg_foil":    price_dict.get("avg-foil"),
+        "low_foil":    price_dict.get("low-foil"),
+        "trend_foil":  price_dict.get("trend-foil"),
+        "avg1":        price_dict.get("avg1-foil"),
+        "avg7":        price_dict.get("avg7-foil"),
+        "avg30":       price_dict.get("avg30-foil"),
+        "avg1_foil":   price_dict.get("avg1-foil"),
+        "avg7_foil":   price_dict.get("avg7-foil"),
+        "avg30_foil":  price_dict.get("avg30-foil"),
+    }
+
 def is_foil_only(pd):
     if pd.get("avg-foil") is not None:
         return pd.get("avg") is None
@@ -469,7 +486,8 @@ for key, swu_info in swu_cards.items():
                 prices_out[std_key] = {"idProduct": idp, **price_entry(pr)}
             # Anciens sets / multi-prods : avg-foil dans même produit
             if pr.get("avg-foil") and foil_key not in prices_out and foil_key != std_key:
-                prices_out[foil_key] = {"idProduct": idp, **price_entry(pr)}
+                _pe = foil_price_entry if (is_old_set and card_type != "Leader") else price_entry
+                prices_out[foil_key] = {"idProduct": idp, **_pe(pr)}
 
     # ── Expansion Variants ──────────────────────────────────────────────────
     if is_special or is_weekly:
@@ -506,7 +524,8 @@ for key, swu_info in swu_cards.items():
             foil_k = _NF_TO_FOIL_KEY.get(nf_seq[0]) if nf_seq else None
             if (foil_k and foil_k in valid_price_keys
                     and pr.get("avg-foil") is not None and foil_k not in prices_out):
-                prices_out[foil_k] = {"idProduct": idp, **price_entry(pr)}
+                _pe = foil_price_entry if not is_leader else price_entry
+                prices_out[foil_k] = {"idProduct": idp, **_pe(pr)}
 
         if len(foil_prods) > len(foil_seq):
             for vt in foil_order:
