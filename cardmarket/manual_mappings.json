@@ -2513,6 +2513,14 @@
   },
   {
     "set_code": "SOR",
+    "en_name": "Grand Moff Tarkin, Death Star Overseer",
+    "card_number": 6,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
     "en_name": "Admiral Motti, Brazen and Scornful",
     "card_number": 7,
     "variant_type": "Hyperspace",
@@ -2541,14 +2549,6 @@
     "card_number": 10,
     "variant_type": "Hyperspace",
     "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "Leia Organa, Defiant Princess",
-    "card_number": 11,
-    "variant_type": "Hyperspace",
-    "idProduct": 760862,
     "note": ""
   },
   {

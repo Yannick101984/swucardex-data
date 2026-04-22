@@ -5388,21 +5388,6 @@
           "avg1_foil": null,
           "avg7_foil": null,
           "avg30_foil": null
-        },
-        "hyperspace": {
-          "idProduct": 760857,
-          "avg": 0.11,
-          "low": 0.02,
-          "trend": 0.13,
-          "avg_foil": null,
-          "low_foil": null,
-          "trend_foil": 0,
-          "avg1": 0.15,
-          "avg7": 0.06,
-          "avg30": 0.12,
-          "avg1_foil": null,
-          "avg7_foil": null,
-          "avg30_foil": null
         }
       }
     },
@@ -12546,6 +12531,21 @@
           "avg1": 0.99,
           "avg7": 0.41,
           "avg30": 0.38,
+          "avg1_foil": null,
+          "avg7_foil": null,
+          "avg30_foil": null
+        },
+        "hyperspace": {
+          "idProduct": 760862,
+          "avg": 0.12,
+          "low": 0.02,
+          "trend": 0.14,
+          "avg_foil": null,
+          "low_foil": null,
+          "trend_foil": 0,
+          "avg1": 0.35,
+          "avg7": 0.12,
+          "avg30": 0.14,
           "avg1_foil": null,
           "avg7_foil": null,
           "avg30_foil": null
