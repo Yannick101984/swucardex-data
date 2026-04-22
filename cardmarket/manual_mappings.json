@@ -2033,6 +2033,14 @@
   },
   {
     "set_code": "SHD",
+    "en_name": "Rose Tico, Dedicated to the Cause",
+    "card_number": 320,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
     "en_name": "Gentle Giant",
     "card_number": 323,
     "variant_type": "Hyperspace Foil",
@@ -2067,6 +2075,14 @@
     "set_code": "SHD",
     "en_name": "Warbird Stowaway",
     "card_number": 355,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
+    "en_name": "Echo, Restored",
+    "card_number": 368,
     "variant_type": "Hyperspace Foil",
     "idProduct": null,
     "note": ""
@@ -2339,6 +2355,14 @@
     "set_code": "SHD",
     "en_name": "Twin Pod Cloud Car",
     "card_number": 520,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
+    "en_name": "Street Gang Recruiter",
+    "card_number": 521,
     "variant_type": "Hyperspace Foil",
     "idProduct": null,
     "note": ""
@@ -2993,6 +3017,14 @@
   },
   {
     "set_code": "SOR",
+    "en_name": "Traitorous",
+    "card_number": 386,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
     "en_name": "Strike True",
     "card_number": 391,
     "variant_type": "Hyperspace Foil",
@@ -3011,6 +3043,14 @@
     "set_code": "SOR",
     "en_name": "Ruthless Raider",
     "card_number": 398,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
+    "en_name": "Fallen Lightsaber",
+    "card_number": 400,
     "variant_type": "Hyperspace Foil",
     "idProduct": null,
     "note": ""
@@ -3115,6 +3155,14 @@
     "set_code": "SOR",
     "en_name": "Rogue Operative",
     "card_number": 456,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
+    "en_name": "Chewbacca, Loyal Companion",
+    "card_number": 458,
     "variant_type": "Hyperspace Foil",
     "idProduct": null,
     "note": ""
@@ -4585,6 +4633,14 @@
   },
   {
     "set_code": "TWI",
+    "en_name": "Steadfast Senator",
+    "card_number": 376,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
     "en_name": "Baktoid Spider Droid",
     "card_number": 387,
     "variant_type": "Hyperspace Foil",
@@ -4708,14 +4764,6 @@
     "en_name": "Jar Jar Binks, Foolish Gungan",
     "card_number": 467,
     "variant_type": "Hyperspace Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "Chancellor Palpatine, Wartime Chancellor",
-    "card_number": 468,
-    "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
   },
