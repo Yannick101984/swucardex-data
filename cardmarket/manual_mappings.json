@@ -112,6 +112,14 @@
     "note": ""
   },
   {
+    "set_code": "LAWP",
+    "en_name": "Haymaker",
+    "card_number": 14,
+    "variant_type": "Weekly Play",
+    "idProduct": null,
+    "note": ""
+  },
+  {
     "set_code": "LOF",
     "en_name": "Experience",
     "card_number": 1,
@@ -1617,377 +1625,9 @@
   },
   {
     "set_code": "SHD",
-    "en_name": "Hylobon Enforcer",
-    "card_number": 27,
-    "variant_type": "Standard Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "The Client, Dictated by Discretion",
-    "card_number": 31,
-    "variant_type": "Standard Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Synara San, Loyal to Kragan",
-    "card_number": 33,
-    "variant_type": "Standard Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Supercommando Squad",
-    "card_number": 34,
-    "variant_type": "Standard Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Clan Saxon Gauntlet",
-    "card_number": 35,
-    "variant_type": "Standard Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Kuiil, I Have Spoken",
-    "card_number": 41,
-    "variant_type": "Standard Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Gentle Giant",
-    "card_number": 48,
-    "variant_type": "Standard Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Niima Outpost Constables",
-    "card_number": 62,
-    "variant_type": "Standard Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Fenn Rau, Protector of Concord Dawn",
-    "card_number": 67,
-    "variant_type": "Standard Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Top Target",
-    "card_number": 71,
-    "variant_type": "Standard Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Imprisoned",
-    "card_number": 72,
-    "variant_type": "Standard Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Vambrace Grappleshot",
-    "card_number": 74,
-    "variant_type": "Standard Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Covert Strength",
-    "card_number": 75,
-    "variant_type": "Standard Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Evidence of the Crime",
-    "card_number": 77,
-    "variant_type": "Standard Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Outland TIE Vanguard",
-    "card_number": 82,
-    "variant_type": "Standard Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Warbird Stowaway",
-    "card_number": 86,
-    "variant_type": "Standard Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Pirate Battle Tank",
-    "card_number": 89,
-    "variant_type": "Standard Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Freetown Backup",
-    "card_number": 97,
-    "variant_type": "Standard Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Spark of Hope",
-    "card_number": 105,
-    "variant_type": "Standard Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Gamorrean Retainer",
-    "card_number": 112,
-    "variant_type": "Standard Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Scanning Officer",
-    "card_number": 114,
-    "variant_type": "Standard Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Discerning Veteran",
-    "card_number": 120,
-    "variant_type": "Standard Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Commission",
-    "card_number": 127,
-    "variant_type": "Standard Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Outflank",
-    "card_number": 128,
-    "variant_type": "Standard Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Moment of Glory",
-    "card_number": 130,
-    "variant_type": "Standard Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Choose Sides",
-    "card_number": 132,
-    "variant_type": "Standard Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Trandoshan Hunters",
-    "card_number": 140,
-    "variant_type": "Standard Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Headhunting",
-    "card_number": 145,
-    "variant_type": "Standard Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Ketsu Onyo, Old Friend",
-    "card_number": 147,
-    "variant_type": "Standard Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Valiant Assault Ship",
-    "card_number": 151,
-    "variant_type": "Standard Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "The Chaos of War",
-    "card_number": 159,
-    "variant_type": "Standard Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Unlicensed Headhunter",
-    "card_number": 165,
-    "variant_type": "Standard Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Hunting Nexu",
-    "card_number": 168,
-    "variant_type": "Standard Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Covetous Rivals",
-    "card_number": 171,
-    "variant_type": "Standard Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Bravado",
-    "card_number": 182,
-    "variant_type": "Standard Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Cartel Turncoat",
-    "card_number": 195,
-    "variant_type": "Standard Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Smuggler's Starfighter",
-    "card_number": 215,
-    "variant_type": "Standard Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Chain Code Collector",
-    "card_number": 216,
-    "variant_type": "Standard Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Resourceful Pursuers",
-    "card_number": 218,
-    "variant_type": "Standard Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Look the Other Way",
-    "card_number": 227,
-    "variant_type": "Standard Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Bounty Posting",
-    "card_number": 228,
-    "variant_type": "Standard Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Evacuate",
-    "card_number": 233,
-    "variant_type": "Standard Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Hutt's Henchmen",
-    "card_number": 240,
-    "variant_type": "Standard Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "No Bargain",
-    "card_number": 244,
-    "variant_type": "Standard Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Protector of the Throne",
-    "card_number": 247,
-    "variant_type": "Standard Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
     "en_name": "The Client, Dictated by Discretion",
     "card_number": 308,
     "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Lom Pyke, Dealer in Truths",
-    "card_number": 309,
-    "variant_type": "Hyperspace Foil",
     "idProduct": null,
     "note": ""
   },
@@ -2001,30 +1641,6 @@
   },
   {
     "set_code": "SHD",
-    "en_name": "Supreme Leader Snoke, Shadow Ruler",
-    "card_number": 314,
-    "variant_type": "Hyperspace Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Brutal Traditions",
-    "card_number": 315,
-    "variant_type": "Hyperspace Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Clan Wren Rescuer",
-    "card_number": 316,
-    "variant_type": "Hyperspace Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
     "en_name": "Kuiil, I Have Spoken",
     "card_number": 317,
     "variant_type": "Hyperspace",
@@ -2033,65 +1649,9 @@
   },
   {
     "set_code": "SHD",
-    "en_name": "Rose Tico, Dedicated to the Cause",
-    "card_number": 320,
-    "variant_type": "Hyperspace Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Gentle Giant",
-    "card_number": 323,
-    "variant_type": "Hyperspace Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Moisture Farmer",
-    "card_number": 330,
-    "variant_type": "Hyperspace Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
     "en_name": "Follower of The Way",
     "card_number": 331,
     "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Covert Strength",
-    "card_number": 348,
-    "variant_type": "Hyperspace Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Warbird Stowaway",
-    "card_number": 355,
-    "variant_type": "Hyperspace Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Echo, Restored",
-    "card_number": 368,
-    "variant_type": "Hyperspace Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Gamorrean Retainer",
-    "card_number": 381,
-    "variant_type": "Hyperspace Foil",
     "idProduct": null,
     "note": ""
   },
@@ -2113,41 +1673,9 @@
   },
   {
     "set_code": "SHD",
-    "en_name": "The Darksaber",
-    "card_number": 395,
-    "variant_type": "Hyperspace Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
     "en_name": "Commission",
     "card_number": 396,
     "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Moment of Glory",
-    "card_number": 399,
-    "variant_type": "Hyperspace Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Guavian Antagonizer",
-    "card_number": 403,
-    "variant_type": "Hyperspace Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Death Watch Loyalist",
-    "card_number": 405,
-    "variant_type": "Hyperspace Foil",
     "idProduct": null,
     "note": ""
   },
@@ -2161,30 +1689,6 @@
   },
   {
     "set_code": "SHD",
-    "en_name": "Nite Owl Skirmisher",
-    "card_number": 418,
-    "variant_type": "Hyperspace Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Cripple Authority",
-    "card_number": 425,
-    "variant_type": "Hyperspace Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Rhokai Gunship",
-    "card_number": 433,
-    "variant_type": "Hyperspace Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
     "en_name": "Disabling Fang Fighter",
     "card_number": 435,
     "variant_type": "Hyperspace",
@@ -2193,57 +1697,9 @@
   },
   {
     "set_code": "SHD",
-    "en_name": "Wanted Insurgents",
-    "card_number": 436,
-    "variant_type": "Hyperspace Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Hunting Nexu",
-    "card_number": 437,
-    "variant_type": "Hyperspace Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Guild Target",
-    "card_number": 442,
-    "variant_type": "Hyperspace Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Desperate Attack",
-    "card_number": 448,
-    "variant_type": "Hyperspace Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Detention Block Rescue",
-    "card_number": 449,
-    "variant_type": "Hyperspace Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
     "en_name": "Pillage",
     "card_number": 450,
     "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Kintan Intimidator",
-    "card_number": 452,
-    "variant_type": "Hyperspace Foil",
     "idProduct": null,
     "note": ""
   },
@@ -2265,57 +1721,9 @@
   },
   {
     "set_code": "SHD",
-    "en_name": "Frozen in Carbonite",
-    "card_number": 462,
-    "variant_type": "Hyperspace Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Coruscant Dissident",
-    "card_number": 467,
-    "variant_type": "Hyperspace Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Spare the Target",
-    "card_number": 474,
-    "variant_type": "Hyperspace Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Smuggler's Starfighter",
-    "card_number": 483,
-    "variant_type": "Hyperspace Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Tobias Beckett, I Trust No One",
-    "card_number": 485,
-    "variant_type": "Hyperspace Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
     "en_name": "Bounty Posting",
     "card_number": 495,
     "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Ma Klounkee",
-    "card_number": 496,
-    "variant_type": "Hyperspace Foil",
     "idProduct": null,
     "note": ""
   },
@@ -2332,46 +1740,6 @@
     "en_name": "Grey Squadron Y-Wing",
     "card_number": 508,
     "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Lady Proxima, White Worm Matriarch",
-    "card_number": 516,
-    "variant_type": "Hyperspace Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Mandalorian Warrior",
-    "card_number": 519,
-    "variant_type": "Hyperspace Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Twin Pod Cloud Car",
-    "card_number": 520,
-    "variant_type": "Hyperspace Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Street Gang Recruiter",
-    "card_number": 521,
-    "variant_type": "Hyperspace Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Rich Reward",
-    "card_number": 522,
-    "variant_type": "Hyperspace Foil",
     "idProduct": null,
     "note": ""
   },
@@ -2697,126 +2065,6 @@
   },
   {
     "set_code": "SOR",
-    "en_name": "Consular Security Force",
-    "card_number": 46,
-    "variant_type": "Standard Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "Cloud City Wing Guard",
-    "card_number": 63,
-    "variant_type": "Standard Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "Rugged Survivors",
-    "card_number": 67,
-    "variant_type": "Standard Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "Moment of Peace",
-    "card_number": 73,
-    "variant_type": "Standard Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "Blizzard Assault AT-AT",
-    "card_number": 88,
-    "variant_type": "Standard Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "Academy Training",
-    "card_number": 120,
-    "variant_type": "Standard Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "Hardpoint Heavy Blaster",
-    "card_number": 121,
-    "variant_type": "Standard Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "Admiral Ozzel, Overconfident",
-    "card_number": 129,
-    "variant_type": "Standard Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "Force Lightning",
-    "card_number": 138,
-    "variant_type": "Standard Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "Cantina Braggart",
-    "card_number": 157,
-    "variant_type": "Standard Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "Jedha Agitator",
-    "card_number": 158,
-    "variant_type": "Standard Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "Disarm",
-    "card_number": 216,
-    "variant_type": "Standard Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "Rebel Pathfinder",
-    "card_number": 239,
-    "variant_type": "Standard Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "Underworld Thug",
-    "card_number": 247,
-    "variant_type": "Standard Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "Volunteer Soldier",
-    "card_number": 248,
-    "variant_type": "Standard Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
     "en_name": "Security Complex",
     "card_number": 285,
     "variant_type": "Hyperspace Foil",
@@ -2849,62 +2097,6 @@
   },
   {
     "set_code": "SOR",
-    "en_name": "Death Trooper",
-    "card_number": 299,
-    "variant_type": "Hyperspace Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "Luke Skywalker, Jedi Knight",
-    "card_number": 317,
-    "variant_type": "Hyperspace Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "Distant Patroller",
-    "card_number": 325,
-    "variant_type": "Hyperspace Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "Regional Governor",
-    "card_number": 327,
-    "variant_type": "Hyperspace Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "Rugged Survivors",
-    "card_number": 332,
-    "variant_type": "Hyperspace Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "Resilient",
-    "card_number": 334,
-    "variant_type": "Hyperspace Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "Moment of Peace",
-    "card_number": 338,
-    "variant_type": "Hyperspace Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
     "en_name": "Repair",
     "card_number": 339,
     "variant_type": "Hyperspace Foil",
@@ -2921,64 +2113,8 @@
   },
   {
     "set_code": "SOR",
-    "en_name": "General Tagge, Concerned Commander",
-    "card_number": 345,
-    "variant_type": "Hyperspace Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "Rukh, Thrawn's Assassin",
-    "card_number": 349,
-    "variant_type": "Hyperspace Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "Gladiator Star Destroyer",
-    "card_number": 350,
-    "variant_type": "Hyperspace Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "Devastator, Inescapable",
-    "card_number": 354,
-    "variant_type": "Hyperspace Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "Mon Mothma, Voice Of The Rebellion",
-    "card_number": 360,
-    "variant_type": "Hyperspace Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "Admiral Ackbar, Brilliant Strategist",
-    "card_number": 361,
-    "variant_type": "Hyperspace Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
     "en_name": "Wedge Antilles, Star of the Rebellion",
     "card_number": 364,
-    "variant_type": "Hyperspace Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "Home One, Alliance Flagship",
-    "card_number": 366,
     "variant_type": "Hyperspace Foil",
     "idProduct": null,
     "note": ""
@@ -2993,88 +2129,8 @@
   },
   {
     "set_code": "SOR",
-    "en_name": "Agent Kallus, Seeking the Rebels",
-    "card_number": 379,
-    "variant_type": "Hyperspace Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "Mercenary Company",
-    "card_number": 381,
-    "variant_type": "Hyperspace Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "Reinforcement Walker",
-    "card_number": 383,
-    "variant_type": "Hyperspace Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "Traitorous",
-    "card_number": 386,
-    "variant_type": "Hyperspace Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "Strike True",
-    "card_number": 391,
-    "variant_type": "Hyperspace Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "Seventh Sister, Implacable Inquisitor",
-    "card_number": 397,
-    "variant_type": "Hyperspace Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
     "en_name": "Ruthless Raider",
     "card_number": 398,
-    "variant_type": "Hyperspace Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "Fallen Lightsaber",
-    "card_number": 400,
-    "variant_type": "Hyperspace Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "Sabine Wren, Explosives Artist",
-    "card_number": 405,
-    "variant_type": "Hyperspace Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "Heroic Sacrifice",
-    "card_number": 413,
-    "variant_type": "Hyperspace Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "Karabast",
-    "card_number": 414,
     "variant_type": "Hyperspace Foil",
     "idProduct": null,
     "note": ""
@@ -3089,89 +2145,9 @@
   },
   {
     "set_code": "SOR",
-    "en_name": "Disabling Fang Fighter",
-    "card_number": 425,
-    "variant_type": "Hyperspace Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "Power Failure",
-    "card_number": 433,
-    "variant_type": "Hyperspace Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "Bombing Run",
-    "card_number": 436,
-    "variant_type": "Hyperspace Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "Forced Surrender",
-    "card_number": 438,
-    "variant_type": "Hyperspace Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "ISB Agent",
-    "card_number": 439,
-    "variant_type": "Hyperspace Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "Cartel Spacer",
-    "card_number": 441,
-    "variant_type": "Hyperspace Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
     "en_name": "Chimaera, Flagship of the Seventh Fleet",
     "card_number": 448,
     "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "Vanguard Ace",
-    "card_number": 453,
-    "variant_type": "Hyperspace Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "Rogue Operative",
-    "card_number": 456,
-    "variant_type": "Hyperspace Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "Chewbacca, Loyal Companion",
-    "card_number": 458,
-    "variant_type": "Hyperspace Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "Han Solo, Reluctant Hero",
-    "card_number": 460,
-    "variant_type": "Hyperspace Foil",
     "idProduct": null,
     "note": ""
   },
@@ -3185,97 +2161,9 @@
   },
   {
     "set_code": "SOR",
-    "en_name": "Greedo, Slow on the Draw",
-    "card_number": 466,
-    "variant_type": "Hyperspace Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "Jawa Scavenger",
-    "card_number": 467,
-    "variant_type": "Hyperspace Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "Outer Rim Headhunter",
-    "card_number": 470,
-    "variant_type": "Hyperspace Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "Gamorrean Guards",
-    "card_number": 473,
-    "variant_type": "Hyperspace Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "Strafing Gunship",
-    "card_number": 474,
-    "variant_type": "Hyperspace Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "Disarm",
-    "card_number": 478,
-    "variant_type": "Hyperspace Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "Viper Probe Droid",
-    "card_number": 489,
-    "variant_type": "Hyperspace Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "Maximum Firepower",
-    "card_number": 494,
-    "variant_type": "Hyperspace Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
     "en_name": "Fleet Lieutenant",
     "card_number": 498,
     "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "General Dodonna, Massassi Group Commander",
-    "card_number": 500,
-    "variant_type": "Hyperspace Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "Snowspeeder",
-    "card_number": 502,
-    "variant_type": "Hyperspace Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "You're My Only Hope",
-    "card_number": 504,
-    "variant_type": "Hyperspace Foil",
     "idProduct": null,
     "note": ""
   },
@@ -4401,110 +3289,6 @@
   },
   {
     "set_code": "TWI",
-    "en_name": "Disruptive Burst",
-    "card_number": 75,
-    "variant_type": "Standard Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "Poggle the Lesser, Archduke of the Stalgasin Hive",
-    "card_number": 80,
-    "variant_type": "Standard Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "Clone",
-    "card_number": 116,
-    "variant_type": "Standard Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "Strategic Acumen",
-    "card_number": 120,
-    "variant_type": "Standard Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "Squad Support",
-    "card_number": 122,
-    "variant_type": "Standard Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "Self-Destruct",
-    "card_number": 140,
-    "variant_type": "Standard Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "Bold Resistance",
-    "card_number": 153,
-    "variant_type": "Standard Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "Hevy, Staunch Martyr",
-    "card_number": 164,
-    "variant_type": "Standard Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "Clone Cohort",
-    "card_number": 169,
-    "variant_type": "Standard Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "Hidden Sharpshooter",
-    "card_number": 214,
-    "variant_type": "Standard Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "Volunteer Soldier",
-    "card_number": 254,
-    "variant_type": "Standard Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "Shadow Collective Camp",
-    "card_number": 300,
-    "variant_type": "Hyperspace Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "Petranaki Arena",
-    "card_number": 303,
-    "variant_type": "Hyperspace Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
     "en_name": "Rune Haako, Scheming Second",
     "card_number": 304,
     "variant_type": "Hyperspace",
@@ -4521,57 +3305,9 @@
   },
   {
     "set_code": "TWI",
-    "en_name": "Providence Destroyer",
-    "card_number": 311,
-    "variant_type": "Hyperspace Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "Kashyyyk Defender",
-    "card_number": 317,
-    "variant_type": "Hyperspace Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "Obi-Wan's Aethersprite, This is Why I Hate Flying",
-    "card_number": 321,
-    "variant_type": "Hyperspace Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "Warrior Drone",
-    "card_number": 330,
-    "variant_type": "Hyperspace Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "Padawan Starfighter",
-    "card_number": 331,
-    "variant_type": "Hyperspace Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
     "en_name": "Multi-Troop Transport",
     "card_number": 339,
     "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "Roger Roger",
-    "card_number": 342,
-    "variant_type": "Hyperspace Foil",
     "idProduct": null,
     "note": ""
   },
@@ -4585,81 +3321,9 @@
   },
   {
     "set_code": "TWI",
-    "en_name": "The Invasion of Christophsis",
-    "card_number": 351,
-    "variant_type": "Hyperspace Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "Droid Commando",
-    "card_number": 354,
-    "variant_type": "Hyperspace Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
     "en_name": "Kraken, Confederate Tactician",
     "card_number": 356,
     "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "Reprocess",
-    "card_number": 360,
-    "variant_type": "Hyperspace Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "Consolidation of Power",
-    "card_number": 361,
-    "variant_type": "Hyperspace Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "Mas Amedda, Vice Chair",
-    "card_number": 372,
-    "variant_type": "Hyperspace Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "Steadfast Senator",
-    "card_number": 376,
-    "variant_type": "Hyperspace Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "Baktoid Spider Droid",
-    "card_number": 387,
-    "variant_type": "Hyperspace Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "Strategic Acumen",
-    "card_number": 390,
-    "variant_type": "Hyperspace Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "The Clone Wars",
-    "card_number": 393,
-    "variant_type": "Hyperspace Foil",
     "idProduct": null,
     "note": ""
   },
@@ -4673,177 +3337,9 @@
   },
   {
     "set_code": "TWI",
-    "en_name": "Senatorial Corvette",
-    "card_number": 415,
-    "variant_type": "Hyperspace Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "Resolute, Under Anakin's Command",
-    "card_number": 418,
-    "variant_type": "Hyperspace Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "Twice the Pride",
-    "card_number": 422,
-    "variant_type": "Hyperspace Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "Dendup's Loyalist",
-    "card_number": 426,
-    "variant_type": "Hyperspace Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "Heavy Persuader Tank",
-    "card_number": 434,
-    "variant_type": "Hyperspace Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "Grim Resolve",
-    "card_number": 439,
-    "variant_type": "Hyperspace Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "Infiltrating Demolisher",
-    "card_number": 447,
-    "variant_type": "Hyperspace Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
     "en_name": "R2-D2, Full of Solutions",
     "card_number": 458,
     "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "Sabine Wren, You Can Count On Me",
-    "card_number": 460,
-    "variant_type": "Hyperspace Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "Plo Koon, Koh-to-yah!",
-    "card_number": 461,
-    "variant_type": "Hyperspace Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "Aid from the Innocent",
-    "card_number": 466,
-    "variant_type": "Hyperspace Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "Jar Jar Binks, Foolish Gungan",
-    "card_number": 467,
-    "variant_type": "Hyperspace Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "Independent Senator",
-    "card_number": 471,
-    "variant_type": "Hyperspace Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "B1 Security Team",
-    "card_number": 472,
-    "variant_type": "Hyperspace Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "Hotshot V-Wing",
-    "card_number": 474,
-    "variant_type": "Hyperspace Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "Political Pressure",
-    "card_number": 487,
-    "variant_type": "Hyperspace Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "Execute Order 66",
-    "card_number": 501,
-    "variant_type": "Hyperspace Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "Republic Commando",
-    "card_number": 504,
-    "variant_type": "Hyperspace Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "Tranquility, Inspiring Flagship",
-    "card_number": 507,
-    "variant_type": "Hyperspace Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "Aggrieved Parliamentarian",
-    "card_number": 512,
-    "variant_type": "Hyperspace Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "Headhunter Squadron",
-    "card_number": 513,
-    "variant_type": "Hyperspace Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "Volunteer Soldier",
-    "card_number": 514,
-    "variant_type": "Hyperspace Foil",
     "idProduct": null,
     "note": ""
   }

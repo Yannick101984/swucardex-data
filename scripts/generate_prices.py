@@ -203,12 +203,17 @@ def price_entry(price_dict):
     }
 
 def foil_price_entry(price_dict):
-    """Prix foil promus en champs primaires — pour Standard Foil / Hyperspace Foil des anciens sets."""
+    """Prix foil promus en champs primaires — pour Standard Foil / Hyperspace Foil des anciens sets.
+    avg-foil peut être None (pas de avg CM) mais avg1-foil peut exister → fallback avg1."""
+    avg_foil = (price_dict.get("avg-foil")
+                or price_dict.get("avg1-foil")
+                or price_dict.get("avg7-foil")
+                or price_dict.get("avg30-foil"))
     return {
-        "avg":         price_dict.get("avg-foil"),
+        "avg":         avg_foil,
         "low":         price_dict.get("low-foil"),
         "trend":       price_dict.get("trend-foil"),
-        "avg_foil":    price_dict.get("avg-foil"),
+        "avg_foil":    avg_foil,
         "low_foil":    price_dict.get("low-foil"),
         "trend_foil":  price_dict.get("trend-foil"),
         "avg1":        price_dict.get("avg1-foil"),
@@ -219,13 +224,18 @@ def foil_price_entry(price_dict):
         "avg30_foil":  price_dict.get("avg30-foil"),
     }
 
+def _has_foil_price(pd):
+    """True si au moins un champ foil contient une valeur (avg-foil peut être None mais avg1-foil non)."""
+    return any(pd.get(k) is not None for k in
+               ["avg-foil", "low-foil", "trend-foil", "avg1-foil", "avg7-foil", "avg30-foil"])
+
 def is_foil_only(pd):
     if pd.get("avg-foil") is not None:
         return pd.get("avg") is None
-    return pd.get("low-foil") is not None and pd.get("avg") is None
+    return _has_foil_price(pd) and pd.get("avg") is None
 
 def is_nonfoil_only(pd):
-    return pd.get("avg") is not None and pd.get("avg-foil") is None
+    return pd.get("avg") is not None and not _has_foil_price(pd)
 
 def get_en_name(attrs):
     locs = attrs.get("localizations", {})
@@ -484,8 +494,8 @@ for key, swu_info in swu_cards.items():
         else:
             if std_key not in prices_out:
                 prices_out[std_key] = {"idProduct": idp, **price_entry(pr)}
-            # Anciens sets / multi-prods : avg-foil dans même produit
-            if pr.get("avg-foil") and foil_key not in prices_out and foil_key != std_key:
+            # Anciens sets / multi-prods : avg-foil dans même produit (ou avg1-foil si avg-foil nul)
+            if _has_foil_price(pr) and foil_key not in prices_out and foil_key != std_key:
                 _pe = foil_price_entry if (is_old_set and card_type != "Leader") else price_entry
                 prices_out[foil_key] = {"idProduct": idp, **_pe(pr)}
 
@@ -523,7 +533,7 @@ for key, swu_info in swu_cards.items():
         for idp, pr in both_prods:
             foil_k = _NF_TO_FOIL_KEY.get(nf_seq[0]) if nf_seq else None
             if (foil_k and foil_k in valid_price_keys
-                    and pr.get("avg-foil") is not None and foil_k not in prices_out):
+                    and _has_foil_price(pr) and foil_k not in prices_out):
                 _pe = foil_price_entry if not is_leader else price_entry
                 prices_out[foil_k] = {"idProduct": idp, **_pe(pr)}
 
@@ -554,8 +564,8 @@ for key, swu_info in swu_cards.items():
                         prices_out[k] = {"idProduct": idp, **price_entry(pr)}
                     foil_k = _NF_TO_FOIL_KEY.get(k)
                     if (foil_k and foil_k in valid_price_keys
-                            and pr.get("avg-foil") is not None and foil_k not in prices_out):
-                        prices_out[foil_k] = {"idProduct": idp, **price_entry(pr)}
+                            and _has_foil_price(pr) and foil_k not in prices_out):
+                        prices_out[foil_k] = {"idProduct": idp, **foil_price_entry(pr)}
 
     else:
         # Nouveaux sets (JTL+) : matching positionnel
