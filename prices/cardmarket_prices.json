@@ -1931,36 +1931,6 @@
           "avg1_foil": 1,
           "avg7_foil": 1.11,
           "avg30_foil": 1.31
-        },
-        "weekly_play": {
-          "idProduct": 760865,
-          "avg": 0.49,
-          "low": 0.05,
-          "trend": 0.59,
-          "avg_foil": 0.6,
-          "low_foil": 0.1,
-          "trend_foil": 0.89,
-          "avg1": 0.82,
-          "avg7": 0.58,
-          "avg30": 0.45,
-          "avg1_foil": 2.99,
-          "avg7_foil": 0.73,
-          "avg30_foil": 0.62
-        },
-        "weekly_play_foil": {
-          "idProduct": 760865,
-          "avg": 0.49,
-          "low": 0.05,
-          "trend": 0.59,
-          "avg_foil": 0.6,
-          "low_foil": 0.1,
-          "trend_foil": 0.89,
-          "avg1": 0.82,
-          "avg7": 0.58,
-          "avg30": 0.45,
-          "avg1_foil": 2.99,
-          "avg7_foil": 0.73,
-          "avg30_foil": 0.62
         }
       }
     },

@@ -2585,6 +2585,22 @@
   },
   {
     "set_code": "SOR",
+    "en_name": "Death Trooper",
+    "card_number": 14,
+    "variant_type": "Weekly Play",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
+    "en_name": "Death Trooper",
+    "card_number": 14,
+    "variant_type": "Weekly Play Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
     "en_name": "Bossk, Deadly Stalker",
     "card_number": 15,
     "variant_type": "Weekly Play",
