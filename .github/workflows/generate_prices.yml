@@ -1,6 +1,10 @@
 name: Générer cardmarket_prices.json
 
 on:
+  workflow_run:
+    workflows: ["Récupérer price_guide Cardmarket"]
+    types:
+      - completed
   push:
     paths:
       - "cardmarket/products_singles.json"
