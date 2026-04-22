@@ -124,8 +124,8 @@ _VT_TO_KEY = {
     "PQ Champion":          "pq_champion",
     "SQ Champion":          "sq_champion",
     "RQ Champion":          "rq_champion",
-    "GC Top 64":            "gc_top64",
-    "GC Top 8":             "gc_top8",
+    "GC Top 64":            "gc_top_64",
+    "GC Top 8":             "gc_top_8",
     "GC Champion":          "gc_champion",
     "Standard":             "standard",         # IBH / TS26
 }

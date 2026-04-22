@@ -148497,7 +148497,7 @@
         "GC Top 64"
       ],
       "prices": {
-        "gc_top64": {
+        "gc_top_64": {
           "idProduct": 838427,
           "avg": null,
           "low": 600,
@@ -148523,7 +148523,7 @@
         "GC Top 64"
       ],
       "prices": {
-        "gc_top64": {
+        "gc_top_64": {
           "idProduct": 838428,
           "avg": 0.02,
           "low": 600,
@@ -148549,7 +148549,7 @@
         "GC Top 64"
       ],
       "prices": {
-        "gc_top64": {
+        "gc_top_64": {
           "idProduct": 838429,
           "avg": 0.02,
           "low": 650,
@@ -148575,7 +148575,7 @@
         "GC Top 64"
       ],
       "prices": {
-        "gc_top64": {
+        "gc_top_64": {
           "idProduct": 838430,
           "avg": 650,
           "low": 650,
@@ -148601,7 +148601,7 @@
         "GC Top 64"
       ],
       "prices": {
-        "gc_top64": {
+        "gc_top_64": {
           "idProduct": 845937,
           "avg": null,
           "low": 650,
@@ -148627,7 +148627,7 @@
         "GC Top 64"
       ],
       "prices": {
-        "gc_top64": {
+        "gc_top_64": {
           "idProduct": 838432,
           "avg": 0.02,
           "low": 600,
@@ -148653,7 +148653,7 @@
         "GC Top 64"
       ],
       "prices": {
-        "gc_top64": {
+        "gc_top_64": {
           "idProduct": 838431,
           "avg": 0.02,
           "low": 600,
@@ -148679,7 +148679,7 @@
         "GC Top 64"
       ],
       "prices": {
-        "gc_top64": {
+        "gc_top_64": {
           "idProduct": 838433,
           "avg": null,
           "low": 650,
@@ -148705,7 +148705,7 @@
         "GC Top 64"
       ],
       "prices": {
-        "gc_top64": {
+        "gc_top_64": {
           "idProduct": 838434,
           "avg": null,
           "low": 650,
