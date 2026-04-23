@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "lastUpdated": "2026-04-20",
+  "lastUpdated": "2026-04-23",
   "latestMainSet": "law",
   "announcement": {
     "id": "ann-2026-06-10",
@@ -168,8 +168,9 @@
       "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/jtlw.json"
     },
     {
-      "id": "lofw",
-      "code": "LOFW",
+      "id": "lofp",
+      "dataVersion": 1,
+      "code": "LOFP",
       "name": "Légendes de la Force Weekly Play",
       "type": "special",
       "order": 7,
