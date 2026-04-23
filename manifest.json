@@ -6,6 +6,7 @@
   "sets": [
     {
       "id": "sor",
+      "dataVersion": 1,
       "code": "SOR",
       "name": "Étincelle de Rébellion",
       "type": "main",
@@ -19,6 +20,7 @@
     },
     {
       "id": "shd",
+      "dataVersion": 1,
       "code": "SHD",
       "name": "Ombres de la Galaxie",
       "type": "main",
@@ -31,6 +33,7 @@
     },
     {
       "id": "twi",
+      "dataVersion": 1,
       "code": "TWI",
       "name": "Crépuscule de la République",
       "type": "main",
@@ -43,6 +46,7 @@
     },
     {
       "id": "jtl",
+      "dataVersion": 1,
       "code": "JTL",
       "name": "Passage en Vitesse Lumière",
       "type": "main",
@@ -55,6 +59,7 @@
     },
     {
       "id": "lof",
+      "dataVersion": 1,
       "code": "LOF",
       "name": "Légendes de la Force",
       "type": "main",
@@ -67,6 +72,7 @@
     },
     {
       "id": "sec",
+      "dataVersion": 1,
       "code": "SEC",
       "name": "Secrets du Pouvoir",
       "type": "main",
@@ -79,6 +85,7 @@
     },
     {
       "id": "law",
+      "dataVersion": 1,
       "code": "LAW",
       "name": "Sans Foi Ni Loi",
       "type": "main",
@@ -91,6 +98,7 @@
     },
     {
       "id": "gg",
+      "dataVersion": 1,
       "code": "GG",
       "name": "Gamegenic",
       "type": "special",
@@ -103,6 +111,7 @@
     },
     {
       "id": "ibh",
+      "dataVersion": 1,
       "code": "IBH",
       "name": "Bataille d'intro : Hoth",
       "type": "special",
@@ -115,6 +124,7 @@
     },
     {
       "id": "c24",
+      "dataVersion": 1,
       "code": "C24",
       "name": "2024 Convention Exclusive",
       "type": "special",
@@ -127,6 +137,7 @@
     },
     {
       "id": "c25",
+      "dataVersion": 1,
       "code": "C25",
       "name": "2025 Convention Exclusive",
       "type": "special",
@@ -139,6 +150,7 @@
     },
     {
       "id": "j24",
+      "dataVersion": 1,
       "code": "J24",
       "name": "2024 Judge Program",
       "type": "promo",
@@ -151,6 +163,7 @@
     },
     {
       "id": "j25",
+      "dataVersion": 1,
       "code": "J25",
       "name": "2025 Judge Program",
       "type": "promo",
@@ -163,6 +176,7 @@
     },
     {
       "id": "lofp",
+      "dataVersion": 1,
       "code": "LOFW",
       "displayCode": "LOFP",
       "name": "Légendes de la Force Weekly Play",
@@ -177,6 +191,7 @@
     },
     {
       "id": "jtlw",
+      "dataVersion": 1,
       "code": "JTLW",
       "displayCode": "JTLP",
       "name": "Passage En Vitesse Lumière Weekly Play",
@@ -190,6 +205,7 @@
     },
     {
       "id": "p25",
+      "dataVersion": 1,
       "code": "P25",
       "name": "2025 Promo",
       "type": "promo",
@@ -202,6 +218,7 @@
     },
     {
       "id": "p26",
+      "dataVersion": 1,
       "code": "P26",
       "name": "2026 Promo",
       "type": "promo",
@@ -214,6 +231,7 @@
     },
     {
       "id": "secp",
+      "dataVersion": 1,
       "code": "SECW",
       "displayCode": "SECP",
       "name": "Secrets du Pouvoir Weekly Play",
@@ -227,6 +245,7 @@
     },
     {
       "id": "lawp",
+      "dataVersion": 1,
       "code": "LAWP",
       "name": "Sans Foi ni Loi Weekly Play",
       "type": "special",
@@ -239,6 +258,7 @@
     },
     {
       "id": "ts26",
+      "dataVersion": 1,
       "code": "TS26",
       "name": "2026 Twin Suns",
       "type": "special",
