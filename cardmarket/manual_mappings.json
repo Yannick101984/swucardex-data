@@ -1537,14 +1537,6 @@
   },
   {
     "set_code": "SHD",
-    "en_name": "Pillage",
-    "card_number": 450,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
     "en_name": "Hunter of the Haxion Brood",
     "card_number": 455,
     "variant_type": "Hyperspace",
@@ -1555,6 +1547,14 @@
     "set_code": "SHD",
     "en_name": "Lurking TIE Phantom",
     "card_number": 456,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
+    "en_name": "Chain Code Collector",
+    "card_number": 484,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
