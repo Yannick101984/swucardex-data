@@ -169,8 +169,8 @@
     },
     {
       "id": "lofp",
-      "dataVersion": 1,
-      "code": "LOFP",
+      "dataVersion": 2,
+      "code": "LOFW",
       "name": "Légendes de la Force Weekly Play",
       "type": "special",
       "order": 7,
