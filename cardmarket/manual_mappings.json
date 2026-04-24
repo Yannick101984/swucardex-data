@@ -1497,14 +1497,6 @@
   },
   {
     "set_code": "SHD",
-    "en_name": "Scanning Officer",
-    "card_number": 383,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
     "en_name": "Price on Your Head",
     "card_number": 394,
     "variant_type": "Hyperspace",
@@ -1531,14 +1523,6 @@
     "set_code": "SHD",
     "en_name": "Disabling Fang Fighter",
     "card_number": 435,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Hunter of the Haxion Brood",
-    "card_number": 455,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -1827,14 +1811,6 @@
     "set_code": "SOR",
     "en_name": "Wolffe, Suspicious Veteran",
     "card_number": 423,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "Chimaera, Flagship of the Seventh Fleet",
-    "card_number": 448,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -2811,14 +2787,6 @@
     "set_code": "TWI",
     "en_name": "Morgan Elsbeth, Keeper of Many Secrets",
     "card_number": 308,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "Multi-Troop Transport",
-    "card_number": 339,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
