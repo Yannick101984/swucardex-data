@@ -210,7 +210,7 @@
     },
     {
       "id": "g25",
-      "dataVersion": 1,
+      "dataVersion": 2,
       "code": "G25",
       "name": "2025 Gift Box",
       "type": "promo",
@@ -219,7 +219,7 @@
       "foilShared": false,
       "logoURL": null,
       "artworkURL": null,
-      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/g25.json"
+      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/staging/sets/g25.json"
     },
     {
       "id": "p25",
@@ -236,7 +236,7 @@
     },
     {
       "id": "p26",
-      "dataVersion": 2,
+      "dataVersion": 3,
       "code": "P26",
       "name": "2026 Promo",
       "type": "promo",
@@ -245,7 +245,7 @@
       "foilShared": false,
       "logoURL": null,
       "artworkURL": null,
-      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/p26.json"
+      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/staging/sets/p26.json"
     },
     {
       "id": "secp",
