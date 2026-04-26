@@ -112,14 +112,6 @@
     "note": ""
   },
   {
-    "set_code": "LAWP",
-    "en_name": "Haymaker",
-    "card_number": 14,
-    "variant_type": "Weekly Play",
-    "idProduct": null,
-    "note": ""
-  },
-  {
     "set_code": "LOF",
     "en_name": "Experience",
     "card_number": 1,
@@ -2811,14 +2803,6 @@
     "set_code": "TWI",
     "en_name": "Take Captive",
     "card_number": 396,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "R2-D2, Full of Solutions",
-    "card_number": 458,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
