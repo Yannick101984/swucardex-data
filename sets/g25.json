@@ -1,0 +1,1122 @@
+{
+  "data": [
+    {
+      "id": 46048,
+      "attributes": {
+        "cardNumber": 2,
+        "title": "Darth Sidious",
+        "subtitle": "The Phantom Menace",
+        "cardCount": 3,
+        "artist": "Vincent Dutrait",
+        "artFrontHorizontal": false,
+        "artBackHorizontal": null,
+        "hasFoil": true,
+        "cost": 8,
+        "hp": 8,
+        "power": 6,
+        "text": "Restore 2 \nWhen Played: You may use the Force. If you do, defeat each non-Sith unit with 3 or less remaining HP.",
+        "textStyled": "<p><strong>Restore 2</strong> <i></i></p><p><strong>When Played:</strong> You may use the Force. If you do, defeat each non-<i><strong>Sith</strong></i> unit with <strong>3</strong> or less remaining HP.</p>",
+        "deployBox": null,
+        "deployBoxStyled": "",
+        "epicAction": "",
+        "epicActionStyled": "",
+        "linkHtml": "<a href=\"/cards?cid=9051372809\" class=\"card-tooltip\" data-card=\"9051372809\">Darth Sidious</a>",
+        "cardId": null,
+        "createdAt": "2025-12-04T18:44:14.354Z",
+        "updatedAt": "2025-12-04T19:29:24.962Z",
+        "publishedAt": "2025-03-05T06:00:00.000Z",
+        "locale": "fr",
+        "hyperspace": false,
+        "unique": true,
+        "showcase": false,
+        "cardUid": "9051372809",
+        "rules": null,
+        "rulesStyled": null,
+        "serialCode": "g25090002",
+        "upgradeHp": null,
+        "upgradePower": null,
+        "artFront": {
+          "data": {
+            "id": 45386,
+            "attributes": {
+              "name": "G25090002EN_Darth_Sidious.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 718,
+              "height": 1000,
+              "formats": {
+                "card": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//card_G25090002_EN_Darth_Sidious_9c593bf212.png",
+                  "hash": "card_G25090002_EN_Darth_Sidious_9c593bf212",
+                  "mime": "image/png",
+                  "name": "card_G25090002EN_Darth_Sidious.png",
+                  "path": null,
+                  "size": 320.98,
+                  "width": 287,
+                  "height": 400,
+                  "sizeInBytes": 320979
+                },
+                "small": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//small_G25090002_EN_Darth_Sidious_9c593bf212.png",
+                  "hash": "small_G25090002_EN_Darth_Sidious_9c593bf212",
+                  "mime": "image/png",
+                  "name": "small_G25090002EN_Darth_Sidious.png",
+                  "path": null,
+                  "size": 495.94,
+                  "width": 359,
+                  "height": 500,
+                  "sizeInBytes": 495940
+                },
+                "medium": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//medium_G25090002_EN_Darth_Sidious_9c593bf212.png",
+                  "hash": "medium_G25090002_EN_Darth_Sidious_9c593bf212",
+                  "mime": "image/png",
+                  "name": "medium_G25090002EN_Darth_Sidious.png",
+                  "path": null,
+                  "size": 962.25,
+                  "width": 503,
+                  "height": 700,
+                  "sizeInBytes": 962249
+                },
+                "xsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xsmall_G25090002_EN_Darth_Sidious_9c593bf212.png",
+                  "hash": "xsmall_G25090002_EN_Darth_Sidious_9c593bf212",
+                  "mime": "image/png",
+                  "name": "xsmall_G25090002EN_Darth_Sidious.png",
+                  "path": null,
+                  "size": 182.8,
+                  "width": 215,
+                  "height": 300,
+                  "sizeInBytes": 182798
+                },
+                "xxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxsmall_G25090002_EN_Darth_Sidious_9c593bf212.png",
+                  "hash": "xxsmall_G25090002_EN_Darth_Sidious_9c593bf212",
+                  "mime": "image/png",
+                  "name": "xxsmall_G25090002EN_Darth_Sidious.png",
+                  "path": null,
+                  "size": 85.01,
+                  "width": 144,
+                  "height": 200,
+                  "sizeInBytes": 85005
+                },
+                "xxxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxxsmall_G25090002_EN_Darth_Sidious_9c593bf212.png",
+                  "hash": "xxxsmall_G25090002_EN_Darth_Sidious_9c593bf212",
+                  "mime": "image/png",
+                  "name": "xxxsmall_G25090002EN_Darth_Sidious.png",
+                  "path": null,
+                  "size": 49.34,
+                  "width": 108,
+                  "height": 150,
+                  "sizeInBytes": 49335
+                },
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//thumbnail_G25090002_EN_Darth_Sidious_9c593bf212.png",
+                  "hash": "thumbnail_G25090002_EN_Darth_Sidious_9c593bf212",
+                  "mime": "image/png",
+                  "name": "thumbnail_G25090002EN_Darth_Sidious.png",
+                  "path": null,
+                  "size": 52.88,
+                  "width": 112,
+                  "height": 156,
+                  "sizeInBytes": 52880
+                }
+              },
+              "hash": "G25090002_EN_Darth_Sidious_9c593bf212",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 455.56,
+              "url": "https://cdn.starwarsunlimited.com//G25090002_EN_Darth_Sidious_9c593bf212.png",
+              "previewUrl": null,
+              "provider": "aws-s3",
+              "provider_metadata": null,
+              "createdAt": "2025-12-04T18:42:45.915Z",
+              "updatedAt": "2025-12-04T18:42:45.915Z"
+            }
+          }
+        },
+        "artBack": {
+          "data": null
+        },
+        "artThumbnail": {
+          "data": {
+            "id": 45389,
+            "attributes": {
+              "name": "G25090002EN_Darth_Sidious_Thumbnail.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 300,
+              "height": 100,
+              "formats": {
+                "xxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxsmall_G25090002_EN_Darth_Sidious_Thumbnail_2a3f62205a.png",
+                  "hash": "xxsmall_G25090002_EN_Darth_Sidious_Thumbnail_2a3f62205a",
+                  "mime": "image/png",
+                  "name": "xxsmall_G25090002EN_Darth_Sidious_Thumbnail.png",
+                  "path": null,
+                  "size": 36.13,
+                  "width": 200,
+                  "height": 67,
+                  "sizeInBytes": 36134
+                },
+                "xxxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxxsmall_G25090002_EN_Darth_Sidious_Thumbnail_2a3f62205a.png",
+                  "hash": "xxxsmall_G25090002_EN_Darth_Sidious_Thumbnail_2a3f62205a",
+                  "mime": "image/png",
+                  "name": "xxxsmall_G25090002EN_Darth_Sidious_Thumbnail.png",
+                  "path": null,
+                  "size": 20.45,
+                  "width": 150,
+                  "height": 50,
+                  "sizeInBytes": 20454
+                },
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//thumbnail_G25090002_EN_Darth_Sidious_Thumbnail_2a3f62205a.png",
+                  "hash": "thumbnail_G25090002_EN_Darth_Sidious_Thumbnail_2a3f62205a",
+                  "mime": "image/png",
+                  "name": "thumbnail_G25090002EN_Darth_Sidious_Thumbnail.png",
+                  "path": null,
+                  "size": 54.01,
+                  "width": 245,
+                  "height": 82,
+                  "sizeInBytes": 54009
+                }
+              },
+              "hash": "G25090002_EN_Darth_Sidious_Thumbnail_2a3f62205a",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 27.78,
+              "url": "https://cdn.starwarsunlimited.com//G25090002_EN_Darth_Sidious_Thumbnail_2a3f62205a.png",
+              "previewUrl": null,
+              "provider": "aws-s3",
+              "provider_metadata": null,
+              "createdAt": "2025-12-04T18:42:56.985Z",
+              "updatedAt": "2025-12-04T18:42:56.985Z"
+            }
+          }
+        },
+        "localizations": {
+          "data": [
+            {
+              "id": 46049,
+              "attributes": {
+                "title": "Darth Sidious",
+                "subtitle": "The Phantom Menace",
+                "cardNumber": 2,
+                "cardCount": 3,
+                "artist": "Vincent Dutrait",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": 8,
+                "hp": 8,
+                "power": 6,
+                "text": "Restore 2 \nWhen Played: You may use the Force. If you do, defeat each non-Sith unit with 3 or less remaining HP.",
+                "textStyled": "<p><strong>Restore 2</strong> <i></i></p><p><strong>When Played:</strong> You may use the Force. If you do, defeat each non-<i><strong>Sith</strong></i> unit with <strong>3</strong> or less remaining HP.</p>",
+                "deployBox": null,
+                "deployBoxStyled": "",
+                "epicAction": "",
+                "epicActionStyled": "",
+                "linkHtml": "<a href=\"/cards?cid=9051372809\" class=\"card-tooltip\" data-card=\"9051372809\">Darth Sidious</a>",
+                "cardId": null,
+                "createdAt": "2025-12-04T18:44:15.077Z",
+                "updatedAt": "2025-12-04T19:29:24.729Z",
+                "publishedAt": "2025-03-05T06:00:00.000Z",
+                "locale": "es",
+                "hyperspace": false,
+                "unique": true,
+                "showcase": false,
+                "cardUid": "9051372809",
+                "rules": null,
+                "rulesStyled": null,
+                "serialCode": "g25090002",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            },
+            {
+              "id": 46045,
+              "attributes": {
+                "title": "Darth Sidious",
+                "subtitle": "The Phantom Menace",
+                "cardNumber": 2,
+                "cardCount": 3,
+                "artist": "Vincent Dutrait",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": 8,
+                "hp": 8,
+                "power": 6,
+                "text": "Restore 2 \nWhen Played: You may use the Force. If you do, defeat each non-Sith unit with 3 or less remaining HP.",
+                "textStyled": "<p><strong>Restore 2</strong> <i></i></p><p><strong>When Played:</strong> You may use the Force. If you do, defeat each non-<i><strong>Sith</strong></i> unit with <strong>3</strong> or less remaining HP.</p>",
+                "deployBox": null,
+                "deployBoxStyled": "",
+                "epicAction": "",
+                "epicActionStyled": "",
+                "linkHtml": "<a href=\"/cards?cid=9051372809\" class=\"card-tooltip\" data-card=\"9051372809\">Darth Sidious</a>",
+                "cardId": null,
+                "createdAt": "2025-12-04T18:44:12.283Z",
+                "updatedAt": "2025-12-04T19:29:24.522Z",
+                "publishedAt": "2025-03-05T06:00:00.000Z",
+                "locale": "en",
+                "hyperspace": false,
+                "unique": true,
+                "showcase": false,
+                "cardUid": "9051372809",
+                "rules": null,
+                "rulesStyled": null,
+                "serialCode": "g25090002",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            },
+            {
+              "id": 46047,
+              "attributes": {
+                "title": "Darth Sidious",
+                "subtitle": "The Phantom Menace",
+                "cardNumber": 2,
+                "cardCount": 3,
+                "artist": "Vincent Dutrait",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": 8,
+                "hp": 8,
+                "power": 6,
+                "text": "Restore 2 \nWhen Played: You may use the Force. If you do, defeat each non-Sith unit with 3 or less remaining HP.",
+                "textStyled": "<p><strong>Restore 2</strong> <i></i></p><p><strong>When Played:</strong> You may use the Force. If you do, defeat each non-<i><strong>Sith</strong></i> unit with <strong>3</strong> or less remaining HP.</p>",
+                "deployBox": null,
+                "deployBoxStyled": "",
+                "epicAction": "",
+                "epicActionStyled": "",
+                "linkHtml": "<a href=\"/cards?cid=9051372809\" class=\"card-tooltip\" data-card=\"9051372809\">Darth Sidious</a>",
+                "cardId": null,
+                "createdAt": "2025-12-04T18:44:13.674Z",
+                "updatedAt": "2025-12-04T19:29:25.180Z",
+                "publishedAt": "2025-03-05T06:00:00.000Z",
+                "locale": "it",
+                "hyperspace": false,
+                "unique": true,
+                "showcase": false,
+                "cardUid": "9051372809",
+                "rules": null,
+                "rulesStyled": null,
+                "serialCode": "g25090002",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            },
+            {
+              "id": 46046,
+              "attributes": {
+                "title": "Darth Sidious",
+                "subtitle": "The Phantom Menace",
+                "cardNumber": 2,
+                "cardCount": 3,
+                "artist": "Vincent Dutrait",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": 8,
+                "hp": 8,
+                "power": 6,
+                "text": "Restore 2 \nWhen Played: You may use the Force. If you do, defeat each non-Sith unit with 3 or less remaining HP.",
+                "textStyled": "<p><strong>Restore 2</strong> <i></i></p><p><strong>When Played:</strong> You may use the Force. If you do, defeat each non-<i><strong>Sith</strong></i> unit with <strong>3</strong> or less remaining HP.</p>",
+                "deployBox": null,
+                "deployBoxStyled": "",
+                "epicAction": "",
+                "epicActionStyled": "",
+                "linkHtml": "<a href=\"/cards?cid=9051372809\" class=\"card-tooltip\" data-card=\"9051372809\">Darth Sidious</a>",
+                "cardId": null,
+                "createdAt": "2025-12-04T18:44:12.998Z",
+                "updatedAt": "2025-12-04T19:29:25.393Z",
+                "publishedAt": "2025-03-05T06:00:00.000Z",
+                "locale": "de",
+                "hyperspace": false,
+                "unique": true,
+                "showcase": false,
+                "cardUid": "9051372809",
+                "rules": null,
+                "rulesStyled": null,
+                "serialCode": "g25090002",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "data": [
+            {
+              "id": 4,
+              "attributes": {
+                "name": "Vigilance",
+                "description": "<p>Un jeu défensif, avec des capacités pour soigner les dégâts, retirer du jeu les unités dangereuses, protéger sa base des attaques ennemies. Cette affinité est idéale pour les joueurs qui savent temporiser, en encaissant les assauts les plus meurtriers.</p>",
+                "color": "#4073d4",
+                "createdAt": "2023-08-10T21:02:26.776Z",
+                "updatedAt": "2024-07-15T21:32:24.096Z",
+                "publishedAt": "2024-01-02T18:25:33.755Z",
+                "locale": "fr",
+                "englishName": "Vigilance",
+                "sortValue": 1
+              }
+            },
+            {
+              "id": 29,
+              "attributes": {
+                "name": "Infâmie",
+                "description": "<p>Se battre pour le pouvoir suprême avec les «&nbsp;méchants&nbsp;» de la galaxie Star Wars. Cette affinité permet de commander à d’immenses armées ou de provoquer de terribles destructions. Tout comme l’Héroïsme, cette affinité est souvent associée à une autre affinité sur la carte.</p>",
+                "color": "#000000",
+                "createdAt": "2023-08-10T21:20:52.826Z",
+                "updatedAt": "2024-07-15T21:40:49.895Z",
+                "publishedAt": "2024-01-02T18:25:50.235Z",
+                "locale": "fr",
+                "englishName": "Villainy",
+                "sortValue": 20
+              }
+            }
+          ]
+        },
+        "aspectDuplicates": {
+          "data": []
+        },
+        "type": {
+          "data": {
+            "id": 29,
+            "attributes": {
+              "name": "Unité",
+              "description": "",
+              "value": "Unit",
+              "createdAt": "2023-08-15T18:04:32.553Z",
+              "updatedAt": "2024-04-25T13:52:29.937Z",
+              "publishedAt": "2024-01-04T21:29:14.943Z",
+              "locale": "fr",
+              "sortValue": 3
+            }
+          }
+        },
+        "type2": {
+          "data": null
+        },
+        "traits": {
+          "data": [
+            {
+              "id": 34,
+              "attributes": {
+                "name": "Force",
+                "description": null,
+                "createdAt": "2023-08-15T14:41:10.682Z",
+                "updatedAt": "2024-01-04T21:15:19.420Z",
+                "publishedAt": "2024-01-04T21:15:19.417Z",
+                "locale": "fr"
+              }
+            },
+            {
+              "id": 205,
+              "attributes": {
+                "name": "Séparatiste",
+                "description": "",
+                "createdAt": "2023-11-21T17:06:36.555Z",
+                "updatedAt": "2024-01-04T21:23:00.948Z",
+                "publishedAt": "2024-01-04T21:23:00.945Z",
+                "locale": "fr"
+              }
+            },
+            {
+              "id": 44,
+              "attributes": {
+                "name": "Sith",
+                "description": "",
+                "createdAt": "2023-08-15T14:42:17.108Z",
+                "updatedAt": "2024-01-04T21:23:19.059Z",
+                "publishedAt": "2024-01-04T21:23:19.055Z",
+                "locale": "fr"
+              }
+            }
+          ]
+        },
+        "arenas": {
+          "data": [
+            {
+              "id": 4,
+              "attributes": {
+                "name": "Terrestre",
+                "description": null,
+                "createdAt": "2023-08-15T14:32:20.801Z",
+                "updatedAt": "2024-01-04T16:49:07.912Z",
+                "publishedAt": "2023-08-18T21:37:40.768Z",
+                "locale": "fr"
+              }
+            }
+          ]
+        },
+        "keywords": {
+          "data": [
+            {
+              "id": 34,
+              "attributes": {
+                "name": "Récupération",
+                "description": "",
+                "createdAt": "2023-11-28T17:13:27.144Z",
+                "updatedAt": "2024-01-04T19:03:34.689Z",
+                "publishedAt": "2023-11-28T17:13:28.219Z",
+                "locale": "fr"
+              }
+            }
+          ]
+        },
+        "rarity": {
+          "data": {
+            "id": 24,
+            "attributes": {
+              "name": "Spéciale",
+              "character": "S",
+              "color": "#000000",
+              "createdAt": "2023-08-14T21:34:27.979Z",
+              "updatedAt": "2024-04-25T14:06:09.057Z",
+              "publishedAt": "2024-01-04T16:42:01.831Z",
+              "locale": "fr",
+              "englishName": "Special",
+              "sortValue": 1
+            }
+          }
+        },
+        "expansion": {
+          "data": {
+            "id": 90,
+            "attributes": {
+              "name": "2025 Gift Box",
+              "description": null,
+              "code": "G25",
+              "createdAt": "2025-12-04T18:24:24.081Z",
+              "updatedAt": "2025-12-04T19:29:54.124Z",
+              "publishedAt": "2025-12-04T19:29:44.414Z",
+              "locale": "fr",
+              "sortValue": 67,
+              "leaderboardStartDate": null,
+              "leaderboardEndDate": null
+            }
+          }
+        },
+        "variantTypes": {
+          "data": []
+        },
+        "variantOf": {
+          "data": null
+        },
+        "reprintOf": {
+          "data": {
+            "id": 27222,
+            "attributes": {
+              "title": "Dark Sidious",
+              "subtitle": "La Menace Fantôme",
+              "cardNumber": 39,
+              "cardCount": 264,
+              "artist": "Aitor Prieto",
+              "artFrontHorizontal": false,
+              "artBackHorizontal": null,
+              "hasFoil": true,
+              "cost": 8,
+              "hp": 8,
+              "power": 6,
+              "text": "Récupération 2 (Quand cette unité attaque, soignez 2 dégâts de votre base.)\nUne fois jouée : vous pouvez utiliser la Force. Dans ce cas, éliminez chaque unité non-SITH dont les PV restants sont de 3 ou moins.",
+              "textStyled": "<p><strong>Récupération 2</strong> (<i>Quand cette unité attaque, soignez 2 dégâts de votre base.</i>)</p><p><strong>Une fois jouée :</strong> vous pouvez utiliser la Force. Dans ce cas, éliminez chaque unité non-<i><strong>SITH</strong></i> dont les PV restants sont de <strong>3</strong> ou moins.</p>",
+              "deployBox": null,
+              "deployBoxStyled": null,
+              "epicAction": "",
+              "epicActionStyled": "",
+              "linkHtml": "<a href=\"/cards?cid=6797297267\" class=\"card-tooltip\" data-card=\"6797297267\">Dark Sidious</a>",
+              "cardId": null,
+              "createdAt": "2025-04-24T18:31:41.946Z",
+              "updatedAt": "2025-05-14T18:46:10.463Z",
+              "publishedAt": "2025-05-14T08:07:00.000Z",
+              "locale": "fr",
+              "hyperspace": false,
+              "unique": true,
+              "showcase": false,
+              "cardUid": "6797297267",
+              "rules": null,
+              "rulesStyled": null,
+              "serialCode": "05010039",
+              "upgradeHp": null,
+              "upgradePower": null
+            }
+          }
+        },
+        "validationId": "6797297267"
+      }
+    },
+    {
+      "id": 46043,
+      "attributes": {
+        "cardNumber": 3,
+        "title": "Obi-Wan Kenobi",
+        "subtitle": "Protective Padawan",
+        "cardCount": 3,
+        "artist": "Vincent Dutrait",
+        "artFrontHorizontal": false,
+        "artBackHorizontal": null,
+        "hasFoil": true,
+        "cost": 3,
+        "hp": 5,
+        "power": 3,
+        "text": "When you play a Force unit : This unit gains Sentinel for this phase. ",
+        "textStyled": "<p><strong>When you play a </strong><i><strong>Force</strong></i><strong> unit</strong> <i></i><strong>:</strong> This unit gains <strong>Sentinel</strong> for this phase.</p>",
+        "deployBox": null,
+        "deployBoxStyled": "",
+        "epicAction": "",
+        "epicActionStyled": "",
+        "linkHtml": "<a href=\"/cards?cid=1223885175\" class=\"card-tooltip\" data-card=\"1223885175\">Obi-Wan Kenobi</a>",
+        "cardId": null,
+        "createdAt": "2025-12-04T18:44:10.517Z",
+        "updatedAt": "2025-12-04T19:29:23.870Z",
+        "publishedAt": "2025-03-05T06:00:00.000Z",
+        "locale": "fr",
+        "hyperspace": false,
+        "unique": true,
+        "showcase": false,
+        "cardUid": "1223885175",
+        "rules": null,
+        "rulesStyled": null,
+        "serialCode": "g25090003",
+        "upgradeHp": null,
+        "upgradePower": null,
+        "artFront": {
+          "data": {
+            "id": 45387,
+            "attributes": {
+              "name": "G25090003EN_Obi-Wan_Kenobi.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 718,
+              "height": 1000,
+              "formats": {
+                "card": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//card_G25090003_EN_Obi_Wan_Kenobi_363ae5ae2d.png",
+                  "hash": "card_G25090003_EN_Obi_Wan_Kenobi_363ae5ae2d",
+                  "mime": "image/png",
+                  "name": "card_G25090003EN_Obi-Wan_Kenobi.png",
+                  "path": null,
+                  "size": 331.28,
+                  "width": 287,
+                  "height": 400,
+                  "sizeInBytes": 331281
+                },
+                "small": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//small_G25090003_EN_Obi_Wan_Kenobi_363ae5ae2d.png",
+                  "hash": "small_G25090003_EN_Obi_Wan_Kenobi_363ae5ae2d",
+                  "mime": "image/png",
+                  "name": "small_G25090003EN_Obi-Wan_Kenobi.png",
+                  "path": null,
+                  "size": 506.78,
+                  "width": 359,
+                  "height": 500,
+                  "sizeInBytes": 506779
+                },
+                "medium": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//medium_G25090003_EN_Obi_Wan_Kenobi_363ae5ae2d.png",
+                  "hash": "medium_G25090003_EN_Obi_Wan_Kenobi_363ae5ae2d",
+                  "mime": "image/png",
+                  "name": "medium_G25090003EN_Obi-Wan_Kenobi.png",
+                  "path": null,
+                  "size": 972.15,
+                  "width": 503,
+                  "height": 700,
+                  "sizeInBytes": 972149
+                },
+                "xsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xsmall_G25090003_EN_Obi_Wan_Kenobi_363ae5ae2d.png",
+                  "hash": "xsmall_G25090003_EN_Obi_Wan_Kenobi_363ae5ae2d",
+                  "mime": "image/png",
+                  "name": "xsmall_G25090003EN_Obi-Wan_Kenobi.png",
+                  "path": null,
+                  "size": 191.18,
+                  "width": 215,
+                  "height": 300,
+                  "sizeInBytes": 191177
+                },
+                "xxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxsmall_G25090003_EN_Obi_Wan_Kenobi_363ae5ae2d.png",
+                  "hash": "xxsmall_G25090003_EN_Obi_Wan_Kenobi_363ae5ae2d",
+                  "mime": "image/png",
+                  "name": "xxsmall_G25090003EN_Obi-Wan_Kenobi.png",
+                  "path": null,
+                  "size": 88.79,
+                  "width": 144,
+                  "height": 200,
+                  "sizeInBytes": 88789
+                },
+                "xxxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxxsmall_G25090003_EN_Obi_Wan_Kenobi_363ae5ae2d.png",
+                  "hash": "xxxsmall_G25090003_EN_Obi_Wan_Kenobi_363ae5ae2d",
+                  "mime": "image/png",
+                  "name": "xxxsmall_G25090003EN_Obi-Wan_Kenobi.png",
+                  "path": null,
+                  "size": 51.35,
+                  "width": 108,
+                  "height": 150,
+                  "sizeInBytes": 51351
+                },
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//thumbnail_G25090003_EN_Obi_Wan_Kenobi_363ae5ae2d.png",
+                  "hash": "thumbnail_G25090003_EN_Obi_Wan_Kenobi_363ae5ae2d",
+                  "mime": "image/png",
+                  "name": "thumbnail_G25090003EN_Obi-Wan_Kenobi.png",
+                  "path": null,
+                  "size": 135.9,
+                  "width": 180,
+                  "height": 250,
+                  "sizeInBytes": 135899
+                }
+              },
+              "hash": "G25090003_EN_Obi_Wan_Kenobi_363ae5ae2d",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 438.8,
+              "url": "https://cdn.starwarsunlimited.com//G25090003_EN_Obi_Wan_Kenobi_363ae5ae2d.png",
+              "previewUrl": null,
+              "provider": "aws-s3",
+              "provider_metadata": null,
+              "createdAt": "2025-12-04T18:42:48.571Z",
+              "updatedAt": "2025-12-04T18:42:48.571Z"
+            }
+          }
+        },
+        "artBack": {
+          "data": null
+        },
+        "artThumbnail": {
+          "data": {
+            "id": 45388,
+            "attributes": {
+              "name": "G25090003EN_Obi-Wan_Kenobi_Thumbnail.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 300,
+              "height": 100,
+              "formats": {
+                "xxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxsmall_G25090003_EN_Obi_Wan_Kenobi_Thumbnail_09824a7d34.png",
+                  "hash": "xxsmall_G25090003_EN_Obi_Wan_Kenobi_Thumbnail_09824a7d34",
+                  "mime": "image/png",
+                  "name": "xxsmall_G25090003EN_Obi-Wan_Kenobi_Thumbnail.png",
+                  "path": null,
+                  "size": 33.46,
+                  "width": 200,
+                  "height": 67,
+                  "sizeInBytes": 33460
+                },
+                "xxxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxxsmall_G25090003_EN_Obi_Wan_Kenobi_Thumbnail_09824a7d34.png",
+                  "hash": "xxxsmall_G25090003_EN_Obi_Wan_Kenobi_Thumbnail_09824a7d34",
+                  "mime": "image/png",
+                  "name": "xxxsmall_G25090003EN_Obi-Wan_Kenobi_Thumbnail.png",
+                  "path": null,
+                  "size": 19.08,
+                  "width": 150,
+                  "height": 50,
+                  "sizeInBytes": 19076
+                },
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//thumbnail_G25090003_EN_Obi_Wan_Kenobi_Thumbnail_09824a7d34.png",
+                  "hash": "thumbnail_G25090003_EN_Obi_Wan_Kenobi_Thumbnail_09824a7d34",
+                  "mime": "image/png",
+                  "name": "thumbnail_G25090003EN_Obi-Wan_Kenobi_Thumbnail.png",
+                  "path": null,
+                  "size": 49.53,
+                  "width": 245,
+                  "height": 82,
+                  "sizeInBytes": 49527
+                }
+              },
+              "hash": "G25090003_EN_Obi_Wan_Kenobi_Thumbnail_09824a7d34",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 23.56,
+              "url": "https://cdn.starwarsunlimited.com//G25090003_EN_Obi_Wan_Kenobi_Thumbnail_09824a7d34.png",
+              "previewUrl": null,
+              "provider": "aws-s3",
+              "provider_metadata": null,
+              "createdAt": "2025-12-04T18:42:56.460Z",
+              "updatedAt": "2025-12-04T18:42:56.460Z"
+            }
+          }
+        },
+        "localizations": {
+          "data": [
+            {
+              "id": 46044,
+              "attributes": {
+                "title": "Obi-Wan Kenobi",
+                "subtitle": "Protective Padawan",
+                "cardNumber": 3,
+                "cardCount": 3,
+                "artist": "Vincent Dutrait",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": 3,
+                "hp": 5,
+                "power": 3,
+                "text": "When you play a Force unit : This unit gains Sentinel for this phase. ",
+                "textStyled": "<p><strong>When you play a </strong><i><strong>Force</strong></i><strong> unit</strong> <i></i><strong>:</strong> This unit gains <strong>Sentinel</strong> for this phase.</p>",
+                "deployBox": null,
+                "deployBoxStyled": "",
+                "epicAction": "",
+                "epicActionStyled": "",
+                "linkHtml": "<a href=\"/cards?cid=1223885175\" class=\"card-tooltip\" data-card=\"1223885175\">Obi-Wan Kenobi</a>",
+                "cardId": null,
+                "createdAt": "2025-12-04T18:44:11.274Z",
+                "updatedAt": "2025-12-04T19:29:23.654Z",
+                "publishedAt": "2025-03-05T06:00:00.000Z",
+                "locale": "es",
+                "hyperspace": false,
+                "unique": true,
+                "showcase": false,
+                "cardUid": "1223885175",
+                "rules": null,
+                "rulesStyled": null,
+                "serialCode": "g25090003",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            },
+            {
+              "id": 46040,
+              "attributes": {
+                "title": "Obi-Wan Kenobi",
+                "subtitle": "Protective Padawan",
+                "cardNumber": 3,
+                "cardCount": 3,
+                "artist": "Vincent Dutrait",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": 3,
+                "hp": 5,
+                "power": 3,
+                "text": "When you play a Force unit : This unit gains Sentinel for this phase. ",
+                "textStyled": "<p><strong>When you play a </strong><i><strong>Force</strong></i><strong> unit</strong> <i></i><strong>:</strong> This unit gains <strong>Sentinel</strong> for this phase.</p>",
+                "deployBox": null,
+                "deployBoxStyled": "",
+                "epicAction": "",
+                "epicActionStyled": "",
+                "linkHtml": "<a href=\"/cards?cid=1223885175\" class=\"card-tooltip\" data-card=\"1223885175\">Obi-Wan Kenobi</a>",
+                "cardId": null,
+                "createdAt": "2025-12-04T18:44:08.299Z",
+                "updatedAt": "2025-12-04T19:29:23.430Z",
+                "publishedAt": "2025-03-05T06:00:00.000Z",
+                "locale": "en",
+                "hyperspace": false,
+                "unique": true,
+                "showcase": false,
+                "cardUid": "1223885175",
+                "rules": null,
+                "rulesStyled": null,
+                "serialCode": "g25090003",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            },
+            {
+              "id": 46042,
+              "attributes": {
+                "title": "Obi-Wan Kenobi",
+                "subtitle": "Protective Padawan",
+                "cardNumber": 3,
+                "cardCount": 3,
+                "artist": "Vincent Dutrait",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": 3,
+                "hp": 5,
+                "power": 3,
+                "text": "When you play a Force unit : This unit gains Sentinel for this phase. ",
+                "textStyled": "<p><strong>When you play a </strong><i><strong>Force</strong></i><strong> unit</strong> <i></i><strong>:</strong> This unit gains <strong>Sentinel</strong> for this phase.</p>",
+                "deployBox": null,
+                "deployBoxStyled": "",
+                "epicAction": "",
+                "epicActionStyled": "",
+                "linkHtml": "<a href=\"/cards?cid=1223885175\" class=\"card-tooltip\" data-card=\"1223885175\">Obi-Wan Kenobi</a>",
+                "cardId": null,
+                "createdAt": "2025-12-04T18:44:09.806Z",
+                "updatedAt": "2025-12-04T19:29:24.103Z",
+                "publishedAt": "2025-03-05T06:00:00.000Z",
+                "locale": "it",
+                "hyperspace": false,
+                "unique": true,
+                "showcase": false,
+                "cardUid": "1223885175",
+                "rules": null,
+                "rulesStyled": null,
+                "serialCode": "g25090003",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            },
+            {
+              "id": 46041,
+              "attributes": {
+                "title": "Obi-Wan Kenobi",
+                "subtitle": "Protective Padawan",
+                "cardNumber": 3,
+                "cardCount": 3,
+                "artist": "Vincent Dutrait",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": 3,
+                "hp": 5,
+                "power": 3,
+                "text": "When you play a Force unit : This unit gains Sentinel for this phase. ",
+                "textStyled": "<p><strong>When you play a </strong><i><strong>Force</strong></i><strong> unit</strong> <i></i><strong>:</strong> This unit gains <strong>Sentinel</strong> for this phase.</p>",
+                "deployBox": null,
+                "deployBoxStyled": "",
+                "epicAction": "",
+                "epicActionStyled": "",
+                "linkHtml": "<a href=\"/cards?cid=1223885175\" class=\"card-tooltip\" data-card=\"1223885175\">Obi-Wan Kenobi</a>",
+                "cardId": null,
+                "createdAt": "2025-12-04T18:44:09.065Z",
+                "updatedAt": "2025-12-04T19:29:24.311Z",
+                "publishedAt": "2025-03-05T06:00:00.000Z",
+                "locale": "de",
+                "hyperspace": false,
+                "unique": true,
+                "showcase": false,
+                "cardUid": "1223885175",
+                "rules": null,
+                "rulesStyled": null,
+                "serialCode": "g25090003",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "data": [
+            {
+              "id": 9,
+              "attributes": {
+                "name": "Commandement",
+                "description": "<p>Accélérer sa production de ressources, utiliser de nombreuses unités, renforcer celles qui sont déjà en jeu. C’est l’affinité de prédilection des joueurs qui veulent écraser leurs adversaires par une utilisation massive de leurs troupes.</p>",
+                "color": "#0b992d",
+                "createdAt": "2023-08-10T21:07:29.191Z",
+                "updatedAt": "2024-07-15T21:32:41.107Z",
+                "publishedAt": "2024-01-02T18:24:28.907Z",
+                "locale": "fr",
+                "englishName": "Command",
+                "sortValue": 5
+              }
+            },
+            {
+              "id": 24,
+              "attributes": {
+                "name": "Héroïsme",
+                "description": "<p>Lutter pour la paix et la justice avec des cartes représentant les «&nbsp;gentils&nbsp;» de la galaxie Star Wars. Cette affinité est idéale pour ceux qui souhaitent que leurs cartes se soutiennent et se protègent mutuellement tout en attaquant. Cette affinité est souvent associée à une autre affinité sur la carte.</p>",
+                "color": "#ffffff",
+                "createdAt": "2023-08-10T21:17:26.974Z",
+                "updatedAt": "2024-07-15T21:41:00.637Z",
+                "publishedAt": "2024-01-02T18:25:10.259Z",
+                "locale": "fr",
+                "englishName": "Heroism",
+                "sortValue": 25
+              }
+            }
+          ]
+        },
+        "aspectDuplicates": {
+          "data": []
+        },
+        "type": {
+          "data": {
+            "id": 29,
+            "attributes": {
+              "name": "Unité",
+              "description": "",
+              "value": "Unit",
+              "createdAt": "2023-08-15T18:04:32.553Z",
+              "updatedAt": "2024-04-25T13:52:29.937Z",
+              "publishedAt": "2024-01-04T21:29:14.943Z",
+              "locale": "fr",
+              "sortValue": 3
+            }
+          }
+        },
+        "type2": {
+          "data": null
+        },
+        "traits": {
+          "data": [
+            {
+              "id": 34,
+              "attributes": {
+                "name": "Force",
+                "description": null,
+                "createdAt": "2023-08-15T14:41:10.682Z",
+                "updatedAt": "2024-01-04T21:15:19.420Z",
+                "publishedAt": "2024-01-04T21:15:19.417Z",
+                "locale": "fr"
+              }
+            },
+            {
+              "id": 64,
+              "attributes": {
+                "name": "Jedi",
+                "description": "",
+                "createdAt": "2023-08-15T14:45:59.221Z",
+                "updatedAt": "2024-01-04T21:12:59.970Z",
+                "publishedAt": "2024-01-04T21:12:59.967Z",
+                "locale": "fr"
+              }
+            },
+            {
+              "id": 197,
+              "attributes": {
+                "name": "République",
+                "description": "",
+                "createdAt": "2023-11-21T16:58:33.573Z",
+                "updatedAt": "2024-01-04T21:20:39.852Z",
+                "publishedAt": "2024-01-04T21:20:39.849Z",
+                "locale": "fr"
+              }
+            }
+          ]
+        },
+        "arenas": {
+          "data": [
+            {
+              "id": 4,
+              "attributes": {
+                "name": "Terrestre",
+                "description": null,
+                "createdAt": "2023-08-15T14:32:20.801Z",
+                "updatedAt": "2024-01-04T16:49:07.912Z",
+                "publishedAt": "2023-08-18T21:37:40.768Z",
+                "locale": "fr"
+              }
+            }
+          ]
+        },
+        "keywords": {
+          "data": [
+            {
+              "id": 9,
+              "attributes": {
+                "name": "Sentinelle",
+                "description": "",
+                "createdAt": "2023-11-28T17:04:18.360Z",
+                "updatedAt": "2024-01-04T19:01:14.442Z",
+                "publishedAt": "2023-11-28T17:04:19.395Z",
+                "locale": "fr"
+              }
+            }
+          ]
+        },
+        "rarity": {
+          "data": {
+            "id": 24,
+            "attributes": {
+              "name": "Spéciale",
+              "character": "S",
+              "color": "#000000",
+              "createdAt": "2023-08-14T21:34:27.979Z",
+              "updatedAt": "2024-04-25T14:06:09.057Z",
+              "publishedAt": "2024-01-04T16:42:01.831Z",
+              "locale": "fr",
+              "englishName": "Special",
+              "sortValue": 1
+            }
+          }
+        },
+        "expansion": {
+          "data": {
+            "id": 90,
+            "attributes": {
+              "name": "2025 Gift Box",
+              "description": null,
+              "code": "G25",
+              "createdAt": "2025-12-04T18:24:24.081Z",
+              "updatedAt": "2025-12-04T19:29:54.124Z",
+              "publishedAt": "2025-12-04T19:29:44.414Z",
+              "locale": "fr",
+              "sortValue": 67,
+              "leaderboardStartDate": null,
+              "leaderboardEndDate": null
+            }
+          }
+        },
+        "variantTypes": {
+          "data": []
+        },
+        "variantOf": {
+          "data": null
+        },
+        "reprintOf": {
+          "data": {
+            "id": 27507,
+            "attributes": {
+              "title": "Obi-Wan Kenobi",
+              "subtitle": "Padawan Protecteur",
+              "cardNumber": 96,
+              "cardCount": 264,
+              "artist": "Sandra Chlewi?ska",
+              "artFrontHorizontal": false,
+              "artBackHorizontal": null,
+              "hasFoil": true,
+              "cost": 3,
+              "hp": 5,
+              "power": 3,
+              "text": "Quand vous jouez une unité FORCE (y compris celle-ci) : cet exemplaire d'Obi-Wan Kenobi gagne Sentinelle pour cette phase.",
+              "textStyled": "<p><strong>Quand vous jouez une unité </strong><i><strong>FORCE</strong></i> (<i>y compris celle-ci</i>) : cet exemplaire d'Obi-Wan Kenobi gagne <strong>Sentinelle</strong> pour cette phase.</p>",
+              "deployBox": null,
+              "deployBoxStyled": null,
+              "epicAction": "",
+              "epicActionStyled": "",
+              "linkHtml": "<a href=\"/cards?cid=6059510270\" class=\"card-tooltip\" data-card=\"6059510270\">Obi-Wan Kenobi</a>",
+              "cardId": null,
+              "createdAt": "2025-04-24T18:33:13.659Z",
+              "updatedAt": "2025-05-14T18:45:24.027Z",
+              "publishedAt": "2025-05-14T08:07:00.000Z",
+              "locale": "fr",
+              "hyperspace": false,
+              "unique": true,
+              "showcase": false,
+              "cardUid": "6059510270",
+              "rules": null,
+              "rulesStyled": null,
+              "serialCode": "05010096",
+              "upgradeHp": null,
+              "upgradePower": null
+            }
+          }
+        },
+        "validationId": "6059510270"
+      }
+    }
+  ]
+}
