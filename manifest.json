@@ -2,7 +2,12 @@
   "version": 2,
   "lastUpdated": "2026-04-23",
   "latestMainSet": "law",
-  "announcement": null,
+  "announcement": {
+    "id": "ann-2026-06-11",
+    "text": "Nouveau set ajouté : 2026 Twin Suns - TS26",
+    "color": "#7C3AED",
+    "url": ""
+  },
   "sets": [
     {
       "id": "sor",
