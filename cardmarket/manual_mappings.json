@@ -1457,14 +1457,6 @@
   },
   {
     "set_code": "SHD",
-    "en_name": "The Client, Dictated by Discretion",
-    "card_number": 308,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
     "en_name": "Synara San, Loyal to Kragan",
     "card_number": 310,
     "variant_type": "Hyperspace",
@@ -2787,6 +2779,14 @@
     "set_code": "TWI",
     "en_name": "Grievous Reassembly",
     "card_number": 346,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
+    "en_name": "Disruptive Burst",
+    "card_number": 348,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
