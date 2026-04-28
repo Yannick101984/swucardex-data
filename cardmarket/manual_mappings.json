@@ -1489,14 +1489,6 @@
   },
   {
     "set_code": "SHD",
-    "en_name": "Commission",
-    "card_number": 396,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
     "en_name": "Headhunting",
     "card_number": 414,
     "variant_type": "Hyperspace",
@@ -2801,8 +2793,8 @@
   },
   {
     "set_code": "TWI",
-    "en_name": "Take Captive",
-    "card_number": 396,
+    "en_name": "Nameless Valor",
+    "card_number": 389,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
