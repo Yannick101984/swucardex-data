@@ -1457,14 +1457,6 @@
   },
   {
     "set_code": "SHD",
-    "en_name": "Synara San, Loyal to Kragan",
-    "card_number": 310,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
     "en_name": "Kuiil, I Have Spoken",
     "card_number": 317,
     "variant_type": "Hyperspace",
@@ -2769,6 +2761,14 @@
   },
   {
     "set_code": "TWI",
+    "en_name": "Duchess's Champion",
+    "card_number": 327,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
     "en_name": "Grievous Reassembly",
     "card_number": 346,
     "variant_type": "Hyperspace",
@@ -2779,14 +2779,6 @@
     "set_code": "TWI",
     "en_name": "Disruptive Burst",
     "card_number": 348,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "Kraken, Confederate Tactician",
-    "card_number": 356,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
