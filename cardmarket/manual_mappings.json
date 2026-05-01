@@ -1473,6 +1473,22 @@
   },
   {
     "set_code": "SHD",
+    "en_name": "Rickety Quadjumper",
+    "card_number": 332,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
+    "en_name": "Adelphi Patrol Wing",
+    "card_number": 370,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
     "en_name": "Price on Your Head",
     "card_number": 394,
     "variant_type": "Hyperspace",
@@ -1513,24 +1529,8 @@
   },
   {
     "set_code": "SHD",
-    "en_name": "Bounty Posting",
-    "card_number": 495,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
     "en_name": "Kragan Gorr, Warbird Captain",
     "card_number": 505,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Grey Squadron Y-Wing",
-    "card_number": 508,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
