@@ -1521,6 +1521,14 @@
   },
   {
     "set_code": "SHD",
+    "en_name": "Look the Other Way",
+    "card_number": 494,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
     "en_name": "Kragan Gorr, Warbird Captain",
     "card_number": 505,
     "variant_type": "Hyperspace",
@@ -1769,6 +1777,14 @@
   },
   {
     "set_code": "SOR",
+    "en_name": "Sabine Wren, Explosives Artist",
+    "card_number": 405,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
     "en_name": "Wolffe, Suspicious Veteran",
     "card_number": 423,
     "variant_type": "Hyperspace",
@@ -1779,14 +1795,6 @@
     "set_code": "SOR",
     "en_name": "Spark of Rebellion",
     "card_number": 462,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "Fleet Lieutenant",
-    "card_number": 498,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
