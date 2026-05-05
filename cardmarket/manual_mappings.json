@@ -1529,14 +1529,6 @@
   },
   {
     "set_code": "SHD",
-    "en_name": "Kragan Gorr, Warbird Captain",
-    "card_number": 505,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
     "en_name": "Grogu, Irresistible",
     "card_number": 523,
     "variant_type": "Exclusivité de l’évènement",
@@ -1779,14 +1771,6 @@
     "set_code": "SOR",
     "en_name": "Sabine Wren, Explosives Artist",
     "card_number": 405,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "Spark of Rebellion",
-    "card_number": 462,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -2777,8 +2761,24 @@
   },
   {
     "set_code": "TWI",
+    "en_name": "Echo, Valiant ARC Trooper",
+    "card_number": 362,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
     "en_name": "Nameless Valor",
     "card_number": 389,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
+    "en_name": "Kit Fisto, The Smiling Jedi",
+    "card_number": 432,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
