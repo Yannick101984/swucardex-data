@@ -1465,14 +1465,6 @@
   },
   {
     "set_code": "SHD",
-    "en_name": "Follower of The Way",
-    "card_number": 331,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
     "en_name": "Rickety Quadjumper",
     "card_number": 332,
     "variant_type": "Hyperspace",
@@ -1483,22 +1475,6 @@
     "set_code": "SHD",
     "en_name": "Adelphi Patrol Wing",
     "card_number": 370,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Price on Your Head",
-    "card_number": 394,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Disabling Fang Fighter",
-    "card_number": 435,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -1771,6 +1747,14 @@
     "set_code": "SOR",
     "en_name": "Sabine Wren, Explosives Artist",
     "card_number": 405,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
+    "en_name": "Seventh Fleet Defender",
+    "card_number": 443,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -2716,6 +2700,14 @@
     "en_name": "General Grievous, General of the Droid Armies",
     "card_number": 15,
     "variant_type": "Prerelease Judge",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
+    "en_name": "Droid Manufactory",
+    "card_number": 297,
+    "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
   },
