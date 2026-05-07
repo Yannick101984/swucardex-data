@@ -1729,8 +1729,8 @@
   },
   {
     "set_code": "SOR",
-    "en_name": "U-Wing Reinforcement",
-    "card_number": 368,
+    "en_name": "Rebel Assault",
+    "card_number": 367,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -2771,6 +2771,22 @@
     "set_code": "TWI",
     "en_name": "Kit Fisto, The Smiling Jedi",
     "card_number": 432,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
+    "en_name": "Padmé Amidala, Pursuing Peace",
+    "card_number": 457,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
+    "en_name": "AT-TE Vanguard",
+    "card_number": 508,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
