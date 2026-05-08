@@ -1473,6 +1473,14 @@
   },
   {
     "set_code": "SHD",
+    "en_name": "Remnant Reserves",
+    "card_number": 362,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
     "en_name": "Adelphi Patrol Wing",
     "card_number": 370,
     "variant_type": "Hyperspace",
@@ -2731,14 +2739,6 @@
     "set_code": "TWI",
     "en_name": "Duchess's Champion",
     "card_number": 327,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "Grievous Reassembly",
-    "card_number": 346,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
