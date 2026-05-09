@@ -1457,6 +1457,14 @@
   },
   {
     "set_code": "SHD",
+    "en_name": "Brutal Traditions",
+    "card_number": 315,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
     "en_name": "Kuiil, I Have Spoken",
     "card_number": 317,
     "variant_type": "Hyperspace",
@@ -1489,6 +1497,14 @@
   },
   {
     "set_code": "SHD",
+    "en_name": "Doctor Evazan, Wanted on Twelve Systems",
+    "card_number": 454,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
     "en_name": "Lurking TIE Phantom",
     "card_number": 456,
     "variant_type": "Hyperspace",
@@ -1497,8 +1513,8 @@
   },
   {
     "set_code": "SHD",
-    "en_name": "Chain Code Collector",
-    "card_number": 484,
+    "en_name": "Frozen in Carbonite",
+    "card_number": 462,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -1748,6 +1764,14 @@
     "en_name": "Ruthless Raider",
     "card_number": 398,
     "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
+    "en_name": "SpecForce Soldier",
+    "card_number": 403,
+    "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
   },
@@ -2771,6 +2795,14 @@
     "set_code": "TWI",
     "en_name": "Kit Fisto, The Smiling Jedi",
     "card_number": 432,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
+    "en_name": "Daring Raid",
+    "card_number": 437,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
