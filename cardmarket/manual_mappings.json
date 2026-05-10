@@ -1497,6 +1497,14 @@
   },
   {
     "set_code": "SHD",
+    "en_name": "Armed to the Teeth",
+    "card_number": 444,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
     "en_name": "Doctor Evazan, Wanted on Twelve Systems",
     "card_number": 454,
     "variant_type": "Hyperspace",
@@ -1523,6 +1531,14 @@
     "set_code": "SHD",
     "en_name": "Look the Other Way",
     "card_number": 494,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
+    "en_name": "Black Sun Starfighter",
+    "card_number": 502,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -1729,6 +1745,14 @@
   },
   {
     "set_code": "SOR",
+    "en_name": "Del Meeko, Providing Overwatch",
+    "card_number": 300,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
     "en_name": "Repair",
     "card_number": 339,
     "variant_type": "Hyperspace Foil",
@@ -1779,6 +1803,14 @@
     "set_code": "SOR",
     "en_name": "Sabine Wren, Explosives Artist",
     "card_number": 405,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
+    "en_name": "Occupier Siege Tank",
+    "card_number": 428,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -2811,6 +2843,14 @@
     "set_code": "TWI",
     "en_name": "Padmé Amidala, Pursuing Peace",
     "card_number": 457,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
+    "en_name": "Patrolling AAT",
+    "card_number": 495,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
