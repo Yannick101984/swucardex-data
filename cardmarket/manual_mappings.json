@@ -2825,6 +2825,22 @@
   },
   {
     "set_code": "TWI",
+    "en_name": "Jesse, Hard-Fighting Patriot",
+    "card_number": 413,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
+    "en_name": "Dendup's Loyalist",
+    "card_number": 426,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
     "en_name": "Kit Fisto, The Smiling Jedi",
     "card_number": 432,
     "variant_type": "Hyperspace",
