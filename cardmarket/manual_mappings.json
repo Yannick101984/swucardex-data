@@ -2841,6 +2841,22 @@
   },
   {
     "set_code": "TWI",
+    "en_name": "Confederate Tri-Fighter",
+    "card_number": 400,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
+    "en_name": "Batch Brothers",
+    "card_number": 412,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
     "en_name": "Jesse, Hard-Fighting Patriot",
     "card_number": 413,
     "variant_type": "Hyperspace",
@@ -2867,6 +2883,14 @@
     "set_code": "TWI",
     "en_name": "Daring Raid",
     "card_number": 437,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
+    "en_name": "Rush Clovis, Banking Clan Scion",
+    "card_number": 448,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
