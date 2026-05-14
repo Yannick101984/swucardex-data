@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "lastUpdated": "2026-04-23",
+  "lastUpdated": "2026-05-14",
   "latestMainSet": "law",
-  "announcement": null,
+  "announcement": {
+    "id": "ann-2026-06-11",
+    "text": "Nouveau set ajouté : 2026 Twin Suns - TS26",
+    "color": "#7C3AED",
+    "url": ""
+  },
   "sets": [
     {
       "id": "sor",
@@ -13,9 +18,8 @@
       "order": 1,
       "color": "#E6801A",
       "foilShared": true,
-      "logoURL": null,
-      "artworkURL": null,
-      "dataVersion": 1,
+      "logoURL": "https://cdn.starwarsunlimited.com//xxlarge_spark_of_rebellion_Logo_29fa5414fd.png",
+      "artworkURL": "https://cdn.starwarsunlimited.com//large_spark_of_rebellion_Key_Art_a47029d8d7.jpg",
       "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/sor.json"
     },
     {
@@ -27,8 +31,8 @@
       "order": 2,
       "color": "#9933CC",
       "foilShared": true,
-      "logoURL": null,
-      "artworkURL": null,
+      "logoURL": "https://cdn.starwarsunlimited.com//large_shadows_of_the_galaxy_Logo_91948b8327.png",
+      "artworkURL": "https://cdn.starwarsunlimited.com//large_shadows_of_the_galaxy_Key_Art_2433d22074.jpg",
       "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/shd.json"
     },
     {
@@ -40,8 +44,8 @@
       "order": 3,
       "color": "#CC3333",
       "foilShared": true,
-      "logoURL": null,
-      "artworkURL": null,
+      "logoURL": "https://cdn.starwarsunlimited.com//xlarge_Twilight_of_the_Republic_Logo_FR_4843a3a8fd.png",
+      "artworkURL": "https://cdn.starwarsunlimited.com//large_SWH_03_Key_Art_171e033574.png",
       "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/twi.json"
     },
     {
@@ -53,8 +57,8 @@
       "order": 4,
       "color": "#f2a900",
       "foilShared": false,
-      "logoURL": null,
-      "artworkURL": null,
+      "logoURL": "https://cdn.starwarsunlimited.com//xlarge_SWH_04fr_Logo_fbdc080793.png",
+      "artworkURL": "https://cdn.starwarsunlimited.com//large_SWH_04_Key_Art_7ebe605a3b.jpg",
       "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/jtl.json"
     },
     {
@@ -66,8 +70,8 @@
       "order": 5,
       "color": "#1A66E6",
       "foilShared": false,
-      "logoURL": null,
-      "artworkURL": null,
+      "logoURL": "https://cdn.starwarsunlimited.com//medium_Legends_of_the_Force_Logo_FR_41693db6a1.png",
+      "artworkURL": "https://cdn.starwarsunlimited.com//large_Legends_of_the_Force_Key_Art_f4849d8f16.jpg",
       "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/lof.json"
     },
     {
@@ -79,8 +83,8 @@
       "order": 6,
       "color": "#C71780",
       "foilShared": false,
-      "logoURL": null,
-      "artworkURL": null,
+      "logoURL": "https://cdn.starwarsunlimited.com//xxlarge_Secrets_of_Power_logo_FR_11eebec08f.png",
+      "artworkURL": "https://cdn.starwarsunlimited.com//large_SWH_06_Key_Art_5972c74fd2.jpg",
       "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/sec.json"
     },
     {
@@ -92,8 +96,8 @@
       "order": 7,
       "color": "#FF6900",
       "foilShared": false,
-      "logoURL": null,
-      "artworkURL": null,
+      "logoURL": "https://cdn.starwarsunlimited.com//xlarge_SWH_07fr_Logo_b459d80222.png",
+      "artworkURL": "https://cdn.starwarsunlimited.com//large_SWH_07_K_Ey_Art_070a872699.jpg",
       "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/law.json"
     },
     {
@@ -118,8 +122,8 @@
       "order": 2,
       "color": "#FF8C00",
       "foilShared": false,
-      "logoURL": null,
-      "artworkURL": null,
+      "logoURL": "https://cdn.starwarsunlimited.com//xlarge_Intro_Battle_Hoth_Logo_FR_c83cec94ef.png",
+      "artworkURL": "https://cdn.starwarsunlimited.com//large_Intro_Battle_Hoth_Key_Art_0e20193f29.jpg",
       "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/ibh.json"
     },
     {
@@ -176,7 +180,7 @@
     },
     {
       "id": "lofp",
-      "dataVersion": 1,
+      "dataVersion": 2,
       "code": "LOFW",
       "displayCode": "LOFP",
       "name": "Légendes de la Force Weekly Play",
@@ -186,7 +190,6 @@
       "foilShared": false,
       "logoURL": null,
       "artworkURL": null,
-      "dataVersion": 2,
       "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/lofw.json"
     },
     {
@@ -204,12 +207,25 @@
       "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/jtlw.json"
     },
     {
+      "id": "g25",
+      "dataVersion": 2,
+      "code": "G25",
+      "name": "2025 Gift Box",
+      "type": "promo",
+      "order": 9,
+      "color": "#9B00CC",
+      "foilShared": false,
+      "logoURL": null,
+      "artworkURL": null,
+      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/staging/sets/g25.json"
+    },
+    {
       "id": "p25",
       "dataVersion": 1,
       "code": "P25",
       "name": "2025 Promo",
       "type": "promo",
-      "order": 9,
+      "order": 10,
       "color": "#9B00CC",
       "foilShared": false,
       "logoURL": null,
@@ -218,16 +234,16 @@
     },
     {
       "id": "p26",
-      "dataVersion": 1,
+      "dataVersion": 3,
       "code": "P26",
       "name": "2026 Promo",
       "type": "promo",
-      "order": 10,
+      "order": 11,
       "color": "#9B00CC",
       "foilShared": false,
       "logoURL": null,
       "artworkURL": null,
-      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/p26.json"
+      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/staging/sets/p26.json"
     },
     {
       "id": "secp",
@@ -236,7 +252,7 @@
       "displayCode": "SECP",
       "name": "Secrets du Pouvoir Weekly Play",
       "type": "special",
-      "order": 11,
+      "order": 12,
       "color": "#C71780",
       "foilShared": false,
       "logoURL": null,
@@ -249,7 +265,7 @@
       "code": "LAWP",
       "name": "Sans Foi ni Loi Weekly Play",
       "type": "special",
-      "order": 12,
+      "order": 13,
       "color": "#FF6900",
       "foilShared": false,
       "logoURL": null,
@@ -258,16 +274,15 @@
     },
     {
       "id": "ts26",
-      "dataVersion": 1,
+      "dataVersion": 2,
       "code": "TS26",
       "name": "2026 Twin Suns",
       "type": "special",
-      "order": 13,
+      "order": 14,
       "color": "#881B1B",
       "foilShared": false,
       "logoURL": null,
       "artworkURL": null,
-      "dataVersion": 2,
       "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/ts26.json"
     }
   ]
