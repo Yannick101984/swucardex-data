@@ -1473,6 +1473,14 @@
   },
   {
     "set_code": "SHD",
+    "en_name": "Moisture Farmer",
+    "card_number": 330,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
     "en_name": "Rickety Quadjumper",
     "card_number": 332,
     "variant_type": "Hyperspace",
@@ -1491,6 +1499,22 @@
     "set_code": "SHD",
     "en_name": "Adelphi Patrol Wing",
     "card_number": 370,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
+    "en_name": "Kylo Ren, Killing the Past",
+    "card_number": 410,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
+    "en_name": "Krayt Dragon",
+    "card_number": 441,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -2777,22 +2801,6 @@
   },
   {
     "set_code": "TWI",
-    "en_name": "Rune Haako, Scheming Second",
-    "card_number": 304,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "Morgan Elsbeth, Keeper of Many Secrets",
-    "card_number": 308,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
     "en_name": "Hello There",
     "card_number": 325,
     "variant_type": "Hyperspace",
@@ -2811,14 +2819,6 @@
     "set_code": "TWI",
     "en_name": "Perilous Position",
     "card_number": 343,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "Disruptive Burst",
-    "card_number": 348,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
