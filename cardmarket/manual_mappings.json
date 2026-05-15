@@ -1793,6 +1793,14 @@
   },
   {
     "set_code": "SOR",
+    "en_name": "The Emperor's Legion",
+    "card_number": 355,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
     "en_name": "Wedge Antilles, Star of the Rebellion",
     "card_number": 364,
     "variant_type": "Hyperspace Foil",
@@ -2833,8 +2841,8 @@
   },
   {
     "set_code": "TWI",
-    "en_name": "Nameless Valor",
-    "card_number": 389,
+    "en_name": "Republic Defense Carrier",
+    "card_number": 369,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
