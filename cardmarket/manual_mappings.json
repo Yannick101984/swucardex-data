@@ -1785,6 +1785,14 @@
   },
   {
     "set_code": "SOR",
+    "en_name": "Vanquish",
+    "card_number": 343,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
     "en_name": "Admiral Piett, Captain of the Executor",
     "card_number": 344,
     "variant_type": "Hyperspace Foil",
@@ -1851,6 +1859,22 @@
     "set_code": "SOR",
     "en_name": "Seventh Fleet Defender",
     "card_number": 443,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
+    "en_name": "Mining Guild TIE Fighter",
+    "card_number": 468,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
+    "en_name": "Outer Rim Headhunter",
+    "card_number": 470,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
