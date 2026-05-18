@@ -1481,14 +1481,6 @@
   },
   {
     "set_code": "SHD",
-    "en_name": "Rickety Quadjumper",
-    "card_number": 332,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
     "en_name": "Remnant Reserves",
     "card_number": 362,
     "variant_type": "Hyperspace",
@@ -1857,6 +1849,14 @@
   },
   {
     "set_code": "SOR",
+    "en_name": "Cantina Braggart",
+    "card_number": 420,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
     "en_name": "Occupier Siege Tank",
     "card_number": 428,
     "variant_type": "Hyperspace",
@@ -1867,6 +1867,14 @@
     "set_code": "SOR",
     "en_name": "Seventh Fleet Defender",
     "card_number": 443,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
+    "en_name": "Rogue Operative",
+    "card_number": 456,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
