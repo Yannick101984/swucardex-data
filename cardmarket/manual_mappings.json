@@ -2905,6 +2905,14 @@
   },
   {
     "set_code": "TWI",
+    "en_name": "Bold Resistance",
+    "card_number": 420,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
     "en_name": "Dendup's Loyalist",
     "card_number": 426,
     "variant_type": "Hyperspace",
