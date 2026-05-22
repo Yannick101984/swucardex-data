@@ -1473,6 +1473,14 @@
   },
   {
     "set_code": "SHD",
+    "en_name": "Midnight Repairs",
+    "card_number": 329,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
     "en_name": "Moisture Farmer",
     "card_number": 330,
     "variant_type": "Hyperspace",
@@ -1788,14 +1796,6 @@
     "en_name": "Vanquish",
     "card_number": 343,
     "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "Admiral Piett, Captain of the Executor",
-    "card_number": 344,
-    "variant_type": "Hyperspace Foil",
     "idProduct": null,
     "note": ""
   },
