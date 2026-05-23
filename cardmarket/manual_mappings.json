@@ -1513,6 +1513,14 @@
   },
   {
     "set_code": "SHD",
+    "en_name": "Heroic Renegade",
+    "card_number": 415,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
     "en_name": "Krayt Dragon",
     "card_number": 441,
     "variant_type": "Hyperspace",
@@ -1555,6 +1563,14 @@
     "set_code": "SHD",
     "en_name": "Frozen in Carbonite",
     "card_number": 462,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
+    "en_name": "Coruscant Dissident",
+    "card_number": 467,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -1801,6 +1817,22 @@
   },
   {
     "set_code": "SOR",
+    "en_name": "Blizzard Assault AT-AT",
+    "card_number": 352,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
+    "en_name": "Relentless, Konstantine's Folly",
+    "card_number": 353,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
     "en_name": "The Emperor's Legion",
     "card_number": 355,
     "variant_type": "Hyperspace",
@@ -1851,14 +1883,6 @@
     "set_code": "SOR",
     "en_name": "Occupier Siege Tank",
     "card_number": 428,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "Seventh Fleet Defender",
-    "card_number": 443,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -2833,14 +2857,6 @@
   },
   {
     "set_code": "TWI",
-    "en_name": "Droid Manufactory",
-    "card_number": 297,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
     "en_name": "Hello There",
     "card_number": 325,
     "variant_type": "Hyperspace",
@@ -2867,6 +2883,14 @@
     "set_code": "TWI",
     "en_name": "Republic Defense Carrier",
     "card_number": 369,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
+    "en_name": "In Defense of Kamino",
+    "card_number": 397,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -2939,6 +2963,14 @@
     "set_code": "TWI",
     "en_name": "Padmé Amidala, Pursuing Peace",
     "card_number": 457,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
+    "en_name": "Favorable Delegate",
+    "card_number": 473,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
