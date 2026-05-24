@@ -1537,6 +1537,14 @@
   },
   {
     "set_code": "SHD",
+    "en_name": "Vambrace Flamethrower",
+    "card_number": 446,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
     "en_name": "Bazine Netal, Spy for the First Order",
     "card_number": 453,
     "variant_type": "Hyperspace",
@@ -1844,14 +1852,6 @@
     "en_name": "Wedge Antilles, Star of the Rebellion",
     "card_number": 364,
     "variant_type": "Hyperspace Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "Rebel Assault",
-    "card_number": 367,
-    "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
   },
@@ -2865,6 +2865,14 @@
   },
   {
     "set_code": "TWI",
+    "en_name": "Compassionate Senator",
+    "card_number": 329,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
     "en_name": "Perilous Position",
     "card_number": 343,
     "variant_type": "Hyperspace",
@@ -2979,14 +2987,6 @@
     "set_code": "TWI",
     "en_name": "Patrolling AAT",
     "card_number": 495,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "AT-TE Vanguard",
-    "card_number": 508,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
