@@ -1489,14 +1489,6 @@
   },
   {
     "set_code": "SHD",
-    "en_name": "Remnant Reserves",
-    "card_number": 362,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
     "en_name": "Adelphi Patrol Wing",
     "card_number": 370,
     "variant_type": "Hyperspace",
@@ -2987,6 +2979,14 @@
     "set_code": "TWI",
     "en_name": "Patrolling AAT",
     "card_number": 495,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
+    "en_name": "Drop In",
+    "card_number": 511,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
