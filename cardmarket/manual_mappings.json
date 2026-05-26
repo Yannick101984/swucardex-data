@@ -1545,24 +1545,8 @@
   },
   {
     "set_code": "SHD",
-    "en_name": "Doctor Evazan, Wanted on Twelve Systems",
-    "card_number": 454,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
     "en_name": "Lurking TIE Phantom",
     "card_number": 456,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Frozen in Carbonite",
-    "card_number": 462,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -1857,8 +1841,8 @@
   },
   {
     "set_code": "SOR",
-    "en_name": "SpecForce Soldier",
-    "card_number": 403,
+    "en_name": "Zeb Orrelios, Headstrong Warrior",
+    "card_number": 409,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -2889,6 +2873,14 @@
   },
   {
     "set_code": "TWI",
+    "en_name": "General's Blade",
+    "card_number": 391,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
     "en_name": "In Defense of Kamino",
     "card_number": 397,
     "variant_type": "Hyperspace",
@@ -2939,14 +2931,6 @@
     "set_code": "TWI",
     "en_name": "Kit Fisto, The Smiling Jedi",
     "card_number": 432,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "Daring Raid",
-    "card_number": 437,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
