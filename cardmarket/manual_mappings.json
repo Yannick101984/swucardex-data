@@ -1521,14 +1521,6 @@
   },
   {
     "set_code": "SHD",
-    "en_name": "Armed to the Teeth",
-    "card_number": 444,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
     "en_name": "Vambrace Flamethrower",
     "card_number": 446,
     "variant_type": "Hyperspace",
@@ -1777,22 +1769,6 @@
   },
   {
     "set_code": "SOR",
-    "en_name": "Del Meeko, Providing Overwatch",
-    "card_number": 300,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "Repair",
-    "card_number": 339,
-    "variant_type": "Hyperspace Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
     "en_name": "Vanquish",
     "card_number": 343,
     "variant_type": "Hyperspace",
@@ -1851,14 +1827,6 @@
     "set_code": "SOR",
     "en_name": "Cantina Braggart",
     "card_number": 420,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "Occupier Siege Tank",
-    "card_number": 428,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -2955,14 +2923,6 @@
     "set_code": "TWI",
     "en_name": "Favorable Delegate",
     "card_number": 473,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "Patrolling AAT",
-    "card_number": 495,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
