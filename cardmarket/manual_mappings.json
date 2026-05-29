@@ -1489,8 +1489,32 @@
   },
   {
     "set_code": "SHD",
+    "en_name": "Val, Loyal to the End",
+    "card_number": 333,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
+    "en_name": "Echo, Restored",
+    "card_number": 368,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
     "en_name": "Adelphi Patrol Wing",
     "card_number": 370,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
+    "en_name": "Kylo's TIE Silencer, Ruthlessly Efficient",
+    "card_number": 404,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -2873,24 +2897,8 @@
   },
   {
     "set_code": "TWI",
-    "en_name": "Jesse, Hard-Fighting Patriot",
-    "card_number": 413,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
     "en_name": "Bold Resistance",
     "card_number": 420,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "Dendup's Loyalist",
-    "card_number": 426,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
