@@ -4,7 +4,7 @@
   "latestMainSet": "law",
   "announcement": {
     "id": "ann-2026-05-30",
-    "text": "Nouveau set ajouté : Cendres de l’Empire - ASH",
+    "text": "Nouvelles cartes ajoutées - JTL, LOF, SEC, LAW, J25, LOFW, JTLW | Règles mises à jour - JTL, LOF, SEC, LAW, C25, JTLW, P25",
     "color": "#7C3AED",
     "url": ""
   },
@@ -50,7 +50,7 @@
     },
     {
       "id": "jtl",
-      "dataVersion": 1,
+      "dataVersion": 2,
       "code": "JTL",
       "name": "Passage en Vitesse Lumière",
       "type": "main",
@@ -63,7 +63,7 @@
     },
     {
       "id": "lof",
-      "dataVersion": 1,
+      "dataVersion": 2,
       "code": "LOF",
       "name": "Légendes de la Force",
       "type": "main",
@@ -76,7 +76,7 @@
     },
     {
       "id": "sec",
-      "dataVersion": 1,
+      "dataVersion": 2,
       "code": "SEC",
       "name": "Secrets du Pouvoir",
       "type": "main",
@@ -89,7 +89,7 @@
     },
     {
       "id": "law",
-      "dataVersion": 1,
+      "dataVersion": 2,
       "code": "LAW",
       "name": "Sans Foi Ni Loi",
       "type": "main",
@@ -128,7 +128,7 @@
     },
     {
       "id": "c24",
-      "dataVersion": 1,
+      "dataVersion": 2,
       "code": "C24",
       "name": "2024 Convention Exclusive",
       "type": "special",
@@ -141,7 +141,7 @@
     },
     {
       "id": "c25",
-      "dataVersion": 1,
+      "dataVersion": 2,
       "code": "C25",
       "name": "2025 Convention Exclusive",
       "type": "special",
@@ -167,7 +167,7 @@
     },
     {
       "id": "j25",
-      "dataVersion": 1,
+      "dataVersion": 2,
       "code": "J25",
       "name": "2025 Judge Program",
       "type": "promo",
@@ -180,7 +180,7 @@
     },
     {
       "id": "lofp",
-      "dataVersion": 2,
+      "dataVersion": 3,
       "code": "LOFW",
       "displayCode": "LOFP",
       "name": "Légendes de la Force Weekly Play",
@@ -194,7 +194,7 @@
     },
     {
       "id": "jtlw",
-      "dataVersion": 1,
+      "dataVersion": 2,
       "code": "JTLW",
       "displayCode": "JTLP",
       "name": "Passage En Vitesse Lumière Weekly Play",
@@ -221,7 +221,7 @@
     },
     {
       "id": "p25",
-      "dataVersion": 1,
+      "dataVersion": 2,
       "code": "P25",
       "name": "2025 Promo",
       "type": "promo",
@@ -247,7 +247,7 @@
     },
     {
       "id": "secp",
-      "dataVersion": 1,
+      "dataVersion": 2,
       "code": "SECW",
       "displayCode": "SECP",
       "name": "Secrets du Pouvoir Weekly Play",
