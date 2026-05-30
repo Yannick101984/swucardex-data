@@ -330,17 +330,22 @@ def set_file_path(manifest_code):
 
 def save_set_json(manifest_code, cards):
     path = set_file_path(manifest_code)
+    def has_variant_of(c):
+        vo = c.get('attributes', {}).get('variantOf')
+        return isinstance(vo, dict) and bool(vo.get('data'))
+    data_cards    = [c for c in cards if not has_variant_of(c)]
+    variant_cards = [c for c in cards if has_variant_of(c)]
     with open(path, 'w', encoding='utf-8') as f:
-        json.dump({"data": cards}, f, indent=2, ensure_ascii=False)
+        json.dump({"data": data_cards, "variants": variant_cards}, f, indent=2, ensure_ascii=False)
         f.write('\n')
-    print(f"  💾 sets/{manifest_code.lower()}.json ({len(cards)} cartes)")
+    print(f"  💾 sets/{manifest_code.lower()}.json ({len(data_cards)} principales + {len(variant_cards)} variantes)")
     return path
 
 
 def update_announcement(manifest, text, color=None):
     today = date.today().isoformat()
     manifest['announcement'] = {
-        "id":    f"ann-{today}",
+        "id":    f"ann-{int(time.time())}",
         "text":  text,
         "color": color or manifest.get('announcement', {}).get('color', '#3B82F6'),
         "url":   "",
