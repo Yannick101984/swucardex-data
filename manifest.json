@@ -4,7 +4,7 @@
   "latestMainSet": "ash",
   "announcement": {
     "id": "ann-2026-05-30",
-    "text": "Nouvelles cartes ajoutées - JTL, LOF, SEC, LAW, J25, LOFW, JTLW, P26 | Règles mises à jour - JTL, LOF, SEC, LAW, C25, JTLW, P25",
+    "text": "Nouvelles cartes ajoutées - P26",
     "color": "#425563",
     "url": ""
   },
@@ -234,7 +234,7 @@
     },
     {
       "id": "p26",
-      "dataVersion": 5,
+      "dataVersion": 6,
       "code": "P26",
       "name": "2026 Promo",
       "type": "promo",
