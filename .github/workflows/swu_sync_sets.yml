@@ -2,11 +2,15 @@ name: SWU — Détection nouveaux sets
 
 on:
   schedule:
-    # Chaque lundi à 8h UTC (actif uniquement sur la branche par défaut)
+    # Chaque lundi à 8h UTC
     - cron: '0 8 * * 1'
   workflow_dispatch:
-    # Déclenchement manuel depuis l'onglet Actions
-    # → sélectionner la branche "staging" pour tester en preprod
+    inputs:
+      branch:
+        description: 'Branche cible (main par défaut)'
+        required: false
+        default: 'main'
+        type: string
 
 jobs:
   sync:
@@ -18,7 +22,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          ref: ${{ github.ref_name }}
+          # Toujours travailler sur main (données de référence).
+          # En workflow_dispatch, le champ "branch" permet de cibler staging pour tester.
+          ref: ${{ inputs.branch || 'main' }}
 
       - name: Setup Python 3.11
         uses: actions/setup-python@v5
