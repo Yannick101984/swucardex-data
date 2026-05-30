@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "lastUpdated": "2026-05-14",
+  "lastUpdated": "2026-05-30",
   "latestMainSet": "law",
   "announcement": {
-    "id": "ann-2026-06-11",
-    "text": "Nouveau set ajouté : 2026 Twin Suns - TS26",
+    "id": "ann-2026-05-30",
+    "text": "Nouveau set ajouté : Cendres de l’Empire - ASH",
     "color": "#7C3AED",
     "url": ""
   },
@@ -284,6 +284,19 @@
       "logoURL": null,
       "artworkURL": null,
       "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/ts26.json"
+    },
+    {
+      "id": "ash",
+      "dataVersion": 1,
+      "code": "ASH",
+      "name": "Cendres de l’Empire",
+      "type": "special",
+      "order": 15,
+      "color": "#888888",
+      "foilShared": false,
+      "logoURL": null,
+      "artworkURL": null,
+      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/staging/sets/ash.json"
     }
   ]
 }
