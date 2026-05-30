@@ -2825,24 +2825,8 @@
   },
   {
     "set_code": "TWI",
-    "en_name": "Hello There",
-    "card_number": 325,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
     "en_name": "Compassionate Senator",
     "card_number": 329,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "Perilous Position",
-    "card_number": 343,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
