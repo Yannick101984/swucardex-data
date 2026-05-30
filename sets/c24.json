@@ -947,17 +947,6 @@
         "traits": {
           "data": [
             {
-              "id": 9,
-              "attributes": {
-                "name": "Impérial",
-                "description": "",
-                "createdAt": "2023-08-15T14:38:23.731Z",
-                "updatedAt": "2024-01-04T21:11:46.388Z",
-                "publishedAt": "2024-01-04T21:11:46.385Z",
-                "locale": "fr"
-              }
-            },
-            {
               "id": 34,
               "attributes": {
                 "name": "Force",
@@ -965,6 +954,17 @@
                 "createdAt": "2023-08-15T14:41:10.682Z",
                 "updatedAt": "2024-01-04T21:15:19.420Z",
                 "publishedAt": "2024-01-04T21:15:19.417Z",
+                "locale": "fr"
+              }
+            },
+            {
+              "id": 9,
+              "attributes": {
+                "name": "Impérial",
+                "description": "",
+                "createdAt": "2023-08-15T14:38:23.731Z",
+                "updatedAt": "2024-01-04T21:11:46.388Z",
+                "publishedAt": "2024-01-04T21:11:46.385Z",
                 "locale": "fr"
               }
             },
@@ -1512,17 +1512,6 @@
         "traits": {
           "data": [
             {
-              "id": 9,
-              "attributes": {
-                "name": "Impérial",
-                "description": "",
-                "createdAt": "2023-08-15T14:38:23.731Z",
-                "updatedAt": "2024-01-04T21:11:46.388Z",
-                "publishedAt": "2024-01-04T21:11:46.385Z",
-                "locale": "fr"
-              }
-            },
-            {
               "id": 34,
               "attributes": {
                 "name": "Force",
@@ -1530,6 +1519,17 @@
                 "createdAt": "2023-08-15T14:41:10.682Z",
                 "updatedAt": "2024-01-04T21:15:19.420Z",
                 "publishedAt": "2024-01-04T21:15:19.417Z",
+                "locale": "fr"
+              }
+            },
+            {
+              "id": 9,
+              "attributes": {
+                "name": "Impérial",
+                "description": "",
+                "createdAt": "2023-08-15T14:38:23.731Z",
+                "updatedAt": "2024-01-04T21:11:46.388Z",
+                "publishedAt": "2024-01-04T21:11:46.385Z",
                 "locale": "fr"
               }
             },
@@ -2088,17 +2088,6 @@
         "traits": {
           "data": [
             {
-              "id": 34,
-              "attributes": {
-                "name": "Force",
-                "description": null,
-                "createdAt": "2023-08-15T14:41:10.682Z",
-                "updatedAt": "2024-01-04T21:15:19.420Z",
-                "publishedAt": "2024-01-04T21:15:19.417Z",
-                "locale": "fr"
-              }
-            },
-            {
               "id": 255,
               "attributes": {
                 "name": "Premier Ordre",
@@ -2106,6 +2095,17 @@
                 "createdAt": "2024-04-09T16:17:34.012Z",
                 "updatedAt": "2024-05-21T18:02:07.628Z",
                 "publishedAt": "2024-05-21T18:02:07.625Z",
+                "locale": "fr"
+              }
+            },
+            {
+              "id": 34,
+              "attributes": {
+                "name": "Force",
+                "description": null,
+                "createdAt": "2023-08-15T14:41:10.682Z",
+                "updatedAt": "2024-01-04T21:15:19.420Z",
+                "publishedAt": "2024-01-04T21:15:19.417Z",
                 "locale": "fr"
               }
             }
@@ -2630,17 +2630,6 @@
         "traits": {
           "data": [
             {
-              "id": 34,
-              "attributes": {
-                "name": "Force",
-                "description": null,
-                "createdAt": "2023-08-15T14:41:10.682Z",
-                "updatedAt": "2024-01-04T21:15:19.420Z",
-                "publishedAt": "2024-01-04T21:15:19.417Z",
-                "locale": "fr"
-              }
-            },
-            {
               "id": 205,
               "attributes": {
                 "name": "Séparatiste",
@@ -2648,6 +2637,17 @@
                 "createdAt": "2023-11-21T17:06:36.555Z",
                 "updatedAt": "2024-01-04T21:23:00.948Z",
                 "publishedAt": "2024-01-04T21:23:00.945Z",
+                "locale": "fr"
+              }
+            },
+            {
+              "id": 34,
+              "attributes": {
+                "name": "Force",
+                "description": null,
+                "createdAt": "2023-08-15T14:41:10.682Z",
+                "updatedAt": "2024-01-04T21:15:19.420Z",
+                "publishedAt": "2024-01-04T21:15:19.417Z",
                 "locale": "fr"
               }
             },
@@ -3195,17 +3195,6 @@
         "traits": {
           "data": [
             {
-              "id": 34,
-              "attributes": {
-                "name": "Force",
-                "description": null,
-                "createdAt": "2023-08-15T14:41:10.682Z",
-                "updatedAt": "2024-01-04T21:15:19.420Z",
-                "publishedAt": "2024-01-04T21:15:19.417Z",
-                "locale": "fr"
-              }
-            },
-            {
               "id": 44,
               "attributes": {
                 "name": "Sith",
@@ -3213,6 +3202,17 @@
                 "createdAt": "2023-08-15T14:42:17.108Z",
                 "updatedAt": "2024-01-04T21:23:19.059Z",
                 "publishedAt": "2024-01-04T21:23:19.055Z",
+                "locale": "fr"
+              }
+            },
+            {
+              "id": 34,
+              "attributes": {
+                "name": "Force",
+                "description": null,
+                "createdAt": "2023-08-15T14:41:10.682Z",
+                "updatedAt": "2024-01-04T21:15:19.420Z",
+                "publishedAt": "2024-01-04T21:15:19.417Z",
                 "locale": "fr"
               }
             }
@@ -3355,6 +3355,5 @@
         "validationId": "8613680163"
       }
     }
-  ],
-  "variants": []
+  ]
 }

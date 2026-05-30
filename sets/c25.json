@@ -2247,6 +2247,548 @@
       }
     },
     {
+      "id": 38392,
+      "attributes": {
+        "cardNumber": 5,
+        "title": "C-3PO",
+        "subtitle": "Anything I Might Do?",
+        "cardCount": 6,
+        "artist": "Stephen Somers",
+        "artFrontHorizontal": false,
+        "artBackHorizontal": null,
+        "hasFoil": true,
+        "cost": 1,
+        "hp": 3,
+        "power": 1,
+        "text": "Action [exhaust, return this unit to its owner’s hand]: Give a unit +2/+2 for this phase.",
+        "textStyled": "<p><strong>Action [<img src=\"https://cdn.starwarsunlimited.com/icon_exhaust_0c450d09d4.png\" alt=\"icon_exhaust.png\">, return this unit to its owner’s hand]:</strong> Give a unit <strong>+2/+2</strong> for this phase.</p>",
+        "deployBox": null,
+        "deployBoxStyled": "",
+        "epicAction": null,
+        "epicActionStyled": "",
+        "linkHtml": "<a href=\"/cards?cid=5125502286\" class=\"card-tooltip\" data-card=\"5125502286\">C-3PO</a>",
+        "cardId": null,
+        "createdAt": "2025-05-02T16:31:01.727Z",
+        "updatedAt": "2025-08-19T20:38:55.758Z",
+        "publishedAt": "2025-05-05T14:50:18.525Z",
+        "locale": "fr",
+        "hyperspace": false,
+        "unique": true,
+        "showcase": false,
+        "cardUid": "5125502286",
+        "rules": null,
+        "rulesStyled": "",
+        "serialCode": "C25080005",
+        "upgradeHp": null,
+        "upgradePower": null,
+        "artFront": {
+          "data": {
+            "id": 36529,
+            "attributes": {
+              "name": "C25080005EN_C3P0.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 300,
+              "height": 419,
+              "formats": {
+                "card": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//card_C25080005_EN_C3_P0_795050b390.png",
+                  "hash": "card_C25080005_EN_C3_P0_795050b390",
+                  "mime": "image/png",
+                  "name": "card_C25080005EN_C3P0.png",
+                  "path": null,
+                  "size": 167.19,
+                  "width": 286,
+                  "height": 400
+                },
+                "xsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xsmall_C25080005_EN_C3_P0_795050b390.png",
+                  "hash": "xsmall_C25080005_EN_C3_P0_795050b390",
+                  "mime": "image/png",
+                  "name": "xsmall_C25080005EN_C3P0.png",
+                  "path": null,
+                  "size": 100.05,
+                  "width": 215,
+                  "height": 300
+                },
+                "xxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxsmall_C25080005_EN_C3_P0_795050b390.png",
+                  "hash": "xxsmall_C25080005_EN_C3_P0_795050b390",
+                  "mime": "image/png",
+                  "name": "xxsmall_C25080005EN_C3P0.png",
+                  "path": null,
+                  "size": 49.72,
+                  "width": 143,
+                  "height": 200
+                },
+                "xxxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxxsmall_C25080005_EN_C3_P0_795050b390.png",
+                  "hash": "xxxsmall_C25080005_EN_C3_P0_795050b390",
+                  "mime": "image/png",
+                  "name": "xxxsmall_C25080005EN_C3P0.png",
+                  "path": null,
+                  "size": 30.77,
+                  "width": 107,
+                  "height": 150
+                },
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//thumbnail_C25080005_EN_C3_P0_795050b390.png",
+                  "hash": "thumbnail_C25080005_EN_C3_P0_795050b390",
+                  "mime": "image/png",
+                  "name": "thumbnail_C25080005EN_C3P0.png",
+                  "path": null,
+                  "size": 72.92,
+                  "width": 179,
+                  "height": 250
+                }
+              },
+              "hash": "C25080005_EN_C3_P0_795050b390",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 52.04,
+              "url": "https://cdn.starwarsunlimited.com//C25080005_EN_C3_P0_795050b390.png",
+              "previewUrl": null,
+              "provider": "aws-s3",
+              "provider_metadata": null,
+              "createdAt": "2025-04-25T15:55:36.375Z",
+              "updatedAt": "2025-04-25T15:55:36.375Z"
+            }
+          }
+        },
+        "artBack": {
+          "data": null
+        },
+        "artThumbnail": {
+          "data": {
+            "id": 36524,
+            "attributes": {
+              "name": "C25080005EN_C3P0_Thumbnail.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 300,
+              "height": 100,
+              "formats": {
+                "xxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxsmall_C25080005_EN_C3_P0_Thumbnail_42ba514b87.png",
+                  "hash": "xxsmall_C25080005_EN_C3_P0_Thumbnail_42ba514b87",
+                  "mime": "image/png",
+                  "name": "xxsmall_C25080005EN_C3P0_Thumbnail.png",
+                  "path": null,
+                  "size": 20.85,
+                  "width": 200,
+                  "height": 67
+                },
+                "xxxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxxsmall_C25080005_EN_C3_P0_Thumbnail_42ba514b87.png",
+                  "hash": "xxxsmall_C25080005_EN_C3_P0_Thumbnail_42ba514b87",
+                  "mime": "image/png",
+                  "name": "xxxsmall_C25080005EN_C3P0_Thumbnail.png",
+                  "path": null,
+                  "size": 12.63,
+                  "width": 150,
+                  "height": 50
+                },
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//thumbnail_C25080005_EN_C3_P0_Thumbnail_42ba514b87.png",
+                  "hash": "thumbnail_C25080005_EN_C3_P0_Thumbnail_42ba514b87",
+                  "mime": "image/png",
+                  "name": "thumbnail_C25080005EN_C3P0_Thumbnail.png",
+                  "path": null,
+                  "size": 30.23,
+                  "width": 250,
+                  "height": 83
+                }
+              },
+              "hash": "C25080005_EN_C3_P0_Thumbnail_42ba514b87",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 10.98,
+              "url": "https://cdn.starwarsunlimited.com//C25080005_EN_C3_P0_Thumbnail_42ba514b87.png",
+              "previewUrl": null,
+              "provider": "aws-s3",
+              "provider_metadata": null,
+              "createdAt": "2025-04-25T15:55:22.397Z",
+              "updatedAt": "2025-04-25T15:55:22.397Z"
+            }
+          }
+        },
+        "localizations": {
+          "data": [
+            {
+              "id": 38394,
+              "attributes": {
+                "title": "C-3PO",
+                "subtitle": "Anything I Might Do?",
+                "cardNumber": 5,
+                "cardCount": 6,
+                "artist": "Stephen Somers",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": 1,
+                "hp": 3,
+                "power": 1,
+                "text": "Action [exhaust, return this unit to its owner’s hand]: Give a unit +2/+2 for this phase.",
+                "textStyled": "<p><strong>Action [<img src=\"https://cdn.starwarsunlimited.com/icon_exhaust_0c450d09d4.png\" alt=\"icon_exhaust.png\">, return this unit to its owner’s hand]:</strong> Give a unit <strong>+2/+2</strong> for this phase.</p>",
+                "deployBox": null,
+                "deployBoxStyled": "",
+                "epicAction": null,
+                "epicActionStyled": "",
+                "linkHtml": "<a href=\"/cards?cid=5125502286\" class=\"card-tooltip\" data-card=\"5125502286\">C-3PO</a>",
+                "cardId": null,
+                "createdAt": "2025-05-02T16:33:09.389Z",
+                "updatedAt": "2025-08-19T20:38:55.667Z",
+                "publishedAt": "2025-05-05T14:50:34.572Z",
+                "locale": "it",
+                "hyperspace": false,
+                "unique": true,
+                "showcase": false,
+                "cardUid": "5125502286",
+                "rules": null,
+                "rulesStyled": "",
+                "serialCode": "C25080005",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            },
+            {
+              "id": 38393,
+              "attributes": {
+                "title": "C-3PO",
+                "subtitle": "Anything I Might Do?",
+                "cardNumber": 5,
+                "cardCount": 6,
+                "artist": "Stephen Somers",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": 1,
+                "hp": 3,
+                "power": 1,
+                "text": "Action [exhaust, return this unit to its owner’s hand]: Give a unit +2/+2 for this phase.",
+                "textStyled": "<p><strong>Action [<img src=\"https://cdn.starwarsunlimited.com/icon_exhaust_0c450d09d4.png\" alt=\"icon_exhaust.png\">, return this unit to its owner’s hand]:</strong> Give a unit <strong>+2/+2</strong> for this phase.</p>",
+                "deployBox": null,
+                "deployBoxStyled": "",
+                "epicAction": null,
+                "epicActionStyled": "",
+                "linkHtml": "<a href=\"/cards?cid=5125502286\" class=\"card-tooltip\" data-card=\"5125502286\">C-3PO</a>",
+                "cardId": null,
+                "createdAt": "2025-05-02T16:32:11.813Z",
+                "updatedAt": "2025-08-19T20:38:55.740Z",
+                "publishedAt": "2025-05-05T14:50:28.109Z",
+                "locale": "es",
+                "hyperspace": false,
+                "unique": true,
+                "showcase": false,
+                "cardUid": "5125502286",
+                "rules": null,
+                "rulesStyled": "",
+                "serialCode": "C25080005",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            },
+            {
+              "id": 38391,
+              "attributes": {
+                "title": "C-3PO",
+                "subtitle": "Anything I Might Do?",
+                "cardNumber": 5,
+                "cardCount": 6,
+                "artist": "Stephen Somers",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": 1,
+                "hp": 3,
+                "power": 1,
+                "text": "Action [exhaust, return this unit to its owner’s hand]: Give a unit +2/+2 for this phase.",
+                "textStyled": "<p><strong>Action [<img src=\"https://cdn.starwarsunlimited.com/icon_exhaust_0c450d09d4.png\" alt=\"icon_exhaust.png\">, return this unit to its owner’s hand]:</strong> Give a unit <strong>+2/+2</strong> for this phase.</p>",
+                "deployBox": null,
+                "deployBoxStyled": "",
+                "epicAction": null,
+                "epicActionStyled": "",
+                "linkHtml": "<a href=\"/cards?cid=5125502286\" class=\"card-tooltip\" data-card=\"5125502286\">C-3PO</a>",
+                "cardId": null,
+                "createdAt": "2025-05-02T16:30:02.920Z",
+                "updatedAt": "2025-08-19T20:38:55.779Z",
+                "publishedAt": "2025-05-05T14:50:10.817Z",
+                "locale": "de",
+                "hyperspace": false,
+                "unique": true,
+                "showcase": false,
+                "cardUid": "5125502286",
+                "rules": null,
+                "rulesStyled": "",
+                "serialCode": "C25080005",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            },
+            {
+              "id": 38390,
+              "attributes": {
+                "title": "C-3PO",
+                "subtitle": "Anything I Might Do?",
+                "cardNumber": 5,
+                "cardCount": 6,
+                "artist": "Stephen Somers",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": 1,
+                "hp": 3,
+                "power": 1,
+                "text": "Action [exhaust, return this unit to its owner’s hand]: Give a unit +2/+2 for this phase.",
+                "textStyled": "<p><strong>Action [<img src=\"https://cdn.starwarsunlimited.com/icon_exhaust_0c450d09d4.png\" alt=\"icon_exhaust.png\">, return this unit to its owner’s hand]:</strong> Give a unit <strong>+2/+2</strong> for this phase.</p>",
+                "deployBox": null,
+                "deployBoxStyled": "",
+                "epicAction": null,
+                "epicActionStyled": "",
+                "linkHtml": "<a href=\"/cards?cid=5125502286\" class=\"card-tooltip\" data-card=\"5125502286\">C-3PO</a>",
+                "cardId": null,
+                "createdAt": "2025-05-02T15:57:17.391Z",
+                "updatedAt": "2025-08-19T20:38:55.800Z",
+                "publishedAt": "2025-05-05T14:49:58.915Z",
+                "locale": "en",
+                "hyperspace": false,
+                "unique": true,
+                "showcase": false,
+                "cardUid": "5125502286",
+                "rules": null,
+                "rulesStyled": "",
+                "serialCode": "C25080005",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "data": [
+            {
+              "id": 9,
+              "attributes": {
+                "name": "Commandement",
+                "description": "<p>Accélérer sa production de ressources, utiliser de nombreuses unités, renforcer celles qui sont déjà en jeu. C’est l’affinité de prédilection des joueurs qui veulent écraser leurs adversaires par une utilisation massive de leurs troupes.</p>",
+                "color": "#0b992d",
+                "createdAt": "2023-08-10T21:07:29.191Z",
+                "updatedAt": "2024-07-15T21:32:41.107Z",
+                "publishedAt": "2024-01-02T18:24:28.907Z",
+                "locale": "fr",
+                "englishName": "Command",
+                "sortValue": 5
+              }
+            },
+            {
+              "id": 24,
+              "attributes": {
+                "name": "Héroïsme",
+                "description": "<p>Lutter pour la paix et la justice avec des cartes représentant les «&nbsp;gentils&nbsp;» de la galaxie Star Wars. Cette affinité est idéale pour ceux qui souhaitent que leurs cartes se soutiennent et se protègent mutuellement tout en attaquant. Cette affinité est souvent associée à une autre affinité sur la carte.</p>",
+                "color": "#ffffff",
+                "createdAt": "2023-08-10T21:17:26.974Z",
+                "updatedAt": "2024-07-15T21:41:00.637Z",
+                "publishedAt": "2024-01-02T18:25:10.259Z",
+                "locale": "fr",
+                "englishName": "Heroism",
+                "sortValue": 25
+              }
+            }
+          ]
+        },
+        "aspectDuplicates": {
+          "data": []
+        },
+        "type": {
+          "data": {
+            "id": 42,
+            "attributes": {
+              "name": "Jeton Unité",
+              "description": "",
+              "value": "Token",
+              "createdAt": "2024-07-30T21:31:20.754Z",
+              "updatedAt": "2024-11-19T22:32:45.666Z",
+              "publishedAt": "2024-11-19T22:32:38.015Z",
+              "locale": "fr",
+              "sortValue": 4
+            }
+          }
+        },
+        "type2": {
+          "data": null
+        },
+        "traits": {
+          "data": [
+            {
+              "id": 197,
+              "attributes": {
+                "name": "République",
+                "description": "",
+                "createdAt": "2023-11-21T16:58:33.573Z",
+                "updatedAt": "2024-01-04T21:20:39.852Z",
+                "publishedAt": "2024-01-04T21:20:39.849Z",
+                "locale": "fr"
+              }
+            },
+            {
+              "id": 49,
+              "attributes": {
+                "name": "Droïde",
+                "description": "",
+                "createdAt": "2023-08-15T14:42:47.972Z",
+                "updatedAt": "2024-01-04T21:09:43.421Z",
+                "publishedAt": "2024-01-04T21:09:43.408Z",
+                "locale": "fr"
+              }
+            }
+          ]
+        },
+        "arenas": {
+          "data": [
+            {
+              "id": 4,
+              "attributes": {
+                "name": "Terrestre",
+                "description": null,
+                "createdAt": "2023-08-15T14:32:20.801Z",
+                "updatedAt": "2024-01-04T16:49:07.912Z",
+                "publishedAt": "2023-08-18T21:37:40.768Z",
+                "locale": "fr"
+              }
+            }
+          ]
+        },
+        "keywords": {
+          "data": []
+        },
+        "rarity": {
+          "data": {
+            "id": 24,
+            "attributes": {
+              "name": "Spéciale",
+              "character": "S",
+              "color": "#000000",
+              "createdAt": "2023-08-14T21:34:27.979Z",
+              "updatedAt": "2024-04-25T14:06:09.057Z",
+              "publishedAt": "2024-01-04T16:42:01.831Z",
+              "locale": "fr",
+              "englishName": "Special",
+              "sortValue": 1
+            }
+          }
+        },
+        "expansion": {
+          "data": {
+            "id": 65,
+            "attributes": {
+              "name": "2025 Convention Exclusive",
+              "description": "",
+              "code": "C25",
+              "createdAt": "2025-04-25T15:56:54.630Z",
+              "updatedAt": "2025-05-05T14:55:51.755Z",
+              "publishedAt": "2025-05-05T14:55:44.627Z",
+              "locale": "fr",
+              "sortValue": 57,
+              "leaderboardStartDate": null,
+              "leaderboardEndDate": null
+            }
+          }
+        },
+        "variantTypes": {
+          "data": [
+            {
+              "id": 43,
+              "attributes": {
+                "name": "Convention Exclusive",
+                "description": null,
+                "createdAt": "2024-06-26T18:28:45.358Z",
+                "updatedAt": "2024-07-15T18:20:14.740Z",
+                "publishedAt": "2024-07-15T18:20:03.400Z",
+                "locale": "fr",
+                "variantId": "08",
+                "foil": null,
+                "sortValue": 80,
+                "icon": {
+                  "data": {
+                    "id": 8695,
+                    "attributes": {
+                      "name": "icon_conventionexclusive.png",
+                      "alternativeText": null,
+                      "caption": null,
+                      "width": 144,
+                      "height": 144,
+                      "formats": null,
+                      "hash": "icon_conventionexclusive_194657d507",
+                      "ext": ".png",
+                      "mime": "image/png",
+                      "size": 0.79,
+                      "url": "https://cdn.starwarsunlimited.com//icon_conventionexclusive_194657d507.png",
+                      "previewUrl": null,
+                      "provider": "aws-s3",
+                      "provider_metadata": null,
+                      "createdAt": "2024-07-15T14:40:17.033Z",
+                      "updatedAt": "2024-07-15T14:40:17.033Z"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "variantOf": {
+          "data": null
+        },
+        "reprintOf": {
+          "data": {
+            "id": 39843,
+            "attributes": {
+              "title": "C-3PO",
+              "subtitle": "Puis-Je Faire Quelque Chose ?",
+              "cardNumber": 93,
+              "cardCount": 264,
+              "artist": "French Carlomago",
+              "artFrontHorizontal": false,
+              "artBackHorizontal": null,
+              "hasFoil": true,
+              "cost": 1,
+              "hp": 3,
+              "power": 1,
+              "text": "Action [Inclinez, renvoyez cette unité dans la main de son propriétaire] : donnez +2/+2\nà une unité pour cette phase.",
+              "textStyled": "<p><strong>Action [</strong><img src=\"https://ffg-prod-uploads.s3.amazonaws.com/icon_exhaust_0c450d09d4.png\" alt=\"icon_exhaust.png\"><strong>, renvoyez cette unité dans la main de son propriétaire] :</strong> donnez <strong>+2</strong>/<strong>+2</strong> à une unité pour cette phase.</p>",
+              "deployBox": null,
+              "deployBoxStyled": null,
+              "epicAction": "",
+              "epicActionStyled": "<p></p>",
+              "linkHtml": "<a href=\"/cards?cid=7588883291\" class=\"card-tooltip\" data-card=\"7588883291\">C-3PO</a>",
+              "cardId": null,
+              "createdAt": "2025-08-15T18:32:41.557Z",
+              "updatedAt": "2025-08-19T20:29:03.712Z",
+              "publishedAt": "2025-08-19T20:28:53.067Z",
+              "locale": "fr",
+              "hyperspace": false,
+              "unique": true,
+              "showcase": false,
+              "cardUid": "7588883291",
+              "rules": null,
+              "rulesStyled": null,
+              "serialCode": "06010093",
+              "upgradeHp": null,
+              "upgradePower": null
+            }
+          }
+        },
+        "validationId": "7588883291"
+      }
+    },
+    {
       "id": 38397,
       "attributes": {
         "cardNumber": 6,
@@ -2269,15 +2811,15 @@
         "linkHtml": "<a href=\"/cards?cid=4363379257\" class=\"card-tooltip\" data-card=\"4363379257\">Chopper</a>",
         "cardId": null,
         "createdAt": "2025-05-02T19:39:29.790Z",
-        "updatedAt": "2025-05-05T14:51:53.196Z",
+        "updatedAt": "2025-11-10T16:13:05.803Z",
         "publishedAt": "2025-05-05T14:51:12.042Z",
         "locale": "fr",
         "hyperspace": false,
         "unique": true,
         "showcase": false,
         "cardUid": "4363379257",
-        "rules": null,
-        "rulesStyled": "",
+        "rules": "« Dégâts de combat » désigne uniquement les dégâts infligés lors de l’étape « infliger des dégâts de combat » d’une attaque.\n",
+        "rulesStyled": "\n                <figure class=\"table\"><table><tbody><tr><td>10/31/2025</td><td>« Dégâts de combat » désigne uniquement les dégâts infligés lors de l’étape « infliger des dégâts de combat » d’une attaque.</td></tr></tbody></table></figure>\n                ",
         "serialCode": "C25080006",
         "upgradeHp": null,
         "upgradePower": null,
@@ -2445,15 +2987,15 @@
                 "linkHtml": "<a href=\"/cards?cid=4363379257\" class=\"card-tooltip\" data-card=\"4363379257\">Chopper</a>",
                 "cardId": null,
                 "createdAt": "2025-05-02T19:41:51.166Z",
-                "updatedAt": "2025-05-05T14:51:52.888Z",
+                "updatedAt": "2025-11-10T16:13:03.512Z",
                 "publishedAt": "2025-05-05T14:51:52.877Z",
                 "locale": "it",
                 "hyperspace": false,
                 "unique": true,
                 "showcase": false,
                 "cardUid": "4363379257",
-                "rules": null,
-                "rulesStyled": "",
+                "rules": "Con \"danni da combattimento\" si intendono solo i danni inflitti durante il passo \"infliggere danni da combattimento\" di un attacco.\n",
+                "rulesStyled": "\n                <figure class=\"table\"><table><tbody><tr><td>10/31/2025</td><td>Con \"danni da combattimento\" si intendono solo i danni inflitti durante il passo \"infliggere danni da combattimento\" di un attacco.</td></tr></tbody></table></figure>\n                ",
                 "serialCode": "C25080006",
                 "upgradeHp": null,
                 "upgradePower": null
@@ -2482,15 +3024,15 @@
                 "linkHtml": "<a href=\"/cards?cid=4363379257\" class=\"card-tooltip\" data-card=\"4363379257\">Chopper</a>",
                 "cardId": null,
                 "createdAt": "2025-05-02T19:41:00.170Z",
-                "updatedAt": "2025-05-05T14:51:53.182Z",
+                "updatedAt": "2025-11-10T16:13:08.114Z",
                 "publishedAt": "2025-05-05T14:51:38.266Z",
                 "locale": "es",
                 "hyperspace": false,
                 "unique": true,
                 "showcase": false,
                 "cardUid": "4363379257",
-                "rules": null,
-                "rulesStyled": "",
+                "rules": "El «daño de combate» solamente es el daño que se haya infligido durante el paso «infligir daño de combate» de un ataque.\n",
+                "rulesStyled": "\n                <figure class=\"table\"><table><tbody><tr><td>10/31/2025</td><td>El «daño de combate» solamente es el daño que se haya infligido durante el paso «infligir daño de combate» de un ataque.</td></tr></tbody></table></figure>\n                ",
                 "serialCode": "C25080006",
                 "upgradeHp": null,
                 "upgradePower": null
@@ -2519,15 +3061,15 @@
                 "linkHtml": "<a href=\"/cards?cid=4363379257\" class=\"card-tooltip\" data-card=\"4363379257\">Chopper</a>",
                 "cardId": null,
                 "createdAt": "2025-05-02T19:38:24.209Z",
-                "updatedAt": "2025-05-05T14:51:53.217Z",
+                "updatedAt": "2025-11-10T16:13:10.376Z",
                 "publishedAt": "2025-05-05T14:51:04.953Z",
                 "locale": "de",
                 "hyperspace": false,
                 "unique": true,
                 "showcase": false,
                 "cardUid": "4363379257",
-                "rules": null,
-                "rulesStyled": "",
+                "rules": "„Kampfschaden“ ist nur der Schaden, der während des Schritts „Kampfschaden zufügen“ eines Angriffs zugefügt wird.\n",
+                "rulesStyled": "\n                <figure class=\"table\"><table><tbody><tr><td>10/31/2025</td><td>„Kampfschaden“ ist nur der Schaden, der während des Schritts „Kampfschaden zufügen“ eines Angriffs zugefügt wird.</td></tr></tbody></table></figure>\n                ",
                 "serialCode": "C25080006",
                 "upgradeHp": null,
                 "upgradePower": null
@@ -2556,15 +3098,15 @@
                 "linkHtml": "<a href=\"/cards?cid=4363379257\" class=\"card-tooltip\" data-card=\"4363379257\">Chopper</a>",
                 "cardId": null,
                 "createdAt": "2025-05-02T19:36:09.568Z",
-                "updatedAt": "2025-05-05T14:51:53.232Z",
+                "updatedAt": "2025-11-10T16:13:01.200Z",
                 "publishedAt": "2025-05-05T14:50:54.514Z",
                 "locale": "en",
                 "hyperspace": false,
                 "unique": true,
                 "showcase": false,
                 "cardUid": "4363379257",
-                "rules": null,
-                "rulesStyled": "",
+                "rules": "“Combat damage” is only the damage dealt during the “deal combat damage” step of an attack.\n",
+                "rulesStyled": "\n        <figure class=\"table\"><table><tbody><tr><td>10/31/2025</td><td>“Combat damage” is only the damage dealt during the “deal combat damage” step of an attack.</td></tr></tbody></table></figure>\n        ",
                 "serialCode": "C25080006",
                 "upgradeHp": null,
                 "upgradePower": null
@@ -2758,517 +3300,46 @@
           "data": null
         },
         "reprintOf": {
-          "data": null
-        },
-        "validationId": "4363379257"
-      }
-    },
-    {
-      "id": 38392,
-      "attributes": {
-        "cardNumber": 5,
-        "title": "C-3PO",
-        "subtitle": "Anything I Might Do?",
-        "cardCount": 6,
-        "artist": "Stephen Somers",
-        "artFrontHorizontal": false,
-        "artBackHorizontal": null,
-        "hasFoil": true,
-        "cost": 1,
-        "hp": 3,
-        "power": 1,
-        "text": "Action [exhaust, return this unit to its owner’s hand]: Give a unit +2/+2 for this phase.",
-        "textStyled": "<p><strong>Action [<img src=\"https://cdn.starwarsunlimited.com/icon_exhaust_0c450d09d4.png\" alt=\"icon_exhaust.png\">, return this unit to its owner’s hand]:</strong> Give a unit <strong>+2/+2</strong> for this phase.</p>",
-        "deployBox": null,
-        "deployBoxStyled": "",
-        "epicAction": null,
-        "epicActionStyled": "",
-        "linkHtml": "<a href=\"/cards?cid=5125502286\" class=\"card-tooltip\" data-card=\"5125502286\">C-3PO</a>",
-        "cardId": null,
-        "createdAt": "2025-05-02T16:31:01.727Z",
-        "updatedAt": "2025-05-05T14:50:34.894Z",
-        "publishedAt": "2025-05-05T14:50:18.525Z",
-        "locale": "fr",
-        "hyperspace": false,
-        "unique": true,
-        "showcase": false,
-        "cardUid": "5125502286",
-        "rules": null,
-        "rulesStyled": "",
-        "serialCode": "C25080005",
-        "upgradeHp": null,
-        "upgradePower": null,
-        "artFront": {
           "data": {
-            "id": 36529,
+            "id": 40113,
             "attributes": {
-              "name": "C25080005EN_C3P0.png",
-              "alternativeText": null,
-              "caption": null,
-              "width": 300,
-              "height": 419,
-              "formats": {
-                "card": {
-                  "ext": ".png",
-                  "url": "https://cdn.starwarsunlimited.com//card_C25080005_EN_C3_P0_795050b390.png",
-                  "hash": "card_C25080005_EN_C3_P0_795050b390",
-                  "mime": "image/png",
-                  "name": "card_C25080005EN_C3P0.png",
-                  "path": null,
-                  "size": 167.19,
-                  "width": 286,
-                  "height": 400
-                },
-                "xsmall": {
-                  "ext": ".png",
-                  "url": "https://cdn.starwarsunlimited.com//xsmall_C25080005_EN_C3_P0_795050b390.png",
-                  "hash": "xsmall_C25080005_EN_C3_P0_795050b390",
-                  "mime": "image/png",
-                  "name": "xsmall_C25080005EN_C3P0.png",
-                  "path": null,
-                  "size": 100.05,
-                  "width": 215,
-                  "height": 300
-                },
-                "xxsmall": {
-                  "ext": ".png",
-                  "url": "https://cdn.starwarsunlimited.com//xxsmall_C25080005_EN_C3_P0_795050b390.png",
-                  "hash": "xxsmall_C25080005_EN_C3_P0_795050b390",
-                  "mime": "image/png",
-                  "name": "xxsmall_C25080005EN_C3P0.png",
-                  "path": null,
-                  "size": 49.72,
-                  "width": 143,
-                  "height": 200
-                },
-                "xxxsmall": {
-                  "ext": ".png",
-                  "url": "https://cdn.starwarsunlimited.com//xxxsmall_C25080005_EN_C3_P0_795050b390.png",
-                  "hash": "xxxsmall_C25080005_EN_C3_P0_795050b390",
-                  "mime": "image/png",
-                  "name": "xxxsmall_C25080005EN_C3P0.png",
-                  "path": null,
-                  "size": 30.77,
-                  "width": 107,
-                  "height": 150
-                },
-                "thumbnail": {
-                  "ext": ".png",
-                  "url": "https://cdn.starwarsunlimited.com//thumbnail_C25080005_EN_C3_P0_795050b390.png",
-                  "hash": "thumbnail_C25080005_EN_C3_P0_795050b390",
-                  "mime": "image/png",
-                  "name": "thumbnail_C25080005EN_C3P0.png",
-                  "path": null,
-                  "size": 72.92,
-                  "width": 179,
-                  "height": 250
-                }
-              },
-              "hash": "C25080005_EN_C3_P0_795050b390",
-              "ext": ".png",
-              "mime": "image/png",
-              "size": 52.04,
-              "url": "https://cdn.starwarsunlimited.com//C25080005_EN_C3_P0_795050b390.png",
-              "previewUrl": null,
-              "provider": "aws-s3",
-              "provider_metadata": null,
-              "createdAt": "2025-04-25T15:55:36.375Z",
-              "updatedAt": "2025-04-25T15:55:36.375Z"
-            }
-          }
-        },
-        "artBack": {
-          "data": null
-        },
-        "artThumbnail": {
-          "data": {
-            "id": 36524,
-            "attributes": {
-              "name": "C25080005EN_C3P0_Thumbnail.png",
-              "alternativeText": null,
-              "caption": null,
-              "width": 300,
-              "height": 100,
-              "formats": {
-                "xxsmall": {
-                  "ext": ".png",
-                  "url": "https://cdn.starwarsunlimited.com//xxsmall_C25080005_EN_C3_P0_Thumbnail_42ba514b87.png",
-                  "hash": "xxsmall_C25080005_EN_C3_P0_Thumbnail_42ba514b87",
-                  "mime": "image/png",
-                  "name": "xxsmall_C25080005EN_C3P0_Thumbnail.png",
-                  "path": null,
-                  "size": 20.85,
-                  "width": 200,
-                  "height": 67
-                },
-                "xxxsmall": {
-                  "ext": ".png",
-                  "url": "https://cdn.starwarsunlimited.com//xxxsmall_C25080005_EN_C3_P0_Thumbnail_42ba514b87.png",
-                  "hash": "xxxsmall_C25080005_EN_C3_P0_Thumbnail_42ba514b87",
-                  "mime": "image/png",
-                  "name": "xxxsmall_C25080005EN_C3P0_Thumbnail.png",
-                  "path": null,
-                  "size": 12.63,
-                  "width": 150,
-                  "height": 50
-                },
-                "thumbnail": {
-                  "ext": ".png",
-                  "url": "https://cdn.starwarsunlimited.com//thumbnail_C25080005_EN_C3_P0_Thumbnail_42ba514b87.png",
-                  "hash": "thumbnail_C25080005_EN_C3_P0_Thumbnail_42ba514b87",
-                  "mime": "image/png",
-                  "name": "thumbnail_C25080005EN_C3P0_Thumbnail.png",
-                  "path": null,
-                  "size": 30.23,
-                  "width": 250,
-                  "height": 83
-                }
-              },
-              "hash": "C25080005_EN_C3_P0_Thumbnail_42ba514b87",
-              "ext": ".png",
-              "mime": "image/png",
-              "size": 10.98,
-              "url": "https://cdn.starwarsunlimited.com//C25080005_EN_C3_P0_Thumbnail_42ba514b87.png",
-              "previewUrl": null,
-              "provider": "aws-s3",
-              "provider_metadata": null,
-              "createdAt": "2025-04-25T15:55:22.397Z",
-              "updatedAt": "2025-04-25T15:55:22.397Z"
-            }
-          }
-        },
-        "localizations": {
-          "data": [
-            {
-              "id": 38394,
-              "attributes": {
-                "title": "C-3PO",
-                "subtitle": "Anything I Might Do?",
-                "cardNumber": 5,
-                "cardCount": 6,
-                "artist": "Stephen Somers",
-                "artFrontHorizontal": false,
-                "artBackHorizontal": null,
-                "hasFoil": true,
-                "cost": 1,
-                "hp": 3,
-                "power": 1,
-                "text": "Action [exhaust, return this unit to its owner’s hand]: Give a unit +2/+2 for this phase.",
-                "textStyled": "<p><strong>Action [<img src=\"https://cdn.starwarsunlimited.com/icon_exhaust_0c450d09d4.png\" alt=\"icon_exhaust.png\">, return this unit to its owner’s hand]:</strong> Give a unit <strong>+2/+2</strong> for this phase.</p>",
-                "deployBox": null,
-                "deployBoxStyled": "",
-                "epicAction": null,
-                "epicActionStyled": "",
-                "linkHtml": "<a href=\"/cards?cid=5125502286\" class=\"card-tooltip\" data-card=\"5125502286\">C-3PO</a>",
-                "cardId": null,
-                "createdAt": "2025-05-02T16:33:09.389Z",
-                "updatedAt": "2025-05-05T14:50:34.583Z",
-                "publishedAt": "2025-05-05T14:50:34.572Z",
-                "locale": "it",
-                "hyperspace": false,
-                "unique": true,
-                "showcase": false,
-                "cardUid": "5125502286",
-                "rules": null,
-                "rulesStyled": "",
-                "serialCode": "C25080005",
-                "upgradeHp": null,
-                "upgradePower": null
-              }
-            },
-            {
-              "id": 38393,
-              "attributes": {
-                "title": "C-3PO",
-                "subtitle": "Anything I Might Do?",
-                "cardNumber": 5,
-                "cardCount": 6,
-                "artist": "Stephen Somers",
-                "artFrontHorizontal": false,
-                "artBackHorizontal": null,
-                "hasFoil": true,
-                "cost": 1,
-                "hp": 3,
-                "power": 1,
-                "text": "Action [exhaust, return this unit to its owner’s hand]: Give a unit +2/+2 for this phase.",
-                "textStyled": "<p><strong>Action [<img src=\"https://cdn.starwarsunlimited.com/icon_exhaust_0c450d09d4.png\" alt=\"icon_exhaust.png\">, return this unit to its owner’s hand]:</strong> Give a unit <strong>+2/+2</strong> for this phase.</p>",
-                "deployBox": null,
-                "deployBoxStyled": "",
-                "epicAction": null,
-                "epicActionStyled": "",
-                "linkHtml": "<a href=\"/cards?cid=5125502286\" class=\"card-tooltip\" data-card=\"5125502286\">C-3PO</a>",
-                "cardId": null,
-                "createdAt": "2025-05-02T16:32:11.813Z",
-                "updatedAt": "2025-05-05T14:50:34.879Z",
-                "publishedAt": "2025-05-05T14:50:28.109Z",
-                "locale": "es",
-                "hyperspace": false,
-                "unique": true,
-                "showcase": false,
-                "cardUid": "5125502286",
-                "rules": null,
-                "rulesStyled": "",
-                "serialCode": "C25080005",
-                "upgradeHp": null,
-                "upgradePower": null
-              }
-            },
-            {
-              "id": 38391,
-              "attributes": {
-                "title": "C-3PO",
-                "subtitle": "Anything I Might Do?",
-                "cardNumber": 5,
-                "cardCount": 6,
-                "artist": "Stephen Somers",
-                "artFrontHorizontal": false,
-                "artBackHorizontal": null,
-                "hasFoil": true,
-                "cost": 1,
-                "hp": 3,
-                "power": 1,
-                "text": "Action [exhaust, return this unit to its owner’s hand]: Give a unit +2/+2 for this phase.",
-                "textStyled": "<p><strong>Action [<img src=\"https://cdn.starwarsunlimited.com/icon_exhaust_0c450d09d4.png\" alt=\"icon_exhaust.png\">, return this unit to its owner’s hand]:</strong> Give a unit <strong>+2/+2</strong> for this phase.</p>",
-                "deployBox": null,
-                "deployBoxStyled": "",
-                "epicAction": null,
-                "epicActionStyled": "",
-                "linkHtml": "<a href=\"/cards?cid=5125502286\" class=\"card-tooltip\" data-card=\"5125502286\">C-3PO</a>",
-                "cardId": null,
-                "createdAt": "2025-05-02T16:30:02.920Z",
-                "updatedAt": "2025-05-05T14:50:34.913Z",
-                "publishedAt": "2025-05-05T14:50:10.817Z",
-                "locale": "de",
-                "hyperspace": false,
-                "unique": true,
-                "showcase": false,
-                "cardUid": "5125502286",
-                "rules": null,
-                "rulesStyled": "",
-                "serialCode": "C25080005",
-                "upgradeHp": null,
-                "upgradePower": null
-              }
-            },
-            {
-              "id": 38390,
-              "attributes": {
-                "title": "C-3PO",
-                "subtitle": "Anything I Might Do?",
-                "cardNumber": 5,
-                "cardCount": 6,
-                "artist": "Stephen Somers",
-                "artFrontHorizontal": false,
-                "artBackHorizontal": null,
-                "hasFoil": true,
-                "cost": 1,
-                "hp": 3,
-                "power": 1,
-                "text": "Action [exhaust, return this unit to its owner’s hand]: Give a unit +2/+2 for this phase.",
-                "textStyled": "<p><strong>Action [<img src=\"https://cdn.starwarsunlimited.com/icon_exhaust_0c450d09d4.png\" alt=\"icon_exhaust.png\">, return this unit to its owner’s hand]:</strong> Give a unit <strong>+2/+2</strong> for this phase.</p>",
-                "deployBox": null,
-                "deployBoxStyled": "",
-                "epicAction": null,
-                "epicActionStyled": "",
-                "linkHtml": "<a href=\"/cards?cid=5125502286\" class=\"card-tooltip\" data-card=\"5125502286\">C-3PO</a>",
-                "cardId": null,
-                "createdAt": "2025-05-02T15:57:17.391Z",
-                "updatedAt": "2025-05-05T14:50:34.941Z",
-                "publishedAt": "2025-05-05T14:49:58.915Z",
-                "locale": "en",
-                "hyperspace": false,
-                "unique": true,
-                "showcase": false,
-                "cardUid": "5125502286",
-                "rules": null,
-                "rulesStyled": "",
-                "serialCode": "C25080005",
-                "upgradeHp": null,
-                "upgradePower": null
-              }
-            }
-          ]
-        },
-        "aspects": {
-          "data": [
-            {
-              "id": 9,
-              "attributes": {
-                "name": "Commandement",
-                "description": "<p>Accélérer sa production de ressources, utiliser de nombreuses unités, renforcer celles qui sont déjà en jeu. C’est l’affinité de prédilection des joueurs qui veulent écraser leurs adversaires par une utilisation massive de leurs troupes.</p>",
-                "color": "#0b992d",
-                "createdAt": "2023-08-10T21:07:29.191Z",
-                "updatedAt": "2024-07-15T21:32:41.107Z",
-                "publishedAt": "2024-01-02T18:24:28.907Z",
-                "locale": "fr",
-                "englishName": "Command",
-                "sortValue": 5
-              }
-            },
-            {
-              "id": 24,
-              "attributes": {
-                "name": "Héroïsme",
-                "description": "<p>Lutter pour la paix et la justice avec des cartes représentant les «&nbsp;gentils&nbsp;» de la galaxie Star Wars. Cette affinité est idéale pour ceux qui souhaitent que leurs cartes se soutiennent et se protègent mutuellement tout en attaquant. Cette affinité est souvent associée à une autre affinité sur la carte.</p>",
-                "color": "#ffffff",
-                "createdAt": "2023-08-10T21:17:26.974Z",
-                "updatedAt": "2024-07-15T21:41:00.637Z",
-                "publishedAt": "2024-01-02T18:25:10.259Z",
-                "locale": "fr",
-                "englishName": "Heroism",
-                "sortValue": 25
-              }
-            }
-          ]
-        },
-        "aspectDuplicates": {
-          "data": []
-        },
-        "type": {
-          "data": {
-            "id": 42,
-            "attributes": {
-              "name": "Jeton Unité",
-              "description": "",
-              "value": "Token",
-              "createdAt": "2024-07-30T21:31:20.754Z",
-              "updatedAt": "2024-11-19T22:32:45.666Z",
-              "publishedAt": "2024-11-19T22:32:38.015Z",
+              "title": "Chopper",
+              "subtitle": "Héros De Guerre",
+              "cardNumber": 147,
+              "cardCount": 264,
+              "artist": "Luke Harrington",
+              "artFrontHorizontal": false,
+              "artBackHorizontal": null,
+              "hasFoil": true,
+              "cost": 2,
+              "hp": 1,
+              "power": 4,
+              "text": "Quand cette unité inflige des dégâts de combat à une base : chaque joueur défausse une carte de sa main.",
+              "textStyled": "<p><strong>Quand cette unité inflige des dégâts de combat à une base :</strong> chaque joueur défausse une carte de sa main.</p>",
+              "deployBox": null,
+              "deployBoxStyled": null,
+              "epicAction": "",
+              "epicActionStyled": "<p></p>",
+              "linkHtml": "<a href=\"/cards?cid=4136536221\" class=\"card-tooltip\" data-card=\"4136536221\">Chopper</a>",
+              "cardId": null,
+              "createdAt": "2025-08-15T18:34:26.797Z",
+              "updatedAt": "2025-11-10T16:13:04.199Z",
+              "publishedAt": "2025-08-19T20:37:49.468Z",
               "locale": "fr",
-              "sortValue": 4
+              "hyperspace": false,
+              "unique": true,
+              "showcase": false,
+              "cardUid": "4136536221",
+              "rules": "« Dégâts de combat » désigne uniquement les dégâts infligés lors de l’étape « infliger des dégâts de combat » d’une attaque.\n",
+              "rulesStyled": "\n                <figure class=\"table\"><table><tbody><tr><td>10/31/2025</td><td>« Dégâts de combat » désigne uniquement les dégâts infligés lors de l’étape « infliger des dégâts de combat » d’une attaque.</td></tr></tbody></table></figure>\n                ",
+              "serialCode": "06010147",
+              "upgradeHp": null,
+              "upgradePower": null
             }
           }
         },
-        "type2": {
-          "data": null
-        },
-        "traits": {
-          "data": [
-            {
-              "id": 197,
-              "attributes": {
-                "name": "République",
-                "description": "",
-                "createdAt": "2023-11-21T16:58:33.573Z",
-                "updatedAt": "2024-01-04T21:20:39.852Z",
-                "publishedAt": "2024-01-04T21:20:39.849Z",
-                "locale": "fr"
-              }
-            },
-            {
-              "id": 49,
-              "attributes": {
-                "name": "Droïde",
-                "description": "",
-                "createdAt": "2023-08-15T14:42:47.972Z",
-                "updatedAt": "2024-01-04T21:09:43.421Z",
-                "publishedAt": "2024-01-04T21:09:43.408Z",
-                "locale": "fr"
-              }
-            }
-          ]
-        },
-        "arenas": {
-          "data": [
-            {
-              "id": 4,
-              "attributes": {
-                "name": "Terrestre",
-                "description": null,
-                "createdAt": "2023-08-15T14:32:20.801Z",
-                "updatedAt": "2024-01-04T16:49:07.912Z",
-                "publishedAt": "2023-08-18T21:37:40.768Z",
-                "locale": "fr"
-              }
-            }
-          ]
-        },
-        "keywords": {
-          "data": []
-        },
-        "rarity": {
-          "data": {
-            "id": 24,
-            "attributes": {
-              "name": "Spéciale",
-              "character": "S",
-              "color": "#000000",
-              "createdAt": "2023-08-14T21:34:27.979Z",
-              "updatedAt": "2024-04-25T14:06:09.057Z",
-              "publishedAt": "2024-01-04T16:42:01.831Z",
-              "locale": "fr",
-              "englishName": "Special",
-              "sortValue": 1
-            }
-          }
-        },
-        "expansion": {
-          "data": {
-            "id": 65,
-            "attributes": {
-              "name": "2025 Convention Exclusive",
-              "description": "",
-              "code": "C25",
-              "createdAt": "2025-04-25T15:56:54.630Z",
-              "updatedAt": "2025-05-05T14:55:51.755Z",
-              "publishedAt": "2025-05-05T14:55:44.627Z",
-              "locale": "fr",
-              "sortValue": 57,
-              "leaderboardStartDate": null,
-              "leaderboardEndDate": null
-            }
-          }
-        },
-        "variantTypes": {
-          "data": [
-            {
-              "id": 43,
-              "attributes": {
-                "name": "Convention Exclusive",
-                "description": null,
-                "createdAt": "2024-06-26T18:28:45.358Z",
-                "updatedAt": "2024-07-15T18:20:14.740Z",
-                "publishedAt": "2024-07-15T18:20:03.400Z",
-                "locale": "fr",
-                "variantId": "08",
-                "foil": null,
-                "sortValue": 80,
-                "icon": {
-                  "data": {
-                    "id": 8695,
-                    "attributes": {
-                      "name": "icon_conventionexclusive.png",
-                      "alternativeText": null,
-                      "caption": null,
-                      "width": 144,
-                      "height": 144,
-                      "formats": null,
-                      "hash": "icon_conventionexclusive_194657d507",
-                      "ext": ".png",
-                      "mime": "image/png",
-                      "size": 0.79,
-                      "url": "https://cdn.starwarsunlimited.com//icon_conventionexclusive_194657d507.png",
-                      "previewUrl": null,
-                      "provider": "aws-s3",
-                      "provider_metadata": null,
-                      "createdAt": "2024-07-15T14:40:17.033Z",
-                      "updatedAt": "2024-07-15T14:40:17.033Z"
-                    }
-                  }
-                }
-              }
-            }
-          ]
-        },
-        "variantOf": {
-          "data": null
-        },
-        "reprintOf": {
-          "data": null
-        },
-        "validationId": "5125502286"
+        "validationId": "4136536221"
       }
     }
-  ],
-  "variants": []
+  ]
 }
