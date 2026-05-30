@@ -217,7 +217,7 @@
       "foilShared": false,
       "logoURL": null,
       "artworkURL": null,
-      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/staging/sets/g25.json"
+      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/g25.json"
     },
     {
       "id": "p25",
@@ -243,7 +243,7 @@
       "foilShared": false,
       "logoURL": null,
       "artworkURL": null,
-      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/staging/sets/p26.json"
+      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/p26.json"
     },
     {
       "id": "secp",
