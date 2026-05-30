@@ -290,12 +290,12 @@
       "dataVersion": 1,
       "code": "ASH",
       "name": "Cendres de l’Empire",
-      "type": "special",
-      "order": 15,
-      "color": "#888888",
+      "type": "main",
+      "order": 8,
+      "color": "#425563",
       "foilShared": false,
-      "logoURL": null,
-      "artworkURL": null,
+      "logoURL": "https://cdn.starwarsunlimited.com//xlarge_Ashes_of_the_Empire_Logo_FR_09dca0ae47.png",
+      "artworkURL": "https://cdn.starwarsunlimited.com//large_SWH_08_Key_Art_c29a904dcb.jpg",
       "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/staging/sets/ash.json"
     }
   ]
