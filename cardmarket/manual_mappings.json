@@ -929,6 +929,94 @@
   },
   {
     "set_code": "P26",
+    "en_name": "Rio Durant, Beckett's Right Hands",
+    "card_number": 3,
+    "variant_type": "SS Judge",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "P26",
+    "en_name": "Maul, Master of the Shadow Collective",
+    "card_number": 4,
+    "variant_type": "SS Top 8",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "P26",
+    "en_name": "Maul, Master of the Shadow Collective",
+    "card_number": 5,
+    "variant_type": "SS Top 4",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "P26",
+    "en_name": "Maul, Master of the Shadow Collective",
+    "card_number": 6,
+    "variant_type": "SS Finalist",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "P26",
+    "en_name": "Maul, Master of the Shadow Collective",
+    "card_number": 7,
+    "variant_type": "SS Champion",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "P26",
+    "en_name": "Benthic “Two Tubes”, The War Has Just Begun",
+    "card_number": 8,
+    "variant_type": "PQ Participation",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "P26",
+    "en_name": "Benthic “Two Tubes”, The War Has Just Begun",
+    "card_number": 9,
+    "variant_type": "PQ Judge",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "P26",
+    "en_name": "Chewbacca, Mighty Rescuer",
+    "card_number": 10,
+    "variant_type": "PQ Top 8",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "P26",
+    "en_name": "Chewbacca, Mighty Rescuer",
+    "card_number": 11,
+    "variant_type": "PQ Top 4",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "P26",
+    "en_name": "Chewbacca, Mighty Rescuer",
+    "card_number": 12,
+    "variant_type": "PQ Finalist",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "P26",
+    "en_name": "Chewbacca, Mighty Rescuer",
+    "card_number": 13,
+    "variant_type": "PQ Champion",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "P26",
     "en_name": "Galen Erso, You'll Never Win",
     "card_number": 50,
     "variant_type": "SQ Event Pack",
@@ -1081,6 +1169,46 @@
   },
   {
     "set_code": "P26",
+    "en_name": "Cad Bane, Now It's My Turn",
+    "card_number": 80,
+    "variant_type": "RQ Prize Wall",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "P26",
+    "en_name": "Han Solo, Hibernation Sick",
+    "card_number": 81,
+    "variant_type": "RQ Prize Wall",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "P26",
+    "en_name": "Max Rebo, Encore!",
+    "card_number": 82,
+    "variant_type": "RQ Prize Wall",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "P26",
+    "en_name": "Lawbringer, Shadow Over Lothal",
+    "card_number": 83,
+    "variant_type": "RQ Prize Wall",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "P26",
+    "en_name": "Sabine's Masterpiece, Crazy Colorful",
+    "card_number": 85,
+    "variant_type": "RQ Prize Wall",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "P26",
     "en_name": "Karis, We Don't Like Strangers",
     "card_number": 86,
     "variant_type": "Standard",
@@ -1161,6 +1289,54 @@
   },
   {
     "set_code": "P26",
+    "en_name": "Cad Bane, Now It's My Turn",
+    "card_number": 96,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "P26",
+    "en_name": "Han Solo, Hibernation Sick",
+    "card_number": 97,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "P26",
+    "en_name": "Max Rebo, Encore!",
+    "card_number": 98,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "P26",
+    "en_name": "Lawbringer, Shadow Over Lothal",
+    "card_number": 99,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "P26",
+    "en_name": "Karis Nemik, Freedom is a Pure Idea",
+    "card_number": 100,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "P26",
+    "en_name": "Sabine's Masterpiece, Crazy Colorful",
+    "card_number": 101,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "P26",
     "en_name": "Leia Organa, Extraordinary",
     "card_number": 102,
     "variant_type": "RQ Participation",
@@ -1211,6 +1387,62 @@
     "set_code": "P26",
     "en_name": "Darth Traya, Lord of Betrayal",
     "card_number": 108,
+    "variant_type": "RQ Champion",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "P26",
+    "en_name": "The Stranger, No Survivors",
+    "card_number": 110,
+    "variant_type": "RQ Participation",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "P26",
+    "en_name": "The Stranger, No Survivors",
+    "card_number": 111,
+    "variant_type": "RQ Judge",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "P26",
+    "en_name": "Luke Skywalker, Profit or Be Destroyed",
+    "card_number": 112,
+    "variant_type": "RQ Day Two",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "P26",
+    "en_name": "Luke Skywalker, Profit or Be Destroyed",
+    "card_number": 113,
+    "variant_type": "RQ Top 8",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "P26",
+    "en_name": "Luke Skywalker, Profit or Be Destroyed",
+    "card_number": 114,
+    "variant_type": "RQ Top 4",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "P26",
+    "en_name": "Luke Skywalker, Profit or Be Destroyed",
+    "card_number": 115,
+    "variant_type": "RQ Finalist",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "P26",
+    "en_name": "Luke Skywalker, Profit or Be Destroyed",
+    "card_number": 116,
     "variant_type": "RQ Champion",
     "idProduct": null,
     "note": ""
@@ -2833,14 +3065,6 @@
   },
   {
     "set_code": "TWI",
-    "en_name": "Echo, Valiant ARC Trooper",
-    "card_number": 362,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
     "en_name": "Republic Defense Carrier",
     "card_number": 369,
     "variant_type": "Hyperspace",
@@ -2873,14 +3097,6 @@
   },
   {
     "set_code": "TWI",
-    "en_name": "Batch Brothers",
-    "card_number": 412,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
     "en_name": "Bold Resistance",
     "card_number": 420,
     "variant_type": "Hyperspace",
@@ -2891,14 +3107,6 @@
     "set_code": "TWI",
     "en_name": "Kit Fisto, The Smiling Jedi",
     "card_number": 432,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "Rush Clovis, Banking Clan Scion",
-    "card_number": 448,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
