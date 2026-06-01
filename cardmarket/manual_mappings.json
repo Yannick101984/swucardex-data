@@ -1713,14 +1713,6 @@
   },
   {
     "set_code": "SHD",
-    "en_name": "Moisture Farmer",
-    "card_number": 330,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
     "en_name": "Val, Loyal to the End",
     "card_number": 333,
     "variant_type": "Hyperspace",
@@ -1753,24 +1745,8 @@
   },
   {
     "set_code": "SHD",
-    "en_name": "Kylo Ren, Killing the Past",
-    "card_number": 410,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
     "en_name": "Heroic Renegade",
     "card_number": 415,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Krayt Dragon",
-    "card_number": 441,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -1803,6 +1779,14 @@
     "set_code": "SHD",
     "en_name": "Coruscant Dissident",
     "card_number": 467,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
+    "en_name": "Cloud-Rider",
+    "card_number": 478,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -3121,8 +3105,24 @@
   },
   {
     "set_code": "TWI",
+    "en_name": "B1 Security Team",
+    "card_number": 472,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
     "en_name": "Favorable Delegate",
     "card_number": 473,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
+    "en_name": "On Top of Things",
+    "card_number": 484,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
