@@ -4,7 +4,7 @@
   "latestMainSet": "law",
   "announcement": {
     "id": "ann-2026-05-30",
-    "text": "Nouvelles cartes ajoutées - JTL, LOF, SEC, LAW, J25, LOFW, JTLW | Règles mises à jour - JTL, LOF, SEC, LAW, C25, JTLW, P25",
+    "text": "Nouvelles cartes ajoutées - JTL, LOF, SEC, LAW, J25, LOFP, JTLP | Règles mises à jour - JTL, LOF, SEC, LAW, C25, JTLP, P25",
     "color": "#7C3AED",
     "url": ""
   },
@@ -181,8 +181,7 @@
     {
       "id": "lofp",
       "dataVersion": 3,
-      "code": "LOFW",
-      "displayCode": "LOFP",
+      "code": "LOFP",
       "name": "Légendes de la Force Weekly Play",
       "type": "special",
       "order": 7,
@@ -190,13 +189,12 @@
       "foilShared": false,
       "logoURL": null,
       "artworkURL": null,
-      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/lofw.json"
+      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/lofp.json"
     },
     {
-      "id": "jtlw",
+      "id": "jtlp",
       "dataVersion": 2,
-      "code": "JTLW",
-      "displayCode": "JTLP",
+      "code": "JTLP",
       "name": "Passage En Vitesse Lumière Weekly Play",
       "type": "special",
       "order": 8,
@@ -204,7 +202,7 @@
       "foilShared": false,
       "logoURL": null,
       "artworkURL": null,
-      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/jtlw.json"
+      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/jtlp.json"
     },
     {
       "id": "g25",
@@ -248,8 +246,7 @@
     {
       "id": "secp",
       "dataVersion": 2,
-      "code": "SECW",
-      "displayCode": "SECP",
+      "code": "SECP",
       "name": "Secrets du Pouvoir Weekly Play",
       "type": "special",
       "order": 12,
@@ -257,7 +254,7 @@
       "foilShared": false,
       "logoURL": null,
       "artworkURL": null,
-      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/secw.json"
+      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/secp.json"
     },
     {
       "id": "lawp",
@@ -289,7 +286,7 @@
       "id": "ash",
       "dataVersion": 2,
       "code": "ASH",
-      "name": "Cendres de l’Empire",
+      "name": "Cendres de l'Empire",
       "type": "main",
       "order": 8,
       "color": "#425563",
