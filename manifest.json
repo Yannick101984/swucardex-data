@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "lastUpdated": "2026-05-30",
+  "lastUpdated": "2026-06-03",
   "latestMainSet": "ash",
   "announcement": {
-    "id": "ann-2026-05-31",
-    "text": "Nouvelles cartes ajoutées - P26",
+    "id": "ann-1780492836",
+    "text": "Nouvelles cartes ajoutées - JTL, LOF, SEC, LAW, LOFP, JTLP, P25, P26, LAWP | Règles mises à jour - JTLP",
     "color": "#425563",
     "url": ""
   },
@@ -50,7 +50,7 @@
     },
     {
       "id": "jtl",
-      "dataVersion": 2,
+      "dataVersion": 3,
       "code": "JTL",
       "name": "Passage en Vitesse Lumière",
       "type": "main",
@@ -63,7 +63,7 @@
     },
     {
       "id": "lof",
-      "dataVersion": 2,
+      "dataVersion": 3,
       "code": "LOF",
       "name": "Légendes de la Force",
       "type": "main",
@@ -76,7 +76,7 @@
     },
     {
       "id": "sec",
-      "dataVersion": 2,
+      "dataVersion": 3,
       "code": "SEC",
       "name": "Secrets du Pouvoir",
       "type": "main",
@@ -89,7 +89,7 @@
     },
     {
       "id": "law",
-      "dataVersion": 2,
+      "dataVersion": 3,
       "code": "LAW",
       "name": "Sans Foi Ni Loi",
       "type": "main",
@@ -180,7 +180,7 @@
     },
     {
       "id": "lofp",
-      "dataVersion": 3,
+      "dataVersion": 4,
       "code": "LOFP",
       "name": "Légendes de la Force Weekly Play",
       "type": "special",
@@ -193,7 +193,7 @@
     },
     {
       "id": "jtlp",
-      "dataVersion": 2,
+      "dataVersion": 3,
       "code": "JTLP",
       "name": "Passage En Vitesse Lumière Weekly Play",
       "type": "special",
@@ -219,7 +219,7 @@
     },
     {
       "id": "p25",
-      "dataVersion": 2,
+      "dataVersion": 3,
       "code": "P25",
       "name": "2025 Promo",
       "type": "promo",
@@ -232,7 +232,7 @@
     },
     {
       "id": "p26",
-      "dataVersion": 7,
+      "dataVersion": 8,
       "code": "P26",
       "name": "2026 Promo",
       "type": "promo",
@@ -245,7 +245,7 @@
     },
     {
       "id": "secp",
-      "dataVersion": 2,
+      "dataVersion": 3,
       "code": "SECP",
       "name": "Secrets du Pouvoir Weekly Play",
       "type": "special",
@@ -258,7 +258,7 @@
     },
     {
       "id": "lawp",
-      "dataVersion": 1,
+      "dataVersion": 2,
       "code": "LAWP",
       "name": "Sans Foi ni Loi Weekly Play",
       "type": "special",

@@ -23,7 +23,7 @@
         "linkHtml": "<a href=\"/cards?cid=0166117530\" class=\"card-tooltip\" data-card=\"0166117530\">Croiseur Arrestor Cantwell</a>",
         "cardId": null,
         "createdAt": "2025-08-27T17:01:31.382Z",
-        "updatedAt": "2025-10-31T16:14:03.222Z",
+        "updatedAt": "2025-11-10T16:08:46.086Z",
         "publishedAt": "2025-03-05T06:00:00.000Z",
         "locale": "fr",
         "hyperspace": false,
@@ -207,15 +207,15 @@
                 "linkHtml": "<a href=\"/cards?cid=0166117530\" class=\"card-tooltip\" data-card=\"0166117530\">Cantwell-Arrestor-Kreuzer</a>",
                 "cardId": null,
                 "createdAt": "2025-08-27T17:01:32.957Z",
-                "updatedAt": "2025-10-30T15:06:54.959Z",
+                "updatedAt": "2025-11-10T16:08:48.814Z",
                 "publishedAt": "2025-03-05T06:00:00.000Z",
                 "locale": "de",
                 "hyperspace": false,
                 "unique": false,
                 "showcase": false,
                 "cardUid": "0166117530",
-                "rules": null,
-                "rulesStyled": null,
+                "rules": "Bis der Cantwell-Arrestor-Kreuzer das Spiel verlässt, kann sich die gewählte Einheit nicht bereit machen. Dieser Effekt ändert sich nicht, wenn ein Gegner die Kontrolle über den Cantwell-Arrestor-Kreuzer übernimmt.\nWenn der Cantwell-Arrestor-Kreuzer gefangen genommen und dann gerettet wird, wird sein „Wenn gespielt“-Effekt nicht wieder aufgenommen.\n",
+                "rulesStyled": "\n                <figure class=\"table\"><table><tbody><tr><td>10/31/2025</td><td>Bis der Cantwell-Arrestor-Kreuzer das Spiel verlässt, kann sich die gewählte Einheit nicht bereit machen. Dieser Effekt ändert sich nicht, wenn ein Gegner die Kontrolle über den Cantwell-Arrestor-Kreuzer übernimmt.</td></tr><tr><td>10/31/2025</td><td>Wenn der Cantwell-Arrestor-Kreuzer gefangen genommen und dann gerettet wird, wird sein „Wenn gespielt“-Effekt nicht wieder aufgenommen.</td></tr></tbody></table></figure>\n                ",
                 "serialCode": "06w600001",
                 "upgradeHp": null,
                 "upgradePower": null
@@ -244,7 +244,7 @@
                 "linkHtml": "<a href=\"/cards?cid=0166117530\" class=\"card-tooltip\" data-card=\"0166117530\">Cantwell Arrestor Cruiser</a>",
                 "cardId": null,
                 "createdAt": "2025-08-27T17:01:29.946Z",
-                "updatedAt": "2025-10-31T16:14:00.465Z",
+                "updatedAt": "2025-11-10T16:08:43.413Z",
                 "publishedAt": "2025-03-05T06:00:00.000Z",
                 "locale": "en",
                 "hyperspace": false,
@@ -281,15 +281,15 @@
                 "linkHtml": "<a href=\"/cards?cid=0166117530\" class=\"card-tooltip\" data-card=\"0166117530\">Crucero Arrestor clase Cantwell</a>",
                 "cardId": null,
                 "createdAt": "2025-08-27T17:01:32.104Z",
-                "updatedAt": "2025-10-30T15:06:55.170Z",
+                "updatedAt": "2025-11-10T16:08:47.448Z",
                 "publishedAt": "2025-03-05T06:00:00.000Z",
                 "locale": "es",
                 "hyperspace": false,
                 "unique": false,
                 "showcase": false,
                 "cardUid": "0166117530",
-                "rules": null,
-                "rulesStyled": null,
+                "rules": "La unidad elegida no podrá prepararse hasta que el Crucero Arrestor clase Cantwell abandone el juego. Este efecto no cambia si un adversario toma el control del Crucero Arrestor clase Cantwell.\nSi el Crucero Arrestor clase Cantwell es capturado y luego rescatado, el efecto de su enunciado «Cuando se juegue» no se reanuda.\n",
+                "rulesStyled": "\n                <figure class=\"table\"><table><tbody><tr><td>10/31/2025</td><td>La unidad elegida no podrá prepararse hasta que el Crucero Arrestor clase Cantwell abandone el juego. Este efecto no cambia si un adversario toma el control del Crucero Arrestor clase Cantwell.</td></tr><tr><td>10/31/2025</td><td>Si el Crucero Arrestor clase Cantwell es capturado y luego rescatado, el efecto de su enunciado «Cuando se juegue» no se reanuda.</td></tr></tbody></table></figure>\n                ",
                 "serialCode": "06w600001",
                 "upgradeHp": null,
                 "upgradePower": null
@@ -318,7 +318,7 @@
                 "linkHtml": "<a href=\"/cards?cid=0166117530\" class=\"card-tooltip\" data-card=\"0166117530\">Cantwell Arrestor Cruiser</a>",
                 "cardId": null,
                 "createdAt": "2025-08-27T17:01:30.687Z",
-                "updatedAt": "2025-10-31T16:14:01.845Z",
+                "updatedAt": "2025-11-10T16:08:44.751Z",
                 "publishedAt": "2025-03-05T06:00:00.000Z",
                 "locale": "it",
                 "hyperspace": false,
@@ -464,9 +464,9 @@
             "attributes": {
               "name": "Secrets du Pouvoir Weekly Play",
               "description": null,
-              "code": "SECW",
+              "code": "SECP",
               "createdAt": "2025-08-27T15:35:37.537Z",
-              "updatedAt": "2025-10-30T15:14:21.516Z",
+              "updatedAt": "2025-12-15T17:49:59.640Z",
               "publishedAt": "2025-10-30T15:14:14.991Z",
               "locale": "fr",
               "sortValue": 68,
@@ -543,7 +543,7 @@
               "linkHtml": "<a href=\"/cards?cid=5577542957\" class=\"card-tooltip\" data-card=\"5577542957\">Croiseur Arrestor Cantwell</a>",
               "cardId": null,
               "createdAt": "2025-08-15T18:30:52.688Z",
-              "updatedAt": "2025-10-31T16:14:02.304Z",
+              "updatedAt": "2025-11-10T16:08:45.194Z",
               "publishedAt": "2025-03-05T06:00:00.000Z",
               "locale": "fr",
               "hyperspace": false,
@@ -584,7 +584,7 @@
         "linkHtml": "<a href=\"/cards?cid=7470680242\" class=\"card-tooltip\" data-card=\"7470680242\">Bo-Katan Kryze</a>",
         "cardId": null,
         "createdAt": "2025-08-27T17:01:35.479Z",
-        "updatedAt": "2025-10-31T16:14:33.701Z",
+        "updatedAt": "2025-11-10T16:09:34.507Z",
         "publishedAt": "2025-03-05T06:00:00.000Z",
         "locale": "fr",
         "hyperspace": false,
@@ -768,15 +768,15 @@
                 "linkHtml": "<a href=\"/cards?cid=7470680242\" class=\"card-tooltip\" data-card=\"7470680242\">Bo-Katan Kryze</a>",
                 "cardId": null,
                 "createdAt": "2025-08-27T17:01:37.183Z",
-                "updatedAt": "2025-10-30T15:06:56.065Z",
+                "updatedAt": "2025-11-10T16:09:37.270Z",
                 "publishedAt": "2025-03-05T06:00:00.000Z",
                 "locale": "de",
                 "hyperspace": false,
                 "unique": true,
                 "showcase": false,
                 "cardUid": "7470680242",
-                "rules": null,
-                "rulesStyled": null,
+                "rules": "Bo-Katans „Wenn gespielt“-Fähigkeit kann ihre „Wenn eine feindliche Einheit besiegt wird“-Fähigkeit auslösen, wenn sie feindliche Einheiten besiegt.\n",
+                "rulesStyled": "\n                <figure class=\"table\"><table><tbody><tr><td>10/31/2025</td><td>Bo-Katans „Wenn gespielt“-Fähigkeit kann ihre „Wenn eine feindliche Einheit besiegt wird“-Fähigkeit auslösen, wenn sie feindliche Einheiten besiegt.</td></tr></tbody></table></figure>\n                ",
                 "serialCode": "06w600002",
                 "upgradeHp": null,
                 "upgradePower": null
@@ -805,7 +805,7 @@
                 "linkHtml": "<a href=\"/cards?cid=7470680242\" class=\"card-tooltip\" data-card=\"7470680242\">Bo-Katan Kryze</a>",
                 "cardId": null,
                 "createdAt": "2025-08-27T17:01:34.050Z",
-                "updatedAt": "2025-10-31T16:14:30.993Z",
+                "updatedAt": "2025-11-10T16:09:31.775Z",
                 "publishedAt": "2025-03-05T06:00:00.000Z",
                 "locale": "en",
                 "hyperspace": false,
@@ -842,15 +842,15 @@
                 "linkHtml": "<a href=\"/cards?cid=7470680242\" class=\"card-tooltip\" data-card=\"7470680242\">Bo-Katan Kryze</a>",
                 "cardId": null,
                 "createdAt": "2025-08-27T17:01:36.207Z",
-                "updatedAt": "2025-10-30T15:06:56.282Z",
+                "updatedAt": "2025-11-10T16:09:35.886Z",
                 "publishedAt": "2025-03-05T06:00:00.000Z",
                 "locale": "es",
                 "hyperspace": false,
                 "unique": true,
                 "showcase": false,
                 "cardUid": "7470680242",
-                "rules": null,
-                "rulesStyled": null,
+                "rules": "La capacidad «Cuando se juegue» de Bo-Katan puede activar su capacidad «Cuando se derrote una unidad enemiga» si logra derrotar alguna unidad enemiga.\n",
+                "rulesStyled": "\n                <figure class=\"table\"><table><tbody><tr><td>10/31/2025</td><td>La capacidad «Cuando se juegue» de Bo-Katan puede activar su capacidad «Cuando se derrote una unidad enemiga» si logra derrotar alguna unidad enemiga.</td></tr></tbody></table></figure>\n                ",
                 "serialCode": "06w600002",
                 "upgradeHp": null,
                 "upgradePower": null
@@ -879,7 +879,7 @@
                 "linkHtml": "<a href=\"/cards?cid=7470680242\" class=\"card-tooltip\" data-card=\"7470680242\">Bo-Katan Kryze</a>",
                 "cardId": null,
                 "createdAt": "2025-08-27T17:01:34.787Z",
-                "updatedAt": "2025-10-31T16:14:32.324Z",
+                "updatedAt": "2025-11-10T16:09:33.139Z",
                 "publishedAt": "2025-03-05T06:00:00.000Z",
                 "locale": "it",
                 "hyperspace": false,
@@ -1003,9 +1003,9 @@
             "attributes": {
               "name": "Secrets du Pouvoir Weekly Play",
               "description": null,
-              "code": "SECW",
+              "code": "SECP",
               "createdAt": "2025-08-27T15:35:37.537Z",
-              "updatedAt": "2025-10-30T15:14:21.516Z",
+              "updatedAt": "2025-12-15T17:49:59.640Z",
               "publishedAt": "2025-10-30T15:14:14.991Z",
               "locale": "fr",
               "sortValue": 68,
@@ -1082,7 +1082,7 @@
               "linkHtml": "<a href=\"/cards?cid=2959504320\" class=\"card-tooltip\" data-card=\"2959504320\">Bo-Katan Kryze</a>",
               "cardId": null,
               "createdAt": "2025-08-15T18:31:20.465Z",
-              "updatedAt": "2025-10-31T16:14:32.786Z",
+              "updatedAt": "2025-11-10T16:09:33.595Z",
               "publishedAt": "2025-03-05T06:00:00.000Z",
               "locale": "fr",
               "hyperspace": false,
@@ -1551,9 +1551,9 @@
             "attributes": {
               "name": "Secrets du Pouvoir Weekly Play",
               "description": null,
-              "code": "SECW",
+              "code": "SECP",
               "createdAt": "2025-08-27T15:35:37.537Z",
-              "updatedAt": "2025-10-30T15:14:21.516Z",
+              "updatedAt": "2025-12-15T17:49:59.640Z",
               "publishedAt": "2025-10-30T15:14:14.991Z",
               "locale": "fr",
               "sortValue": 68,
@@ -2051,7 +2051,19 @@
           "data": []
         },
         "keywords": {
-          "data": []
+          "data": [
+            {
+              "id": 79,
+              "attributes": {
+                "name": "Complot",
+                "description": null,
+                "createdAt": "2025-08-15T14:26:11.308Z",
+                "updatedAt": "2025-11-17T20:29:10.181Z",
+                "publishedAt": "2025-11-17T20:29:10.177Z",
+                "locale": "fr"
+              }
+            }
+          ]
         },
         "rarity": {
           "data": {
@@ -2075,9 +2087,9 @@
             "attributes": {
               "name": "Secrets du Pouvoir Weekly Play",
               "description": null,
-              "code": "SECW",
+              "code": "SECP",
               "createdAt": "2025-08-27T15:35:37.537Z",
-              "updatedAt": "2025-10-30T15:14:21.516Z",
+              "updatedAt": "2025-12-15T17:49:59.640Z",
               "publishedAt": "2025-10-30T15:14:14.991Z",
               "locale": "fr",
               "sortValue": 68,
@@ -2599,9 +2611,9 @@
             "attributes": {
               "name": "Secrets du Pouvoir Weekly Play",
               "description": null,
-              "code": "SECW",
+              "code": "SECP",
               "createdAt": "2025-08-27T15:35:37.537Z",
-              "updatedAt": "2025-10-30T15:14:21.516Z",
+              "updatedAt": "2025-12-15T17:49:59.640Z",
               "publishedAt": "2025-10-30T15:14:14.991Z",
               "locale": "fr",
               "sortValue": 68,
@@ -2719,7 +2731,7 @@
         "linkHtml": "<a href=\"/cards?cid=0607107664\" class=\"card-tooltip\" data-card=\"0607107664\">Commandos Cruels</a>",
         "cardId": null,
         "createdAt": "2025-08-27T17:01:51.274Z",
-        "updatedAt": "2025-10-31T16:14:59.593Z",
+        "updatedAt": "2025-11-10T16:10:16.046Z",
         "publishedAt": "2025-03-05T06:00:00.000Z",
         "locale": "fr",
         "hyperspace": false,
@@ -2903,15 +2915,15 @@
                 "linkHtml": "<a href=\"/cards?cid=0607107664\" class=\"card-tooltip\" data-card=\"0607107664\">Brutale Kommandoeinheit</a>",
                 "cardId": null,
                 "createdAt": "2025-08-27T17:01:52.936Z",
-                "updatedAt": "2025-10-30T15:07:00.536Z",
+                "updatedAt": "2025-11-10T16:10:18.825Z",
                 "publishedAt": "2025-03-05T06:00:00.000Z",
                 "locale": "de",
                 "hyperspace": false,
                 "unique": false,
                 "showcase": false,
                 "cardUid": "0607107664",
-                "rules": null,
-                "rulesStyled": null,
+                "rules": "Schilde verhindern allen Schaden von einer Einheit mit Überwältigen. Es gibt keinen überschüssigen Schaden, da der Verteidiger nicht besiegt wird.\nWenn der Verteidiger während eines Angriffs besiegt wird, bevor Kampfschaden zugefügt wird, gilt der gesamte Kampfschaden als überschüssiger Schaden für Überwältigen.\n",
+                "rulesStyled": "\n                <figure class=\"table\"><table><tbody><tr><td>10/31/2025</td><td>Schilde verhindern allen Schaden von einer Einheit mit Überwältigen. Es gibt keinen überschüssigen Schaden, da der Verteidiger nicht besiegt wird.</td></tr><tr><td>10/31/2025</td><td>Wenn der Verteidiger während eines Angriffs besiegt wird, bevor Kampfschaden zugefügt wird, gilt der gesamte Kampfschaden als überschüssiger Schaden für Überwältigen.</td></tr></tbody></table></figure>\n                ",
                 "serialCode": "06w600006",
                 "upgradeHp": null,
                 "upgradePower": null
@@ -2940,7 +2952,7 @@
                 "linkHtml": "<a href=\"/cards?cid=0607107664\" class=\"card-tooltip\" data-card=\"0607107664\">Cruel Commandos</a>",
                 "cardId": null,
                 "createdAt": "2025-08-27T17:01:49.864Z",
-                "updatedAt": "2025-10-31T16:14:56.943Z",
+                "updatedAt": "2025-11-10T16:10:13.249Z",
                 "publishedAt": "2025-03-05T06:00:00.000Z",
                 "locale": "en",
                 "hyperspace": false,
@@ -2977,15 +2989,15 @@
                 "linkHtml": "<a href=\"/cards?cid=0607107664\" class=\"card-tooltip\" data-card=\"0607107664\">Comando cruel</a>",
                 "cardId": null,
                 "createdAt": "2025-08-27T17:01:51.994Z",
-                "updatedAt": "2025-10-30T15:07:00.759Z",
+                "updatedAt": "2025-11-10T16:10:17.447Z",
                 "publishedAt": "2025-03-05T06:00:00.000Z",
                 "locale": "es",
                 "hyperspace": false,
                 "unique": false,
                 "showcase": false,
                 "cardUid": "0607107664",
-                "rules": null,
-                "rulesStyled": null,
+                "rules": "Los Escudos evitan todo el daño causado por una unidad Formidable. No hay daño sobrante porque el defensor no ha sido derrotado.\nSi el defensor es derrotado durante un ataque antes de que se inflija daño de combate, todo el daño de combate se considera daño sobrante en lo concerniente al efecto de Formidable.\n",
+                "rulesStyled": "\n                <figure class=\"table\"><table><tbody><tr><td>10/31/2025</td><td>Los Escudos evitan todo el daño causado por una unidad Formidable. No hay daño sobrante porque el defensor no ha sido derrotado.</td></tr><tr><td>10/31/2025</td><td>Si el defensor es derrotado durante un ataque antes de que se inflija daño de combate, todo el daño de combate se considera daño sobrante en lo concerniente al efecto de Formidable.</td></tr></tbody></table></figure>\n                ",
                 "serialCode": "06w600006",
                 "upgradeHp": null,
                 "upgradePower": null
@@ -3014,7 +3026,7 @@
                 "linkHtml": "<a href=\"/cards?cid=0607107664\" class=\"card-tooltip\" data-card=\"0607107664\">Cruel Commandos</a>",
                 "cardId": null,
                 "createdAt": "2025-08-27T17:01:50.598Z",
-                "updatedAt": "2025-10-31T16:14:58.274Z",
+                "updatedAt": "2025-11-10T16:10:14.658Z",
                 "publishedAt": "2025-03-05T06:00:00.000Z",
                 "locale": "it",
                 "hyperspace": false,
@@ -3183,9 +3195,9 @@
             "attributes": {
               "name": "Secrets du Pouvoir Weekly Play",
               "description": null,
-              "code": "SECW",
+              "code": "SECP",
               "createdAt": "2025-08-27T15:35:37.537Z",
-              "updatedAt": "2025-10-30T15:14:21.516Z",
+              "updatedAt": "2025-12-15T17:49:59.640Z",
               "publishedAt": "2025-10-30T15:14:14.991Z",
               "locale": "fr",
               "sortValue": 68,
@@ -3262,7 +3274,7 @@
               "linkHtml": "<a href=\"/cards?cid=6411224332\" class=\"card-tooltip\" data-card=\"6411224332\">Commandos Cruels</a>",
               "cardId": null,
               "createdAt": "2025-08-15T18:32:27.615Z",
-              "updatedAt": "2025-10-31T16:14:58.701Z",
+              "updatedAt": "2025-11-10T16:10:15.123Z",
               "publishedAt": "2025-03-05T06:00:00.000Z",
               "locale": "fr",
               "hyperspace": false,
@@ -3733,9 +3745,9 @@
             "attributes": {
               "name": "Secrets du Pouvoir Weekly Play",
               "description": null,
-              "code": "SECW",
+              "code": "SECP",
               "createdAt": "2025-08-27T15:35:37.537Z",
-              "updatedAt": "2025-10-30T15:14:21.516Z",
+              "updatedAt": "2025-12-15T17:49:59.640Z",
               "publishedAt": "2025-10-30T15:14:14.991Z",
               "locale": "fr",
               "sortValue": 68,
@@ -4267,7 +4279,19 @@
           ]
         },
         "keywords": {
-          "data": []
+          "data": [
+            {
+              "id": 79,
+              "attributes": {
+                "name": "Complot",
+                "description": null,
+                "createdAt": "2025-08-15T14:26:11.308Z",
+                "updatedAt": "2025-11-17T20:29:10.181Z",
+                "publishedAt": "2025-11-17T20:29:10.177Z",
+                "locale": "fr"
+              }
+            }
+          ]
         },
         "rarity": {
           "data": {
@@ -4291,9 +4315,9 @@
             "attributes": {
               "name": "Secrets du Pouvoir Weekly Play",
               "description": null,
-              "code": "SECW",
+              "code": "SECP",
               "createdAt": "2025-08-27T15:35:37.537Z",
-              "updatedAt": "2025-10-30T15:14:21.516Z",
+              "updatedAt": "2025-12-15T17:49:59.640Z",
               "publishedAt": "2025-10-30T15:14:14.991Z",
               "locale": "fr",
               "sortValue": 68,
@@ -4816,9 +4840,9 @@
             "attributes": {
               "name": "Secrets du Pouvoir Weekly Play",
               "description": null,
-              "code": "SECW",
+              "code": "SECP",
               "createdAt": "2025-08-27T15:35:37.537Z",
-              "updatedAt": "2025-10-30T15:14:21.516Z",
+              "updatedAt": "2025-12-15T17:49:59.640Z",
               "publishedAt": "2025-10-30T15:14:14.991Z",
               "locale": "fr",
               "sortValue": 68,
@@ -5329,9 +5353,9 @@
             "attributes": {
               "name": "Secrets du Pouvoir Weekly Play",
               "description": null,
-              "code": "SECW",
+              "code": "SECP",
               "createdAt": "2025-08-27T15:35:37.537Z",
-              "updatedAt": "2025-10-30T15:14:21.516Z",
+              "updatedAt": "2025-12-15T17:49:59.640Z",
               "publishedAt": "2025-10-30T15:14:14.991Z",
               "locale": "fr",
               "sortValue": 68,
@@ -5891,9 +5915,9 @@
             "attributes": {
               "name": "Secrets du Pouvoir Weekly Play",
               "description": null,
-              "code": "SECW",
+              "code": "SECP",
               "createdAt": "2025-08-27T15:35:37.537Z",
-              "updatedAt": "2025-10-30T15:14:21.516Z",
+              "updatedAt": "2025-12-15T17:49:59.640Z",
               "publishedAt": "2025-10-30T15:14:14.991Z",
               "locale": "fr",
               "sortValue": 68,
@@ -6452,9 +6476,9 @@
             "attributes": {
               "name": "Secrets du Pouvoir Weekly Play",
               "description": null,
-              "code": "SECW",
+              "code": "SECP",
               "createdAt": "2025-08-27T15:35:37.537Z",
-              "updatedAt": "2025-10-30T15:14:21.516Z",
+              "updatedAt": "2025-12-15T17:49:59.640Z",
               "publishedAt": "2025-10-30T15:14:14.991Z",
               "locale": "fr",
               "sortValue": 68,
@@ -7003,9 +7027,9 @@
             "attributes": {
               "name": "Secrets du Pouvoir Weekly Play",
               "description": null,
-              "code": "SECW",
+              "code": "SECP",
               "createdAt": "2025-08-27T15:35:37.537Z",
-              "updatedAt": "2025-10-30T15:14:21.516Z",
+              "updatedAt": "2025-12-15T17:49:59.640Z",
               "publishedAt": "2025-10-30T15:14:14.991Z",
               "locale": "fr",
               "sortValue": 68,
@@ -7530,9 +7554,9 @@
             "attributes": {
               "name": "Secrets du Pouvoir Weekly Play",
               "description": null,
-              "code": "SECW",
+              "code": "SECP",
               "createdAt": "2025-08-27T15:35:37.537Z",
-              "updatedAt": "2025-10-30T15:14:21.516Z",
+              "updatedAt": "2025-12-15T17:49:59.640Z",
               "publishedAt": "2025-10-30T15:14:14.991Z",
               "locale": "fr",
               "sortValue": 68,
@@ -8055,9 +8079,9 @@
             "attributes": {
               "name": "Secrets du Pouvoir Weekly Play",
               "description": null,
-              "code": "SECW",
+              "code": "SECP",
               "createdAt": "2025-08-27T15:35:37.537Z",
-              "updatedAt": "2025-10-30T15:14:21.516Z",
+              "updatedAt": "2025-12-15T17:49:59.640Z",
               "publishedAt": "2025-10-30T15:14:14.991Z",
               "locale": "fr",
               "sortValue": 68,
@@ -8592,7 +8616,19 @@
           ]
         },
         "keywords": {
-          "data": []
+          "data": [
+            {
+              "id": 79,
+              "attributes": {
+                "name": "Complot",
+                "description": null,
+                "createdAt": "2025-08-15T14:26:11.308Z",
+                "updatedAt": "2025-11-17T20:29:10.181Z",
+                "publishedAt": "2025-11-17T20:29:10.177Z",
+                "locale": "fr"
+              }
+            }
+          ]
         },
         "rarity": {
           "data": {
@@ -8616,9 +8652,9 @@
             "attributes": {
               "name": "Secrets du Pouvoir Weekly Play",
               "description": null,
-              "code": "SECW",
+              "code": "SECP",
               "createdAt": "2025-08-27T15:35:37.537Z",
-              "updatedAt": "2025-10-30T15:14:21.516Z",
+              "updatedAt": "2025-12-15T17:49:59.640Z",
               "publishedAt": "2025-10-30T15:14:14.991Z",
               "locale": "fr",
               "sortValue": 68,
@@ -9166,9 +9202,9 @@
             "attributes": {
               "name": "Secrets du Pouvoir Weekly Play",
               "description": null,
-              "code": "SECW",
+              "code": "SECP",
               "createdAt": "2025-08-27T15:35:37.537Z",
-              "updatedAt": "2025-10-30T15:14:21.516Z",
+              "updatedAt": "2025-12-15T17:49:59.640Z",
               "publishedAt": "2025-10-30T15:14:14.991Z",
               "locale": "fr",
               "sortValue": 68,
@@ -9739,9 +9775,9 @@
             "attributes": {
               "name": "Secrets du Pouvoir Weekly Play",
               "description": null,
-              "code": "SECW",
+              "code": "SECP",
               "createdAt": "2025-08-27T15:35:37.537Z",
-              "updatedAt": "2025-10-30T15:14:21.516Z",
+              "updatedAt": "2025-12-15T17:49:59.640Z",
               "publishedAt": "2025-10-30T15:14:14.991Z",
               "locale": "fr",
               "sortValue": 68,
@@ -10298,9 +10334,9 @@
             "attributes": {
               "name": "Secrets du Pouvoir Weekly Play",
               "description": null,
-              "code": "SECW",
+              "code": "SECP",
               "createdAt": "2025-08-27T15:35:37.537Z",
-              "updatedAt": "2025-10-30T15:14:21.516Z",
+              "updatedAt": "2025-12-15T17:49:59.640Z",
               "publishedAt": "2025-10-30T15:14:14.991Z",
               "locale": "fr",
               "sortValue": 68,
@@ -10811,9 +10847,9 @@
             "attributes": {
               "name": "Secrets du Pouvoir Weekly Play",
               "description": null,
-              "code": "SECW",
+              "code": "SECP",
               "createdAt": "2025-08-27T15:35:37.537Z",
-              "updatedAt": "2025-10-30T15:14:21.516Z",
+              "updatedAt": "2025-12-15T17:49:59.640Z",
               "publishedAt": "2025-10-30T15:14:14.991Z",
               "locale": "fr",
               "sortValue": 68,
@@ -10907,7 +10943,9 @@
         },
         "validationId": "7249575408"
       }
-    },
+    }
+  ],
+  "variants": [
     {
       "id": 45283,
       "attributes": {
@@ -10931,7 +10969,7 @@
         "linkHtml": "<a href=\"/cards?cid=2007766944\" class=\"card-tooltip\" data-card=\"2007766944\">Croiseur Arrestor Cantwell</a>",
         "cardId": null,
         "createdAt": "2025-08-27T17:02:50.178Z",
-        "updatedAt": "2025-10-31T16:14:03.445Z",
+        "updatedAt": "2025-11-10T16:08:46.312Z",
         "publishedAt": "2025-03-05T06:00:00.000Z",
         "locale": "fr",
         "hyperspace": false,
@@ -11115,7 +11153,7 @@
                 "linkHtml": "<a href=\"/cards?cid=2007766944\" class=\"card-tooltip\" data-card=\"2007766944\">Cantwell Arrestor Cruiser</a>",
                 "cardId": null,
                 "createdAt": "2025-08-27T17:02:50.878Z",
-                "updatedAt": "2025-10-31T16:14:02.073Z",
+                "updatedAt": "2025-11-10T16:08:44.981Z",
                 "publishedAt": "2025-03-05T06:00:00.000Z",
                 "locale": "it",
                 "hyperspace": false,
@@ -11152,7 +11190,7 @@
                 "linkHtml": "<a href=\"/cards?cid=2007766944\" class=\"card-tooltip\" data-card=\"2007766944\">Cantwell Arrestor Cruiser</a>",
                 "cardId": null,
                 "createdAt": "2025-08-27T17:02:48.228Z",
-                "updatedAt": "2025-10-31T16:14:00.695Z",
+                "updatedAt": "2025-11-10T16:08:43.632Z",
                 "publishedAt": "2025-03-05T06:00:00.000Z",
                 "locale": "en",
                 "hyperspace": false,
@@ -11189,15 +11227,15 @@
                 "linkHtml": "<a href=\"/cards?cid=2007766944\" class=\"card-tooltip\" data-card=\"2007766944\">Crucero Arrestor clase Cantwell</a>",
                 "cardId": null,
                 "createdAt": "2025-08-27T17:02:49.518Z",
-                "updatedAt": "2025-10-30T15:07:17.889Z",
+                "updatedAt": "2025-11-10T16:08:47.678Z",
                 "publishedAt": "2025-03-05T06:00:00.000Z",
                 "locale": "es",
                 "hyperspace": false,
                 "unique": false,
                 "showcase": false,
                 "cardUid": "2007766944",
-                "rules": null,
-                "rulesStyled": null,
+                "rules": "La unidad elegida no podrá prepararse hasta que el Crucero Arrestor clase Cantwell abandone el juego. Este efecto no cambia si un adversario toma el control del Crucero Arrestor clase Cantwell.\nSi el Crucero Arrestor clase Cantwell es capturado y luego rescatado, el efecto de su enunciado «Cuando se juegue» no se reanuda.\n",
+                "rulesStyled": "\n                <figure class=\"table\"><table><tbody><tr><td>10/31/2025</td><td>La unidad elegida no podrá prepararse hasta que el Crucero Arrestor clase Cantwell abandone el juego. Este efecto no cambia si un adversario toma el control del Crucero Arrestor clase Cantwell.</td></tr><tr><td>10/31/2025</td><td>Si el Crucero Arrestor clase Cantwell es capturado y luego rescatado, el efecto de su enunciado «Cuando se juegue» no se reanuda.</td></tr></tbody></table></figure>\n                ",
                 "serialCode": "06w350021",
                 "upgradeHp": null,
                 "upgradePower": null
@@ -11226,15 +11264,15 @@
                 "linkHtml": "<a href=\"/cards?cid=2007766944\" class=\"card-tooltip\" data-card=\"2007766944\">Cantwell-Arrestor-Kreuzer</a>",
                 "cardId": null,
                 "createdAt": "2025-08-27T17:02:48.904Z",
-                "updatedAt": "2025-10-30T15:07:18.121Z",
+                "updatedAt": "2025-11-10T16:08:49.052Z",
                 "publishedAt": "2025-03-05T06:00:00.000Z",
                 "locale": "de",
                 "hyperspace": false,
                 "unique": false,
                 "showcase": false,
                 "cardUid": "2007766944",
-                "rules": null,
-                "rulesStyled": null,
+                "rules": "Bis der Cantwell-Arrestor-Kreuzer das Spiel verlässt, kann sich die gewählte Einheit nicht bereit machen. Dieser Effekt ändert sich nicht, wenn ein Gegner die Kontrolle über den Cantwell-Arrestor-Kreuzer übernimmt.\nWenn der Cantwell-Arrestor-Kreuzer gefangen genommen und dann gerettet wird, wird sein „Wenn gespielt“-Effekt nicht wieder aufgenommen.\n",
+                "rulesStyled": "\n                <figure class=\"table\"><table><tbody><tr><td>10/31/2025</td><td>Bis der Cantwell-Arrestor-Kreuzer das Spiel verlässt, kann sich die gewählte Einheit nicht bereit machen. Dieser Effekt ändert sich nicht, wenn ein Gegner die Kontrolle über den Cantwell-Arrestor-Kreuzer übernimmt.</td></tr><tr><td>10/31/2025</td><td>Wenn der Cantwell-Arrestor-Kreuzer gefangen genommen und dann gerettet wird, wird sein „Wenn gespielt“-Effekt nicht wieder aufgenommen.</td></tr></tbody></table></figure>\n                ",
                 "serialCode": "06w350021",
                 "upgradeHp": null,
                 "upgradePower": null
@@ -11372,9 +11410,9 @@
             "attributes": {
               "name": "Secrets du Pouvoir Weekly Play",
               "description": null,
-              "code": "SECW",
+              "code": "SECP",
               "createdAt": "2025-08-27T15:35:37.537Z",
-              "updatedAt": "2025-10-30T15:14:21.516Z",
+              "updatedAt": "2025-12-15T17:49:59.640Z",
               "publishedAt": "2025-10-30T15:14:14.991Z",
               "locale": "fr",
               "sortValue": 68,
@@ -11448,7 +11486,7 @@
               "linkHtml": "<a href=\"/cards?cid=0166117530\" class=\"card-tooltip\" data-card=\"0166117530\">Croiseur Arrestor Cantwell</a>",
               "cardId": null,
               "createdAt": "2025-08-27T17:01:31.382Z",
-              "updatedAt": "2025-10-31T16:14:03.222Z",
+              "updatedAt": "2025-11-10T16:08:46.086Z",
               "publishedAt": "2025-03-05T06:00:00.000Z",
               "locale": "fr",
               "hyperspace": false,
@@ -11492,7 +11530,7 @@
         "linkHtml": "<a href=\"/cards?cid=6139244542\" class=\"card-tooltip\" data-card=\"6139244542\">Bo-Katan Kryze</a>",
         "cardId": null,
         "createdAt": "2025-08-27T17:02:53.742Z",
-        "updatedAt": "2025-10-31T16:14:33.931Z",
+        "updatedAt": "2025-11-10T16:09:34.730Z",
         "publishedAt": "2025-03-05T06:00:00.000Z",
         "locale": "fr",
         "hyperspace": false,
@@ -11676,7 +11714,7 @@
                 "linkHtml": "<a href=\"/cards?cid=6139244542\" class=\"card-tooltip\" data-card=\"6139244542\">Bo-Katan Kryze</a>",
                 "cardId": null,
                 "createdAt": "2025-08-27T17:02:54.431Z",
-                "updatedAt": "2025-10-31T16:14:32.549Z",
+                "updatedAt": "2025-11-10T16:09:33.366Z",
                 "publishedAt": "2025-03-05T06:00:00.000Z",
                 "locale": "it",
                 "hyperspace": false,
@@ -11713,7 +11751,7 @@
                 "linkHtml": "<a href=\"/cards?cid=6139244542\" class=\"card-tooltip\" data-card=\"6139244542\">Bo-Katan Kryze</a>",
                 "cardId": null,
                 "createdAt": "2025-08-27T17:02:51.770Z",
-                "updatedAt": "2025-10-31T16:14:31.221Z",
+                "updatedAt": "2025-11-10T16:09:32.005Z",
                 "publishedAt": "2025-03-05T06:00:00.000Z",
                 "locale": "en",
                 "hyperspace": false,
@@ -11750,15 +11788,15 @@
                 "linkHtml": "<a href=\"/cards?cid=6139244542\" class=\"card-tooltip\" data-card=\"6139244542\">Bo-Katan Kryze</a>",
                 "cardId": null,
                 "createdAt": "2025-08-27T17:02:53.072Z",
-                "updatedAt": "2025-10-30T15:07:19.019Z",
+                "updatedAt": "2025-11-10T16:09:36.125Z",
                 "publishedAt": "2025-03-05T06:00:00.000Z",
                 "locale": "es",
                 "hyperspace": false,
                 "unique": true,
                 "showcase": false,
                 "cardUid": "6139244542",
-                "rules": null,
-                "rulesStyled": null,
+                "rules": "La capacidad «Cuando se juegue» de Bo-Katan puede activar su capacidad «Cuando se derrote una unidad enemiga» si logra derrotar alguna unidad enemiga.\n",
+                "rulesStyled": "\n                <figure class=\"table\"><table><tbody><tr><td>10/31/2025</td><td>La capacidad «Cuando se juegue» de Bo-Katan puede activar su capacidad «Cuando se derrote una unidad enemiga» si logra derrotar alguna unidad enemiga.</td></tr></tbody></table></figure>\n                ",
                 "serialCode": "06w350022",
                 "upgradeHp": null,
                 "upgradePower": null
@@ -11787,15 +11825,15 @@
                 "linkHtml": "<a href=\"/cards?cid=6139244542\" class=\"card-tooltip\" data-card=\"6139244542\">Bo-Katan Kryze</a>",
                 "cardId": null,
                 "createdAt": "2025-08-27T17:02:52.438Z",
-                "updatedAt": "2025-10-30T15:07:19.242Z",
+                "updatedAt": "2025-11-10T16:09:37.500Z",
                 "publishedAt": "2025-03-05T06:00:00.000Z",
                 "locale": "de",
                 "hyperspace": false,
                 "unique": true,
                 "showcase": false,
                 "cardUid": "6139244542",
-                "rules": null,
-                "rulesStyled": null,
+                "rules": "Bo-Katans „Wenn gespielt“-Fähigkeit kann ihre „Wenn eine feindliche Einheit besiegt wird“-Fähigkeit auslösen, wenn sie feindliche Einheiten besiegt.\n",
+                "rulesStyled": "\n                <figure class=\"table\"><table><tbody><tr><td>10/31/2025</td><td>Bo-Katans „Wenn gespielt“-Fähigkeit kann ihre „Wenn eine feindliche Einheit besiegt wird“-Fähigkeit auslösen, wenn sie feindliche Einheiten besiegt.</td></tr></tbody></table></figure>\n                ",
                 "serialCode": "06w350022",
                 "upgradeHp": null,
                 "upgradePower": null
@@ -11911,9 +11949,9 @@
             "attributes": {
               "name": "Secrets du Pouvoir Weekly Play",
               "description": null,
-              "code": "SECW",
+              "code": "SECP",
               "createdAt": "2025-08-27T15:35:37.537Z",
-              "updatedAt": "2025-10-30T15:14:21.516Z",
+              "updatedAt": "2025-12-15T17:49:59.640Z",
               "publishedAt": "2025-10-30T15:14:14.991Z",
               "locale": "fr",
               "sortValue": 68,
@@ -11987,7 +12025,7 @@
               "linkHtml": "<a href=\"/cards?cid=7470680242\" class=\"card-tooltip\" data-card=\"7470680242\">Bo-Katan Kryze</a>",
               "cardId": null,
               "createdAt": "2025-08-27T17:01:35.479Z",
-              "updatedAt": "2025-10-31T16:14:33.701Z",
+              "updatedAt": "2025-11-10T16:09:34.507Z",
               "publishedAt": "2025-03-05T06:00:00.000Z",
               "locale": "fr",
               "hyperspace": false,
@@ -12459,9 +12497,9 @@
             "attributes": {
               "name": "Secrets du Pouvoir Weekly Play",
               "description": null,
-              "code": "SECW",
+              "code": "SECP",
               "createdAt": "2025-08-27T15:35:37.537Z",
-              "updatedAt": "2025-10-30T15:14:21.516Z",
+              "updatedAt": "2025-12-15T17:49:59.640Z",
               "publishedAt": "2025-10-30T15:14:14.991Z",
               "locale": "fr",
               "sortValue": 68,
@@ -12959,7 +12997,19 @@
           "data": []
         },
         "keywords": {
-          "data": []
+          "data": [
+            {
+              "id": 79,
+              "attributes": {
+                "name": "Complot",
+                "description": null,
+                "createdAt": "2025-08-15T14:26:11.308Z",
+                "updatedAt": "2025-11-17T20:29:10.181Z",
+                "publishedAt": "2025-11-17T20:29:10.177Z",
+                "locale": "fr"
+              }
+            }
+          ]
         },
         "rarity": {
           "data": {
@@ -12983,9 +13033,9 @@
             "attributes": {
               "name": "Secrets du Pouvoir Weekly Play",
               "description": null,
-              "code": "SECW",
+              "code": "SECP",
               "createdAt": "2025-08-27T15:35:37.537Z",
-              "updatedAt": "2025-10-30T15:14:21.516Z",
+              "updatedAt": "2025-12-15T17:49:59.640Z",
               "publishedAt": "2025-10-30T15:14:14.991Z",
               "locale": "fr",
               "sortValue": 68,
@@ -13507,9 +13557,9 @@
             "attributes": {
               "name": "Secrets du Pouvoir Weekly Play",
               "description": null,
-              "code": "SECW",
+              "code": "SECP",
               "createdAt": "2025-08-27T15:35:37.537Z",
-              "updatedAt": "2025-10-30T15:14:21.516Z",
+              "updatedAt": "2025-12-15T17:49:59.640Z",
               "publishedAt": "2025-10-30T15:14:14.991Z",
               "locale": "fr",
               "sortValue": 68,
@@ -13627,7 +13677,7 @@
         "linkHtml": "<a href=\"/cards?cid=9090441441\" class=\"card-tooltip\" data-card=\"9090441441\">Commandos Cruels</a>",
         "cardId": null,
         "createdAt": "2025-08-27T17:03:07.891Z",
-        "updatedAt": "2025-10-31T16:14:59.808Z",
+        "updatedAt": "2025-11-10T16:10:16.284Z",
         "publishedAt": "2025-03-05T06:00:00.000Z",
         "locale": "fr",
         "hyperspace": false,
@@ -13811,7 +13861,7 @@
                 "linkHtml": "<a href=\"/cards?cid=9090441441\" class=\"card-tooltip\" data-card=\"9090441441\">Cruel Commandos</a>",
                 "cardId": null,
                 "createdAt": "2025-08-27T17:03:08.659Z",
-                "updatedAt": "2025-10-31T16:14:58.482Z",
+                "updatedAt": "2025-11-10T16:10:14.894Z",
                 "publishedAt": "2025-03-05T06:00:00.000Z",
                 "locale": "it",
                 "hyperspace": false,
@@ -13848,7 +13898,7 @@
                 "linkHtml": "<a href=\"/cards?cid=9090441441\" class=\"card-tooltip\" data-card=\"9090441441\">Cruel Commandos</a>",
                 "cardId": null,
                 "createdAt": "2025-08-27T17:03:05.880Z",
-                "updatedAt": "2025-10-31T16:14:57.182Z",
+                "updatedAt": "2025-11-10T16:10:13.480Z",
                 "publishedAt": "2025-03-05T06:00:00.000Z",
                 "locale": "en",
                 "hyperspace": false,
@@ -13885,15 +13935,15 @@
                 "linkHtml": "<a href=\"/cards?cid=9090441441\" class=\"card-tooltip\" data-card=\"9090441441\">Comando cruel</a>",
                 "cardId": null,
                 "createdAt": "2025-08-27T17:03:07.217Z",
-                "updatedAt": "2025-10-30T15:07:23.645Z",
+                "updatedAt": "2025-11-10T16:10:17.670Z",
                 "publishedAt": "2025-03-05T06:00:00.000Z",
                 "locale": "es",
                 "hyperspace": false,
                 "unique": false,
                 "showcase": false,
                 "cardUid": "9090441441",
-                "rules": null,
-                "rulesStyled": null,
+                "rules": "Los Escudos evitan todo el daño causado por una unidad Formidable. No hay daño sobrante porque el defensor no ha sido derrotado.\nSi el defensor es derrotado durante un ataque antes de que se inflija daño de combate, todo el daño de combate se considera daño sobrante en lo concerniente al efecto de Formidable.\n",
+                "rulesStyled": "\n                <figure class=\"table\"><table><tbody><tr><td>10/31/2025</td><td>Los Escudos evitan todo el daño causado por una unidad Formidable. No hay daño sobrante porque el defensor no ha sido derrotado.</td></tr><tr><td>10/31/2025</td><td>Si el defensor es derrotado durante un ataque antes de que se inflija daño de combate, todo el daño de combate se considera daño sobrante en lo concerniente al efecto de Formidable.</td></tr></tbody></table></figure>\n                ",
                 "serialCode": "06w350026",
                 "upgradeHp": null,
                 "upgradePower": null
@@ -13922,15 +13972,15 @@
                 "linkHtml": "<a href=\"/cards?cid=9090441441\" class=\"card-tooltip\" data-card=\"9090441441\">Brutale Kommandoeinheit</a>",
                 "cardId": null,
                 "createdAt": "2025-08-27T17:03:06.567Z",
-                "updatedAt": "2025-10-30T15:07:23.884Z",
+                "updatedAt": "2025-11-10T16:10:19.059Z",
                 "publishedAt": "2025-03-05T06:00:00.000Z",
                 "locale": "de",
                 "hyperspace": false,
                 "unique": false,
                 "showcase": false,
                 "cardUid": "9090441441",
-                "rules": null,
-                "rulesStyled": null,
+                "rules": "Schilde verhindern allen Schaden von einer Einheit mit Überwältigen. Es gibt keinen überschüssigen Schaden, da der Verteidiger nicht besiegt wird.\nWenn der Verteidiger während eines Angriffs besiegt wird, bevor Kampfschaden zugefügt wird, gilt der gesamte Kampfschaden als überschüssiger Schaden für Überwältigen.\n",
+                "rulesStyled": "\n                <figure class=\"table\"><table><tbody><tr><td>10/31/2025</td><td>Schilde verhindern allen Schaden von einer Einheit mit Überwältigen. Es gibt keinen überschüssigen Schaden, da der Verteidiger nicht besiegt wird.</td></tr><tr><td>10/31/2025</td><td>Wenn der Verteidiger während eines Angriffs besiegt wird, bevor Kampfschaden zugefügt wird, gilt der gesamte Kampfschaden als überschüssiger Schaden für Überwältigen.</td></tr></tbody></table></figure>\n                ",
                 "serialCode": "06w350026",
                 "upgradeHp": null,
                 "upgradePower": null
@@ -14091,9 +14141,9 @@
             "attributes": {
               "name": "Secrets du Pouvoir Weekly Play",
               "description": null,
-              "code": "SECW",
+              "code": "SECP",
               "createdAt": "2025-08-27T15:35:37.537Z",
-              "updatedAt": "2025-10-30T15:14:21.516Z",
+              "updatedAt": "2025-12-15T17:49:59.640Z",
               "publishedAt": "2025-10-30T15:14:14.991Z",
               "locale": "fr",
               "sortValue": 68,
@@ -14167,7 +14217,7 @@
               "linkHtml": "<a href=\"/cards?cid=0607107664\" class=\"card-tooltip\" data-card=\"0607107664\">Commandos Cruels</a>",
               "cardId": null,
               "createdAt": "2025-08-27T17:01:51.274Z",
-              "updatedAt": "2025-10-31T16:14:59.593Z",
+              "updatedAt": "2025-11-10T16:10:16.046Z",
               "publishedAt": "2025-03-05T06:00:00.000Z",
               "locale": "fr",
               "hyperspace": false,
@@ -14641,9 +14691,9 @@
             "attributes": {
               "name": "Secrets du Pouvoir Weekly Play",
               "description": null,
-              "code": "SECW",
+              "code": "SECP",
               "createdAt": "2025-08-27T15:35:37.537Z",
-              "updatedAt": "2025-10-30T15:14:21.516Z",
+              "updatedAt": "2025-12-15T17:49:59.640Z",
               "publishedAt": "2025-10-30T15:14:14.991Z",
               "locale": "fr",
               "sortValue": 68,
@@ -15175,7 +15225,19 @@
           ]
         },
         "keywords": {
-          "data": []
+          "data": [
+            {
+              "id": 79,
+              "attributes": {
+                "name": "Complot",
+                "description": null,
+                "createdAt": "2025-08-15T14:26:11.308Z",
+                "updatedAt": "2025-11-17T20:29:10.181Z",
+                "publishedAt": "2025-11-17T20:29:10.177Z",
+                "locale": "fr"
+              }
+            }
+          ]
         },
         "rarity": {
           "data": {
@@ -15199,9 +15261,9 @@
             "attributes": {
               "name": "Secrets du Pouvoir Weekly Play",
               "description": null,
-              "code": "SECW",
+              "code": "SECP",
               "createdAt": "2025-08-27T15:35:37.537Z",
-              "updatedAt": "2025-10-30T15:14:21.516Z",
+              "updatedAt": "2025-12-15T17:49:59.640Z",
               "publishedAt": "2025-10-30T15:14:14.991Z",
               "locale": "fr",
               "sortValue": 68,
@@ -15724,9 +15786,9 @@
             "attributes": {
               "name": "Secrets du Pouvoir Weekly Play",
               "description": null,
-              "code": "SECW",
+              "code": "SECP",
               "createdAt": "2025-08-27T15:35:37.537Z",
-              "updatedAt": "2025-10-30T15:14:21.516Z",
+              "updatedAt": "2025-12-15T17:49:59.640Z",
               "publishedAt": "2025-10-30T15:14:14.991Z",
               "locale": "fr",
               "sortValue": 68,
@@ -16237,9 +16299,9 @@
             "attributes": {
               "name": "Secrets du Pouvoir Weekly Play",
               "description": null,
-              "code": "SECW",
+              "code": "SECP",
               "createdAt": "2025-08-27T15:35:37.537Z",
-              "updatedAt": "2025-10-30T15:14:21.516Z",
+              "updatedAt": "2025-12-15T17:49:59.640Z",
               "publishedAt": "2025-10-30T15:14:14.991Z",
               "locale": "fr",
               "sortValue": 68,
@@ -16799,9 +16861,9 @@
             "attributes": {
               "name": "Secrets du Pouvoir Weekly Play",
               "description": null,
-              "code": "SECW",
+              "code": "SECP",
               "createdAt": "2025-08-27T15:35:37.537Z",
-              "updatedAt": "2025-10-30T15:14:21.516Z",
+              "updatedAt": "2025-12-15T17:49:59.640Z",
               "publishedAt": "2025-10-30T15:14:14.991Z",
               "locale": "fr",
               "sortValue": 68,
@@ -17360,9 +17422,9 @@
             "attributes": {
               "name": "Secrets du Pouvoir Weekly Play",
               "description": null,
-              "code": "SECW",
+              "code": "SECP",
               "createdAt": "2025-08-27T15:35:37.537Z",
-              "updatedAt": "2025-10-30T15:14:21.516Z",
+              "updatedAt": "2025-12-15T17:49:59.640Z",
               "publishedAt": "2025-10-30T15:14:14.991Z",
               "locale": "fr",
               "sortValue": 68,
@@ -17911,9 +17973,9 @@
             "attributes": {
               "name": "Secrets du Pouvoir Weekly Play",
               "description": null,
-              "code": "SECW",
+              "code": "SECP",
               "createdAt": "2025-08-27T15:35:37.537Z",
-              "updatedAt": "2025-10-30T15:14:21.516Z",
+              "updatedAt": "2025-12-15T17:49:59.640Z",
               "publishedAt": "2025-10-30T15:14:14.991Z",
               "locale": "fr",
               "sortValue": 68,
@@ -18438,9 +18500,9 @@
             "attributes": {
               "name": "Secrets du Pouvoir Weekly Play",
               "description": null,
-              "code": "SECW",
+              "code": "SECP",
               "createdAt": "2025-08-27T15:35:37.537Z",
-              "updatedAt": "2025-10-30T15:14:21.516Z",
+              "updatedAt": "2025-12-15T17:49:59.640Z",
               "publishedAt": "2025-10-30T15:14:14.991Z",
               "locale": "fr",
               "sortValue": 68,
@@ -18963,9 +19025,9 @@
             "attributes": {
               "name": "Secrets du Pouvoir Weekly Play",
               "description": null,
-              "code": "SECW",
+              "code": "SECP",
               "createdAt": "2025-08-27T15:35:37.537Z",
-              "updatedAt": "2025-10-30T15:14:21.516Z",
+              "updatedAt": "2025-12-15T17:49:59.640Z",
               "publishedAt": "2025-10-30T15:14:14.991Z",
               "locale": "fr",
               "sortValue": 68,
@@ -19500,7 +19562,19 @@
           ]
         },
         "keywords": {
-          "data": []
+          "data": [
+            {
+              "id": 79,
+              "attributes": {
+                "name": "Complot",
+                "description": null,
+                "createdAt": "2025-08-15T14:26:11.308Z",
+                "updatedAt": "2025-11-17T20:29:10.181Z",
+                "publishedAt": "2025-11-17T20:29:10.177Z",
+                "locale": "fr"
+              }
+            }
+          ]
         },
         "rarity": {
           "data": {
@@ -19524,9 +19598,9 @@
             "attributes": {
               "name": "Secrets du Pouvoir Weekly Play",
               "description": null,
-              "code": "SECW",
+              "code": "SECP",
               "createdAt": "2025-08-27T15:35:37.537Z",
-              "updatedAt": "2025-10-30T15:14:21.516Z",
+              "updatedAt": "2025-12-15T17:49:59.640Z",
               "publishedAt": "2025-10-30T15:14:14.991Z",
               "locale": "fr",
               "sortValue": 68,
@@ -20074,9 +20148,9 @@
             "attributes": {
               "name": "Secrets du Pouvoir Weekly Play",
               "description": null,
-              "code": "SECW",
+              "code": "SECP",
               "createdAt": "2025-08-27T15:35:37.537Z",
-              "updatedAt": "2025-10-30T15:14:21.516Z",
+              "updatedAt": "2025-12-15T17:49:59.640Z",
               "publishedAt": "2025-10-30T15:14:14.991Z",
               "locale": "fr",
               "sortValue": 68,
@@ -20647,9 +20721,9 @@
             "attributes": {
               "name": "Secrets du Pouvoir Weekly Play",
               "description": null,
-              "code": "SECW",
+              "code": "SECP",
               "createdAt": "2025-08-27T15:35:37.537Z",
-              "updatedAt": "2025-10-30T15:14:21.516Z",
+              "updatedAt": "2025-12-15T17:49:59.640Z",
               "publishedAt": "2025-10-30T15:14:14.991Z",
               "locale": "fr",
               "sortValue": 68,
@@ -21206,9 +21280,9 @@
             "attributes": {
               "name": "Secrets du Pouvoir Weekly Play",
               "description": null,
-              "code": "SECW",
+              "code": "SECP",
               "createdAt": "2025-08-27T15:35:37.537Z",
-              "updatedAt": "2025-10-30T15:14:21.516Z",
+              "updatedAt": "2025-12-15T17:49:59.640Z",
               "publishedAt": "2025-10-30T15:14:14.991Z",
               "locale": "fr",
               "sortValue": 68,
@@ -21719,9 +21793,9 @@
             "attributes": {
               "name": "Secrets du Pouvoir Weekly Play",
               "description": null,
-              "code": "SECW",
+              "code": "SECP",
               "createdAt": "2025-08-27T15:35:37.537Z",
-              "updatedAt": "2025-10-30T15:14:21.516Z",
+              "updatedAt": "2025-12-15T17:49:59.640Z",
               "publishedAt": "2025-10-30T15:14:14.991Z",
               "locale": "fr",
               "sortValue": 68,
