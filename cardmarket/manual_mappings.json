@@ -2041,6 +2041,14 @@
   },
   {
     "set_code": "SOR",
+    "en_name": "Wilderness Fighter",
+    "card_number": 329,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
     "en_name": "Blizzard Assault AT-AT",
     "card_number": 352,
     "variant_type": "Hyperspace",
@@ -2115,6 +2123,14 @@
     "set_code": "SOR",
     "en_name": "Mining Guild TIE Fighter",
     "card_number": 468,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
+    "en_name": "Restock",
+    "card_number": 510,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
