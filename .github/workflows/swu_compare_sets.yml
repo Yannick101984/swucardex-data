@@ -7,9 +7,9 @@ on:
   workflow_dispatch:
     inputs:
       branch:
-        description: 'Branche cible (main par défaut)'
+        description: 'Branche cible (staging par défaut, main pour production)'
         required: false
-        default: 'main'
+        default: 'staging'
         type: string
 
 jobs:
@@ -22,9 +22,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          # Toujours travailler sur main (données de référence).
-          # En workflow_dispatch, le champ "branch" permet de cibler staging pour tester.
-          ref: ${{ inputs.branch || 'main' }}
+          ref: ${{ inputs.branch || 'staging' }}
 
       - name: Setup Python 3.11
         uses: actions/setup-python@v5
@@ -35,6 +33,8 @@ jobs:
         run: pip install requests Pillow
 
       - name: Comparer les sets avec l'API SWU
+        env:
+          TARGET_BRANCH: ${{ inputs.branch || 'staging' }}
         run: python3 scripts/sync_sets.py --mode compare
 
       - name: Commit et push si changements
