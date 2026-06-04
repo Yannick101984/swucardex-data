@@ -31,7 +31,7 @@ MANIFEST_PATH = os.path.join(_HERE, '..', 'manifest.json')
 
 # ─── Config ───────────────────────────────────────────────────────────────────
 REPO   = "Yannick101984/swucardex-data"
-BRANCH = os.environ.get("GITHUB_REF_NAME", "staging")
+BRANCH = os.environ.get("TARGET_BRANCH", "main")
 
 COMPARE_EXCLUDED = {'SOR', 'TWI', 'SHD'}
 
