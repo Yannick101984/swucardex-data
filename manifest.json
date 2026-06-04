@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "lastUpdated": "2026-06-03",
+  "lastUpdated": "2026-06-04",
   "latestMainSet": "ash",
   "announcement": {
-    "id": "ann-1780492836",
-    "text": "Nouvelles cartes ajoutées - JTL, LOF, SEC, LAW, LOFP, JTLP, P25, P26, LAWP | Règles mises à jour - JTLP",
+    "id": "ann-1780560777",
+    "text": "Nouveau set ajouté : The Mandalorian and Grogu Movie Promo - MV26",
     "color": "#425563",
     "url": ""
   },
@@ -294,6 +294,19 @@
       "logoURL": "https://cdn.starwarsunlimited.com//xlarge_Ashes_of_the_Empire_Logo_FR_09dca0ae47.png",
       "artworkURL": "https://cdn.starwarsunlimited.com//large_SWH_08_Key_Art_c29a904dcb.jpg",
       "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/ash.json"
+    },
+    {
+      "id": "mv26",
+      "dataVersion": 1,
+      "code": "MV26",
+      "name": "The Mandalorian and Grogu Movie Promo",
+      "type": "special",
+      "order": 15,
+      "color": "#888888",
+      "foilShared": false,
+      "logoURL": null,
+      "artworkURL": null,
+      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/staging/sets/mv26.json"
     }
   ]
 }

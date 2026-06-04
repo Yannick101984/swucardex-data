@@ -1,0 +1,1268 @@
+{
+  "data": [
+    {
+      "id": 56604,
+      "attributes": {
+        "cardNumber": 1,
+        "title": "Grogu",
+        "subtitle": "Charming Companion",
+        "cardCount": 0,
+        "artist": "Reno",
+        "artFrontHorizontal": true,
+        "artBackHorizontal": null,
+        "hasFoil": true,
+        "cost": 4,
+        "hp": 3,
+        "power": 0,
+        "text": "",
+        "textStyled": "<p></p>",
+        "deployBox": "While another friendly unit is defending, it gets +1/+0.\nWhile another friendly unit is attacking, the defending unit gets –1/–0.",
+        "deployBoxStyled": "<p>While another friendly unit is defending, it gets <strong>+1</strong>/<strong>+0</strong>.</p><p>While another friendly unit is attacking, the defending unit gets <strong>–1</strong>/<strong>–0</strong>.</p>",
+        "epicAction": "When you play a <uq> unit that costs 4 or more: If this leader is ready, you may deploy him.",
+        "epicActionStyled": "<p><strong>When you play a </strong><img src=\"https://ffg-prod-uploads.s3.amazonaws.com//icon_unique_white_a08b37532f.png\" alt=\"icon_cunning.png\"><strong> unit that costs </strong>4<strong> or more:</strong> If this leader is ready, you may deploy him.</p>",
+        "linkHtml": "<a href=\"/cards?cid=4667844018\" class=\"card-tooltip\" data-card=\"4667844018\">Grogu</a>",
+        "cardId": null,
+        "createdAt": "2026-05-20T19:20:05.888Z",
+        "updatedAt": "2026-06-02T22:11:34.511Z",
+        "publishedAt": "2025-03-05T06:00:00.000Z",
+        "locale": "fr",
+        "hyperspace": false,
+        "unique": true,
+        "showcase": false,
+        "cardUid": "4667844018",
+        "rules": null,
+        "rulesStyled": null,
+        "serialCode": "mv26100001",
+        "upgradeHp": null,
+        "upgradePower": null,
+        "artFront": {
+          "data": {
+            "id": 59246,
+            "attributes": {
+              "name": "MV26100001EN_Grogu_Leader.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 1000,
+              "height": 716,
+              "formats": {
+                "card": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//card_MV_26100001_EN_Grogu_Leader_28df6fe2ac.png",
+                  "hash": "card_MV_26100001_EN_Grogu_Leader_28df6fe2ac",
+                  "mime": "image/png",
+                  "name": "card_MV26100001EN_Grogu_Leader.png",
+                  "path": null,
+                  "size": 209.52,
+                  "width": 400,
+                  "height": 286,
+                  "sizeInBytes": 209522
+                },
+                "small": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//small_MV_26100001_EN_Grogu_Leader_28df6fe2ac.png",
+                  "hash": "small_MV_26100001_EN_Grogu_Leader_28df6fe2ac",
+                  "mime": "image/png",
+                  "name": "small_MV26100001EN_Grogu_Leader.png",
+                  "path": null,
+                  "size": 313.87,
+                  "width": 500,
+                  "height": 358,
+                  "sizeInBytes": 313868
+                },
+                "medium": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//medium_MV_26100001_EN_Grogu_Leader_28df6fe2ac.png",
+                  "hash": "medium_MV_26100001_EN_Grogu_Leader_28df6fe2ac",
+                  "mime": "image/png",
+                  "name": "medium_MV26100001EN_Grogu_Leader.png",
+                  "path": null,
+                  "size": 596.13,
+                  "width": 700,
+                  "height": 501,
+                  "sizeInBytes": 596134
+                },
+                "xsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xsmall_MV_26100001_EN_Grogu_Leader_28df6fe2ac.png",
+                  "hash": "xsmall_MV_26100001_EN_Grogu_Leader_28df6fe2ac",
+                  "mime": "image/png",
+                  "name": "xsmall_MV26100001EN_Grogu_Leader.png",
+                  "path": null,
+                  "size": 123.15,
+                  "width": 300,
+                  "height": 215,
+                  "sizeInBytes": 123147
+                },
+                "xxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxsmall_MV_26100001_EN_Grogu_Leader_28df6fe2ac.png",
+                  "hash": "xxsmall_MV_26100001_EN_Grogu_Leader_28df6fe2ac",
+                  "mime": "image/png",
+                  "name": "xxsmall_MV26100001EN_Grogu_Leader.png",
+                  "path": null,
+                  "size": 59.49,
+                  "width": 200,
+                  "height": 143,
+                  "sizeInBytes": 59490
+                },
+                "xxxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxxsmall_MV_26100001_EN_Grogu_Leader_28df6fe2ac.png",
+                  "hash": "xxxsmall_MV_26100001_EN_Grogu_Leader_28df6fe2ac",
+                  "mime": "image/png",
+                  "name": "xxxsmall_MV26100001EN_Grogu_Leader.png",
+                  "path": null,
+                  "size": 35.45,
+                  "width": 150,
+                  "height": 107,
+                  "sizeInBytes": 35446
+                },
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//thumbnail_MV_26100001_EN_Grogu_Leader_28df6fe2ac.png",
+                  "hash": "thumbnail_MV_26100001_EN_Grogu_Leader_28df6fe2ac",
+                  "mime": "image/png",
+                  "name": "thumbnail_MV26100001EN_Grogu_Leader.png",
+                  "path": null,
+                  "size": 69.23,
+                  "width": 218,
+                  "height": 156,
+                  "sizeInBytes": 69226
+                }
+              },
+              "hash": "MV_26100001_EN_Grogu_Leader_28df6fe2ac",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 294.96,
+              "url": "https://cdn.starwarsunlimited.com//MV_26100001_EN_Grogu_Leader_28df6fe2ac.png",
+              "previewUrl": null,
+              "provider": "aws-s3",
+              "provider_metadata": null,
+              "createdAt": "2026-05-20T19:13:54.911Z",
+              "updatedAt": "2026-05-20T19:27:27.634Z"
+            }
+          }
+        },
+        "artBack": {
+          "data": {
+            "id": 59247,
+            "attributes": {
+              "name": "MV26100001EN_Grogu_Leader_Unit.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 716,
+              "height": 1000,
+              "formats": {
+                "card": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//card_MV_26100001_EN_Grogu_Leader_Unit_30a19fa0ba.png",
+                  "hash": "card_MV_26100001_EN_Grogu_Leader_Unit_30a19fa0ba",
+                  "mime": "image/png",
+                  "name": "card_MV26100001EN_Grogu_Leader_Unit.png",
+                  "path": null,
+                  "size": 233.8,
+                  "width": 286,
+                  "height": 400,
+                  "sizeInBytes": 233802
+                },
+                "small": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//small_MV_26100001_EN_Grogu_Leader_Unit_30a19fa0ba.png",
+                  "hash": "small_MV_26100001_EN_Grogu_Leader_Unit_30a19fa0ba",
+                  "mime": "image/png",
+                  "name": "small_MV26100001EN_Grogu_Leader_Unit.png",
+                  "path": null,
+                  "size": 350.02,
+                  "width": 358,
+                  "height": 500,
+                  "sizeInBytes": 350019
+                },
+                "medium": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//medium_MV_26100001_EN_Grogu_Leader_Unit_30a19fa0ba.png",
+                  "hash": "medium_MV_26100001_EN_Grogu_Leader_Unit_30a19fa0ba",
+                  "mime": "image/png",
+                  "name": "medium_MV26100001EN_Grogu_Leader_Unit.png",
+                  "path": null,
+                  "size": 662.16,
+                  "width": 501,
+                  "height": 700,
+                  "sizeInBytes": 662158
+                },
+                "xsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xsmall_MV_26100001_EN_Grogu_Leader_Unit_30a19fa0ba.png",
+                  "hash": "xsmall_MV_26100001_EN_Grogu_Leader_Unit_30a19fa0ba",
+                  "mime": "image/png",
+                  "name": "xsmall_MV26100001EN_Grogu_Leader_Unit.png",
+                  "path": null,
+                  "size": 136.81,
+                  "width": 215,
+                  "height": 300,
+                  "sizeInBytes": 136813
+                },
+                "xxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxsmall_MV_26100001_EN_Grogu_Leader_Unit_30a19fa0ba.png",
+                  "hash": "xxsmall_MV_26100001_EN_Grogu_Leader_Unit_30a19fa0ba",
+                  "mime": "image/png",
+                  "name": "xxsmall_MV26100001EN_Grogu_Leader_Unit.png",
+                  "path": null,
+                  "size": 65.83,
+                  "width": 143,
+                  "height": 200,
+                  "sizeInBytes": 65833
+                },
+                "xxxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxxsmall_MV_26100001_EN_Grogu_Leader_Unit_30a19fa0ba.png",
+                  "hash": "xxxsmall_MV_26100001_EN_Grogu_Leader_Unit_30a19fa0ba",
+                  "mime": "image/png",
+                  "name": "xxxsmall_MV26100001EN_Grogu_Leader_Unit.png",
+                  "path": null,
+                  "size": 39.21,
+                  "width": 107,
+                  "height": 150,
+                  "sizeInBytes": 39209
+                },
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//thumbnail_MV_26100001_EN_Grogu_Leader_Unit_30a19fa0ba.png",
+                  "hash": "thumbnail_MV_26100001_EN_Grogu_Leader_Unit_30a19fa0ba",
+                  "mime": "image/png",
+                  "name": "thumbnail_MV26100001EN_Grogu_Leader_Unit.png",
+                  "path": null,
+                  "size": 42.11,
+                  "width": 112,
+                  "height": 156,
+                  "sizeInBytes": 42107
+                }
+              },
+              "hash": "MV_26100001_EN_Grogu_Leader_Unit_30a19fa0ba",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 303.51,
+              "url": "https://cdn.starwarsunlimited.com//MV_26100001_EN_Grogu_Leader_Unit_30a19fa0ba.png",
+              "previewUrl": null,
+              "provider": "aws-s3",
+              "provider_metadata": null,
+              "createdAt": "2026-05-20T19:13:56.863Z",
+              "updatedAt": "2026-05-20T19:13:56.863Z"
+            }
+          }
+        },
+        "artThumbnail": {
+          "data": {
+            "id": 59251,
+            "attributes": {
+              "name": "MV26100001EN_Grogu_Leader_Unit_Thumbnail.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 300,
+              "height": 100,
+              "formats": {
+                "xxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxsmall_MV_26100001_EN_Grogu_Leader_Unit_Thumbnail_61850e27d3.png",
+                  "hash": "xxsmall_MV_26100001_EN_Grogu_Leader_Unit_Thumbnail_61850e27d3",
+                  "mime": "image/png",
+                  "name": "xxsmall_MV26100001EN_Grogu_Leader_Unit_Thumbnail.png",
+                  "path": null,
+                  "size": 35.21,
+                  "width": 200,
+                  "height": 67,
+                  "sizeInBytes": 35209
+                },
+                "xxxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxxsmall_MV_26100001_EN_Grogu_Leader_Unit_Thumbnail_61850e27d3.png",
+                  "hash": "xxxsmall_MV_26100001_EN_Grogu_Leader_Unit_Thumbnail_61850e27d3",
+                  "mime": "image/png",
+                  "name": "xxxsmall_MV26100001EN_Grogu_Leader_Unit_Thumbnail.png",
+                  "path": null,
+                  "size": 20.3,
+                  "width": 150,
+                  "height": 50,
+                  "sizeInBytes": 20304
+                },
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//thumbnail_MV_26100001_EN_Grogu_Leader_Unit_Thumbnail_61850e27d3.png",
+                  "hash": "thumbnail_MV_26100001_EN_Grogu_Leader_Unit_Thumbnail_61850e27d3",
+                  "mime": "image/png",
+                  "name": "thumbnail_MV26100001EN_Grogu_Leader_Unit_Thumbnail.png",
+                  "path": null,
+                  "size": 53.06,
+                  "width": 250,
+                  "height": 83,
+                  "sizeInBytes": 53058
+                }
+              },
+              "hash": "MV_26100001_EN_Grogu_Leader_Unit_Thumbnail_61850e27d3",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 22.41,
+              "url": "https://cdn.starwarsunlimited.com//MV_26100001_EN_Grogu_Leader_Unit_Thumbnail_61850e27d3.png",
+              "previewUrl": null,
+              "provider": "aws-s3",
+              "provider_metadata": null,
+              "createdAt": "2026-05-20T19:14:07.636Z",
+              "updatedAt": "2026-05-20T19:14:07.636Z"
+            }
+          }
+        },
+        "localizations": {
+          "data": [
+            {
+              "id": 56606,
+              "attributes": {
+                "title": "Grogu",
+                "subtitle": "Charming Companion",
+                "cardNumber": 1,
+                "cardCount": 0,
+                "artist": "Reno",
+                "artFrontHorizontal": true,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": 4,
+                "hp": 3,
+                "power": 0,
+                "text": "",
+                "textStyled": "<p></p>",
+                "deployBox": "While another friendly unit is defending, it gets +1/+0.\nWhile another friendly unit is attacking, the defending unit gets –1/–0.",
+                "deployBoxStyled": "<p>While another friendly unit is defending, it gets <strong>+1</strong>/<strong>+0</strong>.</p><p>While another friendly unit is attacking, the defending unit gets <strong>–1</strong>/<strong>–0</strong>.</p>",
+                "epicAction": "When you play a <uq> unit that costs 4 or more: If this leader is ready, you may deploy him.",
+                "epicActionStyled": "<p><strong>When you play a </strong><img src=\"https://ffg-prod-uploads.s3.amazonaws.com//icon_unique_white_a08b37532f.png\" alt=\"icon_cunning.png\"><strong> unit that costs </strong>4<strong> or more:</strong> If this leader is ready, you may deploy him.</p>",
+                "linkHtml": "<a href=\"/cards?cid=4667844018\" class=\"card-tooltip\" data-card=\"4667844018\">Grogu</a>",
+                "cardId": null,
+                "createdAt": "2026-05-20T19:20:07.504Z",
+                "updatedAt": "2026-06-02T22:11:34.000Z",
+                "publishedAt": "2025-03-05T06:00:00.000Z",
+                "locale": "de",
+                "hyperspace": false,
+                "unique": true,
+                "showcase": false,
+                "cardUid": "4667844018",
+                "rules": null,
+                "rulesStyled": null,
+                "serialCode": "mv26100001",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            },
+            {
+              "id": 56602,
+              "attributes": {
+                "title": "Grogu",
+                "subtitle": "Charming Companion",
+                "cardNumber": 1,
+                "cardCount": 0,
+                "artist": "Reno",
+                "artFrontHorizontal": true,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": 4,
+                "hp": 3,
+                "power": 0,
+                "text": "",
+                "textStyled": "<p></p>",
+                "deployBox": "While another friendly unit is defending, it gets +1/+0.\nWhile another friendly unit is attacking, the defending unit gets –1/–0.",
+                "deployBoxStyled": "<p>While another friendly unit is defending, it gets <strong>+1</strong>/<strong>+0</strong>.</p><p>While another friendly unit is attacking, the defending unit gets <strong>–1</strong>/<strong>–0</strong>.</p>",
+                "epicAction": "When you play a <uq> unit that costs 4 or more: If this leader is ready, you may deploy him.",
+                "epicActionStyled": "<p><strong>When you play a </strong><img src=\"https://ffg-prod-uploads.s3.amazonaws.com//icon_unique_white_a08b37532f.png\" alt=\"icon_cunning.png\"><strong> unit that costs </strong>4<strong> or more:</strong> If this leader is ready, you may deploy him.</p>",
+                "linkHtml": "<a href=\"/cards?cid=4667844018\" class=\"card-tooltip\" data-card=\"4667844018\">Grogu</a>",
+                "cardId": null,
+                "createdAt": "2026-05-20T19:20:04.312Z",
+                "updatedAt": "2026-06-02T22:11:33.742Z",
+                "publishedAt": "2025-03-05T06:00:00.000Z",
+                "locale": "en",
+                "hyperspace": false,
+                "unique": true,
+                "showcase": false,
+                "cardUid": "4667844018",
+                "rules": null,
+                "rulesStyled": null,
+                "serialCode": "mv26100001",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            },
+            {
+              "id": 56605,
+              "attributes": {
+                "title": "Grogu",
+                "subtitle": "Charming Companion",
+                "cardNumber": 1,
+                "cardCount": 0,
+                "artist": "Reno",
+                "artFrontHorizontal": true,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": 4,
+                "hp": 3,
+                "power": 0,
+                "text": "",
+                "textStyled": "<p></p>",
+                "deployBox": "While another friendly unit is defending, it gets +1/+0.\nWhile another friendly unit is attacking, the defending unit gets –1/–0.",
+                "deployBoxStyled": "<p>While another friendly unit is defending, it gets <strong>+1</strong>/<strong>+0</strong>.</p><p>While another friendly unit is attacking, the defending unit gets <strong>–1</strong>/<strong>–0</strong>.</p>",
+                "epicAction": "When you play a <uq> unit that costs 4 or more: If this leader is ready, you may deploy him.",
+                "epicActionStyled": "<p><strong>When you play a </strong><img src=\"https://ffg-prod-uploads.s3.amazonaws.com//icon_unique_white_a08b37532f.png\" alt=\"icon_cunning.png\"><strong> unit that costs </strong>4<strong> or more:</strong> If this leader is ready, you may deploy him.</p>",
+                "linkHtml": "<a href=\"/cards?cid=4667844018\" class=\"card-tooltip\" data-card=\"4667844018\">Grogu</a>",
+                "cardId": null,
+                "createdAt": "2026-05-20T19:20:06.652Z",
+                "updatedAt": "2026-06-02T22:11:34.249Z",
+                "publishedAt": "2025-03-05T06:00:00.000Z",
+                "locale": "es",
+                "hyperspace": false,
+                "unique": true,
+                "showcase": false,
+                "cardUid": "4667844018",
+                "rules": null,
+                "rulesStyled": null,
+                "serialCode": "mv26100001",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            },
+            {
+              "id": 56603,
+              "attributes": {
+                "title": "Grogu",
+                "subtitle": "Charming Companion",
+                "cardNumber": 1,
+                "cardCount": 0,
+                "artist": "Reno",
+                "artFrontHorizontal": true,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": 4,
+                "hp": 3,
+                "power": 0,
+                "text": "",
+                "textStyled": "<p></p>",
+                "deployBox": "While another friendly unit is defending, it gets +1/+0.\nWhile another friendly unit is attacking, the defending unit gets –1/–0.",
+                "deployBoxStyled": "<p>While another friendly unit is defending, it gets <strong>+1</strong>/<strong>+0</strong>.</p><p>While another friendly unit is attacking, the defending unit gets <strong>–1</strong>/<strong>–0</strong>.</p>",
+                "epicAction": "When you play a <uq> unit that costs 4 or more: If this leader is ready, you may deploy him.",
+                "epicActionStyled": "<p><strong>When you play a </strong><img src=\"https://ffg-prod-uploads.s3.amazonaws.com//icon_unique_white_a08b37532f.png\" alt=\"icon_cunning.png\"><strong> unit that costs </strong>4<strong> or more:</strong> If this leader is ready, you may deploy him.</p>",
+                "linkHtml": "<a href=\"/cards?cid=4667844018\" class=\"card-tooltip\" data-card=\"4667844018\">Grogu</a>",
+                "cardId": null,
+                "createdAt": "2026-05-20T19:20:05.073Z",
+                "updatedAt": "2026-06-02T22:11:34.775Z",
+                "publishedAt": "2025-03-05T06:00:00.000Z",
+                "locale": "it",
+                "hyperspace": false,
+                "unique": true,
+                "showcase": false,
+                "cardUid": "4667844018",
+                "rules": null,
+                "rulesStyled": null,
+                "serialCode": "mv26100001",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "data": [
+            {
+              "id": 19,
+              "attributes": {
+                "name": "Ruse",
+                "description": "<p>S’adapter à la situation du moment, grâce à de puissants effets instantanés et à une variété de moyens pour perturber les plans de l’adversaire. Cette affinité convient parfaitement à ceux qui préfèrent réagir rapidement aux menaces et avoir une réponse à toutes les actions adverses.</p>",
+                "color": "#eb9f1c",
+                "createdAt": "2023-08-10T21:13:50.160Z",
+                "updatedAt": "2024-07-15T21:39:45.132Z",
+                "publishedAt": "2024-01-02T18:24:48.755Z",
+                "locale": "fr",
+                "englishName": "Cunning",
+                "sortValue": 15
+              }
+            },
+            {
+              "id": 24,
+              "attributes": {
+                "name": "Héroïsme",
+                "description": "<p>Lutter pour la paix et la justice avec des cartes représentant les «&nbsp;gentils&nbsp;» de la galaxie Star Wars. Cette affinité est idéale pour ceux qui souhaitent que leurs cartes se soutiennent et se protègent mutuellement tout en attaquant. Cette affinité est souvent associée à une autre affinité sur la carte.</p>",
+                "color": "#ffffff",
+                "createdAt": "2023-08-10T21:17:26.974Z",
+                "updatedAt": "2024-07-15T21:41:00.637Z",
+                "publishedAt": "2024-01-02T18:25:10.259Z",
+                "locale": "fr",
+                "englishName": "Heroism",
+                "sortValue": 25
+              }
+            }
+          ]
+        },
+        "aspectDuplicates": {
+          "data": []
+        },
+        "type": {
+          "data": {
+            "id": 36,
+            "attributes": {
+              "name": "Leader",
+              "description": "",
+              "value": "Leader",
+              "createdAt": "2023-08-15T18:49:09.085Z",
+              "updatedAt": "2024-03-05T17:11:46.232Z",
+              "publishedAt": "2023-12-13T23:06:00.522Z",
+              "locale": "fr",
+              "sortValue": 1
+            }
+          }
+        },
+        "type2": {
+          "data": {
+            "id": 21,
+            "attributes": {
+              "name": "Leader Unité",
+              "description": "",
+              "value": "Leader Unit",
+              "createdAt": "2023-08-15T18:03:38.401Z",
+              "updatedAt": "2024-03-05T17:12:15.830Z",
+              "publishedAt": "2023-12-13T23:06:15.554Z",
+              "locale": "fr",
+              "sortValue": 1
+            }
+          }
+        },
+        "traits": {
+          "data": [
+            {
+              "id": 34,
+              "attributes": {
+                "name": "Force",
+                "description": null,
+                "createdAt": "2023-08-15T14:41:10.682Z",
+                "updatedAt": "2024-01-04T21:15:19.420Z",
+                "publishedAt": "2024-01-04T21:15:19.417Z",
+                "locale": "fr"
+              }
+            }
+          ]
+        },
+        "arenas": {
+          "data": [
+            {
+              "id": 4,
+              "attributes": {
+                "name": "Terrestre",
+                "description": null,
+                "createdAt": "2023-08-15T14:32:20.801Z",
+                "updatedAt": "2024-01-04T16:49:07.912Z",
+                "publishedAt": "2023-08-18T21:37:40.768Z",
+                "locale": "fr"
+              }
+            }
+          ]
+        },
+        "keywords": {
+          "data": []
+        },
+        "rarity": {
+          "data": {
+            "id": 14,
+            "attributes": {
+              "name": "Rare",
+              "character": "R",
+              "color": "#f1c000",
+              "createdAt": "2023-08-14T21:29:34.676Z",
+              "updatedAt": "2025-06-17T21:46:47.442Z",
+              "publishedAt": "2024-01-04T16:41:34.918Z",
+              "locale": "fr",
+              "englishName": "Rare",
+              "sortValue": 4
+            }
+          }
+        },
+        "expansion": {
+          "data": {
+            "id": 120,
+            "attributes": {
+              "name": "The Mandalorian and Grogu Movie Promo",
+              "description": null,
+              "code": "MV26",
+              "createdAt": "2026-05-20T18:54:17.358Z",
+              "updatedAt": "2026-06-02T22:07:00.681Z",
+              "publishedAt": "2026-06-02T22:06:53.736Z",
+              "locale": "fr",
+              "sortValue": 97,
+              "leaderboardStartDate": null,
+              "leaderboardEndDate": null
+            }
+          }
+        },
+        "variantTypes": {
+          "data": [
+            {
+              "id": 328,
+              "attributes": {
+                "name": "Movie Promo",
+                "description": null,
+                "createdAt": "2026-05-20T19:18:47.485Z",
+                "updatedAt": "2026-06-02T22:08:35.232Z",
+                "publishedAt": "2026-06-02T22:08:27.598Z",
+                "locale": "fr",
+                "variantId": "10",
+                "foil": null,
+                "sortValue": 100,
+                "icon": {
+                  "data": {
+                    "id": 8701,
+                    "attributes": {
+                      "name": "icon_standard.png",
+                      "alternativeText": null,
+                      "caption": null,
+                      "width": 144,
+                      "height": 144,
+                      "formats": null,
+                      "hash": "icon_standard_7dbd7cd8e6",
+                      "ext": ".png",
+                      "mime": "image/png",
+                      "size": 0.39,
+                      "url": "https://cdn.starwarsunlimited.com//icon_standard_7dbd7cd8e6.png",
+                      "previewUrl": null,
+                      "provider": "aws-s3",
+                      "provider_metadata": null,
+                      "createdAt": "2024-07-15T14:40:17.066Z",
+                      "updatedAt": "2024-07-15T14:40:17.066Z"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "variantOf": {
+          "data": null
+        },
+        "reprintOf": {
+          "data": {
+            "id": 51775,
+            "attributes": {
+              "title": "Grogu",
+              "subtitle": "Charmant Compagnon",
+              "cardNumber": 18,
+              "cardCount": 264,
+              "artist": "Afif Khaled",
+              "artFrontHorizontal": true,
+              "artBackHorizontal": null,
+              "hasFoil": true,
+              "cost": 4,
+              "hp": 3,
+              "power": 0,
+              "text": "",
+              "textStyled": "<p></p>",
+              "deployBox": "Tant qu'une autre unité amie défend, elle a +1/+0.\nTant qu'une autre unité amie attaque,\nl'unité en défense a –1/–0.",
+              "deployBoxStyled": "<p>Tant qu'une autre unité amie défend, elle a <strong>+1</strong>/<strong>+0</strong>.</p><p>Tant qu'une autre unité amie attaque, l'unité en défense a <strong>–1</strong>/<strong>–0</strong>.</p>",
+              "epicAction": "Quand vous jouez une unité <uq> qui coûte 4 ou plus : si ce leader est redressé, vous pouvez le déployer.",
+              "epicActionStyled": "<p><strong>Quand vous jouez une unité </strong><img src=\"https://ffg-prod-uploads.s3.amazonaws.com//icon_unique_white_a08b37532f.png\" alt=\"icon_cunning.png\"><strong> qui coûte </strong>4<strong> ou plus :</strong> si ce leader est redressé, vous pouvez le déployer.</p>",
+              "linkHtml": "<a href=\"/cards?cid=2168426335\" class=\"card-tooltip\" data-card=\"2168426335\">Grogu</a>",
+              "cardId": null,
+              "createdAt": "2026-05-19T15:11:25.758Z",
+              "updatedAt": "2026-06-03T19:01:19.205Z",
+              "publishedAt": "2025-03-05T06:00:00.000Z",
+              "locale": "fr",
+              "hyperspace": false,
+              "unique": true,
+              "showcase": false,
+              "cardUid": "2168426335",
+              "rules": null,
+              "rulesStyled": null,
+              "serialCode": "08010018",
+              "upgradeHp": null,
+              "upgradePower": null
+            }
+          }
+        },
+        "validationId": "2168426335"
+      }
+    },
+    {
+      "id": 56609,
+      "attributes": {
+        "cardNumber": 2,
+        "title": "Razor Crest",
+        "subtitle": "Outfitted Armament",
+        "cardCount": 0,
+        "artist": "Reno",
+        "artFrontHorizontal": false,
+        "artBackHorizontal": null,
+        "hasFoil": true,
+        "cost": 4,
+        "hp": 5,
+        "power": 3,
+        "text": "Saboteur \nOn Attack: You may discard a card from your hand. If you do, this unit gets +2/+0 for this attack.",
+        "textStyled": "<p><strong>Saboteur</strong> <i></i></p><p><strong>On Attack:</strong> You may discard a card from your hand. If you do, this unit gets <strong>+2</strong>/<strong>+0</strong> for this attack.</p>",
+        "deployBox": null,
+        "deployBoxStyled": null,
+        "epicAction": "",
+        "epicActionStyled": "<p></p>",
+        "linkHtml": "<a href=\"/cards?cid=4607473545\" class=\"card-tooltip\" data-card=\"4607473545\">Razor Crest</a>",
+        "cardId": null,
+        "createdAt": "2026-05-20T19:20:10.062Z",
+        "updatedAt": "2026-06-02T22:11:35.891Z",
+        "publishedAt": "2025-03-05T06:00:00.000Z",
+        "locale": "fr",
+        "hyperspace": false,
+        "unique": true,
+        "showcase": false,
+        "cardUid": "4607473545",
+        "rules": null,
+        "rulesStyled": null,
+        "serialCode": "mv26100002",
+        "upgradeHp": null,
+        "upgradePower": null,
+        "artFront": {
+          "data": {
+            "id": 59245,
+            "attributes": {
+              "name": "MV26100002EN_Razor_Crest.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 716,
+              "height": 1000,
+              "formats": {
+                "card": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//card_MV_26100002_EN_Razor_Crest_fd9d5f785b.png",
+                  "hash": "card_MV_26100002_EN_Razor_Crest_fd9d5f785b",
+                  "mime": "image/png",
+                  "name": "card_MV26100002EN_Razor_Crest.png",
+                  "path": null,
+                  "size": 194.33,
+                  "width": 286,
+                  "height": 400,
+                  "sizeInBytes": 194334
+                },
+                "small": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//small_MV_26100002_EN_Razor_Crest_fd9d5f785b.png",
+                  "hash": "small_MV_26100002_EN_Razor_Crest_fd9d5f785b",
+                  "mime": "image/png",
+                  "name": "small_MV26100002EN_Razor_Crest.png",
+                  "path": null,
+                  "size": 283.15,
+                  "width": 358,
+                  "height": 500,
+                  "sizeInBytes": 283154
+                },
+                "medium": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//medium_MV_26100002_EN_Razor_Crest_fd9d5f785b.png",
+                  "hash": "medium_MV_26100002_EN_Razor_Crest_fd9d5f785b",
+                  "mime": "image/png",
+                  "name": "medium_MV26100002EN_Razor_Crest.png",
+                  "path": null,
+                  "size": 519.79,
+                  "width": 501,
+                  "height": 700,
+                  "sizeInBytes": 519789
+                },
+                "xsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xsmall_MV_26100002_EN_Razor_Crest_fd9d5f785b.png",
+                  "hash": "xsmall_MV_26100002_EN_Razor_Crest_fd9d5f785b",
+                  "mime": "image/png",
+                  "name": "xsmall_MV26100002EN_Razor_Crest.png",
+                  "path": null,
+                  "size": 117.19,
+                  "width": 215,
+                  "height": 300,
+                  "sizeInBytes": 117186
+                },
+                "xxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxsmall_MV_26100002_EN_Razor_Crest_fd9d5f785b.png",
+                  "hash": "xxsmall_MV_26100002_EN_Razor_Crest_fd9d5f785b",
+                  "mime": "image/png",
+                  "name": "xxsmall_MV26100002EN_Razor_Crest.png",
+                  "path": null,
+                  "size": 58.93,
+                  "width": 143,
+                  "height": 200,
+                  "sizeInBytes": 58927
+                },
+                "xxxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxxsmall_MV_26100002_EN_Razor_Crest_fd9d5f785b.png",
+                  "hash": "xxxsmall_MV_26100002_EN_Razor_Crest_fd9d5f785b",
+                  "mime": "image/png",
+                  "name": "xxxsmall_MV26100002EN_Razor_Crest.png",
+                  "path": null,
+                  "size": 35.91,
+                  "width": 107,
+                  "height": 150,
+                  "sizeInBytes": 35906
+                },
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//thumbnail_MV_26100002_EN_Razor_Crest_fd9d5f785b.png",
+                  "hash": "thumbnail_MV_26100002_EN_Razor_Crest_fd9d5f785b",
+                  "mime": "image/png",
+                  "name": "thumbnail_MV26100002EN_Razor_Crest.png",
+                  "path": null,
+                  "size": 85.91,
+                  "width": 179,
+                  "height": 250,
+                  "sizeInBytes": 85913
+                }
+              },
+              "hash": "MV_26100002_EN_Razor_Crest_fd9d5f785b",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 246.36,
+              "url": "https://cdn.starwarsunlimited.com//MV_26100002_EN_Razor_Crest_fd9d5f785b.png",
+              "previewUrl": null,
+              "provider": "aws-s3",
+              "provider_metadata": null,
+              "createdAt": "2026-05-20T19:13:53.305Z",
+              "updatedAt": "2026-05-20T19:13:53.305Z"
+            }
+          }
+        },
+        "artBack": {
+          "data": null
+        },
+        "artThumbnail": {
+          "data": {
+            "id": 59249,
+            "attributes": {
+              "name": "MV26100002EN_Razor_Crest_Thumbnail.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 300,
+              "height": 100,
+              "formats": {
+                "xxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxsmall_MV_26100002_EN_Razor_Crest_Thumbnail_469857150d.png",
+                  "hash": "xxsmall_MV_26100002_EN_Razor_Crest_Thumbnail_469857150d",
+                  "mime": "image/png",
+                  "name": "xxsmall_MV26100002EN_Razor_Crest_Thumbnail.png",
+                  "path": null,
+                  "size": 31.58,
+                  "width": 200,
+                  "height": 67,
+                  "sizeInBytes": 31583
+                },
+                "xxxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxxsmall_MV_26100002_EN_Razor_Crest_Thumbnail_469857150d.png",
+                  "hash": "xxxsmall_MV_26100002_EN_Razor_Crest_Thumbnail_469857150d",
+                  "mime": "image/png",
+                  "name": "xxxsmall_MV26100002EN_Razor_Crest_Thumbnail.png",
+                  "path": null,
+                  "size": 18.72,
+                  "width": 150,
+                  "height": 50,
+                  "sizeInBytes": 18719
+                },
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//thumbnail_MV_26100002_EN_Razor_Crest_Thumbnail_469857150d.png",
+                  "hash": "thumbnail_MV_26100002_EN_Razor_Crest_Thumbnail_469857150d",
+                  "mime": "image/png",
+                  "name": "thumbnail_MV26100002EN_Razor_Crest_Thumbnail.png",
+                  "path": null,
+                  "size": 44.98,
+                  "width": 245,
+                  "height": 82,
+                  "sizeInBytes": 44983
+                }
+              },
+              "hash": "MV_26100002_EN_Razor_Crest_Thumbnail_469857150d",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 19.24,
+              "url": "https://cdn.starwarsunlimited.com//MV_26100002_EN_Razor_Crest_Thumbnail_469857150d.png",
+              "previewUrl": null,
+              "provider": "aws-s3",
+              "provider_metadata": null,
+              "createdAt": "2026-05-20T19:14:06.345Z",
+              "updatedAt": "2026-05-20T19:14:06.345Z"
+            }
+          }
+        },
+        "localizations": {
+          "data": [
+            {
+              "id": 56611,
+              "attributes": {
+                "title": "Razor Crest",
+                "subtitle": "Outfitted Armament",
+                "cardNumber": 2,
+                "cardCount": 0,
+                "artist": "Reno",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": 4,
+                "hp": 5,
+                "power": 3,
+                "text": "Saboteur \nOn Attack: You may discard a card from your hand. If you do, this unit gets +2/+0 for this attack.",
+                "textStyled": "<p><strong>Saboteur</strong> <i></i></p><p><strong>On Attack:</strong> You may discard a card from your hand. If you do, this unit gets <strong>+2</strong>/<strong>+0</strong> for this attack.</p>",
+                "deployBox": null,
+                "deployBoxStyled": null,
+                "epicAction": "",
+                "epicActionStyled": "<p></p>",
+                "linkHtml": "<a href=\"/cards?cid=4607473545\" class=\"card-tooltip\" data-card=\"4607473545\">Razor Crest</a>",
+                "cardId": null,
+                "createdAt": "2026-05-20T19:20:11.604Z",
+                "updatedAt": "2026-06-02T22:11:35.342Z",
+                "publishedAt": "2025-03-05T06:00:00.000Z",
+                "locale": "de",
+                "hyperspace": false,
+                "unique": true,
+                "showcase": false,
+                "cardUid": "4607473545",
+                "rules": null,
+                "rulesStyled": null,
+                "serialCode": "mv26100002",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            },
+            {
+              "id": 56607,
+              "attributes": {
+                "title": "Razor Crest",
+                "subtitle": "Outfitted Armament",
+                "cardNumber": 2,
+                "cardCount": 0,
+                "artist": "Reno",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": 4,
+                "hp": 5,
+                "power": 3,
+                "text": "Saboteur \nOn Attack: You may discard a card from your hand. If you do, this unit gets +2/+0 for this attack.",
+                "textStyled": "<p><strong>Saboteur</strong> <i></i></p><p><strong>On Attack:</strong> You may discard a card from your hand. If you do, this unit gets <strong>+2</strong>/<strong>+0</strong> for this attack.</p>",
+                "deployBox": null,
+                "deployBoxStyled": null,
+                "epicAction": "",
+                "epicActionStyled": "<p></p>",
+                "linkHtml": "<a href=\"/cards?cid=4607473545\" class=\"card-tooltip\" data-card=\"4607473545\">Razor Crest</a>",
+                "cardId": null,
+                "createdAt": "2026-05-20T19:20:08.594Z",
+                "updatedAt": "2026-06-02T22:11:35.061Z",
+                "publishedAt": "2025-03-05T06:00:00.000Z",
+                "locale": "en",
+                "hyperspace": false,
+                "unique": true,
+                "showcase": false,
+                "cardUid": "4607473545",
+                "rules": null,
+                "rulesStyled": null,
+                "serialCode": "mv26100002",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            },
+            {
+              "id": 56610,
+              "attributes": {
+                "title": "Razor Crest",
+                "subtitle": "Outfitted Armament",
+                "cardNumber": 2,
+                "cardCount": 0,
+                "artist": "Reno",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": 4,
+                "hp": 5,
+                "power": 3,
+                "text": "Saboteur \nOn Attack: You may discard a card from your hand. If you do, this unit gets +2/+0 for this attack.",
+                "textStyled": "<p><strong>Saboteur</strong> <i></i></p><p><strong>On Attack:</strong> You may discard a card from your hand. If you do, this unit gets <strong>+2</strong>/<strong>+0</strong> for this attack.</p>",
+                "deployBox": null,
+                "deployBoxStyled": null,
+                "epicAction": "",
+                "epicActionStyled": "<p></p>",
+                "linkHtml": "<a href=\"/cards?cid=4607473545\" class=\"card-tooltip\" data-card=\"4607473545\">Razor Crest</a>",
+                "cardId": null,
+                "createdAt": "2026-05-20T19:20:10.791Z",
+                "updatedAt": "2026-06-02T22:11:35.623Z",
+                "publishedAt": "2025-03-05T06:00:00.000Z",
+                "locale": "es",
+                "hyperspace": false,
+                "unique": true,
+                "showcase": false,
+                "cardUid": "4607473545",
+                "rules": null,
+                "rulesStyled": null,
+                "serialCode": "mv26100002",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            },
+            {
+              "id": 56608,
+              "attributes": {
+                "title": "Razor Crest",
+                "subtitle": "Outfitted Armament",
+                "cardNumber": 2,
+                "cardCount": 0,
+                "artist": "Reno",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": 4,
+                "hp": 5,
+                "power": 3,
+                "text": "Saboteur \nOn Attack: You may discard a card from your hand. If you do, this unit gets +2/+0 for this attack.",
+                "textStyled": "<p><strong>Saboteur</strong> <i></i></p><p><strong>On Attack:</strong> You may discard a card from your hand. If you do, this unit gets <strong>+2</strong>/<strong>+0</strong> for this attack.</p>",
+                "deployBox": null,
+                "deployBoxStyled": null,
+                "epicAction": "",
+                "epicActionStyled": "<p></p>",
+                "linkHtml": "<a href=\"/cards?cid=4607473545\" class=\"card-tooltip\" data-card=\"4607473545\">Razor Crest</a>",
+                "cardId": null,
+                "createdAt": "2026-05-20T19:20:09.346Z",
+                "updatedAt": "2026-06-02T22:11:36.142Z",
+                "publishedAt": "2025-03-05T06:00:00.000Z",
+                "locale": "it",
+                "hyperspace": false,
+                "unique": true,
+                "showcase": false,
+                "cardUid": "4607473545",
+                "rules": null,
+                "rulesStyled": null,
+                "serialCode": "mv26100002",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "data": [
+            {
+              "id": 14,
+              "attributes": {
+                "name": "Agressivité",
+                "description": "<p>Attaquer avec un maximum d’efficacité et infliger énormément de dégâts. Cette affinité convient parfaitement aux joueurs qui aiment un style de jeu rapide et agressif, brisant les défenses adverses et se ruant vers la victoire quel que soit le prix à payer.</p>",
+                "color": "#d30808",
+                "createdAt": "2023-08-10T21:10:46.362Z",
+                "updatedAt": "2024-07-15T21:39:33.927Z",
+                "publishedAt": "2024-01-02T18:23:52.395Z",
+                "locale": "fr",
+                "englishName": "Aggression",
+                "sortValue": 10
+              }
+            }
+          ]
+        },
+        "aspectDuplicates": {
+          "data": []
+        },
+        "type": {
+          "data": {
+            "id": 29,
+            "attributes": {
+              "name": "Unité",
+              "description": "",
+              "value": "Unit",
+              "createdAt": "2023-08-15T18:04:32.553Z",
+              "updatedAt": "2024-04-25T13:52:29.937Z",
+              "publishedAt": "2024-01-04T21:29:14.943Z",
+              "locale": "fr",
+              "sortValue": 3
+            }
+          }
+        },
+        "type2": {
+          "data": null
+        },
+        "traits": {
+          "data": [
+            {
+              "id": 154,
+              "attributes": {
+                "name": "Mandalorien",
+                "description": "",
+                "createdAt": "2023-10-09T19:39:14.220Z",
+                "updatedAt": "2024-01-04T21:17:46.402Z",
+                "publishedAt": "2024-01-04T21:17:46.395Z",
+                "locale": "fr"
+              }
+            },
+            {
+              "id": 54,
+              "attributes": {
+                "name": "Véhicule",
+                "description": "",
+                "createdAt": "2023-08-15T14:44:05.531Z",
+                "updatedAt": "2024-01-04T21:10:15.100Z",
+                "publishedAt": "2024-01-04T21:10:15.097Z",
+                "locale": "fr"
+              }
+            },
+            {
+              "id": 209,
+              "attributes": {
+                "name": "Transport",
+                "description": "",
+                "createdAt": "2023-11-21T17:07:28.880Z",
+                "updatedAt": "2024-01-04T21:25:22.884Z",
+                "publishedAt": "2024-01-04T21:25:22.880Z",
+                "locale": "fr"
+              }
+            }
+          ]
+        },
+        "arenas": {
+          "data": [
+            {
+              "id": 9,
+              "attributes": {
+                "name": "Spatiale",
+                "description": null,
+                "createdAt": "2023-08-15T18:46:01.290Z",
+                "updatedAt": "2024-01-04T16:50:11.127Z",
+                "publishedAt": "2024-01-04T16:50:11.124Z",
+                "locale": "fr"
+              }
+            }
+          ]
+        },
+        "keywords": {
+          "data": [
+            {
+              "id": 4,
+              "attributes": {
+                "name": "Saboteur",
+                "description": "",
+                "createdAt": "2023-11-21T19:15:20.718Z",
+                "updatedAt": "2023-11-28T16:57:22.434Z",
+                "publishedAt": "2023-11-28T16:57:22.429Z",
+                "locale": "fr"
+              }
+            }
+          ]
+        },
+        "rarity": {
+          "data": {
+            "id": 10,
+            "attributes": {
+              "name": "Peu Commune",
+              "character": "U",
+              "color": "#d1d1d1",
+              "createdAt": "2023-08-14T21:26:54.105Z",
+              "updatedAt": "2024-04-25T14:06:27.031Z",
+              "publishedAt": "2024-01-04T16:42:27.978Z",
+              "locale": "fr",
+              "englishName": "Uncommon",
+              "sortValue": 3
+            }
+          }
+        },
+        "expansion": {
+          "data": {
+            "id": 120,
+            "attributes": {
+              "name": "The Mandalorian and Grogu Movie Promo",
+              "description": null,
+              "code": "MV26",
+              "createdAt": "2026-05-20T18:54:17.358Z",
+              "updatedAt": "2026-06-02T22:07:00.681Z",
+              "publishedAt": "2026-06-02T22:06:53.736Z",
+              "locale": "fr",
+              "sortValue": 97,
+              "leaderboardStartDate": null,
+              "leaderboardEndDate": null
+            }
+          }
+        },
+        "variantTypes": {
+          "data": [
+            {
+              "id": 328,
+              "attributes": {
+                "name": "Movie Promo",
+                "description": null,
+                "createdAt": "2026-05-20T19:18:47.485Z",
+                "updatedAt": "2026-06-02T22:08:35.232Z",
+                "publishedAt": "2026-06-02T22:08:27.598Z",
+                "locale": "fr",
+                "variantId": "10",
+                "foil": null,
+                "sortValue": 100,
+                "icon": {
+                  "data": {
+                    "id": 8701,
+                    "attributes": {
+                      "name": "icon_standard.png",
+                      "alternativeText": null,
+                      "caption": null,
+                      "width": 144,
+                      "height": 144,
+                      "formats": null,
+                      "hash": "icon_standard_7dbd7cd8e6",
+                      "ext": ".png",
+                      "mime": "image/png",
+                      "size": 0.39,
+                      "url": "https://cdn.starwarsunlimited.com//icon_standard_7dbd7cd8e6.png",
+                      "previewUrl": null,
+                      "provider": "aws-s3",
+                      "provider_metadata": null,
+                      "createdAt": "2024-07-15T14:40:17.066Z",
+                      "updatedAt": "2024-07-15T14:40:17.066Z"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "variantOf": {
+          "data": null
+        },
+        "reprintOf": {
+          "data": {
+            "id": 52544,
+            "attributes": {
+              "title": "Razor Crest",
+              "subtitle": "Armement Activé",
+              "cardNumber": 172,
+              "cardCount": 264,
+              "artist": "Amad Mir",
+              "artFrontHorizontal": false,
+              "artBackHorizontal": null,
+              "hasFoil": true,
+              "cost": 4,
+              "hp": 5,
+              "power": 3,
+              "text": "Saboteur (Quand cette unité attaque, ignorez Sentinelle et éliminez les Boucliers du défenseur.)\nEn attaque : vous pouvez défausser une carte de votre main. Dans ce cas, cette unité a +2/+0 pour cette attaque.",
+              "textStyled": "<p><strong>Saboteur</strong> (<i>Quand cette unité attaque, ignorez Sentinelle et éliminez les Boucliers du défenseur.</i>)</p><p><strong>En attaque :</strong> vous pouvez défausser une carte de votre main. Dans ce cas, cette unité a <strong>+2</strong>/<strong>+0</strong> pour cette attaque.</p>",
+              "deployBox": null,
+              "deployBoxStyled": null,
+              "epicAction": "",
+              "epicActionStyled": "<p></p>",
+              "linkHtml": "<a href=\"/cards?cid=4046328280\" class=\"card-tooltip\" data-card=\"4046328280\">Razor Crest</a>",
+              "cardId": null,
+              "createdAt": "2026-05-19T15:32:59.935Z",
+              "updatedAt": "2026-06-03T19:04:19.945Z",
+              "publishedAt": "2025-03-05T06:00:00.000Z",
+              "locale": "fr",
+              "hyperspace": false,
+              "unique": true,
+              "showcase": false,
+              "cardUid": "4046328280",
+              "rules": null,
+              "rulesStyled": null,
+              "serialCode": "08010172",
+              "upgradeHp": null,
+              "upgradePower": null
+            }
+          }
+        },
+        "validationId": "4046328280"
+      }
+    }
+  ],
+  "variants": []
+}
