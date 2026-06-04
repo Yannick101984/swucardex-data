@@ -1,0 +1,42 @@
+name: SWU — Promotion staging → main (publication TestFlight/App Store)
+
+on:
+  workflow_dispatch:
+    inputs:
+      confirm:
+        description: 'Taper "oui" pour confirmer la promotion vers main'
+        required: true
+        type: string
+
+jobs:
+  promote:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Vérification confirmation
+        if: ${{ inputs.confirm != 'oui' }}
+        run: |
+          echo "❌ Confirmation invalide. Taper exactement 'oui' pour promouvoir."
+          exit 1
+
+      - name: Checkout main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Merge staging → main (staging gagne sur les conflits)
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git fetch origin staging
+          git merge origin/staging -X theirs --no-edit \
+            -m "chore: promotion staging → main [$(date '+%Y-%m-%d')] [skip ci]"
+          git push origin main
+
+      - name: Résumé
+        run: |
+          echo "✅ staging promu vers main avec succès."
+          echo "Les données cartes sont maintenant disponibles pour l'app en production."
