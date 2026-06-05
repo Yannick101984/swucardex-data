@@ -1737,6 +1737,14 @@
   },
   {
     "set_code": "SHD",
+    "en_name": "Sundari Peacekeeper",
+    "card_number": 367,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
     "en_name": "Echo, Restored",
     "card_number": 368,
     "variant_type": "Hyperspace",
@@ -3179,6 +3187,14 @@
     "set_code": "TWI",
     "en_name": "On Top of Things",
     "card_number": 484,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
+    "en_name": "Battle Droid Legion",
+    "card_number": 498,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
