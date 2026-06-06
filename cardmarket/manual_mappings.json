@@ -1689,6 +1689,14 @@
   },
   {
     "set_code": "SHD",
+    "en_name": "Supercommando Squad",
+    "card_number": 311,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
     "en_name": "Brutal Traditions",
     "card_number": 315,
     "variant_type": "Hyperspace",
@@ -2049,6 +2057,14 @@
   },
   {
     "set_code": "SOR",
+    "en_name": "Inferno Four, Unforgetting",
+    "card_number": 297,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
     "en_name": "Wilderness Fighter",
     "card_number": 329,
     "variant_type": "Hyperspace",
@@ -2105,16 +2121,8 @@
   },
   {
     "set_code": "SOR",
-    "en_name": "Cantina Braggart",
-    "card_number": 420,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "Rogue Operative",
-    "card_number": 456,
+    "en_name": "Bounty Hunter Crew",
+    "card_number": 446,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -2131,6 +2139,14 @@
     "set_code": "SOR",
     "en_name": "Mining Guild TIE Fighter",
     "card_number": 468,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
+    "en_name": "Frontier AT-RT",
+    "card_number": 507,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -3155,6 +3171,14 @@
     "set_code": "TWI",
     "en_name": "Kit Fisto, The Smiling Jedi",
     "card_number": 432,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
+    "en_name": "Wolf Pack Escort",
+    "card_number": 456,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
