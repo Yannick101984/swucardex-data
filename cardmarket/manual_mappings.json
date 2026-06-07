@@ -3177,6 +3177,22 @@
   },
   {
     "set_code": "TWI",
+    "en_name": "Aurra Sing, Crackshot Sniper",
+    "card_number": 433,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
+    "en_name": "Wartime Profiteering",
+    "card_number": 453,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
     "en_name": "Wolf Pack Escort",
     "card_number": 456,
     "variant_type": "Hyperspace",
@@ -3219,6 +3235,14 @@
     "set_code": "TWI",
     "en_name": "Battle Droid Legion",
     "card_number": 498,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
+    "en_name": "Droid Deployment",
+    "card_number": 499,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
