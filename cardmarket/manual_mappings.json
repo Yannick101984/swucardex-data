@@ -160,6 +160,22 @@
     "note": ""
   },
   {
+    "set_code": "LOF",
+    "en_name": "Padawan Starfighter",
+    "card_number": 60,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "LOF",
+    "en_name": "It's Worse",
+    "card_number": 264,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
     "set_code": "P25",
     "en_name": "Bossk, Hunt By Instinct",
     "card_number": 2,
@@ -1825,6 +1841,14 @@
   },
   {
     "set_code": "SHD",
+    "en_name": "Fennec Shand, Loyal Sharpshooter",
+    "card_number": 488,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
     "en_name": "Look the Other Way",
     "card_number": 494,
     "variant_type": "Hyperspace",
@@ -1843,6 +1867,14 @@
     "set_code": "SHD",
     "en_name": "Black Sun Starfighter",
     "card_number": 502,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
+    "en_name": "Hutt's Henchmen",
+    "card_number": 504,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -2065,6 +2097,30 @@
   },
   {
     "set_code": "SOR",
+    "en_name": "Kanan Jarrus, Revealed Jedi",
+    "card_number": 313,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
+    "en_name": "Vigilant Honor Guards",
+    "card_number": 314,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
+    "en_name": "Jedi Lightsaber",
+    "card_number": 319,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
     "en_name": "Wilderness Fighter",
     "card_number": 329,
     "variant_type": "Hyperspace",
@@ -2105,6 +2161,14 @@
   },
   {
     "set_code": "SOR",
+    "en_name": "Imperial Interceptor",
+    "card_number": 396,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
     "en_name": "Ruthless Raider",
     "card_number": 398,
     "variant_type": "Hyperspace Foil",
@@ -2115,6 +2179,14 @@
     "set_code": "SOR",
     "en_name": "Zeb Orrelios, Headstrong Warrior",
     "card_number": 409,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
+    "en_name": "Mace Windu, Party Crasher",
+    "card_number": 412,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -3179,6 +3251,14 @@
     "set_code": "TWI",
     "en_name": "Aurra Sing, Crackshot Sniper",
     "card_number": 433,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
+    "en_name": "Soulless One, Customized for Grievous",
+    "card_number": 445,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
