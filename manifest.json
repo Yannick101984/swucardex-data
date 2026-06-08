@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "lastUpdated": "2026-06-04",
+  "lastUpdated": "2026-06-08",
   "latestMainSet": "law",
   "announcement": {
-    "id": "ann-1780565228",
-    "text": "Nouveau set ajouté : The Mandalorian and Grogu Movie Promo - MV26",
+    "id": "ann-1780922260",
+    "text": "Nouveau set ajouté : 2026 Convention Exclusive - C26",
     "color": "#7C3AED",
     "url": ""
   },
@@ -307,6 +307,19 @@
       "logoURL": null,
       "artworkURL": null,
       "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/staging/sets/mv26.json"
+    },
+    {
+      "id": "c26",
+      "dataVersion": 1,
+      "code": "C26",
+      "name": "2026 Convention Exclusive",
+      "type": "special",
+      "order": 16,
+      "color": "#888888",
+      "foilShared": false,
+      "logoURL": null,
+      "artworkURL": null,
+      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/c26.json"
     }
   ]
 }
