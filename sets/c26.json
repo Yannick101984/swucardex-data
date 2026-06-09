@@ -1,0 +1,3449 @@
+{
+  "data": [
+    {
+      "id": 56621,
+      "attributes": {
+        "cardNumber": 1,
+        "title": "Boba Fett",
+        "subtitle": "For a Price",
+        "cardCount": 0,
+        "artist": "Vincent Dutrait",
+        "artFrontHorizontal": false,
+        "artBackHorizontal": null,
+        "hasFoil": true,
+        "cost": 5,
+        "hp": 5,
+        "power": 6,
+        "text": "When Played/On Attack: You may pay 1 resource. If you do, deal 3 damage to a ground unit.",
+        "textStyled": "<p><strong>When Played/On Attack:</strong> You may pay <img src=\"https://ffg-prod-uploads.s3.amazonaws.com/icon_cost_1_6878a6fe98.png\" alt=\"icon_cost_1.png\">. If you do, deal 3 damage to a ground unit.</p>",
+        "deployBox": null,
+        "deployBoxStyled": null,
+        "epicAction": "",
+        "epicActionStyled": "<p></p>",
+        "linkHtml": "<a href=\"/cards?cid=2013305056\" class=\"card-tooltip\" data-card=\"2013305056\">Boba Fett</a>",
+        "cardId": null,
+        "createdAt": "2026-06-04T16:33:28.107Z",
+        "updatedAt": "2026-06-04T21:46:23.721Z",
+        "publishedAt": "2025-03-05T06:00:00.000Z",
+        "locale": "fr",
+        "hyperspace": false,
+        "unique": true,
+        "showcase": false,
+        "cardUid": "2013305056",
+        "rules": null,
+        "rulesStyled": null,
+        "serialCode": "c26080001",
+        "upgradeHp": null,
+        "upgradePower": null,
+        "artFront": {
+          "data": {
+            "id": 59369,
+            "attributes": {
+              "name": "C26080001EN_Boba-Fett.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 716,
+              "height": 1000,
+              "formats": {
+                "card": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//card_C26080001_EN_Boba_Fett_c883fb3ceb.png",
+                  "hash": "card_C26080001_EN_Boba_Fett_c883fb3ceb",
+                  "mime": "image/png",
+                  "name": "card_C26080001EN_Boba-Fett.png",
+                  "path": null,
+                  "size": 141.29,
+                  "width": 286,
+                  "height": 400,
+                  "sizeInBytes": 141286
+                },
+                "small": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//small_C26080001_EN_Boba_Fett_c883fb3ceb.png",
+                  "hash": "small_C26080001_EN_Boba_Fett_c883fb3ceb",
+                  "mime": "image/png",
+                  "name": "small_C26080001EN_Boba-Fett.png",
+                  "path": null,
+                  "size": 206.46,
+                  "width": 358,
+                  "height": 500,
+                  "sizeInBytes": 206461
+                },
+                "medium": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//medium_C26080001_EN_Boba_Fett_c883fb3ceb.png",
+                  "hash": "medium_C26080001_EN_Boba_Fett_c883fb3ceb",
+                  "mime": "image/png",
+                  "name": "medium_C26080001EN_Boba-Fett.png",
+                  "path": null,
+                  "size": 385.19,
+                  "width": 501,
+                  "height": 700,
+                  "sizeInBytes": 385186
+                },
+                "xsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xsmall_C26080001_EN_Boba_Fett_c883fb3ceb.png",
+                  "hash": "xsmall_C26080001_EN_Boba_Fett_c883fb3ceb",
+                  "mime": "image/png",
+                  "name": "xsmall_C26080001EN_Boba-Fett.png",
+                  "path": null,
+                  "size": 85.52,
+                  "width": 215,
+                  "height": 300,
+                  "sizeInBytes": 85516
+                },
+                "xxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxsmall_C26080001_EN_Boba_Fett_c883fb3ceb.png",
+                  "hash": "xxsmall_C26080001_EN_Boba_Fett_c883fb3ceb",
+                  "mime": "image/png",
+                  "name": "xxsmall_C26080001EN_Boba-Fett.png",
+                  "path": null,
+                  "size": 43.43,
+                  "width": 143,
+                  "height": 200,
+                  "sizeInBytes": 43433
+                },
+                "xxxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxxsmall_C26080001_EN_Boba_Fett_c883fb3ceb.png",
+                  "hash": "xxxsmall_C26080001_EN_Boba_Fett_c883fb3ceb",
+                  "mime": "image/png",
+                  "name": "xxxsmall_C26080001EN_Boba-Fett.png",
+                  "path": null,
+                  "size": 27.42,
+                  "width": 107,
+                  "height": 150,
+                  "sizeInBytes": 27420
+                },
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//thumbnail_C26080001_EN_Boba_Fett_c883fb3ceb.png",
+                  "hash": "thumbnail_C26080001_EN_Boba_Fett_c883fb3ceb",
+                  "mime": "image/png",
+                  "name": "thumbnail_C26080001EN_Boba-Fett.png",
+                  "path": null,
+                  "size": 62.17,
+                  "width": 179,
+                  "height": 250,
+                  "sizeInBytes": 62171
+                }
+              },
+              "hash": "C26080001_EN_Boba_Fett_c883fb3ceb",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 181.88,
+              "url": "https://cdn.starwarsunlimited.com//C26080001_EN_Boba_Fett_c883fb3ceb.png",
+              "previewUrl": null,
+              "provider": "aws-s3",
+              "provider_metadata": null,
+              "createdAt": "2026-06-04T16:28:48.810Z",
+              "updatedAt": "2026-06-04T16:28:48.810Z"
+            }
+          }
+        },
+        "artBack": {
+          "data": null
+        },
+        "artThumbnail": {
+          "data": {
+            "id": 59383,
+            "attributes": {
+              "name": "C26080001EN_Boba-Fett_Thumbnail.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 300,
+              "height": 100,
+              "formats": {
+                "xxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxsmall_C26080001_EN_Boba_Fett_Thumbnail_0acd8a1438.png",
+                  "hash": "xxsmall_C26080001_EN_Boba_Fett_Thumbnail_0acd8a1438",
+                  "mime": "image/png",
+                  "name": "xxsmall_C26080001EN_Boba-Fett_Thumbnail.png",
+                  "path": null,
+                  "size": 27.09,
+                  "width": 200,
+                  "height": 67,
+                  "sizeInBytes": 27091
+                },
+                "xxxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxxsmall_C26080001_EN_Boba_Fett_Thumbnail_0acd8a1438.png",
+                  "hash": "xxxsmall_C26080001_EN_Boba_Fett_Thumbnail_0acd8a1438",
+                  "mime": "image/png",
+                  "name": "xxxsmall_C26080001EN_Boba-Fett_Thumbnail.png",
+                  "path": null,
+                  "size": 16.21,
+                  "width": 150,
+                  "height": 50,
+                  "sizeInBytes": 16214
+                },
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//thumbnail_C26080001_EN_Boba_Fett_Thumbnail_0acd8a1438.png",
+                  "hash": "thumbnail_C26080001_EN_Boba_Fett_Thumbnail_0acd8a1438",
+                  "mime": "image/png",
+                  "name": "thumbnail_C26080001EN_Boba-Fett_Thumbnail.png",
+                  "path": null,
+                  "size": 39.73,
+                  "width": 250,
+                  "height": 83,
+                  "sizeInBytes": 39730
+                }
+              },
+              "hash": "C26080001_EN_Boba_Fett_Thumbnail_0acd8a1438",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 13,
+              "url": "https://cdn.starwarsunlimited.com//C26080001_EN_Boba_Fett_Thumbnail_0acd8a1438.png",
+              "previewUrl": null,
+              "provider": "aws-s3",
+              "provider_metadata": null,
+              "createdAt": "2026-06-04T16:32:23.734Z",
+              "updatedAt": "2026-06-04T16:32:23.734Z"
+            }
+          }
+        },
+        "localizations": {
+          "data": [
+            {
+              "id": 56623,
+              "attributes": {
+                "title": "Boba Fett",
+                "subtitle": "For a Price",
+                "cardNumber": 1,
+                "cardCount": 0,
+                "artist": "Vincent Dutrait",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": 5,
+                "hp": 5,
+                "power": 6,
+                "text": "When Played/On Attack: You may pay 1 resource. If you do, deal 3 damage to a ground unit.",
+                "textStyled": "<p><strong>When Played/On Attack:</strong> You may pay <img src=\"https://ffg-prod-uploads.s3.amazonaws.com/icon_cost_1_6878a6fe98.png\" alt=\"icon_cost_1.png\">. If you do, deal 3 damage to a ground unit.</p>",
+                "deployBox": null,
+                "deployBoxStyled": null,
+                "epicAction": "",
+                "epicActionStyled": "<p></p>",
+                "linkHtml": "<a href=\"/cards?cid=2013305056\" class=\"card-tooltip\" data-card=\"2013305056\">Boba Fett</a>",
+                "cardId": null,
+                "createdAt": "2026-06-04T16:33:29.475Z",
+                "updatedAt": "2026-06-04T21:46:23.173Z",
+                "publishedAt": "2025-03-05T06:00:00.000Z",
+                "locale": "de",
+                "hyperspace": false,
+                "unique": true,
+                "showcase": false,
+                "cardUid": "2013305056",
+                "rules": null,
+                "rulesStyled": null,
+                "serialCode": "c26080001",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            },
+            {
+              "id": 56619,
+              "attributes": {
+                "title": "Boba Fett",
+                "subtitle": "For a Price",
+                "cardNumber": 1,
+                "cardCount": 0,
+                "artist": "Vincent Dutrait",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": 5,
+                "hp": 5,
+                "power": 6,
+                "text": "When Played/On Attack: You may pay 1 resource. If you do, deal 3 damage to a ground unit.",
+                "textStyled": "<p><strong>When Played/On Attack:</strong> You may pay <img src=\"https://ffg-prod-uploads.s3.amazonaws.com/icon_cost_1_6878a6fe98.png\" alt=\"icon_cost_1.png\">. If you do, deal 3 damage to a ground unit.</p>",
+                "deployBox": null,
+                "deployBoxStyled": null,
+                "epicAction": "",
+                "epicActionStyled": "<p></p>",
+                "linkHtml": "<a href=\"/cards?cid=2013305056\" class=\"card-tooltip\" data-card=\"2013305056\">Boba Fett</a>",
+                "cardId": null,
+                "createdAt": "2026-06-04T16:33:26.610Z",
+                "updatedAt": "2026-06-04T21:46:22.895Z",
+                "publishedAt": "2025-03-05T06:00:00.000Z",
+                "locale": "en",
+                "hyperspace": false,
+                "unique": true,
+                "showcase": false,
+                "cardUid": "2013305056",
+                "rules": null,
+                "rulesStyled": null,
+                "serialCode": "c26080001",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            },
+            {
+              "id": 56622,
+              "attributes": {
+                "title": "Boba Fett",
+                "subtitle": "For a Price",
+                "cardNumber": 1,
+                "cardCount": 0,
+                "artist": "Vincent Dutrait",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": 5,
+                "hp": 5,
+                "power": 6,
+                "text": "When Played/On Attack: You may pay 1 resource. If you do, deal 3 damage to a ground unit.",
+                "textStyled": "<p><strong>When Played/On Attack:</strong> You may pay <img src=\"https://ffg-prod-uploads.s3.amazonaws.com/icon_cost_1_6878a6fe98.png\" alt=\"icon_cost_1.png\">. If you do, deal 3 damage to a ground unit.</p>",
+                "deployBox": null,
+                "deployBoxStyled": null,
+                "epicAction": "",
+                "epicActionStyled": "<p></p>",
+                "linkHtml": "<a href=\"/cards?cid=2013305056\" class=\"card-tooltip\" data-card=\"2013305056\">Boba Fett</a>",
+                "cardId": null,
+                "createdAt": "2026-06-04T16:33:28.785Z",
+                "updatedAt": "2026-06-04T21:46:23.445Z",
+                "publishedAt": "2025-03-05T06:00:00.000Z",
+                "locale": "es",
+                "hyperspace": false,
+                "unique": true,
+                "showcase": false,
+                "cardUid": "2013305056",
+                "rules": null,
+                "rulesStyled": null,
+                "serialCode": "c26080001",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            },
+            {
+              "id": 56620,
+              "attributes": {
+                "title": "Boba Fett",
+                "subtitle": "For a Price",
+                "cardNumber": 1,
+                "cardCount": 0,
+                "artist": "Vincent Dutrait",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": 5,
+                "hp": 5,
+                "power": 6,
+                "text": "When Played/On Attack: You may pay 1 resource. If you do, deal 3 damage to a ground unit.",
+                "textStyled": "<p><strong>When Played/On Attack:</strong> You may pay <img src=\"https://ffg-prod-uploads.s3.amazonaws.com/icon_cost_1_6878a6fe98.png\" alt=\"icon_cost_1.png\">. If you do, deal 3 damage to a ground unit.</p>",
+                "deployBox": null,
+                "deployBoxStyled": null,
+                "epicAction": "",
+                "epicActionStyled": "<p></p>",
+                "linkHtml": "<a href=\"/cards?cid=2013305056\" class=\"card-tooltip\" data-card=\"2013305056\">Boba Fett</a>",
+                "cardId": null,
+                "createdAt": "2026-06-04T16:33:27.467Z",
+                "updatedAt": "2026-06-04T21:46:23.993Z",
+                "publishedAt": "2025-03-05T06:00:00.000Z",
+                "locale": "it",
+                "hyperspace": false,
+                "unique": true,
+                "showcase": false,
+                "cardUid": "2013305056",
+                "rules": null,
+                "rulesStyled": null,
+                "serialCode": "c26080001",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "data": [
+            {
+              "id": 19,
+              "attributes": {
+                "name": "Ruse",
+                "description": "<p>S’adapter à la situation du moment, grâce à de puissants effets instantanés et à une variété de moyens pour perturber les plans de l’adversaire. Cette affinité convient parfaitement à ceux qui préfèrent réagir rapidement aux menaces et avoir une réponse à toutes les actions adverses.</p>",
+                "color": "#eb9f1c",
+                "createdAt": "2023-08-10T21:13:50.160Z",
+                "updatedAt": "2024-07-15T21:39:45.132Z",
+                "publishedAt": "2024-01-02T18:24:48.755Z",
+                "locale": "fr",
+                "englishName": "Cunning",
+                "sortValue": 15
+              }
+            },
+            {
+              "id": 29,
+              "attributes": {
+                "name": "Infâmie",
+                "description": "<p>Se battre pour le pouvoir suprême avec les «&nbsp;méchants&nbsp;» de la galaxie Star Wars. Cette affinité permet de commander à d’immenses armées ou de provoquer de terribles destructions. Tout comme l’Héroïsme, cette affinité est souvent associée à une autre affinité sur la carte.</p>",
+                "color": "#000000",
+                "createdAt": "2023-08-10T21:20:52.826Z",
+                "updatedAt": "2024-07-15T21:40:49.895Z",
+                "publishedAt": "2024-01-02T18:25:50.235Z",
+                "locale": "fr",
+                "englishName": "Villainy",
+                "sortValue": 20
+              }
+            }
+          ]
+        },
+        "aspectDuplicates": {
+          "data": []
+        },
+        "type": {
+          "data": {
+            "id": 29,
+            "attributes": {
+              "name": "Unité",
+              "description": "",
+              "value": "Unit",
+              "createdAt": "2023-08-15T18:04:32.553Z",
+              "updatedAt": "2024-04-25T13:52:29.937Z",
+              "publishedAt": "2024-01-04T21:29:14.943Z",
+              "locale": "fr",
+              "sortValue": 3
+            }
+          }
+        },
+        "type2": {
+          "data": null
+        },
+        "traits": {
+          "data": [
+            {
+              "id": 24,
+              "attributes": {
+                "name": "Pègre",
+                "description": "",
+                "createdAt": "2023-08-15T14:39:46.306Z",
+                "updatedAt": "2024-04-08T21:45:30.258Z",
+                "publishedAt": "2024-01-04T21:26:50.390Z",
+                "locale": "fr"
+              }
+            },
+            {
+              "id": 169,
+              "attributes": {
+                "name": "Chasseur De Primes",
+                "description": "",
+                "createdAt": "2023-11-07T17:07:08.374Z",
+                "updatedAt": "2024-01-04T21:13:57.771Z",
+                "publishedAt": "2024-01-04T21:13:57.767Z",
+                "locale": "fr"
+              }
+            }
+          ]
+        },
+        "arenas": {
+          "data": [
+            {
+              "id": 4,
+              "attributes": {
+                "name": "Terrestre",
+                "description": null,
+                "createdAt": "2023-08-15T14:32:20.801Z",
+                "updatedAt": "2024-01-04T16:49:07.912Z",
+                "publishedAt": "2023-08-18T21:37:40.768Z",
+                "locale": "fr"
+              }
+            }
+          ]
+        },
+        "keywords": {
+          "data": []
+        },
+        "rarity": {
+          "data": {
+            "id": 14,
+            "attributes": {
+              "name": "Rare",
+              "character": "R",
+              "color": "#f1c000",
+              "createdAt": "2023-08-14T21:29:34.676Z",
+              "updatedAt": "2025-06-17T21:46:47.442Z",
+              "publishedAt": "2024-01-04T16:41:34.918Z",
+              "locale": "fr",
+              "englishName": "Rare",
+              "sortValue": 4
+            }
+          }
+        },
+        "expansion": {
+          "data": {
+            "id": 125,
+            "attributes": {
+              "name": "2026 Convention Exclusive",
+              "description": null,
+              "code": "C26",
+              "createdAt": "2026-06-04T14:59:24.165Z",
+              "updatedAt": "2026-06-04T21:46:49.911Z",
+              "publishedAt": "2026-06-04T21:46:42.673Z",
+              "locale": "fr",
+              "sortValue": 96,
+              "leaderboardStartDate": null,
+              "leaderboardEndDate": null
+            }
+          }
+        },
+        "variantTypes": {
+          "data": [
+            {
+              "id": 43,
+              "attributes": {
+                "name": "Convention Exclusive",
+                "description": null,
+                "createdAt": "2024-06-26T18:28:45.358Z",
+                "updatedAt": "2024-07-15T18:20:14.740Z",
+                "publishedAt": "2024-07-15T18:20:03.400Z",
+                "locale": "fr",
+                "variantId": "08",
+                "foil": null,
+                "sortValue": 80,
+                "icon": {
+                  "data": {
+                    "id": 8695,
+                    "attributes": {
+                      "name": "icon_conventionexclusive.png",
+                      "alternativeText": null,
+                      "caption": null,
+                      "width": 144,
+                      "height": 144,
+                      "formats": null,
+                      "hash": "icon_conventionexclusive_194657d507",
+                      "ext": ".png",
+                      "mime": "image/png",
+                      "size": 0.79,
+                      "url": "https://cdn.starwarsunlimited.com//icon_conventionexclusive_194657d507.png",
+                      "previewUrl": null,
+                      "provider": "aws-s3",
+                      "provider_metadata": null,
+                      "createdAt": "2024-07-15T14:40:17.033Z",
+                      "updatedAt": "2024-07-15T14:40:17.033Z"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "variantOf": {
+          "data": null
+        },
+        "reprintOf": {
+          "data": {
+            "id": 47125,
+            "attributes": {
+              "title": "Boba Fett",
+              "subtitle": "Moyennant Finances",
+              "cardNumber": 214,
+              "cardCount": 264,
+              "artist": "EJ Dela Cruz",
+              "artFrontHorizontal": false,
+              "artBackHorizontal": null,
+              "hasFoil": true,
+              "cost": 5,
+              "hp": 5,
+              "power": 6,
+              "text": "Une fois jouée/En attaque : vous pouvez payer 1 ressource. Dans ce cas, infligez 3 dégâts à une unité terrestre.",
+              "textStyled": "<p><strong>Une fois jouée/En attaque :</strong> vous pouvez payer <img src=\"https://ffg-prod-uploads.s3.amazonaws.com/icon_cost_1_6878a6fe98.png\" alt=\"icon_cost_1.png\">. Dans ce cas, infligez 3 dégâts à une unité terrestre.</p>",
+              "deployBox": null,
+              "deployBoxStyled": null,
+              "epicAction": "",
+              "epicActionStyled": "<p></p>",
+              "linkHtml": "<a href=\"/cards?cid=2562671677\" class=\"card-tooltip\" data-card=\"2562671677\">Boba Fett</a>",
+              "cardId": null,
+              "createdAt": "2025-12-12T01:47:37.066Z",
+              "updatedAt": "2026-01-21T22:38:52.327Z",
+              "publishedAt": "2025-03-05T06:00:00.000Z",
+              "locale": "fr",
+              "hyperspace": false,
+              "unique": true,
+              "showcase": false,
+              "cardUid": "2562671677",
+              "rules": null,
+              "rulesStyled": null,
+              "serialCode": "07010214",
+              "upgradeHp": null,
+              "upgradePower": null
+            }
+          }
+        },
+        "validationId": "2562671677"
+      }
+    },
+    {
+      "id": 56626,
+      "attributes": {
+        "cardNumber": 2,
+        "title": "The Mandalorian",
+        "subtitle": "Let's See the Puck",
+        "cardCount": 0,
+        "artist": "Vincent Dutrait",
+        "artFrontHorizontal": false,
+        "artBackHorizontal": null,
+        "hasFoil": true,
+        "cost": 6,
+        "hp": 5,
+        "power": 6,
+        "text": "When Played: Draw a card.\nWhen you draw 1 or more cards during the action phase: Give a Shield token to this unit.",
+        "textStyled": "<p><strong>When Played:</strong> Draw a card.</p><p><strong>When you draw 1 or more cards during the action phase:</strong> Give a Shield token to this unit.</p>",
+        "deployBox": null,
+        "deployBoxStyled": null,
+        "epicAction": "",
+        "epicActionStyled": "<p></p>",
+        "linkHtml": "<a href=\"/cards?cid=6510524485\" class=\"card-tooltip\" data-card=\"6510524485\">The Mandalorian</a>",
+        "cardId": null,
+        "createdAt": "2026-06-04T16:33:31.719Z",
+        "updatedAt": "2026-06-04T21:46:25.143Z",
+        "publishedAt": "2025-03-05T06:00:00.000Z",
+        "locale": "fr",
+        "hyperspace": false,
+        "unique": true,
+        "showcase": false,
+        "cardUid": "6510524485",
+        "rules": null,
+        "rulesStyled": null,
+        "serialCode": "c26080002",
+        "upgradeHp": null,
+        "upgradePower": null,
+        "artFront": {
+          "data": {
+            "id": 59371,
+            "attributes": {
+              "name": "C26080002EN_The-Mandalorian.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 716,
+              "height": 1000,
+              "formats": {
+                "card": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//card_C26080002_EN_The_Mandalorian_793247979c.png",
+                  "hash": "card_C26080002_EN_The_Mandalorian_793247979c",
+                  "mime": "image/png",
+                  "name": "card_C26080002EN_The-Mandalorian.png",
+                  "path": null,
+                  "size": 129.19,
+                  "width": 286,
+                  "height": 400,
+                  "sizeInBytes": 129191
+                },
+                "small": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//small_C26080002_EN_The_Mandalorian_793247979c.png",
+                  "hash": "small_C26080002_EN_The_Mandalorian_793247979c",
+                  "mime": "image/png",
+                  "name": "small_C26080002EN_The-Mandalorian.png",
+                  "path": null,
+                  "size": 189.05,
+                  "width": 358,
+                  "height": 500,
+                  "sizeInBytes": 189049
+                },
+                "medium": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//medium_C26080002_EN_The_Mandalorian_793247979c.png",
+                  "hash": "medium_C26080002_EN_The_Mandalorian_793247979c",
+                  "mime": "image/png",
+                  "name": "medium_C26080002EN_The-Mandalorian.png",
+                  "path": null,
+                  "size": 353.84,
+                  "width": 501,
+                  "height": 700,
+                  "sizeInBytes": 353837
+                },
+                "xsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xsmall_C26080002_EN_The_Mandalorian_793247979c.png",
+                  "hash": "xsmall_C26080002_EN_The_Mandalorian_793247979c",
+                  "mime": "image/png",
+                  "name": "xsmall_C26080002EN_The-Mandalorian.png",
+                  "path": null,
+                  "size": 78.74,
+                  "width": 215,
+                  "height": 300,
+                  "sizeInBytes": 78738
+                },
+                "xxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxsmall_C26080002_EN_The_Mandalorian_793247979c.png",
+                  "hash": "xxsmall_C26080002_EN_The_Mandalorian_793247979c",
+                  "mime": "image/png",
+                  "name": "xxsmall_C26080002EN_The-Mandalorian.png",
+                  "path": null,
+                  "size": 39.78,
+                  "width": 143,
+                  "height": 200,
+                  "sizeInBytes": 39783
+                },
+                "xxxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxxsmall_C26080002_EN_The_Mandalorian_793247979c.png",
+                  "hash": "xxxsmall_C26080002_EN_The_Mandalorian_793247979c",
+                  "mime": "image/png",
+                  "name": "xxxsmall_C26080002EN_The-Mandalorian.png",
+                  "path": null,
+                  "size": 24.57,
+                  "width": 107,
+                  "height": 150,
+                  "sizeInBytes": 24571
+                },
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//thumbnail_C26080002_EN_The_Mandalorian_793247979c.png",
+                  "hash": "thumbnail_C26080002_EN_The_Mandalorian_793247979c",
+                  "mime": "image/png",
+                  "name": "thumbnail_C26080002EN_The-Mandalorian.png",
+                  "path": null,
+                  "size": 57.4,
+                  "width": 179,
+                  "height": 250,
+                  "sizeInBytes": 57397
+                }
+              },
+              "hash": "C26080002_EN_The_Mandalorian_793247979c",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 172.74,
+              "url": "https://cdn.starwarsunlimited.com//C26080002_EN_The_Mandalorian_793247979c.png",
+              "previewUrl": null,
+              "provider": "aws-s3",
+              "provider_metadata": null,
+              "createdAt": "2026-06-04T16:28:50.839Z",
+              "updatedAt": "2026-06-04T16:28:50.839Z"
+            }
+          }
+        },
+        "artBack": {
+          "data": null
+        },
+        "artThumbnail": {
+          "data": {
+            "id": 59384,
+            "attributes": {
+              "name": "C26080002EN_The-Mandalorian_Thumbnail.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 300,
+              "height": 100,
+              "formats": {
+                "xxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxsmall_C26080002_EN_The_Mandalorian_Thumbnail_691ea4f351.png",
+                  "hash": "xxsmall_C26080002_EN_The_Mandalorian_Thumbnail_691ea4f351",
+                  "mime": "image/png",
+                  "name": "xxsmall_C26080002EN_The-Mandalorian_Thumbnail.png",
+                  "path": null,
+                  "size": 21.89,
+                  "width": 200,
+                  "height": 67,
+                  "sizeInBytes": 21885
+                },
+                "xxxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxxsmall_C26080002_EN_The_Mandalorian_Thumbnail_691ea4f351.png",
+                  "hash": "xxxsmall_C26080002_EN_The_Mandalorian_Thumbnail_691ea4f351",
+                  "mime": "image/png",
+                  "name": "xxxsmall_C26080002EN_The-Mandalorian_Thumbnail.png",
+                  "path": null,
+                  "size": 13.37,
+                  "width": 150,
+                  "height": 50,
+                  "sizeInBytes": 13366
+                },
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//thumbnail_C26080002_EN_The_Mandalorian_Thumbnail_691ea4f351.png",
+                  "hash": "thumbnail_C26080002_EN_The_Mandalorian_Thumbnail_691ea4f351",
+                  "mime": "image/png",
+                  "name": "thumbnail_C26080002EN_The-Mandalorian_Thumbnail.png",
+                  "path": null,
+                  "size": 30.97,
+                  "width": 245,
+                  "height": 82,
+                  "sizeInBytes": 30965
+                }
+              },
+              "hash": "C26080002_EN_The_Mandalorian_Thumbnail_691ea4f351",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 9.72,
+              "url": "https://cdn.starwarsunlimited.com//C26080002_EN_The_Mandalorian_Thumbnail_691ea4f351.png",
+              "previewUrl": null,
+              "provider": "aws-s3",
+              "provider_metadata": null,
+              "createdAt": "2026-06-04T16:32:24.670Z",
+              "updatedAt": "2026-06-04T16:32:24.670Z"
+            }
+          }
+        },
+        "localizations": {
+          "data": [
+            {
+              "id": 56628,
+              "attributes": {
+                "title": "The Mandalorian",
+                "subtitle": "Let's See the Puck",
+                "cardNumber": 2,
+                "cardCount": 0,
+                "artist": "Vincent Dutrait",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": 6,
+                "hp": 5,
+                "power": 6,
+                "text": "When Played: Draw a card.\nWhen you draw 1 or more cards during the action phase: Give a Shield token to this unit.",
+                "textStyled": "<p><strong>When Played:</strong> Draw a card.</p><p><strong>When you draw 1 or more cards during the action phase:</strong> Give a Shield token to this unit.</p>",
+                "deployBox": null,
+                "deployBoxStyled": null,
+                "epicAction": "",
+                "epicActionStyled": "<p></p>",
+                "linkHtml": "<a href=\"/cards?cid=6510524485\" class=\"card-tooltip\" data-card=\"6510524485\">The Mandalorian</a>",
+                "cardId": null,
+                "createdAt": "2026-06-04T16:33:33.130Z",
+                "updatedAt": "2026-06-04T21:46:24.591Z",
+                "publishedAt": "2025-03-05T06:00:00.000Z",
+                "locale": "de",
+                "hyperspace": false,
+                "unique": true,
+                "showcase": false,
+                "cardUid": "6510524485",
+                "rules": null,
+                "rulesStyled": null,
+                "serialCode": "c26080002",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            },
+            {
+              "id": 56624,
+              "attributes": {
+                "title": "The Mandalorian",
+                "subtitle": "Let's See the Puck",
+                "cardNumber": 2,
+                "cardCount": 0,
+                "artist": "Vincent Dutrait",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": 6,
+                "hp": 5,
+                "power": 6,
+                "text": "When Played: Draw a card.\nWhen you draw 1 or more cards during the action phase: Give a Shield token to this unit.",
+                "textStyled": "<p><strong>When Played:</strong> Draw a card.</p><p><strong>When you draw 1 or more cards during the action phase:</strong> Give a Shield token to this unit.</p>",
+                "deployBox": null,
+                "deployBoxStyled": null,
+                "epicAction": "",
+                "epicActionStyled": "<p></p>",
+                "linkHtml": "<a href=\"/cards?cid=6510524485\" class=\"card-tooltip\" data-card=\"6510524485\">The Mandalorian</a>",
+                "cardId": null,
+                "createdAt": "2026-06-04T16:33:30.353Z",
+                "updatedAt": "2026-06-04T21:46:24.296Z",
+                "publishedAt": "2025-03-05T06:00:00.000Z",
+                "locale": "en",
+                "hyperspace": false,
+                "unique": true,
+                "showcase": false,
+                "cardUid": "6510524485",
+                "rules": null,
+                "rulesStyled": null,
+                "serialCode": "c26080002",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            },
+            {
+              "id": 56627,
+              "attributes": {
+                "title": "The Mandalorian",
+                "subtitle": "Let's See the Puck",
+                "cardNumber": 2,
+                "cardCount": 0,
+                "artist": "Vincent Dutrait",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": 6,
+                "hp": 5,
+                "power": 6,
+                "text": "When Played: Draw a card.\nWhen you draw 1 or more cards during the action phase: Give a Shield token to this unit.",
+                "textStyled": "<p><strong>When Played:</strong> Draw a card.</p><p><strong>When you draw 1 or more cards during the action phase:</strong> Give a Shield token to this unit.</p>",
+                "deployBox": null,
+                "deployBoxStyled": null,
+                "epicAction": "",
+                "epicActionStyled": "<p></p>",
+                "linkHtml": "<a href=\"/cards?cid=6510524485\" class=\"card-tooltip\" data-card=\"6510524485\">The Mandalorian</a>",
+                "cardId": null,
+                "createdAt": "2026-06-04T16:33:32.399Z",
+                "updatedAt": "2026-06-04T21:46:24.858Z",
+                "publishedAt": "2025-03-05T06:00:00.000Z",
+                "locale": "es",
+                "hyperspace": false,
+                "unique": true,
+                "showcase": false,
+                "cardUid": "6510524485",
+                "rules": null,
+                "rulesStyled": null,
+                "serialCode": "c26080002",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            },
+            {
+              "id": 56625,
+              "attributes": {
+                "title": "The Mandalorian",
+                "subtitle": "Let's See the Puck",
+                "cardNumber": 2,
+                "cardCount": 0,
+                "artist": "Vincent Dutrait",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": 6,
+                "hp": 5,
+                "power": 6,
+                "text": "When Played: Draw a card.\nWhen you draw 1 or more cards during the action phase: Give a Shield token to this unit.",
+                "textStyled": "<p><strong>When Played:</strong> Draw a card.</p><p><strong>When you draw 1 or more cards during the action phase:</strong> Give a Shield token to this unit.</p>",
+                "deployBox": null,
+                "deployBoxStyled": null,
+                "epicAction": "",
+                "epicActionStyled": "<p></p>",
+                "linkHtml": "<a href=\"/cards?cid=6510524485\" class=\"card-tooltip\" data-card=\"6510524485\">The Mandalorian</a>",
+                "cardId": null,
+                "createdAt": "2026-06-04T16:33:31.064Z",
+                "updatedAt": "2026-06-04T21:46:25.439Z",
+                "publishedAt": "2025-03-05T06:00:00.000Z",
+                "locale": "it",
+                "hyperspace": false,
+                "unique": true,
+                "showcase": false,
+                "cardUid": "6510524485",
+                "rules": null,
+                "rulesStyled": null,
+                "serialCode": "c26080002",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "data": [
+            {
+              "id": 4,
+              "attributes": {
+                "name": "Vigilance",
+                "description": "<p>Un jeu défensif, avec des capacités pour soigner les dégâts, retirer du jeu les unités dangereuses, protéger sa base des attaques ennemies. Cette affinité est idéale pour les joueurs qui savent temporiser, en encaissant les assauts les plus meurtriers.</p>",
+                "color": "#4073d4",
+                "createdAt": "2023-08-10T21:02:26.776Z",
+                "updatedAt": "2024-07-15T21:32:24.096Z",
+                "publishedAt": "2024-01-02T18:25:33.755Z",
+                "locale": "fr",
+                "englishName": "Vigilance",
+                "sortValue": 1
+              }
+            },
+            {
+              "id": 14,
+              "attributes": {
+                "name": "Agressivité",
+                "description": "<p>Attaquer avec un maximum d’efficacité et infliger énormément de dégâts. Cette affinité convient parfaitement aux joueurs qui aiment un style de jeu rapide et agressif, brisant les défenses adverses et se ruant vers la victoire quel que soit le prix à payer.</p>",
+                "color": "#d30808",
+                "createdAt": "2023-08-10T21:10:46.362Z",
+                "updatedAt": "2024-07-15T21:39:33.927Z",
+                "publishedAt": "2024-01-02T18:23:52.395Z",
+                "locale": "fr",
+                "englishName": "Aggression",
+                "sortValue": 10
+              }
+            }
+          ]
+        },
+        "aspectDuplicates": {
+          "data": []
+        },
+        "type": {
+          "data": {
+            "id": 29,
+            "attributes": {
+              "name": "Unité",
+              "description": "",
+              "value": "Unit",
+              "createdAt": "2023-08-15T18:04:32.553Z",
+              "updatedAt": "2024-04-25T13:52:29.937Z",
+              "publishedAt": "2024-01-04T21:29:14.943Z",
+              "locale": "fr",
+              "sortValue": 3
+            }
+          }
+        },
+        "type2": {
+          "data": null
+        },
+        "traits": {
+          "data": [
+            {
+              "id": 154,
+              "attributes": {
+                "name": "Mandalorien",
+                "description": "",
+                "createdAt": "2023-10-09T19:39:14.220Z",
+                "updatedAt": "2024-01-04T21:17:46.402Z",
+                "publishedAt": "2024-01-04T21:17:46.395Z",
+                "locale": "fr"
+              }
+            },
+            {
+              "id": 169,
+              "attributes": {
+                "name": "Chasseur De Primes",
+                "description": "",
+                "createdAt": "2023-11-07T17:07:08.374Z",
+                "updatedAt": "2024-01-04T21:13:57.771Z",
+                "publishedAt": "2024-01-04T21:13:57.767Z",
+                "locale": "fr"
+              }
+            }
+          ]
+        },
+        "arenas": {
+          "data": [
+            {
+              "id": 4,
+              "attributes": {
+                "name": "Terrestre",
+                "description": null,
+                "createdAt": "2023-08-15T14:32:20.801Z",
+                "updatedAt": "2024-01-04T16:49:07.912Z",
+                "publishedAt": "2023-08-18T21:37:40.768Z",
+                "locale": "fr"
+              }
+            }
+          ]
+        },
+        "keywords": {
+          "data": []
+        },
+        "rarity": {
+          "data": {
+            "id": 19,
+            "attributes": {
+              "name": "Légendaire",
+              "character": "L",
+              "color": "#00c8f3",
+              "createdAt": "2023-08-14T21:31:56.477Z",
+              "updatedAt": "2024-04-25T14:07:09.463Z",
+              "publishedAt": "2024-01-04T16:41:14.814Z",
+              "locale": "fr",
+              "englishName": "Legendary",
+              "sortValue": 5
+            }
+          }
+        },
+        "expansion": {
+          "data": {
+            "id": 125,
+            "attributes": {
+              "name": "2026 Convention Exclusive",
+              "description": null,
+              "code": "C26",
+              "createdAt": "2026-06-04T14:59:24.165Z",
+              "updatedAt": "2026-06-04T21:46:49.911Z",
+              "publishedAt": "2026-06-04T21:46:42.673Z",
+              "locale": "fr",
+              "sortValue": 96,
+              "leaderboardStartDate": null,
+              "leaderboardEndDate": null
+            }
+          }
+        },
+        "variantTypes": {
+          "data": [
+            {
+              "id": 43,
+              "attributes": {
+                "name": "Convention Exclusive",
+                "description": null,
+                "createdAt": "2024-06-26T18:28:45.358Z",
+                "updatedAt": "2024-07-15T18:20:14.740Z",
+                "publishedAt": "2024-07-15T18:20:03.400Z",
+                "locale": "fr",
+                "variantId": "08",
+                "foil": null,
+                "sortValue": 80,
+                "icon": {
+                  "data": {
+                    "id": 8695,
+                    "attributes": {
+                      "name": "icon_conventionexclusive.png",
+                      "alternativeText": null,
+                      "caption": null,
+                      "width": 144,
+                      "height": 144,
+                      "formats": null,
+                      "hash": "icon_conventionexclusive_194657d507",
+                      "ext": ".png",
+                      "mime": "image/png",
+                      "size": 0.79,
+                      "url": "https://cdn.starwarsunlimited.com//icon_conventionexclusive_194657d507.png",
+                      "previewUrl": null,
+                      "provider": "aws-s3",
+                      "provider_metadata": null,
+                      "createdAt": "2024-07-15T14:40:17.033Z",
+                      "updatedAt": "2024-07-15T14:40:17.033Z"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "variantOf": {
+          "data": null
+        },
+        "reprintOf": {
+          "data": {
+            "id": 46315,
+            "attributes": {
+              "title": "Le Mandalorien",
+              "subtitle": "Fais Voir Le Palet",
+              "cardNumber": 52,
+              "cardCount": 264,
+              "artist": "James Daly",
+              "artFrontHorizontal": false,
+              "artBackHorizontal": null,
+              "hasFoil": true,
+              "cost": 6,
+              "hp": 5,
+              "power": 6,
+              "text": "Une fois jouée : piochez une carte.\nQuand vous piochez au moins 1 carte pendant la phase d'action : donnez un jeton Bouclier à cette unité.",
+              "textStyled": "<p><strong>Une fois jouée :</strong> piochez une carte.</p><p><strong>Quand vous piochez au moins 1 carte pendant la phase d'action :</strong> donnez un jeton Bouclier à cette unité.</p>",
+              "deployBox": null,
+              "deployBoxStyled": null,
+              "epicAction": "",
+              "epicActionStyled": "<p></p>",
+              "linkHtml": "<a href=\"/cards?cid=7505293719\" class=\"card-tooltip\" data-card=\"7505293719\">Le Mandalorien</a>",
+              "cardId": null,
+              "createdAt": "2025-12-12T01:42:45.907Z",
+              "updatedAt": "2026-01-30T17:29:34.385Z",
+              "publishedAt": "2025-03-05T06:00:00.000Z",
+              "locale": "fr",
+              "hyperspace": false,
+              "unique": true,
+              "showcase": false,
+              "cardUid": "7505293719",
+              "rules": null,
+              "rulesStyled": null,
+              "serialCode": "07010052",
+              "upgradeHp": null,
+              "upgradePower": null
+            }
+          }
+        },
+        "validationId": "7505293719"
+      }
+    },
+    {
+      "id": 56645,
+      "attributes": {
+        "cardNumber": 3,
+        "title": "Zam Wesell",
+        "subtitle": "Not What She Seems",
+        "cardCount": 6,
+        "artist": "Vincent Dutrait",
+        "artFrontHorizontal": false,
+        "artBackHorizontal": null,
+        "hasFoil": true,
+        "cost": 2,
+        "hp": 4,
+        "power": 2,
+        "text": null,
+        "textStyled": "<p>This unit gains each friendly leader's <i><strong>TRAITS</strong></i> except <i><strong>FORCE</strong></i>, even while she's not in play.</p>",
+        "deployBox": null,
+        "deployBoxStyled": null,
+        "epicAction": null,
+        "epicActionStyled": null,
+        "linkHtml": "<a href=\"/cards?cid=4867992176\" class=\"card-tooltip\" data-card=\"4867992176\">Zam Wesell</a>",
+        "cardId": null,
+        "createdAt": "2026-06-04T21:29:57.878Z",
+        "updatedAt": "2026-06-04T21:46:22.296Z",
+        "publishedAt": "2025-03-05T06:00:00.000Z",
+        "locale": "fr",
+        "hyperspace": false,
+        "unique": false,
+        "showcase": false,
+        "cardUid": "4867992176",
+        "rules": null,
+        "rulesStyled": null,
+        "serialCode": "C26080003",
+        "upgradeHp": null,
+        "upgradePower": null,
+        "artFront": {
+          "data": {
+            "id": 59367,
+            "attributes": {
+              "name": "C26080003EN_Zam-Wessel.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 716,
+              "height": 1000,
+              "formats": {
+                "card": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//card_C26080003_EN_Zam_Wessel_c4a9e442b0.png",
+                  "hash": "card_C26080003_EN_Zam_Wessel_c4a9e442b0",
+                  "mime": "image/png",
+                  "name": "card_C26080003EN_Zam-Wessel.png",
+                  "path": null,
+                  "size": 133.21,
+                  "width": 286,
+                  "height": 400,
+                  "sizeInBytes": 133210
+                },
+                "small": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//small_C26080003_EN_Zam_Wessel_c4a9e442b0.png",
+                  "hash": "small_C26080003_EN_Zam_Wessel_c4a9e442b0",
+                  "mime": "image/png",
+                  "name": "small_C26080003EN_Zam-Wessel.png",
+                  "path": null,
+                  "size": 192.79,
+                  "width": 358,
+                  "height": 500,
+                  "sizeInBytes": 192789
+                },
+                "medium": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//medium_C26080003_EN_Zam_Wessel_c4a9e442b0.png",
+                  "hash": "medium_C26080003_EN_Zam_Wessel_c4a9e442b0",
+                  "mime": "image/png",
+                  "name": "medium_C26080003EN_Zam-Wessel.png",
+                  "path": null,
+                  "size": 357.6,
+                  "width": 501,
+                  "height": 700,
+                  "sizeInBytes": 357595
+                },
+                "xsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xsmall_C26080003_EN_Zam_Wessel_c4a9e442b0.png",
+                  "hash": "xsmall_C26080003_EN_Zam_Wessel_c4a9e442b0",
+                  "mime": "image/png",
+                  "name": "xsmall_C26080003EN_Zam-Wessel.png",
+                  "path": null,
+                  "size": 81.54,
+                  "width": 215,
+                  "height": 300,
+                  "sizeInBytes": 81539
+                },
+                "xxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxsmall_C26080003_EN_Zam_Wessel_c4a9e442b0.png",
+                  "hash": "xxsmall_C26080003_EN_Zam_Wessel_c4a9e442b0",
+                  "mime": "image/png",
+                  "name": "xxsmall_C26080003EN_Zam-Wessel.png",
+                  "path": null,
+                  "size": 41.87,
+                  "width": 143,
+                  "height": 200,
+                  "sizeInBytes": 41866
+                },
+                "xxxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxxsmall_C26080003_EN_Zam_Wessel_c4a9e442b0.png",
+                  "hash": "xxxsmall_C26080003_EN_Zam_Wessel_c4a9e442b0",
+                  "mime": "image/png",
+                  "name": "xxxsmall_C26080003EN_Zam-Wessel.png",
+                  "path": null,
+                  "size": 26.69,
+                  "width": 107,
+                  "height": 150,
+                  "sizeInBytes": 26690
+                },
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//thumbnail_C26080003_EN_Zam_Wessel_c4a9e442b0.png",
+                  "hash": "thumbnail_C26080003_EN_Zam_Wessel_c4a9e442b0",
+                  "mime": "image/png",
+                  "name": "thumbnail_C26080003EN_Zam-Wessel.png",
+                  "path": null,
+                  "size": 28.24,
+                  "width": 112,
+                  "height": 156,
+                  "sizeInBytes": 28240
+                }
+              },
+              "hash": "C26080003_EN_Zam_Wessel_c4a9e442b0",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 166.81,
+              "url": "https://cdn.starwarsunlimited.com//C26080003_EN_Zam_Wessel_c4a9e442b0.png",
+              "previewUrl": null,
+              "provider": "aws-s3",
+              "provider_metadata": null,
+              "createdAt": "2026-06-04T15:46:21.823Z",
+              "updatedAt": "2026-06-04T15:46:21.823Z"
+            }
+          }
+        },
+        "artBack": {
+          "data": null
+        },
+        "artThumbnail": {
+          "data": {
+            "id": 59380,
+            "attributes": {
+              "name": "C26080003EN_Zam-Wessel_Thumbnail.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 300,
+              "height": 100,
+              "formats": {
+                "xxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxsmall_C26080003_EN_Zam_Wessel_Thumbnail_edf42dcf80.png",
+                  "hash": "xxsmall_C26080003_EN_Zam_Wessel_Thumbnail_edf42dcf80",
+                  "mime": "image/png",
+                  "name": "xxsmall_C26080003EN_Zam-Wessel_Thumbnail.png",
+                  "path": null,
+                  "size": 21.65,
+                  "width": 200,
+                  "height": 67,
+                  "sizeInBytes": 21645
+                },
+                "xxxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxxsmall_C26080003_EN_Zam_Wessel_Thumbnail_edf42dcf80.png",
+                  "hash": "xxxsmall_C26080003_EN_Zam_Wessel_Thumbnail_edf42dcf80",
+                  "mime": "image/png",
+                  "name": "xxxsmall_C26080003EN_Zam-Wessel_Thumbnail.png",
+                  "path": null,
+                  "size": 13.08,
+                  "width": 150,
+                  "height": 50,
+                  "sizeInBytes": 13076
+                },
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//thumbnail_C26080003_EN_Zam_Wessel_Thumbnail_edf42dcf80.png",
+                  "hash": "thumbnail_C26080003_EN_Zam_Wessel_Thumbnail_edf42dcf80",
+                  "mime": "image/png",
+                  "name": "thumbnail_C26080003EN_Zam-Wessel_Thumbnail.png",
+                  "path": null,
+                  "size": 31.05,
+                  "width": 250,
+                  "height": 83,
+                  "sizeInBytes": 31049
+                }
+              },
+              "hash": "C26080003_EN_Zam_Wessel_Thumbnail_edf42dcf80",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 9.56,
+              "url": "https://cdn.starwarsunlimited.com//C26080003_EN_Zam_Wessel_Thumbnail_edf42dcf80.png",
+              "previewUrl": null,
+              "provider": "aws-s3",
+              "provider_metadata": null,
+              "createdAt": "2026-06-04T16:32:22.216Z",
+              "updatedAt": "2026-06-04T16:32:22.216Z"
+            }
+          }
+        },
+        "localizations": {
+          "data": [
+            {
+              "id": 56647,
+              "attributes": {
+                "title": "Zam Wesell",
+                "subtitle": "Not What She Seems",
+                "cardNumber": 3,
+                "cardCount": 6,
+                "artist": "Vincent Dutrait",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": 2,
+                "hp": 4,
+                "power": 2,
+                "text": null,
+                "textStyled": "<p>This unit gains each friendly leader's <i><strong>TRAITS</strong></i> except <i><strong>FORCE</strong></i>, even while she's not in play.</p>",
+                "deployBox": null,
+                "deployBoxStyled": null,
+                "epicAction": null,
+                "epicActionStyled": null,
+                "linkHtml": "<a href=\"/cards?cid=4867992176\" class=\"card-tooltip\" data-card=\"4867992176\">Zam Wesell</a>",
+                "cardId": null,
+                "createdAt": "2026-06-04T21:39:09.536Z",
+                "updatedAt": "2026-06-04T21:46:21.689Z",
+                "publishedAt": "2025-03-05T06:00:00.000Z",
+                "locale": "it",
+                "hyperspace": false,
+                "unique": false,
+                "showcase": false,
+                "cardUid": "4867992176",
+                "rules": null,
+                "rulesStyled": null,
+                "serialCode": "C26080003",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            },
+            {
+              "id": 56646,
+              "attributes": {
+                "title": "Zam Wesell",
+                "subtitle": "Not What She Seems",
+                "cardNumber": 3,
+                "cardCount": 6,
+                "artist": "Vincent Dutrait",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": 2,
+                "hp": 4,
+                "power": 2,
+                "text": null,
+                "textStyled": "<p>This unit gains each friendly leader's <i><strong>TRAITS</strong></i> except <i><strong>FORCE</strong></i>, even while she's not in play.</p>",
+                "deployBox": null,
+                "deployBoxStyled": null,
+                "epicAction": null,
+                "epicActionStyled": null,
+                "linkHtml": "<a href=\"/cards?cid=4867992176\" class=\"card-tooltip\" data-card=\"4867992176\">Zam Wesell</a>",
+                "cardId": null,
+                "createdAt": "2026-06-04T21:37:33.251Z",
+                "updatedAt": "2026-06-04T21:46:22.007Z",
+                "publishedAt": "2025-03-05T06:00:00.000Z",
+                "locale": "es",
+                "hyperspace": false,
+                "unique": false,
+                "showcase": false,
+                "cardUid": "4867992176",
+                "rules": null,
+                "rulesStyled": null,
+                "serialCode": "C26080003",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            },
+            {
+              "id": 56644,
+              "attributes": {
+                "title": "Zam Wesell",
+                "subtitle": "Not What She Seems",
+                "cardNumber": 3,
+                "cardCount": 6,
+                "artist": "Vincent Dutrait",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": 2,
+                "hp": 4,
+                "power": 2,
+                "text": null,
+                "textStyled": "<p>This unit gains each friendly leader's <i><strong>TRAITS</strong></i> except <i><strong>FORCE</strong></i>, even while she's not in play.</p>",
+                "deployBox": null,
+                "deployBoxStyled": null,
+                "epicAction": null,
+                "epicActionStyled": null,
+                "linkHtml": "<a href=\"/cards?cid=4867992176\" class=\"card-tooltip\" data-card=\"4867992176\">Zam Wesell</a>",
+                "cardId": null,
+                "createdAt": "2026-06-04T21:17:42.128Z",
+                "updatedAt": "2026-06-04T21:46:22.591Z",
+                "publishedAt": "2025-03-05T06:00:00.000Z",
+                "locale": "de",
+                "hyperspace": false,
+                "unique": false,
+                "showcase": false,
+                "cardUid": "4867992176",
+                "rules": null,
+                "rulesStyled": null,
+                "serialCode": "C26080003",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            },
+            {
+              "id": 56618,
+              "attributes": {
+                "title": "Zam Wesell",
+                "subtitle": "Not What She Seems",
+                "cardNumber": 3,
+                "cardCount": 6,
+                "artist": "Vincent Dutrait",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": 2,
+                "hp": 4,
+                "power": 2,
+                "text": null,
+                "textStyled": "<p>This unit gains each friendly leader's <i><strong>TRAITS</strong></i> except <i><strong>FORCE</strong></i>, even while she's not in play.</p>",
+                "deployBox": null,
+                "deployBoxStyled": null,
+                "epicAction": null,
+                "epicActionStyled": null,
+                "linkHtml": "<a href=\"/cards?cid=4867992176\" class=\"card-tooltip\" data-card=\"4867992176\">Zam Wesell</a>",
+                "cardId": null,
+                "createdAt": "2026-06-04T15:46:28.698Z",
+                "updatedAt": "2026-06-04T21:46:21.361Z",
+                "publishedAt": "2025-03-05T06:00:00.000Z",
+                "locale": "en",
+                "hyperspace": false,
+                "unique": false,
+                "showcase": false,
+                "cardUid": "4867992176",
+                "rules": null,
+                "rulesStyled": null,
+                "serialCode": "C26080003",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "data": [
+            {
+              "id": 9,
+              "attributes": {
+                "name": "Commandement",
+                "description": "<p>Accélérer sa production de ressources, utiliser de nombreuses unités, renforcer celles qui sont déjà en jeu. C’est l’affinité de prédilection des joueurs qui veulent écraser leurs adversaires par une utilisation massive de leurs troupes.</p>",
+                "color": "#0b992d",
+                "createdAt": "2023-08-10T21:07:29.191Z",
+                "updatedAt": "2024-07-15T21:32:41.107Z",
+                "publishedAt": "2024-01-02T18:24:28.907Z",
+                "locale": "fr",
+                "englishName": "Command",
+                "sortValue": 5
+              }
+            }
+          ]
+        },
+        "aspectDuplicates": {
+          "data": []
+        },
+        "type": {
+          "data": {
+            "id": 29,
+            "attributes": {
+              "name": "Unité",
+              "description": "",
+              "value": "Unit",
+              "createdAt": "2023-08-15T18:04:32.553Z",
+              "updatedAt": "2024-04-25T13:52:29.937Z",
+              "publishedAt": "2024-01-04T21:29:14.943Z",
+              "locale": "fr",
+              "sortValue": 3
+            }
+          }
+        },
+        "type2": {
+          "data": null
+        },
+        "traits": {
+          "data": [
+            {
+              "id": 24,
+              "attributes": {
+                "name": "Pègre",
+                "description": "",
+                "createdAt": "2023-08-15T14:39:46.306Z",
+                "updatedAt": "2024-04-08T21:45:30.258Z",
+                "publishedAt": "2024-01-04T21:26:50.390Z",
+                "locale": "fr"
+              }
+            },
+            {
+              "id": 169,
+              "attributes": {
+                "name": "Chasseur De Primes",
+                "description": "",
+                "createdAt": "2023-11-07T17:07:08.374Z",
+                "updatedAt": "2024-01-04T21:13:57.771Z",
+                "publishedAt": "2024-01-04T21:13:57.767Z",
+                "locale": "fr"
+              }
+            }
+          ]
+        },
+        "arenas": {
+          "data": [
+            {
+              "id": 4,
+              "attributes": {
+                "name": "Terrestre",
+                "description": null,
+                "createdAt": "2023-08-15T14:32:20.801Z",
+                "updatedAt": "2024-01-04T16:49:07.912Z",
+                "publishedAt": "2023-08-18T21:37:40.768Z",
+                "locale": "fr"
+              }
+            }
+          ]
+        },
+        "keywords": {
+          "data": [
+            {
+              "id": 74,
+              "attributes": {
+                "name": "Dissimulée",
+                "description": "",
+                "createdAt": "2025-04-18T15:36:55.980Z",
+                "updatedAt": "2025-05-01T19:37:12.786Z",
+                "publishedAt": "2025-05-01T19:37:12.783Z",
+                "locale": "fr"
+              }
+            }
+          ]
+        },
+        "rarity": {
+          "data": {
+            "id": 14,
+            "attributes": {
+              "name": "Rare",
+              "character": "R",
+              "color": "#f1c000",
+              "createdAt": "2023-08-14T21:29:34.676Z",
+              "updatedAt": "2025-06-17T21:46:47.442Z",
+              "publishedAt": "2024-01-04T16:41:34.918Z",
+              "locale": "fr",
+              "englishName": "Rare",
+              "sortValue": 4
+            }
+          }
+        },
+        "expansion": {
+          "data": {
+            "id": 125,
+            "attributes": {
+              "name": "2026 Convention Exclusive",
+              "description": null,
+              "code": "C26",
+              "createdAt": "2026-06-04T14:59:24.165Z",
+              "updatedAt": "2026-06-04T21:46:49.911Z",
+              "publishedAt": "2026-06-04T21:46:42.673Z",
+              "locale": "fr",
+              "sortValue": 96,
+              "leaderboardStartDate": null,
+              "leaderboardEndDate": null
+            }
+          }
+        },
+        "variantTypes": {
+          "data": [
+            {
+              "id": 43,
+              "attributes": {
+                "name": "Convention Exclusive",
+                "description": null,
+                "createdAt": "2024-06-26T18:28:45.358Z",
+                "updatedAt": "2024-07-15T18:20:14.740Z",
+                "publishedAt": "2024-07-15T18:20:03.400Z",
+                "locale": "fr",
+                "variantId": "08",
+                "foil": null,
+                "sortValue": 80,
+                "icon": {
+                  "data": {
+                    "id": 8695,
+                    "attributes": {
+                      "name": "icon_conventionexclusive.png",
+                      "alternativeText": null,
+                      "caption": null,
+                      "width": 144,
+                      "height": 144,
+                      "formats": null,
+                      "hash": "icon_conventionexclusive_194657d507",
+                      "ext": ".png",
+                      "mime": "image/png",
+                      "size": 0.79,
+                      "url": "https://cdn.starwarsunlimited.com//icon_conventionexclusive_194657d507.png",
+                      "previewUrl": null,
+                      "provider": "aws-s3",
+                      "provider_metadata": null,
+                      "createdAt": "2024-07-15T14:40:17.033Z",
+                      "updatedAt": "2024-07-15T14:40:17.033Z"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "variantOf": {
+          "data": null
+        },
+        "reprintOf": {
+          "data": null
+        },
+        "validationId": "4867992176"
+      }
+    },
+    {
+      "id": 56631,
+      "attributes": {
+        "cardNumber": 4,
+        "title": "Qi'ra",
+        "subtitle": "Master of Teräs Käsi",
+        "cardCount": 0,
+        "artist": "Vincent Dutrait",
+        "artFrontHorizontal": false,
+        "artBackHorizontal": null,
+        "hasFoil": true,
+        "cost": 7,
+        "hp": 7,
+        "power": 9,
+        "text": "This unit gets –1/–0 for each card in your hand.\nWhen Played: You may discard a card from your hand. If you do, deal 3 damage to a unit.",
+        "textStyled": "<p>This unit gets <strong>–1</strong>/<strong>–0</strong> for each card in your hand.</p><p><strong>When Played:</strong> You may discard a card from your hand. If you do, deal 3 damage to a unit.</p>",
+        "deployBox": null,
+        "deployBoxStyled": null,
+        "epicAction": "",
+        "epicActionStyled": "<p></p>",
+        "linkHtml": "<a href=\"/cards?cid=4462427760\" class=\"card-tooltip\" data-card=\"4462427760\">Qi'ra</a>",
+        "cardId": null,
+        "createdAt": "2026-06-04T16:33:35.264Z",
+        "updatedAt": "2026-06-04T21:46:26.572Z",
+        "publishedAt": "2025-03-05T06:00:00.000Z",
+        "locale": "fr",
+        "hyperspace": false,
+        "unique": true,
+        "showcase": false,
+        "cardUid": "4462427760",
+        "rules": null,
+        "rulesStyled": null,
+        "serialCode": "c26080004",
+        "upgradeHp": null,
+        "upgradePower": null,
+        "artFront": {
+          "data": {
+            "id": 59370,
+            "attributes": {
+              "name": "C26080004EN_Quira.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 716,
+              "height": 1000,
+              "formats": {
+                "card": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//card_C26080004_EN_Quira_4f236214ff.png",
+                  "hash": "card_C26080004_EN_Quira_4f236214ff",
+                  "mime": "image/png",
+                  "name": "card_C26080004EN_Quira.png",
+                  "path": null,
+                  "size": 126.33,
+                  "width": 286,
+                  "height": 400,
+                  "sizeInBytes": 126330
+                },
+                "small": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//small_C26080004_EN_Quira_4f236214ff.png",
+                  "hash": "small_C26080004_EN_Quira_4f236214ff",
+                  "mime": "image/png",
+                  "name": "small_C26080004EN_Quira.png",
+                  "path": null,
+                  "size": 181.41,
+                  "width": 358,
+                  "height": 500,
+                  "sizeInBytes": 181412
+                },
+                "medium": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//medium_C26080004_EN_Quira_4f236214ff.png",
+                  "hash": "medium_C26080004_EN_Quira_4f236214ff",
+                  "mime": "image/png",
+                  "name": "medium_C26080004EN_Quira.png",
+                  "path": null,
+                  "size": 336.37,
+                  "width": 501,
+                  "height": 700,
+                  "sizeInBytes": 336371
+                },
+                "xsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xsmall_C26080004_EN_Quira_4f236214ff.png",
+                  "hash": "xsmall_C26080004_EN_Quira_4f236214ff",
+                  "mime": "image/png",
+                  "name": "xsmall_C26080004EN_Quira.png",
+                  "path": null,
+                  "size": 77.96,
+                  "width": 215,
+                  "height": 300,
+                  "sizeInBytes": 77958
+                },
+                "xxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxsmall_C26080004_EN_Quira_4f236214ff.png",
+                  "hash": "xxsmall_C26080004_EN_Quira_4f236214ff",
+                  "mime": "image/png",
+                  "name": "xxsmall_C26080004EN_Quira.png",
+                  "path": null,
+                  "size": 39.85,
+                  "width": 143,
+                  "height": 200,
+                  "sizeInBytes": 39852
+                },
+                "xxxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxxsmall_C26080004_EN_Quira_4f236214ff.png",
+                  "hash": "xxxsmall_C26080004_EN_Quira_4f236214ff",
+                  "mime": "image/png",
+                  "name": "xxxsmall_C26080004EN_Quira.png",
+                  "path": null,
+                  "size": 25.24,
+                  "width": 107,
+                  "height": 150,
+                  "sizeInBytes": 25244
+                },
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//thumbnail_C26080004_EN_Quira_4f236214ff.png",
+                  "hash": "thumbnail_C26080004_EN_Quira_4f236214ff",
+                  "mime": "image/png",
+                  "name": "thumbnail_C26080004EN_Quira.png",
+                  "path": null,
+                  "size": 56.96,
+                  "width": 179,
+                  "height": 250,
+                  "sizeInBytes": 56955
+                }
+              },
+              "hash": "C26080004_EN_Quira_4f236214ff",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 159.96,
+              "url": "https://cdn.starwarsunlimited.com//C26080004_EN_Quira_4f236214ff.png",
+              "previewUrl": null,
+              "provider": "aws-s3",
+              "provider_metadata": null,
+              "createdAt": "2026-06-04T16:28:49.764Z",
+              "updatedAt": "2026-06-04T16:28:49.764Z"
+            }
+          }
+        },
+        "artBack": {
+          "data": null
+        },
+        "artThumbnail": {
+          "data": {
+            "id": 59381,
+            "attributes": {
+              "name": "C26080004EN_Quira_Thumbnail.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 300,
+              "height": 100,
+              "formats": {
+                "xxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxsmall_C26080004_EN_Quira_Thumbnail_a738d1278c.png",
+                  "hash": "xxsmall_C26080004_EN_Quira_Thumbnail_a738d1278c",
+                  "mime": "image/png",
+                  "name": "xxsmall_C26080004EN_Quira_Thumbnail.png",
+                  "path": null,
+                  "size": 20.83,
+                  "width": 200,
+                  "height": 67,
+                  "sizeInBytes": 20831
+                },
+                "xxxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxxsmall_C26080004_EN_Quira_Thumbnail_a738d1278c.png",
+                  "hash": "xxxsmall_C26080004_EN_Quira_Thumbnail_a738d1278c",
+                  "mime": "image/png",
+                  "name": "xxxsmall_C26080004EN_Quira_Thumbnail.png",
+                  "path": null,
+                  "size": 12.62,
+                  "width": 150,
+                  "height": 50,
+                  "sizeInBytes": 12622
+                },
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//thumbnail_C26080004_EN_Quira_Thumbnail_a738d1278c.png",
+                  "hash": "thumbnail_C26080004_EN_Quira_Thumbnail_a738d1278c",
+                  "mime": "image/png",
+                  "name": "thumbnail_C26080004EN_Quira_Thumbnail.png",
+                  "path": null,
+                  "size": 29.94,
+                  "width": 250,
+                  "height": 83,
+                  "sizeInBytes": 29940
+                }
+              },
+              "hash": "C26080004_EN_Quira_Thumbnail_a738d1278c",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 11.45,
+              "url": "https://cdn.starwarsunlimited.com//C26080004_EN_Quira_Thumbnail_a738d1278c.png",
+              "previewUrl": null,
+              "provider": "aws-s3",
+              "provider_metadata": null,
+              "createdAt": "2026-06-04T16:32:22.694Z",
+              "updatedAt": "2026-06-04T16:32:22.694Z"
+            }
+          }
+        },
+        "localizations": {
+          "data": [
+            {
+              "id": 56633,
+              "attributes": {
+                "title": "Qi'ra",
+                "subtitle": "Master of Teräs Käsi",
+                "cardNumber": 4,
+                "cardCount": 0,
+                "artist": "Vincent Dutrait",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": 7,
+                "hp": 7,
+                "power": 9,
+                "text": "This unit gets –1/–0 for each card in your hand.\nWhen Played: You may discard a card from your hand. If you do, deal 3 damage to a unit.",
+                "textStyled": "<p>This unit gets <strong>–1</strong>/<strong>–0</strong> for each card in your hand.</p><p><strong>When Played:</strong> You may discard a card from your hand. If you do, deal 3 damage to a unit.</p>",
+                "deployBox": null,
+                "deployBoxStyled": null,
+                "epicAction": "",
+                "epicActionStyled": "<p></p>",
+                "linkHtml": "<a href=\"/cards?cid=4462427760\" class=\"card-tooltip\" data-card=\"4462427760\">Qi'ra</a>",
+                "cardId": null,
+                "createdAt": "2026-06-04T16:33:36.553Z",
+                "updatedAt": "2026-06-04T21:46:26.017Z",
+                "publishedAt": "2025-03-05T06:00:00.000Z",
+                "locale": "de",
+                "hyperspace": false,
+                "unique": true,
+                "showcase": false,
+                "cardUid": "4462427760",
+                "rules": null,
+                "rulesStyled": null,
+                "serialCode": "c26080004",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            },
+            {
+              "id": 56629,
+              "attributes": {
+                "title": "Qi'ra",
+                "subtitle": "Master of Teräs Käsi",
+                "cardNumber": 4,
+                "cardCount": 0,
+                "artist": "Vincent Dutrait",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": 7,
+                "hp": 7,
+                "power": 9,
+                "text": "This unit gets –1/–0 for each card in your hand.\nWhen Played: You may discard a card from your hand. If you do, deal 3 damage to a unit.",
+                "textStyled": "<p>This unit gets <strong>–1</strong>/<strong>–0</strong> for each card in your hand.</p><p><strong>When Played:</strong> You may discard a card from your hand. If you do, deal 3 damage to a unit.</p>",
+                "deployBox": null,
+                "deployBoxStyled": null,
+                "epicAction": "",
+                "epicActionStyled": "<p></p>",
+                "linkHtml": "<a href=\"/cards?cid=4462427760\" class=\"card-tooltip\" data-card=\"4462427760\">Qi'ra</a>",
+                "cardId": null,
+                "createdAt": "2026-06-04T16:33:33.964Z",
+                "updatedAt": "2026-06-04T21:46:25.721Z",
+                "publishedAt": "2025-03-05T06:00:00.000Z",
+                "locale": "en",
+                "hyperspace": false,
+                "unique": true,
+                "showcase": false,
+                "cardUid": "4462427760",
+                "rules": null,
+                "rulesStyled": null,
+                "serialCode": "c26080004",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            },
+            {
+              "id": 56632,
+              "attributes": {
+                "title": "Qi'ra",
+                "subtitle": "Master of Teräs Käsi",
+                "cardNumber": 4,
+                "cardCount": 0,
+                "artist": "Vincent Dutrait",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": 7,
+                "hp": 7,
+                "power": 9,
+                "text": "This unit gets –1/–0 for each card in your hand.\nWhen Played: You may discard a card from your hand. If you do, deal 3 damage to a unit.",
+                "textStyled": "<p>This unit gets <strong>–1</strong>/<strong>–0</strong> for each card in your hand.</p><p><strong>When Played:</strong> You may discard a card from your hand. If you do, deal 3 damage to a unit.</p>",
+                "deployBox": null,
+                "deployBoxStyled": null,
+                "epicAction": "",
+                "epicActionStyled": "<p></p>",
+                "linkHtml": "<a href=\"/cards?cid=4462427760\" class=\"card-tooltip\" data-card=\"4462427760\">Qi'ra</a>",
+                "cardId": null,
+                "createdAt": "2026-06-04T16:33:35.888Z",
+                "updatedAt": "2026-06-04T21:46:26.295Z",
+                "publishedAt": "2025-03-05T06:00:00.000Z",
+                "locale": "es",
+                "hyperspace": false,
+                "unique": true,
+                "showcase": false,
+                "cardUid": "4462427760",
+                "rules": null,
+                "rulesStyled": null,
+                "serialCode": "c26080004",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            },
+            {
+              "id": 56630,
+              "attributes": {
+                "title": "Qi'ra",
+                "subtitle": "Master of Teräs Käsi",
+                "cardNumber": 4,
+                "cardCount": 0,
+                "artist": "Vincent Dutrait",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": 7,
+                "hp": 7,
+                "power": 9,
+                "text": "This unit gets –1/–0 for each card in your hand.\nWhen Played: You may discard a card from your hand. If you do, deal 3 damage to a unit.",
+                "textStyled": "<p>This unit gets <strong>–1</strong>/<strong>–0</strong> for each card in your hand.</p><p><strong>When Played:</strong> You may discard a card from your hand. If you do, deal 3 damage to a unit.</p>",
+                "deployBox": null,
+                "deployBoxStyled": null,
+                "epicAction": "",
+                "epicActionStyled": "<p></p>",
+                "linkHtml": "<a href=\"/cards?cid=4462427760\" class=\"card-tooltip\" data-card=\"4462427760\">Qi'ra</a>",
+                "cardId": null,
+                "createdAt": "2026-06-04T16:33:34.657Z",
+                "updatedAt": "2026-06-04T21:46:26.881Z",
+                "publishedAt": "2025-03-05T06:00:00.000Z",
+                "locale": "it",
+                "hyperspace": false,
+                "unique": true,
+                "showcase": false,
+                "cardUid": "4462427760",
+                "rules": null,
+                "rulesStyled": null,
+                "serialCode": "c26080004",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "data": [
+            {
+              "id": 19,
+              "attributes": {
+                "name": "Ruse",
+                "description": "<p>S’adapter à la situation du moment, grâce à de puissants effets instantanés et à une variété de moyens pour perturber les plans de l’adversaire. Cette affinité convient parfaitement à ceux qui préfèrent réagir rapidement aux menaces et avoir une réponse à toutes les actions adverses.</p>",
+                "color": "#eb9f1c",
+                "createdAt": "2023-08-10T21:13:50.160Z",
+                "updatedAt": "2024-07-15T21:39:45.132Z",
+                "publishedAt": "2024-01-02T18:24:48.755Z",
+                "locale": "fr",
+                "englishName": "Cunning",
+                "sortValue": 15
+              }
+            }
+          ]
+        },
+        "aspectDuplicates": {
+          "data": []
+        },
+        "type": {
+          "data": {
+            "id": 29,
+            "attributes": {
+              "name": "Unité",
+              "description": "",
+              "value": "Unit",
+              "createdAt": "2023-08-15T18:04:32.553Z",
+              "updatedAt": "2024-04-25T13:52:29.937Z",
+              "publishedAt": "2024-01-04T21:29:14.943Z",
+              "locale": "fr",
+              "sortValue": 3
+            }
+          }
+        },
+        "type2": {
+          "data": null
+        },
+        "traits": {
+          "data": [
+            {
+              "id": 24,
+              "attributes": {
+                "name": "Pègre",
+                "description": "",
+                "createdAt": "2023-08-15T14:39:46.306Z",
+                "updatedAt": "2024-04-08T21:45:30.258Z",
+                "publishedAt": "2024-01-04T21:26:50.390Z",
+                "locale": "fr"
+              }
+            }
+          ]
+        },
+        "arenas": {
+          "data": [
+            {
+              "id": 4,
+              "attributes": {
+                "name": "Terrestre",
+                "description": null,
+                "createdAt": "2023-08-15T14:32:20.801Z",
+                "updatedAt": "2024-01-04T16:49:07.912Z",
+                "publishedAt": "2023-08-18T21:37:40.768Z",
+                "locale": "fr"
+              }
+            }
+          ]
+        },
+        "keywords": {
+          "data": []
+        },
+        "rarity": {
+          "data": {
+            "id": 10,
+            "attributes": {
+              "name": "Peu Commune",
+              "character": "U",
+              "color": "#d1d1d1",
+              "createdAt": "2023-08-14T21:26:54.105Z",
+              "updatedAt": "2024-04-25T14:06:27.031Z",
+              "publishedAt": "2024-01-04T16:42:27.978Z",
+              "locale": "fr",
+              "englishName": "Uncommon",
+              "sortValue": 3
+            }
+          }
+        },
+        "expansion": {
+          "data": {
+            "id": 125,
+            "attributes": {
+              "name": "2026 Convention Exclusive",
+              "description": null,
+              "code": "C26",
+              "createdAt": "2026-06-04T14:59:24.165Z",
+              "updatedAt": "2026-06-04T21:46:49.911Z",
+              "publishedAt": "2026-06-04T21:46:42.673Z",
+              "locale": "fr",
+              "sortValue": 96,
+              "leaderboardStartDate": null,
+              "leaderboardEndDate": null
+            }
+          }
+        },
+        "variantTypes": {
+          "data": [
+            {
+              "id": 43,
+              "attributes": {
+                "name": "Convention Exclusive",
+                "description": null,
+                "createdAt": "2024-06-26T18:28:45.358Z",
+                "updatedAt": "2024-07-15T18:20:14.740Z",
+                "publishedAt": "2024-07-15T18:20:03.400Z",
+                "locale": "fr",
+                "variantId": "08",
+                "foil": null,
+                "sortValue": 80,
+                "icon": {
+                  "data": {
+                    "id": 8695,
+                    "attributes": {
+                      "name": "icon_conventionexclusive.png",
+                      "alternativeText": null,
+                      "caption": null,
+                      "width": 144,
+                      "height": 144,
+                      "formats": null,
+                      "hash": "icon_conventionexclusive_194657d507",
+                      "ext": ".png",
+                      "mime": "image/png",
+                      "size": 0.79,
+                      "url": "https://cdn.starwarsunlimited.com//icon_conventionexclusive_194657d507.png",
+                      "previewUrl": null,
+                      "provider": "aws-s3",
+                      "provider_metadata": null,
+                      "createdAt": "2024-07-15T14:40:17.033Z",
+                      "updatedAt": "2024-07-15T14:40:17.033Z"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "variantOf": {
+          "data": null
+        },
+        "reprintOf": {
+          "data": {
+            "id": 52812,
+            "attributes": {
+              "title": "Qi'ra",
+              "subtitle": "Maîtresse Du Teräs Käsi",
+              "cardNumber": 226,
+              "cardCount": 264,
+              "artist": "Derek Laufman",
+              "artFrontHorizontal": false,
+              "artBackHorizontal": null,
+              "hasFoil": true,
+              "cost": 7,
+              "hp": 7,
+              "power": 9,
+              "text": "Cette unité a –1/–0 pour chaque carte dans votre main. \nUne fois jouée : vous pouvez défausser une carte de votre main. Dans ce cas, infligez 3 dégâts à une unité.",
+              "textStyled": "<p>Cette unité a <strong>–1</strong>/<strong>–0</strong> pour chaque carte dans votre main. </p><p><strong>Une fois jouée :</strong> vous pouvez défausser une carte de votre main. Dans ce cas, infligez 3 dégâts à une unité.</p>",
+              "deployBox": null,
+              "deployBoxStyled": null,
+              "epicAction": "",
+              "epicActionStyled": "<p></p>",
+              "linkHtml": "<a href=\"/cards?cid=7886747371\" class=\"card-tooltip\" data-card=\"7886747371\">Qi'ra</a>",
+              "cardId": null,
+              "createdAt": "2026-05-19T15:34:49.601Z",
+              "updatedAt": "2026-06-03T19:05:21.015Z",
+              "publishedAt": "2025-03-05T06:00:00.000Z",
+              "locale": "fr",
+              "hyperspace": false,
+              "unique": true,
+              "showcase": false,
+              "cardUid": "7886747371",
+              "rules": null,
+              "rulesStyled": null,
+              "serialCode": "08010226",
+              "upgradeHp": null,
+              "upgradePower": null
+            }
+          }
+        },
+        "validationId": "7886747371"
+      }
+    },
+    {
+      "id": 56636,
+      "attributes": {
+        "cardNumber": 5,
+        "title": "Cad Bane",
+        "subtitle": "Now It's My Turn",
+        "cardCount": 0,
+        "artist": "Vincent Dutrait",
+        "artFrontHorizontal": false,
+        "artBackHorizontal": null,
+        "hasFoil": true,
+        "cost": 6,
+        "hp": 6,
+        "power": 6,
+        "text": "Shielded\nOverwhelm\nOn Attack: Defeat any number of friendly Credit tokens. Give an Experience token to this unit for each Credit defeated this way.",
+        "textStyled": "<p><strong>Shielded</strong></p><p><strong>Overwhelm</strong></p><p><strong>On Attack:</strong> Defeat any number of friendly Credit tokens. Give an Experience token to this unit for each Credit defeated this way.</p>",
+        "deployBox": null,
+        "deployBoxStyled": null,
+        "epicAction": "",
+        "epicActionStyled": "<p></p>",
+        "linkHtml": "<a href=\"/cards?cid=9085206356\" class=\"card-tooltip\" data-card=\"9085206356\">Cad Bane</a>",
+        "cardId": null,
+        "createdAt": "2026-06-04T16:33:38.761Z",
+        "updatedAt": "2026-06-04T21:46:28.269Z",
+        "publishedAt": "2025-03-05T06:00:00.000Z",
+        "locale": "fr",
+        "hyperspace": false,
+        "unique": true,
+        "showcase": false,
+        "cardUid": "9085206356",
+        "rules": null,
+        "rulesStyled": null,
+        "serialCode": "c26080005",
+        "upgradeHp": null,
+        "upgradePower": null,
+        "artFront": {
+          "data": {
+            "id": 59372,
+            "attributes": {
+              "name": "C26080005EN_Cad-Bane.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 716,
+              "height": 1000,
+              "formats": {
+                "card": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//card_C26080005_EN_Cad_Bane_0d632c5573.png",
+                  "hash": "card_C26080005_EN_Cad_Bane_0d632c5573",
+                  "mime": "image/png",
+                  "name": "card_C26080005EN_Cad-Bane.png",
+                  "path": null,
+                  "size": 145.58,
+                  "width": 286,
+                  "height": 400,
+                  "sizeInBytes": 145580
+                },
+                "small": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//small_C26080005_EN_Cad_Bane_0d632c5573.png",
+                  "hash": "small_C26080005_EN_Cad_Bane_0d632c5573",
+                  "mime": "image/png",
+                  "name": "small_C26080005EN_Cad-Bane.png",
+                  "path": null,
+                  "size": 207.69,
+                  "width": 358,
+                  "height": 500,
+                  "sizeInBytes": 207688
+                },
+                "medium": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//medium_C26080005_EN_Cad_Bane_0d632c5573.png",
+                  "hash": "medium_C26080005_EN_Cad_Bane_0d632c5573",
+                  "mime": "image/png",
+                  "name": "medium_C26080005EN_Cad-Bane.png",
+                  "path": null,
+                  "size": 377.21,
+                  "width": 501,
+                  "height": 700,
+                  "sizeInBytes": 377213
+                },
+                "xsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xsmall_C26080005_EN_Cad_Bane_0d632c5573.png",
+                  "hash": "xsmall_C26080005_EN_Cad_Bane_0d632c5573",
+                  "mime": "image/png",
+                  "name": "xsmall_C26080005EN_Cad-Bane.png",
+                  "path": null,
+                  "size": 89.81,
+                  "width": 215,
+                  "height": 300,
+                  "sizeInBytes": 89812
+                },
+                "xxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxsmall_C26080005_EN_Cad_Bane_0d632c5573.png",
+                  "hash": "xxsmall_C26080005_EN_Cad_Bane_0d632c5573",
+                  "mime": "image/png",
+                  "name": "xxsmall_C26080005EN_Cad-Bane.png",
+                  "path": null,
+                  "size": 45.94,
+                  "width": 143,
+                  "height": 200,
+                  "sizeInBytes": 45938
+                },
+                "xxxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxxsmall_C26080005_EN_Cad_Bane_0d632c5573.png",
+                  "hash": "xxxsmall_C26080005_EN_Cad_Bane_0d632c5573",
+                  "mime": "image/png",
+                  "name": "xxxsmall_C26080005EN_Cad-Bane.png",
+                  "path": null,
+                  "size": 28.85,
+                  "width": 107,
+                  "height": 150,
+                  "sizeInBytes": 28850
+                },
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//thumbnail_C26080005_EN_Cad_Bane_0d632c5573.png",
+                  "hash": "thumbnail_C26080005_EN_Cad_Bane_0d632c5573",
+                  "mime": "image/png",
+                  "name": "thumbnail_C26080005EN_Cad-Bane.png",
+                  "path": null,
+                  "size": 30.83,
+                  "width": 112,
+                  "height": 156,
+                  "sizeInBytes": 30831
+                }
+              },
+              "hash": "C26080005_EN_Cad_Bane_0d632c5573",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 165.62,
+              "url": "https://cdn.starwarsunlimited.com//C26080005_EN_Cad_Bane_0d632c5573.png",
+              "previewUrl": null,
+              "provider": "aws-s3",
+              "provider_metadata": null,
+              "createdAt": "2026-06-04T16:28:51.800Z",
+              "updatedAt": "2026-06-04T16:28:51.800Z"
+            }
+          }
+        },
+        "artBack": {
+          "data": null
+        },
+        "artThumbnail": {
+          "data": {
+            "id": 59385,
+            "attributes": {
+              "name": "C26080005EN_Cad-Bane_Thumbnail.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 300,
+              "height": 100,
+              "formats": {
+                "xxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxsmall_C26080005_EN_Cad_Bane_Thumbnail_a6cb5a87d4.png",
+                  "hash": "xxsmall_C26080005_EN_Cad_Bane_Thumbnail_a6cb5a87d4",
+                  "mime": "image/png",
+                  "name": "xxsmall_C26080005EN_Cad-Bane_Thumbnail.png",
+                  "path": null,
+                  "size": 25.05,
+                  "width": 200,
+                  "height": 67,
+                  "sizeInBytes": 25054
+                },
+                "xxxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxxsmall_C26080005_EN_Cad_Bane_Thumbnail_a6cb5a87d4.png",
+                  "hash": "xxxsmall_C26080005_EN_Cad_Bane_Thumbnail_a6cb5a87d4",
+                  "mime": "image/png",
+                  "name": "xxxsmall_C26080005EN_Cad-Bane_Thumbnail.png",
+                  "path": null,
+                  "size": 15.3,
+                  "width": 150,
+                  "height": 50,
+                  "sizeInBytes": 15297
+                },
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//thumbnail_C26080005_EN_Cad_Bane_Thumbnail_a6cb5a87d4.png",
+                  "hash": "thumbnail_C26080005_EN_Cad_Bane_Thumbnail_a6cb5a87d4",
+                  "mime": "image/png",
+                  "name": "thumbnail_C26080005EN_Cad-Bane_Thumbnail.png",
+                  "path": null,
+                  "size": 36.67,
+                  "width": 250,
+                  "height": 83,
+                  "sizeInBytes": 36671
+                }
+              },
+              "hash": "C26080005_EN_Cad_Bane_Thumbnail_a6cb5a87d4",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 12.54,
+              "url": "https://cdn.starwarsunlimited.com//C26080005_EN_Cad_Bane_Thumbnail_a6cb5a87d4.png",
+              "previewUrl": null,
+              "provider": "aws-s3",
+              "provider_metadata": null,
+              "createdAt": "2026-06-04T16:32:25.210Z",
+              "updatedAt": "2026-06-04T16:32:25.210Z"
+            }
+          }
+        },
+        "localizations": {
+          "data": [
+            {
+              "id": 56638,
+              "attributes": {
+                "title": "Cad Bane",
+                "subtitle": "Now It's My Turn",
+                "cardNumber": 5,
+                "cardCount": 0,
+                "artist": "Vincent Dutrait",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": 6,
+                "hp": 6,
+                "power": 6,
+                "text": "Shielded\nOverwhelm\nOn Attack: Defeat any number of friendly Credit tokens. Give an Experience token to this unit for each Credit defeated this way.",
+                "textStyled": "<p><strong>Shielded</strong></p><p><strong>Overwhelm</strong></p><p><strong>On Attack:</strong> Defeat any number of friendly Credit tokens. Give an Experience token to this unit for each Credit defeated this way.</p>",
+                "deployBox": null,
+                "deployBoxStyled": null,
+                "epicAction": "",
+                "epicActionStyled": "<p></p>",
+                "linkHtml": "<a href=\"/cards?cid=9085206356\" class=\"card-tooltip\" data-card=\"9085206356\">Cad Bane</a>",
+                "cardId": null,
+                "createdAt": "2026-06-04T16:33:40.132Z",
+                "updatedAt": "2026-06-04T21:46:27.485Z",
+                "publishedAt": "2025-03-05T06:00:00.000Z",
+                "locale": "de",
+                "hyperspace": false,
+                "unique": true,
+                "showcase": false,
+                "cardUid": "9085206356",
+                "rules": null,
+                "rulesStyled": null,
+                "serialCode": "c26080005",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            },
+            {
+              "id": 56634,
+              "attributes": {
+                "title": "Cad Bane",
+                "subtitle": "Now It's My Turn",
+                "cardNumber": 5,
+                "cardCount": 0,
+                "artist": "Vincent Dutrait",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": 6,
+                "hp": 6,
+                "power": 6,
+                "text": "Shielded\nOverwhelm\nOn Attack: Defeat any number of friendly Credit tokens. Give an Experience token to this unit for each Credit defeated this way.",
+                "textStyled": "<p><strong>Shielded</strong></p><p><strong>Overwhelm</strong></p><p><strong>On Attack:</strong> Defeat any number of friendly Credit tokens. Give an Experience token to this unit for each Credit defeated this way.</p>",
+                "deployBox": null,
+                "deployBoxStyled": null,
+                "epicAction": "",
+                "epicActionStyled": "<p></p>",
+                "linkHtml": "<a href=\"/cards?cid=9085206356\" class=\"card-tooltip\" data-card=\"9085206356\">Cad Bane</a>",
+                "cardId": null,
+                "createdAt": "2026-06-04T16:33:37.396Z",
+                "updatedAt": "2026-06-04T21:46:27.159Z",
+                "publishedAt": "2025-03-05T06:00:00.000Z",
+                "locale": "en",
+                "hyperspace": false,
+                "unique": true,
+                "showcase": false,
+                "cardUid": "9085206356",
+                "rules": null,
+                "rulesStyled": null,
+                "serialCode": "c26080005",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            },
+            {
+              "id": 56637,
+              "attributes": {
+                "title": "Cad Bane",
+                "subtitle": "Now It's My Turn",
+                "cardNumber": 5,
+                "cardCount": 0,
+                "artist": "Vincent Dutrait",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": 6,
+                "hp": 6,
+                "power": 6,
+                "text": "Shielded\nOverwhelm\nOn Attack: Defeat any number of friendly Credit tokens. Give an Experience token to this unit for each Credit defeated this way.",
+                "textStyled": "<p><strong>Shielded</strong></p><p><strong>Overwhelm</strong></p><p><strong>On Attack:</strong> Defeat any number of friendly Credit tokens. Give an Experience token to this unit for each Credit defeated this way.</p>",
+                "deployBox": null,
+                "deployBoxStyled": null,
+                "epicAction": "",
+                "epicActionStyled": "<p></p>",
+                "linkHtml": "<a href=\"/cards?cid=9085206356\" class=\"card-tooltip\" data-card=\"9085206356\">Cad Bane</a>",
+                "cardId": null,
+                "createdAt": "2026-06-04T16:33:39.415Z",
+                "updatedAt": "2026-06-04T21:46:27.899Z",
+                "publishedAt": "2025-03-05T06:00:00.000Z",
+                "locale": "es",
+                "hyperspace": false,
+                "unique": true,
+                "showcase": false,
+                "cardUid": "9085206356",
+                "rules": null,
+                "rulesStyled": null,
+                "serialCode": "c26080005",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            },
+            {
+              "id": 56635,
+              "attributes": {
+                "title": "Cad Bane",
+                "subtitle": "Now It's My Turn",
+                "cardNumber": 5,
+                "cardCount": 0,
+                "artist": "Vincent Dutrait",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": 6,
+                "hp": 6,
+                "power": 6,
+                "text": "Shielded\nOverwhelm\nOn Attack: Defeat any number of friendly Credit tokens. Give an Experience token to this unit for each Credit defeated this way.",
+                "textStyled": "<p><strong>Shielded</strong></p><p><strong>Overwhelm</strong></p><p><strong>On Attack:</strong> Defeat any number of friendly Credit tokens. Give an Experience token to this unit for each Credit defeated this way.</p>",
+                "deployBox": null,
+                "deployBoxStyled": null,
+                "epicAction": "",
+                "epicActionStyled": "<p></p>",
+                "linkHtml": "<a href=\"/cards?cid=9085206356\" class=\"card-tooltip\" data-card=\"9085206356\">Cad Bane</a>",
+                "cardId": null,
+                "createdAt": "2026-06-04T16:33:38.124Z",
+                "updatedAt": "2026-06-04T21:46:28.643Z",
+                "publishedAt": "2025-03-05T06:00:00.000Z",
+                "locale": "it",
+                "hyperspace": false,
+                "unique": true,
+                "showcase": false,
+                "cardUid": "9085206356",
+                "rules": null,
+                "rulesStyled": null,
+                "serialCode": "c26080005",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "data": [
+            {
+              "id": 4,
+              "attributes": {
+                "name": "Vigilance",
+                "description": "<p>Un jeu défensif, avec des capacités pour soigner les dégâts, retirer du jeu les unités dangereuses, protéger sa base des attaques ennemies. Cette affinité est idéale pour les joueurs qui savent temporiser, en encaissant les assauts les plus meurtriers.</p>",
+                "color": "#4073d4",
+                "createdAt": "2023-08-10T21:02:26.776Z",
+                "updatedAt": "2024-07-15T21:32:24.096Z",
+                "publishedAt": "2024-01-02T18:25:33.755Z",
+                "locale": "fr",
+                "englishName": "Vigilance",
+                "sortValue": 1
+              }
+            },
+            {
+              "id": 9,
+              "attributes": {
+                "name": "Commandement",
+                "description": "<p>Accélérer sa production de ressources, utiliser de nombreuses unités, renforcer celles qui sont déjà en jeu. C’est l’affinité de prédilection des joueurs qui veulent écraser leurs adversaires par une utilisation massive de leurs troupes.</p>",
+                "color": "#0b992d",
+                "createdAt": "2023-08-10T21:07:29.191Z",
+                "updatedAt": "2024-07-15T21:32:41.107Z",
+                "publishedAt": "2024-01-02T18:24:28.907Z",
+                "locale": "fr",
+                "englishName": "Command",
+                "sortValue": 5
+              }
+            },
+            {
+              "id": 29,
+              "attributes": {
+                "name": "Infâmie",
+                "description": "<p>Se battre pour le pouvoir suprême avec les «&nbsp;méchants&nbsp;» de la galaxie Star Wars. Cette affinité permet de commander à d’immenses armées ou de provoquer de terribles destructions. Tout comme l’Héroïsme, cette affinité est souvent associée à une autre affinité sur la carte.</p>",
+                "color": "#000000",
+                "createdAt": "2023-08-10T21:20:52.826Z",
+                "updatedAt": "2024-07-15T21:40:49.895Z",
+                "publishedAt": "2024-01-02T18:25:50.235Z",
+                "locale": "fr",
+                "englishName": "Villainy",
+                "sortValue": 20
+              }
+            }
+          ]
+        },
+        "aspectDuplicates": {
+          "data": []
+        },
+        "type": {
+          "data": {
+            "id": 29,
+            "attributes": {
+              "name": "Unité",
+              "description": "",
+              "value": "Unit",
+              "createdAt": "2023-08-15T18:04:32.553Z",
+              "updatedAt": "2024-04-25T13:52:29.937Z",
+              "publishedAt": "2024-01-04T21:29:14.943Z",
+              "locale": "fr",
+              "sortValue": 3
+            }
+          }
+        },
+        "type2": {
+          "data": null
+        },
+        "traits": {
+          "data": [
+            {
+              "id": 24,
+              "attributes": {
+                "name": "Pègre",
+                "description": "",
+                "createdAt": "2023-08-15T14:39:46.306Z",
+                "updatedAt": "2024-04-08T21:45:30.258Z",
+                "publishedAt": "2024-01-04T21:26:50.390Z",
+                "locale": "fr"
+              }
+            },
+            {
+              "id": 169,
+              "attributes": {
+                "name": "Chasseur De Primes",
+                "description": "",
+                "createdAt": "2023-11-07T17:07:08.374Z",
+                "updatedAt": "2024-01-04T21:13:57.771Z",
+                "publishedAt": "2024-01-04T21:13:57.767Z",
+                "locale": "fr"
+              }
+            }
+          ]
+        },
+        "arenas": {
+          "data": [
+            {
+              "id": 4,
+              "attributes": {
+                "name": "Terrestre",
+                "description": null,
+                "createdAt": "2023-08-15T14:32:20.801Z",
+                "updatedAt": "2024-01-04T16:49:07.912Z",
+                "publishedAt": "2023-08-18T21:37:40.768Z",
+                "locale": "fr"
+              }
+            }
+          ]
+        },
+        "keywords": {
+          "data": [
+            {
+              "id": 24,
+              "attributes": {
+                "name": "Protégée",
+                "description": "",
+                "createdAt": "2023-11-28T17:07:52.429Z",
+                "updatedAt": "2024-01-04T19:05:59.217Z",
+                "publishedAt": "2023-11-28T17:07:53.447Z",
+                "locale": "fr"
+              }
+            },
+            {
+              "id": 29,
+              "attributes": {
+                "name": "Débordement",
+                "description": "",
+                "createdAt": "2023-11-28T17:10:00.435Z",
+                "updatedAt": "2024-01-04T19:00:43.837Z",
+                "publishedAt": "2023-11-28T17:10:07.902Z",
+                "locale": "fr"
+              }
+            }
+          ]
+        },
+        "rarity": {
+          "data": {
+            "id": 19,
+            "attributes": {
+              "name": "Légendaire",
+              "character": "L",
+              "color": "#00c8f3",
+              "createdAt": "2023-08-14T21:31:56.477Z",
+              "updatedAt": "2024-04-25T14:07:09.463Z",
+              "publishedAt": "2024-01-04T16:41:14.814Z",
+              "locale": "fr",
+              "englishName": "Legendary",
+              "sortValue": 5
+            }
+          }
+        },
+        "expansion": {
+          "data": {
+            "id": 125,
+            "attributes": {
+              "name": "2026 Convention Exclusive",
+              "description": null,
+              "code": "C26",
+              "createdAt": "2026-06-04T14:59:24.165Z",
+              "updatedAt": "2026-06-04T21:46:49.911Z",
+              "publishedAt": "2026-06-04T21:46:42.673Z",
+              "locale": "fr",
+              "sortValue": 96,
+              "leaderboardStartDate": null,
+              "leaderboardEndDate": null
+            }
+          }
+        },
+        "variantTypes": {
+          "data": [
+            {
+              "id": 43,
+              "attributes": {
+                "name": "Convention Exclusive",
+                "description": null,
+                "createdAt": "2024-06-26T18:28:45.358Z",
+                "updatedAt": "2024-07-15T18:20:14.740Z",
+                "publishedAt": "2024-07-15T18:20:03.400Z",
+                "locale": "fr",
+                "variantId": "08",
+                "foil": null,
+                "sortValue": 80,
+                "icon": {
+                  "data": {
+                    "id": 8695,
+                    "attributes": {
+                      "name": "icon_conventionexclusive.png",
+                      "alternativeText": null,
+                      "caption": null,
+                      "width": 144,
+                      "height": 144,
+                      "formats": null,
+                      "hash": "icon_conventionexclusive_194657d507",
+                      "ext": ".png",
+                      "mime": "image/png",
+                      "size": 0.79,
+                      "url": "https://cdn.starwarsunlimited.com//icon_conventionexclusive_194657d507.png",
+                      "previewUrl": null,
+                      "provider": "aws-s3",
+                      "provider_metadata": null,
+                      "createdAt": "2024-07-15T14:40:17.033Z",
+                      "updatedAt": "2024-07-15T14:40:17.033Z"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "variantOf": {
+          "data": null
+        },
+        "reprintOf": {
+          "data": {
+            "id": 46215,
+            "attributes": {
+              "title": "Cad Bane",
+              "subtitle": "Maintenant C'Est À Moi",
+              "cardNumber": 32,
+              "cardCount": 264,
+              "artist": "Aitor Prieto",
+              "artFrontHorizontal": false,
+              "artBackHorizontal": null,
+              "hasFoil": true,
+              "cost": 6,
+              "hp": 6,
+              "power": 6,
+              "text": "Protégée\nDébordement\nEn attaque : éliminez n'importe quel nombre de jetons Crédit amis. Donnez un jeton Expérience à cette unité pour chaque jeton Crédit ainsi éliminé.",
+              "textStyled": "<p><strong>Protégée</strong></p><p><strong>Débordement</strong></p><p><strong>En attaque :</strong> éliminez n'importe quel nombre de jetons Crédit amis. Donnez un jeton Expérience à cette unité pour chaque jeton Crédit ainsi éliminé.</p>",
+              "deployBox": null,
+              "deployBoxStyled": null,
+              "epicAction": "",
+              "epicActionStyled": "<p></p>",
+              "linkHtml": "<a href=\"/cards?cid=6583665254\" class=\"card-tooltip\" data-card=\"6583665254\">Cad Bane</a>",
+              "cardId": null,
+              "createdAt": "2025-12-12T01:42:06.730Z",
+              "updatedAt": "2026-03-27T21:11:52.722Z",
+              "publishedAt": "2025-03-05T06:00:00.000Z",
+              "locale": "fr",
+              "hyperspace": false,
+              "unique": true,
+              "showcase": false,
+              "cardUid": "6583665254",
+              "rules": "Les boucliers protègent de tout dégât infligé par une unité avec Débordement. Il n’y a donc aucun dégât en excès puisque le défenseur n’est pas éliminé.\nSi le défenseur est éliminé pendant l’attaque avant que les dégâts de combat soient infligés, tous les dégâts de combat avec Débordement sont considérés comme des dégâts en excès.\n",
+              "rulesStyled": "\n                <figure class=\"table\"><table><tbody><tr><td>03/27/2026</td><td>Les boucliers protègent de tout dégât infligé par une unité avec Débordement. Il n’y a donc aucun dégât en excès puisque le défenseur n’est pas éliminé.</td></tr><tr><td>03/27/2026</td><td>Si le défenseur est éliminé pendant l’attaque avant que les dégâts de combat soient infligés, tous les dégâts de combat avec Débordement sont considérés comme des dégâts en excès.</td></tr></tbody></table></figure>\n                ",
+              "serialCode": "07010032",
+              "upgradeHp": null,
+              "upgradePower": null
+            }
+          }
+        },
+        "validationId": "6583665254"
+      }
+    },
+    {
+      "id": 56641,
+      "attributes": {
+        "cardNumber": 6,
+        "title": "Jabba the Hutt",
+        "subtitle": "Eminence of Tatooine",
+        "cardCount": 0,
+        "artist": "Vincent Dutrait",
+        "artFrontHorizontal": false,
+        "artBackHorizontal": null,
+        "hasFoil": true,
+        "cost": 4,
+        "hp": 6,
+        "power": 2,
+        "text": "Restore 2\nWhen Played: You may return an upgrade to its owner's hand. If it's returned to your hand, you may play it for free.",
+        "textStyled": "<p><strong>Restore 2</strong></p><p><strong>When Played:</strong> You may return an upgrade to its owner's hand. If it's returned to your hand, you may play it for free.</p>",
+        "deployBox": null,
+        "deployBoxStyled": null,
+        "epicAction": "",
+        "epicActionStyled": "<p></p>",
+        "linkHtml": "<a href=\"/cards?cid=3752662079\" class=\"card-tooltip\" data-card=\"3752662079\">Jabba the Hutt</a>",
+        "cardId": null,
+        "createdAt": "2026-06-04T16:33:42.289Z",
+        "updatedAt": "2026-06-04T21:46:30.359Z",
+        "publishedAt": "2025-03-05T06:00:00.000Z",
+        "locale": "fr",
+        "hyperspace": false,
+        "unique": true,
+        "showcase": false,
+        "cardUid": "3752662079",
+        "rules": null,
+        "rulesStyled": null,
+        "serialCode": "c26080006",
+        "upgradeHp": null,
+        "upgradePower": null,
+        "artFront": {
+          "data": {
+            "id": 59368,
+            "attributes": {
+              "name": "C26080006EN_Jabba-The-Hutt.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 716,
+              "height": 1000,
+              "formats": {
+                "card": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//card_C26080006_EN_Jabba_The_Hutt_c19c5e15ef.png",
+                  "hash": "card_C26080006_EN_Jabba_The_Hutt_c19c5e15ef",
+                  "mime": "image/png",
+                  "name": "card_C26080006EN_Jabba-The-Hutt.png",
+                  "path": null,
+                  "size": 148.4,
+                  "width": 286,
+                  "height": 400,
+                  "sizeInBytes": 148401
+                },
+                "small": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//small_C26080006_EN_Jabba_The_Hutt_c19c5e15ef.png",
+                  "hash": "small_C26080006_EN_Jabba_The_Hutt_c19c5e15ef",
+                  "mime": "image/png",
+                  "name": "small_C26080006EN_Jabba-The-Hutt.png",
+                  "path": null,
+                  "size": 217.45,
+                  "width": 358,
+                  "height": 500,
+                  "sizeInBytes": 217448
+                },
+                "medium": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//medium_C26080006_EN_Jabba_The_Hutt_c19c5e15ef.png",
+                  "hash": "medium_C26080006_EN_Jabba_The_Hutt_c19c5e15ef",
+                  "mime": "image/png",
+                  "name": "medium_C26080006EN_Jabba-The-Hutt.png",
+                  "path": null,
+                  "size": 406.21,
+                  "width": 501,
+                  "height": 700,
+                  "sizeInBytes": 406210
+                },
+                "xsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xsmall_C26080006_EN_Jabba_The_Hutt_c19c5e15ef.png",
+                  "hash": "xsmall_C26080006_EN_Jabba_The_Hutt_c19c5e15ef",
+                  "mime": "image/png",
+                  "name": "xsmall_C26080006EN_Jabba-The-Hutt.png",
+                  "path": null,
+                  "size": 89.7,
+                  "width": 215,
+                  "height": 300,
+                  "sizeInBytes": 89701
+                },
+                "xxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxsmall_C26080006_EN_Jabba_The_Hutt_c19c5e15ef.png",
+                  "hash": "xxsmall_C26080006_EN_Jabba_The_Hutt_c19c5e15ef",
+                  "mime": "image/png",
+                  "name": "xxsmall_C26080006EN_Jabba-The-Hutt.png",
+                  "path": null,
+                  "size": 45.62,
+                  "width": 143,
+                  "height": 200,
+                  "sizeInBytes": 45615
+                },
+                "xxxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxxsmall_C26080006_EN_Jabba_The_Hutt_c19c5e15ef.png",
+                  "hash": "xxxsmall_C26080006_EN_Jabba_The_Hutt_c19c5e15ef",
+                  "mime": "image/png",
+                  "name": "xxxsmall_C26080006EN_Jabba-The-Hutt.png",
+                  "path": null,
+                  "size": 28.6,
+                  "width": 107,
+                  "height": 150,
+                  "sizeInBytes": 28598
+                },
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//thumbnail_C26080006_EN_Jabba_The_Hutt_c19c5e15ef.png",
+                  "hash": "thumbnail_C26080006_EN_Jabba_The_Hutt_c19c5e15ef",
+                  "mime": "image/png",
+                  "name": "thumbnail_C26080006EN_Jabba-The-Hutt.png",
+                  "path": null,
+                  "size": 30.6,
+                  "width": 112,
+                  "height": 156,
+                  "sizeInBytes": 30602
+                }
+              },
+              "hash": "C26080006_EN_Jabba_The_Hutt_c19c5e15ef",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 218.42,
+              "url": "https://cdn.starwarsunlimited.com//C26080006_EN_Jabba_The_Hutt_c19c5e15ef.png",
+              "previewUrl": null,
+              "provider": "aws-s3",
+              "provider_metadata": null,
+              "createdAt": "2026-06-04T16:28:47.751Z",
+              "updatedAt": "2026-06-04T16:28:47.751Z"
+            }
+          }
+        },
+        "artBack": {
+          "data": null
+        },
+        "artThumbnail": {
+          "data": {
+            "id": 59382,
+            "attributes": {
+              "name": "C26080006EN_Jabba-The-Hutt_Thumbnail.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 300,
+              "height": 100,
+              "formats": {
+                "xxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxsmall_C26080006_EN_Jabba_The_Hutt_Thumbnail_6161b4b72c.png",
+                  "hash": "xxsmall_C26080006_EN_Jabba_The_Hutt_Thumbnail_6161b4b72c",
+                  "mime": "image/png",
+                  "name": "xxsmall_C26080006EN_Jabba-The-Hutt_Thumbnail.png",
+                  "path": null,
+                  "size": 30.04,
+                  "width": 200,
+                  "height": 67,
+                  "sizeInBytes": 30035
+                },
+                "xxxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxxsmall_C26080006_EN_Jabba_The_Hutt_Thumbnail_6161b4b72c.png",
+                  "hash": "xxxsmall_C26080006_EN_Jabba_The_Hutt_Thumbnail_6161b4b72c",
+                  "mime": "image/png",
+                  "name": "xxxsmall_C26080006EN_Jabba-The-Hutt_Thumbnail.png",
+                  "path": null,
+                  "size": 17.8,
+                  "width": 150,
+                  "height": 50,
+                  "sizeInBytes": 17795
+                },
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//thumbnail_C26080006_EN_Jabba_The_Hutt_Thumbnail_6161b4b72c.png",
+                  "hash": "thumbnail_C26080006_EN_Jabba_The_Hutt_Thumbnail_6161b4b72c",
+                  "mime": "image/png",
+                  "name": "thumbnail_C26080006EN_Jabba-The-Hutt_Thumbnail.png",
+                  "path": null,
+                  "size": 43.11,
+                  "width": 245,
+                  "height": 82,
+                  "sizeInBytes": 43110
+                }
+              },
+              "hash": "C26080006_EN_Jabba_The_Hutt_Thumbnail_6161b4b72c",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 15.23,
+              "url": "https://cdn.starwarsunlimited.com//C26080006_EN_Jabba_The_Hutt_Thumbnail_6161b4b72c.png",
+              "previewUrl": null,
+              "provider": "aws-s3",
+              "provider_metadata": null,
+              "createdAt": "2026-06-04T16:32:23.242Z",
+              "updatedAt": "2026-06-04T16:32:23.242Z"
+            }
+          }
+        },
+        "localizations": {
+          "data": [
+            {
+              "id": 56643,
+              "attributes": {
+                "title": "Jabba the Hutt",
+                "subtitle": "Eminence of Tatooine",
+                "cardNumber": 6,
+                "cardCount": 0,
+                "artist": "Vincent Dutrait",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": 4,
+                "hp": 6,
+                "power": 2,
+                "text": "Restore 2\nWhen Played: You may return an upgrade to its owner's hand. If it's returned to your hand, you may play it for free.",
+                "textStyled": "<p><strong>Restore 2</strong></p><p><strong>When Played:</strong> You may return an upgrade to its owner's hand. If it's returned to your hand, you may play it for free.</p>",
+                "deployBox": null,
+                "deployBoxStyled": null,
+                "epicAction": "",
+                "epicActionStyled": "<p></p>",
+                "linkHtml": "<a href=\"/cards?cid=3752662079\" class=\"card-tooltip\" data-card=\"3752662079\">Jabba the Hutt</a>",
+                "cardId": null,
+                "createdAt": "2026-06-04T16:33:43.631Z",
+                "updatedAt": "2026-06-04T21:46:29.538Z",
+                "publishedAt": "2025-03-05T06:00:00.000Z",
+                "locale": "de",
+                "hyperspace": false,
+                "unique": true,
+                "showcase": false,
+                "cardUid": "3752662079",
+                "rules": null,
+                "rulesStyled": null,
+                "serialCode": "c26080006",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            },
+            {
+              "id": 56639,
+              "attributes": {
+                "title": "Jabba the Hutt",
+                "subtitle": "Eminence of Tatooine",
+                "cardNumber": 6,
+                "cardCount": 0,
+                "artist": "Vincent Dutrait",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": 4,
+                "hp": 6,
+                "power": 2,
+                "text": "Restore 2\nWhen Played: You may return an upgrade to its owner's hand. If it's returned to your hand, you may play it for free.",
+                "textStyled": "<p><strong>Restore 2</strong></p><p><strong>When Played:</strong> You may return an upgrade to its owner's hand. If it's returned to your hand, you may play it for free.</p>",
+                "deployBox": null,
+                "deployBoxStyled": null,
+                "epicAction": "",
+                "epicActionStyled": "<p></p>",
+                "linkHtml": "<a href=\"/cards?cid=3752662079\" class=\"card-tooltip\" data-card=\"3752662079\">Jabba the Hutt</a>",
+                "cardId": null,
+                "createdAt": "2026-06-04T16:33:40.960Z",
+                "updatedAt": "2026-06-04T21:46:29.071Z",
+                "publishedAt": "2025-03-05T06:00:00.000Z",
+                "locale": "en",
+                "hyperspace": false,
+                "unique": true,
+                "showcase": false,
+                "cardUid": "3752662079",
+                "rules": null,
+                "rulesStyled": null,
+                "serialCode": "c26080006",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            },
+            {
+              "id": 56642,
+              "attributes": {
+                "title": "Jabba the Hutt",
+                "subtitle": "Eminence of Tatooine",
+                "cardNumber": 6,
+                "cardCount": 0,
+                "artist": "Vincent Dutrait",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": 4,
+                "hp": 6,
+                "power": 2,
+                "text": "Restore 2\nWhen Played: You may return an upgrade to its owner's hand. If it's returned to your hand, you may play it for free.",
+                "textStyled": "<p><strong>Restore 2</strong></p><p><strong>When Played:</strong> You may return an upgrade to its owner's hand. If it's returned to your hand, you may play it for free.</p>",
+                "deployBox": null,
+                "deployBoxStyled": null,
+                "epicAction": "",
+                "epicActionStyled": "<p></p>",
+                "linkHtml": "<a href=\"/cards?cid=3752662079\" class=\"card-tooltip\" data-card=\"3752662079\">Jabba the Hutt</a>",
+                "cardId": null,
+                "createdAt": "2026-06-04T16:33:42.927Z",
+                "updatedAt": "2026-06-04T21:46:29.950Z",
+                "publishedAt": "2025-03-05T06:00:00.000Z",
+                "locale": "es",
+                "hyperspace": false,
+                "unique": true,
+                "showcase": false,
+                "cardUid": "3752662079",
+                "rules": null,
+                "rulesStyled": null,
+                "serialCode": "c26080006",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            },
+            {
+              "id": 56640,
+              "attributes": {
+                "title": "Jabba the Hutt",
+                "subtitle": "Eminence of Tatooine",
+                "cardNumber": 6,
+                "cardCount": 0,
+                "artist": "Vincent Dutrait",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": 4,
+                "hp": 6,
+                "power": 2,
+                "text": "Restore 2\nWhen Played: You may return an upgrade to its owner's hand. If it's returned to your hand, you may play it for free.",
+                "textStyled": "<p><strong>Restore 2</strong></p><p><strong>When Played:</strong> You may return an upgrade to its owner's hand. If it's returned to your hand, you may play it for free.</p>",
+                "deployBox": null,
+                "deployBoxStyled": null,
+                "epicAction": "",
+                "epicActionStyled": "<p></p>",
+                "linkHtml": "<a href=\"/cards?cid=3752662079\" class=\"card-tooltip\" data-card=\"3752662079\">Jabba the Hutt</a>",
+                "cardId": null,
+                "createdAt": "2026-06-04T16:33:41.640Z",
+                "updatedAt": "2026-06-04T21:46:30.762Z",
+                "publishedAt": "2025-03-05T06:00:00.000Z",
+                "locale": "it",
+                "hyperspace": false,
+                "unique": true,
+                "showcase": false,
+                "cardUid": "3752662079",
+                "rules": null,
+                "rulesStyled": null,
+                "serialCode": "c26080006",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "data": [
+            {
+              "id": 4,
+              "attributes": {
+                "name": "Vigilance",
+                "description": "<p>Un jeu défensif, avec des capacités pour soigner les dégâts, retirer du jeu les unités dangereuses, protéger sa base des attaques ennemies. Cette affinité est idéale pour les joueurs qui savent temporiser, en encaissant les assauts les plus meurtriers.</p>",
+                "color": "#4073d4",
+                "createdAt": "2023-08-10T21:02:26.776Z",
+                "updatedAt": "2024-07-15T21:32:24.096Z",
+                "publishedAt": "2024-01-02T18:25:33.755Z",
+                "locale": "fr",
+                "englishName": "Vigilance",
+                "sortValue": 1
+              }
+            },
+            {
+              "id": 19,
+              "attributes": {
+                "name": "Ruse",
+                "description": "<p>S’adapter à la situation du moment, grâce à de puissants effets instantanés et à une variété de moyens pour perturber les plans de l’adversaire. Cette affinité convient parfaitement à ceux qui préfèrent réagir rapidement aux menaces et avoir une réponse à toutes les actions adverses.</p>",
+                "color": "#eb9f1c",
+                "createdAt": "2023-08-10T21:13:50.160Z",
+                "updatedAt": "2024-07-15T21:39:45.132Z",
+                "publishedAt": "2024-01-02T18:24:48.755Z",
+                "locale": "fr",
+                "englishName": "Cunning",
+                "sortValue": 15
+              }
+            },
+            {
+              "id": 29,
+              "attributes": {
+                "name": "Infâmie",
+                "description": "<p>Se battre pour le pouvoir suprême avec les «&nbsp;méchants&nbsp;» de la galaxie Star Wars. Cette affinité permet de commander à d’immenses armées ou de provoquer de terribles destructions. Tout comme l’Héroïsme, cette affinité est souvent associée à une autre affinité sur la carte.</p>",
+                "color": "#000000",
+                "createdAt": "2023-08-10T21:20:52.826Z",
+                "updatedAt": "2024-07-15T21:40:49.895Z",
+                "publishedAt": "2024-01-02T18:25:50.235Z",
+                "locale": "fr",
+                "englishName": "Villainy",
+                "sortValue": 20
+              }
+            }
+          ]
+        },
+        "aspectDuplicates": {
+          "data": []
+        },
+        "type": {
+          "data": {
+            "id": 29,
+            "attributes": {
+              "name": "Unité",
+              "description": "",
+              "value": "Unit",
+              "createdAt": "2023-08-15T18:04:32.553Z",
+              "updatedAt": "2024-04-25T13:52:29.937Z",
+              "publishedAt": "2024-01-04T21:29:14.943Z",
+              "locale": "fr",
+              "sortValue": 3
+            }
+          }
+        },
+        "type2": {
+          "data": null
+        },
+        "traits": {
+          "data": [
+            {
+              "id": 24,
+              "attributes": {
+                "name": "Pègre",
+                "description": "",
+                "createdAt": "2023-08-15T14:39:46.306Z",
+                "updatedAt": "2024-04-08T21:45:30.258Z",
+                "publishedAt": "2024-01-04T21:26:50.390Z",
+                "locale": "fr"
+              }
+            },
+            {
+              "id": 231,
+              "attributes": {
+                "name": "Hutt",
+                "description": "",
+                "createdAt": "2024-01-11T21:17:30.914Z",
+                "updatedAt": "2024-01-11T21:17:46.524Z",
+                "publishedAt": "2024-01-11T21:17:32.454Z",
+                "locale": "fr"
+              }
+            }
+          ]
+        },
+        "arenas": {
+          "data": [
+            {
+              "id": 4,
+              "attributes": {
+                "name": "Terrestre",
+                "description": null,
+                "createdAt": "2023-08-15T14:32:20.801Z",
+                "updatedAt": "2024-01-04T16:49:07.912Z",
+                "publishedAt": "2023-08-18T21:37:40.768Z",
+                "locale": "fr"
+              }
+            }
+          ]
+        },
+        "keywords": {
+          "data": [
+            {
+              "id": 34,
+              "attributes": {
+                "name": "Récupération",
+                "description": "",
+                "createdAt": "2023-11-28T17:13:27.144Z",
+                "updatedAt": "2024-01-04T19:03:34.689Z",
+                "publishedAt": "2023-11-28T17:13:28.219Z",
+                "locale": "fr"
+              }
+            }
+          ]
+        },
+        "rarity": {
+          "data": {
+            "id": 14,
+            "attributes": {
+              "name": "Rare",
+              "character": "R",
+              "color": "#f1c000",
+              "createdAt": "2023-08-14T21:29:34.676Z",
+              "updatedAt": "2025-06-17T21:46:47.442Z",
+              "publishedAt": "2024-01-04T16:41:34.918Z",
+              "locale": "fr",
+              "englishName": "Rare",
+              "sortValue": 4
+            }
+          }
+        },
+        "expansion": {
+          "data": {
+            "id": 125,
+            "attributes": {
+              "name": "2026 Convention Exclusive",
+              "description": null,
+              "code": "C26",
+              "createdAt": "2026-06-04T14:59:24.165Z",
+              "updatedAt": "2026-06-04T21:46:49.911Z",
+              "publishedAt": "2026-06-04T21:46:42.673Z",
+              "locale": "fr",
+              "sortValue": 96,
+              "leaderboardStartDate": null,
+              "leaderboardEndDate": null
+            }
+          }
+        },
+        "variantTypes": {
+          "data": [
+            {
+              "id": 43,
+              "attributes": {
+                "name": "Convention Exclusive",
+                "description": null,
+                "createdAt": "2024-06-26T18:28:45.358Z",
+                "updatedAt": "2024-07-15T18:20:14.740Z",
+                "publishedAt": "2024-07-15T18:20:03.400Z",
+                "locale": "fr",
+                "variantId": "08",
+                "foil": null,
+                "sortValue": 80,
+                "icon": {
+                  "data": {
+                    "id": 8695,
+                    "attributes": {
+                      "name": "icon_conventionexclusive.png",
+                      "alternativeText": null,
+                      "caption": null,
+                      "width": 144,
+                      "height": 144,
+                      "formats": null,
+                      "hash": "icon_conventionexclusive_194657d507",
+                      "ext": ".png",
+                      "mime": "image/png",
+                      "size": 0.79,
+                      "url": "https://cdn.starwarsunlimited.com//icon_conventionexclusive_194657d507.png",
+                      "previewUrl": null,
+                      "provider": "aws-s3",
+                      "provider_metadata": null,
+                      "createdAt": "2024-07-15T14:40:17.033Z",
+                      "updatedAt": "2024-07-15T14:40:17.033Z"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "variantOf": {
+          "data": null
+        },
+        "reprintOf": {
+          "data": {
+            "id": 51895,
+            "attributes": {
+              "title": "Jabba le Hutt",
+              "subtitle": "Éminence De Tatooine",
+              "cardNumber": 42,
+              "cardCount": 264,
+              "artist": "Ivan Shavrin",
+              "artFrontHorizontal": false,
+              "artBackHorizontal": null,
+              "hasFoil": true,
+              "cost": 4,
+              "hp": 6,
+              "power": 2,
+              "text": "Récupération 2\nUne fois jouée : vous pouvez renvoyer une amélioration dans la main de son propriétaire. Si elle est renvoyée dans votre main, vous pouvez la jouer gratuitement.",
+              "textStyled": "<p><strong>Récupération 2</strong></p><p><strong>Une fois jouée :</strong> vous pouvez renvoyer une amélioration dans la main de son propriétaire. Si elle est renvoyée dans votre main, vous pouvez la jouer gratuitement.</p>",
+              "deployBox": null,
+              "deployBoxStyled": null,
+              "epicAction": "",
+              "epicActionStyled": "<p></p>",
+              "linkHtml": "<a href=\"/cards?cid=7317430733\" class=\"card-tooltip\" data-card=\"7317430733\">Jabba le Hutt</a>",
+              "cardId": null,
+              "createdAt": "2026-05-19T15:28:31.947Z",
+              "updatedAt": "2026-06-03T19:01:51.026Z",
+              "publishedAt": "2025-03-05T06:00:00.000Z",
+              "locale": "fr",
+              "hyperspace": false,
+              "unique": true,
+              "showcase": false,
+              "cardUid": "7317430733",
+              "rules": null,
+              "rulesStyled": null,
+              "serialCode": "08010042",
+              "upgradeHp": null,
+              "upgradePower": null
+            }
+          }
+        },
+        "validationId": "7317430733"
+      }
+    }
+  ],
+  "variants": []
+}

@@ -3,8 +3,8 @@
   "lastUpdated": "2026-06-09",
   "latestMainSet": "law",
   "announcement": {
-    "id": "ann-1781019261",
-    "text": "Nouvelles cartes ajoutées - JTL, LOF, SEC, J25, LOFP, JTLP, P26, ASH | Règles mises à jour - JTL, LOF, SEC, LAW, C25, JTLP, P25, TS26",
+    "id": "ann-1781019461",
+    "text": "Nouveau set ajouté : 2026 Convention Exclusive - C26",
     "color": "#7C3AED",
     "url": ""
   },
@@ -307,6 +307,19 @@
       "logoURL": null,
       "artworkURL": null,
       "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/staging/sets/mv26.json"
+    },
+    {
+      "id": "c26",
+      "dataVersion": 1,
+      "code": "C26",
+      "name": "2026 Convention Exclusive",
+      "type": "special",
+      "order": 16,
+      "color": "#888888",
+      "foilShared": false,
+      "logoURL": null,
+      "artworkURL": null,
+      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/staging/sets/c26.json"
     }
   ]
 }
