@@ -99,6 +99,7 @@ def fetch_cards(api_code):
     print(f"  🃏 Scraping {api_code}...")
     all_cards = []
     page = 1
+    expected_total = None
     while True:
         params = {
             'locale':                                   'fr',
@@ -119,6 +120,8 @@ def fetch_cards(api_code):
         current = meta.get('page', page)
         last    = meta.get('pageCount', 0)
         total   = meta.get('total', 0)
+        if expected_total is None:
+            expected_total = total
         print(f"  Page {current}/{last} — {len(cards)} cartes (total API: {total})")
         if last and current >= last:
             break
@@ -127,6 +130,9 @@ def fetch_cards(api_code):
         if page > 100:
             print("  ⚠️  Sécurité : >100 pages, arrêt")
             break
+    if expected_total and len(all_cards) < expected_total:
+        print(f"  ⚠️  Scrape incomplet : {len(all_cards)}/{expected_total} — {api_code} ignoré")
+        return None
     print(f"  ✅ {len(all_cards)} cartes récupérées pour {api_code}")
     return all_cards
 
