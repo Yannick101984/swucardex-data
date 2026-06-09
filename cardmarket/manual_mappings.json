@@ -64,6 +64,14 @@
     "note": ""
   },
   {
+    "set_code": "JTL",
+    "en_name": "Insurgent Saboteurs",
+    "card_number": 168,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
     "set_code": "LAW",
     "en_name": "Credit",
     "card_number": 1,
@@ -163,6 +171,14 @@
     "set_code": "LOF",
     "en_name": "Padawan Starfighter",
     "card_number": 60,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "LOF",
+    "en_name": "Mynock",
+    "card_number": 109,
     "variant_type": "Standard",
     "idProduct": null,
     "note": ""
@@ -1785,6 +1801,14 @@
   },
   {
     "set_code": "SHD",
+    "en_name": "Collections Starhopper",
+    "card_number": 380,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
     "en_name": "Kylo's TIE Silencer, Ruthlessly Efficient",
     "card_number": 404,
     "variant_type": "Hyperspace",
@@ -3193,8 +3217,24 @@
   },
   {
     "set_code": "TWI",
+    "en_name": "Roger Roger",
+    "card_number": 342,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
     "en_name": "Reprocess",
     "card_number": 360,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
+    "en_name": "Osi Sobeck, Warden of the Citadel",
+    "card_number": 385,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -3283,6 +3323,14 @@
     "set_code": "TWI",
     "en_name": "Padmé Amidala, Pursuing Peace",
     "card_number": 457,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
+    "en_name": "Clear the Field",
+    "card_number": 464,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
