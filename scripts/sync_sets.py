@@ -519,7 +519,8 @@ def compare_mode():
 
         with open(local_file, encoding='utf-8') as f:
             old_data = json.load(f)
-        old_cards = {str(c['id']): c for c in old_data.get('data', []) if 'id' in c}
+        old_all = old_data.get('data', []) + old_data.get('variants', [])
+        old_cards = {str(c['id']): c for c in old_all if 'id' in c}
 
         new_cards_list = fetch_cards(api_code)
         if not new_cards_list:
