@@ -3,8 +3,8 @@
   "lastUpdated": "2026-06-09",
   "latestMainSet": "law",
   "announcement": {
-    "id": "ann-1781019461",
-    "text": "Nouveau set ajouté : 2026 Convention Exclusive - C26",
+    "id": "ann-1781021226",
+    "text": "Nouvelles cartes ajoutées - LAW",
     "color": "#7C3AED",
     "url": ""
   },
@@ -89,7 +89,7 @@
     },
     {
       "id": "law",
-      "dataVersion": 3,
+      "dataVersion": 4,
       "code": "LAW",
       "name": "Sans Foi Ni Loi",
       "type": "main",
@@ -284,7 +284,7 @@
     },
     {
       "id": "ash",
-      "dataVersion": 3,
+      "dataVersion": 4,
       "code": "ASH",
       "name": "Cendres de l'Empire",
       "type": "main",
