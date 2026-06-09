@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "lastUpdated": "2026-06-04",
+  "lastUpdated": "2026-06-09",
   "latestMainSet": "law",
   "announcement": {
-    "id": "ann-1780565228",
-    "text": "Nouveau set ajouté : The Mandalorian and Grogu Movie Promo - MV26",
+    "id": "ann-1781019261",
+    "text": "Nouvelles cartes ajoutées - JTL, LOF, SEC, J25, LOFP, JTLP, P26, ASH | Règles mises à jour - JTL, LOF, SEC, LAW, C25, JTLP, P25, TS26",
     "color": "#7C3AED",
     "url": ""
   },
@@ -50,7 +50,7 @@
     },
     {
       "id": "jtl",
-      "dataVersion": 2,
+      "dataVersion": 3,
       "code": "JTL",
       "name": "Passage en Vitesse Lumière",
       "type": "main",
@@ -63,7 +63,7 @@
     },
     {
       "id": "lof",
-      "dataVersion": 2,
+      "dataVersion": 3,
       "code": "LOF",
       "name": "Légendes de la Force",
       "type": "main",
@@ -76,7 +76,7 @@
     },
     {
       "id": "sec",
-      "dataVersion": 2,
+      "dataVersion": 3,
       "code": "SEC",
       "name": "Secrets du Pouvoir",
       "type": "main",
@@ -89,7 +89,7 @@
     },
     {
       "id": "law",
-      "dataVersion": 2,
+      "dataVersion": 3,
       "code": "LAW",
       "name": "Sans Foi Ni Loi",
       "type": "main",
@@ -128,7 +128,7 @@
     },
     {
       "id": "c24",
-      "dataVersion": 2,
+      "dataVersion": 3,
       "code": "C24",
       "name": "2024 Convention Exclusive",
       "type": "special",
@@ -141,7 +141,7 @@
     },
     {
       "id": "c25",
-      "dataVersion": 2,
+      "dataVersion": 3,
       "code": "C25",
       "name": "2025 Convention Exclusive",
       "type": "special",
@@ -167,7 +167,7 @@
     },
     {
       "id": "j25",
-      "dataVersion": 2,
+      "dataVersion": 3,
       "code": "J25",
       "name": "2025 Judge Program",
       "type": "promo",
@@ -180,7 +180,7 @@
     },
     {
       "id": "lofp",
-      "dataVersion": 3,
+      "dataVersion": 4,
       "code": "LOFP",
       "name": "Légendes de la Force Weekly Play",
       "type": "special",
@@ -193,7 +193,7 @@
     },
     {
       "id": "jtlp",
-      "dataVersion": 2,
+      "dataVersion": 3,
       "code": "JTLP",
       "name": "Passage En Vitesse Lumière Weekly Play",
       "type": "special",
@@ -219,7 +219,7 @@
     },
     {
       "id": "p25",
-      "dataVersion": 2,
+      "dataVersion": 3,
       "code": "P25",
       "name": "2025 Promo",
       "type": "promo",
@@ -232,7 +232,7 @@
     },
     {
       "id": "p26",
-      "dataVersion": 3,
+      "dataVersion": 4,
       "code": "P26",
       "name": "2026 Promo",
       "type": "promo",
@@ -245,7 +245,7 @@
     },
     {
       "id": "secp",
-      "dataVersion": 2,
+      "dataVersion": 3,
       "code": "SECP",
       "name": "Secrets du Pouvoir Weekly Play",
       "type": "special",
@@ -271,7 +271,7 @@
     },
     {
       "id": "ts26",
-      "dataVersion": 2,
+      "dataVersion": 3,
       "code": "TS26",
       "name": "2026 Twin Suns",
       "type": "special",
@@ -284,7 +284,7 @@
     },
     {
       "id": "ash",
-      "dataVersion": 2,
+      "dataVersion": 3,
       "code": "ASH",
       "name": "Cendres de l'Empire",
       "type": "main",
