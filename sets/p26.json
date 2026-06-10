@@ -1,6 +1,600 @@
 {
   "data": [
     {
+      "id": 56615,
+      "attributes": {
+        "cardNumber": 1,
+        "title": "Dark Vador",
+        "subtitle": "Affronte Ton Destin",
+        "cardCount": 0,
+        "artist": "Vincent Dutrait",
+        "artFrontHorizontal": false,
+        "artBackHorizontal": null,
+        "hasFoil": true,
+        "cost": 5,
+        "hp": 6,
+        "power": 4,
+        "text": "Protégée\nTant que cette unité est redressée, elle gagne Sentinelle.",
+        "textStyled": "<p><strong>Protégée</strong></p><p>Tant que cette unité est redressée, elle gagne <strong>Sentinelle</strong>.</p>",
+        "deployBox": null,
+        "deployBoxStyled": null,
+        "epicAction": "",
+        "epicActionStyled": "<p></p>",
+        "linkHtml": "<a href=\"/cards?cid=5666339874\" class=\"card-tooltip\" data-card=\"5666339874\">Dark Vador</a>",
+        "cardId": null,
+        "createdAt": "2026-05-20T19:44:51.963Z",
+        "updatedAt": "2026-06-04T14:56:22.604Z",
+        "publishedAt": "2026-06-04T14:56:15.159Z",
+        "locale": "fr",
+        "hyperspace": false,
+        "unique": true,
+        "showcase": false,
+        "cardUid": "5666339874",
+        "rules": null,
+        "rulesStyled": null,
+        "serialCode": "p26050001",
+        "upgradeHp": null,
+        "upgradePower": null,
+        "artFront": {
+          "data": {
+            "id": 59253,
+            "attributes": {
+              "name": "P26050001FR_Dark-Vador.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 716,
+              "height": 1000,
+              "formats": {
+                "card": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//card_P26050001_FR_Dark_Vador_200e919523.png",
+                  "hash": "card_P26050001_FR_Dark_Vador_200e919523",
+                  "mime": "image/png",
+                  "name": "card_P26050001FR_Dark-Vador.png",
+                  "path": null,
+                  "size": 274.25,
+                  "width": 286,
+                  "height": 400,
+                  "sizeInBytes": 274251
+                },
+                "small": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//small_P26050001_FR_Dark_Vador_200e919523.png",
+                  "hash": "small_P26050001_FR_Dark_Vador_200e919523",
+                  "mime": "image/png",
+                  "name": "small_P26050001FR_Dark-Vador.png",
+                  "path": null,
+                  "size": 415.71,
+                  "width": 358,
+                  "height": 500,
+                  "sizeInBytes": 415711
+                },
+                "medium": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//medium_P26050001_FR_Dark_Vador_200e919523.png",
+                  "hash": "medium_P26050001_FR_Dark_Vador_200e919523",
+                  "mime": "image/png",
+                  "name": "medium_P26050001FR_Dark-Vador.png",
+                  "path": null,
+                  "size": 784.65,
+                  "width": 501,
+                  "height": 700,
+                  "sizeInBytes": 784645
+                },
+                "xsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xsmall_P26050001_FR_Dark_Vador_200e919523.png",
+                  "hash": "xsmall_P26050001_FR_Dark_Vador_200e919523",
+                  "mime": "image/png",
+                  "name": "xsmall_P26050001FR_Dark-Vador.png",
+                  "path": null,
+                  "size": 160.72,
+                  "width": 215,
+                  "height": 300,
+                  "sizeInBytes": 160717
+                },
+                "xxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxsmall_P26050001_FR_Dark_Vador_200e919523.png",
+                  "hash": "xxsmall_P26050001_FR_Dark_Vador_200e919523",
+                  "mime": "image/png",
+                  "name": "xxsmall_P26050001FR_Dark-Vador.png",
+                  "path": null,
+                  "size": 75.39,
+                  "width": 143,
+                  "height": 200,
+                  "sizeInBytes": 75392
+                },
+                "xxxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxxsmall_P26050001_FR_Dark_Vador_200e919523.png",
+                  "hash": "xxxsmall_P26050001_FR_Dark_Vador_200e919523",
+                  "mime": "image/png",
+                  "name": "xxxsmall_P26050001FR_Dark-Vador.png",
+                  "path": null,
+                  "size": 44.33,
+                  "width": 107,
+                  "height": 150,
+                  "sizeInBytes": 44328
+                },
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//thumbnail_P26050001_FR_Dark_Vador_200e919523.png",
+                  "hash": "thumbnail_P26050001_FR_Dark_Vador_200e919523",
+                  "mime": "image/png",
+                  "name": "thumbnail_P26050001FR_Dark-Vador.png",
+                  "path": null,
+                  "size": 47.92,
+                  "width": 112,
+                  "height": 156,
+                  "sizeInBytes": 47924
+                }
+              },
+              "hash": "P26050001_FR_Dark_Vador_200e919523",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 389.96,
+              "url": "https://cdn.starwarsunlimited.com//P26050001_FR_Dark_Vador_200e919523.png",
+              "previewUrl": null,
+              "provider": "aws-s3",
+              "provider_metadata": null,
+              "createdAt": "2026-05-20T19:42:10.898Z",
+              "updatedAt": "2026-05-20T19:42:10.898Z"
+            }
+          }
+        },
+        "artBack": {
+          "data": null
+        },
+        "artThumbnail": {
+          "data": {
+            "id": 59256,
+            "attributes": {
+              "name": "P26050001EN_Darth-Vader_Thumbnail.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 300,
+              "height": 100,
+              "formats": {
+                "xxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxsmall_P26050001_EN_Darth_Vader_Thumbnail_ca96913a2a.png",
+                  "hash": "xxsmall_P26050001_EN_Darth_Vader_Thumbnail_ca96913a2a",
+                  "mime": "image/png",
+                  "name": "xxsmall_P26050001EN_Darth-Vader_Thumbnail.png",
+                  "path": null,
+                  "size": 37.23,
+                  "width": 200,
+                  "height": 67,
+                  "sizeInBytes": 37226
+                },
+                "xxxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxxsmall_P26050001_EN_Darth_Vader_Thumbnail_ca96913a2a.png",
+                  "hash": "xxxsmall_P26050001_EN_Darth_Vader_Thumbnail_ca96913a2a",
+                  "mime": "image/png",
+                  "name": "xxxsmall_P26050001EN_Darth-Vader_Thumbnail.png",
+                  "path": null,
+                  "size": 21.05,
+                  "width": 150,
+                  "height": 50,
+                  "sizeInBytes": 21047
+                },
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//thumbnail_P26050001_EN_Darth_Vader_Thumbnail_ca96913a2a.png",
+                  "hash": "thumbnail_P26050001_EN_Darth_Vader_Thumbnail_ca96913a2a",
+                  "mime": "image/png",
+                  "name": "thumbnail_P26050001EN_Darth-Vader_Thumbnail.png",
+                  "path": null,
+                  "size": 55.36,
+                  "width": 245,
+                  "height": 82,
+                  "sizeInBytes": 55358
+                }
+              },
+              "hash": "P26050001_EN_Darth_Vader_Thumbnail_ca96913a2a",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 26.35,
+              "url": "https://cdn.starwarsunlimited.com//P26050001_EN_Darth_Vader_Thumbnail_ca96913a2a.png",
+              "previewUrl": null,
+              "provider": "aws-s3",
+              "provider_metadata": null,
+              "createdAt": "2026-05-20T19:42:24.476Z",
+              "updatedAt": "2026-05-20T19:42:24.476Z"
+            }
+          }
+        },
+        "localizations": {
+          "data": [
+            {
+              "id": 56617,
+              "attributes": {
+                "title": "Darth Vader",
+                "subtitle": "Dein Schicksal ist besiegelt",
+                "cardNumber": 1,
+                "cardCount": 0,
+                "artist": "Vincent Dutrait",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": 5,
+                "hp": 6,
+                "power": 4,
+                "text": "Abgeschirmt\nSolange diese Einheit spielbereit ist, erhält sie Wachposten.",
+                "textStyled": "<p><strong>Abgeschirmt</strong></p><p>Solange diese Einheit spielbereit ist, erhält sie <strong>Wachposten</strong>.</p>",
+                "deployBox": null,
+                "deployBoxStyled": null,
+                "epicAction": "",
+                "epicActionStyled": "<p></p>",
+                "linkHtml": "<a href=\"/cards?cid=5666339874\" class=\"card-tooltip\" data-card=\"5666339874\">Darth Vader</a>",
+                "cardId": null,
+                "createdAt": "2026-05-20T19:44:53.539Z",
+                "updatedAt": "2026-06-04T14:56:22.565Z",
+                "publishedAt": "2026-06-04T14:56:09.286Z",
+                "locale": "de",
+                "hyperspace": false,
+                "unique": true,
+                "showcase": false,
+                "cardUid": "5666339874",
+                "rules": null,
+                "rulesStyled": null,
+                "serialCode": "p26050001",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            },
+            {
+              "id": 56613,
+              "attributes": {
+                "title": "Darth Vader",
+                "subtitle": "Meet Your Destiny",
+                "cardNumber": 1,
+                "cardCount": 0,
+                "artist": "Vincent Dutrait",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": 5,
+                "hp": 6,
+                "power": 4,
+                "text": "Shielded\nWhile this unit is ready, he gains Sentinel.",
+                "textStyled": "<p><strong>Shielded</strong></p><p>While this unit is ready, he gains <strong>Sentinel</strong>.</p>",
+                "deployBox": null,
+                "deployBoxStyled": null,
+                "epicAction": "",
+                "epicActionStyled": "<p></p>",
+                "linkHtml": "<a href=\"/cards?cid=5666339874\" class=\"card-tooltip\" data-card=\"5666339874\">Darth Vader</a>",
+                "cardId": null,
+                "createdAt": "2026-05-20T19:44:50.304Z",
+                "updatedAt": "2026-06-04T14:56:22.580Z",
+                "publishedAt": "2026-06-04T14:56:05.202Z",
+                "locale": "en",
+                "hyperspace": false,
+                "unique": true,
+                "showcase": false,
+                "cardUid": "5666339874",
+                "rules": null,
+                "rulesStyled": null,
+                "serialCode": "p26050001",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            },
+            {
+              "id": 56616,
+              "attributes": {
+                "title": "Darth Vader",
+                "subtitle": "Sabrás cuál es tu destino",
+                "cardNumber": 1,
+                "cardCount": 0,
+                "artist": "Vincent Dutrait",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": 5,
+                "hp": 6,
+                "power": 4,
+                "text": "Escudado\nMientras esta unidad esté preparada, gana Centinela.",
+                "textStyled": "<p><strong>Escudado</strong></p><p>Mientras esta unidad esté preparada, gana <strong>Centinela</strong>.</p>",
+                "deployBox": null,
+                "deployBoxStyled": null,
+                "epicAction": "",
+                "epicActionStyled": "<p></p>",
+                "linkHtml": "<a href=\"/cards?cid=5666339874\" class=\"card-tooltip\" data-card=\"5666339874\">Darth Vader</a>",
+                "cardId": null,
+                "createdAt": "2026-05-20T19:44:52.727Z",
+                "updatedAt": "2026-06-04T14:56:22.592Z",
+                "publishedAt": "2026-06-04T14:56:19.016Z",
+                "locale": "es",
+                "hyperspace": false,
+                "unique": true,
+                "showcase": false,
+                "cardUid": "5666339874",
+                "rules": null,
+                "rulesStyled": null,
+                "serialCode": "p26050001",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            },
+            {
+              "id": 56614,
+              "attributes": {
+                "title": "Darth Vader",
+                "subtitle": "Meet Your Destiny",
+                "cardNumber": 1,
+                "cardCount": 0,
+                "artist": "Vincent Dutrait",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": 5,
+                "hp": 6,
+                "power": 4,
+                "text": "Shielded\nWhile this unit is ready, he gains Sentinel.",
+                "textStyled": "<p><strong>Shielded</strong></p><p>While this unit is ready, he gains <strong>Sentinel</strong>.</p>",
+                "deployBox": null,
+                "deployBoxStyled": null,
+                "epicAction": "",
+                "epicActionStyled": "<p></p>",
+                "linkHtml": "<a href=\"/cards?cid=5666339874\" class=\"card-tooltip\" data-card=\"5666339874\">Darth Vader</a>",
+                "cardId": null,
+                "createdAt": "2026-05-20T19:44:51.087Z",
+                "updatedAt": "2026-06-04T14:56:22.530Z",
+                "publishedAt": "2026-06-04T14:56:22.525Z",
+                "locale": "it",
+                "hyperspace": false,
+                "unique": true,
+                "showcase": false,
+                "cardUid": "5666339874",
+                "rules": null,
+                "rulesStyled": null,
+                "serialCode": "p26050001",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "data": [
+            {
+              "id": 29,
+              "attributes": {
+                "name": "Infâmie",
+                "description": "<p>Se battre pour le pouvoir suprême avec les «&nbsp;méchants&nbsp;» de la galaxie Star Wars. Cette affinité permet de commander à d’immenses armées ou de provoquer de terribles destructions. Tout comme l’Héroïsme, cette affinité est souvent associée à une autre affinité sur la carte.</p>",
+                "color": "#000000",
+                "createdAt": "2023-08-10T21:20:52.826Z",
+                "updatedAt": "2024-07-15T21:40:49.895Z",
+                "publishedAt": "2024-01-02T18:25:50.235Z",
+                "locale": "fr",
+                "englishName": "Villainy",
+                "sortValue": 20
+              }
+            }
+          ]
+        },
+        "aspectDuplicates": {
+          "data": []
+        },
+        "type": {
+          "data": {
+            "id": 29,
+            "attributes": {
+              "name": "Unité",
+              "description": "",
+              "value": "Unit",
+              "createdAt": "2023-08-15T18:04:32.553Z",
+              "updatedAt": "2024-04-25T13:52:29.937Z",
+              "publishedAt": "2024-01-04T21:29:14.943Z",
+              "locale": "fr",
+              "sortValue": 3
+            }
+          }
+        },
+        "type2": {
+          "data": null
+        },
+        "traits": {
+          "data": [
+            {
+              "id": 34,
+              "attributes": {
+                "name": "Force",
+                "description": null,
+                "createdAt": "2023-08-15T14:41:10.682Z",
+                "updatedAt": "2024-01-04T21:15:19.420Z",
+                "publishedAt": "2024-01-04T21:15:19.417Z",
+                "locale": "fr"
+              }
+            },
+            {
+              "id": 9,
+              "attributes": {
+                "name": "Impérial",
+                "description": "",
+                "createdAt": "2023-08-15T14:38:23.731Z",
+                "updatedAt": "2024-01-04T21:11:46.388Z",
+                "publishedAt": "2024-01-04T21:11:46.385Z",
+                "locale": "fr"
+              }
+            },
+            {
+              "id": 44,
+              "attributes": {
+                "name": "Sith",
+                "description": "",
+                "createdAt": "2023-08-15T14:42:17.108Z",
+                "updatedAt": "2024-01-04T21:23:19.059Z",
+                "publishedAt": "2024-01-04T21:23:19.055Z",
+                "locale": "fr"
+              }
+            }
+          ]
+        },
+        "arenas": {
+          "data": [
+            {
+              "id": 4,
+              "attributes": {
+                "name": "Terrestre",
+                "description": null,
+                "createdAt": "2023-08-15T14:32:20.801Z",
+                "updatedAt": "2024-01-04T16:49:07.912Z",
+                "publishedAt": "2023-08-18T21:37:40.768Z",
+                "locale": "fr"
+              }
+            }
+          ]
+        },
+        "keywords": {
+          "data": [
+            {
+              "id": 24,
+              "attributes": {
+                "name": "Protégée",
+                "description": "",
+                "createdAt": "2023-11-28T17:07:52.429Z",
+                "updatedAt": "2024-01-04T19:05:59.217Z",
+                "publishedAt": "2023-11-28T17:07:53.447Z",
+                "locale": "fr"
+              }
+            },
+            {
+              "id": 9,
+              "attributes": {
+                "name": "Sentinelle",
+                "description": "",
+                "createdAt": "2023-11-28T17:04:18.360Z",
+                "updatedAt": "2024-01-04T19:01:14.442Z",
+                "publishedAt": "2023-11-28T17:04:19.395Z",
+                "locale": "fr"
+              }
+            }
+          ]
+        },
+        "rarity": {
+          "data": {
+            "id": 24,
+            "attributes": {
+              "name": "Spéciale",
+              "character": "S",
+              "color": "#000000",
+              "createdAt": "2023-08-14T21:34:27.979Z",
+              "updatedAt": "2024-04-25T14:06:09.057Z",
+              "publishedAt": "2024-01-04T16:42:01.831Z",
+              "locale": "fr",
+              "englishName": "Special",
+              "sortValue": 1
+            }
+          }
+        },
+        "expansion": {
+          "data": {
+            "id": 85,
+            "attributes": {
+              "name": "2026 Promo",
+              "description": null,
+              "code": "P26",
+              "createdAt": "2025-11-06T20:12:36.659Z",
+              "updatedAt": "2026-01-12T17:44:11.328Z",
+              "publishedAt": "2026-01-12T17:43:26.815Z",
+              "locale": "fr",
+              "sortValue": 77,
+              "leaderboardStartDate": null,
+              "leaderboardEndDate": null
+            }
+          }
+        },
+        "variantTypes": {
+          "data": [
+            {
+              "id": 13,
+              "attributes": {
+                "name": "Exclusivité de l’évènement",
+                "description": null,
+                "createdAt": "2024-01-12T17:34:37.991Z",
+                "updatedAt": "2024-07-15T15:09:19.742Z",
+                "publishedAt": "2024-01-12T22:45:27.090Z",
+                "locale": "fr",
+                "variantId": "05",
+                "foil": null,
+                "sortValue": 50,
+                "icon": {
+                  "data": {
+                    "id": 8704,
+                    "attributes": {
+                      "name": "icon_eventexclusive.png",
+                      "alternativeText": null,
+                      "caption": null,
+                      "width": 144,
+                      "height": 144,
+                      "formats": null,
+                      "hash": "icon_eventexclusive_d985cde2eb",
+                      "ext": ".png",
+                      "mime": "image/png",
+                      "size": 0.48,
+                      "url": "https://cdn.starwarsunlimited.com//icon_eventexclusive_d985cde2eb.png",
+                      "previewUrl": null,
+                      "provider": "aws-s3",
+                      "provider_metadata": null,
+                      "createdAt": "2024-07-15T14:40:17.088Z",
+                      "updatedAt": "2024-07-15T14:40:17.088Z"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "variantOf": {
+          "data": null
+        },
+        "reprintOf": {
+          "data": {
+            "id": 52897,
+            "attributes": {
+              "title": "Dark Vador",
+              "subtitle": "Affronte Ton Destin",
+              "cardNumber": 243,
+              "cardCount": 264,
+              "artist": "Joshua Cairos",
+              "artFrontHorizontal": false,
+              "artBackHorizontal": null,
+              "hasFoil": true,
+              "cost": 5,
+              "hp": 6,
+              "power": 4,
+              "text": "Protégée\nTant que cette unité est redressée, elle gagne Sentinelle.",
+              "textStyled": "<p><strong>Protégée</strong></p><p>Tant que cette unité est redressée, elle gagne <strong>Sentinelle</strong>.</p>",
+              "deployBox": null,
+              "deployBoxStyled": null,
+              "epicAction": "",
+              "epicActionStyled": "<p></p>",
+              "linkHtml": "<a href=\"/cards?cid=2759135991\" class=\"card-tooltip\" data-card=\"2759135991\">Dark Vador</a>",
+              "cardId": null,
+              "createdAt": "2026-05-19T15:35:23.557Z",
+              "updatedAt": "2026-05-27T21:25:12.365Z",
+              "publishedAt": "2025-03-05T06:00:00.000Z",
+              "locale": "fr",
+              "hyperspace": false,
+              "unique": true,
+              "showcase": false,
+              "cardUid": "2759135991",
+              "rules": null,
+              "rulesStyled": null,
+              "serialCode": "08010243",
+              "upgradeHp": null,
+              "upgradePower": null
+            }
+          }
+        },
+        "validationId": "2759135991"
+      }
+    },
+    {
       "id": 50799,
       "attributes": {
         "cardNumber": 2,

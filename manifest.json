@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "lastUpdated": "2026-06-08",
+  "lastUpdated": "2026-06-10",
   "latestMainSet": "law",
   "announcement": {
-    "id": "ann-1780922260",
-    "text": "Nouveau set ajouté : 2026 Convention Exclusive - C26",
+    "id": "ann-1781094086",
+    "text": "Nouvelles cartes ajoutées - P26, ASH | Règles mises à jour - JTLP, TS26",
     "color": "#7C3AED",
     "url": ""
   },
@@ -193,7 +193,7 @@
     },
     {
       "id": "jtlp",
-      "dataVersion": 2,
+      "dataVersion": 3,
       "code": "JTLP",
       "name": "Passage En Vitesse Lumière Weekly Play",
       "type": "special",
@@ -232,7 +232,7 @@
     },
     {
       "id": "p26",
-      "dataVersion": 3,
+      "dataVersion": 4,
       "code": "P26",
       "name": "2026 Promo",
       "type": "promo",
@@ -245,7 +245,7 @@
     },
     {
       "id": "secp",
-      "dataVersion": 2,
+      "dataVersion": 3,
       "code": "SECP",
       "name": "Secrets du Pouvoir Weekly Play",
       "type": "special",
@@ -271,7 +271,7 @@
     },
     {
       "id": "ts26",
-      "dataVersion": 2,
+      "dataVersion": 3,
       "code": "TS26",
       "name": "2026 Twin Suns",
       "type": "special",
@@ -284,7 +284,7 @@
     },
     {
       "id": "ash",
-      "dataVersion": 2,
+      "dataVersion": 3,
       "code": "ASH",
       "name": "Cendres de l'Empire",
       "type": "main",
