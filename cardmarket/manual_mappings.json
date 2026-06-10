@@ -2121,6 +2121,14 @@
   },
   {
     "set_code": "SOR",
+    "en_name": "Death Trooper",
+    "card_number": 299,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
     "en_name": "Kanan Jarrus, Revealed Jedi",
     "card_number": 313,
     "variant_type": "Hyperspace",
@@ -2148,6 +2156,14 @@
     "en_name": "Wilderness Fighter",
     "card_number": 329,
     "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
+    "en_name": "Admiral Piett, Captain of the Executor",
+    "card_number": 344,
+    "variant_type": "Hyperspace Foil",
     "idProduct": null,
     "note": ""
   },
