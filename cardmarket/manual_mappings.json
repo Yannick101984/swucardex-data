@@ -961,6 +961,14 @@
   },
   {
     "set_code": "P26",
+    "en_name": "Darth Vader, Meet Your Destiny",
+    "card_number": 1,
+    "variant_type": "Exclusivité de l’évènement",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "P26",
     "en_name": "Rio Durant, Beckett's Right Hands",
     "card_number": 3,
     "variant_type": "SS Judge",
@@ -1761,6 +1769,14 @@
   },
   {
     "set_code": "SHD",
+    "en_name": "Wroshyr Tree Tender",
+    "card_number": 336,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
     "en_name": "Imprisoned",
     "card_number": 345,
     "variant_type": "Hyperspace",
@@ -1809,6 +1825,14 @@
   },
   {
     "set_code": "SHD",
+    "en_name": "Price on Your Head",
+    "card_number": 394,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
     "en_name": "Kylo's TIE Silencer, Ruthlessly Efficient",
     "card_number": 404,
     "variant_type": "Hyperspace",
@@ -1825,8 +1849,24 @@
   },
   {
     "set_code": "SHD",
+    "en_name": "Stolen Landspeeder",
+    "card_number": 430,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
     "en_name": "Vambrace Flamethrower",
     "card_number": 446,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
+    "en_name": "Daring Raid",
+    "card_number": 447,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -1849,8 +1889,8 @@
   },
   {
     "set_code": "SHD",
-    "en_name": "Coruscant Dissident",
-    "card_number": 467,
+    "en_name": "Triple Dark Raid",
+    "card_number": 463,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -2164,22 +2204,6 @@
     "en_name": "Admiral Piett, Captain of the Executor",
     "card_number": 344,
     "variant_type": "Hyperspace Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "Blizzard Assault AT-AT",
-    "card_number": 352,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "Relentless, Konstantine's Folly",
-    "card_number": 353,
-    "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
   },
@@ -3267,14 +3291,6 @@
     "set_code": "TWI",
     "en_name": "Encouraging Leadership",
     "card_number": 394,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "In Defense of Kamino",
-    "card_number": 397,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
