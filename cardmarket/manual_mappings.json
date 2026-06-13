@@ -1841,6 +1841,22 @@
   },
   {
     "set_code": "SHD",
+    "en_name": "Cripple Authority",
+    "card_number": 425,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
+    "en_name": "Bo-Katan Kryze, Fighting For Mandalore",
+    "card_number": 426,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
     "en_name": "Stolen Landspeeder",
     "card_number": 430,
     "variant_type": "Hyperspace",
@@ -1851,6 +1867,14 @@
     "set_code": "SHD",
     "en_name": "Daring Raid",
     "card_number": 447,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
+    "en_name": "Detention Block Rescue",
+    "card_number": 449,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -1875,6 +1899,14 @@
     "set_code": "SHD",
     "en_name": "Triple Dark Raid",
     "card_number": 463,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
+    "en_name": "Liberated Slaves",
+    "card_number": 468,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -3257,6 +3289,14 @@
   },
   {
     "set_code": "TWI",
+    "en_name": "Grievous Reassembly",
+    "card_number": 346,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
     "en_name": "Reprocess",
     "card_number": 360,
     "variant_type": "Hyperspace",
@@ -3411,14 +3451,6 @@
     "set_code": "TWI",
     "en_name": "Execute Order 66",
     "card_number": 501,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "Drop In",
-    "card_number": 511,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
