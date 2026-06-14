@@ -1737,6 +1737,14 @@
   },
   {
     "set_code": "SHD",
+    "en_name": "Clan Saxon Gauntlet",
+    "card_number": 312,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
     "en_name": "Brutal Traditions",
     "card_number": 315,
     "variant_type": "Hyperspace",
@@ -1889,6 +1897,14 @@
   },
   {
     "set_code": "SHD",
+    "en_name": "Doctor Evazan, Wanted on Twelve Systems",
+    "card_number": 454,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
     "en_name": "Lurking TIE Phantom",
     "card_number": 456,
     "variant_type": "Hyperspace",
@@ -1915,6 +1931,14 @@
     "set_code": "SHD",
     "en_name": "Cloud-Rider",
     "card_number": 478,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
+    "en_name": "Chain Code Collector",
+    "card_number": 484,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -2220,6 +2244,14 @@
     "en_name": "Admiral Piett, Captain of the Executor",
     "card_number": 344,
     "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
+    "en_name": "Mon Mothma, Voice Of The Rebellion",
+    "card_number": 360,
+    "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
   },
@@ -3281,6 +3313,14 @@
   },
   {
     "set_code": "TWI",
+    "en_name": "Vulture Interceptor Wing",
+    "card_number": 336,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
     "en_name": "Roger Roger",
     "card_number": 342,
     "variant_type": "Hyperspace",
@@ -3313,6 +3353,14 @@
   },
   {
     "set_code": "TWI",
+    "en_name": "Huyang, Enduring Instructor",
+    "card_number": 380,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
     "en_name": "Osi Sobeck, Warden of the Citadel",
     "card_number": 385,
     "variant_type": "Hyperspace",
@@ -3339,6 +3387,14 @@
     "set_code": "TWI",
     "en_name": "Confederate Tri-Fighter",
     "card_number": 400,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
+    "en_name": "Jyn Erso, Stardust",
+    "card_number": 411,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
