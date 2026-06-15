@@ -1921,6 +1921,14 @@
   },
   {
     "set_code": "SHD",
+    "en_name": "Omega, Part of the Squad",
+    "card_number": 466,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
     "en_name": "Liberated Slaves",
     "card_number": 468,
     "variant_type": "Hyperspace",
@@ -1937,8 +1945,24 @@
   },
   {
     "set_code": "SHD",
+    "en_name": "Privateer Scyk",
+    "card_number": 480,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
     "en_name": "Chain Code Collector",
     "card_number": 484,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
+    "en_name": "Resourceful Pursuers",
+    "card_number": 486,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
