@@ -65,6 +65,14 @@
   },
   {
     "set_code": "JTL",
+    "en_name": "Echo Base Engineer",
+    "card_number": 44,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "JTL",
     "en_name": "Insurgent Saboteurs",
     "card_number": 168,
     "variant_type": "Standard",
@@ -1777,6 +1785,14 @@
   },
   {
     "set_code": "SHD",
+    "en_name": "Survivors' Gauntlet",
+    "card_number": 338,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
     "en_name": "Imprisoned",
     "card_number": 345,
     "variant_type": "Hyperspace",
@@ -1801,14 +1817,6 @@
   },
   {
     "set_code": "SHD",
-    "en_name": "Echo, Restored",
-    "card_number": 368,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
     "en_name": "Adelphi Patrol Wing",
     "card_number": 370,
     "variant_type": "Hyperspace",
@@ -1827,14 +1835,6 @@
     "set_code": "SHD",
     "en_name": "Price on Your Head",
     "card_number": 394,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Kylo's TIE Silencer, Ruthlessly Efficient",
-    "card_number": 404,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -1873,6 +1873,14 @@
   },
   {
     "set_code": "SHD",
+    "en_name": "Armed to the Teeth",
+    "card_number": 444,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
     "en_name": "Daring Raid",
     "card_number": 447,
     "variant_type": "Hyperspace",
@@ -1883,6 +1891,14 @@
     "set_code": "SHD",
     "en_name": "Detention Block Rescue",
     "card_number": 449,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
+    "en_name": "Bravado",
+    "card_number": 451,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -2233,6 +2249,14 @@
   },
   {
     "set_code": "SOR",
+    "en_name": "Del Meeko, Providing Overwatch",
+    "card_number": 300,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
     "en_name": "Kanan Jarrus, Revealed Jedi",
     "card_number": 313,
     "variant_type": "Hyperspace",
@@ -2260,6 +2284,22 @@
     "en_name": "Wilderness Fighter",
     "card_number": 329,
     "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
+    "en_name": "System Patrol Craft",
+    "card_number": 331,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
+    "en_name": "Repair",
+    "card_number": 339,
+    "variant_type": "Hyperspace Foil",
     "idProduct": null,
     "note": ""
   },
@@ -2313,6 +2353,14 @@
   },
   {
     "set_code": "SOR",
+    "en_name": "Force Lightning",
+    "card_number": 401,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
     "en_name": "Zeb Orrelios, Headstrong Warrior",
     "card_number": 409,
     "variant_type": "Hyperspace",
@@ -2329,6 +2377,14 @@
   },
   {
     "set_code": "SOR",
+    "en_name": "Jedha Agitator",
+    "card_number": 421,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
     "en_name": "Ardent Sympathizer",
     "card_number": 424,
     "variant_type": "Hyperspace",
@@ -2337,8 +2393,24 @@
   },
   {
     "set_code": "SOR",
+    "en_name": "Occupier Siege Tank",
+    "card_number": 428,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
     "en_name": "Bounty Hunter Crew",
     "card_number": 446,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
+    "en_name": "Chimaera, Flagship of the Seventh Fleet",
+    "card_number": 448,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -3329,6 +3401,14 @@
   },
   {
     "set_code": "TWI",
+    "en_name": "Barriss Offee, Unassuming Apprentice",
+    "card_number": 315,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
     "en_name": "Compassionate Senator",
     "card_number": 329,
     "variant_type": "Hyperspace",
@@ -3339,6 +3419,14 @@
     "set_code": "TWI",
     "en_name": "Vulture Interceptor Wing",
     "card_number": 336,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
+    "en_name": "Foresight",
+    "card_number": 341,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -3457,6 +3545,14 @@
   },
   {
     "set_code": "TWI",
+    "en_name": "Infiltrating Demolisher",
+    "card_number": 447,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
     "en_name": "Wartime Profiteering",
     "card_number": 453,
     "variant_type": "Hyperspace",
@@ -3475,6 +3571,14 @@
     "set_code": "TWI",
     "en_name": "Padmé Amidala, Pursuing Peace",
     "card_number": 457,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
+    "en_name": "Sabine Wren, You Can Count On Me",
+    "card_number": 460,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -3507,6 +3611,22 @@
     "set_code": "TWI",
     "en_name": "On Top of Things",
     "card_number": 484,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
+    "en_name": "In Pursuit",
+    "card_number": 486,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
+    "en_name": "Patrolling AAT",
+    "card_number": 495,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
