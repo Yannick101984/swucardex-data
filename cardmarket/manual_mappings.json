@@ -3497,14 +3497,6 @@
   },
   {
     "set_code": "TWI",
-    "en_name": "Confederate Tri-Fighter",
-    "card_number": 400,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
     "en_name": "Jyn Erso, Stardust",
     "card_number": 411,
     "variant_type": "Hyperspace",
