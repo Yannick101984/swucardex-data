@@ -73,6 +73,14 @@
   },
   {
     "set_code": "JTL",
+    "en_name": "Royal Security Fighter",
+    "card_number": 61,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "JTL",
     "en_name": "Insurgent Saboteurs",
     "card_number": 168,
     "variant_type": "Standard",
@@ -1793,6 +1801,14 @@
   },
   {
     "set_code": "SHD",
+    "en_name": "Vigilant Pursuit Craft",
+    "card_number": 339,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
     "en_name": "Imprisoned",
     "card_number": 345,
     "variant_type": "Hyperspace",
@@ -1891,6 +1907,14 @@
     "set_code": "SHD",
     "en_name": "Detention Block Rescue",
     "card_number": 449,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
+    "en_name": "Pillage",
+    "card_number": 450,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -2331,6 +2355,14 @@
     "set_code": "SOR",
     "en_name": "Patrolling V-Wing",
     "card_number": 375,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
+    "en_name": "Tactical Advantage",
+    "card_number": 388,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -3507,14 +3539,6 @@
     "set_code": "TWI",
     "en_name": "Bold Resistance",
     "card_number": 420,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "Kit Fisto, The Smiling Jedi",
-    "card_number": 432,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
