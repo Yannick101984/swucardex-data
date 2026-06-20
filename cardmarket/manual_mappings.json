@@ -201,6 +201,14 @@
   },
   {
     "set_code": "LOF",
+    "en_name": "Hyena Bomber",
+    "card_number": 158,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "LOF",
     "en_name": "It's Worse",
     "card_number": 264,
     "variant_type": "Standard",
@@ -1841,6 +1849,14 @@
   },
   {
     "set_code": "SHD",
+    "en_name": "The Marauder, Shuttling the Bad Batch",
+    "card_number": 371,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
     "en_name": "Collections Starhopper",
     "card_number": 380,
     "variant_type": "Hyperspace",
@@ -1851,6 +1867,14 @@
     "set_code": "SHD",
     "en_name": "Price on Your Head",
     "card_number": 394,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
+    "en_name": "Trandoshan Hunters",
+    "card_number": 409,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -1889,8 +1913,32 @@
   },
   {
     "set_code": "SHD",
+    "en_name": "Rhokai Gunship",
+    "card_number": 433,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
+    "en_name": "Clan Challengers",
+    "card_number": 438,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
     "en_name": "Armed to the Teeth",
     "card_number": 444,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
+    "en_name": "Death Mark",
+    "card_number": 445,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -1939,6 +1987,14 @@
     "set_code": "SHD",
     "en_name": "Doctor Evazan, Wanted on Twelve Systems",
     "card_number": 454,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
+    "en_name": "Hunter of the Haxion Brood",
+    "card_number": 455,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -3441,14 +3497,6 @@
   },
   {
     "set_code": "TWI",
-    "en_name": "Compassionate Senator",
-    "card_number": 329,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
     "en_name": "Vulture Interceptor Wing",
     "card_number": 336,
     "variant_type": "Hyperspace",
@@ -3545,6 +3593,14 @@
   },
   {
     "set_code": "TWI",
+    "en_name": "Twice the Pride",
+    "card_number": 422,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
     "en_name": "Aurra Sing, Crackshot Sniper",
     "card_number": 433,
     "variant_type": "Hyperspace",
@@ -3609,24 +3665,8 @@
   },
   {
     "set_code": "TWI",
-    "en_name": "B1 Security Team",
-    "card_number": 472,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
     "en_name": "Favorable Delegate",
     "card_number": 473,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "On Top of Things",
-    "card_number": 484,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
