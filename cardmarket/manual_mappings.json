@@ -2377,6 +2377,14 @@
   },
   {
     "set_code": "SOR",
+    "en_name": "Entrenched",
+    "card_number": 337,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
     "en_name": "Repair",
     "card_number": 339,
     "variant_type": "Hyperspace Foil",
@@ -3569,8 +3577,8 @@
   },
   {
     "set_code": "TWI",
-    "en_name": "Encouraging Leadership",
-    "card_number": 394,
+    "en_name": "OOM-Series Officer",
+    "card_number": 399,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
