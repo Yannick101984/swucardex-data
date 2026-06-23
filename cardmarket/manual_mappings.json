@@ -2009,14 +2009,6 @@
   },
   {
     "set_code": "SHD",
-    "en_name": "Bazine Netal, Spy for the First Order",
-    "card_number": 453,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
     "en_name": "Doctor Evazan, Wanted on Twelve Systems",
     "card_number": 454,
     "variant_type": "Hyperspace",
@@ -2611,14 +2603,6 @@
     "set_code": "SOR",
     "en_name": "Frontier AT-RT",
     "card_number": 507,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "Restock",
-    "card_number": 510,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
