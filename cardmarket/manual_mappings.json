@@ -1528,6 +1528,30 @@
     "note": ""
   },
   {
+    "set_code": "SEC",
+    "en_name": "Congress of Malastare",
+    "card_number": 64,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SEC",
+    "en_name": "Loan Shark",
+    "card_number": 222,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SEC",
+    "en_name": "Duchess's Investigators",
+    "card_number": 223,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
     "set_code": "SHD",
     "en_name": "Experience",
     "card_number": 1,
@@ -1753,14 +1777,6 @@
   },
   {
     "set_code": "SHD",
-    "en_name": "Supercommando Squad",
-    "card_number": 311,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
     "en_name": "Clan Saxon Gauntlet",
     "card_number": 312,
     "variant_type": "Hyperspace",
@@ -1825,6 +1841,14 @@
   },
   {
     "set_code": "SHD",
+    "en_name": "Fenn Rau, Protector of Concord Dawn",
+    "card_number": 341,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
     "en_name": "Imprisoned",
     "card_number": 345,
     "variant_type": "Hyperspace",
@@ -1873,6 +1897,14 @@
   },
   {
     "set_code": "SHD",
+    "en_name": "Discerning Veteran",
+    "card_number": 389,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
     "en_name": "Mercenary Company",
     "card_number": 390,
     "variant_type": "Hyperspace",
@@ -1899,6 +1931,14 @@
     "set_code": "SHD",
     "en_name": "Trandoshan Hunters",
     "card_number": 409,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
+    "en_name": "Headhunting",
+    "card_number": 414,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -2337,14 +2377,6 @@
   },
   {
     "set_code": "SOR",
-    "en_name": "Inferno Four, Unforgetting",
-    "card_number": 297,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
     "en_name": "Death Trooper",
     "card_number": 299,
     "variant_type": "Hyperspace",
@@ -2545,14 +2577,6 @@
   },
   {
     "set_code": "SOR",
-    "en_name": "Bounty Hunter Crew",
-    "card_number": 446,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
     "en_name": "Chimaera, Flagship of the Seventh Fleet",
     "card_number": 448,
     "variant_type": "Hyperspace",
@@ -2601,8 +2625,8 @@
   },
   {
     "set_code": "SOR",
-    "en_name": "Frontier AT-RT",
-    "card_number": 507,
+    "en_name": "Regional Sympathizers",
+    "card_number": 501,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -3747,14 +3771,6 @@
     "set_code": "TWI",
     "en_name": "Patrolling AAT",
     "card_number": 495,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "Battle Droid Legion",
-    "card_number": 498,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
