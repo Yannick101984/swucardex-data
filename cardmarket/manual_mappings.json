@@ -201,6 +201,14 @@
   },
   {
     "set_code": "LOF",
+    "en_name": "Relic Scavenger",
+    "card_number": 116,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "LOF",
     "en_name": "Hyena Bomber",
     "card_number": 158,
     "variant_type": "Standard",
@@ -3673,24 +3681,8 @@
   },
   {
     "set_code": "TWI",
-    "en_name": "Bold Resistance",
-    "card_number": 420,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
     "en_name": "Twice the Pride",
     "card_number": 422,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "Aurra Sing, Crackshot Sniper",
-    "card_number": 433,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -3771,14 +3763,6 @@
     "set_code": "TWI",
     "en_name": "Patrolling AAT",
     "card_number": 495,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "Droid Deployment",
-    "card_number": 499,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
