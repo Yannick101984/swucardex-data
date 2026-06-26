@@ -185,14 +185,6 @@
   },
   {
     "set_code": "LOF",
-    "en_name": "Padawan Starfighter",
-    "card_number": 60,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "LOF",
     "en_name": "Mynock",
     "card_number": 109,
     "variant_type": "Standard",
@@ -211,14 +203,6 @@
     "set_code": "LOF",
     "en_name": "Hyena Bomber",
     "card_number": 158,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "LOF",
-    "en_name": "It's Worse",
-    "card_number": 264,
     "variant_type": "Standard",
     "idProduct": null,
     "note": ""
@@ -1881,14 +1865,6 @@
   },
   {
     "set_code": "SHD",
-    "en_name": "Adelphi Patrol Wing",
-    "card_number": 370,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
     "en_name": "The Marauder, Shuttling the Bad Batch",
     "card_number": 371,
     "variant_type": "Hyperspace",
@@ -2145,14 +2121,6 @@
   },
   {
     "set_code": "SHD",
-    "en_name": "Fennec Shand, Loyal Sharpshooter",
-    "card_number": 488,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
     "en_name": "Look the Other Way",
     "card_number": 494,
     "variant_type": "Hyperspace",
@@ -2179,6 +2147,14 @@
     "set_code": "SHD",
     "en_name": "No Bargain",
     "card_number": 507,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
+    "en_name": "Wookiee Warrior",
+    "card_number": 511,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -2409,14 +2385,6 @@
   },
   {
     "set_code": "SOR",
-    "en_name": "Vigilant Honor Guards",
-    "card_number": 314,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
     "en_name": "Jedi Lightsaber",
     "card_number": 319,
     "variant_type": "Hyperspace",
@@ -2513,14 +2481,6 @@
   },
   {
     "set_code": "SOR",
-    "en_name": "Imperial Interceptor",
-    "card_number": 396,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
     "en_name": "Ruthless Raider",
     "card_number": 398,
     "variant_type": "Hyperspace Foil",
@@ -2545,8 +2505,8 @@
   },
   {
     "set_code": "SOR",
-    "en_name": "Mace Windu, Party Crasher",
-    "card_number": 412,
+    "en_name": "Guerilla Attack Pod",
+    "card_number": 411,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -3593,6 +3553,14 @@
   },
   {
     "set_code": "TWI",
+    "en_name": "Satine Kryze, Committed to Peace",
+    "card_number": 320,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
     "en_name": "Vulture Interceptor Wing",
     "card_number": 336,
     "variant_type": "Hyperspace",
@@ -3681,16 +3649,16 @@
   },
   {
     "set_code": "TWI",
-    "en_name": "Twice the Pride",
-    "card_number": 422,
+    "en_name": "Mister Bones, I Performed Violence",
+    "card_number": 421,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
   },
   {
     "set_code": "TWI",
-    "en_name": "Soulless One, Customized for Grievous",
-    "card_number": 445,
+    "en_name": "Twice the Pride",
+    "card_number": 422,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -3747,6 +3715,14 @@
     "set_code": "TWI",
     "en_name": "Favorable Delegate",
     "card_number": 473,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
+    "en_name": "Lux Bonteri, Renegade Separatist",
+    "card_number": 475,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
