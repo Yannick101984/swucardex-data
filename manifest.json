@@ -3,8 +3,8 @@
   "lastUpdated": "2026-06-27",
   "latestMainSet": "law",
   "announcement": {
-    "id": "ann-1782573514",
-    "text": "Nouveau set ajouté : Cendres de l’Empire Weekly Play - ASHP",
+    "id": "ann-1782573827",
+    "text": "Nouvelles cartes ajoutées - ASH",
     "color": "#7C3AED",
     "url": ""
   },
@@ -284,7 +284,7 @@
     },
     {
       "id": "ash",
-      "dataVersion": 3,
+      "dataVersion": 4,
       "code": "ASH",
       "name": "Cendres de l'Empire",
       "type": "main",
