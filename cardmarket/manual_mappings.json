@@ -80,14 +80,6 @@
     "note": ""
   },
   {
-    "set_code": "JTL",
-    "en_name": "Insurgent Saboteurs",
-    "card_number": 168,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
     "set_code": "LAW",
     "en_name": "Credit",
     "card_number": 1,
@@ -180,14 +172,6 @@
     "en_name": "The Force",
     "card_number": 6,
     "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "LOF",
-    "en_name": "Mynock",
-    "card_number": 109,
-    "variant_type": "Standard",
     "idProduct": null,
     "note": ""
   },
@@ -1521,8 +1505,40 @@
   },
   {
     "set_code": "SEC",
+    "en_name": "Luthen Rael, Don't You Want to Fight For Real?",
+    "card_number": 13,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SEC",
+    "en_name": "Uscru Entertainment District",
+    "card_number": 20,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SEC",
     "en_name": "Congress of Malastare",
     "card_number": 64,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SEC",
+    "en_name": "Coruscant Undercity Police",
+    "card_number": 167,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SEC",
+    "en_name": "Emissaries from Ryloth",
+    "card_number": 206,
     "variant_type": "Standard",
     "idProduct": null,
     "note": ""
@@ -1539,6 +1555,22 @@
     "set_code": "SEC",
     "en_name": "Duchess's Investigators",
     "card_number": 223,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SEC",
+    "en_name": "Remote Escort Tank",
+    "card_number": 255,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SEC",
+    "en_name": "Inspector's Shuttle",
+    "card_number": 260,
     "variant_type": "Standard",
     "idProduct": null,
     "note": ""
@@ -1977,6 +2009,14 @@
   },
   {
     "set_code": "SHD",
+    "en_name": "Hunting Nexu",
+    "card_number": 437,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
     "en_name": "Clan Challengers",
     "card_number": 438,
     "variant_type": "Hyperspace",
@@ -2377,6 +2417,14 @@
   },
   {
     "set_code": "SOR",
+    "en_name": "AT-AT Suppressor",
+    "card_number": 305,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
     "en_name": "Kanan Jarrus, Revealed Jedi",
     "card_number": 313,
     "variant_type": "Hyperspace",
@@ -2460,6 +2508,14 @@
     "en_name": "Wedge Antilles, Star of the Rebellion",
     "card_number": 364,
     "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
+    "en_name": "Steadfast Battalion",
+    "card_number": 380,
+    "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
   },
@@ -3577,14 +3633,6 @@
   },
   {
     "set_code": "TWI",
-    "en_name": "Roger Roger",
-    "card_number": 342,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
     "en_name": "Grievous Reassembly",
     "card_number": 346,
     "variant_type": "Hyperspace",
@@ -3723,6 +3771,14 @@
     "set_code": "TWI",
     "en_name": "Lux Bonteri, Renegade Separatist",
     "card_number": 475,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
+    "en_name": "Sanctioner's Shuttle",
+    "card_number": 478,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
