@@ -1825,14 +1825,6 @@
   },
   {
     "set_code": "SHD",
-    "en_name": "Midnight Repairs",
-    "card_number": 329,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
     "en_name": "Val, Loyal to the End",
     "card_number": 333,
     "variant_type": "Hyperspace",
@@ -1929,14 +1921,6 @@
   },
   {
     "set_code": "SHD",
-    "en_name": "Price on Your Head",
-    "card_number": 394,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
     "en_name": "Take Captive",
     "card_number": 400,
     "variant_type": "Hyperspace",
@@ -1985,8 +1969,8 @@
   },
   {
     "set_code": "SHD",
-    "en_name": "Stolen Landspeeder",
-    "card_number": 430,
+    "en_name": "Reckless Gunslinger",
+    "card_number": 429,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -2121,6 +2105,14 @@
   },
   {
     "set_code": "SHD",
+    "en_name": "Coruscant Dissident",
+    "card_number": 467,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
     "en_name": "Liberated Slaves",
     "card_number": 468,
     "variant_type": "Hyperspace",
@@ -2139,6 +2131,14 @@
     "set_code": "SHD",
     "en_name": "Privateer Scyk",
     "card_number": 480,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
+    "en_name": "Frontier Trader",
+    "card_number": 482,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -2521,6 +2521,14 @@
   },
   {
     "set_code": "SOR",
+    "en_name": "Academy Training",
+    "card_number": 384,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
     "en_name": "Tactical Advantage",
     "card_number": 388,
     "variant_type": "Hyperspace",
@@ -2595,6 +2603,14 @@
     "set_code": "SOR",
     "en_name": "Occupier Siege Tank",
     "card_number": 428,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
+    "en_name": "Seventh Fleet Defender",
+    "card_number": 443,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -3755,14 +3771,6 @@
     "set_code": "TWI",
     "en_name": "Clear the Field",
     "card_number": 464,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "Favorable Delegate",
-    "card_number": 473,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
