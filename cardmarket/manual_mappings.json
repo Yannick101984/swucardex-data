@@ -80,6 +80,22 @@
     "note": ""
   },
   {
+    "set_code": "JTL",
+    "en_name": "Fight Fire With Fire",
+    "card_number": 173,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "JTL",
+    "en_name": "Blade Squadron B-Wing",
+    "card_number": 199,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
     "set_code": "LAW",
     "en_name": "Credit",
     "card_number": 1,
@@ -1529,6 +1545,14 @@
   },
   {
     "set_code": "SEC",
+    "en_name": "Raxian Assembly",
+    "card_number": 118,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SEC",
     "en_name": "Coruscant Undercity Police",
     "card_number": 167,
     "variant_type": "Standard",
@@ -1571,6 +1595,14 @@
     "set_code": "SEC",
     "en_name": "Inspector's Shuttle",
     "card_number": 260,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SEC",
+    "en_name": "Inspiring Senator",
+    "card_number": 261,
     "variant_type": "Standard",
     "idProduct": null,
     "note": ""
@@ -1897,14 +1929,6 @@
   },
   {
     "set_code": "SHD",
-    "en_name": "Collections Starhopper",
-    "card_number": 380,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
     "en_name": "Discerning Veteran",
     "card_number": 389,
     "variant_type": "Hyperspace",
@@ -2179,14 +2203,6 @@
     "set_code": "SHD",
     "en_name": "Hutt's Henchmen",
     "card_number": 504,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "No Bargain",
-    "card_number": 507,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -3729,6 +3745,14 @@
   },
   {
     "set_code": "TWI",
+    "en_name": "Relentless Rocket Droid",
+    "card_number": 430,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
     "en_name": "Infiltrating Demolisher",
     "card_number": 447,
     "variant_type": "Hyperspace",
@@ -3809,16 +3833,16 @@
   },
   {
     "set_code": "TWI",
-    "en_name": "Execute Order 66",
-    "card_number": 501,
+    "en_name": "Volunteer Soldier",
+    "card_number": 514,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
   },
   {
     "set_code": "TWI",
-    "en_name": "Volunteer Soldier",
-    "card_number": 514,
+    "en_name": "Private Manufacturing",
+    "card_number": 517,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
