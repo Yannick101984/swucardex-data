@@ -1977,22 +1977,6 @@
   },
   {
     "set_code": "SHD",
-    "en_name": "Cripple Authority",
-    "card_number": 425,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Bo-Katan Kryze, Fighting For Mandalore",
-    "card_number": 426,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
     "en_name": "Reckless Gunslinger",
     "card_number": 429,
     "variant_type": "Hyperspace",
@@ -2187,6 +2171,14 @@
     "set_code": "SHD",
     "en_name": "Look the Other Way",
     "card_number": 494,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
+    "en_name": "Ma Klounkee",
+    "card_number": 496,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -3665,16 +3657,16 @@
   },
   {
     "set_code": "TWI",
-    "en_name": "Grievous Reassembly",
-    "card_number": 346,
+    "en_name": "Reprocess",
+    "card_number": 360,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
   },
   {
     "set_code": "TWI",
-    "en_name": "Reprocess",
-    "card_number": 360,
+    "en_name": "Republic Defense Carrier",
+    "card_number": 369,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
