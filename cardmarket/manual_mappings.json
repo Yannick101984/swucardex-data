@@ -193,6 +193,14 @@
   },
   {
     "set_code": "LOF",
+    "en_name": "Cal Kestis, I Can't Keep Hiding",
+    "card_number": 15,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "LOF",
     "en_name": "Relic Scavenger",
     "card_number": 116,
     "variant_type": "Standard",
@@ -1585,6 +1593,22 @@
   },
   {
     "set_code": "SEC",
+    "en_name": "Sneaking Suspicion",
+    "card_number": 226,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SEC",
+    "en_name": "Political Bully",
+    "card_number": 241,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SEC",
     "en_name": "Remote Escort Tank",
     "card_number": 255,
     "variant_type": "Standard",
@@ -2065,14 +2089,6 @@
   },
   {
     "set_code": "SHD",
-    "en_name": "Doctor Evazan, Wanted on Twelve Systems",
-    "card_number": 454,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
     "en_name": "Hunter of the Haxion Brood",
     "card_number": 455,
     "variant_type": "Hyperspace",
@@ -2147,14 +2163,6 @@
     "set_code": "SHD",
     "en_name": "Frontier Trader",
     "card_number": 482,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Chain Code Collector",
-    "card_number": 484,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -2497,14 +2505,6 @@
   },
   {
     "set_code": "SOR",
-    "en_name": "Mon Mothma, Voice Of The Rebellion",
-    "card_number": 360,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
     "en_name": "Echo Base Defender",
     "card_number": 362,
     "variant_type": "Hyperspace",
@@ -2563,14 +2563,6 @@
     "set_code": "SOR",
     "en_name": "Force Lightning",
     "card_number": 401,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "Zeb Orrelios, Headstrong Warrior",
-    "card_number": 409,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -3681,14 +3673,6 @@
   },
   {
     "set_code": "TWI",
-    "en_name": "Huyang, Enduring Instructor",
-    "card_number": 380,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
     "en_name": "Osi Sobeck, Warden of the Citadel",
     "card_number": 385,
     "variant_type": "Hyperspace",
@@ -3713,14 +3697,6 @@
   },
   {
     "set_code": "TWI",
-    "en_name": "Jyn Erso, Stardust",
-    "card_number": 411,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
     "en_name": "Mister Bones, I Performed Violence",
     "card_number": 421,
     "variant_type": "Hyperspace",
@@ -3739,6 +3715,14 @@
     "set_code": "TWI",
     "en_name": "Relentless Rocket Droid",
     "card_number": 430,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
+    "en_name": "Daring Raid",
+    "card_number": 437,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
