@@ -81,6 +81,14 @@
   },
   {
     "set_code": "JTL",
+    "en_name": "Leia Organa, Pilots, To Your Stations",
+    "card_number": 97,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "JTL",
     "en_name": "Fight Fire With Fire",
     "card_number": 173,
     "variant_type": "Standard",
@@ -1897,6 +1905,14 @@
   },
   {
     "set_code": "SHD",
+    "en_name": "Niima Outpost Constables",
+    "card_number": 337,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
     "en_name": "Survivors' Gauntlet",
     "card_number": 338,
     "variant_type": "Hyperspace",
@@ -1953,6 +1969,14 @@
   },
   {
     "set_code": "SHD",
+    "en_name": "Weequay Pirate Gang",
+    "card_number": 388,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
     "en_name": "Discerning Veteran",
     "card_number": 389,
     "variant_type": "Hyperspace",
@@ -1963,6 +1987,14 @@
     "set_code": "SHD",
     "en_name": "Mercenary Company",
     "card_number": 390,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
+    "en_name": "Moment of Glory",
+    "card_number": 399,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -2081,14 +2113,6 @@
   },
   {
     "set_code": "SHD",
-    "en_name": "Bravado",
-    "card_number": 451,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
     "en_name": "Hunter of the Haxion Brood",
     "card_number": 455,
     "variant_type": "Hyperspace",
@@ -2099,6 +2123,14 @@
     "set_code": "SHD",
     "en_name": "Lurking TIE Phantom",
     "card_number": 456,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
+    "en_name": "4-LOM, Bounty Hunter for Hire",
+    "card_number": 457,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -2121,14 +2153,6 @@
   },
   {
     "set_code": "SHD",
-    "en_name": "Omega, Part of the Squad",
-    "card_number": 466,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
     "en_name": "Coruscant Dissident",
     "card_number": 467,
     "variant_type": "Hyperspace",
@@ -2139,6 +2163,14 @@
     "set_code": "SHD",
     "en_name": "Liberated Slaves",
     "card_number": 468,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
+    "en_name": "Criminal Muscle",
+    "card_number": 477,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -2163,14 +2195,6 @@
     "set_code": "SHD",
     "en_name": "Frontier Trader",
     "card_number": 482,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Resourceful Pursuers",
-    "card_number": 486,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -2425,14 +2449,6 @@
   },
   {
     "set_code": "SOR",
-    "en_name": "Del Meeko, Providing Overwatch",
-    "card_number": 300,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
     "en_name": "AT-AT Suppressor",
     "card_number": 305,
     "variant_type": "Hyperspace",
@@ -2561,14 +2577,6 @@
   },
   {
     "set_code": "SOR",
-    "en_name": "Force Lightning",
-    "card_number": 401,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
     "en_name": "Guerilla Attack Pod",
     "card_number": 411,
     "variant_type": "Hyperspace",
@@ -2611,14 +2619,6 @@
     "set_code": "SOR",
     "en_name": "Seventh Fleet Defender",
     "card_number": 443,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "Chimaera, Flagship of the Seventh Fleet",
-    "card_number": 448,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -3697,6 +3697,14 @@
   },
   {
     "set_code": "TWI",
+    "en_name": "Mace Windu's Lightsaber",
+    "card_number": 419,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
     "en_name": "Mister Bones, I Performed Violence",
     "card_number": 421,
     "variant_type": "Hyperspace",
@@ -3793,16 +3801,8 @@
   },
   {
     "set_code": "TWI",
-    "en_name": "In Pursuit",
-    "card_number": 486,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "Patrolling AAT",
-    "card_number": 495,
+    "en_name": "Prisoner of War",
+    "card_number": 491,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
