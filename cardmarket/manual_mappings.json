@@ -3617,14 +3617,6 @@
   },
   {
     "set_code": "TWI",
-    "en_name": "Barriss Offee, Unassuming Apprentice",
-    "card_number": 315,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
     "en_name": "Satine Kryze, Committed to Peace",
     "card_number": 320,
     "variant_type": "Hyperspace",
@@ -3635,14 +3627,6 @@
     "set_code": "TWI",
     "en_name": "Vulture Interceptor Wing",
     "card_number": 336,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "Foresight",
-    "card_number": 341,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -3731,14 +3715,6 @@
     "set_code": "TWI",
     "en_name": "Daring Raid",
     "card_number": 437,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "Infiltrating Demolisher",
-    "card_number": 447,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
