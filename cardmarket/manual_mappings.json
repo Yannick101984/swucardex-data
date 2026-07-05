@@ -65,6 +65,14 @@
   },
   {
     "set_code": "JTL",
+    "en_name": "Power from Pain",
+    "card_number": 42,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "JTL",
     "en_name": "Echo Base Engineer",
     "card_number": 44,
     "variant_type": "Standard",
@@ -1553,6 +1561,14 @@
   },
   {
     "set_code": "SEC",
+    "en_name": "Senate Rotunda",
+    "card_number": 22,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SEC",
     "en_name": "Congress of Malastare",
     "card_number": 64,
     "variant_type": "Standard",
@@ -1859,6 +1875,14 @@
     "set_code": "SHD",
     "en_name": "Phase-III Dark Trooper",
     "card_number": 12,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
+    "en_name": "Remote Village",
+    "card_number": 298,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -2595,14 +2619,6 @@
     "set_code": "SOR",
     "en_name": "Jedha Agitator",
     "card_number": 421,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "Ardent Sympathizer",
-    "card_number": 424,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -3627,6 +3643,14 @@
     "set_code": "TWI",
     "en_name": "Vulture Interceptor Wing",
     "card_number": 336,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
+    "en_name": "Kalani, Analytical General",
+    "card_number": 357,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
