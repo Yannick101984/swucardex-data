@@ -112,6 +112,14 @@
     "note": ""
   },
   {
+    "set_code": "JTL",
+    "en_name": "Independent Smuggler",
+    "card_number": 211,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
     "set_code": "LAW",
     "en_name": "Credit",
     "card_number": 1,
@@ -1633,6 +1641,14 @@
   },
   {
     "set_code": "SEC",
+    "en_name": "Rebel Pathfinder",
+    "card_number": 250,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SEC",
     "en_name": "Remote Escort Tank",
     "card_number": 255,
     "variant_type": "Standard",
@@ -1945,14 +1961,6 @@
   },
   {
     "set_code": "SHD",
-    "en_name": "Vigilant Pursuit Craft",
-    "card_number": 339,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
     "en_name": "Fenn Rau, Protector of Concord Dawn",
     "card_number": 341,
     "variant_type": "Hyperspace",
@@ -2123,14 +2131,6 @@
     "set_code": "SHD",
     "en_name": "Detention Block Rescue",
     "card_number": 449,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Pillage",
-    "card_number": 450,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -2571,14 +2571,6 @@
     "set_code": "SOR",
     "en_name": "Academy Training",
     "card_number": 384,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "Tactical Advantage",
-    "card_number": 388,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -3628,6 +3620,14 @@
     "en_name": "General Grievous, General of the Droid Armies",
     "card_number": 15,
     "variant_type": "Prerelease Judge",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
+    "en_name": "Wartime Trade Official",
+    "card_number": 305,
+    "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
   },
