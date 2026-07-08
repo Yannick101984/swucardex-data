@@ -1633,6 +1633,14 @@
   },
   {
     "set_code": "SEC",
+    "en_name": "High Command Councilor",
+    "card_number": 249,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SEC",
     "en_name": "Rebel Pathfinder",
     "card_number": 250,
     "variant_type": "Standard",
@@ -2585,6 +2593,14 @@
   },
   {
     "set_code": "SOR",
+    "en_name": "Auzituck Liberator Gunship",
+    "card_number": 457,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
     "en_name": "Cantina Bouncer",
     "card_number": 464,
     "variant_type": "Hyperspace",
@@ -2611,6 +2627,14 @@
     "set_code": "SOR",
     "en_name": "Crafty Smuggler",
     "card_number": 469,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
+    "en_name": "Smuggling Compartment",
+    "card_number": 476,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -3643,14 +3667,6 @@
     "set_code": "TWI",
     "en_name": "General's Blade",
     "card_number": 391,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "OOM-Series Officer",
-    "card_number": 399,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
