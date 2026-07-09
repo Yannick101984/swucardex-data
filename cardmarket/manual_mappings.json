@@ -1577,6 +1577,14 @@
   },
   {
     "set_code": "SEC",
+    "en_name": "Umbaran Mobile Cannon",
+    "card_number": 67,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SEC",
     "en_name": "Raxian Assembly",
     "card_number": 118,
     "variant_type": "Standard",
@@ -1587,6 +1595,14 @@
     "set_code": "SEC",
     "en_name": "Coruscant Undercity Police",
     "card_number": 167,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SEC",
+    "en_name": "Unauthorized Investigation",
+    "card_number": 181,
     "variant_type": "Standard",
     "idProduct": null,
     "note": ""
@@ -2161,6 +2177,14 @@
   },
   {
     "set_code": "SHD",
+    "en_name": "Principled Outlaw",
+    "card_number": 469,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
     "en_name": "Criminal Muscle",
     "card_number": 477,
     "variant_type": "Hyperspace",
@@ -2497,25 +2521,17 @@
   },
   {
     "set_code": "SOR",
-    "en_name": "Battlefield Marine",
-    "card_number": 359,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "Echo Base Defender",
-    "card_number": 362,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
     "en_name": "Wedge Antilles, Star of the Rebellion",
     "card_number": 364,
     "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
+    "en_name": "Patrolling V-Wing",
+    "card_number": 375,
+    "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
   },
@@ -2561,14 +2577,6 @@
   },
   {
     "set_code": "SOR",
-    "en_name": "Heroic Sacrifice",
-    "card_number": 413,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
     "en_name": "Jedha Agitator",
     "card_number": 421,
     "variant_type": "Hyperspace",
@@ -2601,14 +2609,6 @@
   },
   {
     "set_code": "SOR",
-    "en_name": "Cantina Bouncer",
-    "card_number": 464,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
     "en_name": "Jawa Scavenger",
     "card_number": 467,
     "variant_type": "Hyperspace",
@@ -2625,24 +2625,8 @@
   },
   {
     "set_code": "SOR",
-    "en_name": "Crafty Smuggler",
-    "card_number": 469,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
     "en_name": "Smuggling Compartment",
     "card_number": 476,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "Surprise Strike",
-    "card_number": 482,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -3737,6 +3721,14 @@
   },
   {
     "set_code": "TWI",
+    "en_name": "Republic Attack Pod",
+    "card_number": 462,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
     "en_name": "Clear the Field",
     "card_number": 464,
     "variant_type": "Hyperspace",
@@ -3763,14 +3755,6 @@
     "set_code": "TWI",
     "en_name": "Prisoner of War",
     "card_number": 491,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "Volunteer Soldier",
-    "card_number": 514,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
