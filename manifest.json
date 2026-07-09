@@ -3,10 +3,11 @@
   "lastUpdated": "2026-06-28",
   "latestMainSet": "ash",
   "announcement": {
-    "id": "ann-1782573827",
-    "text": "Nouvelles cartes ajoutées - ASH",
-    "color": "#7C3AED",
-    "url": ""
+  "id": "ann-v1.1.0-update",
+  "text": "v1.1.0 disponible ! Historique Combat, Export CSV/PDF et bien plus.",
+  "color": "#1C7C54",
+  "url": "https://apps.apple.com/app/id6762050359"
+
   },
   "sets": [
     {
