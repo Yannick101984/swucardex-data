@@ -120,6 +120,14 @@
     "note": ""
   },
   {
+    "set_code": "JTL",
+    "en_name": "Coordinated Front",
+    "card_number": 253,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
     "set_code": "LAW",
     "en_name": "Credit",
     "card_number": 1,
@@ -227,6 +235,14 @@
     "set_code": "LOF",
     "en_name": "Relic Scavenger",
     "card_number": 116,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "LOF",
+    "en_name": "A Precarious Predicament",
+    "card_number": 222,
     "variant_type": "Standard",
     "idProduct": null,
     "note": ""
