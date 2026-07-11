@@ -1585,6 +1585,14 @@
   },
   {
     "set_code": "SEC",
+    "en_name": "Populist Champion",
+    "card_number": 44,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SEC",
     "en_name": "Congress of Malastare",
     "card_number": 64,
     "variant_type": "Standard",
@@ -1601,8 +1609,32 @@
   },
   {
     "set_code": "SEC",
+    "en_name": "Theed Security",
+    "card_number": 95,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SEC",
+    "en_name": "Taylander Shuttle",
+    "card_number": 115,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SEC",
     "en_name": "Raxian Assembly",
     "card_number": 118,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SEC",
+    "en_name": "Ferrix Uprising",
+    "card_number": 130,
     "variant_type": "Standard",
     "idProduct": null,
     "note": ""
@@ -1641,16 +1673,16 @@
   },
   {
     "set_code": "SEC",
-    "en_name": "Duchess's Investigators",
-    "card_number": 223,
+    "en_name": "Sneaking Suspicion",
+    "card_number": 226,
     "variant_type": "Standard",
     "idProduct": null,
     "note": ""
   },
   {
     "set_code": "SEC",
-    "en_name": "Sneaking Suspicion",
-    "card_number": 226,
+    "en_name": "Kreia's Whispers",
+    "card_number": 232,
     "variant_type": "Standard",
     "idProduct": null,
     "note": ""
@@ -1993,16 +2025,16 @@
   },
   {
     "set_code": "SHD",
-    "en_name": "Fenn Rau, Protector of Concord Dawn",
-    "card_number": 341,
+    "en_name": "Imprisoned",
+    "card_number": 345,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
   },
   {
     "set_code": "SHD",
-    "en_name": "Imprisoned",
-    "card_number": 345,
+    "en_name": "Warbird Stowaway",
+    "card_number": 355,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -2017,24 +2049,8 @@
   },
   {
     "set_code": "SHD",
-    "en_name": "Sundari Peacekeeper",
-    "card_number": 367,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
     "en_name": "Weequay Pirate Gang",
     "card_number": 388,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Discerning Veteran",
-    "card_number": 389,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -2651,6 +2667,22 @@
     "set_code": "SOR",
     "en_name": "Regional Sympathizers",
     "card_number": 501,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
+    "en_name": "Volunteer Soldier",
+    "card_number": 506,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
+    "en_name": "Frontier AT-RT",
+    "card_number": 507,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
