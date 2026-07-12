@@ -1617,6 +1617,14 @@
   },
   {
     "set_code": "SEC",
+    "en_name": "Dressellian Commandos",
+    "card_number": 100,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SEC",
     "en_name": "Taylander Shuttle",
     "card_number": 115,
     "variant_type": "Standard",
@@ -1689,6 +1697,14 @@
   },
   {
     "set_code": "SEC",
+    "en_name": "Undercover Operation",
+    "card_number": 236,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SEC",
     "en_name": "Political Bully",
     "card_number": 241,
     "variant_type": "Standard",
@@ -1715,6 +1731,14 @@
     "set_code": "SEC",
     "en_name": "Remote Escort Tank",
     "card_number": 255,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SEC",
+    "en_name": "ASP Laborer",
+    "card_number": 259,
     "variant_type": "Standard",
     "idProduct": null,
     "note": ""
@@ -2257,22 +2281,6 @@
   },
   {
     "set_code": "SHD",
-    "en_name": "Hutt's Henchmen",
-    "card_number": 504,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Wookiee Warrior",
-    "card_number": 511,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
     "en_name": "Street Gang Recruiter",
     "card_number": 521,
     "variant_type": "Hyperspace",
@@ -2449,6 +2457,14 @@
   },
   {
     "set_code": "SOR",
+    "en_name": "Grand Inquisitor, Hunting the Jedi",
+    "card_number": 277,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
     "en_name": "Security Complex",
     "card_number": 285,
     "variant_type": "Hyperspace Foil",
@@ -2491,22 +2507,6 @@
     "set_code": "SOR",
     "en_name": "AT-AT Suppressor",
     "card_number": 305,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "Kanan Jarrus, Revealed Jedi",
-    "card_number": 313,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "Jedi Lightsaber",
-    "card_number": 319,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -2659,6 +2659,22 @@
     "set_code": "SOR",
     "en_name": "Smuggling Compartment",
     "card_number": 476,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
+    "en_name": "TIE/ln Fighter",
+    "card_number": 487,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
+    "en_name": "TIE Advanced",
+    "card_number": 492,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -3635,14 +3651,6 @@
     "set_code": "TWI",
     "en_name": "Wartime Trade Official",
     "card_number": 305,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "Satine Kryze, Committed to Peace",
-    "card_number": 320,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
