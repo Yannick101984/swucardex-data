@@ -1577,14 +1577,6 @@
   },
   {
     "set_code": "SEC",
-    "en_name": "Senate Rotunda",
-    "card_number": 22,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SEC",
     "en_name": "Populist Champion",
     "card_number": 44,
     "variant_type": "Standard",
@@ -1609,6 +1601,14 @@
   },
   {
     "set_code": "SEC",
+    "en_name": "Cruel Commandos",
+    "card_number": 86,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SEC",
     "en_name": "Theed Security",
     "card_number": 95,
     "variant_type": "Standard",
@@ -1619,6 +1619,14 @@
     "set_code": "SEC",
     "en_name": "Dressellian Commandos",
     "card_number": 100,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SEC",
+    "en_name": "Kino Loy, You Answer to Me",
+    "card_number": 114,
     "variant_type": "Standard",
     "idProduct": null,
     "note": ""
@@ -2177,14 +2185,6 @@
   },
   {
     "set_code": "SHD",
-    "en_name": "Detention Block Rescue",
-    "card_number": 449,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
     "en_name": "Lurking TIE Phantom",
     "card_number": 456,
     "variant_type": "Hyperspace",
@@ -2545,6 +2545,14 @@
   },
   {
     "set_code": "SOR",
+    "en_name": "Takedown",
+    "card_number": 342,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
     "en_name": "Admiral Piett, Captain of the Executor",
     "card_number": 344,
     "variant_type": "Hyperspace Foil",
@@ -2596,6 +2604,14 @@
     "en_name": "Ruthless Raider",
     "card_number": 398,
     "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
+    "en_name": "Force Choke",
+    "card_number": 402,
+    "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
   },
