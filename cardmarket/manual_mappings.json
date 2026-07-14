@@ -1625,6 +1625,14 @@
   },
   {
     "set_code": "SEC",
+    "en_name": "Daro Commando",
+    "card_number": 113,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SEC",
     "en_name": "Kino Loy, You Answer to Me",
     "card_number": 114,
     "variant_type": "Standard",
@@ -1657,6 +1665,14 @@
   },
   {
     "set_code": "SEC",
+    "en_name": "Republic Aurek Starfighter",
+    "card_number": 166,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SEC",
     "en_name": "Coruscant Undercity Police",
     "card_number": 167,
     "variant_type": "Standard",
@@ -1667,6 +1683,22 @@
     "set_code": "SEC",
     "en_name": "Unauthorized Investigation",
     "card_number": 181,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SEC",
+    "en_name": "Bravo Squadron Fighter",
+    "card_number": 199,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SEC",
+    "en_name": "Junior Senator",
+    "card_number": 200,
     "variant_type": "Standard",
     "idProduct": null,
     "note": ""
@@ -1731,6 +1763,14 @@
     "set_code": "SEC",
     "en_name": "Rebel Pathfinder",
     "card_number": 250,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SEC",
+    "en_name": "Heroic ARC-170",
+    "card_number": 254,
     "variant_type": "Standard",
     "idProduct": null,
     "note": ""
@@ -2051,6 +2091,14 @@
     "set_code": "SHD",
     "en_name": "Survivors' Gauntlet",
     "card_number": 338,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
+    "en_name": "Foundling",
+    "card_number": 343,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -2585,6 +2633,14 @@
   },
   {
     "set_code": "SOR",
+    "en_name": "Mercenary Company",
+    "card_number": 381,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
     "en_name": "Academy Training",
     "card_number": 384,
     "variant_type": "Hyperspace",
@@ -2635,6 +2691,22 @@
     "set_code": "SOR",
     "en_name": "Occupier Siege Tank",
     "card_number": 428,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
+    "en_name": "Power Failure",
+    "card_number": 433,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
+    "en_name": "ISB Agent",
+    "card_number": 439,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
