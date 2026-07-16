@@ -97,14 +97,6 @@
   },
   {
     "set_code": "JTL",
-    "en_name": "Fight Fire With Fire",
-    "card_number": 173,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "JTL",
     "en_name": "Blade Squadron B-Wing",
     "card_number": 199,
     "variant_type": "Standard",
@@ -235,6 +227,14 @@
     "set_code": "LOF",
     "en_name": "Relic Scavenger",
     "card_number": 116,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "LOF",
+    "en_name": "Thralls of the Coven",
+    "card_number": 136,
     "variant_type": "Standard",
     "idProduct": null,
     "note": ""
@@ -1689,6 +1689,14 @@
   },
   {
     "set_code": "SEC",
+    "en_name": "ISB Agent",
+    "card_number": 184,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SEC",
     "en_name": "Bravo Squadron Fighter",
     "card_number": 199,
     "variant_type": "Standard",
@@ -2113,8 +2121,24 @@
   },
   {
     "set_code": "SHD",
+    "en_name": "Covert Strength",
+    "card_number": 348,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
     "en_name": "Warbird Stowaway",
     "card_number": 355,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
+    "en_name": "Clone Deserter",
+    "card_number": 364,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -2299,14 +2323,6 @@
     "set_code": "SHD",
     "en_name": "Privateer Scyk",
     "card_number": 480,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Frontier Trader",
-    "card_number": 482,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -3891,6 +3907,14 @@
     "set_code": "TWI",
     "en_name": "Sanctioner's Shuttle",
     "card_number": 478,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
+    "en_name": "Unmasking the Conspiracy",
+    "card_number": 488,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
