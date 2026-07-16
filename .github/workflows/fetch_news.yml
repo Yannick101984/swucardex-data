@@ -1,0 +1,41 @@
+name: Mettre à jour news.json (articles SWU)
+
+on:
+  schedule:
+    - cron: "15 1 * * *"   # tous les jours à 01h15 UTC
+  workflow_dispatch:        # déclenchement manuel depuis GitHub
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    strategy:
+      fail-fast: false
+      matrix:
+        branch: [main, staging]
+
+    steps:
+      - name: Checkout ${{ matrix.branch }}
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ matrix.branch }}
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Récupérer les articles et mettre à jour news.json
+        run: python3 scripts/fetch_news.py --repo-root . --page-size 20
+
+      - name: Commit et push si modifié
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add news.json
+          git diff --cached --quiet && echo "Aucun changement." || (
+            git commit -m "Auto: news.json mis à jour [$(date '+%Y-%m-%d')]"
+            git push origin HEAD:${{ matrix.branch }}
+          )

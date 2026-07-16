@@ -1,10 +1,1202 @@
 [
   {
+    "id": "welcome-to-ashes-fr",
+    "title": "Welcome to Ashes",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_Article_Behind_Unlimited_0608_preview_Chimera_7ac9e36b90.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/welcome-to-ashes-fr",
+    "date": "2026-07-15",
+    "summary": "The Star Wars™: Unlimited Designers Present a Crash Course into the Ashes of the Empire Metagame"
+  },
+  {
+    "id": "shifting-seasons-fr",
+    "title": "Shifting Seasons",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_Article_OP_Season_2_Preview_Marrok_3fd20d4e5e.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/shifting-seasons-fr",
+    "date": "2026-06-17",
+    "summary": "Announcing the Changes to Competitive Events for Season Two of Star Wars™: Unlimited Organized Play"
+  },
+  {
+    "id": "tales-from-the-prague-regional-fr",
+    "title": "Tales From the Prague Regional",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_07_Article_Regional_Prague_Recap_Milwaukee_Preview_7664d2c2a1.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/tales-from-the-prague-regional-fr",
+    "date": "2026-06-09",
+    "summary": "Jack Broomell Presents a Recap of the Prague Regional Championship"
+  },
+  {
+    "id": "eternal-format-update-april-2026-fr",
+    "title": "Format Eternal – Mise à Jour Avril 2026",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_Eternal_Suspension_Article_Header_9ad7956e3d.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/eternal-format-update-april-2026-fr",
+    "date": "2026-06-08",
+    "summary": "Annonce de la suspension de deux cartes pour le format Eternal"
+  },
+  {
+    "id": "twin-suns-101-fr",
+    "title": "Twin Suns 101",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWHA_024_Article_Decks101_preview_8414e0ad7f.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/twin-suns-101-fr",
+    "date": "2026-06-05",
+    "summary": "Comment utiliser les Decks Twin Suns dans une partie multijoueur de Star Wars™: Unlimited"
+  },
+  {
+    "id": "behind-unlimited-on-the-color-pie-fr",
+    "title": "Dans les coulisses d’Unlimited : à propos de la roue des couleurs",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_Article_Behind_Unlimited0426_preview_From_A_Certain_Point_of_View_2b9900f6f0.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/behind-unlimited-on-the-color-pie-fr",
+    "date": "2026-06-04",
+    "summary": "Tyler Parrott nous éclaire sur la conception des affinités de Star Wars™: Unlimited"
+  },
+  {
+    "id": "unlimited-icons-fr",
+    "title": "Un aperçu de Star Wars™: Unlimited Icons, édition 2027",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWHA_027_Article_First_Look_preview_c2a1f51309.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/unlimited-icons-fr",
+    "date": "2026-06-02",
+    "summary": "Présentation du premier set Icons pour Star Wars™: Unlimited"
+  },
+  {
+    "id": "a-fated-confrontation-fr",
+    "title": "Une Confrontation Fatidique",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_08_Article_Spotlight_Decks_preview_0e8c28d399.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/a-fated-confrontation-fr",
+    "date": "2026-05-27",
+    "summary": "Découvrez les Decks de Démarrage Luke Skywalker et Empereur Palpatine du set Cendres de l’Empire"
+  },
+  {
+    "id": "from-the-ashes-fr",
+    "title": "De ses Cendres",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_08_Article_Teaser_preview_Paz_Vizsla_8f3f9f6d40.png",
+    "link": "https://starwarsunlimited.com/fr/articles/from-the-ashes-fr",
+    "date": "2026-05-26",
+    "summary": "Tyler Parrott nous partage quelques infos au sujet des Cendres de l’Empire"
+  },
+  {
     "id": "hunting-exclusives-fr",
     "title": "Chasse aux Exclusives",
     "imageURL": "https://cdn.starwarsunlimited.com//SWHA_15_Article_preview_Boba_Fett_5d4c75ffbf.jpg",
     "link": "https://starwarsunlimited.com/fr/articles/hunting-exclusives-fr",
     "date": "2026-05-13",
     "summary": "Aperçu du pack Convention Exclusive 2026 et de la Carte Promo Event Exclusive 2026"
+  },
+  {
+    "id": "the-mandalorian-and-grogu-fr",
+    "title": "Star Wars : The Mandalorian and Grogu",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWHPROMO_002_Article_First_Look_preview_131c5ec077.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/the-mandalorian-and-grogu-fr",
+    "date": "2026-05-01",
+    "summary": "Star Wars™: Unlimited célèbre la sortie du film avec des cartes promo en éditions limitée "
+  },
+  {
+    "id": "ashes-of-the-empire-fr",
+    "title": "Cendres de l’Empire",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_08_Article_First_Look_preview_b6320ebad8.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/ashes-of-the-empire-fr",
+    "date": "2026-04-08",
+    "summary": "Présentation du prochain set de Star Wars™: Unlimited"
+  },
+  {
+    "id": "lawless-accessories-fr",
+    "title": "Accessoires sans Loi",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_07_Article_First_Look_preview_fc46b1b6fe.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/lawless-accessories-fr",
+    "date": "2026-03-09",
+    "summary": "Gamegenic nous dévoile les accessoires du set Sans Foi Ni Loi"
+  },
+  {
+    "id": "tales-from-the-milwaukee-regional-fr",
+    "title": "Tales From the Milwaukee Regional",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_06_Article_Regional_Recap_Milwaukee_Preview_fc3ca8b9fd.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/tales-from-the-milwaukee-regional-fr",
+    "date": "2026-02-27",
+    "summary": "Jack Broomell Presents a Recap of the Milwaukee Regional Championship"
+  },
+  {
+    "id": "behind-unlimited-on-making-difficult-sacrifices-fr",
+    "title": "Dans les coulisses d’Unlimited : De la difficulté à faire des sacrifices",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_Article_Behind_Unlimited0226_preview_Unveiled_Might_131d56f2e4.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/behind-unlimited-on-making-difficult-sacrifices-fr",
+    "date": "2026-02-26",
+    "summary": "Tyler Parrott nous partage son expérience : le dilemme entre « garder ou couper »"
+  },
+  {
+    "id": "eternally-unlimited-fr",
+    "title": "Éternellement Illimité",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_07_Article_Eternal_preview_Anakin_Skywalker_32e1b09068.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/eternally-unlimited-fr",
+    "date": "2026-02-18",
+    "summary": "À propos de la Rotation et du Format Eternal de Star Wars™: Unlimited"
+  },
+  {
+    "id": "tickets-to-galactics-fr",
+    "title": "Billets d’entrée pour les Galactics",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_GC_26_Article_Comms_Preview_v4_blur_abe764a380.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/tickets-to-galactics-fr",
+    "date": "2026-02-12",
+    "summary": "Présentation des forfaits pour le Galactic Championship 2026"
+  },
+  {
+    "id": "made-for-multiplayer-fr",
+    "title": "Conçu pour le Multijoueur",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWHA_003_6_Article_First_Look_preview_5d077cc3d4.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/made-for-multiplayer-fr",
+    "date": "2026-02-11",
+    "summary": "Présentation des Decks Twin Suns pour Star Wars™: Unlimited"
+  },
+  {
+    "id": "lawless-insights-fr",
+    "title": "Un Aperçu de Sans Foi Ni Loi",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_07_Article_Designer_Insights_preview_Putting_A_Team_Together_a788ebcf5b.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/lawless-insights-fr",
+    "date": "2026-02-04",
+    "summary": "Danny Schaefer, John Leo et Joe O’Neil vous livrent leurs secrets sur le développement de Sans Foi Ni Loi"
+  },
+  {
+    "id": "behind-unlimited-a-rotisserie-draft-fr",
+    "title": "Dans les coulisses d’Unlimited : Un draft inversé avec les concepteurs du jeu",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_Article_Behind_Unlimited0126_preview_Faith_In_Your_Friends_eeb5c6c0cc.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/behind-unlimited-a-rotisserie-draft-fr",
+    "date": "2026-01-28",
+    "summary": "Tyler Parrott nous raconte une expérience de draft particulière au sein de l’équipe de conception"
+  },
+  {
+    "id": "aspects-and-credits-fr",
+    "title": "Affinités et Crédits",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_07_P2_Spotlight_Deck_Breakdown_Article_preview_226b0edd28.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/aspects-and-credits-fr",
+    "date": "2026-01-20",
+    "summary": "Présentation des Decks de Démarrage Leia Organa et Jabba le Hutt"
+  },
+  {
+    "id": "a-template-adjustment-fr",
+    "title": "Ajustement de Modèles",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_Template_Errata_Article_preview_Vermillion_eeee13260c.png",
+    "link": "https://starwarsunlimited.com/fr/articles/a-template-adjustment-fr",
+    "date": "2026-01-13",
+    "summary": "Présentation des errata concernant les « fenêtres de timing » des capacités, applicables à partir de Sans Foi Ni Loi"
+  },
+  {
+    "id": "hints-of-lawlessness-fr",
+    "title": "Signes Annonciateurs d’Anarchie",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_07_P2_Teaser_Article_preview_Chewbacca_eead99c860.png",
+    "link": "https://starwarsunlimited.com/fr/articles/hints-of-lawlessness-fr",
+    "date": "2026-01-07",
+    "summary": "Tyler Parrott nous dévoile quelques infos sur le prochain set Sans Foi Ni Loi"
+  },
+  {
+    "id": "the-art-of-unlimited-fr",
+    "title": "L’Art d’Unlimited",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_07_Article_Art_Feature_preview_Max_Reebo_d0a112394a.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/the-art-of-unlimited-fr",
+    "date": "2026-01-07",
+    "summary": "Mise en lumière des illustrations de Sans Foi Ni Loi et du futur de la direction artistique du jeu"
+  },
+  {
+    "id": "behind-unlimited-a-theory-on-agency-fr",
+    "title": "Dans les Coulisses d’Unlimited : Une Théorie sur la Liberté d’Action",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_Article_Behind_Unlimited1225_preview_Leia_Organa_62a8d6d616.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/behind-unlimited-a-theory-on-agency-fr",
+    "date": "2025-12-22",
+    "summary": "Tyler Parrott nous expose les différents types de frustration ressentis avec les Jeux de Cartes à Collectionner"
+  },
+  {
+    "id": "a-message-from-the-team-fr",
+    "title": "Un Message de l’Équipe",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_07_P2_Team_Message_Article_preview_C3_PO_0938308997.png",
+    "link": "https://starwarsunlimited.com/fr/articles/a-message-from-the-team-fr",
+    "date": "2025-12-22",
+    "summary": "L’Équipe de Star Wars™: Unlimited Célèbre la Deuxième Année de Vie du Jeu"
+  },
+  {
+    "id": "secrets-of-limited-play-fr",
+    "title": "Secrets du Format Limité",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_06_Article_Limited_Highlight_preview_Cassian_Andor_29645ab16b.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/secrets-of-limited-play-fr",
+    "date": "2025-12-17",
+    "summary": "Les formats limités dans le Jeu Compétitif des Secrets du Pouvoir"
+  },
+  {
+    "id": "a-shift-from-what-was-fr",
+    "title": "Changements et Nouveautés",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_07_Article_Booster_Changes_preview_Creditors_Claim_526be97b0d.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/a-shift-from-what-was-fr",
+    "date": "2025-12-10",
+    "summary": "Danny Schaefer nous parle des modifications à venir dans les boosters"
+  },
+  {
+    "id": "behind-unlimited-on-character-selection-fr",
+    "title": "Dans les Coulisses d’Unlimited : Sélection des Personnages",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_Article_Behind_Unlimited1025_preview_Mother_Talzin_a2266d7c4c.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/behind-unlimited-on-character-selection-fr",
+    "date": "2025-12-03",
+    "summary": "Tyler Parrott nous explique comment intégrer un thème lors de la conception du jeu"
+  },
+  {
+    "id": "a-lawless-time-fr",
+    "title": "Sans Foi Ni Loi",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_07_Article_First_Look_preview_fc46b1b6fe.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/a-lawless-time-fr",
+    "date": "2025-11-20",
+    "summary": "Présentation du prochain set de Star Wars™: Unlimited"
+  },
+  {
+    "id": "behind-unlimited-designing-secrets-fr",
+    "title": "Dans les Coulisses d’Unlimited : Concevoir des Secrets",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_Article_Behind_Unlimited1125_preview_Padme_89224dd5cb.png",
+    "link": "https://starwarsunlimited.com/fr/articles/behind-unlimited-designing-secrets-fr",
+    "date": "2025-11-20",
+    "summary": "Tyler Parrott au sujet de la Conception des Secrets du Pouvoir"
+  },
+  {
+    "id": "meta-update-from-the-team-fr",
+    "title": "Mise à jour du Métagame par l’Équipe",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_06_Article_Meta_Updates_preview_e985bccfd8.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/meta-update-from-the-team-fr",
+    "date": "2025-11-05",
+    "summary": "Ryan Miles nous parle de la mise à jour du métagame avec l’arrivée des Secrets du Pouvoir"
+  },
+  {
+    "id": "secrets-of-sealed-fr",
+    "title": "Secrets du Scellé",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_06_Article_Secretsof_Sealed_preview_a5c2575724.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/secrets-of-sealed-fr",
+    "date": "2025-10-30",
+    "summary": "Préparation aux tournois de Secrets du Pouvoir en format Scellé"
+  },
+  {
+    "id": "drafting-for-competitive-fr",
+    "title": "Du Draft au niveau Compétitif",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_06_Article_Drafting_For_Competitive_preview_Renowned_Dignitaries_1350a514d8.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/drafting-for-competitive-fr",
+    "date": "2025-10-22",
+    "summary": "Quelques trucs et astuces des concepteurs au sujet du draft lors des évènements compétitifs"
+  },
+  {
+    "id": "secrets-within-secrets-fr",
+    "title": "Des Secrets dans les Secrets",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_06_Article_Secrets_Within_Secrets_preview_Chancellor_Palpatine_cec5add0d4.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/secrets-within-secrets-fr",
+    "date": "2025-10-15",
+    "summary": "Au Sujet de la Thématique des Secrets du Pouvoir"
+  },
+  {
+    "id": "behind-unlimited-history-of-leader-design-fr",
+    "title": "Dans les Coulisses d’Unlimited : Concevoir des Leaders",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_Article_Behind_Unlimited0925_preview_Rey_b4c7efb67e.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/behind-unlimited-history-of-leader-design-fr",
+    "date": "2025-10-02",
+    "summary": "Tyler Parrott explique le développement des cartes Leader"
+  },
+  {
+    "id": "secrets-and-legends-fr",
+    "title": "Secrets et Légendes",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_06_Article_Legends_Preview_preview_Darth_Traya_132f9a3c3f.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/secrets-and-legends-fr",
+    "date": "2025-10-01",
+    "summary": "Présentation du contenu « Légende » de Secrets du Pouvoir"
+  },
+  {
+    "id": "taking-on-trilogy-fr",
+    "title": "Adoptez le format Trilogy !",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_Article_Freelance_Trilogy_Feature_Preview_Avar_Kriss_b762672828.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/taking-on-trilogy-fr",
+    "date": "2025-09-24",
+    "summary": "Zoom sur le Format Trilogy et pourquoi vous devriez l’essayer"
+  },
+  {
+    "id": "throwing-the-meta-for-a-loop-fr",
+    "title": "Bouleversement de la Meta",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_05_Article_Force_Throw_preview_a623427d84.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/throwing-the-meta-for-a-loop-fr",
+    "date": "2025-09-15",
+    "summary": "Annonce de la suspension de la carte Projection de Force du format Premier"
+  },
+  {
+    "id": "behind-unlimited-playing-with-experience-fr",
+    "title": "Dans les Coulisses d’Unlimited : Jouer sur l’Expérience",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_Article_Behind_Unlimited0825_preview_Size_Matters_Not_05a1257856.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/behind-unlimited-playing-with-experience-fr",
+    "date": "2025-09-11",
+    "summary": "Tyler Parrott nous explique comment l’expérience de jeu façonne la conception du jeu"
+  },
+  {
+    "id": "glimpsed-secrets-fr",
+    "title": "Secrets à travers la lorgnette",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_06_Article_Teaser_Preview_Cassian_3ba310ff80.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/glimpsed-secrets-fr",
+    "date": "2025-09-08",
+    "summary": "Tyler Parrott nous appâte avec quelques infos sur Secrets du Pouvoir"
+  },
+  {
+    "id": "disclosing-plots-fr",
+    "title": "Déjouer des Complots",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_06_Article_Spotlight_Decks_preview_1a003c9c60.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/disclosing-plots-fr",
+    "date": "2025-09-03",
+    "summary": "Découverte des Decks de Démarrage Padmé Amidala et Chancelier Palpatine"
+  },
+  {
+    "id": "artful-secrets-fr",
+    "title": "Secrets artistiques",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_06_Article_Art_Feature_preview_S_Arihnda_Pryce_8301f26479.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/artful-secrets-fr",
+    "date": "2025-09-02",
+    "summary": "Zoom sur les illustrations des Secrets du Pouvoir"
+  },
+  {
+    "id": "growth-and-change-fr",
+    "title": "Évolution et Modification",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_Article_Season1_OP_Announcement_Preview_Trust_Your_Instincts_a73ad0b9c8.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/growth-and-change-fr",
+    "date": "2025-07-28",
+    "summary": "Les mises à jour annoncées pour la Saison 1 du Jeu Organisé"
+  },
+  {
+    "id": "secrets-of-power-fr",
+    "title": "Secrets du Pouvoir",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_06_Article_First_Look_preview_e873a04029.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/secrets-of-power-fr",
+    "date": "2025-07-27",
+    "summary": "Présentation du prochain set de Star Wars™: Unlimited"
+  },
+  {
+    "id": "behind-unlimited-designing-legends-of-the-force-fr",
+    "title": "Dans les Coulisses d’Unlimited: Concevoir Légendes de la Force",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_Article_Behind_Unlimited0725_preview_Force_Token_4d51f44652.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/behind-unlimited-designing-legends-of-the-force-fr",
+    "date": "2025-07-17",
+    "summary": "Tyler Parrott nous partage son point de vue de concepteur sur les dessous de Légendes de la Force"
+  },
+  {
+    "id": "my-first-battle-fr",
+    "title": "Ma Première Bataille",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWHA_002_Article_Announce_Preview_b41bb050c0.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/my-first-battle-fr",
+    "date": "2025-07-16",
+    "summary": "Présentation de la Bataille d’Intro : Hoth, le meilleur moyen d’apprendre à jouer à Star Wars™: Unlimited"
+  },
+  {
+    "id": "legends-of-deckbuilding-fr",
+    "title": "Légendes et Construction de Deck",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_05_Article_Deckbuilding_Tips_Preview_Avar_Kriss_c8b2f38016.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/legends-of-deckbuilding-fr",
+    "date": "2025-07-03",
+    "summary": "Présentation de trucs et astuces pour aider les joueurs débutants et intermédiaires à construire leurs decks"
+  },
+  {
+    "id": "meta-update-from-devs-fr",
+    "title": "Mise à Jour du Méta par les Développeurs",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_04_Article_First_Look_preview_0554107b95.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/meta-update-from-devs-fr",
+    "date": "2025-07-02",
+    "summary": "Ryan Miles nous informe d’une mise à jour du métagame pour Légendes de la Force"
+  },
+  {
+    "id": "legends-among-legends-fr",
+    "title": "Légendes Parmi les Légendes",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_05_Article_Legends_Among_Legends_Preview_Qui_Gon_Jinn_6c56dc509f.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/legends-among-legends-fr",
+    "date": "2025-07-01",
+    "summary": "Des membres de la communauté présentent les cartes légendaires de Légendes de la Force qu’ils attendent avec impatience"
+  },
+  {
+    "id": "behind-unlimited-lessons-accomplishments-2024-fr",
+    "title": "Dans les Coulisses d’Unlimited : Succès et Leçons de 2024",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_Article_Behind_Unlimited0625_preview_Commence_Patrol_99b6c4ca26.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/behind-unlimited-lessons-accomplishments-2024-fr",
+    "date": "2025-06-26",
+    "summary": "Tyler Parrott revient sur la première année du jeu et nous partage les leçons apprises et les résultats obtenus"
+  },
+  {
+    "id": "three-decks-one-duel-fr",
+    "title": "Trois Decks, Un Duel",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_Article_Trilogy_Announcement_preview_Synchronized_Strike_ff2d40a592.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/three-decks-one-duel-fr",
+    "date": "2025-06-18",
+    "summary": "Présentation du format Trilogy pour Star Wars™: Unlimited"
+  },
+  {
+    "id": "marvelous-multiplayer-fr",
+    "title": "Merveilleux Multijoueur",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_05_Article_Twin_Suns_Feature_Preview_Rule_With_Respect_1d4bdc4095.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/marvelous-multiplayer-fr",
+    "date": "2025-06-11",
+    "summary": "Pourquoi le Twin Suns est le format le plus amusant à jouer de Star Wars™: Unlimited"
+  },
+  {
+    "id": "legendary-accessories-fr",
+    "title": "Accessoires Légendaires",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_05_Article_First_Look_preview_c39646c330.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/legendary-accessories-fr",
+    "date": "2025-06-04",
+    "summary": "Gamegenic présente sa nouvelle gamme d’accessoires pour Légendes de la Force."
+  },
+  {
+    "id": "behind-unlimited-designing-for-draft-fr",
+    "title": "Dans les Coulisses d’Unlimited : Concevoir pour le Draft",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_Article_Behind_Unlimited0525_preview_Commence_Patrol_8d713f3d81.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/behind-unlimited-designing-for-draft-fr",
+    "date": "2025-05-30",
+    "summary": "Tyler Parrott nous explique comment l’intégration du format draft a été pensé lors de la conception du jeu"
+  },
+  {
+    "id": "building-a-fleet-fr",
+    "title": "Construire une flotte",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_04_Article_Retrospective_preview_9b30309bc2.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/building-a-fleet-fr",
+    "date": "2025-05-28",
+    "summary": "Coup de projecteur sur les vaisseaux les plus populaires de Passage en Vitesse Lumière"
+  },
+  {
+    "id": "legendary-insights-john-leo-fr",
+    "title": "Aperçus Légendaires : John Leo",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_05_Article_Designer_Insights1_Preview_Darth_Vader_89acced78b.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/legendary-insights-john-leo-fr",
+    "date": "2025-05-23",
+    "summary": "Le Concepteur de jeu John Leo nous parle de la conception de Légendes de la Force"
+  },
+  {
+    "id": "unlimited-uk-games-expo-2025-fr",
+    "title": "Unlimited à l’UK Games EXPO 2025",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_Article_UKGE_2025_Preview_Luke_Skywalker_418088ae5a.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/unlimited-uk-games-expo-2025-fr",
+    "date": "2025-05-22",
+    "summary": "Présentation de nos évènements UK Games Expo 2025"
+  },
+  {
+    "id": "the-art-of-legends-fr",
+    "title": "L’Art de la Force",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_05_Art_Feature_Article_Preview_Begun_the_Clone_Wars_9743d70272.png",
+    "link": "https://starwarsunlimited.com/fr/articles/the-art-of-legends-fr",
+    "date": "2025-05-21",
+    "summary": "Focus sur la création artistique dans les Légendes de la Force"
+  },
+  {
+    "id": "the-stuff-of-legends-fr",
+    "title": "La Matière des Légendes",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_05_Article_Legends_Week_Preview_Death_Field_1b0b0eee61.png",
+    "link": "https://starwarsunlimited.com/fr/articles/the-stuff-of-legends-fr",
+    "date": "2025-05-06",
+    "summary": "Présentation des éléments de l’univers Légendes intégrés aux Légendes de la Force"
+  },
+  {
+    "id": "assembling-exclusives-fr",
+    "title": "Concentration d’Exclusivités",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_Article_2025_Exclusive_Cards_preview_R2_D2_95e084c5b1.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/assembling-exclusives-fr",
+    "date": "2025-05-05",
+    "summary": "Aperçu du Convention Exclusive Pack 2025 et des cartes promotionnelles Event Exclusive 2025"
+  },
+  {
+    "id": "a-fated-duel-fr",
+    "title": "Un Duel Prédestiné",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_05_Article_Spotlight_Decks_preview_f2b49031f0.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/a-fated-duel-fr",
+    "date": "2025-04-30",
+    "summary": "Aperçu détaillé des Decks de Démarrage Dark Maul et Qui-Gon Jinn"
+  },
+  {
+    "id": "mysteries-of-the-force-fr",
+    "title": "Mystères de la Force",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_05_Article_Teaser_Preview_Rey_ade4d41b6f.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/mysteries-of-the-force-fr",
+    "date": "2025-04-25",
+    "summary": "Tyler Parrott divulgue quelques informations concernant Légendes de la Force"
+  },
+  {
+    "id": "behind-unlimited-leading-from-space-fr",
+    "title": "Dans les Coulisses d’Unlimited : Des Leaders dans l’Espace",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_Article_Behind_Unlimited0425_preview_fa37e98b58.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/behind-unlimited-leading-from-space-fr",
+    "date": "2025-04-24",
+    "summary": "Tyler Parrott nous raconte comment est née l’idée du déploiement des Leaders dans l’Espace."
+  },
+  {
+    "id": "suspension-update-april-2025-fr",
+    "title": "Mise à Jour des Suspensions : Avril 2025",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_Article_Jango_Suspension_preview_e9b24d8338.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/suspension-update-april-2025-fr",
+    "date": "2025-04-09",
+    "summary": "Discussion au sujet de la suspension de trois cartes pour le format Premier"
+  },
+  {
+    "id": "legends-of-the-force-fr",
+    "title": "Légendes de la Force",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_05_Article_First_Look_preview_c39646c330.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/legends-of-the-force-fr",
+    "date": "2025-04-02",
+    "summary": "Présentation du prochain set de Star Wars™: Unlimited"
+  },
+  {
+    "id": "a-year-of-unlimited-fr",
+    "title": "Un an d’Unlimited",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_Article_1_Year_Retrospective_preview_7c1a7ae83e.png",
+    "link": "https://starwarsunlimited.com/fr/articles/a-year-of-unlimited-fr",
+    "date": "2025-03-27",
+    "summary": "Retour sur la première année du Jeu de Cartes à Collectionner Star Wars™: Unlimited"
+  },
+  {
+    "id": "behind-unlimited-designing-lightspeed-fr",
+    "title": "Dans les coulisses d’Unlimited : Concevoir la « Vitesse Lumière »",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_Article_Behind_Unlimited0325_preview_d4410c2653.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/behind-unlimited-designing-lightspeed-fr",
+    "date": "2025-03-26",
+    "summary": "Tyler Parrott nous entraîne dans les coulisses de la création de Passage en Vitesse Lumière"
+  },
+  {
+    "id": "galactic-prizes-fr",
+    "title": "Récompenses Galactiques",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_Article_Galactic_Championship_Prize_Preview_preview_1b19423113.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/galactic-prizes-fr",
+    "date": "2025-03-25",
+    "summary": "Aperçu des lots du Galactic Championship"
+  },
+  {
+    "id": "planetary-qualifiers-of-lightspeed-fr",
+    "title": "Planetary Qualifiers en Vitesse Lumière",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_04_Article_Planetary_Qualifier_preview_05ff79967b.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/planetary-qualifiers-of-lightspeed-fr",
+    "date": "2025-03-25",
+    "summary": "Présentation des lots décernés lors des Planetary Qualifiers de Passage en Vitesse Lumière"
+  },
+  {
+    "id": "lightspeed-insights-danny-and-tyler-fr",
+    "title": "Aperçu en Vitesse Lumière : Danny et Tyler",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_04_Article_Deckbuilding_Tips2_preview_a1ed457316.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/lightspeed-insights-danny-and-tyler-fr",
+    "date": "2025-03-21",
+    "summary": "Danny Schaefer et Tyler Parrott nous parlent de la conception de Passage en Vitesse Lumière"
+  },
+  {
+    "id": "lightspeed-accessories-fr",
+    "title": "Accessoires en Vitesse Lumière",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_04_Article_Gamegenic_Accessories_preview_f18ba7d72c.png",
+    "link": "https://starwarsunlimited.com/fr/articles/lightspeed-accessories-fr",
+    "date": "2025-03-20",
+    "summary": "Gamegenic présente ses nouveaux accessoires dédiés à Passage en Vitesse Lumière"
+  },
+  {
+    "id": "comprehensive-rules-update-lightspeed-fr",
+    "title": "Mise à jour du Compendium en Vitesse Lumière",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_04_Article_Comprehensive_Rules_Update_preview_ca3392c9b5.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/comprehensive-rules-update-lightspeed-fr",
+    "date": "2025-03-07",
+    "summary": "Ryan Serrano partage ses réflexions autour de la dernière version du Compendium des Règles"
+  },
+  {
+    "id": "jump-to-weekly-play-fr",
+    "title": "Passage en Weekly Play",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_04_Article_Weekly_Play_Preview_preview_dffa1ff7b0.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/jump-to-weekly-play-fr",
+    "date": "2025-03-05",
+    "summary": "Aperçu des cartes promotionnelles du Weekly Play Kit de Passage en Vitesse Lumière "
+  },
+  {
+    "id": "meta-update-from-danny-fr",
+    "title": "Évolution du métagame par Danny",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_04_Article_Meta_Updates_preview_7ab664749d.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/meta-update-from-danny-fr",
+    "date": "2025-03-04",
+    "summary": "Danny Schaefer fait un point sur le métagame avec la sortie de Passage en Vitesse Lumière"
+  },
+  {
+    "id": "behind-unlimited-recalibrations-fr",
+    "title": "Dans les Coulisses d’Unlimited : Recalibrages",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_Article_Behind_Unlimited_0225_preview_de7d819d99.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/behind-unlimited-recalibrations-fr",
+    "date": "2025-02-27",
+    "summary": "Tyler Parrott partage son point de vue sur l’équilibrage du jeu"
+  },
+  {
+    "id": "twin-suns-initiating-phase-2-fr",
+    "title": "Twin Suns: Lancement de la Phase 2",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_04_Article_Gamegenic_Twin_Suns_preview_e4686e35b1.png",
+    "link": "https://starwarsunlimited.com/fr/articles/twin-suns-initiating-phase-2-fr",
+    "date": "2025-02-25",
+    "summary": "Les concepteurs John Leo et Joe O’Neil vous présentent les prochaines mises à jour du format Twin Suns"
+  },
+  {
+    "id": "lightspeed-insights-fr",
+    "title": "Aperçu en Vitesse Lumière : MJ Cutts",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_04_Article_Deckbuilding_Tips_preview_cc5a684c6f.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/lightspeed-insights-fr",
+    "date": "2025-02-11",
+    "summary": "MJ Cutts nous parle de la conception de Passage en Vitesse Lumière"
+  },
+  {
+    "id": "sectors-and-regionals-season-0-fr",
+    "title": "Sector et Regional Qualifiers de la Saison 0",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_04_Competitive_Series_List_of_Events_Article_Graphics_Preview_Image_dddf4b7f38.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/sectors-and-regionals-season-0-fr",
+    "date": "2025-02-05",
+    "summary": "Annonce des dates, lieux et récompenses supplémentaires pour les Sector et Regional Qualifiers"
+  },
+  {
+    "id": "an-event-of-galactic-proportions-fr",
+    "title": "Un événement aux proportions galactiques",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_Galactic_Championship_Article_1080x608_tickets_on_sale_16b6ae0936.png",
+    "link": "https://starwarsunlimited.com/fr/articles/an-event-of-galactic-proportions-fr",
+    "date": "2025-02-04",
+    "summary": "LES BILLETS POUR LA PREMIÈRE ÉDITION DES GALACTIC CHAMPIONSHIPS DU JCC STAR WARS™: UNLIMITED SERONT EN VENTE VENDREDI"
+  },
+  {
+    "id": "behind-unlimited-designing-twilight-fr",
+    "title": "Dans les Coulisses d’Unlimited : Concevoir le « Crépuscule »",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_Behind_Unlimited_Jan_2025_Article_Graphics_Preview_1b47692cee.png",
+    "link": "https://starwarsunlimited.com/fr/articles/behind-unlimited-designing-twilight-fr",
+    "date": "2025-01-30",
+    "summary": "Tyler Parrott nous entraîne dans les coulisses de la création du Crépuscule de la République"
+  },
+  {
+    "id": "updates-and-rotations-fr",
+    "title": "Mises à Jour et Rotations",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_04_Article_Rotation_preview_6a49b6dedf.png",
+    "link": "https://starwarsunlimited.com/fr/articles/updates-and-rotations-fr",
+    "date": "2025-01-29",
+    "summary": "Aperçu des ajustements de rareté et de la rotation de sets"
+  },
+  {
+    "id": "disintegrating-the-odds-fr",
+    "title": "Faire Sauter les Probabilités",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_04_Article_Spotlight_Decks_preview_20549a7206.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/disintegrating-the-odds-fr",
+    "date": "2025-01-22",
+    "summary": "Présentation exhaustive des Decks de Démarrage : Boba Fett et Han Solo"
+  },
+  {
+    "id": "sectors-and-regionals-fr",
+    "title": "Sector Qualifiers et Regional Qualifiers",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_Competitive_Series_Article_Graphics_Preview_Image_7f7080100f.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/sectors-and-regionals-fr",
+    "date": "2025-01-14",
+    "summary": "Aperçu des Sector Qualifiers et Regional Qualifiers pour le Jeu Compétitif"
+  },
+  {
+    "id": "packs-of-prestige-fr",
+    "title": "Boosters de Prestige",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_04_Article_Carbonite_preview_33f7751280.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/packs-of-prestige-fr",
+    "date": "2025-01-08",
+    "summary": "Aperçu des boosters Carbonite Edition de Star Wars™: Unlimited"
+  },
+  {
+    "id": "teasers-from-hyperspace-fr",
+    "title": "Teasers en provenance de l’Hyperspace",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_04_Article_First_Look_preview_f97124b945.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/teasers-from-hyperspace-fr",
+    "date": "2024-12-23",
+    "summary": "Tyler Parrot lève le voile sur ce qui vous attend dans le prochain set"
+  },
+  {
+    "id": "jump-to-lightspeed-fr",
+    "title": "Passage en Vitesse Lumière",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_04_Article_First_Look_preview_0554107b95.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/jump-to-lightspeed-fr",
+    "date": "2024-12-04",
+    "summary": "Aperçu du Quatrième Set de Star Wars™: Unlimited"
+  },
+  {
+    "id": "twilit-accessories-fr",
+    "title": "Accessoires du Crépuscule",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_03_Article_First_Look_preview_44d34d1747.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/twilit-accessories-fr",
+    "date": "2024-11-27",
+    "summary": "Gamegenic vous présente ses accessoires pour Crépuscule de la République"
+  },
+  {
+    "id": "planetary-qualifiers-of-twilight-fr",
+    "title": "Planetary Qualifiers du Crépuscule",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_03_Article_Planetary_Qualifier_preview_b2630247c1.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/planetary-qualifiers-of-twilight-fr",
+    "date": "2024-11-20",
+    "summary": "Présentation des lots décernés lors des Planetary Qualifiers du Crépuscule de la République"
+  },
+  {
+    "id": "a-leader-suspended-fr",
+    "title": "Suspension d’un leader !",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_Article_Meta_Update_preview_6f9e9f1828.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/a-leader-suspended-fr",
+    "date": "2024-11-06",
+    "summary": "Explications sur la nécessité de retirer du format Premier le leader Boba Fett\n"
+  },
+  {
+    "id": "weekly-play-in-twilight-fr",
+    "title": "Weekly Play au Crépuscule",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_03_Article_Weekly_Play_Reveal_preview_8ee720fbd5.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/weekly-play-in-twilight-fr",
+    "date": "2024-10-30",
+    "summary": "Aperçu des cartes promotionnelles du Weekly Play du Crépuscule de la République"
+  },
+  {
+    "id": "insights-of-twilight-tyler-parrott-fr",
+    "title": "Aperçu Crépusculaire : Tyler Parrott",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_03_Designer_Insights_2_Preview_3731d0da50.png",
+    "link": "https://starwarsunlimited.com/fr/articles/insights-of-twilight-tyler-parrott-fr",
+    "date": "2024-10-25",
+    "summary": "Tyler Parrott nous parle du développement du Crépuscule de la République "
+  },
+  {
+    "id": "get-ready-for-galactics-fr",
+    "title": "Préparez-vous pour les Galactic Championship",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_Galactic_Championship_Article_1080x608_preview_3_4cdb0a5496.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/get-ready-for-galactics-fr",
+    "date": "2024-10-23",
+    "summary": "Annonce des dates du premier Galactic Championship"
+  },
+  {
+    "id": "twilight-of-casual-play-fr",
+    "title": "Jeu Occasionnel au Crépuscule",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_03_OP_Prerelease_and_Store_Showdown_Promo_Preview_Image_6178c921ae.png",
+    "link": "https://starwarsunlimited.com/fr/articles/twilight-of-casual-play-fr",
+    "date": "2024-10-23",
+    "summary": "Prereleases et Store Showdowns pour le Crépuscule de la République – Aperçu des cartes promotionnelles"
+  },
+  {
+    "id": "insights-of-twilight-danny-schaefer-fr",
+    "title": "Aperçu Crépusculaire : Danny Schaefer",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_03_Designer_Insights_1_Preview_6008938ecd.png",
+    "link": "https://starwarsunlimited.com/fr/articles/insights-of-twilight-danny-schaefer-fr",
+    "date": "2024-10-18",
+    "summary": "Danny Schaefer nous parle du développement du Crépuscule de la République"
+  },
+  {
+    "id": "twin-suns-in-twilight-fr",
+    "title": "Twin Suns au Crépuscule",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_03_Article_Twin_Suns_preview_f6a9bf1351.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/twin-suns-in-twilight-fr",
+    "date": "2024-10-16",
+    "summary": "MJ Cutts nous dévoile quelques-unes des modifications apportées au format Twin Suns avec l’arrivée prochaine du Crépuscule de la République"
+  },
+  {
+    "id": "clash-of-ideals-fr",
+    "title": "Confrontation d’Idéaux",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_03_Article_2_Player_Starter_preview_1a09ab1b03.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/clash-of-ideals-fr",
+    "date": "2024-10-09",
+    "summary": "Ahsoka Tano et Général Grievous : decks de démarrage "
+  },
+  {
+    "id": "competition-on-a-planetary-scale-fr",
+    "title": "Compétition à l’échelle planétaire",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_02_Article_First_Look_preview_7a3341dcef.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/competition-on-a-planetary-scale-fr",
+    "date": "2024-09-18",
+    "summary": "Présentation des Planetary Qualifiers de Star Wars™: Unlimited "
+  },
+  {
+    "id": "convention-exclusive-at-spiel-fr",
+    "title": "Pack Convention Exclusive au Spiel",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_Article_Gen_Con_Convention_Exclusive_Clarification_Preview_65ab0a0f7b.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/convention-exclusive-at-spiel-fr",
+    "date": "2024-09-13",
+    "summary": "Comment obtenir son pack Convention Exclusive au Spiel 2024 !"
+  },
+  {
+    "id": "aspects-of-twilight-villainy-fr",
+    "title": "Les Affinités du Crépuscule : Infâmie",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_03_Article_Aspect_Preview2_preview_40b68eb48c.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/aspects-of-twilight-villainy-fr",
+    "date": "2024-09-11",
+    "summary": "Un aperçu des combinaisons possibles entre l’Infâmie et les autres affinités du Crépuscule de la République"
+  },
+  {
+    "id": "aspects-of-twilight-heroism-fr",
+    "title": "Les Affinités du Crépuscule : Héroïsme",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_03_Article_Aspect_Preview1_preview_88016a69b8.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/aspects-of-twilight-heroism-fr",
+    "date": "2024-09-04",
+    "summary": "Un aperçu des combinaisons possibles entre l’Héroïsme et les autres affinités du Crépuscule de la République"
+  },
+  {
+    "id": "announcing-partnership-with-meleegg-fr",
+    "title": "Fantasy Flight Games annonce un partenariat avec Melee.gg",
+    "imageURL": "https://cdn.starwarsunlimited.com/SWH_01_pressrelease_1920x1080_plain_27f07ee8bb.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/announcing-partnership-with-meleegg-fr",
+    "date": "2024-09-04",
+    "summary": "Logiciel de tournoi pour le Jeu Organisé de Star Wars™ : Unlimited en approche."
+  },
+  {
+    "id": "twilight-of-the-republic-fr",
+    "title": "Crépuscule de la République",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_03_Article_First_Look_preview_d49a505545.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/twilight-of-the-republic-fr",
+    "date": "2024-08-01",
+    "summary": "Présentation du troisième set de Star Wars™: Unlimited"
+  },
+  {
+    "id": "arbiters-of-unlimited-fr",
+    "title": "Arbitres de l’Unlimited",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_Article_Judge_Program_Announcement_Preview_df47d0f331.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/arbiters-of-unlimited-fr",
+    "date": "2024-07-30",
+    "summary": "Un aperçu du « Judge Program » de Star Wars™: Unlimited à destination des arbitres"
+  },
+  {
+    "id": "patch-notes-july-2024-fr",
+    "title": "Patch Notes: July 2024",
+    "imageURL": "https://cdn.starwarsunlimited.com/SWH_Header_Resilient_8014a96551.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/patch-notes-july-2024-fr",
+    "date": "2024-07-17",
+    "summary": "Presenting the Latest Updates to Star Wars™: Unlimited’s Official Website"
+  },
+  {
+    "id": "weekly-play-in-the-shadows-fr",
+    "title": "Weekly Play dans les Ombres",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_02_Article_Weekly_Play_Preview_Preview_71d400e4d9.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/weekly-play-in-the-shadows-fr",
+    "date": "2024-07-17",
+    "summary": "Aperçu du contenu du Kit prévu pour le Weekly Play d’Ombres de la Galaxie"
+  },
+  {
+    "id": "the-power-of-the-dark-side-fr",
+    "title": "Le Pouvoir du Côté Obscur",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWHA_001_2024_Convention_Exclusive_Article_Preview_Image_Kylo_Ren_4e666ae513.png",
+    "link": "https://starwarsunlimited.com/fr/articles/the-power-of-the-dark-side-fr",
+    "date": "2024-07-10",
+    "summary": "Aperçu du pack promotionnel Convention Exclusive 2024 pour Star Wars™: Unlimited"
+  },
+  {
+    "id": "comprehensive-rules-update-fr",
+    "title": "Mise à jour du Compendium",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_Article_Comp_Rules_Update_Preview_5c63474bb9.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/comprehensive-rules-update-fr",
+    "date": "2024-07-03",
+    "summary": "Ryan Serrano, un des concepteurs du jeu, partage ses réflexions autour de la dernière version du Compendium des Règles de Star Wars™: Unlimited"
+  },
+  {
+    "id": "shadows-of-casual-play-fr",
+    "title": "Ombres du Jeu Occasionnel",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_02_Article_Prerelease_Showdown_Preview_3584323bfd.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/shadows-of-casual-play-fr",
+    "date": "2024-06-20",
+    "summary": "Annonce des Prereleases et des Store Showdowns d’Ombres de la Galaxie"
+  },
+  {
+    "id": "shadowy-insights-tyler-parrott-fr",
+    "title": "Ombres et Perspectives : Tyler Parrott",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_Article_Designer_Insight_Tyler_Preview_fb7744ea3b.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/shadowy-insights-tyler-parrott-fr",
+    "date": "2024-06-12",
+    "summary": "Tyler Parrott partage avec nous ses réflexions sur Ombres de la Galaxie"
+  },
+  {
+    "id": "sparks-and-shadows-fr",
+    "title": "Ombres et Étincelles",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_Article_Constructed_Deckbuilding_Preview_7b3bab01bb.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/sparks-and-shadows-fr",
+    "date": "2024-05-29",
+    "summary": "Explorez différentes façons d’améliorer votre deck Étincelle de Rébellion avec les cartes Ombres de la Galaxie"
+  },
+  {
+    "id": "shadowy-insights-jeremy-zwirn-fr",
+    "title": "Ombres et Perspectives : Jeremy Zwirn ",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_Article_Designer_Insight_Jeremy_Preview_316e52e67b.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/shadowy-insights-jeremy-zwirn-fr",
+    "date": "2024-05-22",
+    "summary": "Jeremy Zwirn partage ses réflexions sur Ombres de la Galaxie"
+  },
+  {
+    "id": "unlimited-events-fr",
+    "title": "Évènements Illimités",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_Article_Gen_Con_Preview_d7ee7d1cf5.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/unlimited-events-fr",
+    "date": "2024-05-17",
+    "summary": "Les évènements Star Wars™: Unlimited prévus pour la Gen Con 2024"
+  },
+  {
+    "id": "heated-rivals-fr",
+    "title": "Rivalité Acharnée",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_02_Two_Player_Starter_Deep_Dive_Preview_Image_017b4873ff.png",
+    "link": "https://starwarsunlimited.com/fr/articles/heated-rivals-fr",
+    "date": "2024-05-15",
+    "summary": "Moff Gideon et Le Mandalorien : decks de démarrage "
+  },
+  {
+    "id": "shadowy-insights-danny-schaefer-fr",
+    "title": "Ombres et Perspectives : Danny Schaefer",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_Article_Designer_Insight_Danny_Preview_771a9ec551.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/shadowy-insights-danny-schaefer-fr",
+    "date": "2024-05-08",
+    "summary": "Danny Schaefer partage ses réflexions sur Ombres de la Galaxie"
+  },
+  {
+    "id": "patch-notes-may-2024-fr",
+    "title": "Patch Notes: May 2024",
+    "imageURL": "https://cdn.starwarsunlimited.com/SWH_Header_Resilient_8014a96551.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/patch-notes-may-2024-fr",
+    "date": "2024-05-06",
+    "summary": "Presenting the Latest Updates to Star Wars™: Unlimited’s Official Website "
+  },
+  {
+    "id": "aspects-and-shadows-fr",
+    "title": "Ombres et Affinités",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_02_Set_2_Aspect_Preview_Preview_Image_First_Light_07bdec4a41.png",
+    "link": "https://starwarsunlimited.com/fr/articles/aspects-and-shadows-fr",
+    "date": "2024-05-01",
+    "summary": "Un aperçu de ce que proposent les affinités d’Ombres de la Galaxie"
+  },
+  {
+    "id": "featured-deck-hera-syndulla-premier-fr",
+    "title": "Deck à la Une : Hera Syndulla – format Premier",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_Article_New_Designer_Decks_MJ_Preview_eced168394.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/featured-deck-hera-syndulla-premier-fr",
+    "date": "2024-04-26",
+    "summary": "C’est parti pour une nouvelle présentation de deck par un de nos concepteurs de Star Wars™: Unlimited. Cette semaine, il a été créé par MJ Cutts."
+  },
+  {
+    "id": "smuggling-the-goods-fr",
+    "title": "Passer des ressources en contrebande",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_Article_Smuggle_Preview_Preview_59c504ea7b.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/smuggling-the-goods-fr",
+    "date": "2024-04-17",
+    "summary": "Aperçu de la nouvelle mécanique Contrebande du set Ombres de la Galaxie"
+  },
+  {
+    "id": "featured-deck-chirrut-imwe-premier-fr",
+    "title": "Deck à la Une : Chirrut Îmwe - format Premier",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_Article_New_Designer_Decks_Joe_Preview_06fbe97e7a.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/featured-deck-chirrut-imwe-premier-fr",
+    "date": "2024-04-12",
+    "summary": "Joe O'Neil vous présente un nouveau deck pour Star Wars™ : Unlimited."
+  },
+  {
+    "id": "the-art-of-star-wars-unlimited-fr",
+    "title": "L’Art de Star Wars : Unlimited",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_Article_Art_Director_Insight_Preview_1035d87d15.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/the-art-of-star-wars-unlimited-fr",
+    "date": "2024-04-10",
+    "summary": "L’équipe en charge de la direction artistique de Star Wars™: Unlimited partage son expérience"
+  },
+  {
+    "id": "shadows-of-the-galaxy-fr",
+    "title": "Ombres de la Galaxie",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_02_Article_First_Look_preview_7a3341dcef.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/shadows-of-the-galaxy-fr",
+    "date": "2024-04-03",
+    "summary": "Présentation du deuxième cycle de Star Wars™: Unlimited"
+  },
+  {
+    "id": "featured-deck-emperor-palpatine-premier-fr",
+    "title": "Deck à la Une : Empereur Palpatine - format Premier",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_Article_New_Designer_Decks_John_Preview_f0a32c8dc0.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/featured-deck-emperor-palpatine-premier-fr",
+    "date": "2024-03-29",
+    "summary": "John Leo vous présente un nouveau deck pour Star Wars™ : Unlimited. Lisez la suite pour découvrir ce qu'il nous réserve aujourd'hui !"
+  },
+  {
+    "id": "featured-deck-grand-inquisitor-premier-fr",
+    "title": "Deck à la Une : Grand Inquisiteur - format Premier",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_Article_New_Designer_Decks_Ryan_Preview_997828e277.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/featured-deck-grand-inquisitor-premier-fr",
+    "date": "2024-03-15",
+    "summary": "Ryan Serrano vous présente un nouveau deck pour Star Wars™ : Unlimited. Lisez la suite pour découvrir ce qu'il nous réserve aujourd'hui !"
+  },
+  {
+    "id": "weekly-play-all-the-way-fr",
+    "title": "Sessions hebdomadaires à volonté",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_Article_Weekly_Play_Preview_dd577f19f8.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/weekly-play-all-the-way-fr",
+    "date": "2024-02-28",
+    "summary": "Aperçu du Weekly Play de Star Wars™: Unlimited"
+  },
+  {
+    "id": "unlimited-insights-fr",
+    "title": "Réflexions Illimitées",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_Article_Designer_Insight2_Preview_c1409b876e.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/unlimited-insights-fr",
+    "date": "2024-02-23",
+    "summary": "Les nouveaux membres de l’équipe de conception de Star Wars™: Unlimited vous font part de leurs réflexions."
+  },
+  {
+    "id": "unlimited-accessories-fr",
+    "title": "Accessoires Illimités",
+    "imageURL": "https://cdn.starwarsunlimited.com//SHW_01_Gamegenic_Accessories_preview_1920x1080_6a8faffb1c.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/unlimited-accessories-fr",
+    "date": "2024-02-21",
+    "summary": "Présentation des accessoires Gamegenic pour Star Wars™: Unlimited"
+  },
+  {
+    "id": "twin-suns-fr",
+    "title": "Twin Suns",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_Article_Multiplayer_Preview_92e71565ec.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/twin-suns-fr",
+    "date": "2024-02-10",
+    "summary": "Le format multijoueur de Star Wars™: Unlimited\n"
+  },
+  {
+    "id": "a-casual-test-of-skill-fr",
+    "title": "Tester occasionnellement ses compétences",
+    "imageURL": "https://cdn.starwarsunlimited.com//SHW_01_Prerelease_preview_1920x1080_63b81e051c.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/a-casual-test-of-skill-fr",
+    "date": "2024-01-31",
+    "summary": "Aperçu des événements en avant-première (Prerelease) et des Store Showdowns pour Star Wars™ : Unlimited.\n"
+  },
+  {
+    "id": "unsealing-unlimited-fr",
+    "title": "Desceller sans Fin",
+    "imageURL": "https://cdn.starwarsunlimited.com/SHW_01_Draft_And_Sealed_preview_1920x1080_v2_4733f92fcf.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/unsealing-unlimited-fr",
+    "date": "2024-01-03",
+    "summary": "Jouer à Star Wars™: Unlimited aux formats Draft et Scellé"
+  },
+  {
+    "id": "built-by-the-masters-fr",
+    "title": "Construit par des Maîtres",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_Article_Designer_Decks1_Preview_ec4900a281.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/built-by-the-masters-fr",
+    "date": "2023-12-13",
+    "summary": "Voici quelques decks du premier set de Star Wars™: Unlimited construits par les concepteurs du jeu !"
+  },
+  {
+    "id": "inside-unlimited-fr",
+    "title": "Interview Illimité",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_Article_Designer_Insight1_Preview_6f0a39b2b1.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/inside-unlimited-fr",
+    "date": "2023-12-06",
+    "summary": "Les concepteurs du tout premier set de Star Wars™: Unlimited vous font part de leurs réflexions."
+  },
+  {
+    "id": "star-wars-unlimited-events-calendar-fr",
+    "title": "Calendrier des Évènements Star Wars™: Unlimited",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_Header_SOR_Key_Art_40bd735fa9.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/star-wars-unlimited-events-calendar-fr",
+    "date": "2023-12-06",
+    "summary": "Des évènements Star Wars™: Unlimited sont en préparation près de chez vous !"
+  },
+  {
+    "id": "under-construction-fr",
+    "title": "En cours de construction",
+    "imageURL": "https://cdn.starwarsunlimited.com/Star_Wars_Unlimited_Resupply_Article_Header_035d47e9ab.png",
+    "link": "https://starwarsunlimited.com/fr/articles/under-construction-fr",
+    "date": "2023-11-29",
+    "summary": "Créer ses propres decks pour Star Wars™: Unlimited"
+  },
+  {
+    "id": "cunning-fr",
+    "title": "Ruse",
+    "imageURL": "https://cdn.starwarsunlimited.com//Star_Wars_Unlimited_Cunning_Article_Header_b4a8db2ded.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/cunning-fr",
+    "date": "2023-11-08",
+    "summary": "Un aperçu de l'affinité jaune dans Star Wars™: Unlimited"
+  },
+  {
+    "id": "a-grand-competition-fr",
+    "title": "La grande compétition",
+    "imageURL": "https://cdn.starwarsunlimited.com/Star_Wars_Unlimited_Thrawn_Article_Header_021008b2ce.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/a-grand-competition-fr",
+    "date": "2023-10-25",
+    "summary": "Présentation du Jeu Compétitif dans le cadre du Jeu Organisé de Star Wars™: Unlimited."
+  },
+  {
+    "id": "aggression-fr",
+    "title": "Agressivité",
+    "imageURL": "https://cdn.starwarsunlimited.com//Star_Wars_Unlimited_Aggression_Article_Header_1e47670b8e.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/aggression-fr",
+    "date": "2023-10-11",
+    "summary": "Un aperçu de l'affinité rouge dans Star Wars™: Unlimited"
+  },
+  {
+    "id": "sparking-rebellion-fr",
+    "title": "Étincelle de Rébellion",
+    "imageURL": "https://cdn.starwarsunlimited.com//Star_Wars_Unlimited_Resupply_Article_Header_417205cc26.png",
+    "link": "https://starwarsunlimited.com/fr/articles/sparking-rebellion-fr",
+    "date": "2023-09-27",
+    "summary": "Un petit aperçu de ce que comprend le premier set de Star Wars™: Unlimited"
+  },
+  {
+    "id": "boosting-ahead-of-release-fr",
+    "title": "Besoin d'un petit coup de boost",
+    "imageURL": "https://cdn.starwarsunlimited.com/Star_Wars_Unlimited_Princess_Leia_Article_Header_7793bd50ed.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/boosting-ahead-of-release-fr",
+    "date": "2023-09-20",
+    "summary": "Un aperçu des boosters de Star Wars™: Unlimited"
+  },
+  {
+    "id": "command-fr",
+    "title": "Commandement",
+    "imageURL": "https://cdn.starwarsunlimited.com//Star_Wars_Unlimited_Command_Article_Header_753febb820.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/command-fr",
+    "date": "2023-09-06",
+    "summary": "Un aperçu de l'affinité verte dans Star Wars™: Unlimited"
+  },
+  {
+    "id": "star-wars-unlimited-at-spiel-2023-fr",
+    "title": "Star Wars : Unlimited au Spiel 2023 ",
+    "imageURL": "https://cdn.starwarsunlimited.com/Star_Wars_Unlimited_Key_Art_Article_Header_10a6d12354.png",
+    "link": "https://starwarsunlimited.com/fr/articles/star-wars-unlimited-at-spiel-2023-fr",
+    "date": "2023-09-01",
+    "summary": "Des parties en démo de Star Wars™: Unlimited lors du Spiel 2023"
+  },
+  {
+    "id": "launch-sequence-fr",
+    "title": "Séquence de Lancement",
+    "imageURL": "https://cdn.starwarsunlimited.com/Star_Wars_Unlimited_Starter_Deck_Article_Header_a014c1c216.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/launch-sequence-fr",
+    "date": "2023-08-23",
+    "summary": "Un aperçu des decks de démarrage et du déroulement d’une partie de Star Wars™: Unlimited"
+  },
+  {
+    "id": "vigilance-fr",
+    "title": "Vigilance",
+    "imageURL": "https://cdn.starwarsunlimited.com//Star_Wars_Unlimited_Vigilance_Article_Header_c8a248fa70.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/vigilance-fr",
+    "date": "2023-08-09",
+    "summary": "Un aperçu de l'affinité bleue dans Star Wars™: Unlimited"
+  },
+  {
+    "id": "star-wars-unlimited-quickstart-rules-fr",
+    "title": "Star Wars: Unlimited Règles de démarrage rapide",
+    "imageURL": "https://cdn.starwarsunlimited.com/Star_Wars_Unlimited_Quickstart_Rules_Header_112ba26d7c.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/star-wars-unlimited-quickstart-rules-fr",
+    "date": "2023-07-26",
+    "summary": "Consultez les règles de démarrage rapide pour Star Wars™: Unlimited"
+  },
+  {
+    "id": "a-taste-of-unlimited-possibilities-fr",
+    "title": "Un avant-goût sans limite",
+    "imageURL": "https://cdn.starwarsunlimited.com/Star_Wars_Unlimited_R2_D2_Article_Header_a71728da61.png",
+    "link": "https://starwarsunlimited.com/fr/articles/a-taste-of-unlimited-possibilities-fr",
+    "date": "2023-07-26",
+    "summary": "Présentation en avant-première des decks de démo Star Wars™: Unlimited"
+  },
+  {
+    "id": "heroism-and-villainy-fr",
+    "title": "Héroïsme et Infâmie",
+    "imageURL": "https://cdn.starwarsunlimited.com/Star_Wars_Unlimited_Youre_My_Only_Hope_Article_Header_30d3809c18.png",
+    "link": "https://starwarsunlimited.com/fr/articles/heroism-and-villainy-fr",
+    "date": "2023-07-26",
+    "summary": "Un aperçu des affinités dans Star Wars™: Unlimited"
+  },
+  {
+    "id": "unlimited-fun-every-day-fr",
+    "title": "Une infinité d’opportunités quotidiennes",
+    "imageURL": "https://cdn.starwarsunlimited.com/SWH_01_article_O_Pcasual_preview_4ca45bc60d.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/unlimited-fun-every-day-fr",
+    "date": "2023-07-12",
+    "summary": "Présentation du Jeu Occasionnel dans le cadre du Jeu Organisé de Star Wars™: Unlimited."
+  },
+  {
+    "id": "star-wars-unlimited-at-gen-con-2023-fr",
+    "title": "Star Wars : Unlimited à la Gen Con 2023 ",
+    "imageURL": "https://cdn.starwarsunlimited.com/Gen_Con_Logo_2cab87a59c.png",
+    "link": "https://starwarsunlimited.com/fr/articles/star-wars-unlimited-at-gen-con-2023-fr",
+    "date": "2023-07-11",
+    "summary": "Des parties en démo de Star Wars : Unlimited lors de la Gen Con 2023"
+  },
+  {
+    "id": "star-wars-unlimited-first-look-fr",
+    "title": "Star Wars: Unlimited",
+    "imageURL": "https://cdn.starwarsunlimited.com/SWH_01_pressrelease_1920x1080_2_ad2aacf6f2_bc90db2ac4.jpeg",
+    "link": "https://starwarsunlimited.com/fr/articles/star-wars-unlimited-first-look-fr",
+    "date": "2023-05-25",
+    "summary": "Un avant-goût du nouveau Jeu de Cartes à Collectionner Star Wars™ de FFG"
+  },
+  {
+    "id": "press-release-fr",
+    "title": "À propos de Star Wars™: Unlimited, le nouveau Jeu de Cartes à Collectionner de Fantasy Flight Games se déroulant dans la galaxie Star Wars.",
+    "imageURL": "https://cdn.starwarsunlimited.com/SWH_01_pressrelease_1920x1080_plain_27f07ee8bb.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/press-release-fr",
+    "date": "2023-05-24",
+    "summary": "L’élaboration du JCC bat son plein ! La sortie du premier set est prévue pour 2024\n"
   }
 ]
