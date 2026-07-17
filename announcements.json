@@ -6,7 +6,8 @@
     "color": "#1C7C54",
     "url": "https://apps.apple.com/app/id6762050359",
     "imageURL": null,
-    "date": "2026-07-09"
+    "date": "2026-07-09",
+    "changes": null
   },
   {
     "id": "ann-1782573827",
@@ -15,16 +16,18 @@
     "color": "#7C3AED",
     "url": null,
     "imageURL": null,
-    "date": "2026-06-28"
+    "date": "2026-06-28",
+    "changes": { "added": ["ASH"], "updated": null }
   },
   {
     "id": "ann-1782573514",
-    "title": "Nouveau set ajouté : Cendres de l’Empire Weekly Play - ASHP",
+    "title": "Nouveau set ajouté : Cendres de l'Empire Weekly Play - ASHP",
     "detail": null,
     "color": "#7C3AED",
     "url": null,
     "imageURL": null,
-    "date": "2026-06-27"
+    "date": "2026-06-27",
+    "changes": { "added": ["ASHP"], "updated": null }
   },
   {
     "id": "ann-1781094086",
@@ -33,7 +36,8 @@
     "color": "#7C3AED",
     "url": null,
     "imageURL": null,
-    "date": "2026-06-13"
+    "date": "2026-06-13",
+    "changes": { "added": ["P26", "ASH"], "updated": ["JTLW", "TS26"] }
   },
   {
     "id": "ann-1781021226",
@@ -42,7 +46,8 @@
     "color": "#7C3AED",
     "url": null,
     "imageURL": null,
-    "date": "2026-06-09"
+    "date": "2026-06-09",
+    "changes": { "added": ["LAW"], "updated": null }
   },
   {
     "id": "ann-1780922260",
@@ -51,7 +56,8 @@
     "color": "#7C3AED",
     "url": null,
     "imageURL": null,
-    "date": "2026-06-08"
+    "date": "2026-06-08",
+    "changes": { "added": ["C26"], "updated": null }
   },
   {
     "id": "ann-1780565228",
@@ -60,7 +66,8 @@
     "color": "#7C3AED",
     "url": null,
     "imageURL": null,
-    "date": "2026-06-04"
+    "date": "2026-06-04",
+    "changes": { "added": ["MV26"], "updated": null }
   },
   {
     "id": "ann-2026-05-31",
@@ -69,16 +76,18 @@
     "color": "#7C3AED",
     "url": null,
     "imageURL": null,
-    "date": "2026-06-02"
+    "date": "2026-06-02",
+    "changes": { "added": ["JTL", "LOF", "SEC", "LAW", "J25", "LOFW", "JTLW"], "updated": ["JTL", "LOF", "SEC", "LAW", "C25", "JTLW", "P25"] }
   },
   {
     "id": "ann-2026-05-30",
-    "title": "Nouveau set ajouté : Cendres de l’Empire - ASH",
+    "title": "Nouveau set ajouté : Cendres de l'Empire - ASH",
     "detail": null,
     "color": "#7C3AED",
     "url": null,
     "imageURL": null,
-    "date": "2026-05-30"
+    "date": "2026-05-30",
+    "changes": { "added": ["ASH"], "updated": null }
   },
   {
     "id": "ann-2026-06-11",
@@ -87,7 +96,8 @@
     "color": "#7C3AED",
     "url": null,
     "imageURL": null,
-    "date": "2026-04-20"
+    "date": "2026-04-20",
+    "changes": { "added": ["TS26"], "updated": null }
   },
   {
     "id": "ann-2026-06-9",
@@ -96,7 +106,8 @@
     "color": "#7C3AED",
     "url": null,
     "imageURL": null,
-    "date": "2026-04-11"
+    "date": "2026-04-11",
+    "changes": { "added": ["LAWP"], "updated": null }
   },
   {
     "id": "ann-2026-06-5",
@@ -105,7 +116,8 @@
     "color": "#7C3AED",
     "url": "https://ko-fi.com/swucardex",
     "imageURL": null,
-    "date": "2026-04-02"
+    "date": "2026-04-02",
+    "changes": null
   },
   {
     "id": "ann-2026-05",
@@ -114,6 +126,7 @@
     "color": "#7C3AED",
     "url": null,
     "imageURL": null,
-    "date": "2026-03-30"
+    "date": "2026-03-30",
+    "changes": { "added": ["TWI"], "updated": null }
   }
 ]
