@@ -2161,14 +2161,6 @@
   },
   {
     "set_code": "SHD",
-    "en_name": "Mercenary Company",
-    "card_number": 390,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
     "en_name": "Moment of Glory",
     "card_number": 399,
     "variant_type": "Hyperspace",
@@ -2187,14 +2179,6 @@
     "set_code": "SHD",
     "en_name": "Headhunting",
     "card_number": 414,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Heroic Renegade",
-    "card_number": 415,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -2283,6 +2267,14 @@
     "set_code": "SHD",
     "en_name": "Triple Dark Raid",
     "card_number": 463,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
+    "en_name": "Cartel Turncoat",
+    "card_number": 464,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -2571,6 +2563,14 @@
     "set_code": "SOR",
     "en_name": "AT-AT Suppressor",
     "card_number": 305,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
+    "en_name": "Cloud City Wing Guard",
+    "card_number": 328,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -3748,6 +3748,14 @@
     "en_name": "General Grievous, General of the Droid Armies",
     "card_number": 15,
     "variant_type": "Prerelease Judge",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
+    "en_name": "Pau City",
+    "card_number": 294,
+    "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
   },
