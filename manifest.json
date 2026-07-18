@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "lastUpdated": "2026-06-09",
+  "lastUpdated": "2026-07-18",
   "latestMainSet": "law",
   "announcement": {
     "id": "ann-1781021226",
@@ -320,6 +320,19 @@
       "logoURL": null,
       "artworkURL": null,
       "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/staging/sets/c26.json"
+    },
+    {
+      "id": "ashp",
+      "dataVersion": 1,
+      "code": "ASHP",
+      "name": "Cendres de l’Empire Weekly Play",
+      "type": "special",
+      "order": 17,
+      "color": "#888888",
+      "foilShared": false,
+      "logoURL": null,
+      "artworkURL": null,
+      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/staging/sets/ashp.json"
     }
   ]
 }
