@@ -2073,14 +2073,6 @@
   },
   {
     "set_code": "SHD",
-    "en_name": "Survivors' Gauntlet",
-    "card_number": 338,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
     "en_name": "Foundling",
     "card_number": 343,
     "variant_type": "Hyperspace",
@@ -2121,6 +2113,14 @@
   },
   {
     "set_code": "SHD",
+    "en_name": "Crosshair, Following Orders",
+    "card_number": 356,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
     "en_name": "Clone Deserter",
     "card_number": 364,
     "variant_type": "Hyperspace",
@@ -2131,6 +2131,14 @@
     "set_code": "SHD",
     "en_name": "Freetown Backup",
     "card_number": 366,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
+    "en_name": "Modded Cohort",
+    "card_number": 369,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -2177,6 +2185,14 @@
   },
   {
     "set_code": "SHD",
+    "en_name": "Disabling Fang Fighter",
+    "card_number": 435,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
     "en_name": "Wanted Insurgents",
     "card_number": 436,
     "variant_type": "Hyperspace",
@@ -2203,14 +2219,6 @@
     "set_code": "SHD",
     "en_name": "Lurking TIE Phantom",
     "card_number": 456,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "4-LOM, Bounty Hunter for Hire",
-    "card_number": 457,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -2529,6 +2537,14 @@
   },
   {
     "set_code": "SOR",
+    "en_name": "Del Meeko, Providing Overwatch",
+    "card_number": 300,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
     "en_name": "AT-AT Suppressor",
     "card_number": 305,
     "variant_type": "Hyperspace",
@@ -2665,14 +2681,6 @@
   },
   {
     "set_code": "SOR",
-    "en_name": "Jedha Agitator",
-    "card_number": 421,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
     "en_name": "Occupier Siege Tank",
     "card_number": 428,
     "variant_type": "Hyperspace",
@@ -2755,6 +2763,14 @@
     "set_code": "SOR",
     "en_name": "Regional Sympathizers",
     "card_number": 501,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
+    "en_name": "Underworld Thug",
+    "card_number": 505,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
