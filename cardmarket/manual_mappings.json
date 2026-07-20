@@ -2129,14 +2129,6 @@
   },
   {
     "set_code": "SHD",
-    "en_name": "Freetown Backup",
-    "card_number": 366,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
     "en_name": "Modded Cohort",
     "card_number": 369,
     "variant_type": "Hyperspace",
@@ -2147,14 +2139,6 @@
     "set_code": "SHD",
     "en_name": "Weequay Pirate Gang",
     "card_number": 388,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Moment of Glory",
-    "card_number": 399,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -2187,14 +2171,6 @@
     "set_code": "SHD",
     "en_name": "Disabling Fang Fighter",
     "card_number": 435,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Wanted Insurgents",
-    "card_number": 436,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -2283,6 +2259,14 @@
     "set_code": "SHD",
     "en_name": "Criminal Muscle",
     "card_number": 477,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
+    "en_name": "Fugitive Wookiee",
+    "card_number": 479,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -2681,6 +2665,14 @@
   },
   {
     "set_code": "SOR",
+    "en_name": "Wampa",
+    "card_number": 427,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
     "en_name": "Occupier Siege Tank",
     "card_number": 428,
     "variant_type": "Hyperspace",
@@ -2739,6 +2731,14 @@
     "set_code": "SOR",
     "en_name": "Smuggling Compartment",
     "card_number": 476,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
+    "en_name": "Disarm",
+    "card_number": 478,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -3785,14 +3785,6 @@
   },
   {
     "set_code": "TWI",
-    "en_name": "Synchronized Strike",
-    "card_number": 370,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
     "en_name": "Osi Sobeck, Warden of the Citadel",
     "card_number": 385,
     "variant_type": "Hyperspace",
@@ -3841,14 +3833,6 @@
   },
   {
     "set_code": "TWI",
-    "en_name": "Sabine Wren, You Can Count On Me",
-    "card_number": 460,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
     "en_name": "Republic Attack Pod",
     "card_number": 462,
     "variant_type": "Hyperspace",
@@ -3889,8 +3873,8 @@
   },
   {
     "set_code": "TWI",
-    "en_name": "Prisoner of War",
-    "card_number": 491,
+    "en_name": "Merciless Contest",
+    "card_number": 500,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
