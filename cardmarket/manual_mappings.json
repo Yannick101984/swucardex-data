@@ -65,38 +65,6 @@
   },
   {
     "set_code": "JTL",
-    "en_name": "Power from Pain",
-    "card_number": 42,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "JTL",
-    "en_name": "Echo Base Engineer",
-    "card_number": 44,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "JTL",
-    "en_name": "Royal Security Fighter",
-    "card_number": 61,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "JTL",
-    "en_name": "Leia Organa, Pilots, To Your Stations",
-    "card_number": 97,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "JTL",
     "en_name": "Independent Smuggler",
     "card_number": 211,
     "variant_type": "Standard",
@@ -2033,6 +2001,14 @@
   },
   {
     "set_code": "SHD",
+    "en_name": "The Client, Dictated by Discretion",
+    "card_number": 308,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
     "en_name": "Clan Saxon Gauntlet",
     "card_number": 312,
     "variant_type": "Hyperspace",
@@ -2139,6 +2115,14 @@
     "set_code": "SHD",
     "en_name": "Weequay Pirate Gang",
     "card_number": 388,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
+    "en_name": "Outflank",
+    "card_number": 397,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -3753,6 +3737,22 @@
   },
   {
     "set_code": "TWI",
+    "en_name": "A Fine Addition",
+    "card_number": 313,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
+    "en_name": "Equalize",
+    "card_number": 328,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
     "en_name": "Vulture Interceptor Wing",
     "card_number": 336,
     "variant_type": "Hyperspace",
@@ -3793,6 +3793,22 @@
   },
   {
     "set_code": "TWI",
+    "en_name": "In Defense of Kamino",
+    "card_number": 397,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
+    "en_name": "Steela Gerrera, Beloved Tactician",
+    "card_number": 414,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
     "en_name": "Mace Windu's Lightsaber",
     "card_number": 419,
     "variant_type": "Hyperspace",
@@ -3811,6 +3827,22 @@
     "set_code": "TWI",
     "en_name": "Twice the Pride",
     "card_number": 422,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
+    "en_name": "Disaffected Senator",
+    "card_number": 424,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
+    "en_name": "Hevy, Staunch Martyr",
+    "card_number": 431,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -3849,6 +3881,14 @@
   },
   {
     "set_code": "TWI",
+    "en_name": "Independent Senator",
+    "card_number": 471,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
     "en_name": "Lux Bonteri, Renegade Separatist",
     "card_number": 475,
     "variant_type": "Hyperspace",
@@ -3865,6 +3905,14 @@
   },
   {
     "set_code": "TWI",
+    "en_name": "Droid Cohort",
+    "card_number": 483,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
     "en_name": "Unmasking the Conspiracy",
     "card_number": 488,
     "variant_type": "Hyperspace",
@@ -3875,6 +3923,14 @@
     "set_code": "TWI",
     "en_name": "Merciless Contest",
     "card_number": 500,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
+    "en_name": "AT-TE Vanguard",
+    "card_number": 508,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
