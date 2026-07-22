@@ -65,14 +65,6 @@
   },
   {
     "set_code": "JTL",
-    "en_name": "Independent Smuggler",
-    "card_number": 211,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "JTL",
     "en_name": "Coordinated Front",
     "card_number": 253,
     "variant_type": "Standard",
@@ -179,6 +171,14 @@
     "set_code": "LOF",
     "en_name": "Relic Scavenger",
     "card_number": 116,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "LOF",
+    "en_name": "Purge Trooper",
+    "card_number": 133,
     "variant_type": "Standard",
     "idProduct": null,
     "note": ""
@@ -1513,22 +1513,6 @@
   },
   {
     "set_code": "SEC",
-    "en_name": "Luthen Rael, Don't You Want to Fight For Real?",
-    "card_number": 13,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SEC",
-    "en_name": "Uscru Entertainment District",
-    "card_number": 20,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SEC",
     "en_name": "Populist Champion",
     "card_number": 44,
     "variant_type": "Standard",
@@ -2091,6 +2075,14 @@
     "set_code": "SHD",
     "en_name": "Crosshair, Following Orders",
     "card_number": 356,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
+    "en_name": "Maul, Shadow Collective Visionary",
+    "card_number": 359,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -3723,14 +3715,6 @@
     "set_code": "TWI",
     "en_name": "Pau City",
     "card_number": 294,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "Wartime Trade Official",
-    "card_number": 305,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
