@@ -608,624 +608,6 @@
       }
     },
     {
-      "id": 39098,
-      "attributes": {
-        "cardNumber": 53,
-        "title": "Dark Vador",
-        "subtitle": "Ne Me Décevez Plus",
-        "cardCount": 104,
-        "artist": "Afif Khaled",
-        "artFrontHorizontal": true,
-        "artBackHorizontal": null,
-        "hasFoil": true,
-        "cost": 6,
-        "hp": 8,
-        "power": 3,
-        "text": "Action [1 ressource, Inclinez] : infligez 1 dégât à une base.",
-        "textStyled": "<p><strong>Action [</strong><img src=\"https://ffg-prod-uploads.s3.amazonaws.com/icon_cost_1_6878a6fe98.png\" alt=\"icon_cost_1.png\"><strong>, </strong><img src=\"https://ffg-prod-uploads.s3.amazonaws.com/icon_exhaust_0c450d09d4.png\" alt=\"icon_exhaust.png\"><strong>] :</strong> infligez 1 dégât à une base.</p>",
-        "deployBox": "En attaque : infligez 2 dégâts à une base.",
-        "deployBoxStyled": "<p><strong>En attaque :</strong> infligez 2 dégâts à une base.</p>",
-        "epicAction": "Action Épique : si vous contrôlez au moins 6 ressources, déployez ce leader. (Retournez Vador, redressez-le et déplacez-le dans l'arène terrestre.",
-        "epicActionStyled": "<p><strong>Action Épique :</strong> si vous contrôlez au moins 6 ressources, déployez ce leader. (<i>Retournez Vador, redressez-le et déplacez-le dans l'arène terrestre.</p>",
-        "linkHtml": "<a href=\"/cards?cid=9389694773\" class=\"card-tooltip\" data-card=\"9389694773\">Dark Vador</a>",
-        "cardId": null,
-        "createdAt": "2025-07-02T19:34:17.633Z",
-        "updatedAt": "2025-07-16T15:00:12.363Z",
-        "publishedAt": "2025-03-05T06:00:00.000Z",
-        "locale": "fr",
-        "hyperspace": false,
-        "unique": true,
-        "showcase": false,
-        "cardUid": "9389694773",
-        "rules": null,
-        "rulesStyled": null,
-        "serialCode": "i01010053",
-        "upgradeHp": null,
-        "upgradePower": null,
-        "artFront": {
-          "data": {
-            "id": 37045,
-            "attributes": {
-              "name": "I01010053FR_Dark_Vador_Leader.png",
-              "alternativeText": null,
-              "caption": null,
-              "width": 419,
-              "height": 300,
-              "formats": {
-                "card": {
-                  "ext": ".png",
-                  "url": "https://cdn.starwarsunlimited.com//card_I01010053_FR_Dark_Vador_Leader_00651e92e7.png",
-                  "hash": "card_I01010053_FR_Dark_Vador_Leader_00651e92e7",
-                  "mime": "image/png",
-                  "name": "card_I01010053FR_Dark_Vador_Leader.png",
-                  "path": null,
-                  "size": 192.11,
-                  "width": 400,
-                  "height": 286,
-                  "sizeInBytes": 192113
-                },
-                "xsmall": {
-                  "ext": ".png",
-                  "url": "https://cdn.starwarsunlimited.com//xsmall_I01010053_FR_Dark_Vador_Leader_00651e92e7.png",
-                  "hash": "xsmall_I01010053_FR_Dark_Vador_Leader_00651e92e7",
-                  "mime": "image/png",
-                  "name": "xsmall_I01010053FR_Dark_Vador_Leader.png",
-                  "path": null,
-                  "size": 116.8,
-                  "width": 300,
-                  "height": 215,
-                  "sizeInBytes": 116803
-                },
-                "xxsmall": {
-                  "ext": ".png",
-                  "url": "https://cdn.starwarsunlimited.com//xxsmall_I01010053_FR_Dark_Vador_Leader_00651e92e7.png",
-                  "hash": "xxsmall_I01010053_FR_Dark_Vador_Leader_00651e92e7",
-                  "mime": "image/png",
-                  "name": "xxsmall_I01010053FR_Dark_Vador_Leader.png",
-                  "path": null,
-                  "size": 57.62,
-                  "width": 200,
-                  "height": 143,
-                  "sizeInBytes": 57617
-                },
-                "xxxsmall": {
-                  "ext": ".png",
-                  "url": "https://cdn.starwarsunlimited.com//xxxsmall_I01010053_FR_Dark_Vador_Leader_00651e92e7.png",
-                  "hash": "xxxsmall_I01010053_FR_Dark_Vador_Leader_00651e92e7",
-                  "mime": "image/png",
-                  "name": "xxxsmall_I01010053FR_Dark_Vador_Leader.png",
-                  "path": null,
-                  "size": 34.96,
-                  "width": 150,
-                  "height": 107,
-                  "sizeInBytes": 34959
-                },
-                "thumbnail": {
-                  "ext": ".png",
-                  "url": "https://cdn.starwarsunlimited.com//thumbnail_I01010053_FR_Dark_Vador_Leader_00651e92e7.png",
-                  "hash": "thumbnail_I01010053_FR_Dark_Vador_Leader_00651e92e7",
-                  "mime": "image/png",
-                  "name": "thumbnail_I01010053FR_Dark_Vador_Leader.png",
-                  "path": null,
-                  "size": 66.71,
-                  "width": 218,
-                  "height": 156,
-                  "sizeInBytes": 66714
-                }
-              },
-              "hash": "I01010053_FR_Dark_Vador_Leader_00651e92e7",
-              "ext": ".png",
-              "mime": "image/png",
-              "size": 55.75,
-              "url": "https://cdn.starwarsunlimited.com//I01010053_FR_Dark_Vador_Leader_00651e92e7.png",
-              "previewUrl": null,
-              "provider": "aws-s3",
-              "provider_metadata": null,
-              "createdAt": "2025-07-02T19:22:55.436Z",
-              "updatedAt": "2025-07-02T19:22:55.436Z"
-            }
-          }
-        },
-        "artBack": {
-          "data": {
-            "id": 37298,
-            "attributes": {
-              "name": "I01010053FR_Dark_Vador_Leader_Unit.png",
-              "alternativeText": null,
-              "caption": null,
-              "width": 300,
-              "height": 419,
-              "formats": {
-                "card": {
-                  "ext": ".png",
-                  "url": "https://cdn.starwarsunlimited.com//card_I01010053_FR_Dark_Vador_Leader_Unit_b22d4e394b.png",
-                  "hash": "card_I01010053_FR_Dark_Vador_Leader_Unit_b22d4e394b",
-                  "mime": "image/png",
-                  "name": "card_I01010053FR_Dark_Vador_Leader_Unit.png",
-                  "path": null,
-                  "size": 207.2,
-                  "width": 286,
-                  "height": 400,
-                  "sizeInBytes": 207202
-                },
-                "xsmall": {
-                  "ext": ".png",
-                  "url": "https://cdn.starwarsunlimited.com//xsmall_I01010053_FR_Dark_Vador_Leader_Unit_b22d4e394b.png",
-                  "hash": "xsmall_I01010053_FR_Dark_Vador_Leader_Unit_b22d4e394b",
-                  "mime": "image/png",
-                  "name": "xsmall_I01010053FR_Dark_Vador_Leader_Unit.png",
-                  "path": null,
-                  "size": 125.1,
-                  "width": 215,
-                  "height": 300,
-                  "sizeInBytes": 125104
-                },
-                "xxsmall": {
-                  "ext": ".png",
-                  "url": "https://cdn.starwarsunlimited.com//xxsmall_I01010053_FR_Dark_Vador_Leader_Unit_b22d4e394b.png",
-                  "hash": "xxsmall_I01010053_FR_Dark_Vador_Leader_Unit_b22d4e394b",
-                  "mime": "image/png",
-                  "name": "xxsmall_I01010053FR_Dark_Vador_Leader_Unit.png",
-                  "path": null,
-                  "size": 61.09,
-                  "width": 143,
-                  "height": 200,
-                  "sizeInBytes": 61091
-                },
-                "xxxsmall": {
-                  "ext": ".png",
-                  "url": "https://cdn.starwarsunlimited.com//xxxsmall_I01010053_FR_Dark_Vador_Leader_Unit_b22d4e394b.png",
-                  "hash": "xxxsmall_I01010053_FR_Dark_Vador_Leader_Unit_b22d4e394b",
-                  "mime": "image/png",
-                  "name": "xxxsmall_I01010053FR_Dark_Vador_Leader_Unit.png",
-                  "path": null,
-                  "size": 36.26,
-                  "width": 107,
-                  "height": 150,
-                  "sizeInBytes": 36256
-                },
-                "thumbnail": {
-                  "ext": ".png",
-                  "url": "https://cdn.starwarsunlimited.com//thumbnail_I01010053_FR_Dark_Vador_Leader_Unit_b22d4e394b.png",
-                  "hash": "thumbnail_I01010053_FR_Dark_Vador_Leader_Unit_b22d4e394b",
-                  "mime": "image/png",
-                  "name": "thumbnail_I01010053FR_Dark_Vador_Leader_Unit.png",
-                  "path": null,
-                  "size": 38.66,
-                  "width": 112,
-                  "height": 156,
-                  "sizeInBytes": 38655
-                }
-              },
-              "hash": "I01010053_FR_Dark_Vador_Leader_Unit_b22d4e394b",
-              "ext": ".png",
-              "mime": "image/png",
-              "size": 62.63,
-              "url": "https://cdn.starwarsunlimited.com//I01010053_FR_Dark_Vador_Leader_Unit_b22d4e394b.png",
-              "previewUrl": null,
-              "provider": "aws-s3",
-              "provider_metadata": null,
-              "createdAt": "2025-07-02T19:27:09.711Z",
-              "updatedAt": "2025-07-02T19:27:09.711Z"
-            }
-          }
-        },
-        "artThumbnail": {
-          "data": {
-            "id": 36870,
-            "attributes": {
-              "name": "I01010053EN_Darth_Vader_Leader_Unit_Thumbnail.png",
-              "alternativeText": null,
-              "caption": null,
-              "width": 300,
-              "height": 100,
-              "formats": {
-                "xxsmall": {
-                  "ext": ".png",
-                  "url": "https://cdn.starwarsunlimited.com//xxsmall_I01010053_EN_Darth_Vader_Leader_Unit_Thumbnail_a3029904cf.png",
-                  "hash": "xxsmall_I01010053_EN_Darth_Vader_Leader_Unit_Thumbnail_a3029904cf",
-                  "mime": "image/png",
-                  "name": "xxsmall_I01010053EN_Darth_Vader_Leader_Unit_Thumbnail.png",
-                  "path": null,
-                  "size": 35.49,
-                  "width": 200,
-                  "height": 67,
-                  "sizeInBytes": 35495
-                },
-                "xxxsmall": {
-                  "ext": ".png",
-                  "url": "https://cdn.starwarsunlimited.com//xxxsmall_I01010053_EN_Darth_Vader_Leader_Unit_Thumbnail_a3029904cf.png",
-                  "hash": "xxxsmall_I01010053_EN_Darth_Vader_Leader_Unit_Thumbnail_a3029904cf",
-                  "mime": "image/png",
-                  "name": "xxxsmall_I01010053EN_Darth_Vader_Leader_Unit_Thumbnail.png",
-                  "path": null,
-                  "size": 20.51,
-                  "width": 150,
-                  "height": 50,
-                  "sizeInBytes": 20505
-                },
-                "thumbnail": {
-                  "ext": ".png",
-                  "url": "https://cdn.starwarsunlimited.com//thumbnail_I01010053_EN_Darth_Vader_Leader_Unit_Thumbnail_a3029904cf.png",
-                  "hash": "thumbnail_I01010053_EN_Darth_Vader_Leader_Unit_Thumbnail_a3029904cf",
-                  "mime": "image/png",
-                  "name": "thumbnail_I01010053EN_Darth_Vader_Leader_Unit_Thumbnail.png",
-                  "path": null,
-                  "size": 53.41,
-                  "width": 250,
-                  "height": 83,
-                  "sizeInBytes": 53409
-                }
-              },
-              "hash": "I01010053_EN_Darth_Vader_Leader_Unit_Thumbnail_a3029904cf",
-              "ext": ".png",
-              "mime": "image/png",
-              "size": 23.01,
-              "url": "https://cdn.starwarsunlimited.com//I01010053_EN_Darth_Vader_Leader_Unit_Thumbnail_a3029904cf.png",
-              "previewUrl": null,
-              "provider": "aws-s3",
-              "provider_metadata": null,
-              "createdAt": "2025-07-02T19:18:12.881Z",
-              "updatedAt": "2025-07-02T19:18:12.881Z"
-            }
-          }
-        },
-        "localizations": {
-          "data": [
-            {
-              "id": 39099,
-              "attributes": {
-                "title": "Darth Vader",
-                "subtitle": "Non Mi Deluda Anche Lei",
-                "cardNumber": 53,
-                "cardCount": 104,
-                "artist": "Afif Khaled",
-                "artFrontHorizontal": true,
-                "artBackHorizontal": null,
-                "hasFoil": true,
-                "cost": 6,
-                "hp": 8,
-                "power": 3,
-                "text": "Azione [1 risorsa, Esaurire]: Infliggi \n1 danno a una base.",
-                "textStyled": "<p><strong>Azione [</strong><img src=\"https://ffg-prod-uploads.s3.amazonaws.com/icon_cost_1_6878a6fe98.png\" alt=\"icon_cost_1.png\"><strong>, </strong><img src=\"https://ffg-prod-uploads.s3.amazonaws.com/icon_exhaust_0c450d09d4.png\" alt=\"icon_exhaust.png\"><strong>]:</strong> Infliggi  1 danno a una base.</p>",
-                "deployBox": "Quando Attacca: Infliggi 2 danni a una base.",
-                "deployBoxStyled": "<p><strong>Quando Attacca:</strong> Infliggi 2 danni a una base.</p>",
-                "epicAction": "Azione Epica: Se controlli \n6 o più risorse, schiera questo leader (giralo, approntalo e spostalo nell'arena terrestre ).",
-                "epicActionStyled": "<p><strong>Azione Epica:</strong> Se controlli  6 o più risorse, schiera questo leader <i>(giralo, approntalo e spostalo nell'arena terrestre ).</p>",
-                "linkHtml": "<a href=\"/cards?cid=9389694773\" class=\"card-tooltip\" data-card=\"9389694773\">Darth Vader</a>",
-                "cardId": null,
-                "createdAt": "2025-07-02T19:34:18.001Z",
-                "updatedAt": "2025-07-16T15:00:12.132Z",
-                "publishedAt": "2025-03-05T06:00:00.000Z",
-                "locale": "it",
-                "hyperspace": false,
-                "unique": true,
-                "showcase": false,
-                "cardUid": "9389694773",
-                "rules": null,
-                "rulesStyled": null,
-                "serialCode": "i01010053",
-                "upgradeHp": null,
-                "upgradePower": null
-              }
-            },
-            {
-              "id": 39095,
-              "attributes": {
-                "title": "Darth Vader",
-                "subtitle": "Don't Fail Me Again",
-                "cardNumber": 53,
-                "cardCount": 104,
-                "artist": "Afif Khaled",
-                "artFrontHorizontal": true,
-                "artBackHorizontal": null,
-                "hasFoil": true,
-                "cost": 6,
-                "hp": 8,
-                "power": 3,
-                "text": "Action [1 resource, Exhaust]: Deal 1 damage to a base.",
-                "textStyled": "<p><strong>Action [</strong><img src=\"https://ffg-prod-uploads.s3.amazonaws.com/icon_cost_1_6878a6fe98.png\" alt=\"icon_cost_1.png\"><strong>, </strong><img src=\"https://ffg-prod-uploads.s3.amazonaws.com/icon_exhaust_0c450d09d4.png\" alt=\"icon_exhaust.png\"><strong>]:</strong> Deal 1 damage to a base.</p>",
-                "deployBox": "On Attack: Deal 2 damage to a base.",
-                "deployBoxStyled": "<p><strong>On Attack:</strong> Deal 2 damage to a base.</p>",
-                "epicAction": "Epic Action: If you control 6 or more resources, deploy this leader. (Flip him, ready him, and move him to the ground arena.)",
-                "epicActionStyled": "<p><strong>Epic Action:</strong> If you control 6 or more resources, deploy this leader. <i>(Flip him, ready him, and move him to the ground arena.)</i></p>",
-                "linkHtml": "<a href=\"/cards?cid=9389694773\" class=\"card-tooltip\" data-card=\"9389694773\">Darth Vader</a>",
-                "cardId": null,
-                "createdAt": "2025-07-02T19:34:16.607Z",
-                "updatedAt": "2025-07-16T15:00:11.894Z",
-                "publishedAt": "2025-03-05T06:00:00.000Z",
-                "locale": "en",
-                "hyperspace": false,
-                "unique": true,
-                "showcase": false,
-                "cardUid": "9389694773",
-                "rules": null,
-                "rulesStyled": null,
-                "serialCode": "i01010053",
-                "upgradeHp": null,
-                "upgradePower": null
-              }
-            },
-            {
-              "id": 39097,
-              "attributes": {
-                "title": "Darth Vader",
-                "subtitle": "No vuelva a fallarme",
-                "cardNumber": 53,
-                "cardCount": 104,
-                "artist": "Afif Khaled",
-                "artFrontHorizontal": true,
-                "artBackHorizontal": null,
-                "hasFoil": true,
-                "cost": 6,
-                "hp": 8,
-                "power": 3,
-                "text": "Acción [1 recurso, Agota]: Inflige 1 de daño a una base.",
-                "textStyled": "<p>Acción [<img src=\"https://ffg-prod-uploads.s3.amazonaws.com/icon_cost_1_6878a6fe98.png\" alt=\"icon_cost_1.png\"><strong>, </strong><img src=\"https://ffg-prod-uploads.s3.amazonaws.com/icon_exhaust_0c450d09d4.png\" alt=\"icon_exhaust.png\">]: Inflige 1 de daño a una base.</p>",
-                "deployBox": "Al atacar: Inflige 2 de daño a una base.",
-                "deployBoxStyled": "<p>Al atacar: Inflige 2 de daño a una base.</p>",
-                "epicAction": "Acción épica: Si controlas al menos 6 recursos, despliega este líder. (Dale la vuelta a su carta, prepáralo y trasládalo al campo de batalla terrestre.",
-                "epicActionStyled": "<p>Acción épica: Si controlas al menos 6 recursos, despliega este líder. (Dale la vuelta a su carta, prepáralo y trasládalo al campo de batalla terrestre.</p>",
-                "linkHtml": "<a href=\"/cards?cid=9389694773\" class=\"card-tooltip\" data-card=\"9389694773\">Darth Vader</a>",
-                "cardId": null,
-                "createdAt": "2025-07-02T19:34:17.284Z",
-                "updatedAt": "2025-07-16T15:00:12.605Z",
-                "publishedAt": "2025-03-05T06:00:00.000Z",
-                "locale": "es",
-                "hyperspace": false,
-                "unique": true,
-                "showcase": false,
-                "cardUid": "9389694773",
-                "rules": null,
-                "rulesStyled": null,
-                "serialCode": "i01010053",
-                "upgradeHp": null,
-                "upgradePower": null
-              }
-            },
-            {
-              "id": 39096,
-              "attributes": {
-                "title": "Darth Vader",
-                "subtitle": "Enttäuschen auch Sie mich nicht noch einmal",
-                "cardNumber": 53,
-                "cardCount": 104,
-                "artist": "Afif Khaled",
-                "artFrontHorizontal": true,
-                "artBackHorizontal": null,
-                "hasFoil": true,
-                "cost": 6,
-                "hp": 8,
-                "power": 3,
-                "text": "Aktion [1 ressource, Erschöpfe]: Füge einer Basis 1 Schaden zu.",
-                "textStyled": "<p><strong>Aktion [</strong><img src=\"https://ffg-prod-uploads.s3.amazonaws.com/icon_cost_1_6878a6fe98.png\" alt=\"icon_cost_1.png\"><strong>, </strong><img src=\"https://ffg-prod-uploads.s3.amazonaws.com/icon_exhaust_0c450d09d4.png\" alt=\"icon_exhaust.png\"><strong>]:</strong> Füge einer Basis 1 Schaden zu.</p>",
-                "deployBox": "Beim Angriff: Füge einer Basis 2 Schaden zu.",
-                "deployBoxStyled": "<p><strong>Beim Angriff:</strong> Füge einer Basis 2 Schaden zu.</p>",
-                "epicAction": "Epische Aktion: Falls du 6 oder mehr Ressourcen kontrol­lierst, rufe diesen Anführer. (Drehe ihn um, mache ihn spielbereit und verschiebe ihn in das Boden-Kampfgebiet.)",
-                "epicActionStyled": "<p><strong>Epische Aktion:</strong> Falls du 6 oder mehr Ressourcen kontrol­lierst, rufe diesen Anführer. (Drehe ihn um, mache ihn spielbereit und verschiebe ihn in das Boden-Kampfgebiet.)</p>",
-                "linkHtml": "<a href=\"/cards?cid=9389694773\" class=\"card-tooltip\" data-card=\"9389694773\">Darth Vader</a>",
-                "cardId": null,
-                "createdAt": "2025-07-02T19:34:16.955Z",
-                "updatedAt": "2025-07-16T15:00:12.844Z",
-                "publishedAt": "2025-03-05T06:00:00.000Z",
-                "locale": "de",
-                "hyperspace": false,
-                "unique": true,
-                "showcase": false,
-                "cardUid": "9389694773",
-                "rules": null,
-                "rulesStyled": null,
-                "serialCode": "i01010053",
-                "upgradeHp": null,
-                "upgradePower": null
-              }
-            }
-          ]
-        },
-        "aspects": {
-          "data": [
-            {
-              "id": 14,
-              "attributes": {
-                "name": "Agressivité",
-                "description": "<p>Attaquer avec un maximum d’efficacité et infliger énormément de dégâts. Cette affinité convient parfaitement aux joueurs qui aiment un style de jeu rapide et agressif, brisant les défenses adverses et se ruant vers la victoire quel que soit le prix à payer.</p>",
-                "color": "#d30808",
-                "createdAt": "2023-08-10T21:10:46.362Z",
-                "updatedAt": "2024-07-15T21:39:33.927Z",
-                "publishedAt": "2024-01-02T18:23:52.395Z",
-                "locale": "fr",
-                "englishName": "Aggression",
-                "sortValue": 10
-              }
-            },
-            {
-              "id": 29,
-              "attributes": {
-                "name": "Infâmie",
-                "description": "<p>Se battre pour le pouvoir suprême avec les «&nbsp;méchants&nbsp;» de la galaxie Star Wars. Cette affinité permet de commander à d’immenses armées ou de provoquer de terribles destructions. Tout comme l’Héroïsme, cette affinité est souvent associée à une autre affinité sur la carte.</p>",
-                "color": "#000000",
-                "createdAt": "2023-08-10T21:20:52.826Z",
-                "updatedAt": "2024-07-15T21:40:49.895Z",
-                "publishedAt": "2024-01-02T18:25:50.235Z",
-                "locale": "fr",
-                "englishName": "Villainy",
-                "sortValue": 20
-              }
-            }
-          ]
-        },
-        "aspectDuplicates": {
-          "data": []
-        },
-        "type": {
-          "data": {
-            "id": 36,
-            "attributes": {
-              "name": "Leader",
-              "description": "",
-              "value": "Leader",
-              "createdAt": "2023-08-15T18:49:09.085Z",
-              "updatedAt": "2024-03-05T17:11:46.232Z",
-              "publishedAt": "2023-12-13T23:06:00.522Z",
-              "locale": "fr",
-              "sortValue": 1
-            }
-          }
-        },
-        "type2": {
-          "data": {
-            "id": 21,
-            "attributes": {
-              "name": "Leader Unité",
-              "description": "",
-              "value": "Leader Unit",
-              "createdAt": "2023-08-15T18:03:38.401Z",
-              "updatedAt": "2024-03-05T17:12:15.830Z",
-              "publishedAt": "2023-12-13T23:06:15.554Z",
-              "locale": "fr",
-              "sortValue": 1
-            }
-          }
-        },
-        "traits": {
-          "data": [
-            {
-              "id": 34,
-              "attributes": {
-                "name": "Force",
-                "description": null,
-                "createdAt": "2023-08-15T14:41:10.682Z",
-                "updatedAt": "2024-01-04T21:15:19.420Z",
-                "publishedAt": "2024-01-04T21:15:19.417Z",
-                "locale": "fr"
-              }
-            },
-            {
-              "id": 9,
-              "attributes": {
-                "name": "Impérial",
-                "description": "",
-                "createdAt": "2023-08-15T14:38:23.731Z",
-                "updatedAt": "2024-01-04T21:11:46.388Z",
-                "publishedAt": "2024-01-04T21:11:46.385Z",
-                "locale": "fr"
-              }
-            },
-            {
-              "id": 44,
-              "attributes": {
-                "name": "Sith",
-                "description": "",
-                "createdAt": "2023-08-15T14:42:17.108Z",
-                "updatedAt": "2024-01-04T21:23:19.059Z",
-                "publishedAt": "2024-01-04T21:23:19.055Z",
-                "locale": "fr"
-              }
-            }
-          ]
-        },
-        "arenas": {
-          "data": [
-            {
-              "id": 4,
-              "attributes": {
-                "name": "Terrestre",
-                "description": null,
-                "createdAt": "2023-08-15T14:32:20.801Z",
-                "updatedAt": "2024-01-04T16:49:07.912Z",
-                "publishedAt": "2023-08-18T21:37:40.768Z",
-                "locale": "fr"
-              }
-            }
-          ]
-        },
-        "keywords": {
-          "data": []
-        },
-        "rarity": {
-          "data": {
-            "id": 24,
-            "attributes": {
-              "name": "Spéciale",
-              "character": "S",
-              "color": "#000000",
-              "createdAt": "2023-08-14T21:34:27.979Z",
-              "updatedAt": "2024-04-25T14:06:09.057Z",
-              "publishedAt": "2024-01-04T16:42:01.831Z",
-              "locale": "fr",
-              "englishName": "Special",
-              "sortValue": 1
-            }
-          }
-        },
-        "expansion": {
-          "data": {
-            "id": 70,
-            "attributes": {
-              "name": "Bataille d’Intro : Hoth",
-              "description": null,
-              "code": "IBH",
-              "createdAt": "2025-07-02T19:16:03.018Z",
-              "updatedAt": "2025-07-16T15:04:20.419Z",
-              "publishedAt": "2025-07-16T15:02:15.145Z",
-              "locale": "fr",
-              "sortValue": 61,
-              "leaderboardStartDate": null,
-              "leaderboardEndDate": null
-            }
-          }
-        },
-        "variantTypes": {
-          "data": [
-            {
-              "id": 48,
-              "attributes": {
-                "name": "Standard",
-                "description": null,
-                "createdAt": "2024-07-15T14:41:29.870Z",
-                "updatedAt": "2024-07-15T19:55:03.181Z",
-                "publishedAt": "2024-07-15T19:54:53.299Z",
-                "locale": "fr",
-                "variantId": "01",
-                "foil": false,
-                "sortValue": 10,
-                "icon": {
-                  "data": {
-                    "id": 8701,
-                    "attributes": {
-                      "name": "icon_standard.png",
-                      "alternativeText": null,
-                      "caption": null,
-                      "width": 144,
-                      "height": 144,
-                      "formats": null,
-                      "hash": "icon_standard_7dbd7cd8e6",
-                      "ext": ".png",
-                      "mime": "image/png",
-                      "size": 0.39,
-                      "url": "https://cdn.starwarsunlimited.com//icon_standard_7dbd7cd8e6.png",
-                      "previewUrl": null,
-                      "provider": "aws-s3",
-                      "provider_metadata": null,
-                      "createdAt": "2024-07-15T14:40:17.066Z",
-                      "updatedAt": "2024-07-15T14:40:17.066Z"
-                    }
-                  }
-                }
-              }
-            }
-          ]
-        },
-        "variantOf": {
-          "data": null
-        },
-        "reprintOf": {
-          "data": null
-        },
-        "validationId": "9389694773"
-      }
-    },
-    {
       "id": 38843,
       "attributes": {
         "cardNumber": 2,
@@ -1769,552 +1151,6 @@
           "data": null
         },
         "validationId": "1049149674"
-      }
-    },
-    {
-      "id": 39103,
-      "attributes": {
-        "cardNumber": 54,
-        "title": "Poste de Commandement Avancé",
-        "subtitle": "",
-        "cardCount": 104,
-        "artist": "Stephen Zavala",
-        "artFrontHorizontal": true,
-        "artBackHorizontal": true,
-        "hasFoil": true,
-        "cost": null,
-        "hp": 20,
-        "power": null,
-        "text": "",
-        "textStyled": "<p></p>",
-        "deployBox": null,
-        "deployBoxStyled": null,
-        "epicAction": "",
-        "epicActionStyled": "<p></p>",
-        "linkHtml": "<a href=\"/cards?cid=0479107180\" class=\"card-tooltip\" data-card=\"0479107180\">Poste de Commandement Avancé</a>",
-        "cardId": null,
-        "createdAt": "2025-07-02T19:34:19.326Z",
-        "updatedAt": "2025-07-16T15:00:13.552Z",
-        "publishedAt": "2025-03-05T06:00:00.000Z",
-        "locale": "fr",
-        "hyperspace": false,
-        "unique": false,
-        "showcase": false,
-        "cardUid": "0479107180",
-        "rules": null,
-        "rulesStyled": null,
-        "serialCode": "i01010054",
-        "upgradeHp": null,
-        "upgradePower": null,
-        "artFront": {
-          "data": {
-            "id": 37549,
-            "attributes": {
-              "name": "I01010054FR_Poste_de_Commandement_Avancé_Base_20hp.png",
-              "alternativeText": null,
-              "caption": null,
-              "width": 419,
-              "height": 300,
-              "formats": {
-                "card": {
-                  "ext": ".png",
-                  "url": "https://cdn.starwarsunlimited.com//card_I01010054_FR_Poste_de_Commandement_Avance_Base_20hp_85ac7c1c33.png",
-                  "hash": "card_I01010054_FR_Poste_de_Commandement_Avance_Base_20hp_85ac7c1c33",
-                  "mime": "image/png",
-                  "name": "card_I01010054FR_Poste_de_Commandement_Avancé_Base_20hp.png",
-                  "path": null,
-                  "size": 179.1,
-                  "width": 400,
-                  "height": 286,
-                  "sizeInBytes": 179104
-                },
-                "xsmall": {
-                  "ext": ".png",
-                  "url": "https://cdn.starwarsunlimited.com//xsmall_I01010054_FR_Poste_de_Commandement_Avance_Base_20hp_85ac7c1c33.png",
-                  "hash": "xsmall_I01010054_FR_Poste_de_Commandement_Avance_Base_20hp_85ac7c1c33",
-                  "mime": "image/png",
-                  "name": "xsmall_I01010054FR_Poste_de_Commandement_Avancé_Base_20hp.png",
-                  "path": null,
-                  "size": 110.29,
-                  "width": 300,
-                  "height": 215,
-                  "sizeInBytes": 110286
-                },
-                "xxsmall": {
-                  "ext": ".png",
-                  "url": "https://cdn.starwarsunlimited.com//xxsmall_I01010054_FR_Poste_de_Commandement_Avance_Base_20hp_85ac7c1c33.png",
-                  "hash": "xxsmall_I01010054_FR_Poste_de_Commandement_Avance_Base_20hp_85ac7c1c33",
-                  "mime": "image/png",
-                  "name": "xxsmall_I01010054FR_Poste_de_Commandement_Avancé_Base_20hp.png",
-                  "path": null,
-                  "size": 55.81,
-                  "width": 200,
-                  "height": 143,
-                  "sizeInBytes": 55806
-                },
-                "xxxsmall": {
-                  "ext": ".png",
-                  "url": "https://cdn.starwarsunlimited.com//xxxsmall_I01010054_FR_Poste_de_Commandement_Avance_Base_20hp_85ac7c1c33.png",
-                  "hash": "xxxsmall_I01010054_FR_Poste_de_Commandement_Avance_Base_20hp_85ac7c1c33",
-                  "mime": "image/png",
-                  "name": "xxxsmall_I01010054FR_Poste_de_Commandement_Avancé_Base_20hp.png",
-                  "path": null,
-                  "size": 34.42,
-                  "width": 150,
-                  "height": 107,
-                  "sizeInBytes": 34425
-                },
-                "thumbnail": {
-                  "ext": ".png",
-                  "url": "https://cdn.starwarsunlimited.com//thumbnail_I01010054_FR_Poste_de_Commandement_Avance_Base_20hp_85ac7c1c33.png",
-                  "hash": "thumbnail_I01010054_FR_Poste_de_Commandement_Avance_Base_20hp_85ac7c1c33",
-                  "mime": "image/png",
-                  "name": "thumbnail_I01010054FR_Poste_de_Commandement_Avancé_Base_20hp.png",
-                  "path": null,
-                  "size": 81.38,
-                  "width": 250,
-                  "height": 179,
-                  "sizeInBytes": 81380
-                }
-              },
-              "hash": "I01010054_FR_Poste_de_Commandement_Avance_Base_20hp_85ac7c1c33",
-              "ext": ".png",
-              "mime": "image/png",
-              "size": 50.76,
-              "url": "https://cdn.starwarsunlimited.com//I01010054_FR_Poste_de_Commandement_Avance_Base_20hp_85ac7c1c33.png",
-              "previewUrl": null,
-              "provider": "aws-s3",
-              "provider_metadata": null,
-              "createdAt": "2025-07-03T16:54:32.067Z",
-              "updatedAt": "2025-07-03T16:54:32.067Z"
-            }
-          }
-        },
-        "artBack": {
-          "data": {
-            "id": 37566,
-            "attributes": {
-              "name": "I01010054FR_Poste_de_Commandement_Avancé_Base_30hp.png",
-              "alternativeText": null,
-              "caption": null,
-              "width": 419,
-              "height": 300,
-              "formats": {
-                "card": {
-                  "ext": ".png",
-                  "url": "https://cdn.starwarsunlimited.com//card_I01010054_FR_Poste_de_Commandement_Avance_Base_30hp_71b22f73e5.png",
-                  "hash": "card_I01010054_FR_Poste_de_Commandement_Avance_Base_30hp_71b22f73e5",
-                  "mime": "image/png",
-                  "name": "card_I01010054FR_Poste_de_Commandement_Avancé_Base_30hp.png",
-                  "path": null,
-                  "size": 178.06,
-                  "width": 400,
-                  "height": 286,
-                  "sizeInBytes": 178063
-                },
-                "xsmall": {
-                  "ext": ".png",
-                  "url": "https://cdn.starwarsunlimited.com//xsmall_I01010054_FR_Poste_de_Commandement_Avance_Base_30hp_71b22f73e5.png",
-                  "hash": "xsmall_I01010054_FR_Poste_de_Commandement_Avance_Base_30hp_71b22f73e5",
-                  "mime": "image/png",
-                  "name": "xsmall_I01010054FR_Poste_de_Commandement_Avancé_Base_30hp.png",
-                  "path": null,
-                  "size": 109.67,
-                  "width": 300,
-                  "height": 215,
-                  "sizeInBytes": 109666
-                },
-                "xxsmall": {
-                  "ext": ".png",
-                  "url": "https://cdn.starwarsunlimited.com//xxsmall_I01010054_FR_Poste_de_Commandement_Avance_Base_30hp_71b22f73e5.png",
-                  "hash": "xxsmall_I01010054_FR_Poste_de_Commandement_Avance_Base_30hp_71b22f73e5",
-                  "mime": "image/png",
-                  "name": "xxsmall_I01010054FR_Poste_de_Commandement_Avancé_Base_30hp.png",
-                  "path": null,
-                  "size": 55.87,
-                  "width": 200,
-                  "height": 143,
-                  "sizeInBytes": 55873
-                },
-                "xxxsmall": {
-                  "ext": ".png",
-                  "url": "https://cdn.starwarsunlimited.com//xxxsmall_I01010054_FR_Poste_de_Commandement_Avance_Base_30hp_71b22f73e5.png",
-                  "hash": "xxxsmall_I01010054_FR_Poste_de_Commandement_Avance_Base_30hp_71b22f73e5",
-                  "mime": "image/png",
-                  "name": "xxxsmall_I01010054FR_Poste_de_Commandement_Avancé_Base_30hp.png",
-                  "path": null,
-                  "size": 34.25,
-                  "width": 150,
-                  "height": 107,
-                  "sizeInBytes": 34247
-                },
-                "thumbnail": {
-                  "ext": ".png",
-                  "url": "https://cdn.starwarsunlimited.com//thumbnail_I01010054_FR_Poste_de_Commandement_Avance_Base_30hp_71b22f73e5.png",
-                  "hash": "thumbnail_I01010054_FR_Poste_de_Commandement_Avance_Base_30hp_71b22f73e5",
-                  "mime": "image/png",
-                  "name": "thumbnail_I01010054FR_Poste_de_Commandement_Avancé_Base_30hp.png",
-                  "path": null,
-                  "size": 64.19,
-                  "width": 218,
-                  "height": 156,
-                  "sizeInBytes": 64195
-                }
-              },
-              "hash": "I01010054_FR_Poste_de_Commandement_Avance_Base_30hp_71b22f73e5",
-              "ext": ".png",
-              "mime": "image/png",
-              "size": 50.46,
-              "url": "https://cdn.starwarsunlimited.com//I01010054_FR_Poste_de_Commandement_Avance_Base_30hp_71b22f73e5.png",
-              "previewUrl": null,
-              "provider": "aws-s3",
-              "provider_metadata": null,
-              "createdAt": "2025-07-03T16:54:33.427Z",
-              "updatedAt": "2025-07-03T16:54:33.427Z"
-            }
-          }
-        },
-        "artThumbnail": {
-          "data": {
-            "id": 36881,
-            "attributes": {
-              "name": "I01010054EN_Forward_Command_Post_Base_Thumbnail.png",
-              "alternativeText": null,
-              "caption": null,
-              "width": 300,
-              "height": 100,
-              "formats": {
-                "xxsmall": {
-                  "ext": ".png",
-                  "url": "https://cdn.starwarsunlimited.com//xxsmall_I01010054_EN_Forward_Command_Post_Base_Thumbnail_3e30a6d934.png",
-                  "hash": "xxsmall_I01010054_EN_Forward_Command_Post_Base_Thumbnail_3e30a6d934",
-                  "mime": "image/png",
-                  "name": "xxsmall_I01010054EN_Forward_Command_Post_Base_Thumbnail.png",
-                  "path": null,
-                  "size": 30.58,
-                  "width": 200,
-                  "height": 67,
-                  "sizeInBytes": 30579
-                },
-                "xxxsmall": {
-                  "ext": ".png",
-                  "url": "https://cdn.starwarsunlimited.com//xxxsmall_I01010054_EN_Forward_Command_Post_Base_Thumbnail_3e30a6d934.png",
-                  "hash": "xxxsmall_I01010054_EN_Forward_Command_Post_Base_Thumbnail_3e30a6d934",
-                  "mime": "image/png",
-                  "name": "xxxsmall_I01010054EN_Forward_Command_Post_Base_Thumbnail.png",
-                  "path": null,
-                  "size": 18.2,
-                  "width": 150,
-                  "height": 50,
-                  "sizeInBytes": 18203
-                },
-                "thumbnail": {
-                  "ext": ".png",
-                  "url": "https://cdn.starwarsunlimited.com//thumbnail_I01010054_EN_Forward_Command_Post_Base_Thumbnail_3e30a6d934.png",
-                  "hash": "thumbnail_I01010054_EN_Forward_Command_Post_Base_Thumbnail_3e30a6d934",
-                  "mime": "image/png",
-                  "name": "thumbnail_I01010054EN_Forward_Command_Post_Base_Thumbnail.png",
-                  "path": null,
-                  "size": 45.4,
-                  "width": 250,
-                  "height": 83,
-                  "sizeInBytes": 45397
-                }
-              },
-              "hash": "I01010054_EN_Forward_Command_Post_Base_Thumbnail_3e30a6d934",
-              "ext": ".png",
-              "mime": "image/png",
-              "size": 19.28,
-              "url": "https://cdn.starwarsunlimited.com//I01010054_EN_Forward_Command_Post_Base_Thumbnail_3e30a6d934.png",
-              "previewUrl": null,
-              "provider": "aws-s3",
-              "provider_metadata": null,
-              "createdAt": "2025-07-02T19:18:51.168Z",
-              "updatedAt": "2025-07-02T19:18:51.168Z"
-            }
-          }
-        },
-        "localizations": {
-          "data": [
-            {
-              "id": 39104,
-              "attributes": {
-                "title": "Posto di Comando Mobile",
-                "subtitle": "",
-                "cardNumber": 54,
-                "cardCount": 104,
-                "artist": "Stephen Zavala",
-                "artFrontHorizontal": true,
-                "artBackHorizontal": true,
-                "hasFoil": true,
-                "cost": null,
-                "hp": 20,
-                "power": null,
-                "text": "",
-                "textStyled": "<p></p>",
-                "deployBox": null,
-                "deployBoxStyled": null,
-                "epicAction": "",
-                "epicActionStyled": "<p></p>",
-                "linkHtml": "<a href=\"/cards?cid=0479107180\" class=\"card-tooltip\" data-card=\"0479107180\">Posto di Comando Mobile</a>",
-                "cardId": null,
-                "createdAt": "2025-07-02T19:34:19.684Z",
-                "updatedAt": "2025-07-16T15:00:13.312Z",
-                "publishedAt": "2025-03-05T06:00:00.000Z",
-                "locale": "it",
-                "hyperspace": false,
-                "unique": false,
-                "showcase": false,
-                "cardUid": "0479107180",
-                "rules": null,
-                "rulesStyled": null,
-                "serialCode": "i01010054",
-                "upgradeHp": null,
-                "upgradePower": null
-              }
-            },
-            {
-              "id": 39100,
-              "attributes": {
-                "title": "Forward Command Post",
-                "subtitle": "",
-                "cardNumber": 54,
-                "cardCount": 104,
-                "artist": "Stephen Zavala",
-                "artFrontHorizontal": true,
-                "artBackHorizontal": true,
-                "hasFoil": true,
-                "cost": null,
-                "hp": 20,
-                "power": null,
-                "text": "",
-                "textStyled": "<p></p>",
-                "deployBox": null,
-                "deployBoxStyled": null,
-                "epicAction": "",
-                "epicActionStyled": "<p></p>",
-                "linkHtml": "<a href=\"/cards?cid=0479107180\" class=\"card-tooltip\" data-card=\"0479107180\">Forward Command Post</a>",
-                "cardId": null,
-                "createdAt": "2025-07-02T19:34:18.409Z",
-                "updatedAt": "2025-07-16T15:00:13.074Z",
-                "publishedAt": "2025-03-05T06:00:00.000Z",
-                "locale": "en",
-                "hyperspace": false,
-                "unique": false,
-                "showcase": false,
-                "cardUid": "0479107180",
-                "rules": null,
-                "rulesStyled": null,
-                "serialCode": "i01010054",
-                "upgradeHp": null,
-                "upgradePower": null
-              }
-            },
-            {
-              "id": 39102,
-              "attributes": {
-                "title": "Puesto de mando de avanzada",
-                "subtitle": "",
-                "cardNumber": 54,
-                "cardCount": 104,
-                "artist": "Stephen Zavala",
-                "artFrontHorizontal": true,
-                "artBackHorizontal": true,
-                "hasFoil": true,
-                "cost": null,
-                "hp": 20,
-                "power": null,
-                "text": "",
-                "textStyled": "<p></p>",
-                "deployBox": null,
-                "deployBoxStyled": null,
-                "epicAction": "",
-                "epicActionStyled": "<p></p>",
-                "linkHtml": "<a href=\"/cards?cid=0479107180\" class=\"card-tooltip\" data-card=\"0479107180\">Puesto de mando de avanzada</a>",
-                "cardId": null,
-                "createdAt": "2025-07-02T19:34:19.013Z",
-                "updatedAt": "2025-07-16T15:00:13.798Z",
-                "publishedAt": "2025-03-05T06:00:00.000Z",
-                "locale": "es",
-                "hyperspace": false,
-                "unique": false,
-                "showcase": false,
-                "cardUid": "0479107180",
-                "rules": null,
-                "rulesStyled": null,
-                "serialCode": "i01010054",
-                "upgradeHp": null,
-                "upgradePower": null
-              }
-            },
-            {
-              "id": 39101,
-              "attributes": {
-                "title": "Mobile Einsatzzentrale",
-                "subtitle": "",
-                "cardNumber": 54,
-                "cardCount": 104,
-                "artist": "Stephen Zavala",
-                "artFrontHorizontal": true,
-                "artBackHorizontal": true,
-                "hasFoil": true,
-                "cost": null,
-                "hp": 20,
-                "power": null,
-                "text": "",
-                "textStyled": "<p></p>",
-                "deployBox": null,
-                "deployBoxStyled": null,
-                "epicAction": "",
-                "epicActionStyled": "<p></p>",
-                "linkHtml": "<a href=\"/cards?cid=0479107180\" class=\"card-tooltip\" data-card=\"0479107180\">Mobile Einsatzzentrale</a>",
-                "cardId": null,
-                "createdAt": "2025-07-02T19:34:18.728Z",
-                "updatedAt": "2025-07-16T15:00:14.035Z",
-                "publishedAt": "2025-03-05T06:00:00.000Z",
-                "locale": "de",
-                "hyperspace": false,
-                "unique": false,
-                "showcase": false,
-                "cardUid": "0479107180",
-                "rules": null,
-                "rulesStyled": null,
-                "serialCode": "i01010054",
-                "upgradeHp": null,
-                "upgradePower": null
-              }
-            }
-          ]
-        },
-        "aspects": {
-          "data": [
-            {
-              "id": 4,
-              "attributes": {
-                "name": "Vigilance",
-                "description": "<p>Un jeu défensif, avec des capacités pour soigner les dégâts, retirer du jeu les unités dangereuses, protéger sa base des attaques ennemies. Cette affinité est idéale pour les joueurs qui savent temporiser, en encaissant les assauts les plus meurtriers.</p>",
-                "color": "#4073d4",
-                "createdAt": "2023-08-10T21:02:26.776Z",
-                "updatedAt": "2024-07-15T21:32:24.096Z",
-                "publishedAt": "2024-01-02T18:25:33.755Z",
-                "locale": "fr",
-                "englishName": "Vigilance",
-                "sortValue": 1
-              }
-            }
-          ]
-        },
-        "aspectDuplicates": {
-          "data": []
-        },
-        "type": {
-          "data": {
-            "id": 13,
-            "attributes": {
-              "name": "Base",
-              "description": "",
-              "value": "Base",
-              "createdAt": "2023-08-15T18:02:39.563Z",
-              "updatedAt": "2024-04-25T13:53:09.133Z",
-              "publishedAt": "2024-01-04T21:28:55.550Z",
-              "locale": "fr",
-              "sortValue": 2
-            }
-          }
-        },
-        "type2": {
-          "data": null
-        },
-        "traits": {
-          "data": []
-        },
-        "arenas": {
-          "data": []
-        },
-        "keywords": {
-          "data": []
-        },
-        "rarity": {
-          "data": {
-            "id": 24,
-            "attributes": {
-              "name": "Spéciale",
-              "character": "S",
-              "color": "#000000",
-              "createdAt": "2023-08-14T21:34:27.979Z",
-              "updatedAt": "2024-04-25T14:06:09.057Z",
-              "publishedAt": "2024-01-04T16:42:01.831Z",
-              "locale": "fr",
-              "englishName": "Special",
-              "sortValue": 1
-            }
-          }
-        },
-        "expansion": {
-          "data": {
-            "id": 70,
-            "attributes": {
-              "name": "Bataille d’Intro : Hoth",
-              "description": null,
-              "code": "IBH",
-              "createdAt": "2025-07-02T19:16:03.018Z",
-              "updatedAt": "2025-07-16T15:04:20.419Z",
-              "publishedAt": "2025-07-16T15:02:15.145Z",
-              "locale": "fr",
-              "sortValue": 61,
-              "leaderboardStartDate": null,
-              "leaderboardEndDate": null
-            }
-          }
-        },
-        "variantTypes": {
-          "data": [
-            {
-              "id": 48,
-              "attributes": {
-                "name": "Standard",
-                "description": null,
-                "createdAt": "2024-07-15T14:41:29.870Z",
-                "updatedAt": "2024-07-15T19:55:03.181Z",
-                "publishedAt": "2024-07-15T19:54:53.299Z",
-                "locale": "fr",
-                "variantId": "01",
-                "foil": false,
-                "sortValue": 10,
-                "icon": {
-                  "data": {
-                    "id": 8701,
-                    "attributes": {
-                      "name": "icon_standard.png",
-                      "alternativeText": null,
-                      "caption": null,
-                      "width": 144,
-                      "height": 144,
-                      "formats": null,
-                      "hash": "icon_standard_7dbd7cd8e6",
-                      "ext": ".png",
-                      "mime": "image/png",
-                      "size": 0.39,
-                      "url": "https://cdn.starwarsunlimited.com//icon_standard_7dbd7cd8e6.png",
-                      "previewUrl": null,
-                      "provider": "aws-s3",
-                      "provider_metadata": null,
-                      "createdAt": "2024-07-15T14:40:17.066Z",
-                      "updatedAt": "2024-07-15T14:40:17.066Z"
-                    }
-                  }
-                }
-              }
-            }
-          ]
-        },
-        "variantOf": {
-          "data": null
-        },
-        "reprintOf": {
-          "data": null
-        },
-        "validationId": "0479107180"
       }
     },
     {
@@ -5891,7 +4727,7 @@
         "hp": 6,
         "power": 4,
         "text": "Raid 2 (Cette unité a +2/+0 tant qu'elle attaque.)\nEn attaque : le défenseur a –2/–0 pour cette attaque. ",
-        "textStyled": "<p><strong>Raid 2</strong> (<i>Cette unité a <strong>+2</strong>/<strong>+0</strong> tant qu'elle attaque.</i>)</p><p><strong>En attaque : </strong>le défenseur a <strong>–2</strong>/<strong>–0</strong> pour cette attaque. </p>",
+        "textStyled": "<p><strong>Raid 2</strong> <i>(Cette unité a +2/+0 tant qu’elle attaque.)</i></p><p><strong>En attaque :</strong> l’unité en défense a –2/–0 pour cette attaque.</p>",
         "deployBox": null,
         "deployBoxStyled": null,
         "epicAction": "",
@@ -5899,15 +4735,15 @@
         "linkHtml": "<a href=\"/cards?cid=4136801536\" class=\"card-tooltip\" data-card=\"4136801536\">Han Solo</a>",
         "cardId": null,
         "createdAt": "2025-07-02T19:33:00.386Z",
-        "updatedAt": "2025-07-16T14:59:19.789Z",
+        "updatedAt": "2026-07-20T21:22:46.842Z",
         "publishedAt": "2025-03-05T06:00:00.000Z",
         "locale": "fr",
         "hyperspace": false,
         "unique": true,
         "showcase": false,
         "cardUid": "4136801536",
-        "rules": null,
-        "rulesStyled": null,
+        "rules": "(ERRATA) Maj de Tournure : « défenseur » devient « unité en défense ».\n",
+        "rulesStyled": "\n                <figure class=\"table\"><table><tbody><tr><td>07/20/2026</td><td>(ERRATA) Maj de Tournure : « défenseur » devient « unité en défense ».</td></tr></tbody></table></figure>\n                ",
         "serialCode": "i01010010",
         "upgradeHp": null,
         "upgradePower": null,
@@ -6075,7 +4911,7 @@
                 "hp": 6,
                 "power": 4,
                 "text": "Incursione 2 (Questa unità riceve +2/+0 mentre attacca.)\nQuando Attacca: Il difensore riceve –2/–0 per questo attacco.",
-                "textStyled": "<p><strong>Incursione 2</strong> <i>(Questa unità riceve <strong>+2</strong>/<strong>+0</strong> mentre attacca.)</i></p><p><strong>Quando Attacca: </strong>Il difensore riceve <strong>–2</strong>/<strong>–0</strong> per questo attacco.</p>",
+                "textStyled": "<p><strong>Incursione 2</strong> <i>(Questa unità riceve +2/+0 mentre attacca.)</i></p><p><strong>Quando Attacca:</strong>Il difensore riceve -2/-0 per questo attacco.</p>",
                 "deployBox": null,
                 "deployBoxStyled": null,
                 "epicAction": "",
@@ -6083,7 +4919,7 @@
                 "linkHtml": "<a href=\"/cards?cid=4136801536\" class=\"card-tooltip\" data-card=\"4136801536\">Han Solo</a>",
                 "cardId": null,
                 "createdAt": "2025-07-02T19:33:00.752Z",
-                "updatedAt": "2025-07-16T14:59:19.556Z",
+                "updatedAt": "2026-07-20T20:56:03.688Z",
                 "publishedAt": "2025-03-05T06:00:00.000Z",
                 "locale": "it",
                 "hyperspace": false,
@@ -6112,7 +4948,7 @@
                 "hp": 6,
                 "power": 4,
                 "text": "Raid 2 (This unit gets +2/+0 while attacking.)\nOn Attack:The defender gets –2/–0 for this attack.",
-                "textStyled": "<p><strong>Raid 2</strong> <i>(This unit gets <strong>+2</strong>/<strong>+0</strong> while attacking.)</i></p><p><strong>On Attack:</strong>The defender gets <strong>–2</strong>/<strong>–0</strong> for this attack.</p>",
+                "textStyled": "<p><strong>Raid 2</strong> <i>(This unit gets +2/+0 while attacking.)</i></p><p><strong>On Attack:</strong>The defending unit gets -2/-0 for this attack.</p>",
                 "deployBox": null,
                 "deployBoxStyled": null,
                 "epicAction": "",
@@ -6120,15 +4956,15 @@
                 "linkHtml": "<a href=\"/cards?cid=4136801536\" class=\"card-tooltip\" data-card=\"4136801536\">Han Solo</a>",
                 "cardId": null,
                 "createdAt": "2025-07-02T19:32:59.326Z",
-                "updatedAt": "2025-07-16T14:59:19.319Z",
+                "updatedAt": "2026-07-20T21:22:46.607Z",
                 "publishedAt": "2025-03-05T06:00:00.000Z",
                 "locale": "en",
                 "hyperspace": false,
                 "unique": true,
                 "showcase": false,
                 "cardUid": "4136801536",
-                "rules": null,
-                "rulesStyled": null,
+                "rules": "(ERRATA) Templating update: “Defender” becomes “defending unit”.\n",
+                "rulesStyled": "\n        <figure class=\"table\"><table><tbody><tr><td>07/20/2026</td><td>(ERRATA) Templating update: “Defender” becomes “defending unit”.</td></tr></tbody></table></figure>\n        ",
                 "serialCode": "i01010010",
                 "upgradeHp": null,
                 "upgradePower": null
@@ -6149,7 +4985,7 @@
                 "hp": 6,
                 "power": 4,
                 "text": "Incursión 2 (Esta unidad recibe +2/+0 cuando está atacando.)\nAl atacar: El defensor recibe –2/–0 para este ataque.",
-                "textStyled": "<p><strong>Incursión 2</strong> (Esta unidad recibe +2/+0 cuando está atacando.)</p><p>Al atacar: El defensor recibe <strong>–2</strong>/<strong>–0</strong> para este ataque.</p>",
+                "textStyled": "<p><strong>Incursión 2</strong> <i>(Esta unidad recibe +2/+0 cuando esté atacando.)</i></p><p><strong>Al atacar:</strong>La unidad defensora recibe -2/-0 para este ataque.</p>",
                 "deployBox": null,
                 "deployBoxStyled": null,
                 "epicAction": "",
@@ -6157,15 +4993,15 @@
                 "linkHtml": "<a href=\"/cards?cid=4136801536\" class=\"card-tooltip\" data-card=\"4136801536\">Han Solo</a>",
                 "cardId": null,
                 "createdAt": "2025-07-02T19:33:00.042Z",
-                "updatedAt": "2025-07-16T14:59:20.015Z",
+                "updatedAt": "2026-07-20T21:22:47.075Z",
                 "publishedAt": "2025-03-05T06:00:00.000Z",
                 "locale": "es",
                 "hyperspace": false,
                 "unique": true,
                 "showcase": false,
                 "cardUid": "4136801536",
-                "rules": null,
-                "rulesStyled": null,
+                "rules": "(ERRATA) Enunciado actualizado: «El defensor» pasa a ser «La unidad defensora».\n",
+                "rulesStyled": "\n                <figure class=\"table\"><table><tbody><tr><td>07/20/2026</td><td>(ERRATA) Enunciado actualizado: «El defensor» pasa a ser «La unidad defensora».</td></tr></tbody></table></figure>\n                ",
                 "serialCode": "i01010010",
                 "upgradeHp": null,
                 "upgradePower": null
@@ -6186,7 +5022,7 @@
                 "hp": 6,
                 "power": 4,
                 "text": "Offensive 2 (Diese Einheit bekommt +2/+0, solange sie angreift.)\nBeim Angriff:Der Verteidiger bekommt für diesen Angriff –2/–0.",
-                "textStyled": "<p><strong>Offensive 2</strong> <i>(Diese Einheit bekommt <strong>+2</strong>/<strong>+0</strong>, solange sie angreift.)</i></p><p><strong>Beim Angriff:</strong>Der Verteidiger bekommt für diesen Angriff <strong>–2</strong>/<strong>–0</strong>.</p>",
+                "textStyled": "<p><strong>Offensive 2</strong> <i>(Diese Einheit bekommt +2/+0, solange sie angreift.)</i></p><p><strong>Beim Angriff:</strong> Die verteidigende Einheit bekommt für diesen Angriff –2/–0.</p>",
                 "deployBox": null,
                 "deployBoxStyled": null,
                 "epicAction": "",
@@ -6194,15 +5030,15 @@
                 "linkHtml": "<a href=\"/cards?cid=4136801536\" class=\"card-tooltip\" data-card=\"4136801536\">Han Solo</a>",
                 "cardId": null,
                 "createdAt": "2025-07-02T19:32:59.692Z",
-                "updatedAt": "2025-07-16T14:59:20.237Z",
+                "updatedAt": "2026-07-20T21:22:47.304Z",
                 "publishedAt": "2025-03-05T06:00:00.000Z",
                 "locale": "de",
                 "hyperspace": false,
                 "unique": true,
                 "showcase": false,
                 "cardUid": "4136801536",
-                "rules": null,
-                "rulesStyled": null,
+                "rules": "(ERRATA) Neue Formulierung: „Verteidiger“ wird zu „verteidigende Einheit“.\n",
+                "rulesStyled": "\n                <figure class=\"table\"><table><tbody><tr><td>07/20/2026</td><td>(ERRATA) Neue Formulierung: „Verteidiger“ wird zu „verteidigende Einheit“.</td></tr></tbody></table></figure>\n                ",
                 "serialCode": "i01010010",
                 "upgradeHp": null,
                 "upgradePower": null
@@ -22182,7 +21018,7 @@
         "hp": 6,
         "power": 4,
         "text": "Raid 2 (Cette unité a +2/+0 tant qu'elle attaque.)\nEn attaque : le défenseur a –2/–0 pour cette attaque. ",
-        "textStyled": "<p><strong>Raid 2</strong> (<i>Cette unité a <strong>+2</strong>/<strong>+0</strong> tant qu'elle attaque.</i>)</p><p><strong>En attaque :</strong> le défenseur a <strong>–2</strong>/<strong>–0</strong> pour cette attaque. </p>",
+        "textStyled": "<p><strong>Raid 2</strong> <i>(Cette unité a +2/+0 tant qu’elle attaque.)</i></p><p><strong>En attaque :</strong> l’unité en défense a –2/–0 pour cette attaque.</p>",
         "deployBox": null,
         "deployBoxStyled": null,
         "epicAction": "",
@@ -22190,15 +21026,15 @@
         "linkHtml": "<a href=\"/cards?cid=3504602511\" class=\"card-tooltip\" data-card=\"3504602511\">Han Solo</a>",
         "cardId": null,
         "createdAt": "2025-07-02T19:33:58.149Z",
-        "updatedAt": "2025-07-16T14:59:59.212Z",
+        "updatedAt": "2026-07-20T21:22:48.173Z",
         "publishedAt": "2025-03-05T06:00:00.000Z",
         "locale": "fr",
         "hyperspace": false,
         "unique": true,
         "showcase": false,
         "cardUid": "3504602511",
-        "rules": null,
-        "rulesStyled": null,
+        "rules": "(ERRATA) Maj de Tournure : « défenseur » devient « unité en défense ».\n",
+        "rulesStyled": "\n                <figure class=\"table\"><table><tbody><tr><td>07/20/2026</td><td>(ERRATA) Maj de Tournure : « défenseur » devient « unité en défense ».</td></tr></tbody></table></figure>\n                ",
         "serialCode": "i01010042",
         "upgradeHp": null,
         "upgradePower": null,
@@ -22366,7 +21202,7 @@
                 "hp": 6,
                 "power": 4,
                 "text": "Incursione 2 (Questa unità riceve +2/+0 mentre attacca.)\nQuando Attacca: Il difensore riceve –2/–0 per questo attacco.",
-                "textStyled": "<p><strong>Incursione 2</strong> <i>(Questa unità riceve <strong>+2</strong>/<strong>+0</strong> mentre attacca.)</i></p><p><strong>Quando Attacca: </strong>Il difensore riceve <strong>–2</strong>/<strong>–0</strong> per questo attacco.</p>",
+                "textStyled": "<p><strong>Incursione 2</strong> <i>(Questa unità riceve +2/+0 mentre attacca.)</i></p><p><strong>Quando Attacca:</strong>Il difensore riceve -2/-0 per questo attacco.</p>",
                 "deployBox": null,
                 "deployBoxStyled": null,
                 "epicAction": "",
@@ -22374,7 +21210,7 @@
                 "linkHtml": "<a href=\"/cards?cid=3504602511\" class=\"card-tooltip\" data-card=\"3504602511\">Han Solo</a>",
                 "cardId": null,
                 "createdAt": "2025-07-02T19:33:58.517Z",
-                "updatedAt": "2025-07-16T14:59:58.966Z",
+                "updatedAt": "2026-07-20T20:56:05.231Z",
                 "publishedAt": "2025-03-05T06:00:00.000Z",
                 "locale": "it",
                 "hyperspace": false,
@@ -22403,7 +21239,7 @@
                 "hp": 6,
                 "power": 4,
                 "text": "Raid 2 (This unit gets +2/+0 while attacking.)\nOn Attack:The defender gets -2/-0 for this attack.",
-                "textStyled": "<p><strong>Raid <strong>2</strong></strong> <i>(This unit gets <strong>+2</strong>/<strong>+0</strong> while attacking.)</i></p><p><strong>On Attack:</strong>The defender gets -2/-0 for this attack.</p>",
+                "textStyled": "<p><strong>Raid 2</strong> <i>(This unit gets +2/+0 while attacking.)</i></p><p><strong>On Attack:</strong>The defending unit gets -2/-0 for this attack.</p>",
                 "deployBox": null,
                 "deployBoxStyled": null,
                 "epicAction": "",
@@ -22411,15 +21247,15 @@
                 "linkHtml": "<a href=\"/cards?cid=3504602511\" class=\"card-tooltip\" data-card=\"3504602511\">Han Solo</a>",
                 "cardId": null,
                 "createdAt": "2025-07-02T19:33:57.142Z",
-                "updatedAt": "2025-07-16T14:59:58.728Z",
+                "updatedAt": "2026-07-20T21:22:47.939Z",
                 "publishedAt": "2025-03-05T06:00:00.000Z",
                 "locale": "en",
                 "hyperspace": false,
                 "unique": true,
                 "showcase": false,
                 "cardUid": "3504602511",
-                "rules": null,
-                "rulesStyled": null,
+                "rules": "(ERRATA) Templating update: “Defender” becomes “defending unit”.\n",
+                "rulesStyled": "\n        <figure class=\"table\"><table><tbody><tr><td>07/20/2026</td><td>(ERRATA) Templating update: “Defender” becomes “defending unit”.</td></tr></tbody></table></figure>\n        ",
                 "serialCode": "i01010042",
                 "upgradeHp": null,
                 "upgradePower": null
@@ -22440,7 +21276,7 @@
                 "hp": 6,
                 "power": 4,
                 "text": "Incursión 2 (Esta unidad recibe +2/+0 cuando está atacando.)\nAl atacar: El defensor recibe –2/–0 para este ataque.",
-                "textStyled": "<p><strong>Incursión 2</strong> (Esta unidad recibe +2/+0 cuando está atacando.)</p><p>Al atacar: El defensor recibe <strong>–2</strong>/<strong>–0</strong> para este ataque.</p>",
+                "textStyled": "<p><strong>Incursión 2</strong> <i>(Esta unidad recibe +2/+0 cuando esté atacando.)</i></p><p><strong>Al atacar:</strong>La unidad defensora recibe -2/-0 para este ataque.</p>",
                 "deployBox": null,
                 "deployBoxStyled": null,
                 "epicAction": "",
@@ -22448,15 +21284,15 @@
                 "linkHtml": "<a href=\"/cards?cid=3504602511\" class=\"card-tooltip\" data-card=\"3504602511\">Han Solo</a>",
                 "cardId": null,
                 "createdAt": "2025-07-02T19:33:57.810Z",
-                "updatedAt": "2025-07-16T14:59:59.442Z",
+                "updatedAt": "2026-07-20T21:22:48.409Z",
                 "publishedAt": "2025-03-05T06:00:00.000Z",
                 "locale": "es",
                 "hyperspace": false,
                 "unique": true,
                 "showcase": false,
                 "cardUid": "3504602511",
-                "rules": null,
-                "rulesStyled": null,
+                "rules": "(ERRATA) Enunciado actualizado: «El defensor» pasa a ser «La unidad defensora».\n",
+                "rulesStyled": "\n                <figure class=\"table\"><table><tbody><tr><td>07/20/2026</td><td>(ERRATA) Enunciado actualizado: «El defensor» pasa a ser «La unidad defensora».</td></tr></tbody></table></figure>\n                ",
                 "serialCode": "i01010042",
                 "upgradeHp": null,
                 "upgradePower": null
@@ -22477,7 +21313,7 @@
                 "hp": 6,
                 "power": 4,
                 "text": "Offensive 2 (Diese Einheit bekommt +2/+0, solange sie angreift.)\nBeim Angriff:Der Verteidiger bekommt für diesen Angriff –2/–0.",
-                "textStyled": "<p><strong>Offensive 2</strong> <i>(Diese Einheit bekommt <strong>+2</strong>/<strong>+0</strong>, solange sie angreift.)</i></p><p><strong>Beim Angriff:</strong>Der Verteidiger bekommt für diesen Angriff <strong>–2</strong>/<strong>–0</strong>.</p>",
+                "textStyled": "<p><strong>Offensive 2</strong> <i>(Diese Einheit bekommt +2/+0, solange sie angreift.)</i></p><p><strong>Beim Angriff:</strong> Die verteidigende Einheit bekommt für diesen Angriff –2/–0.</p>",
                 "deployBox": null,
                 "deployBoxStyled": null,
                 "epicAction": "",
@@ -22485,15 +21321,15 @@
                 "linkHtml": "<a href=\"/cards?cid=3504602511\" class=\"card-tooltip\" data-card=\"3504602511\">Han Solo</a>",
                 "cardId": null,
                 "createdAt": "2025-07-02T19:33:57.490Z",
-                "updatedAt": "2025-07-16T14:59:59.684Z",
+                "updatedAt": "2026-07-20T21:22:48.648Z",
                 "publishedAt": "2025-03-05T06:00:00.000Z",
                 "locale": "de",
                 "hyperspace": false,
                 "unique": true,
                 "showcase": false,
                 "cardUid": "3504602511",
-                "rules": null,
-                "rulesStyled": null,
+                "rules": "(ERRATA) Neue Formulierung: „Verteidiger“ wird zu „verteidigende Einheit“.\n",
+                "rulesStyled": "\n                <figure class=\"table\"><table><tbody><tr><td>07/20/2026</td><td>(ERRATA) Neue Formulierung: „Verteidiger“ wird zu „verteidigende Einheit“.</td></tr></tbody></table></figure>\n                ",
                 "serialCode": "i01010042",
                 "upgradeHp": null,
                 "upgradePower": null
@@ -27708,6 +26544,1170 @@
           "data": null
         },
         "validationId": "8765982385"
+      }
+    },
+    {
+      "id": 39098,
+      "attributes": {
+        "cardNumber": 53,
+        "title": "Dark Vador",
+        "subtitle": "Ne Me Décevez Plus",
+        "cardCount": 104,
+        "artist": "Afif Khaled",
+        "artFrontHorizontal": true,
+        "artBackHorizontal": null,
+        "hasFoil": true,
+        "cost": 6,
+        "hp": 8,
+        "power": 3,
+        "text": "Action [1 ressource, Inclinez] : infligez 1 dégât à une base.",
+        "textStyled": "<p><strong>Action [</strong><img src=\"https://ffg-prod-uploads.s3.amazonaws.com/icon_cost_1_6878a6fe98.png\" alt=\"icon_cost_1.png\"><strong>, </strong><img src=\"https://ffg-prod-uploads.s3.amazonaws.com/icon_exhaust_0c450d09d4.png\" alt=\"icon_exhaust.png\"><strong>] :</strong> infligez 1 dégât à une base.</p>",
+        "deployBox": "En attaque : infligez 2 dégâts à une base.",
+        "deployBoxStyled": "<p><strong>En attaque :</strong> infligez 2 dégâts à une base.</p>",
+        "epicAction": "Action Épique : si vous contrôlez au moins 6 ressources, déployez ce leader. (Retournez Vador, redressez-le et déplacez-le dans l'arène terrestre.",
+        "epicActionStyled": "<p><strong>Action Épique :</strong> si vous contrôlez au moins 6 ressources, déployez ce leader. (<i>Retournez Vador, redressez-le et déplacez-le dans l'arène terrestre.</p>",
+        "linkHtml": "<a href=\"/cards?cid=9389694773\" class=\"card-tooltip\" data-card=\"9389694773\">Dark Vador</a>",
+        "cardId": null,
+        "createdAt": "2025-07-02T19:34:17.633Z",
+        "updatedAt": "2025-07-16T15:00:12.363Z",
+        "publishedAt": "2025-03-05T06:00:00.000Z",
+        "locale": "fr",
+        "hyperspace": false,
+        "unique": true,
+        "showcase": false,
+        "cardUid": "9389694773",
+        "rules": null,
+        "rulesStyled": null,
+        "serialCode": "i01010053",
+        "upgradeHp": null,
+        "upgradePower": null,
+        "artFront": {
+          "data": {
+            "id": 37045,
+            "attributes": {
+              "name": "I01010053FR_Dark_Vador_Leader.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 419,
+              "height": 300,
+              "formats": {
+                "card": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//card_I01010053_FR_Dark_Vador_Leader_00651e92e7.png",
+                  "hash": "card_I01010053_FR_Dark_Vador_Leader_00651e92e7",
+                  "mime": "image/png",
+                  "name": "card_I01010053FR_Dark_Vador_Leader.png",
+                  "path": null,
+                  "size": 192.11,
+                  "width": 400,
+                  "height": 286,
+                  "sizeInBytes": 192113
+                },
+                "xsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xsmall_I01010053_FR_Dark_Vador_Leader_00651e92e7.png",
+                  "hash": "xsmall_I01010053_FR_Dark_Vador_Leader_00651e92e7",
+                  "mime": "image/png",
+                  "name": "xsmall_I01010053FR_Dark_Vador_Leader.png",
+                  "path": null,
+                  "size": 116.8,
+                  "width": 300,
+                  "height": 215,
+                  "sizeInBytes": 116803
+                },
+                "xxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxsmall_I01010053_FR_Dark_Vador_Leader_00651e92e7.png",
+                  "hash": "xxsmall_I01010053_FR_Dark_Vador_Leader_00651e92e7",
+                  "mime": "image/png",
+                  "name": "xxsmall_I01010053FR_Dark_Vador_Leader.png",
+                  "path": null,
+                  "size": 57.62,
+                  "width": 200,
+                  "height": 143,
+                  "sizeInBytes": 57617
+                },
+                "xxxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxxsmall_I01010053_FR_Dark_Vador_Leader_00651e92e7.png",
+                  "hash": "xxxsmall_I01010053_FR_Dark_Vador_Leader_00651e92e7",
+                  "mime": "image/png",
+                  "name": "xxxsmall_I01010053FR_Dark_Vador_Leader.png",
+                  "path": null,
+                  "size": 34.96,
+                  "width": 150,
+                  "height": 107,
+                  "sizeInBytes": 34959
+                },
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//thumbnail_I01010053_FR_Dark_Vador_Leader_00651e92e7.png",
+                  "hash": "thumbnail_I01010053_FR_Dark_Vador_Leader_00651e92e7",
+                  "mime": "image/png",
+                  "name": "thumbnail_I01010053FR_Dark_Vador_Leader.png",
+                  "path": null,
+                  "size": 66.71,
+                  "width": 218,
+                  "height": 156,
+                  "sizeInBytes": 66714
+                }
+              },
+              "hash": "I01010053_FR_Dark_Vador_Leader_00651e92e7",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 55.75,
+              "url": "https://cdn.starwarsunlimited.com//I01010053_FR_Dark_Vador_Leader_00651e92e7.png",
+              "previewUrl": null,
+              "provider": "aws-s3",
+              "provider_metadata": null,
+              "createdAt": "2025-07-02T19:22:55.436Z",
+              "updatedAt": "2025-07-02T19:22:55.436Z"
+            }
+          }
+        },
+        "artBack": {
+          "data": {
+            "id": 37298,
+            "attributes": {
+              "name": "I01010053FR_Dark_Vador_Leader_Unit.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 300,
+              "height": 419,
+              "formats": {
+                "card": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//card_I01010053_FR_Dark_Vador_Leader_Unit_b22d4e394b.png",
+                  "hash": "card_I01010053_FR_Dark_Vador_Leader_Unit_b22d4e394b",
+                  "mime": "image/png",
+                  "name": "card_I01010053FR_Dark_Vador_Leader_Unit.png",
+                  "path": null,
+                  "size": 207.2,
+                  "width": 286,
+                  "height": 400,
+                  "sizeInBytes": 207202
+                },
+                "xsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xsmall_I01010053_FR_Dark_Vador_Leader_Unit_b22d4e394b.png",
+                  "hash": "xsmall_I01010053_FR_Dark_Vador_Leader_Unit_b22d4e394b",
+                  "mime": "image/png",
+                  "name": "xsmall_I01010053FR_Dark_Vador_Leader_Unit.png",
+                  "path": null,
+                  "size": 125.1,
+                  "width": 215,
+                  "height": 300,
+                  "sizeInBytes": 125104
+                },
+                "xxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxsmall_I01010053_FR_Dark_Vador_Leader_Unit_b22d4e394b.png",
+                  "hash": "xxsmall_I01010053_FR_Dark_Vador_Leader_Unit_b22d4e394b",
+                  "mime": "image/png",
+                  "name": "xxsmall_I01010053FR_Dark_Vador_Leader_Unit.png",
+                  "path": null,
+                  "size": 61.09,
+                  "width": 143,
+                  "height": 200,
+                  "sizeInBytes": 61091
+                },
+                "xxxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxxsmall_I01010053_FR_Dark_Vador_Leader_Unit_b22d4e394b.png",
+                  "hash": "xxxsmall_I01010053_FR_Dark_Vador_Leader_Unit_b22d4e394b",
+                  "mime": "image/png",
+                  "name": "xxxsmall_I01010053FR_Dark_Vador_Leader_Unit.png",
+                  "path": null,
+                  "size": 36.26,
+                  "width": 107,
+                  "height": 150,
+                  "sizeInBytes": 36256
+                },
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//thumbnail_I01010053_FR_Dark_Vador_Leader_Unit_b22d4e394b.png",
+                  "hash": "thumbnail_I01010053_FR_Dark_Vador_Leader_Unit_b22d4e394b",
+                  "mime": "image/png",
+                  "name": "thumbnail_I01010053FR_Dark_Vador_Leader_Unit.png",
+                  "path": null,
+                  "size": 38.66,
+                  "width": 112,
+                  "height": 156,
+                  "sizeInBytes": 38655
+                }
+              },
+              "hash": "I01010053_FR_Dark_Vador_Leader_Unit_b22d4e394b",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 62.63,
+              "url": "https://cdn.starwarsunlimited.com//I01010053_FR_Dark_Vador_Leader_Unit_b22d4e394b.png",
+              "previewUrl": null,
+              "provider": "aws-s3",
+              "provider_metadata": null,
+              "createdAt": "2025-07-02T19:27:09.711Z",
+              "updatedAt": "2025-07-02T19:27:09.711Z"
+            }
+          }
+        },
+        "artThumbnail": {
+          "data": {
+            "id": 36870,
+            "attributes": {
+              "name": "I01010053EN_Darth_Vader_Leader_Unit_Thumbnail.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 300,
+              "height": 100,
+              "formats": {
+                "xxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxsmall_I01010053_EN_Darth_Vader_Leader_Unit_Thumbnail_a3029904cf.png",
+                  "hash": "xxsmall_I01010053_EN_Darth_Vader_Leader_Unit_Thumbnail_a3029904cf",
+                  "mime": "image/png",
+                  "name": "xxsmall_I01010053EN_Darth_Vader_Leader_Unit_Thumbnail.png",
+                  "path": null,
+                  "size": 35.49,
+                  "width": 200,
+                  "height": 67,
+                  "sizeInBytes": 35495
+                },
+                "xxxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxxsmall_I01010053_EN_Darth_Vader_Leader_Unit_Thumbnail_a3029904cf.png",
+                  "hash": "xxxsmall_I01010053_EN_Darth_Vader_Leader_Unit_Thumbnail_a3029904cf",
+                  "mime": "image/png",
+                  "name": "xxxsmall_I01010053EN_Darth_Vader_Leader_Unit_Thumbnail.png",
+                  "path": null,
+                  "size": 20.51,
+                  "width": 150,
+                  "height": 50,
+                  "sizeInBytes": 20505
+                },
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//thumbnail_I01010053_EN_Darth_Vader_Leader_Unit_Thumbnail_a3029904cf.png",
+                  "hash": "thumbnail_I01010053_EN_Darth_Vader_Leader_Unit_Thumbnail_a3029904cf",
+                  "mime": "image/png",
+                  "name": "thumbnail_I01010053EN_Darth_Vader_Leader_Unit_Thumbnail.png",
+                  "path": null,
+                  "size": 53.41,
+                  "width": 250,
+                  "height": 83,
+                  "sizeInBytes": 53409
+                }
+              },
+              "hash": "I01010053_EN_Darth_Vader_Leader_Unit_Thumbnail_a3029904cf",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 23.01,
+              "url": "https://cdn.starwarsunlimited.com//I01010053_EN_Darth_Vader_Leader_Unit_Thumbnail_a3029904cf.png",
+              "previewUrl": null,
+              "provider": "aws-s3",
+              "provider_metadata": null,
+              "createdAt": "2025-07-02T19:18:12.881Z",
+              "updatedAt": "2025-07-02T19:18:12.881Z"
+            }
+          }
+        },
+        "localizations": {
+          "data": [
+            {
+              "id": 39099,
+              "attributes": {
+                "title": "Darth Vader",
+                "subtitle": "Non Mi Deluda Anche Lei",
+                "cardNumber": 53,
+                "cardCount": 104,
+                "artist": "Afif Khaled",
+                "artFrontHorizontal": true,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": 6,
+                "hp": 8,
+                "power": 3,
+                "text": "Azione [1 risorsa, Esaurire]: Infliggi \n1 danno a una base.",
+                "textStyled": "<p><strong>Azione [</strong><img src=\"https://ffg-prod-uploads.s3.amazonaws.com/icon_cost_1_6878a6fe98.png\" alt=\"icon_cost_1.png\"><strong>, </strong><img src=\"https://ffg-prod-uploads.s3.amazonaws.com/icon_exhaust_0c450d09d4.png\" alt=\"icon_exhaust.png\"><strong>]:</strong> Infliggi  1 danno a una base.</p>",
+                "deployBox": "Quando Attacca: Infliggi 2 danni a una base.",
+                "deployBoxStyled": "<p><strong>Quando Attacca:</strong> Infliggi 2 danni a una base.</p>",
+                "epicAction": "Azione Epica: Se controlli \n6 o più risorse, schiera questo leader (giralo, approntalo e spostalo nell'arena terrestre ).",
+                "epicActionStyled": "<p><strong>Azione Epica:</strong> Se controlli  6 o più risorse, schiera questo leader <i>(giralo, approntalo e spostalo nell'arena terrestre ).</p>",
+                "linkHtml": "<a href=\"/cards?cid=9389694773\" class=\"card-tooltip\" data-card=\"9389694773\">Darth Vader</a>",
+                "cardId": null,
+                "createdAt": "2025-07-02T19:34:18.001Z",
+                "updatedAt": "2025-07-16T15:00:12.132Z",
+                "publishedAt": "2025-03-05T06:00:00.000Z",
+                "locale": "it",
+                "hyperspace": false,
+                "unique": true,
+                "showcase": false,
+                "cardUid": "9389694773",
+                "rules": null,
+                "rulesStyled": null,
+                "serialCode": "i01010053",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            },
+            {
+              "id": 39095,
+              "attributes": {
+                "title": "Darth Vader",
+                "subtitle": "Don't Fail Me Again",
+                "cardNumber": 53,
+                "cardCount": 104,
+                "artist": "Afif Khaled",
+                "artFrontHorizontal": true,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": 6,
+                "hp": 8,
+                "power": 3,
+                "text": "Action [1 resource, Exhaust]: Deal 1 damage to a base.",
+                "textStyled": "<p><strong>Action [</strong><img src=\"https://ffg-prod-uploads.s3.amazonaws.com/icon_cost_1_6878a6fe98.png\" alt=\"icon_cost_1.png\"><strong>, </strong><img src=\"https://ffg-prod-uploads.s3.amazonaws.com/icon_exhaust_0c450d09d4.png\" alt=\"icon_exhaust.png\"><strong>]:</strong> Deal 1 damage to a base.</p>",
+                "deployBox": "On Attack: Deal 2 damage to a base.",
+                "deployBoxStyled": "<p><strong>On Attack:</strong> Deal 2 damage to a base.</p>",
+                "epicAction": "Epic Action: If you control 6 or more resources, deploy this leader. (Flip him, ready him, and move him to the ground arena.)",
+                "epicActionStyled": "<p><strong>Epic Action:</strong> If you control 6 or more resources, deploy this leader. <i>(Flip him, ready him, and move him to the ground arena.)</i></p>",
+                "linkHtml": "<a href=\"/cards?cid=9389694773\" class=\"card-tooltip\" data-card=\"9389694773\">Darth Vader</a>",
+                "cardId": null,
+                "createdAt": "2025-07-02T19:34:16.607Z",
+                "updatedAt": "2025-07-16T15:00:11.894Z",
+                "publishedAt": "2025-03-05T06:00:00.000Z",
+                "locale": "en",
+                "hyperspace": false,
+                "unique": true,
+                "showcase": false,
+                "cardUid": "9389694773",
+                "rules": null,
+                "rulesStyled": null,
+                "serialCode": "i01010053",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            },
+            {
+              "id": 39097,
+              "attributes": {
+                "title": "Darth Vader",
+                "subtitle": "No vuelva a fallarme",
+                "cardNumber": 53,
+                "cardCount": 104,
+                "artist": "Afif Khaled",
+                "artFrontHorizontal": true,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": 6,
+                "hp": 8,
+                "power": 3,
+                "text": "Acción [1 recurso, Agota]: Inflige 1 de daño a una base.",
+                "textStyled": "<p>Acción [<img src=\"https://ffg-prod-uploads.s3.amazonaws.com/icon_cost_1_6878a6fe98.png\" alt=\"icon_cost_1.png\"><strong>, </strong><img src=\"https://ffg-prod-uploads.s3.amazonaws.com/icon_exhaust_0c450d09d4.png\" alt=\"icon_exhaust.png\">]: Inflige 1 de daño a una base.</p>",
+                "deployBox": "Al atacar: Inflige 2 de daño a una base.",
+                "deployBoxStyled": "<p>Al atacar: Inflige 2 de daño a una base.</p>",
+                "epicAction": "Acción épica: Si controlas al menos 6 recursos, despliega este líder. (Dale la vuelta a su carta, prepáralo y trasládalo al campo de batalla terrestre.",
+                "epicActionStyled": "<p>Acción épica: Si controlas al menos 6 recursos, despliega este líder. (Dale la vuelta a su carta, prepáralo y trasládalo al campo de batalla terrestre.</p>",
+                "linkHtml": "<a href=\"/cards?cid=9389694773\" class=\"card-tooltip\" data-card=\"9389694773\">Darth Vader</a>",
+                "cardId": null,
+                "createdAt": "2025-07-02T19:34:17.284Z",
+                "updatedAt": "2025-07-16T15:00:12.605Z",
+                "publishedAt": "2025-03-05T06:00:00.000Z",
+                "locale": "es",
+                "hyperspace": false,
+                "unique": true,
+                "showcase": false,
+                "cardUid": "9389694773",
+                "rules": null,
+                "rulesStyled": null,
+                "serialCode": "i01010053",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            },
+            {
+              "id": 39096,
+              "attributes": {
+                "title": "Darth Vader",
+                "subtitle": "Enttäuschen auch Sie mich nicht noch einmal",
+                "cardNumber": 53,
+                "cardCount": 104,
+                "artist": "Afif Khaled",
+                "artFrontHorizontal": true,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": 6,
+                "hp": 8,
+                "power": 3,
+                "text": "Aktion [1 ressource, Erschöpfe]: Füge einer Basis 1 Schaden zu.",
+                "textStyled": "<p><strong>Aktion [</strong><img src=\"https://ffg-prod-uploads.s3.amazonaws.com/icon_cost_1_6878a6fe98.png\" alt=\"icon_cost_1.png\"><strong>, </strong><img src=\"https://ffg-prod-uploads.s3.amazonaws.com/icon_exhaust_0c450d09d4.png\" alt=\"icon_exhaust.png\"><strong>]:</strong> Füge einer Basis 1 Schaden zu.</p>",
+                "deployBox": "Beim Angriff: Füge einer Basis 2 Schaden zu.",
+                "deployBoxStyled": "<p><strong>Beim Angriff:</strong> Füge einer Basis 2 Schaden zu.</p>",
+                "epicAction": "Epische Aktion: Falls du 6 oder mehr Ressourcen kontrol­lierst, rufe diesen Anführer. (Drehe ihn um, mache ihn spielbereit und verschiebe ihn in das Boden-Kampfgebiet.)",
+                "epicActionStyled": "<p><strong>Epische Aktion:</strong> Falls du 6 oder mehr Ressourcen kontrol­lierst, rufe diesen Anführer. (Drehe ihn um, mache ihn spielbereit und verschiebe ihn in das Boden-Kampfgebiet.)</p>",
+                "linkHtml": "<a href=\"/cards?cid=9389694773\" class=\"card-tooltip\" data-card=\"9389694773\">Darth Vader</a>",
+                "cardId": null,
+                "createdAt": "2025-07-02T19:34:16.955Z",
+                "updatedAt": "2025-07-16T15:00:12.844Z",
+                "publishedAt": "2025-03-05T06:00:00.000Z",
+                "locale": "de",
+                "hyperspace": false,
+                "unique": true,
+                "showcase": false,
+                "cardUid": "9389694773",
+                "rules": null,
+                "rulesStyled": null,
+                "serialCode": "i01010053",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "data": [
+            {
+              "id": 14,
+              "attributes": {
+                "name": "Agressivité",
+                "description": "<p>Attaquer avec un maximum d’efficacité et infliger énormément de dégâts. Cette affinité convient parfaitement aux joueurs qui aiment un style de jeu rapide et agressif, brisant les défenses adverses et se ruant vers la victoire quel que soit le prix à payer.</p>",
+                "color": "#d30808",
+                "createdAt": "2023-08-10T21:10:46.362Z",
+                "updatedAt": "2024-07-15T21:39:33.927Z",
+                "publishedAt": "2024-01-02T18:23:52.395Z",
+                "locale": "fr",
+                "englishName": "Aggression",
+                "sortValue": 10
+              }
+            },
+            {
+              "id": 29,
+              "attributes": {
+                "name": "Infâmie",
+                "description": "<p>Se battre pour le pouvoir suprême avec les «&nbsp;méchants&nbsp;» de la galaxie Star Wars. Cette affinité permet de commander à d’immenses armées ou de provoquer de terribles destructions. Tout comme l’Héroïsme, cette affinité est souvent associée à une autre affinité sur la carte.</p>",
+                "color": "#000000",
+                "createdAt": "2023-08-10T21:20:52.826Z",
+                "updatedAt": "2024-07-15T21:40:49.895Z",
+                "publishedAt": "2024-01-02T18:25:50.235Z",
+                "locale": "fr",
+                "englishName": "Villainy",
+                "sortValue": 20
+              }
+            }
+          ]
+        },
+        "aspectDuplicates": {
+          "data": []
+        },
+        "type": {
+          "data": {
+            "id": 36,
+            "attributes": {
+              "name": "Leader",
+              "description": "",
+              "value": "Leader",
+              "createdAt": "2023-08-15T18:49:09.085Z",
+              "updatedAt": "2024-03-05T17:11:46.232Z",
+              "publishedAt": "2023-12-13T23:06:00.522Z",
+              "locale": "fr",
+              "sortValue": 1
+            }
+          }
+        },
+        "type2": {
+          "data": {
+            "id": 21,
+            "attributes": {
+              "name": "Leader Unité",
+              "description": "",
+              "value": "Leader Unit",
+              "createdAt": "2023-08-15T18:03:38.401Z",
+              "updatedAt": "2024-03-05T17:12:15.830Z",
+              "publishedAt": "2023-12-13T23:06:15.554Z",
+              "locale": "fr",
+              "sortValue": 1
+            }
+          }
+        },
+        "traits": {
+          "data": [
+            {
+              "id": 34,
+              "attributes": {
+                "name": "Force",
+                "description": null,
+                "createdAt": "2023-08-15T14:41:10.682Z",
+                "updatedAt": "2024-01-04T21:15:19.420Z",
+                "publishedAt": "2024-01-04T21:15:19.417Z",
+                "locale": "fr"
+              }
+            },
+            {
+              "id": 9,
+              "attributes": {
+                "name": "Impérial",
+                "description": "",
+                "createdAt": "2023-08-15T14:38:23.731Z",
+                "updatedAt": "2024-01-04T21:11:46.388Z",
+                "publishedAt": "2024-01-04T21:11:46.385Z",
+                "locale": "fr"
+              }
+            },
+            {
+              "id": 44,
+              "attributes": {
+                "name": "Sith",
+                "description": "",
+                "createdAt": "2023-08-15T14:42:17.108Z",
+                "updatedAt": "2024-01-04T21:23:19.059Z",
+                "publishedAt": "2024-01-04T21:23:19.055Z",
+                "locale": "fr"
+              }
+            }
+          ]
+        },
+        "arenas": {
+          "data": [
+            {
+              "id": 4,
+              "attributes": {
+                "name": "Terrestre",
+                "description": null,
+                "createdAt": "2023-08-15T14:32:20.801Z",
+                "updatedAt": "2024-01-04T16:49:07.912Z",
+                "publishedAt": "2023-08-18T21:37:40.768Z",
+                "locale": "fr"
+              }
+            }
+          ]
+        },
+        "keywords": {
+          "data": []
+        },
+        "rarity": {
+          "data": {
+            "id": 24,
+            "attributes": {
+              "name": "Spéciale",
+              "character": "S",
+              "color": "#000000",
+              "createdAt": "2023-08-14T21:34:27.979Z",
+              "updatedAt": "2024-04-25T14:06:09.057Z",
+              "publishedAt": "2024-01-04T16:42:01.831Z",
+              "locale": "fr",
+              "englishName": "Special",
+              "sortValue": 1
+            }
+          }
+        },
+        "expansion": {
+          "data": {
+            "id": 70,
+            "attributes": {
+              "name": "Bataille d’Intro : Hoth",
+              "description": null,
+              "code": "IBH",
+              "createdAt": "2025-07-02T19:16:03.018Z",
+              "updatedAt": "2025-07-16T15:04:20.419Z",
+              "publishedAt": "2025-07-16T15:02:15.145Z",
+              "locale": "fr",
+              "sortValue": 61,
+              "leaderboardStartDate": null,
+              "leaderboardEndDate": null
+            }
+          }
+        },
+        "variantTypes": {
+          "data": [
+            {
+              "id": 48,
+              "attributes": {
+                "name": "Standard",
+                "description": null,
+                "createdAt": "2024-07-15T14:41:29.870Z",
+                "updatedAt": "2024-07-15T19:55:03.181Z",
+                "publishedAt": "2024-07-15T19:54:53.299Z",
+                "locale": "fr",
+                "variantId": "01",
+                "foil": false,
+                "sortValue": 10,
+                "icon": {
+                  "data": {
+                    "id": 8701,
+                    "attributes": {
+                      "name": "icon_standard.png",
+                      "alternativeText": null,
+                      "caption": null,
+                      "width": 144,
+                      "height": 144,
+                      "formats": null,
+                      "hash": "icon_standard_7dbd7cd8e6",
+                      "ext": ".png",
+                      "mime": "image/png",
+                      "size": 0.39,
+                      "url": "https://cdn.starwarsunlimited.com//icon_standard_7dbd7cd8e6.png",
+                      "previewUrl": null,
+                      "provider": "aws-s3",
+                      "provider_metadata": null,
+                      "createdAt": "2024-07-15T14:40:17.066Z",
+                      "updatedAt": "2024-07-15T14:40:17.066Z"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "variantOf": {
+          "data": null
+        },
+        "reprintOf": {
+          "data": null
+        },
+        "validationId": "9389694773"
+      }
+    },
+    {
+      "id": 39103,
+      "attributes": {
+        "cardNumber": 54,
+        "title": "Poste de Commandement Avancé",
+        "subtitle": "",
+        "cardCount": 104,
+        "artist": "Stephen Zavala",
+        "artFrontHorizontal": true,
+        "artBackHorizontal": true,
+        "hasFoil": true,
+        "cost": null,
+        "hp": 20,
+        "power": null,
+        "text": "",
+        "textStyled": "<p></p>",
+        "deployBox": null,
+        "deployBoxStyled": null,
+        "epicAction": "",
+        "epicActionStyled": "<p></p>",
+        "linkHtml": "<a href=\"/cards?cid=0479107180\" class=\"card-tooltip\" data-card=\"0479107180\">Poste de Commandement Avancé</a>",
+        "cardId": null,
+        "createdAt": "2025-07-02T19:34:19.326Z",
+        "updatedAt": "2025-07-16T15:00:13.552Z",
+        "publishedAt": "2025-03-05T06:00:00.000Z",
+        "locale": "fr",
+        "hyperspace": false,
+        "unique": false,
+        "showcase": false,
+        "cardUid": "0479107180",
+        "rules": null,
+        "rulesStyled": null,
+        "serialCode": "i01010054",
+        "upgradeHp": null,
+        "upgradePower": null,
+        "artFront": {
+          "data": {
+            "id": 37549,
+            "attributes": {
+              "name": "I01010054FR_Poste_de_Commandement_Avancé_Base_20hp.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 419,
+              "height": 300,
+              "formats": {
+                "card": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//card_I01010054_FR_Poste_de_Commandement_Avance_Base_20hp_85ac7c1c33.png",
+                  "hash": "card_I01010054_FR_Poste_de_Commandement_Avance_Base_20hp_85ac7c1c33",
+                  "mime": "image/png",
+                  "name": "card_I01010054FR_Poste_de_Commandement_Avancé_Base_20hp.png",
+                  "path": null,
+                  "size": 179.1,
+                  "width": 400,
+                  "height": 286,
+                  "sizeInBytes": 179104
+                },
+                "xsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xsmall_I01010054_FR_Poste_de_Commandement_Avance_Base_20hp_85ac7c1c33.png",
+                  "hash": "xsmall_I01010054_FR_Poste_de_Commandement_Avance_Base_20hp_85ac7c1c33",
+                  "mime": "image/png",
+                  "name": "xsmall_I01010054FR_Poste_de_Commandement_Avancé_Base_20hp.png",
+                  "path": null,
+                  "size": 110.29,
+                  "width": 300,
+                  "height": 215,
+                  "sizeInBytes": 110286
+                },
+                "xxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxsmall_I01010054_FR_Poste_de_Commandement_Avance_Base_20hp_85ac7c1c33.png",
+                  "hash": "xxsmall_I01010054_FR_Poste_de_Commandement_Avance_Base_20hp_85ac7c1c33",
+                  "mime": "image/png",
+                  "name": "xxsmall_I01010054FR_Poste_de_Commandement_Avancé_Base_20hp.png",
+                  "path": null,
+                  "size": 55.81,
+                  "width": 200,
+                  "height": 143,
+                  "sizeInBytes": 55806
+                },
+                "xxxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxxsmall_I01010054_FR_Poste_de_Commandement_Avance_Base_20hp_85ac7c1c33.png",
+                  "hash": "xxxsmall_I01010054_FR_Poste_de_Commandement_Avance_Base_20hp_85ac7c1c33",
+                  "mime": "image/png",
+                  "name": "xxxsmall_I01010054FR_Poste_de_Commandement_Avancé_Base_20hp.png",
+                  "path": null,
+                  "size": 34.42,
+                  "width": 150,
+                  "height": 107,
+                  "sizeInBytes": 34425
+                },
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//thumbnail_I01010054_FR_Poste_de_Commandement_Avance_Base_20hp_85ac7c1c33.png",
+                  "hash": "thumbnail_I01010054_FR_Poste_de_Commandement_Avance_Base_20hp_85ac7c1c33",
+                  "mime": "image/png",
+                  "name": "thumbnail_I01010054FR_Poste_de_Commandement_Avancé_Base_20hp.png",
+                  "path": null,
+                  "size": 81.38,
+                  "width": 250,
+                  "height": 179,
+                  "sizeInBytes": 81380
+                }
+              },
+              "hash": "I01010054_FR_Poste_de_Commandement_Avance_Base_20hp_85ac7c1c33",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 50.76,
+              "url": "https://cdn.starwarsunlimited.com//I01010054_FR_Poste_de_Commandement_Avance_Base_20hp_85ac7c1c33.png",
+              "previewUrl": null,
+              "provider": "aws-s3",
+              "provider_metadata": null,
+              "createdAt": "2025-07-03T16:54:32.067Z",
+              "updatedAt": "2025-07-03T16:54:32.067Z"
+            }
+          }
+        },
+        "artBack": {
+          "data": {
+            "id": 37566,
+            "attributes": {
+              "name": "I01010054FR_Poste_de_Commandement_Avancé_Base_30hp.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 419,
+              "height": 300,
+              "formats": {
+                "card": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//card_I01010054_FR_Poste_de_Commandement_Avance_Base_30hp_71b22f73e5.png",
+                  "hash": "card_I01010054_FR_Poste_de_Commandement_Avance_Base_30hp_71b22f73e5",
+                  "mime": "image/png",
+                  "name": "card_I01010054FR_Poste_de_Commandement_Avancé_Base_30hp.png",
+                  "path": null,
+                  "size": 178.06,
+                  "width": 400,
+                  "height": 286,
+                  "sizeInBytes": 178063
+                },
+                "xsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xsmall_I01010054_FR_Poste_de_Commandement_Avance_Base_30hp_71b22f73e5.png",
+                  "hash": "xsmall_I01010054_FR_Poste_de_Commandement_Avance_Base_30hp_71b22f73e5",
+                  "mime": "image/png",
+                  "name": "xsmall_I01010054FR_Poste_de_Commandement_Avancé_Base_30hp.png",
+                  "path": null,
+                  "size": 109.67,
+                  "width": 300,
+                  "height": 215,
+                  "sizeInBytes": 109666
+                },
+                "xxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxsmall_I01010054_FR_Poste_de_Commandement_Avance_Base_30hp_71b22f73e5.png",
+                  "hash": "xxsmall_I01010054_FR_Poste_de_Commandement_Avance_Base_30hp_71b22f73e5",
+                  "mime": "image/png",
+                  "name": "xxsmall_I01010054FR_Poste_de_Commandement_Avancé_Base_30hp.png",
+                  "path": null,
+                  "size": 55.87,
+                  "width": 200,
+                  "height": 143,
+                  "sizeInBytes": 55873
+                },
+                "xxxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxxsmall_I01010054_FR_Poste_de_Commandement_Avance_Base_30hp_71b22f73e5.png",
+                  "hash": "xxxsmall_I01010054_FR_Poste_de_Commandement_Avance_Base_30hp_71b22f73e5",
+                  "mime": "image/png",
+                  "name": "xxxsmall_I01010054FR_Poste_de_Commandement_Avancé_Base_30hp.png",
+                  "path": null,
+                  "size": 34.25,
+                  "width": 150,
+                  "height": 107,
+                  "sizeInBytes": 34247
+                },
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//thumbnail_I01010054_FR_Poste_de_Commandement_Avance_Base_30hp_71b22f73e5.png",
+                  "hash": "thumbnail_I01010054_FR_Poste_de_Commandement_Avance_Base_30hp_71b22f73e5",
+                  "mime": "image/png",
+                  "name": "thumbnail_I01010054FR_Poste_de_Commandement_Avancé_Base_30hp.png",
+                  "path": null,
+                  "size": 64.19,
+                  "width": 218,
+                  "height": 156,
+                  "sizeInBytes": 64195
+                }
+              },
+              "hash": "I01010054_FR_Poste_de_Commandement_Avance_Base_30hp_71b22f73e5",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 50.46,
+              "url": "https://cdn.starwarsunlimited.com//I01010054_FR_Poste_de_Commandement_Avance_Base_30hp_71b22f73e5.png",
+              "previewUrl": null,
+              "provider": "aws-s3",
+              "provider_metadata": null,
+              "createdAt": "2025-07-03T16:54:33.427Z",
+              "updatedAt": "2025-07-03T16:54:33.427Z"
+            }
+          }
+        },
+        "artThumbnail": {
+          "data": {
+            "id": 36881,
+            "attributes": {
+              "name": "I01010054EN_Forward_Command_Post_Base_Thumbnail.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 300,
+              "height": 100,
+              "formats": {
+                "xxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxsmall_I01010054_EN_Forward_Command_Post_Base_Thumbnail_3e30a6d934.png",
+                  "hash": "xxsmall_I01010054_EN_Forward_Command_Post_Base_Thumbnail_3e30a6d934",
+                  "mime": "image/png",
+                  "name": "xxsmall_I01010054EN_Forward_Command_Post_Base_Thumbnail.png",
+                  "path": null,
+                  "size": 30.58,
+                  "width": 200,
+                  "height": 67,
+                  "sizeInBytes": 30579
+                },
+                "xxxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxxsmall_I01010054_EN_Forward_Command_Post_Base_Thumbnail_3e30a6d934.png",
+                  "hash": "xxxsmall_I01010054_EN_Forward_Command_Post_Base_Thumbnail_3e30a6d934",
+                  "mime": "image/png",
+                  "name": "xxxsmall_I01010054EN_Forward_Command_Post_Base_Thumbnail.png",
+                  "path": null,
+                  "size": 18.2,
+                  "width": 150,
+                  "height": 50,
+                  "sizeInBytes": 18203
+                },
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//thumbnail_I01010054_EN_Forward_Command_Post_Base_Thumbnail_3e30a6d934.png",
+                  "hash": "thumbnail_I01010054_EN_Forward_Command_Post_Base_Thumbnail_3e30a6d934",
+                  "mime": "image/png",
+                  "name": "thumbnail_I01010054EN_Forward_Command_Post_Base_Thumbnail.png",
+                  "path": null,
+                  "size": 45.4,
+                  "width": 250,
+                  "height": 83,
+                  "sizeInBytes": 45397
+                }
+              },
+              "hash": "I01010054_EN_Forward_Command_Post_Base_Thumbnail_3e30a6d934",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 19.28,
+              "url": "https://cdn.starwarsunlimited.com//I01010054_EN_Forward_Command_Post_Base_Thumbnail_3e30a6d934.png",
+              "previewUrl": null,
+              "provider": "aws-s3",
+              "provider_metadata": null,
+              "createdAt": "2025-07-02T19:18:51.168Z",
+              "updatedAt": "2025-07-02T19:18:51.168Z"
+            }
+          }
+        },
+        "localizations": {
+          "data": [
+            {
+              "id": 39104,
+              "attributes": {
+                "title": "Posto di Comando Mobile",
+                "subtitle": "",
+                "cardNumber": 54,
+                "cardCount": 104,
+                "artist": "Stephen Zavala",
+                "artFrontHorizontal": true,
+                "artBackHorizontal": true,
+                "hasFoil": true,
+                "cost": null,
+                "hp": 20,
+                "power": null,
+                "text": "",
+                "textStyled": "<p></p>",
+                "deployBox": null,
+                "deployBoxStyled": null,
+                "epicAction": "",
+                "epicActionStyled": "<p></p>",
+                "linkHtml": "<a href=\"/cards?cid=0479107180\" class=\"card-tooltip\" data-card=\"0479107180\">Posto di Comando Mobile</a>",
+                "cardId": null,
+                "createdAt": "2025-07-02T19:34:19.684Z",
+                "updatedAt": "2025-07-16T15:00:13.312Z",
+                "publishedAt": "2025-03-05T06:00:00.000Z",
+                "locale": "it",
+                "hyperspace": false,
+                "unique": false,
+                "showcase": false,
+                "cardUid": "0479107180",
+                "rules": null,
+                "rulesStyled": null,
+                "serialCode": "i01010054",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            },
+            {
+              "id": 39100,
+              "attributes": {
+                "title": "Forward Command Post",
+                "subtitle": "",
+                "cardNumber": 54,
+                "cardCount": 104,
+                "artist": "Stephen Zavala",
+                "artFrontHorizontal": true,
+                "artBackHorizontal": true,
+                "hasFoil": true,
+                "cost": null,
+                "hp": 20,
+                "power": null,
+                "text": "",
+                "textStyled": "<p></p>",
+                "deployBox": null,
+                "deployBoxStyled": null,
+                "epicAction": "",
+                "epicActionStyled": "<p></p>",
+                "linkHtml": "<a href=\"/cards?cid=0479107180\" class=\"card-tooltip\" data-card=\"0479107180\">Forward Command Post</a>",
+                "cardId": null,
+                "createdAt": "2025-07-02T19:34:18.409Z",
+                "updatedAt": "2025-07-16T15:00:13.074Z",
+                "publishedAt": "2025-03-05T06:00:00.000Z",
+                "locale": "en",
+                "hyperspace": false,
+                "unique": false,
+                "showcase": false,
+                "cardUid": "0479107180",
+                "rules": null,
+                "rulesStyled": null,
+                "serialCode": "i01010054",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            },
+            {
+              "id": 39102,
+              "attributes": {
+                "title": "Puesto de mando de avanzada",
+                "subtitle": "",
+                "cardNumber": 54,
+                "cardCount": 104,
+                "artist": "Stephen Zavala",
+                "artFrontHorizontal": true,
+                "artBackHorizontal": true,
+                "hasFoil": true,
+                "cost": null,
+                "hp": 20,
+                "power": null,
+                "text": "",
+                "textStyled": "<p></p>",
+                "deployBox": null,
+                "deployBoxStyled": null,
+                "epicAction": "",
+                "epicActionStyled": "<p></p>",
+                "linkHtml": "<a href=\"/cards?cid=0479107180\" class=\"card-tooltip\" data-card=\"0479107180\">Puesto de mando de avanzada</a>",
+                "cardId": null,
+                "createdAt": "2025-07-02T19:34:19.013Z",
+                "updatedAt": "2025-07-16T15:00:13.798Z",
+                "publishedAt": "2025-03-05T06:00:00.000Z",
+                "locale": "es",
+                "hyperspace": false,
+                "unique": false,
+                "showcase": false,
+                "cardUid": "0479107180",
+                "rules": null,
+                "rulesStyled": null,
+                "serialCode": "i01010054",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            },
+            {
+              "id": 39101,
+              "attributes": {
+                "title": "Mobile Einsatzzentrale",
+                "subtitle": "",
+                "cardNumber": 54,
+                "cardCount": 104,
+                "artist": "Stephen Zavala",
+                "artFrontHorizontal": true,
+                "artBackHorizontal": true,
+                "hasFoil": true,
+                "cost": null,
+                "hp": 20,
+                "power": null,
+                "text": "",
+                "textStyled": "<p></p>",
+                "deployBox": null,
+                "deployBoxStyled": null,
+                "epicAction": "",
+                "epicActionStyled": "<p></p>",
+                "linkHtml": "<a href=\"/cards?cid=0479107180\" class=\"card-tooltip\" data-card=\"0479107180\">Mobile Einsatzzentrale</a>",
+                "cardId": null,
+                "createdAt": "2025-07-02T19:34:18.728Z",
+                "updatedAt": "2025-07-16T15:00:14.035Z",
+                "publishedAt": "2025-03-05T06:00:00.000Z",
+                "locale": "de",
+                "hyperspace": false,
+                "unique": false,
+                "showcase": false,
+                "cardUid": "0479107180",
+                "rules": null,
+                "rulesStyled": null,
+                "serialCode": "i01010054",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "data": [
+            {
+              "id": 4,
+              "attributes": {
+                "name": "Vigilance",
+                "description": "<p>Un jeu défensif, avec des capacités pour soigner les dégâts, retirer du jeu les unités dangereuses, protéger sa base des attaques ennemies. Cette affinité est idéale pour les joueurs qui savent temporiser, en encaissant les assauts les plus meurtriers.</p>",
+                "color": "#4073d4",
+                "createdAt": "2023-08-10T21:02:26.776Z",
+                "updatedAt": "2024-07-15T21:32:24.096Z",
+                "publishedAt": "2024-01-02T18:25:33.755Z",
+                "locale": "fr",
+                "englishName": "Vigilance",
+                "sortValue": 1
+              }
+            }
+          ]
+        },
+        "aspectDuplicates": {
+          "data": []
+        },
+        "type": {
+          "data": {
+            "id": 13,
+            "attributes": {
+              "name": "Base",
+              "description": "",
+              "value": "Base",
+              "createdAt": "2023-08-15T18:02:39.563Z",
+              "updatedAt": "2024-04-25T13:53:09.133Z",
+              "publishedAt": "2024-01-04T21:28:55.550Z",
+              "locale": "fr",
+              "sortValue": 2
+            }
+          }
+        },
+        "type2": {
+          "data": null
+        },
+        "traits": {
+          "data": []
+        },
+        "arenas": {
+          "data": []
+        },
+        "keywords": {
+          "data": []
+        },
+        "rarity": {
+          "data": {
+            "id": 24,
+            "attributes": {
+              "name": "Spéciale",
+              "character": "S",
+              "color": "#000000",
+              "createdAt": "2023-08-14T21:34:27.979Z",
+              "updatedAt": "2024-04-25T14:06:09.057Z",
+              "publishedAt": "2024-01-04T16:42:01.831Z",
+              "locale": "fr",
+              "englishName": "Special",
+              "sortValue": 1
+            }
+          }
+        },
+        "expansion": {
+          "data": {
+            "id": 70,
+            "attributes": {
+              "name": "Bataille d’Intro : Hoth",
+              "description": null,
+              "code": "IBH",
+              "createdAt": "2025-07-02T19:16:03.018Z",
+              "updatedAt": "2025-07-16T15:04:20.419Z",
+              "publishedAt": "2025-07-16T15:02:15.145Z",
+              "locale": "fr",
+              "sortValue": 61,
+              "leaderboardStartDate": null,
+              "leaderboardEndDate": null
+            }
+          }
+        },
+        "variantTypes": {
+          "data": [
+            {
+              "id": 48,
+              "attributes": {
+                "name": "Standard",
+                "description": null,
+                "createdAt": "2024-07-15T14:41:29.870Z",
+                "updatedAt": "2024-07-15T19:55:03.181Z",
+                "publishedAt": "2024-07-15T19:54:53.299Z",
+                "locale": "fr",
+                "variantId": "01",
+                "foil": false,
+                "sortValue": 10,
+                "icon": {
+                  "data": {
+                    "id": 8701,
+                    "attributes": {
+                      "name": "icon_standard.png",
+                      "alternativeText": null,
+                      "caption": null,
+                      "width": 144,
+                      "height": 144,
+                      "formats": null,
+                      "hash": "icon_standard_7dbd7cd8e6",
+                      "ext": ".png",
+                      "mime": "image/png",
+                      "size": 0.39,
+                      "url": "https://cdn.starwarsunlimited.com//icon_standard_7dbd7cd8e6.png",
+                      "previewUrl": null,
+                      "provider": "aws-s3",
+                      "provider_metadata": null,
+                      "createdAt": "2024-07-15T14:40:17.066Z",
+                      "updatedAt": "2024-07-15T14:40:17.066Z"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "variantOf": {
+          "data": null
+        },
+        "reprintOf": {
+          "data": null
+        },
+        "validationId": "0479107180"
       }
     },
     {

@@ -1,13 +1,12 @@
 {
   "version": 2,
-  "lastUpdated": "2026-06-28",
+  "lastUpdated": "2026-07-22",
   "latestMainSet": "ash",
   "announcement": {
-  "id": "ann-v1.1.0-update",
-  "text": "v1.1.0 disponible ! Historique Combat, Export CSV/PDF et bien plus.",
-  "color": "#1C7C54",
-  "url": "https://apps.apple.com/app/id6762050359"
-
+    "id": "ann-1784718910",
+    "text": "Règles mises à jour - JTL, LOF, SEC, IBH, C25, J25, LOFP, JTLP, P25, P26",
+    "color": "#1C7C54",
+    "url": ""
   },
   "sets": [
     {
@@ -51,7 +50,7 @@
     },
     {
       "id": "jtl",
-      "dataVersion": 2,
+      "dataVersion": 3,
       "code": "JTL",
       "name": "Passage en Vitesse Lumière",
       "type": "main",
@@ -64,7 +63,7 @@
     },
     {
       "id": "lof",
-      "dataVersion": 2,
+      "dataVersion": 3,
       "code": "LOF",
       "name": "Légendes de la Force",
       "type": "main",
@@ -77,7 +76,7 @@
     },
     {
       "id": "sec",
-      "dataVersion": 2,
+      "dataVersion": 3,
       "code": "SEC",
       "name": "Secrets du Pouvoir",
       "type": "main",
@@ -116,7 +115,7 @@
     },
     {
       "id": "ibh",
-      "dataVersion": 1,
+      "dataVersion": 2,
       "code": "IBH",
       "name": "Bataille d'intro : Hoth",
       "type": "special",
@@ -142,7 +141,7 @@
     },
     {
       "id": "c25",
-      "dataVersion": 2,
+      "dataVersion": 3,
       "code": "C25",
       "name": "2025 Convention Exclusive",
       "type": "special",
@@ -168,7 +167,7 @@
     },
     {
       "id": "j25",
-      "dataVersion": 2,
+      "dataVersion": 3,
       "code": "J25",
       "name": "2025 Judge Program",
       "type": "promo",
@@ -181,7 +180,7 @@
     },
     {
       "id": "lofp",
-      "dataVersion": 3,
+      "dataVersion": 4,
       "code": "LOFP",
       "name": "Légendes de la Force Weekly Play",
       "type": "special",
@@ -194,7 +193,7 @@
     },
     {
       "id": "jtlp",
-      "dataVersion": 3,
+      "dataVersion": 4,
       "code": "JTLP",
       "name": "Passage En Vitesse Lumière Weekly Play",
       "type": "special",
@@ -220,7 +219,7 @@
     },
     {
       "id": "p25",
-      "dataVersion": 2,
+      "dataVersion": 3,
       "code": "P25",
       "name": "2025 Promo",
       "type": "promo",
@@ -233,7 +232,7 @@
     },
     {
       "id": "p26",
-      "dataVersion": 4,
+      "dataVersion": 5,
       "code": "P26",
       "name": "2026 Promo",
       "type": "promo",
