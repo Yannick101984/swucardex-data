@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "lastUpdated": "2026-07-22",
-  "latestMainSet": "ash",
+  "lastUpdated": "2026-07-18",
+  "latestMainSet": "law",
   "announcement": {
-    "id": "ann-1784718910",
-    "text": "Règles mises à jour - JTL, LOF, SEC, IBH, C25, J25, LOFP, JTLP, P25, P26",
-    "color": "#1C7C54",
+    "id": "ann-1781021226",
+    "text": "Nouvelles cartes ajoutées - LAW",
+    "color": "#7C3AED",
     "url": ""
   },
   "sets": [
@@ -89,7 +89,7 @@
     },
     {
       "id": "law",
-      "dataVersion": 2,
+      "dataVersion": 4,
       "code": "LAW",
       "name": "Sans Foi Ni Loi",
       "type": "main",
@@ -128,7 +128,7 @@
     },
     {
       "id": "c24",
-      "dataVersion": 2,
+      "dataVersion": 3,
       "code": "C24",
       "name": "2024 Convention Exclusive",
       "type": "special",
@@ -193,7 +193,7 @@
     },
     {
       "id": "jtlp",
-      "dataVersion": 4,
+      "dataVersion": 3,
       "code": "JTLP",
       "name": "Passage En Vitesse Lumière Weekly Play",
       "type": "special",
@@ -232,7 +232,7 @@
     },
     {
       "id": "p26",
-      "dataVersion": 5,
+      "dataVersion": 4,
       "code": "P26",
       "name": "2026 Promo",
       "type": "promo",
@@ -306,11 +306,11 @@
       "foilShared": false,
       "logoURL": null,
       "artworkURL": null,
-      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/mv26.json"
+      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/staging/sets/mv26.json"
     },
     {
       "id": "c26",
-      "dataVersion": 2,
+      "dataVersion": 1,
       "code": "C26",
       "name": "2026 Convention Exclusive",
       "type": "special",
@@ -319,11 +319,11 @@
       "foilShared": false,
       "logoURL": null,
       "artworkURL": null,
-      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/c26.json"
+      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/staging/sets/c26.json"
     },
     {
       "id": "ashp",
-      "dataVersion": 2,
+      "dataVersion": 1,
       "code": "ASHP",
       "name": "Cendres de l’Empire Weekly Play",
       "type": "special",
@@ -332,7 +332,7 @@
       "foilShared": false,
       "logoURL": null,
       "artworkURL": null,
-      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/ashp.json"
+      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/staging/sets/ashp.json"
     }
   ]
 }

@@ -6,8 +6,12 @@ Usage : python3 generate_prices.py [--repo-root /chemin/vers/swucardex-data]
 Algorithmes de matching :
   - Anciens sets (SOR/SHD/TWI) : un produit CM couvre foil + non-foil → split foil/non-foil
   - Nouveaux sets (JTL+) : matching positionnel par numéro de carte SWU
-  - Weekly Play (JTLW/LOFW/SECW/LAWP) : NF → weekly_play, FOIL → weekly_play_foil
+  - Weekly Play (JTLP/LOFP/SECP/LAWP/ASHP...) : NF → weekly_play, FOIL → weekly_play_foil
   - Sets spéciaux multi-set (C24/C25/GG/J24/J25/P25/P26) : lookup par nom
+
+La liste des sets pris en charge (SET_FILES, WEEKLY_PLAY_SETS, SPECIAL_PURE_SETS)
+est dérivée automatiquement de manifest.json — un nouveau set ajouté au manifest
+est pris en compte sans modification de ce script.
 
 Appelé automatiquement par GitHub Actions à chaque push sur cardmarket/*.json
 """
@@ -28,25 +32,26 @@ CM_DIR   = os.path.join(REPO_ROOT, "cardmarket")
 SETS_DIR = os.path.join(REPO_ROOT, "sets")
 OUT_DIR  = os.path.join(REPO_ROOT, "prices")
 
-SET_FILES = {
-    # Sets principaux
-    "SOR":"sor.json","SHD":"shd.json","TWI":"twi.json","JTL":"jtl.json",
-    "LOF":"lof.json","SEC":"sec.json","LAW":"law.json",
-    # Weekly Play
-    "JTLW":"jtlw.json","LOFW":"lofw.json","SECW":"secw.json","LAWP":"lawp.json",
-    # Sets spéciaux
-    "C24":"c24.json","C25":"c25.json","GG":"gg.json",
-    "J24":"j24.json","J25":"j25.json",
-    "P25":"p25.json","P26":"p26.json",
-    "IBH":"ibh.json","TS26":"ts26.json",
-}
+# ── Sets connus, dérivés du manifest ────────────────────────────────────────
+# manifest.json est la source de vérité des sets publiés (id → sets/{id}.json,
+# code → clé utilisée ici). Ajouter un set au manifest suffit à le faire
+# apparaître ici, sans toucher à ce script.
+with open(os.path.join(REPO_ROOT, "manifest.json")) as _f:
+    _manifest = json.load(_f)
 
-# Sets avec foil+non-foil sur le même produit CM (ancien format)
-OLD_SETS         = {"SOR", "SHD", "TWI"}
+SET_FILES = {s["code"]: f"{s['id']}.json" for s in _manifest["sets"]}
+
+# Sets avec foil+non-foil sur le même produit CM (ancien format Cardmarket,
+# propre aux 3 tout premiers sets — fait historique lié au catalogue CM de
+# l'époque, non dérivable du manifest)
+OLD_SETS = {"SOR", "SHD", "TWI"}
 # Sets Weekly Play : NF → weekly_play / FOIL → weekly_play_foil
-WEEKLY_PLAY_SETS = {"JTLW", "LOFW", "SECW", "LAWP"}
+WEEKLY_PLAY_SETS = {s["code"] for s in _manifest["sets"] if "Weekly Play" in s["name"]}
 # Sets spéciaux "purs" : toutes leurs cartes ont un type de variante non-standard
-SPECIAL_PURE_SETS = {"C24", "C25", "GG", "J24", "J25", "P25", "P26", "IBH", "TS26"}
+SPECIAL_PURE_SETS = {
+    s["code"] for s in _manifest["sets"]
+    if s["type"] in ("special", "promo") and s["code"] not in WEEKLY_PLAY_SETS
+}
 
 # ── Correspondance idExpansion → (set_code, role) ─────────────────────────────
 # Rôles :
@@ -67,11 +72,11 @@ EXPANSION_MAP_CONFIRMED = {
     5939: ("TWI",  "weekly_promo"),  # Promos store TWI : Weekly Play + tournois
     # JTL
     5995: ("JTL",  "standard"), 6074: ("JTL",  "variants"),
-    6075: ("JTLW", "standard"), # Weekly Play JTL → remappe sur JTLW
+    6075: ("JTLP", "standard"), # Weekly Play JTL → remappe sur JTLP
     6023: ("JTL",  "multi"),    # J24 + J25 + P25 + P26 mélangés
     # LOF
     6105: ("LOF",  "standard"), 6188: ("LOF",  "variants"),
-    6206: ("LOFW", "standard"), # Weekly Play LOF → remappe sur LOFW
+    6206: ("LOFP", "standard"), # Weekly Play LOF → remappe sur LOFP
     6418: ("LOF",  "multi"),    # P25 LOF-era
     # IBH
     6268: ("IBH",  "standard"),
@@ -79,12 +84,16 @@ EXPANSION_MAP_CONFIRMED = {
     6101: ("P25",  "standard"),
     # SEC
     6333: ("SEC",  "standard"), 6364: ("SEC",  "variants"),
-    6386: ("SECW", "standard"), # Weekly Play SEC → remappe sur SECW
+    6386: ("SECP", "standard"), # Weekly Play SEC → remappe sur SECP
     # LAW
     6451: ("LAW",  "standard"), 6452: ("LAW",  "variants"),
     6453: ("LAWP", "standard"), # Weekly Play LAW → remappe sur LAWP
     # P26
     6472: ("P26",  "standard"),
+    # TS26
+    6532: ("TS26", "standard"),
+    # ASH (auto-détecté puis confirmé le 2026-07-23, 100% des matchs)
+    6591: ("ASH",  "standard"), 6642: ("ASH",  "variants"), 6643: ("ASH", "variants"),
 }
 
 # Priorité de set pour les expansions multi-sets (premier set prioritaire)

@@ -4,12 +4,12 @@ Synchronisation automatique des sets Star Wars Unlimited.
 
 Modes :
   sync    — Détecte les nouveaux sets, scrape les cartes, ajoute les JSONs,
-             met à jour manifest.json (annonce + entrée de set).
-             Pour les sets de type "main", récupère couleur, logo et artwork
-             depuis le media kit officiel (starwarsunlimited.com/fr/media-kit).
+             met à jour manifest.json (entrée de set, latestMainSet).
+             Écrit une annonce dans announcements.json.
   compare — Compare les sets existants (hors SOR/TWI/SHD) avec l'API,
              met à jour les JSONs si des différences sont trouvées,
-             bumpe dataVersion dans le manifest et met à jour l'annonce.
+             bumpe dataVersion dans le manifest et écrit une annonce détaillée
+             (liste des cartes ajoutées / règles modifiées) dans announcements.json.
 """
 
 import argparse
@@ -25,9 +25,10 @@ from collections import Counter
 from datetime import date
 
 # ─── Paths ────────────────────────────────────────────────────────────────────
-_HERE         = os.path.dirname(os.path.abspath(__file__))
-SETS_DIR      = os.path.join(_HERE, '..', 'sets')
-MANIFEST_PATH = os.path.join(_HERE, '..', 'manifest.json')
+_HERE              = os.path.dirname(os.path.abspath(__file__))
+SETS_DIR           = os.path.join(_HERE, '..', 'sets')
+MANIFEST_PATH      = os.path.join(_HERE, '..', 'manifest.json')
+ANNOUNCEMENTS_PATH = os.path.join(_HERE, '..', 'announcements.json')
 
 # ─── Config ───────────────────────────────────────────────────────────────────
 REPO   = "Yannick101984/swucardex-data"
@@ -271,7 +272,6 @@ def fetch_mediakit_chapter_assets(chapter_id):
         # — Logo : cherche l'URL xlarge dans la section id="logo"
         logo_section = html[html.find('id="logo"'):]
         if logo_section:
-            # srcset entry "...xlarge_xxx.png 1920w"
             logo_match = re.search(
                 r'(https://cdn\.starwarsunlimited\.com//xlarge_[^\s,\'"]+(?:Logo|logo)[^\s,\'"]+\.png)',
                 logo_section,
@@ -315,7 +315,7 @@ def load_manifest():
 def save_manifest(manifest):
     with open(MANIFEST_PATH, 'w', encoding='utf-8') as f:
         json.dump(manifest, f, indent=2, ensure_ascii=False)
-        f.write('\n')
+        f.write("\n")
 
 
 def known_api_codes(manifest):
@@ -343,20 +343,45 @@ def save_set_json(manifest_code, cards):
     variant_cards = [c for c in cards if has_variant_of(c)]
     with open(path, 'w', encoding='utf-8') as f:
         json.dump({"data": data_cards, "variants": variant_cards}, f, indent=2, ensure_ascii=False)
-        f.write('\n')
+        f.write("\n")
     print(f"  💾 sets/{manifest_code.lower()}.json ({len(data_cards)} principales + {len(variant_cards)} variantes)")
     return path
 
 
-def update_announcement(manifest, text, color=None):
+# ─── Helpers announcements ────────────────────────────────────────────────────
+
+def load_announcements():
+    if not os.path.isfile(ANNOUNCEMENTS_PATH):
+        return []
+    with open(ANNOUNCEMENTS_PATH, encoding='utf-8') as f:
+        return json.load(f)
+
+
+def write_announcement_entry(title, color, changes_obj, detail=None):
+    """
+    Prépend une nouvelle annonce dans announcements.json.
+    - title       : titre court affiché dans la liste (ex: "Nouvelles cartes ajoutées - LAW")
+    - color       : hex couleur de l'en-tête du modal (ex: "#7C3AED")
+    - changes_obj : {"added": [...codes...], "updated": [...codes...]} ou None par champ
+    - detail      : texte long optionnel avec le détail carte par carte
+    """
     today = date.today().isoformat()
-    manifest['announcement'] = {
-        "id":    f"ann-{int(time.time())}",
-        "text":  text,
-        "color": color or manifest.get('announcement', {}).get('color', '#3B82F6'),
-        "url":   "",
+    entry = {
+        "id":       f"ann-{int(time.time())}",
+        "title":    title,
+        "detail":   detail,
+        "color":    color or "#7C3AED",
+        "url":      None,
+        "imageURL": None,
+        "date":     today,
+        "changes":  changes_obj,
     }
-    manifest['lastUpdated'] = today
+    announcements = load_announcements()
+    announcements.insert(0, entry)
+    with open(ANNOUNCEMENTS_PATH, 'w', encoding='utf-8') as f:
+        json.dump(announcements, f, indent=2, ensure_ascii=False)
+        f.write("\n")
+    print(f"  📣 Annonce écrite dans announcements.json : {title}")
 
 
 # ─── Flatten pour comparaison ─────────────────────────────────────────────────
@@ -393,12 +418,11 @@ def sync_mode():
     known    = known_api_codes(manifest)
     print(f"Sets connus ({len(known)}) : {sorted(known.keys())}\n")
 
-    # Récupère les codes de l'API et les chapitres media kit (= sets main)
     api_expansions  = fetch_all_api_expansions()
     print(f"\nExpansions API ({len(api_expansions)}) : {sorted(api_expansions.keys())}")
 
     print("\n📋 Chargement du media kit...")
-    main_chapters = fetch_mediakit_main_chapters()  # {title_lower: chapter_id}
+    main_chapters = fetch_mediakit_main_chapters()
 
     new_codes = sorted(
         [c for c in api_expansions if c not in known],
@@ -411,8 +435,8 @@ def sync_mode():
 
     print(f"\n🆕 Nouveaux sets : {new_codes}")
 
-    added       = []
-    added_main  = []
+    added      = []
+    added_main = []
 
     for api_code in new_codes:
         exp_info = api_expansions[api_code]
@@ -426,16 +450,15 @@ def sync_mode():
 
         save_set_json(api_code, cards)
 
-        # Détermine si le set est "main" via le media kit
-        name_lower   = name.lower().strip()
-        chapter_id   = main_chapters.get(name_lower)
-        is_main      = chapter_id is not None
+        name_lower = name.lower().strip()
+        chapter_id = main_chapters.get(name_lower)
+        is_main    = chapter_id is not None
 
-        set_type     = "main" if is_main else "special"
-        logo_url     = None
-        artwork_url  = None
-        color        = "#888888"
-        foil_shared  = False
+        set_type    = "main" if is_main else "special"
+        logo_url    = None
+        artwork_url = None
+        color       = "#888888"
+        foil_shared = False
 
         if is_main:
             print(f"  🌟 Set MAIN détecté (chapter media kit id={chapter_id})")
@@ -443,9 +466,7 @@ def sync_mode():
             logo_url    = mk_assets.get('logoURL')
             artwork_url = mk_assets.get('artworkURL')
             color       = mk_assets.get('color') or "#888888"
-            foil_shared = False
 
-        # Ordre : max dans le type + 1
         same_type  = [s for s in manifest['sets'] if s.get('type') == set_type]
         next_order = max((s.get('order', 0) for s in same_type), default=0) + 1
 
@@ -476,23 +497,26 @@ def sync_mode():
         print("\n⚠️  Aucun set effectivement ajouté.")
         return
 
-    # Annonce
     if len(added) == 1:
         api_code, name = added[0]
-        ann_text = f"Nouveau set ajouté : {name} - {api_code}"
+        ann_title = f"Nouveau set ajouté : {name} - {api_code}"
     else:
         codes_str = ", ".join(c for c, _ in added)
-        ann_text  = f"Nouveaux sets ajoutés : {codes_str}"
+        ann_title = f"Nouveaux sets ajoutés : {codes_str}"
 
-    ann_color = None
+    ann_color = "#7C3AED"
     if len(added_main) == 1:
-        # Utilise la couleur du set main pour l'annonce
         for s in manifest['sets']:
             if s['code'] == added_main[0]:
-                ann_color = s.get('color')
+                ann_color = s.get('color', ann_color)
                 break
 
-    update_announcement(manifest, ann_text, ann_color)
+    changes_obj = {
+        "added":   [c for c, _ in added],
+        "updated": None,
+    }
+    write_announcement_entry(ann_title, ann_color, changes_obj)
+    manifest['lastUpdated'] = date.today().isoformat()
     save_manifest(manifest)
     print(f"\n🎉 {len(added)} set(s) ajouté(s) : {[c for c, _ in added]}")
     if added_main:
@@ -506,7 +530,9 @@ def compare_mode():
     print("=" * 60)
 
     manifest        = load_manifest()
-    changes_summary = []
+    new_cards_items = []  # (set_code, card_number, card_name)
+    rules_items     = []  # (set_code, card_number, card_name)
+    other_sets      = []  # codes avec d'autres changements
 
     for entry in manifest['sets']:
         manifest_code = entry['code'].upper()
@@ -525,7 +551,7 @@ def compare_mode():
 
         with open(local_file, encoding='utf-8') as f:
             old_data = json.load(f)
-        old_all = old_data.get('data', []) + old_data.get('variants', [])
+        old_all   = old_data.get('data', []) + old_data.get('variants', [])
         old_cards = {str(c['id']): c for c in old_all if 'id' in c}
 
         new_cards_list = fetch_cards(api_code)
@@ -560,7 +586,10 @@ def compare_mode():
             print(f"  🆕 {len(added_ids)} nouvelle(s) carte(s) :")
             for cid in sorted(added_ids, key=int):
                 attrs = new_cards[cid].get('attributes', {})
-                print(f"     + #{attrs.get('cardNumber','?')} {attrs.get('title','?')} (id:{cid})")
+                num   = str(attrs.get('cardNumber', '?'))
+                name  = attrs.get('title', '?')
+                print(f"     + #{num} {name} (id:{cid})")
+                new_cards_items.append((manifest_code, num, name))
 
         if removed_ids:
             print(f"  🗑️  {len(removed_ids)} carte(s) supprimée(s) :")
@@ -570,46 +599,62 @@ def compare_mode():
 
         if changed:
             print(f"  ✏️  {len(changed)} carte(s) modifiée(s) :")
+            has_other = False
             for cid, diffs in sorted(changed, key=lambda x: int(x[0])):
                 attrs = new_cards[cid].get('attributes', {})
-                print(f"     ~ #{attrs.get('cardNumber','?')} {attrs.get('title','?')} "
-                      f"(id:{cid}) — champs : {list(diffs.keys())}")
+                num   = str(attrs.get('cardNumber', '?'))
+                name  = attrs.get('title', '?')
+                print(f"     ~ #{num} {name} (id:{cid}) — champs : {list(diffs.keys())}")
+                if 'rules' in diffs:
+                    rules_items.append((manifest_code, num, name))
+                else:
+                    has_other = True
+            if has_other:
+                other_sets.append(manifest_code)
 
         save_set_json(manifest_code, new_cards_list)
         entry['dataVersion'] = entry.get('dataVersion', 1) + 1
 
-        if added_ids:
-            changes_summary.append(('new_cards', manifest_code, len(added_ids)))
-        if changed:
-            rules_changed = [cid for cid, d in changed if 'rules' in d]
-            if rules_changed:
-                changes_summary.append(('rules', manifest_code, len(rules_changed)))
-            other = len(changed) - len(rules_changed)
-            if other:
-                changes_summary.append(('updated', manifest_code, other))
-
         time.sleep(2)
 
-    if not changes_summary:
+    if not new_cards_items and not rules_items and not other_sets:
         print("\n✅ Aucun changement détecté dans les sets existants.")
         return
 
-    new_cards_sets = [c for t, c, _ in changes_summary if t == 'new_cards']
-    rules_sets     = [c for t, c, _ in changes_summary if t == 'rules']
-    updated_sets   = [c for t, c, _ in changes_summary if t == 'updated']
+    new_cards_sets = list(dict.fromkeys(c for c, _, _ in new_cards_items))
+    rules_sets     = list(dict.fromkeys(c for c, _, _ in rules_items))
 
     parts = []
     if new_cards_sets:
         parts.append(f"Nouvelles cartes ajoutées - {', '.join(new_cards_sets)}")
     if rules_sets:
         parts.append(f"Règles mises à jour - {', '.join(rules_sets)}")
-    if updated_sets and not rules_sets:
-        parts.append(f"Données mises à jour - {', '.join(updated_sets)}")
+    if other_sets and not new_cards_sets and not rules_sets:
+        parts.append(f"Données mises à jour - {', '.join(other_sets)}")
+    ann_title = " | ".join(parts) if parts else "Données mises à jour"
 
-    ann_text = " | ".join(parts) if parts else "Données mises à jour"
-    update_announcement(manifest, ann_text)
+    detail_parts = []
+    if new_cards_items:
+        lines = ["Nouvelles cartes :"]
+        for set_code, num, name in new_cards_items:
+            lines.append(f"- {set_code} {num} - {name}")
+        detail_parts.append("\n".join(lines))
+    if rules_items:
+        lines = ["Regles mises a jour :"]
+        for set_code, num, name in rules_items:
+            lines.append(f"- {set_code} {num} - {name}")
+        detail_parts.append("\n".join(lines))
+    detail = "\n\n".join(detail_parts) if detail_parts else None
+
+    changes_obj = {
+        "added":   new_cards_sets or None,
+        "updated": rules_sets or None,
+    }
+
+    write_announcement_entry(ann_title, "#7C3AED", changes_obj, detail)
+    manifest['lastUpdated'] = date.today().isoformat()
     save_manifest(manifest)
-    print(f"\n🎉 Changements appliqués : {changes_summary}")
+    print(f"\n🎉 Changements : {len(new_cards_items)} nouvelles cartes, {len(rules_items)} règles.")
 
 
 # ─── Main ─────────────────────────────────────────────────────────────────────
