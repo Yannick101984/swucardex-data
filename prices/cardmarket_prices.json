@@ -123,8 +123,8 @@
       "role": "variants"
     },
     "6643": {
-      "set_code": "ASH",
-      "role": "variants"
+      "set_code": "ASHP",
+      "role": "standard"
     }
   },
   "prices": [
@@ -142269,32 +142269,6 @@
     },
     {
       "set_code": "IBH",
-      "en_name": "Darth Vader, Don't Fail Me Again",
-      "card_number": 53,
-      "card_type": "Leader",
-      "variant_types_in_app": [
-        "Standard"
-      ],
-      "prices": {
-        "standard": {
-          "idProduct": 843698,
-          "avg": 0.17,
-          "low": 0.05,
-          "trend": 0.12,
-          "avg_foil": null,
-          "low_foil": null,
-          "trend_foil": 0,
-          "avg1": 0.09,
-          "avg7": 0.1,
-          "avg30": 0.15,
-          "avg1_foil": null,
-          "avg7_foil": null,
-          "avg30_foil": null
-        }
-      }
-    },
-    {
-      "set_code": "IBH",
       "en_name": "Echo Caverns",
       "card_number": 2,
       "card_type": "Base",
@@ -142312,32 +142286,6 @@
           "trend_foil": 0,
           "avg1": 0.1,
           "avg7": 0.09,
-          "avg30": 0.11,
-          "avg1_foil": null,
-          "avg7_foil": null,
-          "avg30_foil": null
-        }
-      }
-    },
-    {
-      "set_code": "IBH",
-      "en_name": "Forward Command Post",
-      "card_number": 54,
-      "card_type": "Base",
-      "variant_types_in_app": [
-        "Standard"
-      ],
-      "prices": {
-        "standard": {
-          "idProduct": 843699,
-          "avg": 0.1,
-          "low": 0.05,
-          "trend": 0.14,
-          "avg_foil": null,
-          "low_foil": null,
-          "trend_foil": 0,
-          "avg1": 0.1,
-          "avg7": 0.15,
           "avg30": 0.11,
           "avg1_foil": null,
           "avg7_foil": null,
@@ -142937,6 +142885,58 @@
           "avg1": 14.99,
           "avg7": 15.51,
           "avg30": 15.02,
+          "avg1_foil": null,
+          "avg7_foil": null,
+          "avg30_foil": null
+        }
+      }
+    },
+    {
+      "set_code": "IBH",
+      "en_name": "Darth Vader, Don't Fail Me Again",
+      "card_number": 53,
+      "card_type": "Leader",
+      "variant_types_in_app": [
+        "Standard"
+      ],
+      "prices": {
+        "standard": {
+          "idProduct": 843698,
+          "avg": 0.17,
+          "low": 0.05,
+          "trend": 0.12,
+          "avg_foil": null,
+          "low_foil": null,
+          "trend_foil": 0,
+          "avg1": 0.09,
+          "avg7": 0.1,
+          "avg30": 0.15,
+          "avg1_foil": null,
+          "avg7_foil": null,
+          "avg30_foil": null
+        }
+      }
+    },
+    {
+      "set_code": "IBH",
+      "en_name": "Forward Command Post",
+      "card_number": 54,
+      "card_type": "Base",
+      "variant_types_in_app": [
+        "Standard"
+      ],
+      "prices": {
+        "standard": {
+          "idProduct": 843699,
+          "avg": 0.1,
+          "low": 0.05,
+          "trend": 0.14,
+          "avg_foil": null,
+          "low_foil": null,
+          "trend_foil": 0,
+          "avg1": 0.1,
+          "avg7": 0.15,
+          "avg30": 0.11,
           "avg1_foil": null,
           "avg7_foil": null,
           "avg30_foil": null
@@ -156416,40 +156416,8 @@
           "avg30_foil": null
         },
         "hyperspace_foil": {
-          "idProduct": 897028,
-          "card_number": 536,
-          "avg": 5,
-          "low": 4.39,
-          "trend": 4.35,
-          "avg_foil": null,
-          "low_foil": null,
-          "trend_foil": 0,
-          "avg1": 5,
-          "avg7": 5,
-          "avg30": 5,
-          "avg1_foil": null,
-          "avg7_foil": null,
-          "avg30_foil": null
-        },
-        "standard_prestige": {
-          "idProduct": 897130,
-          "card_number": 826,
-          "avg": 1.95,
-          "low": 1.95,
-          "trend": 1.95,
-          "avg_foil": null,
-          "low_foil": null,
-          "trend_foil": 0,
-          "avg1": null,
-          "avg7": null,
-          "avg30": null,
-          "avg1_foil": null,
-          "avg7_foil": null,
-          "avg30_foil": null
-        },
-        "foil_prestige": {
           "idProduct": 896738,
-          "card_number": 873,
+          "card_number": 536,
           "avg": null,
           "low": 4.39,
           "trend": null,
@@ -156463,14 +156431,46 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "serialized_prestige": {
+        "standard_prestige": {
+          "idProduct": 897028,
+          "card_number": 826,
+          "avg": 5,
+          "low": 4.39,
+          "trend": 4.35,
+          "avg_foil": null,
+          "low_foil": null,
+          "trend_foil": 0,
+          "avg1": 5,
+          "avg7": 5,
+          "avg30": 5,
+          "avg1_foil": null,
+          "avg7_foil": null,
+          "avg30_foil": null
+        },
+        "foil_prestige": {
           "idProduct": 897075,
-          "card_number": 920,
+          "card_number": 873,
           "avg": null,
           "low": 14.5,
           "trend": null,
           "avg_foil": null,
           "low_foil": 14.5,
+          "trend_foil": null,
+          "avg1": null,
+          "avg7": null,
+          "avg30": null,
+          "avg1_foil": null,
+          "avg7_foil": null,
+          "avg30_foil": null
+        },
+        "serialized_prestige": {
+          "idProduct": 897122,
+          "card_number": 920,
+          "avg": null,
+          "low": 70,
+          "trend": null,
+          "avg_foil": null,
+          "low_foil": 70,
           "trend_foil": null,
           "avg1": null,
           "avg7": null,
@@ -157873,30 +157873,30 @@
           "avg30_foil": null
         },
         "foil_prestige": {
-          "idProduct": 897133,
+          "idProduct": 897041,
           "card_number": 839,
-          "avg": 0.25,
-          "low": 0.5,
-          "trend": 0.53,
+          "avg": null,
+          "low": 9.44,
+          "trend": 0,
           "avg_foil": null,
-          "low_foil": null,
-          "trend_foil": 0,
-          "avg1": 0.97,
-          "avg7": 0.68,
-          "avg30": 0.68,
+          "low_foil": 9.44,
+          "trend_foil": 9.98,
+          "avg1": null,
+          "avg7": null,
+          "avg30": null,
           "avg1_foil": null,
           "avg7_foil": null,
           "avg30_foil": null
         },
         "serialized_prestige": {
-          "idProduct": 897153,
+          "idProduct": 897088,
           "card_number": 886,
-          "avg": 2.98,
-          "low": 1.5,
-          "trend": 1.9,
-          "avg_foil": 2.98,
-          "low_foil": 1.5,
-          "trend_foil": 1.9,
+          "avg": null,
+          "low": 140,
+          "trend": null,
+          "avg_foil": null,
+          "low_foil": 140,
+          "trend_foil": null,
           "avg1": null,
           "avg7": null,
           "avg30": null,
@@ -159170,17 +159170,17 @@
           "avg30_foil": 9.99
         },
         "serialized_prestige": {
-          "idProduct": 897134,
+          "idProduct": 897093,
           "card_number": 891,
-          "avg": 0.5,
-          "low": 0.4,
-          "trend": 0.99,
+          "avg": null,
+          "low": 500,
+          "trend": null,
           "avg_foil": null,
-          "low_foil": null,
-          "trend_foil": 0,
-          "avg1": 0.5,
-          "avg7": 0.5,
-          "avg30": 0.5,
+          "low_foil": 500,
+          "trend_foil": null,
+          "avg1": null,
+          "avg7": null,
+          "avg30": null,
           "avg1_foil": null,
           "avg7_foil": null,
           "avg30_foil": null
@@ -159400,30 +159400,30 @@
           "avg30_foil": null
         },
         "hyperspace": {
-          "idProduct": 897135,
+          "idProduct": 896533,
           "card_number": 331,
-          "avg": 0.3,
-          "low": 0.15,
-          "trend": 0.2,
+          "avg": null,
+          "low": 0.18,
+          "trend": 1.4,
           "avg_foil": null,
           "low_foil": null,
           "trend_foil": 0,
-          "avg1": null,
-          "avg7": null,
-          "avg30": null,
+          "avg1": 1.1,
+          "avg7": 1.1,
+          "avg30": 1.1,
           "avg1_foil": null,
           "avg7_foil": null,
           "avg30_foil": null
         },
         "hyperspace_foil": {
-          "idProduct": 897155,
+          "idProduct": 896771,
           "card_number": 569,
-          "avg": 1,
-          "low": 0.5,
-          "trend": 0.42,
-          "avg_foil": 1,
-          "low_foil": 0.5,
-          "trend_foil": 0.42,
+          "avg": null,
+          "low": 0.99,
+          "trend": null,
+          "avg_foil": null,
+          "low_foil": 0.99,
+          "trend_foil": null,
           "avg1": null,
           "avg7": null,
           "avg30": null,
@@ -162714,8 +162714,24 @@
           "avg30_foil": 2.99
         },
         "standard_prestige": {
-          "idProduct": 897049,
+          "idProduct": 897002,
           "card_number": 800,
+          "avg": null,
+          "low": 6.5,
+          "trend": 6.62,
+          "avg_foil": null,
+          "low_foil": null,
+          "trend_foil": 0,
+          "avg1": 8.89,
+          "avg7": 8.89,
+          "avg30": 8.89,
+          "avg1_foil": null,
+          "avg7_foil": null,
+          "avg30_foil": null
+        },
+        "foil_prestige": {
+          "idProduct": 897049,
+          "card_number": 847,
           "avg": 17.24,
           "low": 9,
           "trend": 17.24,
@@ -162729,37 +162745,21 @@
           "avg7_foil": 17.24,
           "avg30_foil": 17.24
         },
-        "foil_prestige": {
-          "idProduct": 897137,
-          "card_number": 847,
-          "avg": 0.5,
-          "low": 0.25,
-          "trend": 0.5,
+        "serialized_prestige": {
+          "idProduct": 897096,
+          "card_number": 894,
+          "avg": null,
+          "low": 598,
+          "trend": null,
           "avg_foil": null,
-          "low_foil": null,
-          "trend_foil": 0,
-          "avg1": 0.5,
-          "avg7": 0.5,
-          "avg30": 0.5,
+          "low_foil": 598,
+          "trend_foil": null,
+          "avg1": null,
+          "avg7": null,
+          "avg30": null,
           "avg1_foil": null,
           "avg7_foil": null,
           "avg30_foil": null
-        },
-        "serialized_prestige": {
-          "idProduct": 897157,
-          "card_number": 894,
-          "avg": 0.99,
-          "low": 0.7,
-          "trend": 0.71,
-          "avg_foil": 0.99,
-          "low_foil": 0.7,
-          "trend_foil": 0.71,
-          "avg1": 0.93,
-          "avg7": 0.93,
-          "avg30": 0.93,
-          "avg1_foil": 0.93,
-          "avg7_foil": 0.93,
-          "avg30_foil": 0.93
         }
       }
     },
@@ -163586,8 +163586,24 @@
           "avg30_foil": null
         },
         "hyperspace_foil": {
-          "idProduct": 897004,
+          "idProduct": 896823,
           "card_number": 621,
+          "avg": null,
+          "low": 0.75,
+          "trend": null,
+          "avg_foil": null,
+          "low_foil": 0.75,
+          "trend_foil": null,
+          "avg1": null,
+          "avg7": null,
+          "avg30": null,
+          "avg1_foil": null,
+          "avg7_foil": null,
+          "avg30_foil": null
+        },
+        "standard_prestige": {
+          "idProduct": 897004,
+          "card_number": 802,
           "avg": 6.8,
           "low": 5.79,
           "trend": 6.8,
@@ -163601,31 +163617,15 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "standard_prestige": {
-          "idProduct": 897138,
-          "card_number": 802,
-          "avg": 0.5,
-          "low": 0.2,
-          "trend": 0.4,
-          "avg_foil": null,
-          "low_foil": null,
-          "trend_foil": 0,
-          "avg1": null,
-          "avg7": null,
-          "avg30": null,
-          "avg1_foil": null,
-          "avg7_foil": null,
-          "avg30_foil": null
-        },
         "foil_prestige": {
-          "idProduct": 897158,
+          "idProduct": 897051,
           "card_number": 849,
-          "avg": 3.49,
-          "low": 0.5,
-          "trend": 0.59,
-          "avg_foil": 3.49,
-          "low_foil": 0.5,
-          "trend_foil": 0.59,
+          "avg": null,
+          "low": 7,
+          "trend": null,
+          "avg_foil": null,
+          "low_foil": 7,
+          "trend_foil": null,
           "avg1": null,
           "avg7": null,
           "avg30": null,
@@ -163634,13 +163634,13 @@
           "avg30_foil": null
         },
         "serialized_prestige": {
-          "idProduct": 896823,
+          "idProduct": 897098,
           "card_number": 896,
           "avg": null,
-          "low": 0.75,
+          "low": 90,
           "trend": null,
           "avg_foil": null,
-          "low_foil": 0.75,
+          "low_foil": 90,
           "trend_foil": null,
           "avg1": null,
           "avg7": null,
@@ -169396,30 +169396,30 @@
           "avg30_foil": null
         },
         "foil_prestige": {
-          "idProduct": 897144,
+          "idProduct": 897077,
           "card_number": 875,
-          "avg": 0.2,
-          "low": 0.2,
-          "trend": 0.47,
+          "avg": null,
+          "low": 5.69,
+          "trend": null,
           "avg_foil": null,
-          "low_foil": null,
-          "trend_foil": 0,
-          "avg1": 0.3,
-          "avg7": 0.27,
-          "avg30": 0.27,
+          "low_foil": 5.69,
+          "trend_foil": null,
+          "avg1": null,
+          "avg7": null,
+          "avg30": null,
           "avg1_foil": null,
           "avg7_foil": null,
           "avg30_foil": null
         },
         "serialized_prestige": {
-          "idProduct": 897164,
+          "idProduct": 897124,
           "card_number": 922,
-          "avg": 1.5,
-          "low": 0.7,
-          "trend": 0.57,
-          "avg_foil": 1.5,
-          "low_foil": 0.7,
-          "trend_foil": 0.57,
+          "avg": null,
+          "low": 229.78,
+          "trend": null,
+          "avg_foil": null,
+          "low_foil": 229.78,
+          "trend_foil": null,
           "avg1": null,
           "avg7": null,
           "avg30": null,
@@ -170085,7 +170085,7 @@
           "low_foil": null,
           "trend_foil": 0,
           "avg1": 0.1,
-          "avg7": 0.13,
+          "avg7": 0.14,
           "avg30": 0.14,
           "avg1_foil": null,
           "avg7_foil": null,
@@ -170344,14 +170344,14 @@
           "avg30_foil": null
         },
         "foil_prestige": {
-          "idProduct": 897145,
+          "idProduct": 897059,
           "card_number": 857,
-          "avg": 2.97,
-          "low": 2,
-          "trend": 2,
+          "avg": null,
+          "low": 18.5,
+          "trend": null,
           "avg_foil": null,
-          "low_foil": null,
-          "trend_foil": 0,
+          "low_foil": 18.5,
+          "trend_foil": null,
           "avg1": null,
           "avg7": null,
           "avg30": null,
@@ -170360,13 +170360,13 @@
           "avg30_foil": null
         },
         "serialized_prestige": {
-          "idProduct": 897059,
+          "idProduct": 897106,
           "card_number": 904,
           "avg": null,
-          "low": 18.5,
+          "low": 250,
           "trend": null,
           "avg_foil": null,
-          "low_foil": 18.5,
+          "low_foil": 250,
           "trend_foil": null,
           "avg1": null,
           "avg7": null,
@@ -171510,8 +171510,8 @@
           "low_foil": null,
           "trend_foil": 0,
           "avg1": 0.1,
-          "avg7": 0.11,
-          "avg30": 0.11,
+          "avg7": 0.1,
+          "avg30": 0.1,
           "avg1_foil": null,
           "avg7_foil": null,
           "avg30_foil": null
@@ -172184,14 +172184,14 @@
           "avg30_foil": null
         },
         "hyperspace_foil": {
-          "idProduct": 897146,
+          "idProduct": 896929,
           "card_number": 727,
-          "avg": 0.02,
-          "low": 0.05,
-          "trend": 0.05,
+          "avg": null,
+          "low": 0.02,
+          "trend": 0,
           "avg_foil": null,
-          "low_foil": null,
-          "trend_foil": 0,
+          "low_foil": 0.02,
+          "trend_foil": 0.19,
           "avg1": null,
           "avg7": null,
           "avg30": null,
@@ -173110,8 +173110,24 @@
           "avg30_foil": null
         },
         "hyperspace": {
-          "idProduct": 896941,
+          "idProduct": 896703,
           "card_number": 501,
+          "avg": null,
+          "low": 0.02,
+          "trend": 0.08,
+          "avg_foil": null,
+          "low_foil": null,
+          "trend_foil": 0,
+          "avg1": null,
+          "avg7": null,
+          "avg30": null,
+          "avg1_foil": null,
+          "avg7_foil": null,
+          "avg30_foil": null
+        },
+        "hyperspace_foil": {
+          "idProduct": 896941,
+          "card_number": 739,
           "avg": 0.09,
           "low": 0.02,
           "trend": 0.07,
@@ -173124,22 +173140,6 @@
           "avg1_foil": 0.1,
           "avg7_foil": 0.1,
           "avg30_foil": 0.1
-        },
-        "hyperspace_foil": {
-          "idProduct": 897147,
-          "card_number": 739,
-          "avg": 0.25,
-          "low": 0.09,
-          "trend": 0.09,
-          "avg_foil": null,
-          "low_foil": null,
-          "trend_foil": 0,
-          "avg1": null,
-          "avg7": null,
-          "avg30": null,
-          "avg1_foil": null,
-          "avg7_foil": null,
-          "avg30_foil": null
         }
       }
     },
@@ -175390,6 +175390,846 @@
           "avg1_foil": 0.1,
           "avg7_foil": 0.1,
           "avg30_foil": 0.1
+        }
+      }
+    },
+    {
+      "set_code": "ASHP",
+      "en_name": "Enoch, Solemn Servant",
+      "card_number": 1,
+      "card_type": "Unité",
+      "variant_types_in_app": [
+        "Weekly Play",
+        "Weekly Play Foil"
+      ],
+      "prices": {
+        "weekly_play": {
+          "idProduct": 897128,
+          "avg": 2.74,
+          "low": 2.8,
+          "trend": 2.89,
+          "avg_foil": null,
+          "low_foil": null,
+          "trend_foil": 0,
+          "avg1": null,
+          "avg7": null,
+          "avg30": null,
+          "avg1_foil": null,
+          "avg7_foil": null,
+          "avg30_foil": null
+        },
+        "weekly_play_foil": {
+          "idProduct": 897128,
+          "avg": 2.74,
+          "low": 2.8,
+          "trend": 2.89,
+          "avg_foil": null,
+          "low_foil": null,
+          "trend_foil": 0,
+          "avg1": null,
+          "avg7": null,
+          "avg30": null,
+          "avg1_foil": null,
+          "avg7_foil": null,
+          "avg30_foil": null
+        }
+      }
+    },
+    {
+      "set_code": "ASHP",
+      "en_name": "Scorpenek Annihilator Droid",
+      "card_number": 2,
+      "card_type": "Unité",
+      "variant_types_in_app": [
+        "Weekly Play",
+        "Weekly Play Foil"
+      ],
+      "prices": {
+        "weekly_play": {
+          "idProduct": 897129,
+          "avg": 0.3,
+          "low": 0.3,
+          "trend": 0.94,
+          "avg_foil": null,
+          "low_foil": null,
+          "trend_foil": 0,
+          "avg1": 0.3,
+          "avg7": 0.3,
+          "avg30": 0.3,
+          "avg1_foil": null,
+          "avg7_foil": null,
+          "avg30_foil": null
+        },
+        "weekly_play_foil": {
+          "idProduct": 897129,
+          "avg": 0.3,
+          "low": 0.3,
+          "trend": 0.94,
+          "avg_foil": null,
+          "low_foil": null,
+          "trend_foil": 0,
+          "avg1": 0.3,
+          "avg7": 0.3,
+          "avg30": 0.3,
+          "avg1_foil": null,
+          "avg7_foil": null,
+          "avg30_foil": null
+        }
+      }
+    },
+    {
+      "set_code": "ASHP",
+      "en_name": "Wicket, Yub Nub!",
+      "card_number": 3,
+      "card_type": "Unité",
+      "variant_types_in_app": [
+        "Weekly Play",
+        "Weekly Play Foil"
+      ],
+      "prices": {
+        "weekly_play": {
+          "idProduct": 897130,
+          "avg": 1.95,
+          "low": 1.95,
+          "trend": 1.95,
+          "avg_foil": null,
+          "low_foil": null,
+          "trend_foil": 0,
+          "avg1": null,
+          "avg7": null,
+          "avg30": null,
+          "avg1_foil": null,
+          "avg7_foil": null,
+          "avg30_foil": null
+        },
+        "weekly_play_foil": {
+          "idProduct": 897130,
+          "avg": 1.95,
+          "low": 1.95,
+          "trend": 1.95,
+          "avg_foil": null,
+          "low_foil": null,
+          "trend_foil": 0,
+          "avg1": null,
+          "avg7": null,
+          "avg30": null,
+          "avg1_foil": null,
+          "avg7_foil": null,
+          "avg30_foil": null
+        }
+      }
+    },
+    {
+      "set_code": "ASHP",
+      "en_name": "Barriss Offee, Redeeming Herself",
+      "card_number": 4,
+      "card_type": "Unité",
+      "variant_types_in_app": [
+        "Weekly Play",
+        "Weekly Play Foil"
+      ],
+      "prices": {
+        "weekly_play": {
+          "idProduct": 897131,
+          "avg": 1,
+          "low": 0.5,
+          "trend": 0.5,
+          "avg_foil": null,
+          "low_foil": null,
+          "trend_foil": 0,
+          "avg1": null,
+          "avg7": null,
+          "avg30": null,
+          "avg1_foil": null,
+          "avg7_foil": null,
+          "avg30_foil": null
+        },
+        "weekly_play_foil": {
+          "idProduct": 897131,
+          "avg": 1,
+          "low": 0.5,
+          "trend": 0.5,
+          "avg_foil": null,
+          "low_foil": null,
+          "trend_foil": 0,
+          "avg1": null,
+          "avg7": null,
+          "avg30": null,
+          "avg1_foil": null,
+          "avg7_foil": null,
+          "avg30_foil": null
+        }
+      }
+    },
+    {
+      "set_code": "ASHP",
+      "en_name": "Reanimated Night Trooper",
+      "card_number": 5,
+      "card_type": "Unité",
+      "variant_types_in_app": [
+        "Weekly Play",
+        "Weekly Play Foil"
+      ],
+      "prices": {
+        "weekly_play": {
+          "idProduct": 897132,
+          "avg": 0.5,
+          "low": 0.05,
+          "trend": 0.08,
+          "avg_foil": null,
+          "low_foil": null,
+          "trend_foil": 0,
+          "avg1": 0.1,
+          "avg7": 0.34,
+          "avg30": 0.34,
+          "avg1_foil": null,
+          "avg7_foil": null,
+          "avg30_foil": null
+        },
+        "weekly_play_foil": {
+          "idProduct": 897132,
+          "avg": 0.5,
+          "low": 0.05,
+          "trend": 0.08,
+          "avg_foil": null,
+          "low_foil": null,
+          "trend_foil": 0,
+          "avg1": 0.1,
+          "avg7": 0.34,
+          "avg30": 0.34,
+          "avg1_foil": null,
+          "avg7_foil": null,
+          "avg30_foil": null
+        }
+      }
+    },
+    {
+      "set_code": "ASHP",
+      "en_name": "Morgan Elsbeth, Life Abandoned",
+      "card_number": 6,
+      "card_type": "Unité",
+      "variant_types_in_app": [
+        "Weekly Play",
+        "Weekly Play Foil"
+      ],
+      "prices": {
+        "weekly_play": {
+          "idProduct": 897133,
+          "avg": 0.25,
+          "low": 0.5,
+          "trend": 0.53,
+          "avg_foil": null,
+          "low_foil": null,
+          "trend_foil": 0,
+          "avg1": 0.97,
+          "avg7": 0.68,
+          "avg30": 0.68,
+          "avg1_foil": null,
+          "avg7_foil": null,
+          "avg30_foil": null
+        },
+        "weekly_play_foil": {
+          "idProduct": 897133,
+          "avg": 0.25,
+          "low": 0.5,
+          "trend": 0.53,
+          "avg_foil": null,
+          "low_foil": null,
+          "trend_foil": 0,
+          "avg1": 0.97,
+          "avg7": 0.68,
+          "avg30": 0.68,
+          "avg1_foil": null,
+          "avg7_foil": null,
+          "avg30_foil": null
+        }
+      }
+    },
+    {
+      "set_code": "ASHP",
+      "en_name": "The Armorer, Secrecy is Our Survival",
+      "card_number": 7,
+      "card_type": "Unité",
+      "variant_types_in_app": [
+        "Weekly Play",
+        "Weekly Play Foil"
+      ],
+      "prices": {
+        "weekly_play": {
+          "idProduct": 897134,
+          "avg": 0.5,
+          "low": 0.4,
+          "trend": 0.99,
+          "avg_foil": null,
+          "low_foil": null,
+          "trend_foil": 0,
+          "avg1": 0.5,
+          "avg7": 0.5,
+          "avg30": 0.5,
+          "avg1_foil": null,
+          "avg7_foil": null,
+          "avg30_foil": null
+        },
+        "weekly_play_foil": {
+          "idProduct": 897134,
+          "avg": 0.5,
+          "low": 0.4,
+          "trend": 0.99,
+          "avg_foil": null,
+          "low_foil": null,
+          "trend_foil": 0,
+          "avg1": 0.5,
+          "avg7": 0.5,
+          "avg30": 0.5,
+          "avg1_foil": null,
+          "avg7_foil": null,
+          "avg30_foil": null
+        }
+      }
+    },
+    {
+      "set_code": "ASHP",
+      "en_name": "Get Lost",
+      "card_number": 8,
+      "card_type": "Évènement",
+      "variant_types_in_app": [
+        "Weekly Play",
+        "Weekly Play Foil"
+      ],
+      "prices": {
+        "weekly_play": {
+          "idProduct": 897135,
+          "avg": 0.3,
+          "low": 0.15,
+          "trend": 0.2,
+          "avg_foil": null,
+          "low_foil": null,
+          "trend_foil": 0,
+          "avg1": null,
+          "avg7": null,
+          "avg30": null,
+          "avg1_foil": null,
+          "avg7_foil": null,
+          "avg30_foil": null
+        },
+        "weekly_play_foil": {
+          "idProduct": 897135,
+          "avg": 0.3,
+          "low": 0.15,
+          "trend": 0.2,
+          "avg_foil": null,
+          "low_foil": null,
+          "trend_foil": 0,
+          "avg1": null,
+          "avg7": null,
+          "avg30": null,
+          "avg1_foil": null,
+          "avg7_foil": null,
+          "avg30_foil": null
+        }
+      }
+    },
+    {
+      "set_code": "ASHP",
+      "en_name": "Palace Chef Droid",
+      "card_number": 9,
+      "card_type": "Unité",
+      "variant_types_in_app": [
+        "Weekly Play",
+        "Weekly Play Foil"
+      ],
+      "prices": {
+        "weekly_play": {
+          "idProduct": 897136,
+          "avg": 0.08,
+          "low": 0.05,
+          "trend": 0.08,
+          "avg_foil": null,
+          "low_foil": null,
+          "trend_foil": 0,
+          "avg1": null,
+          "avg7": null,
+          "avg30": null,
+          "avg1_foil": null,
+          "avg7_foil": null,
+          "avg30_foil": null
+        },
+        "weekly_play_foil": {
+          "idProduct": 897136,
+          "avg": 0.08,
+          "low": 0.05,
+          "trend": 0.08,
+          "avg_foil": null,
+          "low_foil": null,
+          "trend_foil": 0,
+          "avg1": null,
+          "avg7": null,
+          "avg30": null,
+          "avg1_foil": null,
+          "avg7_foil": null,
+          "avg30_foil": null
+        }
+      }
+    },
+    {
+      "set_code": "ASHP",
+      "en_name": "T-6 Shuttle 1974, With a Mentor's Dedication",
+      "card_number": 10,
+      "card_type": "Unité",
+      "variant_types_in_app": [
+        "Weekly Play",
+        "Weekly Play Foil"
+      ],
+      "prices": {
+        "weekly_play": {
+          "idProduct": 897137,
+          "avg": 0.5,
+          "low": 0.25,
+          "trend": 0.5,
+          "avg_foil": null,
+          "low_foil": null,
+          "trend_foil": 0,
+          "avg1": 0.5,
+          "avg7": 0.5,
+          "avg30": 0.5,
+          "avg1_foil": null,
+          "avg7_foil": null,
+          "avg30_foil": null
+        },
+        "weekly_play_foil": {
+          "idProduct": 897137,
+          "avg": 0.5,
+          "low": 0.25,
+          "trend": 0.5,
+          "avg_foil": null,
+          "low_foil": null,
+          "trend_foil": 0,
+          "avg1": 0.5,
+          "avg7": 0.5,
+          "avg30": 0.5,
+          "avg1_foil": null,
+          "avg7_foil": null,
+          "avg30_foil": null
+        }
+      }
+    },
+    {
+      "set_code": "ASHP",
+      "en_name": "Greef Karga, Introductions are in Order",
+      "card_number": 11,
+      "card_type": "Unité",
+      "variant_types_in_app": [
+        "Weekly Play",
+        "Weekly Play Foil"
+      ],
+      "prices": {
+        "weekly_play": {
+          "idProduct": 897138,
+          "avg": 0.5,
+          "low": 0.2,
+          "trend": 0.4,
+          "avg_foil": null,
+          "low_foil": null,
+          "trend_foil": 0,
+          "avg1": null,
+          "avg7": null,
+          "avg30": null,
+          "avg1_foil": null,
+          "avg7_foil": null,
+          "avg30_foil": null
+        },
+        "weekly_play_foil": {
+          "idProduct": 897138,
+          "avg": 0.5,
+          "low": 0.2,
+          "trend": 0.4,
+          "avg_foil": null,
+          "low_foil": null,
+          "trend_foil": 0,
+          "avg1": null,
+          "avg7": null,
+          "avg30": null,
+          "avg1_foil": null,
+          "avg7_foil": null,
+          "avg30_foil": null
+        }
+      }
+    },
+    {
+      "set_code": "ASHP",
+      "en_name": "Blurrg",
+      "card_number": 12,
+      "card_type": "Unité",
+      "variant_types_in_app": [
+        "Weekly Play",
+        "Weekly Play Foil"
+      ],
+      "prices": {
+        "weekly_play": {
+          "idProduct": 897139,
+          "avg": 1,
+          "low": 0.1,
+          "trend": 0.1,
+          "avg_foil": null,
+          "low_foil": null,
+          "trend_foil": 0,
+          "avg1": null,
+          "avg7": null,
+          "avg30": null,
+          "avg1_foil": null,
+          "avg7_foil": null,
+          "avg30_foil": null
+        },
+        "weekly_play_foil": {
+          "idProduct": 897139,
+          "avg": 1,
+          "low": 0.1,
+          "trend": 0.1,
+          "avg_foil": null,
+          "low_foil": null,
+          "trend_foil": 0,
+          "avg1": null,
+          "avg7": null,
+          "avg30": null,
+          "avg1_foil": null,
+          "avg7_foil": null,
+          "avg30_foil": null
+        }
+      }
+    },
+    {
+      "set_code": "ASHP",
+      "en_name": "Dinosaur Turtle",
+      "card_number": 13,
+      "card_type": "Unité",
+      "variant_types_in_app": [
+        "Weekly Play",
+        "Weekly Play Foil"
+      ],
+      "prices": {
+        "weekly_play": {
+          "idProduct": 897140,
+          "avg": 0.05,
+          "low": 0.05,
+          "trend": 0.05,
+          "avg_foil": null,
+          "low_foil": null,
+          "trend_foil": 0,
+          "avg1": null,
+          "avg7": null,
+          "avg30": null,
+          "avg1_foil": null,
+          "avg7_foil": null,
+          "avg30_foil": null
+        },
+        "weekly_play_foil": {
+          "idProduct": 897140,
+          "avg": 0.05,
+          "low": 0.05,
+          "trend": 0.05,
+          "avg_foil": null,
+          "low_foil": null,
+          "trend_foil": 0,
+          "avg1": null,
+          "avg7": null,
+          "avg30": null,
+          "avg1_foil": null,
+          "avg7_foil": null,
+          "avg30_foil": null
+        }
+      }
+    },
+    {
+      "set_code": "ASHP",
+      "en_name": "The Darksaber, Icon of Leadership",
+      "card_number": 14,
+      "card_type": "Amélioration",
+      "variant_types_in_app": [
+        "Weekly Play",
+        "Weekly Play Foil"
+      ],
+      "prices": {
+        "weekly_play": {
+          "idProduct": 897141,
+          "avg": null,
+          "low": 8,
+          "trend": null,
+          "avg_foil": null,
+          "low_foil": null,
+          "trend_foil": null,
+          "avg1": null,
+          "avg7": null,
+          "avg30": null,
+          "avg1_foil": null,
+          "avg7_foil": null,
+          "avg30_foil": null
+        },
+        "weekly_play_foil": {
+          "idProduct": 897161,
+          "avg": null,
+          "low": 15,
+          "trend": null,
+          "avg_foil": null,
+          "low_foil": 15,
+          "trend_foil": null,
+          "avg1": null,
+          "avg7": null,
+          "avg30": null,
+          "avg1_foil": null,
+          "avg7_foil": null,
+          "avg30_foil": null
+        }
+      }
+    },
+    {
+      "set_code": "ASHP",
+      "en_name": "The Cyborg Mech, Mysterious Threat",
+      "card_number": 15,
+      "card_type": "Unité",
+      "variant_types_in_app": [
+        "Weekly Play",
+        "Weekly Play Foil"
+      ],
+      "prices": {
+        "weekly_play": {
+          "idProduct": 897142,
+          "avg": 0.5,
+          "low": 0.5,
+          "trend": 1,
+          "avg_foil": null,
+          "low_foil": null,
+          "trend_foil": 0,
+          "avg1": 0.5,
+          "avg7": 0.5,
+          "avg30": 0.5,
+          "avg1_foil": null,
+          "avg7_foil": null,
+          "avg30_foil": null
+        },
+        "weekly_play_foil": {
+          "idProduct": 897142,
+          "avg": 0.5,
+          "low": 0.5,
+          "trend": 1,
+          "avg_foil": null,
+          "low_foil": null,
+          "trend_foil": 0,
+          "avg1": 0.5,
+          "avg7": 0.5,
+          "avg30": 0.5,
+          "avg1_foil": null,
+          "avg7_foil": null,
+          "avg30_foil": null
+        }
+      }
+    },
+    {
+      "set_code": "ASHP",
+      "en_name": "Emperor's Messenger",
+      "card_number": 16,
+      "card_type": "Unité",
+      "variant_types_in_app": [
+        "Weekly Play",
+        "Weekly Play Foil"
+      ],
+      "prices": {
+        "weekly_play": {
+          "idProduct": 897143,
+          "avg": 0.09,
+          "low": 0.09,
+          "trend": 0.09,
+          "avg_foil": null,
+          "low_foil": null,
+          "trend_foil": 0,
+          "avg1": null,
+          "avg7": null,
+          "avg30": null,
+          "avg1_foil": null,
+          "avg7_foil": null,
+          "avg30_foil": null
+        },
+        "weekly_play_foil": {
+          "idProduct": 897143,
+          "avg": 0.09,
+          "low": 0.09,
+          "trend": 0.09,
+          "avg_foil": null,
+          "low_foil": null,
+          "trend_foil": 0,
+          "avg1": null,
+          "avg7": null,
+          "avg30": null,
+          "avg1_foil": null,
+          "avg7_foil": null,
+          "avg30_foil": null
+        }
+      }
+    },
+    {
+      "set_code": "ASHP",
+      "en_name": "Fennec Shand, The Galaxy Is Dangerous",
+      "card_number": 17,
+      "card_type": "Unité",
+      "variant_types_in_app": [
+        "Weekly Play",
+        "Weekly Play Foil"
+      ],
+      "prices": {
+        "weekly_play": {
+          "idProduct": 897144,
+          "avg": 0.2,
+          "low": 0.2,
+          "trend": 0.47,
+          "avg_foil": null,
+          "low_foil": null,
+          "trend_foil": 0,
+          "avg1": 0.3,
+          "avg7": 0.27,
+          "avg30": 0.27,
+          "avg1_foil": null,
+          "avg7_foil": null,
+          "avg30_foil": null
+        },
+        "weekly_play_foil": {
+          "idProduct": 897144,
+          "avg": 0.2,
+          "low": 0.2,
+          "trend": 0.47,
+          "avg_foil": null,
+          "low_foil": null,
+          "trend_foil": 0,
+          "avg1": 0.3,
+          "avg7": 0.27,
+          "avg30": 0.27,
+          "avg1_foil": null,
+          "avg7_foil": null,
+          "avg30_foil": null
+        }
+      }
+    },
+    {
+      "set_code": "ASHP",
+      "en_name": "Mando's N-1 Starfighter, Faster than a Fathier",
+      "card_number": 18,
+      "card_type": "Unité",
+      "variant_types_in_app": [
+        "Weekly Play",
+        "Weekly Play Foil"
+      ],
+      "prices": {
+        "weekly_play": {
+          "idProduct": 897145,
+          "avg": 2.97,
+          "low": 2,
+          "trend": 2,
+          "avg_foil": null,
+          "low_foil": null,
+          "trend_foil": 0,
+          "avg1": null,
+          "avg7": null,
+          "avg30": null,
+          "avg1_foil": null,
+          "avg7_foil": null,
+          "avg30_foil": null
+        },
+        "weekly_play_foil": {
+          "idProduct": 897145,
+          "avg": 2.97,
+          "low": 2,
+          "trend": 2,
+          "avg_foil": null,
+          "low_foil": null,
+          "trend_foil": 0,
+          "avg1": null,
+          "avg7": null,
+          "avg30": null,
+          "avg1_foil": null,
+          "avg7_foil": null,
+          "avg30_foil": null
+        }
+      }
+    },
+    {
+      "set_code": "ASHP",
+      "en_name": "Tatooine Sand Beast",
+      "card_number": 19,
+      "card_type": "Unité",
+      "variant_types_in_app": [
+        "Weekly Play",
+        "Weekly Play Foil"
+      ],
+      "prices": {
+        "weekly_play": {
+          "idProduct": 897146,
+          "avg": 0.02,
+          "low": 0.05,
+          "trend": 0.05,
+          "avg_foil": null,
+          "low_foil": null,
+          "trend_foil": 0,
+          "avg1": null,
+          "avg7": null,
+          "avg30": null,
+          "avg1_foil": null,
+          "avg7_foil": null,
+          "avg30_foil": null
+        },
+        "weekly_play_foil": {
+          "idProduct": 897146,
+          "avg": 0.02,
+          "low": 0.05,
+          "trend": 0.05,
+          "avg_foil": null,
+          "low_foil": null,
+          "trend_foil": 0,
+          "avg1": null,
+          "avg7": null,
+          "avg30": null,
+          "avg1_foil": null,
+          "avg7_foil": null,
+          "avg30_foil": null
+        }
+      }
+    },
+    {
+      "set_code": "ASHP",
+      "en_name": "Mouse Droid",
+      "card_number": 20,
+      "card_type": "Unité",
+      "variant_types_in_app": [
+        "Weekly Play",
+        "Weekly Play Foil"
+      ],
+      "prices": {
+        "weekly_play": {
+          "idProduct": 897147,
+          "avg": 0.25,
+          "low": 0.09,
+          "trend": 0.09,
+          "avg_foil": null,
+          "low_foil": null,
+          "trend_foil": 0,
+          "avg1": null,
+          "avg7": null,
+          "avg30": null,
+          "avg1_foil": null,
+          "avg7_foil": null,
+          "avg30_foil": null
+        },
+        "weekly_play_foil": {
+          "idProduct": 897147,
+          "avg": 0.25,
+          "low": 0.09,
+          "trend": 0.09,
+          "avg_foil": null,
+          "low_foil": null,
+          "trend_foil": 0,
+          "avg1": null,
+          "avg7": null,
+          "avg30": null,
+          "avg1_foil": null,
+          "avg7_foil": null,
+          "avg30_foil": null
         }
       }
     }

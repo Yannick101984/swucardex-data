@@ -93,7 +93,13 @@ EXPANSION_MAP_CONFIRMED = {
     # TS26
     6532: ("TS26", "standard"),
     # ASH (auto-détecté puis confirmé le 2026-07-23, 100% des matchs)
-    6591: ("ASH",  "standard"), 6642: ("ASH",  "variants"), 6643: ("ASH", "variants"),
+    6591: ("ASH",  "standard"), 6642: ("ASH",  "variants"),
+    6643: ("ASHP", "standard"), # Weekly Play ASH → remappe sur ASHP (corrige une
+                                 # mauvaise classification auto-détectée : les 20
+                                 # noms de cartes ASHP sont des réimpressions de
+                                 # cartes ASH, score de similarité 20/20 identique
+                                 # pour ASH et ASHP, "ASH" gagnait par hasard d'ordre
+                                 # d'itération — polluait aussi 15 prix ASH)
 }
 
 # Priorité de set pour les expansions multi-sets (premier set prioritaire)
