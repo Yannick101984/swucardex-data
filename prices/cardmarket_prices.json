@@ -139655,6 +139655,58 @@
       }
     },
     {
+      "set_code": "G25",
+      "en_name": "Darth Sidious, The Phantom Menace",
+      "card_number": 2,
+      "card_type": "Unité",
+      "variant_types_in_app": [
+        "Standard"
+      ],
+      "prices": {
+        "standard": {
+          "idProduct": 862265,
+          "avg": 11.96,
+          "low": 9.99,
+          "trend": 10.15,
+          "avg_foil": 11.96,
+          "low_foil": 9.99,
+          "trend_foil": 10.15,
+          "avg1": 10,
+          "avg7": 12.1,
+          "avg30": 14.19,
+          "avg1_foil": 10,
+          "avg7_foil": 12.1,
+          "avg30_foil": 14.19
+        }
+      }
+    },
+    {
+      "set_code": "G25",
+      "en_name": "Obi-Wan Kenobi, Protective Padawan",
+      "card_number": 3,
+      "card_type": "Unité",
+      "variant_types_in_app": [
+        "Standard"
+      ],
+      "prices": {
+        "standard": {
+          "idProduct": 862264,
+          "avg": 18.5,
+          "low": 20,
+          "trend": 19.67,
+          "avg_foil": 18.5,
+          "low_foil": 20,
+          "trend_foil": 19.67,
+          "avg1": 18,
+          "avg7": 22,
+          "avg30": 20.88,
+          "avg1_foil": 18,
+          "avg7_foil": 22,
+          "avg30_foil": 20.88
+        }
+      }
+    },
+    {
       "set_code": "P25",
       "en_name": "Bossk, Hunt By Instinct",
       "card_number": 1,
@@ -167579,6 +167631,162 @@
           "avg1": 10,
           "avg7": 11.11,
           "avg30": 11.11,
+          "avg1_foil": null,
+          "avg7_foil": null,
+          "avg30_foil": null
+        }
+      }
+    },
+    {
+      "set_code": "C26",
+      "en_name": "Boba Fett, For a Price",
+      "card_number": 1,
+      "card_type": "Unité",
+      "variant_types_in_app": [
+        "Convention Exclusive"
+      ],
+      "prices": {
+        "convention_exclusive": {
+          "idProduct": 892240,
+          "avg": null,
+          "low": null,
+          "trend": null,
+          "avg_foil": null,
+          "low_foil": null,
+          "trend_foil": null,
+          "avg1": null,
+          "avg7": null,
+          "avg30": null,
+          "avg1_foil": null,
+          "avg7_foil": null,
+          "avg30_foil": null
+        }
+      }
+    },
+    {
+      "set_code": "C26",
+      "en_name": "The Mandalorian, Let's See the Puck",
+      "card_number": 2,
+      "card_type": "Unité",
+      "variant_types_in_app": [
+        "Convention Exclusive"
+      ],
+      "prices": {
+        "convention_exclusive": {
+          "idProduct": 892249,
+          "avg": null,
+          "low": null,
+          "trend": null,
+          "avg_foil": null,
+          "low_foil": null,
+          "trend_foil": null,
+          "avg1": null,
+          "avg7": null,
+          "avg30": null,
+          "avg1_foil": null,
+          "avg7_foil": null,
+          "avg30_foil": null
+        }
+      }
+    },
+    {
+      "set_code": "C26",
+      "en_name": "Zam Wesell, Not What She Seems",
+      "card_number": 3,
+      "card_type": "Unité",
+      "variant_types_in_app": [
+        "Convention Exclusive"
+      ],
+      "prices": {
+        "convention_exclusive": {
+          "idProduct": 892250,
+          "avg": null,
+          "low": null,
+          "trend": null,
+          "avg_foil": null,
+          "low_foil": null,
+          "trend_foil": null,
+          "avg1": null,
+          "avg7": null,
+          "avg30": null,
+          "avg1_foil": null,
+          "avg7_foil": null,
+          "avg30_foil": null
+        }
+      }
+    },
+    {
+      "set_code": "C26",
+      "en_name": "Qi'ra, Master of Teräs Käsi",
+      "card_number": 4,
+      "card_type": "Unité",
+      "variant_types_in_app": [
+        "Convention Exclusive"
+      ],
+      "prices": {
+        "convention_exclusive": {
+          "idProduct": 892251,
+          "avg": null,
+          "low": null,
+          "trend": null,
+          "avg_foil": null,
+          "low_foil": null,
+          "trend_foil": null,
+          "avg1": null,
+          "avg7": null,
+          "avg30": null,
+          "avg1_foil": null,
+          "avg7_foil": null,
+          "avg30_foil": null
+        }
+      }
+    },
+    {
+      "set_code": "C26",
+      "en_name": "Cad Bane, Now It's My Turn",
+      "card_number": 5,
+      "card_type": "Unité",
+      "variant_types_in_app": [
+        "Convention Exclusive"
+      ],
+      "prices": {
+        "convention_exclusive": {
+          "idProduct": 892252,
+          "avg": null,
+          "low": null,
+          "trend": null,
+          "avg_foil": null,
+          "low_foil": null,
+          "trend_foil": null,
+          "avg1": null,
+          "avg7": null,
+          "avg30": null,
+          "avg1_foil": null,
+          "avg7_foil": null,
+          "avg30_foil": null
+        }
+      }
+    },
+    {
+      "set_code": "C26",
+      "en_name": "Jabba the Hutt, Eminence of Tatooine",
+      "card_number": 6,
+      "card_type": "Unité",
+      "variant_types_in_app": [
+        "Convention Exclusive"
+      ],
+      "prices": {
+        "convention_exclusive": {
+          "idProduct": 892254,
+          "avg": null,
+          "low": null,
+          "trend": null,
+          "avg_foil": null,
+          "low_foil": null,
+          "trend_foil": null,
+          "avg1": null,
+          "avg7": null,
+          "avg30": null,
           "avg1_foil": null,
           "avg7_foil": null,
           "avg30_foil": null

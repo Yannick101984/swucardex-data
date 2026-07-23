@@ -77,7 +77,7 @@ EXPANSION_MAP_CONFIRMED = {
     # LOF
     6105: ("LOF",  "standard"), 6188: ("LOF",  "variants"),
     6206: ("LOFP", "standard"), # Weekly Play LOF → remappe sur LOFP
-    6418: ("LOF",  "multi"),    # P25 LOF-era
+    6418: ("LOF",  "multi"),    # G25 + P25 LOF-era mélangés
     # IBH
     6268: ("IBH",  "standard"),
     # P25
@@ -103,14 +103,18 @@ EXPANSION_MAP_CONFIRMED = {
 }
 
 # Priorité de set pour les expansions multi-sets (premier set prioritaire)
-# 5626 = SOR special : C24 (Conv. Exclusive SOR) > GG > C25 > J25 > P25
+# 5626 = SOR special : C24 (Conv. Exclusive SOR) > GG > C25 > J25 > P25 > C26
 # 6023 = JTL special : J24 > J25 > P25 > P26
-# 6418 = LOF special2 : P25 > C25 > P26
+# 6418 = LOF special2 : G25 > P25 > C25 > P26 (G25 en 1er : ses 2 seules cartes
+#         "Darth Sidious, The Phantom Menace" / "Obi-Wan Kenobi, Protective
+#         Padawan" collisionnent de nom avec P25, qui a déjà sa propre bonne
+#         donnée via l'expansion 6101 — sans conflit possible ailleurs vu que
+#         G25 n'a que ces 2 cartes)
 # 6472 = P26 special : P26 > MV26 (2 cartes MV26 mélangées dans le catalogue CM P26)
 MULTI_PRIORITY = {
-    5626: ["C24", "C25", "GG", "J24", "J25", "P25"],
+    5626: ["C24", "C25", "GG", "J24", "J25", "P25", "C26"],
     6023: ["J24", "J25", "C24", "P25", "P26", "LOF", "SEC"],
-    6418: ["P25", "C25", "P26"],
+    6418: ["G25", "P25", "C25", "P26"],
     6472: ["P26", "MV26"],
 }
 
