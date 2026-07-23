@@ -1,5 +1,693 @@
 [
   {
+    "set_code": "ASH",
+    "en_name": "Mandalorian",
+    "card_number": 1,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "ASH",
+    "en_name": "Advantage",
+    "card_number": 2,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "ASH",
+    "en_name": "Shield",
+    "card_number": 3,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "ASH",
+    "en_name": "Mandalorian",
+    "card_number": 4,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "ASH",
+    "en_name": "Advantage",
+    "card_number": 5,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "ASH",
+    "en_name": "Shield",
+    "card_number": 6,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "ASH",
+    "en_name": "Cad Bane, Still Faster than You",
+    "card_number": 11,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "ASH",
+    "en_name": "Rancor Keeper",
+    "card_number": 32,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "ASH",
+    "en_name": "Outcast, Mercenary Starship",
+    "card_number": 41,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "ASH",
+    "en_name": "Morgan Elsbeth, Life Abandoned",
+    "card_number": 50,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "ASH",
+    "en_name": "Chimaera, A Frightening Reality",
+    "card_number": 52,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "ASH",
+    "en_name": "Pre Vizsla, Strong-Willed Ruler",
+    "card_number": 53,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "ASH",
+    "en_name": "Blade of Talzin, A Gift of Shadows",
+    "card_number": 55,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "ASH",
+    "en_name": "Huyang, Your Aptitude Falls Short",
+    "card_number": 56,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "ASH",
+    "en_name": "Cobb Vanth, Let Me Handle This",
+    "card_number": 60,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "ASH",
+    "en_name": "Home One, Heart of the Fleet",
+    "card_number": 65,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "ASH",
+    "en_name": "Get Lost",
+    "card_number": 67,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "ASH",
+    "en_name": "At Attin Safety Droid",
+    "card_number": 70,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "ASH",
+    "en_name": "Summa-verminoth",
+    "card_number": 83,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "ASH",
+    "en_name": "Gallius Rax, Counselor to the Empire",
+    "card_number": 100,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "ASH",
+    "en_name": "Dathomiri Magicks",
+    "card_number": 104,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "ASH",
+    "en_name": "T-6 Shuttle 1974, With a Mentor's Dedication",
+    "card_number": 109,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "ASH",
+    "en_name": "8D8, Daimyo's Majordomo",
+    "card_number": 118,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "ASH",
+    "en_name": "Fang Fighter Squadron",
+    "card_number": 130,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "ASH",
+    "en_name": "Turning the Tide",
+    "card_number": 138,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "ASH",
+    "en_name": "Vane's Snub Fighter, Brash and Proud",
+    "card_number": 144,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "ASH",
+    "en_name": "Justifier, Relentless",
+    "card_number": 146,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "ASH",
+    "en_name": "Treacherous Minefield",
+    "card_number": 186,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "ASH",
+    "en_name": "Shin Hati's Fiend Fighter, Compact and Agile",
+    "card_number": 191,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "ASH",
+    "en_name": "Gorian Shard's Corsair, Pirate Warship",
+    "card_number": 196,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "ASH",
+    "en_name": "Carson Teva, There's Something Going On",
+    "card_number": 202,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "ASH",
+    "en_name": "Blade Three, Bane of the Devastator",
+    "card_number": 204,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "ASH",
+    "en_name": "Halo, Not According to Plan",
+    "card_number": 223,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "ASH",
+    "en_name": "Heightened Awareness",
+    "card_number": 227,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "ASH",
+    "en_name": "Preparation",
+    "card_number": 228,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "ASH",
+    "en_name": "Camtono",
+    "card_number": 229,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "ASH",
+    "en_name": "Sense Through the Force",
+    "card_number": 235,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "ASH",
+    "en_name": "Eye of Sion, Delivered from Exile",
+    "card_number": 245,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "ASHP",
+    "en_name": "Enoch, Solemn Servant",
+    "card_number": 1,
+    "variant_type": "Weekly Play",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "ASHP",
+    "en_name": "Scorpenek Annihilator Droid",
+    "card_number": 2,
+    "variant_type": "Weekly Play",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "ASHP",
+    "en_name": "Wicket, Yub Nub!",
+    "card_number": 3,
+    "variant_type": "Weekly Play",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "ASHP",
+    "en_name": "Barriss Offee, Redeeming Herself",
+    "card_number": 4,
+    "variant_type": "Weekly Play",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "ASHP",
+    "en_name": "Reanimated Night Trooper",
+    "card_number": 5,
+    "variant_type": "Weekly Play",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "ASHP",
+    "en_name": "Morgan Elsbeth, Life Abandoned",
+    "card_number": 6,
+    "variant_type": "Weekly Play",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "ASHP",
+    "en_name": "The Armorer, Secrecy is Our Survival",
+    "card_number": 7,
+    "variant_type": "Weekly Play",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "ASHP",
+    "en_name": "Get Lost",
+    "card_number": 8,
+    "variant_type": "Weekly Play",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "ASHP",
+    "en_name": "Palace Chef Droid",
+    "card_number": 9,
+    "variant_type": "Weekly Play",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "ASHP",
+    "en_name": "T-6 Shuttle 1974, With a Mentor's Dedication",
+    "card_number": 10,
+    "variant_type": "Weekly Play",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "ASHP",
+    "en_name": "Greef Karga, Introductions are in Order",
+    "card_number": 11,
+    "variant_type": "Weekly Play",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "ASHP",
+    "en_name": "Blurrg",
+    "card_number": 12,
+    "variant_type": "Weekly Play",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "ASHP",
+    "en_name": "Dinosaur Turtle",
+    "card_number": 13,
+    "variant_type": "Weekly Play",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "ASHP",
+    "en_name": "The Darksaber, Icon of Leadership",
+    "card_number": 14,
+    "variant_type": "Weekly Play",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "ASHP",
+    "en_name": "The Cyborg Mech, Mysterious Threat",
+    "card_number": 15,
+    "variant_type": "Weekly Play",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "ASHP",
+    "en_name": "Emperor's Messenger",
+    "card_number": 16,
+    "variant_type": "Weekly Play",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "ASHP",
+    "en_name": "Fennec Shand, The Galaxy Is Dangerous",
+    "card_number": 17,
+    "variant_type": "Weekly Play",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "ASHP",
+    "en_name": "Mando's N-1 Starfighter, Faster than a Fathier",
+    "card_number": 18,
+    "variant_type": "Weekly Play",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "ASHP",
+    "en_name": "Tatooine Sand Beast",
+    "card_number": 19,
+    "variant_type": "Weekly Play",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "ASHP",
+    "en_name": "Mouse Droid",
+    "card_number": 20,
+    "variant_type": "Weekly Play",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "ASHP",
+    "en_name": "Enoch, Solemn Servant",
+    "card_number": 21,
+    "variant_type": "Weekly Play Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "ASHP",
+    "en_name": "Scorpenek Annihilator Droid",
+    "card_number": 22,
+    "variant_type": "Weekly Play Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "ASHP",
+    "en_name": "Wicket, Yub Nub!",
+    "card_number": 23,
+    "variant_type": "Weekly Play Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "ASHP",
+    "en_name": "Barriss Offee, Redeeming Herself",
+    "card_number": 24,
+    "variant_type": "Weekly Play Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "ASHP",
+    "en_name": "Reanimated Night Trooper",
+    "card_number": 25,
+    "variant_type": "Weekly Play Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "ASHP",
+    "en_name": "Morgan Elsbeth, Life Abandoned",
+    "card_number": 26,
+    "variant_type": "Weekly Play Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "ASHP",
+    "en_name": "The Armorer, Secrecy is Our Survival",
+    "card_number": 27,
+    "variant_type": "Weekly Play Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "ASHP",
+    "en_name": "Get Lost",
+    "card_number": 28,
+    "variant_type": "Weekly Play Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "ASHP",
+    "en_name": "Palace Chef Droid",
+    "card_number": 29,
+    "variant_type": "Weekly Play Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "ASHP",
+    "en_name": "T-6 Shuttle 1974, With a Mentor's Dedication",
+    "card_number": 30,
+    "variant_type": "Weekly Play Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "ASHP",
+    "en_name": "Greef Karga, Introductions are in Order",
+    "card_number": 31,
+    "variant_type": "Weekly Play Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "ASHP",
+    "en_name": "Blurrg",
+    "card_number": 32,
+    "variant_type": "Weekly Play Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "ASHP",
+    "en_name": "Dinosaur Turtle",
+    "card_number": 33,
+    "variant_type": "Weekly Play Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "ASHP",
+    "en_name": "The Darksaber, Icon of Leadership",
+    "card_number": 34,
+    "variant_type": "Weekly Play Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "ASHP",
+    "en_name": "The Cyborg Mech, Mysterious Threat",
+    "card_number": 35,
+    "variant_type": "Weekly Play Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "ASHP",
+    "en_name": "Emperor's Messenger",
+    "card_number": 36,
+    "variant_type": "Weekly Play Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "ASHP",
+    "en_name": "Fennec Shand, The Galaxy Is Dangerous",
+    "card_number": 37,
+    "variant_type": "Weekly Play Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "ASHP",
+    "en_name": "Mando's N-1 Starfighter, Faster than a Fathier",
+    "card_number": 38,
+    "variant_type": "Weekly Play Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "ASHP",
+    "en_name": "Tatooine Sand Beast",
+    "card_number": 39,
+    "variant_type": "Weekly Play Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "ASHP",
+    "en_name": "Mouse Droid",
+    "card_number": 40,
+    "variant_type": "Weekly Play Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "C26",
+    "en_name": "Boba Fett, For a Price",
+    "card_number": 1,
+    "variant_type": "Convention Exclusive",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "C26",
+    "en_name": "The Mandalorian, Let's See the Puck",
+    "card_number": 2,
+    "variant_type": "Convention Exclusive",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "C26",
+    "en_name": "Zam Wesell, Not What She Seems",
+    "card_number": 3,
+    "variant_type": "Convention Exclusive",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "C26",
+    "en_name": "Qi'ra, Master of Teräs Käsi",
+    "card_number": 4,
+    "variant_type": "Convention Exclusive",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "C26",
+    "en_name": "Cad Bane, Now It's My Turn",
+    "card_number": 5,
+    "variant_type": "Convention Exclusive",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "C26",
+    "en_name": "Jabba the Hutt, Eminence of Tatooine",
+    "card_number": 6,
+    "variant_type": "Convention Exclusive",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "G25",
+    "en_name": "Darth Sidious, The Phantom Menace",
+    "card_number": 2,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "G25",
+    "en_name": "Obi-Wan Kenobi, Protective Padawan",
+    "card_number": 3,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
     "set_code": "JTL",
     "en_name": "TIE Fighter",
     "card_number": 1,
@@ -64,6 +752,14 @@
     "note": ""
   },
   {
+    "set_code": "JTL",
+    "en_name": "Coordinated Front",
+    "card_number": 253,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
     "set_code": "LAW",
     "en_name": "Credit",
     "card_number": 1,
@@ -112,14 +808,6 @@
     "note": ""
   },
   {
-    "set_code": "LAWP",
-    "en_name": "Haymaker",
-    "card_number": 14,
-    "variant_type": "Weekly Play",
-    "idProduct": null,
-    "note": ""
-  },
-  {
     "set_code": "LOF",
     "en_name": "Experience",
     "card_number": 1,
@@ -164,6 +852,54 @@
     "en_name": "The Force",
     "card_number": 6,
     "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "LOF",
+    "en_name": "Relic Scavenger",
+    "card_number": 116,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "LOF",
+    "en_name": "Purge Trooper",
+    "card_number": 133,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "LOF",
+    "en_name": "Thralls of the Coven",
+    "card_number": 136,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "LOF",
+    "en_name": "A Precarious Predicament",
+    "card_number": 222,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "MV26",
+    "en_name": "Grogu, Charming Companion",
+    "card_number": 1,
+    "variant_type": "Movie Promo",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "MV26",
+    "en_name": "Razor Crest, Outfitted Armament",
+    "card_number": 2,
+    "variant_type": "Movie Promo",
     "idProduct": null,
     "note": ""
   },
@@ -937,6 +1673,102 @@
   },
   {
     "set_code": "P26",
+    "en_name": "Darth Vader, Meet Your Destiny",
+    "card_number": 1,
+    "variant_type": "Exclusivité de l’évènement",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "P26",
+    "en_name": "Rio Durant, Beckett's Right Hands",
+    "card_number": 3,
+    "variant_type": "SS Judge",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "P26",
+    "en_name": "Maul, Master of the Shadow Collective",
+    "card_number": 4,
+    "variant_type": "SS Top 8",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "P26",
+    "en_name": "Maul, Master of the Shadow Collective",
+    "card_number": 5,
+    "variant_type": "SS Top 4",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "P26",
+    "en_name": "Maul, Master of the Shadow Collective",
+    "card_number": 6,
+    "variant_type": "SS Finalist",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "P26",
+    "en_name": "Maul, Master of the Shadow Collective",
+    "card_number": 7,
+    "variant_type": "SS Champion",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "P26",
+    "en_name": "Benthic “Two Tubes”, The War Has Just Begun",
+    "card_number": 8,
+    "variant_type": "PQ Participation",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "P26",
+    "en_name": "Benthic “Two Tubes”, The War Has Just Begun",
+    "card_number": 9,
+    "variant_type": "PQ Judge",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "P26",
+    "en_name": "Chewbacca, Mighty Rescuer",
+    "card_number": 10,
+    "variant_type": "PQ Top 8",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "P26",
+    "en_name": "Chewbacca, Mighty Rescuer",
+    "card_number": 11,
+    "variant_type": "PQ Top 4",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "P26",
+    "en_name": "Chewbacca, Mighty Rescuer",
+    "card_number": 12,
+    "variant_type": "PQ Finalist",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "P26",
+    "en_name": "Chewbacca, Mighty Rescuer",
+    "card_number": 13,
+    "variant_type": "PQ Champion",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "P26",
     "en_name": "Galen Erso, You'll Never Win",
     "card_number": 50,
     "variant_type": "SQ Event Pack",
@@ -1169,6 +2001,54 @@
   },
   {
     "set_code": "P26",
+    "en_name": "Cad Bane, Now It's My Turn",
+    "card_number": 96,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "P26",
+    "en_name": "Han Solo, Hibernation Sick",
+    "card_number": 97,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "P26",
+    "en_name": "Max Rebo, Encore!",
+    "card_number": 98,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "P26",
+    "en_name": "Lawbringer, Shadow Over Lothal",
+    "card_number": 99,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "P26",
+    "en_name": "Karis Nemik, Freedom is a Pure Idea",
+    "card_number": 100,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "P26",
+    "en_name": "Sabine's Masterpiece, Crazy Colorful",
+    "card_number": 101,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "P26",
     "en_name": "Leia Organa, Extraordinary",
     "card_number": 102,
     "variant_type": "RQ Participation",
@@ -1224,6 +2104,62 @@
     "note": ""
   },
   {
+    "set_code": "P26",
+    "en_name": "The Stranger, No Survivors",
+    "card_number": 110,
+    "variant_type": "RQ Participation",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "P26",
+    "en_name": "The Stranger, No Survivors",
+    "card_number": 111,
+    "variant_type": "RQ Judge",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "P26",
+    "en_name": "Luke Skywalker, Profit or Be Destroyed",
+    "card_number": 112,
+    "variant_type": "RQ Day Two",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "P26",
+    "en_name": "Luke Skywalker, Profit or Be Destroyed",
+    "card_number": 113,
+    "variant_type": "RQ Top 8",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "P26",
+    "en_name": "Luke Skywalker, Profit or Be Destroyed",
+    "card_number": 114,
+    "variant_type": "RQ Top 4",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "P26",
+    "en_name": "Luke Skywalker, Profit or Be Destroyed",
+    "card_number": 115,
+    "variant_type": "RQ Finalist",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "P26",
+    "en_name": "Luke Skywalker, Profit or Be Destroyed",
+    "card_number": 116,
+    "variant_type": "RQ Champion",
+    "idProduct": null,
+    "note": ""
+  },
+  {
     "set_code": "SEC",
     "en_name": "Spy",
     "card_number": 1,
@@ -1235,6 +2171,246 @@
     "set_code": "SEC",
     "en_name": "Experience",
     "card_number": 2,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SEC",
+    "en_name": "Populist Champion",
+    "card_number": 44,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SEC",
+    "en_name": "Congress of Malastare",
+    "card_number": 64,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SEC",
+    "en_name": "Umbaran Mobile Cannon",
+    "card_number": 67,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SEC",
+    "en_name": "Cruel Commandos",
+    "card_number": 86,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SEC",
+    "en_name": "Theed Security",
+    "card_number": 95,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SEC",
+    "en_name": "Dressellian Commandos",
+    "card_number": 100,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SEC",
+    "en_name": "Daro Commando",
+    "card_number": 113,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SEC",
+    "en_name": "Kino Loy, You Answer to Me",
+    "card_number": 114,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SEC",
+    "en_name": "Taylander Shuttle",
+    "card_number": 115,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SEC",
+    "en_name": "Raxian Assembly",
+    "card_number": 118,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SEC",
+    "en_name": "Ferrix Uprising",
+    "card_number": 130,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SEC",
+    "en_name": "Republic Aurek Starfighter",
+    "card_number": 166,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SEC",
+    "en_name": "Coruscant Undercity Police",
+    "card_number": 167,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SEC",
+    "en_name": "Unauthorized Investigation",
+    "card_number": 181,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SEC",
+    "en_name": "ISB Agent",
+    "card_number": 184,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SEC",
+    "en_name": "Bravo Squadron Fighter",
+    "card_number": 199,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SEC",
+    "en_name": "Junior Senator",
+    "card_number": 200,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SEC",
+    "en_name": "Emissaries from Ryloth",
+    "card_number": 206,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SEC",
+    "en_name": "Loan Shark",
+    "card_number": 222,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SEC",
+    "en_name": "Sneaking Suspicion",
+    "card_number": 226,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SEC",
+    "en_name": "Kreia's Whispers",
+    "card_number": 232,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SEC",
+    "en_name": "Undercover Operation",
+    "card_number": 236,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SEC",
+    "en_name": "Political Bully",
+    "card_number": 241,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SEC",
+    "en_name": "High Command Councilor",
+    "card_number": 249,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SEC",
+    "en_name": "Rebel Pathfinder",
+    "card_number": 250,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SEC",
+    "en_name": "Heroic ARC-170",
+    "card_number": 254,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SEC",
+    "en_name": "Remote Escort Tank",
+    "card_number": 255,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SEC",
+    "en_name": "ASP Laborer",
+    "card_number": 259,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SEC",
+    "en_name": "Inspector's Shuttle",
+    "card_number": 260,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SEC",
+    "en_name": "Inspiring Senator",
+    "card_number": 261,
     "variant_type": "Standard",
     "idProduct": null,
     "note": ""
@@ -1465,6 +2641,14 @@
   },
   {
     "set_code": "SHD",
+    "en_name": "Remote Village",
+    "card_number": 298,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
     "en_name": "The Client, Dictated by Discretion",
     "card_number": 308,
     "variant_type": "Hyperspace",
@@ -1473,48 +2657,144 @@
   },
   {
     "set_code": "SHD",
-    "en_name": "Synara San, Loyal to Kragan",
-    "card_number": 310,
+    "en_name": "Clan Saxon Gauntlet",
+    "card_number": 312,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
   },
   {
     "set_code": "SHD",
-    "en_name": "Kuiil, I Have Spoken",
-    "card_number": 317,
+    "en_name": "Brutal Traditions",
+    "card_number": 315,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
   },
   {
     "set_code": "SHD",
-    "en_name": "Follower of The Way",
-    "card_number": 331,
+    "en_name": "The Armorer, Survival Is Strength",
+    "card_number": 322,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
   },
   {
     "set_code": "SHD",
-    "en_name": "Scanning Officer",
-    "card_number": 383,
+    "en_name": "Gentle Giant",
+    "card_number": 323,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
   },
   {
     "set_code": "SHD",
-    "en_name": "Price on Your Head",
-    "card_number": 394,
+    "en_name": "Val, Loyal to the End",
+    "card_number": 333,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
   },
   {
     "set_code": "SHD",
-    "en_name": "Commission",
-    "card_number": 396,
+    "en_name": "Niima Outpost Constables",
+    "card_number": 337,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
+    "en_name": "Foundling",
+    "card_number": 343,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
+    "en_name": "Imprisoned",
+    "card_number": 345,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
+    "en_name": "Covert Strength",
+    "card_number": 348,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
+    "en_name": "Rival's Fall",
+    "card_number": 352,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
+    "en_name": "Warbird Stowaway",
+    "card_number": 355,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
+    "en_name": "Crosshair, Following Orders",
+    "card_number": 356,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
+    "en_name": "Maul, Shadow Collective Visionary",
+    "card_number": 359,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
+    "en_name": "Clone Deserter",
+    "card_number": 364,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
+    "en_name": "Modded Cohort",
+    "card_number": 369,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
+    "en_name": "Weequay Pirate Gang",
+    "card_number": 388,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
+    "en_name": "Outflank",
+    "card_number": 397,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
+    "en_name": "Take Captive",
+    "card_number": 400,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -1537,8 +2817,16 @@
   },
   {
     "set_code": "SHD",
-    "en_name": "Hunter of the Haxion Brood",
-    "card_number": 455,
+    "en_name": "Death Mark",
+    "card_number": 445,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
+    "en_name": "Daring Raid",
+    "card_number": 447,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -1553,32 +2841,112 @@
   },
   {
     "set_code": "SHD",
-    "en_name": "Chain Code Collector",
-    "card_number": 484,
+    "en_name": "Slaver's Freighter",
+    "card_number": 458,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
   },
   {
     "set_code": "SHD",
-    "en_name": "Bounty Posting",
-    "card_number": 495,
+    "en_name": "Zuckuss, Bounty Hunter for Hire",
+    "card_number": 459,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
   },
   {
     "set_code": "SHD",
-    "en_name": "Kragan Gorr, Warbird Captain",
-    "card_number": 505,
+    "en_name": "Cartel Turncoat",
+    "card_number": 464,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
   },
   {
     "set_code": "SHD",
-    "en_name": "Grey Squadron Y-Wing",
-    "card_number": 508,
+    "en_name": "Coruscant Dissident",
+    "card_number": 467,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
+    "en_name": "Liberated Slaves",
+    "card_number": 468,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
+    "en_name": "Principled Outlaw",
+    "card_number": 469,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
+    "en_name": "A New Adventure",
+    "card_number": 475,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
+    "en_name": "Criminal Muscle",
+    "card_number": 477,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
+    "en_name": "Fugitive Wookiee",
+    "card_number": 479,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
+    "en_name": "Privateer Scyk",
+    "card_number": 480,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
+    "en_name": "Look the Other Way",
+    "card_number": 494,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
+    "en_name": "Ma Klounkee",
+    "card_number": 496,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
+    "en_name": "Black Sun Starfighter",
+    "card_number": 502,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
+    "en_name": "Street Gang Recruiter",
+    "card_number": 521,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -1753,6 +3121,14 @@
   },
   {
     "set_code": "SOR",
+    "en_name": "Grand Inquisitor, Hunting the Jedi",
+    "card_number": 277,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
     "en_name": "Security Complex",
     "card_number": 285,
     "variant_type": "Hyperspace Foil",
@@ -1785,9 +3161,73 @@
   },
   {
     "set_code": "SOR",
+    "en_name": "Death Trooper",
+    "card_number": 299,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
+    "en_name": "Del Meeko, Providing Overwatch",
+    "card_number": 300,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
+    "en_name": "AT-AT Suppressor",
+    "card_number": 305,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
+    "en_name": "Cloud City Wing Guard",
+    "card_number": 328,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
+    "en_name": "Wilderness Fighter",
+    "card_number": 329,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
+    "en_name": "System Patrol Craft",
+    "card_number": 331,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
+    "en_name": "Entrenched",
+    "card_number": 337,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
     "en_name": "Repair",
     "card_number": 339,
     "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
+    "en_name": "Takedown",
+    "card_number": 342,
+    "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
   },
@@ -1809,8 +3249,40 @@
   },
   {
     "set_code": "SOR",
-    "en_name": "U-Wing Reinforcement",
-    "card_number": 368,
+    "en_name": "Patrolling V-Wing",
+    "card_number": 375,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
+    "en_name": "Steadfast Battalion",
+    "card_number": 380,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
+    "en_name": "Mercenary Company",
+    "card_number": 381,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
+    "en_name": "Academy Training",
+    "card_number": 384,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
+    "en_name": "First Legion Snowtrooper",
+    "card_number": 394,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -1825,89 +3297,153 @@
   },
   {
     "set_code": "SOR",
-    "en_name": "Wolffe, Suspicious Veteran",
-    "card_number": 423,
+    "en_name": "Force Choke",
+    "card_number": 402,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
   },
   {
     "set_code": "SOR",
-    "en_name": "Chimaera, Flagship of the Seventh Fleet",
-    "card_number": 448,
+    "en_name": "Guerilla Attack Pod",
+    "card_number": 411,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
   },
   {
     "set_code": "SOR",
-    "en_name": "Spark of Rebellion",
-    "card_number": 462,
+    "en_name": "Wampa",
+    "card_number": 427,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
   },
   {
     "set_code": "SOR",
-    "en_name": "Fleet Lieutenant",
-    "card_number": 498,
+    "en_name": "Occupier Siege Tank",
+    "card_number": 428,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
   },
   {
-    "set_code": "TS26",
-    "en_name": "Battle Droid",
-    "card_number": 1,
-    "variant_type": "Standard",
+    "set_code": "SOR",
+    "en_name": "Power Failure",
+    "card_number": 433,
+    "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
   },
   {
-    "set_code": "TS26",
-    "en_name": "Count Dooku, Offering Aid",
-    "card_number": 1,
-    "variant_type": "Standard",
+    "set_code": "SOR",
+    "en_name": "ISB Agent",
+    "card_number": 439,
+    "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
   },
   {
-    "set_code": "TS26",
-    "en_name": "Anakin Skywalker, Protect Her At All Costs",
-    "card_number": 2,
-    "variant_type": "Standard",
+    "set_code": "SOR",
+    "en_name": "Seventh Fleet Defender",
+    "card_number": 443,
+    "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
   },
   {
-    "set_code": "TS26",
-    "en_name": "Clone Trooper",
-    "card_number": 2,
-    "variant_type": "Standard",
+    "set_code": "SOR",
+    "en_name": "Auzituck Liberator Gunship",
+    "card_number": 457,
+    "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
   },
   {
-    "set_code": "TS26",
-    "en_name": "Experience",
-    "card_number": 3,
-    "variant_type": "Standard",
+    "set_code": "SOR",
+    "en_name": "Jawa Scavenger",
+    "card_number": 467,
+    "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
   },
   {
-    "set_code": "TS26",
-    "en_name": "Maul, Collective Ambition",
-    "card_number": 3,
-    "variant_type": "Standard",
+    "set_code": "SOR",
+    "en_name": "Mining Guild TIE Fighter",
+    "card_number": 468,
+    "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
   },
   {
-    "set_code": "TS26",
-    "en_name": "Padmé Amidala, Follow My Lead",
-    "card_number": 4,
-    "variant_type": "Standard",
+    "set_code": "SOR",
+    "en_name": "Strafing Gunship",
+    "card_number": 474,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
+    "en_name": "Smuggling Compartment",
+    "card_number": 476,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
+    "en_name": "Disarm",
+    "card_number": 478,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
+    "en_name": "TIE/ln Fighter",
+    "card_number": 487,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
+    "en_name": "TIE Advanced",
+    "card_number": 492,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
+    "en_name": "Regional Sympathizers",
+    "card_number": 501,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
+    "en_name": "Underworld Thug",
+    "card_number": 505,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
+    "en_name": "Volunteer Soldier",
+    "card_number": 506,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
+    "en_name": "Frontier AT-RT",
+    "card_number": 507,
+    "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
   },
@@ -1915,646 +3451,6 @@
     "set_code": "TS26",
     "en_name": "Shield",
     "card_number": 4,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TS26",
-    "en_name": "Savage Opress, You Must Have Your Revenge",
-    "card_number": 5,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TS26",
-    "en_name": "Rex, No Other Option",
-    "card_number": 6,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TS26",
-    "en_name": "Asajj Ventress, Ambitious Apprentice",
-    "card_number": 7,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TS26",
-    "en_name": "Ahsoka Tano, I Have an Idea",
-    "card_number": 8,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TS26",
-    "en_name": "First Battle Memorial",
-    "card_number": 9,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TS26",
-    "en_name": "Dooku's Palace",
-    "card_number": 10,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TS26",
-    "en_name": "Executioner's Arena",
-    "card_number": 11,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TS26",
-    "en_name": "Sundari Palace",
-    "card_number": 12,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TS26",
-    "en_name": "Darth Sidious, Under a Cloak of Darkness",
-    "card_number": 13,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TS26",
-    "en_name": "Yoda, Begun, the Clone War Has",
-    "card_number": 14,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TS26",
-    "en_name": "C-3P0, Die, Jedi Dogs!",
-    "card_number": 15,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TS26",
-    "en_name": "King Katuunko, Great King of Toydaria",
-    "card_number": 16,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TS26",
-    "en_name": "Rush Clovis, Trapped by Authority",
-    "card_number": 17,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TS26",
-    "en_name": "Jendirian Valley, Refugee Freighter",
-    "card_number": 18,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TS26",
-    "en_name": "Coleman Trebor, Jedi Rescuer",
-    "card_number": 19,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TS26",
-    "en_name": "501st Veteran",
-    "card_number": 20,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TS26",
-    "en_name": "Gar Saxon, Sundari Pillager",
-    "card_number": 21,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TS26",
-    "en_name": "The Darksaber, Only the Strongest Shall Rule",
-    "card_number": 22,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TS26",
-    "en_name": "Assault Lander LAAT",
-    "card_number": 23,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TS26",
-    "en_name": "Sundari Gauntlet",
-    "card_number": 24,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TS26",
-    "en_name": "Fiery Alliance",
-    "card_number": 25,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TS26",
-    "en_name": "Mother Talzin, Stealing the Spirit",
-    "card_number": 26,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TS26",
-    "en_name": "Fortune and Glory, Hondo's Luxury Yacht",
-    "card_number": 27,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TS26",
-    "en_name": "Prime Minister Almec, Scheming Populist",
-    "card_number": 28,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TS26",
-    "en_name": "Ziton Moj, Sowing Chaos",
-    "card_number": 29,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TS26",
-    "en_name": "Maul, One Last Lesson",
-    "card_number": 30,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TS26",
-    "en_name": "Chaotic Diversion",
-    "card_number": 31,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TS26",
-    "en_name": "Reckless Landing",
-    "card_number": 32,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TS26",
-    "en_name": "Kouhun Assassination",
-    "card_number": 33,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TS26",
-    "en_name": "Fives, I Have Proof!",
-    "card_number": 34,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TS26",
-    "en_name": "Ahsoka's Lightsabers, Don't Hurt Them",
-    "card_number": 35,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TS26",
-    "en_name": "Tribunal, Grave of the 332nd",
-    "card_number": 36,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TS26",
-    "en_name": "Abandoned the Order",
-    "card_number": 37,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TS26",
-    "en_name": "Dooku's Solar Sailer, Beautiful and Expensive",
-    "card_number": 38,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TS26",
-    "en_name": "Captain Vaughn, Search the Tunnels",
-    "card_number": 39,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TS26",
-    "en_name": "Obi-Wan Kenobi, Steadfast Knight",
-    "card_number": 40,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TS26",
-    "en_name": "Twilight, Escaping Malevolence",
-    "card_number": 41,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TS26",
-    "en_name": "Relief Frigate",
-    "card_number": 42,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TS26",
-    "en_name": "Wartime Refugee",
-    "card_number": 43,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TS26",
-    "en_name": "Arena Reek, Lumbering Beast",
-    "card_number": 44,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TS26",
-    "en_name": "Champion",
-    "card_number": 45,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TS26",
-    "en_name": "Secret Marriage",
-    "card_number": 46,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TS26",
-    "en_name": "Take Cover",
-    "card_number": 47,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TS26",
-    "en_name": "Vanquish the Legion",
-    "card_number": 48,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TS26",
-    "en_name": "Separatist Council, Quarrelsome Holdouts",
-    "card_number": 49,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TS26",
-    "en_name": "General Grievous, Crush Them!",
-    "card_number": 50,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TS26",
-    "en_name": "Lom Pyke, Making a Withdrawal",
-    "card_number": 51,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TS26",
-    "en_name": "Sith Traditions",
-    "card_number": 52,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TS26",
-    "en_name": "Coruscanti Spy",
-    "card_number": 53,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TS26",
-    "en_name": "Wartime Mercenaries",
-    "card_number": 54,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TS26",
-    "en_name": "Jedi General",
-    "card_number": 55,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TS26",
-    "en_name": "Galactic Escalation",
-    "card_number": 56,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TS26",
-    "en_name": "Mechanize",
-    "card_number": 57,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TS26",
-    "en_name": "Backed by the Pykes",
-    "card_number": 58,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TS26",
-    "en_name": "Brothers",
-    "card_number": 59,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TS26",
-    "en_name": "Take Charge",
-    "card_number": 60,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TS26",
-    "en_name": "Encircle",
-    "card_number": 61,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TS26",
-    "en_name": "R2-D2, Getting His Chance",
-    "card_number": 62,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TS26",
-    "en_name": "Rex's DC-17s, This Ship is Going Down",
-    "card_number": 63,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TS26",
-    "en_name": "Urgent Mission",
-    "card_number": 64,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TS26",
-    "en_name": "Bo-Katan Kryze, The Lawless",
-    "card_number": 65,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TS26",
-    "en_name": "Wartime Pirate",
-    "card_number": 66,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TS26",
-    "en_name": "Ruping Rider",
-    "card_number": 67,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TS26",
-    "en_name": "Arms Deal",
-    "card_number": 68,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TS26",
-    "en_name": "Remove the Chip",
-    "card_number": 69,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TS26",
-    "en_name": "Backed by Black Sun",
-    "card_number": 70,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TS26",
-    "en_name": "Take Action",
-    "card_number": 71,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TS26",
-    "en_name": "Fervor",
-    "card_number": 72,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TS26",
-    "en_name": "Moralo Eval, Infamous Murderer",
-    "card_number": 73,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TS26",
-    "en_name": "Pre Vizsla, For Mandalore!",
-    "card_number": 74,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TS26",
-    "en_name": "Jango Fett, Guarding the Count",
-    "card_number": 75,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TS26",
-    "en_name": "Wartime Profiteer",
-    "card_number": 76,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TS26",
-    "en_name": "Deployed Droideka",
-    "card_number": 77,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TS26",
-    "en_name": "Barriss Offee, It's Only a Matter of Time",
-    "card_number": 78,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TS26",
-    "en_name": "Underestimated",
-    "card_number": 79,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TS26",
-    "en_name": "Reveal Intentions",
-    "card_number": 80,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TS26",
-    "en_name": "Mislead",
-    "card_number": 81,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TS26",
-    "en_name": "Evade Arrest",
-    "card_number": 82,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TS26",
-    "en_name": "Take Aim",
-    "card_number": 83,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TS26",
-    "en_name": "Fearless Attack",
-    "card_number": 84,
     "variant_type": "Standard",
     "idProduct": null,
     "note": ""
@@ -2801,56 +3697,256 @@
   },
   {
     "set_code": "TWI",
-    "en_name": "Rune Haako, Scheming Second",
-    "card_number": 304,
+    "en_name": "Pau City",
+    "card_number": 294,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
   },
   {
     "set_code": "TWI",
-    "en_name": "Morgan Elsbeth, Keeper of Many Secrets",
-    "card_number": 308,
+    "en_name": "A Fine Addition",
+    "card_number": 313,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
   },
   {
     "set_code": "TWI",
-    "en_name": "Multi-Troop Transport",
-    "card_number": 339,
+    "en_name": "Knight of the Republic",
+    "card_number": 322,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
   },
   {
     "set_code": "TWI",
-    "en_name": "Grievous Reassembly",
-    "card_number": 346,
+    "en_name": "Equalize",
+    "card_number": 328,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
   },
   {
     "set_code": "TWI",
-    "en_name": "Kraken, Confederate Tactician",
-    "card_number": 356,
+    "en_name": "Vulture Interceptor Wing",
+    "card_number": 336,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
   },
   {
     "set_code": "TWI",
-    "en_name": "Take Captive",
-    "card_number": 396,
+    "en_name": "The Zillo Beast, Awoken From The Depths",
+    "card_number": 340,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
   },
   {
     "set_code": "TWI",
-    "en_name": "R2-D2, Full of Solutions",
-    "card_number": 458,
+    "en_name": "Disruptive Burst",
+    "card_number": 348,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
+    "en_name": "Kalani, Analytical General",
+    "card_number": 357,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
+    "en_name": "Reprocess",
+    "card_number": 360,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
+    "en_name": "Republic Defense Carrier",
+    "card_number": 369,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
+    "en_name": "Osi Sobeck, Warden of the Citadel",
+    "card_number": 385,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
+    "en_name": "The Clone Wars",
+    "card_number": 393,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
+    "en_name": "In Defense of Kamino",
+    "card_number": 397,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
+    "en_name": "Steela Gerrera, Beloved Tactician",
+    "card_number": 414,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
+    "en_name": "Mace Windu's Lightsaber",
+    "card_number": 419,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
+    "en_name": "Mister Bones, I Performed Violence",
+    "card_number": 421,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
+    "en_name": "Disaffected Senator",
+    "card_number": 424,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
+    "en_name": "Reckless Torrent",
+    "card_number": 429,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
+    "en_name": "Hevy, Staunch Martyr",
+    "card_number": 431,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
+    "en_name": "Wartime Profiteering",
+    "card_number": 453,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
+    "en_name": "Wolf Pack Escort",
+    "card_number": 456,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
+    "en_name": "Republic Attack Pod",
+    "card_number": 462,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
+    "en_name": "Enfys Nest, Champion of Justice",
+    "card_number": 463,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
+    "en_name": "Clear the Field",
+    "card_number": 464,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
+    "en_name": "Independent Senator",
+    "card_number": 471,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
+    "en_name": "Lux Bonteri, Renegade Separatist",
+    "card_number": 475,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
+    "en_name": "Sanctioner's Shuttle",
+    "card_number": 478,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
+    "en_name": "Droid Cohort",
+    "card_number": 483,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
+    "en_name": "Unmasking the Conspiracy",
+    "card_number": 488,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
+    "en_name": "Merciless Contest",
+    "card_number": 500,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
+    "en_name": "AT-TE Vanguard",
+    "card_number": 508,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
+    "en_name": "Private Manufacturing",
+    "card_number": 517,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
