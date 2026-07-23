@@ -552,13 +552,14 @@ for key, swu_info in swu_cards.items():
             special_variants = sorted(all_variants, key=lambda x: (x[0] if x[0] is not None else 9999))
             cm_prods_sorted  = sorted(cm_data["standard"], key=lambda x: x[0])
             for (idp, pr, _), (cn, vt) in zip(cm_prods_sorted, special_variants):
-                k = _VT_TO_KEY.get(vt, "standard")
+                k = _VT_TO_KEY.get(vt, vt.lower().replace(" ", "_"))
                 if k not in prices_out:
                     prices_out[k] = {"idProduct": idp, "card_number": cn, **price_entry(pr)}
             std_key = foil_key = None
         else:
             primary_vt = next((vt for _, vt in all_variants if vt != "Standard"), None)
-            std_key  = _VT_TO_KEY.get(primary_vt, "standard") if primary_vt else "standard"
+            std_key  = (_VT_TO_KEY.get(primary_vt, primary_vt.lower().replace(" ", "_"))
+                        if primary_vt else "standard")
             foil_key = std_key  # pas de distinction foil/non-foil pour ces sets
     else:
         std_key, foil_key = "standard", "standard_foil"
