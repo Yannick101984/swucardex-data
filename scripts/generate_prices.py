@@ -89,7 +89,7 @@ EXPANSION_MAP_CONFIRMED = {
     6451: ("LAW",  "standard"), 6452: ("LAW",  "variants"),
     6453: ("LAWP", "standard"), # Weekly Play LAW → remappe sur LAWP
     # P26
-    6472: ("P26",  "standard"),
+    6472: ("P26",  "multi"),   # P26 + MV26 mélangés
     # TS26
     6532: ("TS26", "standard"),
     # ASH (auto-détecté puis confirmé le 2026-07-23, 100% des matchs)
@@ -106,10 +106,12 @@ EXPANSION_MAP_CONFIRMED = {
 # 5626 = SOR special : C24 (Conv. Exclusive SOR) > GG > C25 > J25 > P25
 # 6023 = JTL special : J24 > J25 > P25 > P26
 # 6418 = LOF special2 : P25 > C25 > P26
+# 6472 = P26 special : P26 > MV26 (2 cartes MV26 mélangées dans le catalogue CM P26)
 MULTI_PRIORITY = {
     5626: ["C24", "C25", "GG", "J24", "J25", "P25"],
     6023: ["J24", "J25", "C24", "P25", "P26", "LOF", "SEC"],
     6418: ["P25", "C25", "P26"],
+    6472: ["P26", "MV26"],
 }
 
 # ── Correspondance variant_type SWU → clé de prix ─────────────────────────────

@@ -108,7 +108,7 @@
     },
     "6472": {
       "set_code": "P26",
-      "role": "standard"
+      "role": "multi"
     },
     "6532": {
       "set_code": "TS26",
@@ -166650,6 +166650,58 @@
           "avg1_foil": 0.1,
           "avg7_foil": 0.1,
           "avg30_foil": 0.1
+        }
+      }
+    },
+    {
+      "set_code": "MV26",
+      "en_name": "Grogu, Charming Companion",
+      "card_number": 1,
+      "card_type": "Leader",
+      "variant_types_in_app": [
+        "Movie Promo"
+      ],
+      "prices": {
+        "standard": {
+          "idProduct": 889065,
+          "avg": 16,
+          "low": 10,
+          "trend": 15.58,
+          "avg_foil": 18,
+          "low_foil": 15,
+          "trend_foil": 15.26,
+          "avg1": 15,
+          "avg7": 16.29,
+          "avg30": 16.29,
+          "avg1_foil": 24,
+          "avg7_foil": 22.14,
+          "avg30_foil": 22.14
+        }
+      }
+    },
+    {
+      "set_code": "MV26",
+      "en_name": "Razor Crest, Outfitted Armament",
+      "card_number": 2,
+      "card_type": "Unité",
+      "variant_types_in_app": [
+        "Movie Promo"
+      ],
+      "prices": {
+        "standard": {
+          "idProduct": 889064,
+          "avg": 9.2,
+          "low": 8,
+          "trend": 8.04,
+          "avg_foil": null,
+          "low_foil": null,
+          "trend_foil": 0,
+          "avg1": 10,
+          "avg7": 11.11,
+          "avg30": 11.11,
+          "avg1_foil": null,
+          "avg7_foil": null,
+          "avg30_foil": null
         }
       }
     },
