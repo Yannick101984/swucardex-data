@@ -2009,6 +2009,14 @@
   },
   {
     "set_code": "SHD",
+    "en_name": "The Armorer, Survival Is Strength",
+    "card_number": 322,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
     "en_name": "Gentle Giant",
     "card_number": 323,
     "variant_type": "Hyperspace",
@@ -2137,14 +2145,6 @@
   },
   {
     "set_code": "SHD",
-    "en_name": "Rhokai Gunship",
-    "card_number": 433,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
     "en_name": "Disabling Fang Fighter",
     "card_number": 435,
     "variant_type": "Hyperspace",
@@ -2251,6 +2251,14 @@
     "set_code": "SHD",
     "en_name": "Privateer Scyk",
     "card_number": 480,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
+    "en_name": "Look the Other Way",
+    "card_number": 494,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -2699,6 +2707,14 @@
     "set_code": "SOR",
     "en_name": "Mining Guild TIE Fighter",
     "card_number": 468,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
+    "en_name": "Strafing Gunship",
+    "card_number": 474,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -3729,6 +3745,14 @@
   },
   {
     "set_code": "TWI",
+    "en_name": "Knight of the Republic",
+    "card_number": 322,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
     "en_name": "Equalize",
     "card_number": 328,
     "variant_type": "Hyperspace",
@@ -3739,6 +3763,22 @@
     "set_code": "TWI",
     "en_name": "Vulture Interceptor Wing",
     "card_number": 336,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
+    "en_name": "The Zillo Beast, Awoken From The Depths",
+    "card_number": 340,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
+    "en_name": "Disruptive Burst",
+    "card_number": 348,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -3777,6 +3817,14 @@
   },
   {
     "set_code": "TWI",
+    "en_name": "The Clone Wars",
+    "card_number": 393,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
     "en_name": "In Defense of Kamino",
     "card_number": 397,
     "variant_type": "Hyperspace",
@@ -3809,16 +3857,16 @@
   },
   {
     "set_code": "TWI",
-    "en_name": "Twice the Pride",
-    "card_number": 422,
+    "en_name": "Disaffected Senator",
+    "card_number": 424,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
   },
   {
     "set_code": "TWI",
-    "en_name": "Disaffected Senator",
-    "card_number": 424,
+    "en_name": "Reckless Torrent",
+    "card_number": 429,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -3851,6 +3899,14 @@
     "set_code": "TWI",
     "en_name": "Republic Attack Pod",
     "card_number": 462,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
+    "en_name": "Enfys Nest, Champion of Justice",
+    "card_number": 463,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
