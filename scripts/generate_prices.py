@@ -93,7 +93,13 @@ EXPANSION_MAP_CONFIRMED = {
     # TS26
     6532: ("TS26", "standard"),
     # ASH (auto-détecté puis confirmé le 2026-07-23, 100% des matchs)
-    6591: ("ASH",  "standard"), 6642: ("ASH",  "variants"), 6643: ("ASH", "variants"),
+    6591: ("ASH",  "standard"), 6642: ("ASH",  "variants"),
+    6643: ("ASHP", "standard"), # Weekly Play ASH → remappe sur ASHP (corrige une
+                                 # mauvaise classification auto-détectée : les 20
+                                 # noms de cartes ASHP sont des réimpressions de
+                                 # cartes ASH, score de similarité 20/20 identique
+                                 # pour ASH et ASHP, "ASH" gagnait par hasard d'ordre
+                                 # d'itération — polluait aussi 15 prix ASH)
 }
 
 # Priorité de set pour les expansions multi-sets (premier set prioritaire)
@@ -392,6 +398,39 @@ for (sc, norm), entry in swu_cards.items():
     for cn, vt in entry["all_variants"]:
         multi_idx[norm].append((sc, cn, vt))
 
+# ── Dédoublonnage des Bases multi-jetons ──────────────────────────────────────
+# Une même Base a souvent 2+ fiches CM distinctes selon le jeton imprimé au dos
+# ("Naval Intelligence HQ // Experience Token" vs "// Spy Token"), sans que nos
+# données de cartes permettent de savoir lequel est le bon. Faute de mieux, on
+# garde la fiche au prix le plus élevé (au sein de la même expansion) et on
+# écarte les autres avant le matching, plutôt que d'en garder une au hasard.
+def _product_price_rank(prod):
+    pr = cm_prices.get(prod["idProduct"], {})
+    val = pr.get("avg")
+    if val is None:
+        val = pr.get("avg-foil")
+    return val if val is not None else -1
+
+_token_dupe_groups = defaultdict(list)
+for prod in singles_data["products"]:
+    if "//" in prod["name"]:
+        base = cm_name_to_card_name(prod["name"])
+        _token_dupe_groups[(prod["idExpansion"], normalize(base))].append(prod)
+
+_excluded_dupe_ids = set()
+for (exp_id, norm_base), prods in _token_dupe_groups.items():
+    distinct_names = {p["name"] for p in prods}
+    if len(distinct_names) < 2:
+        continue
+    best = max(prods, key=_product_price_rank)
+    for p in prods:
+        if p["idProduct"] != best["idProduct"]:
+            _excluded_dupe_ids.add(p["idProduct"])
+
+if _excluded_dupe_ids:
+    print(f"  {len(_excluded_dupe_ids)} produit(s) écarté(s) pour collision jeton "
+          f"(carte Base présente sous 2+ jetons dos, on garde le prix le plus élevé)")
+
 # ── Groupement des produits CM par (set_code, norm_name) ─────────────────────
 print("\nGroupement produits CM...")
 
@@ -401,6 +440,8 @@ multi_matched = Counter()   # (exp_id, set_code) → nb produits matchés
 multi_orphans = []           # produits multi non matchés
 
 for prod in singles_data["products"]:
+    if prod["idProduct"] in _excluded_dupe_ids:
+        continue
     exp_id = prod["idExpansion"]
     if exp_id not in EXPANSION_MAP:
         unmapped_exp[exp_id] += 1
