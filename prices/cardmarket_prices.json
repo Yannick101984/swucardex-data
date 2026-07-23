@@ -139666,6 +139666,7 @@
       "prices": {
         "ss_participation": {
           "idProduct": 819466,
+          "card_number": 1,
           "avg": 0.18,
           "low": 0.02,
           "trend": 0.14,
@@ -139678,6 +139679,22 @@
           "avg1_foil": 0.25,
           "avg7_foil": 0.25,
           "avg30_foil": 0.25
+        },
+        "standard": {
+          "idProduct": 819467,
+          "card_number": 2,
+          "avg": 1,
+          "low": 0.2,
+          "trend": 1.07,
+          "avg_foil": 1,
+          "low_foil": 0.2,
+          "trend_foil": 1.07,
+          "avg1": 1.49,
+          "avg7": 1.12,
+          "avg30": 1.24,
+          "avg1_foil": 1.49,
+          "avg7_foil": 1.12,
+          "avg30_foil": 1.24
         }
       }
     },
@@ -139747,6 +139764,7 @@
       "prices": {
         "standard": {
           "idProduct": 819468,
+          "card_number": 3,
           "avg": 6.09,
           "low": 4.48,
           "trend": 6.17,
@@ -139759,6 +139777,22 @@
           "avg1_foil": 5.75,
           "avg7_foil": 5.49,
           "avg30_foil": 6.08
+        },
+        "ss_champion": {
+          "idProduct": 819471,
+          "card_number": 6,
+          "avg": 12.49,
+          "low": 10,
+          "trend": 4.78,
+          "avg_foil": 19.99,
+          "low_foil": 10,
+          "trend_foil": 0.74,
+          "avg1": 12.49,
+          "avg7": 13.81,
+          "avg30": 21.83,
+          "avg1_foil": 19.99,
+          "avg7_foil": 12.87,
+          "avg30_foil": 20.59
         }
       }
     },
@@ -139828,6 +139862,7 @@
       "prices": {
         "standard": {
           "idProduct": 819472,
+          "card_number": 7,
           "avg": 0.88,
           "low": 0.5,
           "trend": 0.98,
@@ -139840,6 +139875,22 @@
           "avg1_foil": 1,
           "avg7_foil": 0.95,
           "avg30_foil": 0.95
+        },
+        "rq_prize_wall": {
+          "idProduct": 854972,
+          "card_number": 157,
+          "avg": 2.61,
+          "low": 2,
+          "trend": 2.67,
+          "avg_foil": null,
+          "low_foil": null,
+          "trend_foil": 0,
+          "avg1": 3.5,
+          "avg7": 2.77,
+          "avg30": 2.95,
+          "avg1_foil": null,
+          "avg7_foil": null,
+          "avg30_foil": null
         }
       }
     },
@@ -139857,6 +139908,7 @@
       "prices": {
         "standard": {
           "idProduct": 819474,
+          "card_number": 9,
           "avg": 8,
           "low": 8,
           "trend": 5.3,
@@ -139869,6 +139921,22 @@
           "avg1_foil": 9,
           "avg7_foil": 8.85,
           "avg30_foil": 12.35
+        },
+        "pq_champion": {
+          "idProduct": 819477,
+          "card_number": 12,
+          "avg": null,
+          "low": 50,
+          "trend": 69.92,
+          "avg_foil": null,
+          "low_foil": 50,
+          "trend_foil": 41.4,
+          "avg1": 70,
+          "avg7": 106.67,
+          "avg30": 106.67,
+          "avg1_foil": 45,
+          "avg7_foil": 76.25,
+          "avg30_foil": 76.25
         }
       }
     },
@@ -139884,6 +139952,7 @@
       "prices": {
         "ss_participation": {
           "idProduct": 848220,
+          "card_number": 13,
           "avg": 0.18,
           "low": 0.02,
           "trend": 0.18,
@@ -139896,6 +139965,22 @@
           "avg1_foil": 0.1,
           "avg7_foil": 0.13,
           "avg30_foil": 0.13
+        },
+        "standard": {
+          "idProduct": 848221,
+          "card_number": 14,
+          "avg": 0.65,
+          "low": 0.2,
+          "trend": 0.02,
+          "avg_foil": 0.65,
+          "low_foil": 0.2,
+          "trend_foil": 0.02,
+          "avg1": 0.35,
+          "avg7": 0.84,
+          "avg30": 1.99,
+          "avg1_foil": 0.35,
+          "avg7_foil": 0.84,
+          "avg30_foil": 1.99
         }
       }
     },
@@ -139914,6 +139999,7 @@
       "prices": {
         "standard": {
           "idProduct": 838411,
+          "card_number": 15,
           "avg": 55,
           "low": 50,
           "trend": 39.21,
@@ -139926,6 +140012,38 @@
           "avg1_foil": 55,
           "avg7_foil": 56.14,
           "avg30_foil": 71.47
+        },
+        "ss_champion": {
+          "idProduct": 845342,
+          "card_number": 18,
+          "avg": 1.99,
+          "low": 1.75,
+          "trend": 0.02,
+          "avg_foil": 2.68,
+          "low_foil": 1.95,
+          "trend_foil": 1.87,
+          "avg1": 1.5,
+          "avg7": 1.95,
+          "avg30": 3.34,
+          "avg1_foil": 2.2,
+          "avg7_foil": 2.36,
+          "avg30_foil": 2.79
+        },
+        "gc_event_pack": {
+          "idProduct": 845343,
+          "card_number": 81,
+          "avg": 5,
+          "low": 5,
+          "trend": 5.34,
+          "avg_foil": 5,
+          "low_foil": 5,
+          "trend_foil": 0.45,
+          "avg1": 5,
+          "avg7": 7.14,
+          "avg30": 8.98,
+          "avg1_foil": 5,
+          "avg7_foil": 6.84,
+          "avg30_foil": 11.82
         }
       }
     },
@@ -139941,6 +140059,7 @@
       "prices": {
         "standard": {
           "idProduct": 848226,
+          "card_number": 19,
           "avg": 0.7,
           "low": 0.15,
           "trend": 0.64,
@@ -139970,6 +140089,7 @@
       "prices": {
         "standard": {
           "idProduct": 848222,
+          "card_number": 21,
           "avg": 5.95,
           "low": 9,
           "trend": 7.05,
@@ -139982,6 +140102,22 @@
           "avg1_foil": 11,
           "avg7_foil": 10.07,
           "avg30_foil": 11.01
+        },
+        "pq_champion": {
+          "idProduct": 848225,
+          "card_number": 24,
+          "avg": 69,
+          "low": 75,
+          "trend": 66.04,
+          "avg_foil": null,
+          "low_foil": null,
+          "trend_foil": 73,
+          "avg1": 69,
+          "avg7": 67.33,
+          "avg30": 67.33,
+          "avg1_foil": 73,
+          "avg7_foil": 73,
+          "avg30_foil": 73
         }
       }
     },
@@ -139997,6 +140133,7 @@
       "prices": {
         "ss_participation": {
           "idProduct": 858992,
+          "card_number": 25,
           "avg": 0.18,
           "low": 0.02,
           "trend": 0.09,
@@ -140006,6 +140143,22 @@
           "avg1": 0.39,
           "avg7": 0.16,
           "avg30": 0.16,
+          "avg1_foil": null,
+          "avg7_foil": null,
+          "avg30_foil": null
+        },
+        "standard": {
+          "idProduct": 858997,
+          "card_number": 26,
+          "avg": 0.64,
+          "low": 0.12,
+          "trend": 0.56,
+          "avg_foil": null,
+          "low_foil": null,
+          "trend_foil": 0,
+          "avg1": 0.35,
+          "avg7": 0.74,
+          "avg30": 1.13,
           "avg1_foil": null,
           "avg7_foil": null,
           "avg30_foil": null
@@ -140026,6 +140179,7 @@
       "prices": {
         "standard": {
           "idProduct": 858993,
+          "card_number": 27,
           "avg": 4.8,
           "low": 3.5,
           "trend": 4.59,
@@ -140035,6 +140189,22 @@
           "avg1": 4,
           "avg7": 4.73,
           "avg30": 4.68,
+          "avg1_foil": null,
+          "avg7_foil": null,
+          "avg30_foil": null
+        },
+        "ss_champion": {
+          "idProduct": 858996,
+          "card_number": 30,
+          "avg": 10.9,
+          "low": 11.8,
+          "trend": 7.42,
+          "avg_foil": null,
+          "low_foil": null,
+          "trend_foil": 0,
+          "avg1": 11.8,
+          "avg7": 12.61,
+          "avg30": 18.6,
           "avg1_foil": null,
           "avg7_foil": null,
           "avg30_foil": null
@@ -140053,6 +140223,7 @@
       "prices": {
         "standard": {
           "idProduct": 858998,
+          "card_number": 31,
           "avg": 0.76,
           "low": 0.2,
           "trend": 0.77,
@@ -140082,6 +140253,7 @@
       "prices": {
         "standard": {
           "idProduct": 859000,
+          "card_number": 33,
           "avg": 7.44,
           "low": 6.45,
           "trend": 5.45,
@@ -140091,6 +140263,22 @@
           "avg1": 7,
           "avg7": 7.44,
           "avg30": 10.3,
+          "avg1_foil": null,
+          "avg7_foil": null,
+          "avg30_foil": null
+        },
+        "pq_champion": {
+          "idProduct": 859003,
+          "card_number": 36,
+          "avg": 59,
+          "low": 65,
+          "trend": 59.09,
+          "avg_foil": null,
+          "low_foil": null,
+          "trend_foil": 0,
+          "avg1": 59,
+          "avg7": 73,
+          "avg30": 73,
           "avg1_foil": null,
           "avg7_foil": null,
           "avg30_foil": null
@@ -140239,6 +140427,7 @@
       "prices": {
         "standard": {
           "idProduct": 819483,
+          "card_number": 44,
           "avg": 18.33,
           "low": 18,
           "trend": 14.18,
@@ -140270,6 +140459,7 @@
       "prices": {
         "standard": {
           "idProduct": 819484,
+          "card_number": 46,
           "avg": 110,
           "low": 80,
           "trend": 105.6,
@@ -140282,6 +140472,22 @@
           "avg1_foil": 105.55,
           "avg7_foil": 131.91,
           "avg30_foil": 131.91
+        },
+        "sq_champion": {
+          "idProduct": 819488,
+          "card_number": 50,
+          "avg": null,
+          "low": null,
+          "trend": null,
+          "avg_foil": null,
+          "low_foil": null,
+          "trend_foil": null,
+          "avg1": null,
+          "avg7": null,
+          "avg30": null,
+          "avg1_foil": null,
+          "avg7_foil": null,
+          "avg30_foil": null
         }
       }
     },
@@ -140427,6 +140633,7 @@
       "prices": {
         "standard": {
           "idProduct": 823582,
+          "card_number": 57,
           "avg": 11.5,
           "low": 9,
           "trend": 10.56,
@@ -140458,6 +140665,7 @@
       "prices": {
         "standard": {
           "idProduct": 823576,
+          "card_number": 59,
           "avg": 124.99,
           "low": 125,
           "trend": 118.44,
@@ -140470,6 +140678,22 @@
           "avg1_foil": 125,
           "avg7_foil": 126.27,
           "avg30_foil": 127.95
+        },
+        "rq_champion": {
+          "idProduct": 823580,
+          "card_number": 63,
+          "avg": null,
+          "low": null,
+          "trend": null,
+          "avg_foil": null,
+          "low_foil": null,
+          "trend_foil": null,
+          "avg1": null,
+          "avg7": null,
+          "avg30": null,
+          "avg1_foil": null,
+          "avg7_foil": null,
+          "avg30_foil": null
         }
       }
     },
@@ -140746,6 +140970,7 @@
       "prices": {
         "gc_event_pack": {
           "idProduct": 838404,
+          "card_number": 75,
           "avg": 200,
           "low": 190,
           "trend": 208.11,
@@ -140758,6 +140983,38 @@
           "avg1_foil": 200,
           "avg7_foil": 214.69,
           "avg30_foil": 177.33
+        },
+        "rq_prize_wall": {
+          "idProduct": 854967,
+          "card_number": 152,
+          "avg": 14.06,
+          "low": 14.98,
+          "trend": 10.37,
+          "avg_foil": 14.06,
+          "low_foil": 14.98,
+          "trend_foil": 10.37,
+          "avg1": 13,
+          "avg7": 14.23,
+          "avg30": 14.78,
+          "avg1_foil": 13,
+          "avg7_foil": 14.23,
+          "avg30_foil": 14.78
+        },
+        "standard": {
+          "idProduct": 854977,
+          "card_number": 162,
+          "avg": 35.8,
+          "low": 28,
+          "trend": 33.65,
+          "avg_foil": 35.8,
+          "low_foil": 28,
+          "trend_foil": 33.65,
+          "avg1": 35,
+          "avg7": 37.1,
+          "avg30": 32.34,
+          "avg1_foil": 35,
+          "avg7_foil": 37.1,
+          "avg30_foil": 32.34
         }
       }
     },
@@ -141037,6 +141294,7 @@
       "prices": {
         "gc_event_pack": {
           "idProduct": 838417,
+          "card_number": 87,
           "avg": 156.75,
           "low": 149,
           "trend": 141.81,
@@ -141049,6 +141307,38 @@
           "avg1_foil": 156.75,
           "avg7_foil": 188.23,
           "avg30_foil": 199.13
+        },
+        "standard": {
+          "idProduct": 854961,
+          "card_number": 145,
+          "avg": 115,
+          "low": 130,
+          "trend": 102.39,
+          "avg_foil": null,
+          "low_foil": null,
+          "trend_foil": 0,
+          "avg1": 129.99,
+          "avg7": 115.57,
+          "avg30": 128.09,
+          "avg1_foil": null,
+          "avg7_foil": null,
+          "avg30_foil": null
+        },
+        "sq_champion": {
+          "idProduct": 854965,
+          "card_number": 149,
+          "avg": null,
+          "low": null,
+          "trend": null,
+          "avg_foil": null,
+          "low_foil": null,
+          "trend_foil": null,
+          "avg1": null,
+          "avg7": null,
+          "avg30": null,
+          "avg1_foil": null,
+          "avg7_foil": null,
+          "avg30_foil": null
         }
       }
     },
@@ -141272,6 +141562,7 @@
       "prices": {
         "gc_event_pack": {
           "idProduct": 826742,
+          "card_number": 96,
           "avg": 1.94,
           "low": 1,
           "trend": 2.38,
@@ -141284,6 +141575,22 @@
           "avg1_foil": null,
           "avg7_foil": null,
           "avg30_foil": null
+        },
+        "standard": {
+          "idProduct": 838425,
+          "card_number": 118,
+          "avg": 90,
+          "low": 90,
+          "trend": 109.13,
+          "avg_foil": 90,
+          "low_foil": 90,
+          "trend_foil": 109.13,
+          "avg1": 90,
+          "avg7": 91.89,
+          "avg30": 80.16,
+          "avg1_foil": 90,
+          "avg7_foil": 91.89,
+          "avg30_foil": 80.16
         }
       }
     },
@@ -141403,6 +141710,7 @@
       "prices": {
         "standard": {
           "idProduct": 838426,
+          "card_number": 101,
           "avg": 30,
           "low": 30,
           "trend": 27.91,
@@ -141434,6 +141742,7 @@
       "prices": {
         "standard": {
           "idProduct": 838435,
+          "card_number": 103,
           "avg": 475,
           "low": null,
           "trend": 478.2,
@@ -141446,6 +141755,38 @@
           "avg1_foil": 500,
           "avg7_foil": 596,
           "avg30_foil": 596
+        },
+        "gc_top_8": {
+          "idProduct": 838436,
+          "card_number": 113,
+          "avg": 350,
+          "low": 700,
+          "trend": 350,
+          "avg_foil": 350,
+          "low_foil": 700,
+          "trend_foil": 350,
+          "avg1": 350,
+          "avg7": 350,
+          "avg30": 350,
+          "avg1_foil": 350,
+          "avg7_foil": 350,
+          "avg30_foil": 350
+        },
+        "gc_champion": {
+          "idProduct": 838439,
+          "card_number": 116,
+          "avg": null,
+          "low": 2500,
+          "trend": null,
+          "avg_foil": null,
+          "low_foil": 2500,
+          "trend_foil": null,
+          "avg1": null,
+          "avg7": null,
+          "avg30": null,
+          "avg1_foil": null,
+          "avg7_foil": null,
+          "avg30_foil": null
         }
       }
     },
@@ -141695,6 +142036,7 @@
       "prices": {
         "sq_prize_wall": {
           "idProduct": 854935,
+          "card_number": 119,
           "avg": 17,
           "low": 19.99,
           "trend": 15.17,
@@ -141707,6 +142049,22 @@
           "avg1_foil": 17.5,
           "avg7_foil": 20.9,
           "avg30_foil": 20.9
+        },
+        "sq_event_pack": {
+          "idProduct": 854947,
+          "card_number": 131,
+          "avg": 22.9,
+          "low": 25,
+          "trend": 23.91,
+          "avg_foil": null,
+          "low_foil": null,
+          "trend_foil": 0,
+          "avg1": 24.99,
+          "avg7": 23.61,
+          "avg30": 24.5,
+          "avg1_foil": null,
+          "avg7_foil": null,
+          "avg30_foil": null
         }
       }
     },
@@ -141722,6 +142080,7 @@
       "prices": {
         "sq_prize_wall": {
           "idProduct": 854936,
+          "card_number": 120,
           "avg": 6.9,
           "low": 7.49,
           "trend": 6.09,
@@ -141734,6 +142093,22 @@
           "avg1_foil": 7.25,
           "avg7_foil": 7.19,
           "avg30_foil": 7.8
+        },
+        "sq_event_pack": {
+          "idProduct": 854948,
+          "card_number": 132,
+          "avg": 9,
+          "low": 8,
+          "trend": 9.24,
+          "avg_foil": null,
+          "low_foil": null,
+          "trend_foil": 0,
+          "avg1": 9,
+          "avg7": 9.2,
+          "avg30": 9.36,
+          "avg1_foil": null,
+          "avg7_foil": null,
+          "avg30_foil": null
         }
       }
     },
@@ -141749,6 +142124,7 @@
       "prices": {
         "sq_prize_wall": {
           "idProduct": 854937,
+          "card_number": 121,
           "avg": 4.95,
           "low": 4.49,
           "trend": 3.46,
@@ -141761,6 +142137,22 @@
           "avg1_foil": 4,
           "avg7_foil": 5.8,
           "avg30_foil": 6.39
+        },
+        "sq_event_pack": {
+          "idProduct": 854949,
+          "card_number": 133,
+          "avg": 4.88,
+          "low": 4.5,
+          "trend": 4.46,
+          "avg_foil": null,
+          "low_foil": null,
+          "trend_foil": 0,
+          "avg1": 4.5,
+          "avg7": 4.75,
+          "avg30": 5.37,
+          "avg1_foil": null,
+          "avg7_foil": null,
+          "avg30_foil": null
         }
       }
     },
@@ -141776,6 +142168,7 @@
       "prices": {
         "sq_prize_wall": {
           "idProduct": 854938,
+          "card_number": 122,
           "avg": 17.99,
           "low": 17.9,
           "trend": 9.71,
@@ -141788,6 +142181,22 @@
           "avg1_foil": 17.99,
           "avg7_foil": 19.09,
           "avg30_foil": 19.09
+        },
+        "sq_event_pack": {
+          "idProduct": 854950,
+          "card_number": 134,
+          "avg": 17.66,
+          "low": 15,
+          "trend": 16.73,
+          "avg_foil": null,
+          "low_foil": null,
+          "trend_foil": 0,
+          "avg1": 17.99,
+          "avg7": 17,
+          "avg30": 16.8,
+          "avg1_foil": null,
+          "avg7_foil": null,
+          "avg30_foil": null
         }
       }
     },
@@ -141803,6 +142212,7 @@
       "prices": {
         "sq_prize_wall": {
           "idProduct": 854939,
+          "card_number": 123,
           "avg": 11.5,
           "low": 10.9,
           "trend": 5.45,
@@ -141815,6 +142225,22 @@
           "avg1_foil": 13.99,
           "avg7_foil": 14,
           "avg30_foil": 14.91
+        },
+        "sq_event_pack": {
+          "idProduct": 854951,
+          "card_number": 135,
+          "avg": 10.66,
+          "low": 14,
+          "trend": 8.72,
+          "avg_foil": null,
+          "low_foil": null,
+          "trend_foil": 0,
+          "avg1": 12,
+          "avg7": 10.94,
+          "avg30": 15.15,
+          "avg1_foil": null,
+          "avg7_foil": null,
+          "avg30_foil": null
         }
       }
     },
@@ -141830,6 +142256,7 @@
       "prices": {
         "sq_prize_wall": {
           "idProduct": 854940,
+          "card_number": 124,
           "avg": 4.95,
           "low": 4.69,
           "trend": 2.47,
@@ -141842,6 +142269,22 @@
           "avg1_foil": 7,
           "avg7_foil": 7.59,
           "avg30_foil": 7.59
+        },
+        "sq_event_pack": {
+          "idProduct": 854952,
+          "card_number": 136,
+          "avg": 5.23,
+          "low": 5,
+          "trend": 3.79,
+          "avg_foil": null,
+          "low_foil": null,
+          "trend_foil": 0,
+          "avg1": 5.2,
+          "avg7": 5.46,
+          "avg30": 8.07,
+          "avg1_foil": null,
+          "avg7_foil": null,
+          "avg30_foil": null
         }
       }
     },
@@ -141857,6 +142300,7 @@
       "prices": {
         "sq_prize_wall": {
           "idProduct": 854941,
+          "card_number": 125,
           "avg": 7.5,
           "low": 7.5,
           "trend": 5.25,
@@ -141869,6 +142313,22 @@
           "avg1_foil": 5.99,
           "avg7_foil": 8.16,
           "avg30_foil": 9.88
+        },
+        "sq_event_pack": {
+          "idProduct": 854953,
+          "card_number": 137,
+          "avg": 13.99,
+          "low": 9,
+          "trend": 11.9,
+          "avg_foil": null,
+          "low_foil": null,
+          "trend_foil": 0,
+          "avg1": 13.99,
+          "avg7": 12.78,
+          "avg30": 15.48,
+          "avg1_foil": null,
+          "avg7_foil": null,
+          "avg30_foil": null
         }
       }
     },
@@ -141884,6 +142344,7 @@
       "prices": {
         "sq_prize_wall": {
           "idProduct": 854942,
+          "card_number": 126,
           "avg": 22.99,
           "low": 24.99,
           "trend": 21.74,
@@ -141896,6 +142357,22 @@
           "avg1_foil": 23.5,
           "avg7_foil": 24.25,
           "avg30_foil": 24.25
+        },
+        "sq_event_pack": {
+          "idProduct": 854954,
+          "card_number": 138,
+          "avg": 12.5,
+          "low": 12,
+          "trend": 14.25,
+          "avg_foil": null,
+          "low_foil": null,
+          "trend_foil": 0,
+          "avg1": 13,
+          "avg7": 15.25,
+          "avg30": 14.21,
+          "avg1_foil": null,
+          "avg7_foil": null,
+          "avg30_foil": null
         }
       }
     },
@@ -141911,6 +142388,7 @@
       "prices": {
         "sq_prize_wall": {
           "idProduct": 854943,
+          "card_number": 127,
           "avg": 10.8,
           "low": 11.7,
           "trend": 10.04,
@@ -141923,6 +142401,22 @@
           "avg1_foil": 13,
           "avg7_foil": 11.87,
           "avg30_foil": 15.34
+        },
+        "sq_event_pack": {
+          "idProduct": 854955,
+          "card_number": 139,
+          "avg": 15.4,
+          "low": 16,
+          "trend": 10.92,
+          "avg_foil": null,
+          "low_foil": null,
+          "trend_foil": 0,
+          "avg1": 18,
+          "avg7": 16.05,
+          "avg30": 23.89,
+          "avg1_foil": null,
+          "avg7_foil": null,
+          "avg30_foil": null
         }
       }
     },
@@ -141938,6 +142432,7 @@
       "prices": {
         "sq_prize_wall": {
           "idProduct": 854944,
+          "card_number": 128,
           "avg": 4.08,
           "low": 4.2,
           "trend": 3.08,
@@ -141950,6 +142445,22 @@
           "avg1_foil": 3.5,
           "avg7_foil": 5.52,
           "avg30_foil": 6.13
+        },
+        "sq_event_pack": {
+          "idProduct": 854956,
+          "card_number": 140,
+          "avg": 8,
+          "low": 6,
+          "trend": 7.77,
+          "avg_foil": 8,
+          "low_foil": 6,
+          "trend_foil": 7.77,
+          "avg1": 8,
+          "avg7": 7.93,
+          "avg30": 7.98,
+          "avg1_foil": 8,
+          "avg7_foil": 7.93,
+          "avg30_foil": 7.98
         }
       }
     },
@@ -141965,6 +142476,7 @@
       "prices": {
         "sq_prize_wall": {
           "idProduct": 854945,
+          "card_number": 129,
           "avg": 3.5,
           "low": 3.5,
           "trend": 3.16,
@@ -141974,6 +142486,22 @@
           "avg1": 3.25,
           "avg7": 3.66,
           "avg30": 3.78,
+          "avg1_foil": null,
+          "avg7_foil": null,
+          "avg30_foil": null
+        },
+        "sq_event_pack": {
+          "idProduct": 854957,
+          "card_number": 141,
+          "avg": 6.25,
+          "low": 5.99,
+          "trend": 5.86,
+          "avg_foil": null,
+          "low_foil": null,
+          "trend_foil": 0,
+          "avg1": 8,
+          "avg7": 6.29,
+          "avg30": 7.07,
           "avg1_foil": null,
           "avg7_foil": null,
           "avg30_foil": null
@@ -141992,6 +142520,7 @@
       "prices": {
         "sq_prize_wall": {
           "idProduct": 854946,
+          "card_number": 130,
           "avg": 49.99,
           "low": 39.99,
           "trend": 50.21,
@@ -142001,6 +142530,22 @@
           "avg1": 49.99,
           "avg7": 36.86,
           "avg30": 34.39,
+          "avg1_foil": null,
+          "avg7_foil": null,
+          "avg30_foil": null
+        },
+        "sq_event_pack": {
+          "idProduct": 854958,
+          "card_number": 142,
+          "avg": 22.66,
+          "low": 22,
+          "trend": 22.76,
+          "avg_foil": null,
+          "low_foil": null,
+          "trend_foil": 0,
+          "avg1": 23,
+          "avg7": 22.86,
+          "avg30": 20.6,
           "avg1_foil": null,
           "avg7_foil": null,
           "avg30_foil": null
@@ -142019,6 +142564,7 @@
       "prices": {
         "standard": {
           "idProduct": 854959,
+          "card_number": 143,
           "avg": 24.5,
           "low": 44.99,
           "trend": 23.29,
@@ -142046,6 +142592,7 @@
       "prices": {
         "rq_prize_wall": {
           "idProduct": 854966,
+          "card_number": 151,
           "avg": 2.29,
           "low": 2,
           "trend": 2.21,
@@ -142058,6 +142605,22 @@
           "avg1_foil": 3,
           "avg7_foil": 2.32,
           "avg30_foil": 2.9
+        },
+        "standard": {
+          "idProduct": 854976,
+          "card_number": 161,
+          "avg": 4.56,
+          "low": 4.15,
+          "trend": 4.74,
+          "avg_foil": 4.56,
+          "low_foil": 4.15,
+          "trend_foil": 4.74,
+          "avg1": 5.8,
+          "avg7": 4.49,
+          "avg30": 3.76,
+          "avg1_foil": 5.8,
+          "avg7_foil": 4.49,
+          "avg30_foil": 3.76
         }
       }
     },
@@ -142073,6 +142636,7 @@
       "prices": {
         "rq_prize_wall": {
           "idProduct": 854968,
+          "card_number": 153,
           "avg": 6.5,
           "low": 4,
           "trend": 4.58,
@@ -142085,6 +142649,22 @@
           "avg1_foil": 4.5,
           "avg7_foil": 4.82,
           "avg30_foil": 4.69
+        },
+        "standard": {
+          "idProduct": 854978,
+          "card_number": 163,
+          "avg": 7.77,
+          "low": 6,
+          "trend": 8.36,
+          "avg_foil": 7.77,
+          "low_foil": 6,
+          "trend_foil": 8.36,
+          "avg1": 7,
+          "avg7": 7.68,
+          "avg30": 6.3,
+          "avg1_foil": 7,
+          "avg7_foil": 7.68,
+          "avg30_foil": 6.3
         }
       }
     },
@@ -142100,6 +142680,7 @@
       "prices": {
         "rq_prize_wall": {
           "idProduct": 854969,
+          "card_number": 154,
           "avg": 3.12,
           "low": 2.9,
           "trend": 3.96,
@@ -142112,6 +142693,22 @@
           "avg1_foil": 3.9,
           "avg7_foil": 3.27,
           "avg30_foil": 3.82
+        },
+        "standard": {
+          "idProduct": 854979,
+          "card_number": 164,
+          "avg": 8.55,
+          "low": 7,
+          "trend": 8.55,
+          "avg_foil": 8.55,
+          "low_foil": 7,
+          "trend_foil": 8.55,
+          "avg1": 7.5,
+          "avg7": 8.24,
+          "avg30": 6.85,
+          "avg1_foil": 7.5,
+          "avg7_foil": 8.24,
+          "avg30_foil": 6.85
         }
       }
     },
@@ -142127,6 +142724,7 @@
       "prices": {
         "rq_prize_wall": {
           "idProduct": 854970,
+          "card_number": 155,
           "avg": 4.25,
           "low": 4.9,
           "trend": 1.55,
@@ -142139,6 +142737,22 @@
           "avg1_foil": 5,
           "avg7_foil": 4.58,
           "avg30_foil": 10.33
+        },
+        "standard": {
+          "idProduct": 854980,
+          "card_number": 165,
+          "avg": 21.4,
+          "low": 25,
+          "trend": 18.81,
+          "avg_foil": 21.4,
+          "low_foil": 25,
+          "trend_foil": 18.81,
+          "avg1": 29,
+          "avg7": 18.57,
+          "avg30": 14,
+          "avg1_foil": 29,
+          "avg7_foil": 18.57,
+          "avg30_foil": 14
         }
       }
     },
@@ -142154,6 +142768,7 @@
       "prices": {
         "rq_prize_wall": {
           "idProduct": 854971,
+          "card_number": 156,
           "avg": 2.16,
           "low": 1.25,
           "trend": 2.27,
@@ -142166,6 +142781,22 @@
           "avg1_foil": null,
           "avg7_foil": null,
           "avg30_foil": null
+        },
+        "standard": {
+          "idProduct": 854981,
+          "card_number": 166,
+          "avg": 3.83,
+          "low": 3.5,
+          "trend": 3.66,
+          "avg_foil": 3.83,
+          "low_foil": 3.5,
+          "trend_foil": 3.66,
+          "avg1": 4,
+          "avg7": 3.94,
+          "avg30": 2.89,
+          "avg1_foil": 4,
+          "avg7_foil": 3.94,
+          "avg30_foil": 2.89
         }
       }
     },
@@ -142181,6 +142812,7 @@
       "prices": {
         "rq_prize_wall": {
           "idProduct": 854973,
+          "card_number": 158,
           "avg": 4.19,
           "low": 2.99,
           "trend": 3.18,
@@ -142193,6 +142825,22 @@
           "avg1_foil": null,
           "avg7_foil": null,
           "avg30_foil": null
+        },
+        "standard": {
+          "idProduct": 854984,
+          "card_number": 168,
+          "avg": 6.29,
+          "low": 5.39,
+          "trend": 6.89,
+          "avg_foil": 5.48,
+          "low_foil": 9,
+          "trend_foil": 1.23,
+          "avg1": 7.9,
+          "avg7": 6.13,
+          "avg30": 5.27,
+          "avg1_foil": 7,
+          "avg7_foil": 5.87,
+          "avg30_foil": 7.92
         }
       }
     },
@@ -142208,6 +142856,7 @@
       "prices": {
         "rq_prize_wall": {
           "idProduct": 854974,
+          "card_number": 159,
           "avg": 3.48,
           "low": 2.95,
           "trend": 2.54,
@@ -142220,6 +142869,22 @@
           "avg1_foil": null,
           "avg7_foil": null,
           "avg30_foil": null
+        },
+        "standard": {
+          "idProduct": 854985,
+          "card_number": 169,
+          "avg": 5.6,
+          "low": 4,
+          "trend": 4.61,
+          "avg_foil": 5.6,
+          "low_foil": 4,
+          "trend_foil": 4.61,
+          "avg1": 4.9,
+          "avg7": 5.29,
+          "avg30": 5.08,
+          "avg1_foil": 4.9,
+          "avg7_foil": 5.29,
+          "avg30_foil": 5.08
         }
       }
     },
@@ -142235,6 +142900,7 @@
       "prices": {
         "rq_prize_wall": {
           "idProduct": 854975,
+          "card_number": 160,
           "avg": 3.5,
           "low": 6,
           "trend": 4.08,
@@ -142247,6 +142913,22 @@
           "avg1_foil": 3.7,
           "avg7_foil": 4.19,
           "avg30_foil": 7.98
+        },
+        "standard": {
+          "idProduct": 854986,
+          "card_number": 170,
+          "avg": 27,
+          "low": 40,
+          "trend": 26.42,
+          "avg_foil": 27,
+          "low_foil": 40,
+          "trend_foil": 26.42,
+          "avg1": 35,
+          "avg7": 27.92,
+          "avg30": 21.31,
+          "avg1_foil": 35,
+          "avg7_foil": 27.92,
+          "avg30_foil": 21.31
         }
       }
     },
@@ -142262,6 +142944,7 @@
       "prices": {
         "standard": {
           "idProduct": 854987,
+          "card_number": 171,
           "avg": 21.6,
           "low": 19.5,
           "trend": 19.5,
@@ -142292,6 +142975,7 @@
       "prices": {
         "standard": {
           "idProduct": 854990,
+          "card_number": 173,
           "avg": 170,
           "low": 180,
           "trend": 185.08,
@@ -142304,6 +142988,22 @@
           "avg1_foil": 180,
           "avg7_foil": 180,
           "avg30_foil": 180
+        },
+        "rq_champion": {
+          "idProduct": 854995,
+          "card_number": 177,
+          "avg": null,
+          "low": 5000,
+          "trend": null,
+          "avg_foil": null,
+          "low_foil": null,
+          "trend_foil": null,
+          "avg1": null,
+          "avg7": null,
+          "avg30": null,
+          "avg1_foil": null,
+          "avg7_foil": null,
+          "avg30_foil": null
         }
       }
     },
@@ -142345,6 +143045,7 @@
       "prices": {
         "ss_participation": {
           "idProduct": 882837,
+          "card_number": 2,
           "avg": 0.24,
           "low": 0.02,
           "trend": 0.14,
@@ -142357,6 +143058,22 @@
           "avg1_foil": 0.18,
           "avg7_foil": 0.14,
           "avg30_foil": 0.28
+        },
+        "standard": {
+          "idProduct": 882838,
+          "card_number": 3,
+          "avg": 4.88,
+          "low": 2,
+          "trend": 3.02,
+          "avg_foil": 4.88,
+          "low_foil": 2,
+          "trend_foil": 3.02,
+          "avg1": 3,
+          "avg7": 4.75,
+          "avg30": 4.63,
+          "avg1_foil": 3,
+          "avg7_foil": 4.75,
+          "avg30_foil": 4.63
         }
       }
     },
@@ -142374,6 +143091,7 @@
       "prices": {
         "standard": {
           "idProduct": 882839,
+          "card_number": 4,
           "avg": 1.97,
           "low": 0.99,
           "trend": 1.43,
@@ -142386,6 +143104,22 @@
           "avg1_foil": 2.83,
           "avg7_foil": 1.72,
           "avg30_foil": 2.04
+        },
+        "ss_champion": {
+          "idProduct": 882842,
+          "card_number": 7,
+          "avg": 10.93,
+          "low": 10,
+          "trend": 9.65,
+          "avg_foil": 10.93,
+          "low_foil": 10,
+          "trend_foil": 9.65,
+          "avg1": 9.98,
+          "avg7": 10.93,
+          "avg30": 16.4,
+          "avg1_foil": 9.98,
+          "avg7_foil": 10.93,
+          "avg30_foil": 16.4
         }
       }
     },
@@ -142401,6 +143135,7 @@
       "prices": {
         "standard": {
           "idProduct": 882843,
+          "card_number": 8,
           "avg": 0.91,
           "low": 0.5,
           "trend": 0.78,
@@ -142430,6 +143165,7 @@
       "prices": {
         "standard": {
           "idProduct": 882845,
+          "card_number": 10,
           "avg": 6.5,
           "low": 4.99,
           "trend": 5.38,
@@ -142442,6 +143178,22 @@
           "avg1_foil": 5,
           "avg7_foil": 6.31,
           "avg30_foil": 8.3
+        },
+        "pq_champion": {
+          "idProduct": 882848,
+          "card_number": 13,
+          "avg": null,
+          "low": 69.99,
+          "trend": null,
+          "avg_foil": null,
+          "low_foil": 69.99,
+          "trend_foil": null,
+          "avg1": null,
+          "avg7": null,
+          "avg30": null,
+          "avg1_foil": null,
+          "avg7_foil": null,
+          "avg30_foil": null
         }
       }
     },
@@ -142457,6 +143209,7 @@
       "prices": {
         "sq_prize_wall": {
           "idProduct": 868564,
+          "card_number": 38,
           "avg": 6,
           "low": 5,
           "trend": 6.02,
@@ -142469,6 +143222,22 @@
           "avg1_foil": 6.89,
           "avg7_foil": 9.65,
           "avg30_foil": 10.63
+        },
+        "sq_event_pack": {
+          "idProduct": 868600,
+          "card_number": 50,
+          "avg": 6,
+          "low": 5,
+          "trend": 5.32,
+          "avg_foil": null,
+          "low_foil": 5.5,
+          "trend_foil": 8.62,
+          "avg1": 6,
+          "avg7": 5.87,
+          "avg30": 8.58,
+          "avg1_foil": 10,
+          "avg7_foil": 10.11,
+          "avg30_foil": 11.51
         }
       }
     },
@@ -142484,6 +143253,7 @@
       "prices": {
         "sq_prize_wall": {
           "idProduct": 868565,
+          "card_number": 39,
           "avg": 4.89,
           "low": 5,
           "trend": 4.28,
@@ -142496,6 +143266,22 @@
           "avg1_foil": 4.99,
           "avg7_foil": 8.13,
           "avg30_foil": 8.13
+        },
+        "sq_event_pack": {
+          "idProduct": 868601,
+          "card_number": 51,
+          "avg": 9.25,
+          "low": 8,
+          "trend": 8.87,
+          "avg_foil": null,
+          "low_foil": 8,
+          "trend_foil": 10.39,
+          "avg1": 9.5,
+          "avg7": 9.24,
+          "avg30": 9.33,
+          "avg1_foil": 9.5,
+          "avg7_foil": 11.33,
+          "avg30_foil": 11.24
         }
       }
     },
@@ -142511,6 +143297,7 @@
       "prices": {
         "sq_prize_wall": {
           "idProduct": 868566,
+          "card_number": 40,
           "avg": 4.37,
           "low": 4,
           "trend": 3.99,
@@ -142523,6 +143310,22 @@
           "avg1_foil": 4.49,
           "avg7_foil": 7.71,
           "avg30_foil": 7.71
+        },
+        "sq_event_pack": {
+          "idProduct": 868603,
+          "card_number": 52,
+          "avg": 2.91,
+          "low": 4,
+          "trend": 3.12,
+          "avg_foil": 3.6,
+          "low_foil": 4,
+          "trend_foil": 3.38,
+          "avg1": 2.8,
+          "avg7": 3.03,
+          "avg30": 4.04,
+          "avg1_foil": 4,
+          "avg7_foil": 3.8,
+          "avg30_foil": 4.27
         }
       }
     },
@@ -142538,6 +143341,7 @@
       "prices": {
         "sq_prize_wall": {
           "idProduct": 868570,
+          "card_number": 41,
           "avg": 8.21,
           "low": 8,
           "trend": 7.39,
@@ -142550,6 +143354,22 @@
           "avg1_foil": 10,
           "avg7_foil": 8.86,
           "avg30_foil": 8.9
+        },
+        "sq_event_pack": {
+          "idProduct": 868605,
+          "card_number": 53,
+          "avg": 11.46,
+          "low": 11.5,
+          "trend": 11.88,
+          "avg_foil": 11.4,
+          "low_foil": 15,
+          "trend_foil": 13,
+          "avg1": 11.44,
+          "avg7": 11.54,
+          "avg30": 11.28,
+          "avg1_foil": 10.89,
+          "avg7_foil": 12.4,
+          "avg30_foil": 11.14
         }
       }
     },
@@ -142565,6 +143385,7 @@
       "prices": {
         "sq_prize_wall": {
           "idProduct": 868574,
+          "card_number": 42,
           "avg": 3.62,
           "low": 3.45,
           "trend": 3.26,
@@ -142577,6 +143398,22 @@
           "avg1_foil": 7,
           "avg7_foil": 5.54,
           "avg30_foil": 5.62
+        },
+        "sq_event_pack": {
+          "idProduct": 868610,
+          "card_number": 54,
+          "avg": 7.56,
+          "low": 5.5,
+          "trend": 6.92,
+          "avg_foil": 7.99,
+          "low_foil": 6,
+          "trend_foil": 7.4,
+          "avg1": 6,
+          "avg7": 7.5,
+          "avg30": 7.83,
+          "avg1_foil": 8,
+          "avg7_foil": 8.35,
+          "avg30_foil": 8.99
         }
       }
     },
@@ -142592,6 +143429,7 @@
       "prices": {
         "sq_prize_wall": {
           "idProduct": 868576,
+          "card_number": 43,
           "avg": 7.5,
           "low": 7,
           "trend": 7.41,
@@ -142604,6 +143442,22 @@
           "avg1_foil": 9.99,
           "avg7_foil": 11,
           "avg30_foil": 11
+        },
+        "sq_event_pack": {
+          "idProduct": 868623,
+          "card_number": 55,
+          "avg": 4.75,
+          "low": 4.9,
+          "trend": 4.31,
+          "avg_foil": 4,
+          "low_foil": 4.9,
+          "trend_foil": 3.63,
+          "avg1": 4.5,
+          "avg7": 4.52,
+          "avg30": 4.53,
+          "avg1_foil": 4,
+          "avg7_foil": 4.3,
+          "avg30_foil": 5.15
         }
       }
     },
@@ -142619,6 +143473,7 @@
       "prices": {
         "sq_prize_wall": {
           "idProduct": 868577,
+          "card_number": 44,
           "avg": 3.99,
           "low": 3,
           "trend": 3.17,
@@ -142631,6 +143486,22 @@
           "avg1_foil": 3.5,
           "avg7_foil": 6.91,
           "avg30_foil": 6.91
+        },
+        "sq_event_pack": {
+          "idProduct": 868624,
+          "card_number": 56,
+          "avg": 4.33,
+          "low": 3,
+          "trend": 4.14,
+          "avg_foil": 9,
+          "low_foil": 5,
+          "trend_foil": 6.95,
+          "avg1": 3.5,
+          "avg7": 5.35,
+          "avg30": 8.38,
+          "avg1_foil": 9,
+          "avg7_foil": 8.91,
+          "avg30_foil": 10.08
         }
       }
     },
@@ -142646,6 +143517,7 @@
       "prices": {
         "sq_prize_wall": {
           "idProduct": 868578,
+          "card_number": 45,
           "avg": 8.67,
           "low": 9.8,
           "trend": 8.17,
@@ -142658,6 +143530,22 @@
           "avg1_foil": 13.5,
           "avg7_foil": 10.75,
           "avg30_foil": 10.75
+        },
+        "sq_event_pack": {
+          "idProduct": 868626,
+          "card_number": 57,
+          "avg": 10.51,
+          "low": 12,
+          "trend": 12.37,
+          "avg_foil": 15.5,
+          "low_foil": 17,
+          "trend_foil": 15.67,
+          "avg1": 9.95,
+          "avg7": 11.01,
+          "avg30": 13.36,
+          "avg1_foil": 15,
+          "avg7_foil": 15.3,
+          "avg30_foil": 15.22
         }
       }
     },
@@ -142673,6 +143561,7 @@
       "prices": {
         "sq_prize_wall": {
           "idProduct": 868580,
+          "card_number": 46,
           "avg": 3,
           "low": 4,
           "trend": 2.61,
@@ -142685,6 +143574,22 @@
           "avg1_foil": 3.5,
           "avg7_foil": 4.14,
           "avg30_foil": 4.63
+        },
+        "sq_event_pack": {
+          "idProduct": 868628,
+          "card_number": 58,
+          "avg": 4.61,
+          "low": 3.5,
+          "trend": 4.44,
+          "avg_foil": null,
+          "low_foil": 4.99,
+          "trend_foil": 4.04,
+          "avg1": 4,
+          "avg7": 4.55,
+          "avg30": 5.23,
+          "avg1_foil": 5,
+          "avg7_foil": 5.38,
+          "avg30_foil": 6.41
         }
       }
     },
@@ -142700,6 +143605,7 @@
       "prices": {
         "sq_prize_wall": {
           "idProduct": 868591,
+          "card_number": 47,
           "avg": 3.5,
           "low": 3,
           "trend": 3.64,
@@ -142712,6 +143618,22 @@
           "avg1_foil": 3.5,
           "avg7_foil": 5.55,
           "avg30_foil": 6.43
+        },
+        "sq_event_pack": {
+          "idProduct": 868630,
+          "card_number": 59,
+          "avg": 7.04,
+          "low": 4.8,
+          "trend": 6.57,
+          "avg_foil": null,
+          "low_foil": 5,
+          "trend_foil": 9.78,
+          "avg1": 7.5,
+          "avg7": 7.03,
+          "avg30": 10.03,
+          "avg1_foil": 9.9,
+          "avg7_foil": 11.04,
+          "avg30_foil": 11.75
         }
       }
     },
@@ -142727,6 +143649,7 @@
       "prices": {
         "sq_prize_wall": {
           "idProduct": 868592,
+          "card_number": 48,
           "avg": 3.33,
           "low": 3.33,
           "trend": 3.55,
@@ -142739,6 +143662,22 @@
           "avg1_foil": 5,
           "avg7_foil": 4.62,
           "avg30_foil": 4.58
+        },
+        "sq_event_pack": {
+          "idProduct": 868631,
+          "card_number": 60,
+          "avg": 4,
+          "low": 2.99,
+          "trend": 3.85,
+          "avg_foil": 3.33,
+          "low_foil": 4,
+          "trend_foil": 3.07,
+          "avg1": 4,
+          "avg7": 3.8,
+          "avg30": 3.58,
+          "avg1_foil": 2,
+          "avg7_foil": 3.83,
+          "avg30_foil": 3.91
         }
       }
     },
@@ -142754,6 +143693,7 @@
       "prices": {
         "sq_prize_wall": {
           "idProduct": 868595,
+          "card_number": 49,
           "avg": 6,
           "low": 5,
           "trend": 4.86,
@@ -142766,6 +143706,22 @@
           "avg1_foil": 5,
           "avg7_foil": 6.91,
           "avg30_foil": 8.1
+        },
+        "sq_event_pack": {
+          "idProduct": 868632,
+          "card_number": 61,
+          "avg": 19.5,
+          "low": 15,
+          "trend": 18.08,
+          "avg_foil": 19.98,
+          "low_foil": 20,
+          "trend_foil": 17.83,
+          "avg1": 18,
+          "avg7": 18.95,
+          "avg30": 22.48,
+          "avg1_foil": 19.95,
+          "avg7_foil": 19.71,
+          "avg30_foil": 24.43
         }
       }
     },
@@ -142781,6 +143737,7 @@
       "prices": {
         "standard": {
           "idProduct": 868634,
+          "card_number": 62,
           "avg": 13.8,
           "low": 12,
           "trend": 14.32,
@@ -142811,6 +143768,7 @@
       "prices": {
         "standard": {
           "idProduct": 868638,
+          "card_number": 64,
           "avg": 260,
           "low": null,
           "trend": 260,
@@ -142820,6 +143778,22 @@
           "avg1": 260,
           "avg7": 260,
           "avg30": 260,
+          "avg1_foil": null,
+          "avg7_foil": null,
+          "avg30_foil": null
+        },
+        "sq_champion": {
+          "idProduct": 868642,
+          "card_number": 68,
+          "avg": null,
+          "low": null,
+          "trend": null,
+          "avg_foil": null,
+          "low_foil": null,
+          "trend_foil": null,
+          "avg1": null,
+          "avg7": null,
+          "avg30": null,
           "avg1_foil": null,
           "avg7_foil": null,
           "avg30_foil": null
@@ -142838,6 +143812,7 @@
       "prices": {
         "rq_prize_wall": {
           "idProduct": 868643,
+          "card_number": 70,
           "avg": 12,
           "low": 10,
           "trend": 12,
@@ -142847,6 +143822,22 @@
           "avg1": 12,
           "avg7": 12,
           "avg30": 12,
+          "avg1_foil": null,
+          "avg7_foil": null,
+          "avg30_foil": null
+        },
+        "standard": {
+          "idProduct": 868653,
+          "card_number": 86,
+          "avg": 20,
+          "low": 21,
+          "trend": 20,
+          "avg_foil": null,
+          "low_foil": 30,
+          "trend_foil": 0,
+          "avg1": 20,
+          "avg7": 21.5,
+          "avg30": 21.5,
           "avg1_foil": null,
           "avg7_foil": null,
           "avg30_foil": null
@@ -142865,6 +143856,7 @@
       "prices": {
         "rq_prize_wall": {
           "idProduct": 868644,
+          "card_number": 71,
           "avg": 17.42,
           "low": 12,
           "trend": 14.74,
@@ -142877,6 +143869,22 @@
           "avg1_foil": 19,
           "avg7_foil": 19,
           "avg30_foil": 19
+        },
+        "standard": {
+          "idProduct": 868654,
+          "card_number": 87,
+          "avg": 47.5,
+          "low": 42,
+          "trend": 47.76,
+          "avg_foil": null,
+          "low_foil": 54.99,
+          "trend_foil": 49.99,
+          "avg1": 50,
+          "avg7": 41.71,
+          "avg30": 41.71,
+          "avg1_foil": 49.99,
+          "avg7_foil": 46.24,
+          "avg30_foil": 46.24
         }
       }
     },
@@ -142892,6 +143900,7 @@
       "prices": {
         "rq_prize_wall": {
           "idProduct": 868645,
+          "card_number": 72,
           "avg": null,
           "low": 20,
           "trend": null,
@@ -142904,6 +143913,22 @@
           "avg1_foil": null,
           "avg7_foil": null,
           "avg30_foil": null
+        },
+        "standard": {
+          "idProduct": 868655,
+          "card_number": 88,
+          "avg": 35,
+          "low": 50,
+          "trend": 35,
+          "avg_foil": 55,
+          "low_foil": null,
+          "trend_foil": 55,
+          "avg1": 35,
+          "avg7": 35,
+          "avg30": 35,
+          "avg1_foil": 55,
+          "avg7_foil": 55,
+          "avg30_foil": 55
         }
       }
     },
@@ -142919,6 +143944,7 @@
       "prices": {
         "rq_prize_wall": {
           "idProduct": 868646,
+          "card_number": 73,
           "avg": 3.76,
           "low": 2.3,
           "trend": 0.02,
@@ -142931,6 +143957,22 @@
           "avg1_foil": 2.5,
           "avg7_foil": 3.76,
           "avg30_foil": 3.76
+        },
+        "standard": {
+          "idProduct": 868656,
+          "card_number": 89,
+          "avg": 7.26,
+          "low": 6.9,
+          "trend": 0.02,
+          "avg_foil": 6.6,
+          "low_foil": 6.9,
+          "trend_foil": 2.81,
+          "avg1": 8,
+          "avg7": 7.21,
+          "avg30": 12.47,
+          "avg1_foil": 9,
+          "avg7_foil": 7,
+          "avg30_foil": 10.33
         }
       }
     },
@@ -142946,6 +143988,7 @@
       "prices": {
         "rq_prize_wall": {
           "idProduct": 868647,
+          "card_number": 74,
           "avg": 20,
           "low": 10,
           "trend": 20,
@@ -142955,6 +143998,22 @@
           "avg1": 20,
           "avg7": 20,
           "avg30": 20,
+          "avg1_foil": null,
+          "avg7_foil": null,
+          "avg30_foil": null
+        },
+        "standard": {
+          "idProduct": 868657,
+          "card_number": 90,
+          "avg": 22,
+          "low": 25,
+          "trend": 24.56,
+          "avg_foil": null,
+          "low_foil": null,
+          "trend_foil": 0,
+          "avg1": 22,
+          "avg7": 22,
+          "avg30": 22,
           "avg1_foil": null,
           "avg7_foil": null,
           "avg30_foil": null
@@ -142973,6 +144032,7 @@
       "prices": {
         "rq_prize_wall": {
           "idProduct": 868648,
+          "card_number": 75,
           "avg": 2.28,
           "low": 1.8,
           "trend": 0.02,
@@ -142985,6 +144045,22 @@
           "avg1_foil": 2,
           "avg7_foil": 2.52,
           "avg30_foil": 2.74
+        },
+        "standard": {
+          "idProduct": 868658,
+          "card_number": 91,
+          "avg": 4.93,
+          "low": 4.78,
+          "trend": 0.02,
+          "avg_foil": 4.85,
+          "low_foil": 4.78,
+          "trend_foil": 0.11,
+          "avg1": 5.73,
+          "avg7": 5.2,
+          "avg30": 6.67,
+          "avg1_foil": 4.78,
+          "avg7_foil": 4.85,
+          "avg30_foil": 7.68
         }
       }
     },
@@ -143000,6 +144076,7 @@
       "prices": {
         "rq_prize_wall": {
           "idProduct": 868649,
+          "card_number": 76,
           "avg": 5,
           "low": 9,
           "trend": 5,
@@ -143012,6 +144089,22 @@
           "avg1_foil": null,
           "avg7_foil": null,
           "avg30_foil": null
+        },
+        "standard": {
+          "idProduct": 868659,
+          "card_number": 92,
+          "avg": 40,
+          "low": 30,
+          "trend": 40,
+          "avg_foil": 40,
+          "low_foil": 30,
+          "trend_foil": 40,
+          "avg1": 40,
+          "avg7": 40,
+          "avg30": 40,
+          "avg1_foil": 40,
+          "avg7_foil": 40,
+          "avg30_foil": 40
         }
       }
     },
@@ -143027,6 +144120,7 @@
       "prices": {
         "rq_prize_wall": {
           "idProduct": 868650,
+          "card_number": 77,
           "avg": 5.67,
           "low": 5.5,
           "trend": 5.23,
@@ -143039,6 +144133,22 @@
           "avg1_foil": 5.5,
           "avg7_foil": 5.79,
           "avg30_foil": 6.84
+        },
+        "standard": {
+          "idProduct": 890892,
+          "card_number": 93,
+          "avg": 25,
+          "low": 24.99,
+          "trend": 25,
+          "avg_foil": null,
+          "low_foil": 25,
+          "trend_foil": 0,
+          "avg1": 25,
+          "avg7": 26,
+          "avg30": 26,
+          "avg1_foil": null,
+          "avg7_foil": null,
+          "avg30_foil": null
         }
       }
     },
@@ -143054,6 +144164,7 @@
       "prices": {
         "rq_prize_wall": {
           "idProduct": 868651,
+          "card_number": 78,
           "avg": null,
           "low": 20,
           "trend": null,
@@ -143063,6 +144174,22 @@
           "avg1": null,
           "avg7": null,
           "avg30": null,
+          "avg1_foil": null,
+          "avg7_foil": null,
+          "avg30_foil": null
+        },
+        "standard": {
+          "idProduct": 868661,
+          "card_number": 94,
+          "avg": 50,
+          "low": null,
+          "trend": 48.68,
+          "avg_foil": null,
+          "low_foil": null,
+          "trend_foil": 0,
+          "avg1": 50,
+          "avg7": 37.6,
+          "avg30": 37.6,
           "avg1_foil": null,
           "avg7_foil": null,
           "avg30_foil": null
@@ -143081,6 +144208,7 @@
       "prices": {
         "rq_prize_wall": {
           "idProduct": 868652,
+          "card_number": 79,
           "avg": 15.72,
           "low": 14,
           "trend": 15.6,
@@ -143093,6 +144221,22 @@
           "avg1_foil": 21.95,
           "avg7_foil": 21.95,
           "avg30_foil": 21.95
+        },
+        "standard": {
+          "idProduct": 868662,
+          "card_number": 95,
+          "avg": 141,
+          "low": 120,
+          "trend": 154.93,
+          "avg_foil": null,
+          "low_foil": 120,
+          "trend_foil": 118,
+          "avg1": 140,
+          "avg7": 135.5,
+          "avg30": 111.77,
+          "avg1_foil": 120,
+          "avg7_foil": 120,
+          "avg30_foil": 120
         }
       }
     },
@@ -143108,6 +144252,7 @@
       "prices": {
         "rq_prize_wall": {
           "idProduct": 890896,
+          "card_number": 80,
           "avg": 19.17,
           "low": 14,
           "trend": 15.46,
@@ -143120,6 +144265,22 @@
           "avg1_foil": 17,
           "avg7_foil": 20.29,
           "avg30_foil": 20.29
+        },
+        "standard": {
+          "idProduct": 890897,
+          "card_number": 96,
+          "avg": 15,
+          "low": 10,
+          "trend": 11.21,
+          "avg_foil": 12.1,
+          "low_foil": 11,
+          "trend_foil": 12.49,
+          "avg1": 15,
+          "avg7": 16.25,
+          "avg30": 16.25,
+          "avg1_foil": 12.49,
+          "avg7_foil": 12.1,
+          "avg30_foil": 12.1
         }
       }
     },
@@ -143135,6 +144296,7 @@
       "prices": {
         "rq_prize_wall": {
           "idProduct": 890898,
+          "card_number": 81,
           "avg": 21.54,
           "low": 17.9,
           "trend": 21.1,
@@ -143147,6 +144309,22 @@
           "avg1_foil": 21.89,
           "avg7_foil": 22.58,
           "avg30_foil": 22.25
+        },
+        "standard": {
+          "idProduct": 890899,
+          "card_number": 97,
+          "avg": 15.08,
+          "low": 13.75,
+          "trend": 14.47,
+          "avg_foil": 16.97,
+          "low_foil": 15,
+          "trend_foil": 15.98,
+          "avg1": 13.75,
+          "avg7": 16.45,
+          "avg30": 16.45,
+          "avg1_foil": 15.98,
+          "avg7_foil": 16.97,
+          "avg30_foil": 16.97
         }
       }
     },
@@ -143162,6 +144340,7 @@
       "prices": {
         "rq_prize_wall": {
           "idProduct": 890900,
+          "card_number": 82,
           "avg": 9.76,
           "low": 8.9,
           "trend": 8.47,
@@ -143174,6 +144353,22 @@
           "avg1_foil": 8.98,
           "avg7_foil": 9.24,
           "avg30_foil": 10.59
+        },
+        "standard": {
+          "idProduct": 890901,
+          "card_number": 98,
+          "avg": 5.98,
+          "low": 4.49,
+          "trend": 4.37,
+          "avg_foil": 6.33,
+          "low_foil": 4.5,
+          "trend_foil": 3.61,
+          "avg1": 4.5,
+          "avg7": 5.72,
+          "avg30": 6.33,
+          "avg1_foil": 4.75,
+          "avg7_foil": 6.8,
+          "avg30_foil": 6.8
         }
       }
     },
@@ -143189,6 +144384,7 @@
       "prices": {
         "rq_prize_wall": {
           "idProduct": 890890,
+          "card_number": 83,
           "avg": 14.19,
           "low": 10,
           "trend": 9.86,
@@ -143201,6 +144397,22 @@
           "avg1_foil": 15,
           "avg7_foil": 15.09,
           "avg30_foil": 15.92
+        },
+        "standard": {
+          "idProduct": 890891,
+          "card_number": 99,
+          "avg": 8.16,
+          "low": 6.5,
+          "trend": 7.48,
+          "avg_foil": 8.41,
+          "low_foil": 6.5,
+          "trend_foil": 6.88,
+          "avg1": 7,
+          "avg7": 7.66,
+          "avg30": 8.08,
+          "avg1_foil": 7.3,
+          "avg7_foil": 7.93,
+          "avg30_foil": 8.81
         }
       }
     },
@@ -143216,6 +144428,7 @@
       "prices": {
         "rq_prize_wall": {
           "idProduct": 890894,
+          "card_number": 85,
           "avg": 10.13,
           "low": 8,
           "trend": 7.92,
@@ -143228,6 +144441,22 @@
           "avg1_foil": 8.48,
           "avg7_foil": 9.51,
           "avg30_foil": 11.08
+        },
+        "standard": {
+          "idProduct": 890895,
+          "card_number": 101,
+          "avg": 5.83,
+          "low": 4.39,
+          "trend": 4.87,
+          "avg_foil": 5.92,
+          "low_foil": 4.39,
+          "trend_foil": 5.13,
+          "avg1": 5,
+          "avg7": 7.8,
+          "avg30": 7.8,
+          "avg1_foil": 4.98,
+          "avg7_foil": 5.92,
+          "avg30_foil": 5.92
         }
       }
     },
@@ -143243,6 +144472,7 @@
       "prices": {
         "standard": {
           "idProduct": 868663,
+          "card_number": 102,
           "avg": 77.5,
           "low": 75,
           "trend": 87.43,
@@ -143273,6 +144503,7 @@
       "prices": {
         "standard": {
           "idProduct": 868665,
+          "card_number": 104,
           "avg": 270,
           "low": 300,
           "trend": 270,
@@ -143282,6 +144513,22 @@
           "avg1": 270,
           "avg7": 270,
           "avg30": 270,
+          "avg1_foil": null,
+          "avg7_foil": null,
+          "avg30_foil": null
+        },
+        "rq_champion": {
+          "idProduct": 868669,
+          "card_number": 108,
+          "avg": null,
+          "low": null,
+          "trend": null,
+          "avg_foil": null,
+          "low_foil": null,
+          "trend_foil": null,
+          "avg1": null,
+          "avg7": null,
+          "avg30": null,
           "avg1_foil": null,
           "avg7_foil": null,
           "avg30_foil": null
@@ -143300,6 +144547,7 @@
       "prices": {
         "standard": {
           "idProduct": 890883,
+          "card_number": 110,
           "avg": 41.76,
           "low": 41.5,
           "trend": 39.83,
@@ -143330,6 +144578,7 @@
       "prices": {
         "standard": {
           "idProduct": 890885,
+          "card_number": 112,
           "avg": 128.1,
           "low": 125,
           "trend": 110.3,
@@ -143342,6 +144591,22 @@
           "avg1_foil": 148.98,
           "avg7_foil": 159.66,
           "avg30_foil": 159.66
+        },
+        "rq_champion": {
+          "idProduct": 890889,
+          "card_number": 116,
+          "avg": null,
+          "low": 4500,
+          "trend": null,
+          "avg_foil": null,
+          "low_foil": null,
+          "trend_foil": null,
+          "avg1": null,
+          "avg7": null,
+          "avg30": null,
+          "avg1_foil": null,
+          "avg7_foil": null,
+          "avg30_foil": null
         }
       }
     },

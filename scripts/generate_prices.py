@@ -539,27 +539,43 @@ for key, swu_info in swu_cards.items():
     if is_weekly:
         std_key, foil_key = "weekly_play", "weekly_play_foil"
     elif is_special:
-        # Pour les sets spéciaux purs : la clé est celle de leur unique variant type
-        primary_vt = next((vt for _, vt in all_variants if vt != "Standard"), None)
-        std_key  = _VT_TO_KEY.get(primary_vt, "standard") if primary_vt else "standard"
-        foil_key = std_key  # pas de distinction foil/non-foil pour ces sets
+        # Pour les sets spéciaux purs : normalement la clé est celle de leur
+        # unique variant type. Mais certaines cartes ont plusieurs variantes au
+        # sein du même set spécial (ex: HK-47 en P26 a à la fois "SQ Prize Wall"
+        # et "SQ Event Pack") — dans ce cas, matching positionnel produit-CM /
+        # variante-SWU (comme pour les nouveaux sets) au lieu d'une seule clé
+        # qui n'en couvrirait qu'une et jetterait l'autre.
+        distinct_vts = {vt for _, vt in all_variants}
+        if len(distinct_vts) > 1:
+            special_variants = sorted(all_variants, key=lambda x: (x[0] if x[0] is not None else 9999))
+            cm_prods_sorted  = sorted(cm_data["standard"], key=lambda x: x[0])
+            for (idp, pr, _), (cn, vt) in zip(cm_prods_sorted, special_variants):
+                k = _VT_TO_KEY.get(vt, "standard")
+                if k not in prices_out:
+                    prices_out[k] = {"idProduct": idp, "card_number": cn, **price_entry(pr)}
+            std_key = foil_key = None
+        else:
+            primary_vt = next((vt for _, vt in all_variants if vt != "Standard"), None)
+            std_key  = _VT_TO_KEY.get(primary_vt, "standard") if primary_vt else "standard"
+            foil_key = std_key  # pas de distinction foil/non-foil pour ces sets
     else:
         std_key, foil_key = "standard", "standard_foil"
 
-    for idp, pr, _ in sorted(cm_data["standard"], key=lambda x: x[0]):
-        if is_foil_only(pr):
-            if foil_key not in prices_out:
-                prices_out[foil_key] = {"idProduct": idp, **price_entry(pr)}
-            # Anciens sets : un produit foil-only couvre quand même la variante non-foil
-            if is_old_set and std_key not in prices_out:
-                prices_out[std_key] = {"idProduct": idp, **price_entry(pr)}
-        else:
-            if std_key not in prices_out:
-                prices_out[std_key] = {"idProduct": idp, **price_entry(pr)}
-            # Anciens sets / multi-prods : avg-foil dans même produit (ou avg1-foil si avg-foil nul)
-            if _has_foil_price(pr) and foil_key not in prices_out and foil_key != std_key:
-                _pe = foil_price_entry if (is_old_set and card_type != "Leader") else price_entry
-                prices_out[foil_key] = {"idProduct": idp, **_pe(pr)}
+    if std_key is not None:
+        for idp, pr, _ in sorted(cm_data["standard"], key=lambda x: x[0]):
+            if is_foil_only(pr):
+                if foil_key not in prices_out:
+                    prices_out[foil_key] = {"idProduct": idp, **price_entry(pr)}
+                # Anciens sets : un produit foil-only couvre quand même la variante non-foil
+                if is_old_set and std_key not in prices_out:
+                    prices_out[std_key] = {"idProduct": idp, **price_entry(pr)}
+            else:
+                if std_key not in prices_out:
+                    prices_out[std_key] = {"idProduct": idp, **price_entry(pr)}
+                # Anciens sets / multi-prods : avg-foil dans même produit (ou avg1-foil si avg-foil nul)
+                if _has_foil_price(pr) and foil_key not in prices_out and foil_key != std_key:
+                    _pe = foil_price_entry if (is_old_set and card_type != "Leader") else price_entry
+                    prices_out[foil_key] = {"idProduct": idp, **_pe(pr)}
 
     # ── Weekly Play (anciens sets SOR/SHD/TWI) ─────────────────────────────
     if is_old_set and cm_data["weekly"]:

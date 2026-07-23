@@ -321,14 +321,6 @@
   },
   {
     "set_code": "P25",
-    "en_name": "Devastator, Hunting the Rebellion",
-    "card_number": 6,
-    "variant_type": "SS Champion",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "P25",
     "en_name": "Black One, Straight At Them",
     "card_number": 7,
     "variant_type": "PQ Participation",
@@ -369,14 +361,6 @@
   },
   {
     "set_code": "P25",
-    "en_name": "Home One, On My Mark",
-    "card_number": 12,
-    "variant_type": "PQ Champion",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "P25",
     "en_name": "Jedi Holocron",
     "card_number": 14,
     "variant_type": "SS Judge",
@@ -404,14 +388,6 @@
     "en_name": "Grand Inquisitor, You're Right to Be Afraid",
     "card_number": 17,
     "variant_type": "SS Finalist",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "P25",
-    "en_name": "Grand Inquisitor, You're Right to Be Afraid",
-    "card_number": 18,
-    "variant_type": "SS Champion",
     "idProduct": null,
     "note": ""
   },
@@ -457,14 +433,6 @@
   },
   {
     "set_code": "P25",
-    "en_name": "Darth Malak, Covetous Apprentice",
-    "card_number": 24,
-    "variant_type": "PQ Champion",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "P25",
     "en_name": "First Light, Threatening Elegance",
     "card_number": 26,
     "variant_type": "SS Judge",
@@ -492,14 +460,6 @@
     "en_name": "Queen Amidala, Championing Her People",
     "card_number": 29,
     "variant_type": "SS Finalist",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "P25",
-    "en_name": "Queen Amidala, Championing Her People",
-    "card_number": 30,
-    "variant_type": "SS Champion",
     "idProduct": null,
     "note": ""
   },
@@ -540,14 +500,6 @@
     "en_name": "Grand Admiral Thrawn, Grand Schemer",
     "card_number": 35,
     "variant_type": "PQ Finalist",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "P25",
-    "en_name": "Grand Admiral Thrawn, Grand Schemer",
-    "card_number": 36,
-    "variant_type": "PQ Champion",
     "idProduct": null,
     "note": ""
   },
@@ -602,14 +554,6 @@
   {
     "set_code": "P25",
     "en_name": "Kylo Ren, Killing the Past",
-    "card_number": 50,
-    "variant_type": "SQ Champion",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "P25",
-    "en_name": "Kylo Ren, Killing the Past",
     "card_number": 51,
     "variant_type": "SQ Judge",
     "idProduct": null,
@@ -666,24 +610,8 @@
   {
     "set_code": "P25",
     "en_name": "Rey, Keeping the Past",
-    "card_number": 63,
-    "variant_type": "RQ Champion",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "P25",
-    "en_name": "Rey, Keeping the Past",
     "card_number": 64,
     "variant_type": "RQ Judge",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "P25",
-    "en_name": "Grand Inquisitor, You're Right to Be Afraid",
-    "card_number": 81,
-    "variant_type": "GC Event Pack",
     "idProduct": null,
     "note": ""
   },
@@ -714,14 +642,6 @@
   {
     "set_code": "P25",
     "en_name": "Darth Vader, Commanding the First Legion",
-    "card_number": 113,
-    "variant_type": "GC Top 8",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "P25",
-    "en_name": "Darth Vader, Commanding the First Legion",
     "card_number": 114,
     "variant_type": "GC Top 4",
     "idProduct": null,
@@ -738,14 +658,6 @@
   {
     "set_code": "P25",
     "en_name": "Darth Vader, Commanding the First Legion",
-    "card_number": 116,
-    "variant_type": "GC Champion",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "P25",
-    "en_name": "Darth Vader, Commanding the First Legion",
     "card_number": 117,
     "variant_type": "GC Judge",
     "idProduct": null,
@@ -756,102 +668,6 @@
     "en_name": "Darth Tyranus, Servant of Sidious",
     "card_number": 118,
     "variant_type": "Exclusivité de l’évènement",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "P25",
-    "en_name": "Vigilance",
-    "card_number": 131,
-    "variant_type": "SQ Event Pack",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "P25",
-    "en_name": "Axe Woves, Accomplished Warrior",
-    "card_number": 132,
-    "variant_type": "SQ Event Pack",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "P25",
-    "en_name": "Gungi, Finding Himself",
-    "card_number": 133,
-    "variant_type": "SQ Event Pack",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "P25",
-    "en_name": "Command",
-    "card_number": 134,
-    "variant_type": "SQ Event Pack",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "P25",
-    "en_name": "HK-47, Exclamation: Die, Meatbag!",
-    "card_number": 135,
-    "variant_type": "SQ Event Pack",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "P25",
-    "en_name": "IG-2000, Assassin's Aggressor",
-    "card_number": 136,
-    "variant_type": "SQ Event Pack",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "P25",
-    "en_name": "Wrecker, Boom!",
-    "card_number": 137,
-    "variant_type": "SQ Event Pack",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "P25",
-    "en_name": "Aggression",
-    "card_number": 138,
-    "variant_type": "SQ Event Pack",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "P25",
-    "en_name": "Planetary Bombardment",
-    "card_number": 139,
-    "variant_type": "SQ Event Pack",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "P25",
-    "en_name": "Aurra Sing, Patient and Deadly",
-    "card_number": 140,
-    "variant_type": "SQ Event Pack",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "P25",
-    "en_name": "Vernestra Rwoh, Precocious Knight",
-    "card_number": 141,
-    "variant_type": "SQ Event Pack",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "P25",
-    "en_name": "Cunning",
-    "card_number": 142,
-    "variant_type": "SQ Event Pack",
     "idProduct": null,
     "note": ""
   },
@@ -905,102 +721,6 @@
   },
   {
     "set_code": "P25",
-    "en_name": "Anakin Skywalker, Champion of Mortis",
-    "card_number": 149,
-    "variant_type": "SQ Champion",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "P25",
-    "en_name": "Darth Vader, Twilight of the Apprentice",
-    "card_number": 152,
-    "variant_type": "RQ Prize Wall",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "P25",
-    "en_name": "Black One, Straight At Them",
-    "card_number": 157,
-    "variant_type": "RQ Prize Wall",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "P25",
-    "en_name": "Karis, We Don't Like Strangers",
-    "card_number": 161,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "P25",
-    "en_name": "Darth Vader, Twilight of the Apprentice",
-    "card_number": 162,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "P25",
-    "en_name": "Shatterpoint",
-    "card_number": 163,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "P25",
-    "en_name": "Victor Leader, Leading from the Front",
-    "card_number": 164,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "P25",
-    "en_name": "Maul, Shadow Collective Visionary",
-    "card_number": 165,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "P25",
-    "en_name": "General's Blade",
-    "card_number": 166,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "P25",
-    "en_name": "Poe Dameron, Quick to Improvise",
-    "card_number": 168,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "P25",
-    "en_name": "Profundity, We Fight!",
-    "card_number": 169,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "P25",
-    "en_name": "Ahsoka Tano, Chasing Whispers",
-    "card_number": 170,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "P25",
     "en_name": "Darth Vader, Scourge of Squadrons",
     "card_number": 171,
     "variant_type": "RQ Participation",
@@ -1048,14 +768,6 @@
     "note": ""
   },
   {
-    "set_code": "P25",
-    "en_name": "Luke Skywalker, Jedi Knight",
-    "card_number": 177,
-    "variant_type": "RQ Champion",
-    "idProduct": null,
-    "note": ""
-  },
-  {
     "set_code": "P26",
     "en_name": "Darth Vader, Meet Your Destiny",
     "card_number": 1,
@@ -1097,14 +809,6 @@
   },
   {
     "set_code": "P26",
-    "en_name": "Maul, Master of the Shadow Collective",
-    "card_number": 7,
-    "variant_type": "SS Champion",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "P26",
     "en_name": "Benthic “Two Tubes”, The War Has Just Begun",
     "card_number": 8,
     "variant_type": "PQ Participation",
@@ -1140,110 +844,6 @@
     "en_name": "Chewbacca, Mighty Rescuer",
     "card_number": 12,
     "variant_type": "PQ Finalist",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "P26",
-    "en_name": "Chewbacca, Mighty Rescuer",
-    "card_number": 13,
-    "variant_type": "PQ Champion",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "P26",
-    "en_name": "Galen Erso, You'll Never Win",
-    "card_number": 50,
-    "variant_type": "SQ Event Pack",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "P26",
-    "en_name": "Axe Woves, Accomplished Warrior",
-    "card_number": 51,
-    "variant_type": "SQ Event Pack",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "P26",
-    "en_name": "Gungi, Finding Himself",
-    "card_number": 52,
-    "variant_type": "SQ Event Pack",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "P26",
-    "en_name": "HK-47, Exclamation: Die, Meatbag!",
-    "card_number": 53,
-    "variant_type": "SQ Event Pack",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "P26",
-    "en_name": "Syril Karn, Where Is He?",
-    "card_number": 54,
-    "variant_type": "SQ Event Pack",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "P26",
-    "en_name": "IG-2000, Assassin's Aggressor",
-    "card_number": 55,
-    "variant_type": "SQ Event Pack",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "P26",
-    "en_name": "Chopper, War Hero",
-    "card_number": 56,
-    "variant_type": "SQ Event Pack",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "P26",
-    "en_name": "Planetary Bombardment",
-    "card_number": 57,
-    "variant_type": "SQ Event Pack",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "P26",
-    "en_name": "Aurra Sing, Patient and Deadly",
-    "card_number": 58,
-    "variant_type": "SQ Event Pack",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "P26",
-    "en_name": "General Grievous, Scuttling to Safety",
-    "card_number": 59,
-    "variant_type": "SQ Event Pack",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "P26",
-    "en_name": "Vernestra Rwoh, Precocious Knight",
-    "card_number": 60,
-    "variant_type": "SQ Event Pack",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "P26",
-    "en_name": "Grogu, Mysterious Child",
-    "card_number": 61,
-    "variant_type": "SQ Event Pack",
     "idProduct": null,
     "note": ""
   },
@@ -1297,142 +897,6 @@
   },
   {
     "set_code": "P26",
-    "en_name": "Qui-Gon Jinn, The Negotiations Will Be Short",
-    "card_number": 68,
-    "variant_type": "SQ Champion",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "P26",
-    "en_name": "Karis, We Don't Like Strangers",
-    "card_number": 86,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "P26",
-    "en_name": "Darth Sion, Lord of Pain",
-    "card_number": 87,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "P26",
-    "en_name": "Darth Vader, Twilight of the Apprentice",
-    "card_number": 88,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "P26",
-    "en_name": "Always Two",
-    "card_number": 89,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "P26",
-    "en_name": "Shatterpoint",
-    "card_number": 90,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "P26",
-    "en_name": "Naboo Royal Starship, Fit For A Queen",
-    "card_number": 91,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "P26",
-    "en_name": "Black One, Straight At Them",
-    "card_number": 92,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "P26",
-    "en_name": "Karis Nemik, Freedom is a Pure Idea",
-    "card_number": 93,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "P26",
-    "en_name": "Ahsoka Tano, Chasing Whispers",
-    "card_number": 94,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "P26",
-    "en_name": "Darth Nihilus, Lord of Hunger",
-    "card_number": 95,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "P26",
-    "en_name": "Cad Bane, Now It's My Turn",
-    "card_number": 96,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "P26",
-    "en_name": "Han Solo, Hibernation Sick",
-    "card_number": 97,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "P26",
-    "en_name": "Max Rebo, Encore!",
-    "card_number": 98,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "P26",
-    "en_name": "Lawbringer, Shadow Over Lothal",
-    "card_number": 99,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "P26",
-    "en_name": "Karis Nemik, Freedom is a Pure Idea",
-    "card_number": 100,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "P26",
-    "en_name": "Sabine's Masterpiece, Crazy Colorful",
-    "card_number": 101,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "P26",
     "en_name": "Leia Organa, Extraordinary",
     "card_number": 102,
     "variant_type": "RQ Participation",
@@ -1481,14 +945,6 @@
   },
   {
     "set_code": "P26",
-    "en_name": "Darth Traya, Lord of Betrayal",
-    "card_number": 108,
-    "variant_type": "RQ Champion",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "P26",
     "en_name": "The Stranger, No Survivors",
     "card_number": 110,
     "variant_type": "RQ Participation",
@@ -1532,14 +988,6 @@
     "en_name": "Luke Skywalker, Profit or Be Destroyed",
     "card_number": 115,
     "variant_type": "RQ Finalist",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "P26",
-    "en_name": "Luke Skywalker, Profit or Be Destroyed",
-    "card_number": 116,
-    "variant_type": "RQ Champion",
     "idProduct": null,
     "note": ""
   },
