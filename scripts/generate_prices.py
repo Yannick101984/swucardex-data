@@ -234,9 +234,11 @@ def foil_price_entry(price_dict):
     }
 
 def _has_foil_price(pd):
-    """True si au moins un champ foil contient une valeur (avg-foil peut être None mais avg1-foil non)."""
+    """True si au moins un champ foil contient une valeur (avg-foil peut être None mais avg1-foil non).
+    trend-foil est exclu : Cardmarket y met 0 (pas None) comme sentinelle "pas de foil",
+    ce qui faisait passer des produits 100% non-foil pour foil-only."""
     return any(pd.get(k) is not None for k in
-               ["avg-foil", "low-foil", "trend-foil", "avg1-foil", "avg7-foil", "avg30-foil"])
+               ["avg-foil", "low-foil", "avg1-foil", "avg7-foil", "avg30-foil"])
 
 def is_foil_only(pd):
     if pd.get("avg-foil") is not None:
