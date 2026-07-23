@@ -90,6 +90,10 @@ EXPANSION_MAP_CONFIRMED = {
     6453: ("LAWP", "standard"), # Weekly Play LAW → remappe sur LAWP
     # P26
     6472: ("P26",  "standard"),
+    # TS26
+    6532: ("TS26", "standard"),
+    # ASH (auto-détecté puis confirmé le 2026-07-23, 100% des matchs)
+    6591: ("ASH",  "standard"), 6642: ("ASH",  "variants"), 6643: ("ASH", "variants"),
 }
 
 # Priorité de set pour les expansions multi-sets (premier set prioritaire)
