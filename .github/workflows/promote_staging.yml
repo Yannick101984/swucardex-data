@@ -34,6 +34,22 @@ jobs:
           git fetch origin staging
           git merge origin/staging -X theirs --no-edit \
             -m "chore: promotion staging → main [$(date '+%Y-%m-%d')] [skip ci]"
+
+          # Les fichiers ci-dessous sont alimentés par des workflows cron qui ne
+          # tournent que sur main (staging n'en reçoit jamais les mises à jour).
+          # -X theirs ferait gagner la version figée de staging et effacerait la
+          # progression de main (cf. incident du 2026-07-23, historique de prix
+          # écrasé — swucardex-data#5). On restaure donc la version de main pour
+          # ces chemins après le merge, staging ne devant apporter que du code
+          # (scripts/, workflows, README).
+          git checkout origin/main -- \
+            sets/ manifest.json news.json announcements.json \
+            cardmarket/price_guide.json cardmarket/products_singles.json \
+            cardmarket/manual_mappings.json \
+            prices/cardmarket_prices.json prices/cardmarket_prices_history.json \
+            2>/dev/null || true
+          git diff --cached --quiet || git commit -m "chore: restaure les données cron de main après promotion [skip ci]"
+
           git push origin main
 
       - name: Résumé
