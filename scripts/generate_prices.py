@@ -77,7 +77,7 @@ EXPANSION_MAP_CONFIRMED = {
     # LOF
     6105: ("LOF",  "standard"), 6188: ("LOF",  "variants"),
     6206: ("LOFP", "standard"), # Weekly Play LOF → remappe sur LOFP
-    6418: ("LOF",  "multi"),    # P25 LOF-era
+    6418: ("LOF",  "multi"),    # G25 + P25 LOF-era mélangés
     # IBH
     6268: ("IBH",  "standard"),
     # P25
@@ -89,7 +89,7 @@ EXPANSION_MAP_CONFIRMED = {
     6451: ("LAW",  "standard"), 6452: ("LAW",  "variants"),
     6453: ("LAWP", "standard"), # Weekly Play LAW → remappe sur LAWP
     # P26
-    6472: ("P26",  "standard"),
+    6472: ("P26",  "multi"),   # P26 + MV26 mélangés
     # TS26
     6532: ("TS26", "standard"),
     # ASH (auto-détecté puis confirmé le 2026-07-23, 100% des matchs)
@@ -103,13 +103,19 @@ EXPANSION_MAP_CONFIRMED = {
 }
 
 # Priorité de set pour les expansions multi-sets (premier set prioritaire)
-# 5626 = SOR special : C24 (Conv. Exclusive SOR) > GG > C25 > J25 > P25
+# 5626 = SOR special : C24 (Conv. Exclusive SOR) > GG > C25 > J25 > P25 > C26
 # 6023 = JTL special : J24 > J25 > P25 > P26
-# 6418 = LOF special2 : P25 > C25 > P26
+# 6418 = LOF special2 : G25 > P25 > C25 > P26 (G25 en 1er : ses 2 seules cartes
+#         "Darth Sidious, The Phantom Menace" / "Obi-Wan Kenobi, Protective
+#         Padawan" collisionnent de nom avec P25, qui a déjà sa propre bonne
+#         donnée via l'expansion 6101 — sans conflit possible ailleurs vu que
+#         G25 n'a que ces 2 cartes)
+# 6472 = P26 special : P26 > MV26 (2 cartes MV26 mélangées dans le catalogue CM P26)
 MULTI_PRIORITY = {
-    5626: ["C24", "C25", "GG", "J24", "J25", "P25"],
+    5626: ["C24", "C25", "GG", "J24", "J25", "P25", "C26"],
     6023: ["J24", "J25", "C24", "P25", "P26", "LOF", "SEC"],
-    6418: ["P25", "C25", "P26"],
+    6418: ["G25", "P25", "C25", "P26"],
+    6472: ["P26", "MV26"],
 }
 
 # ── Correspondance variant_type SWU → clé de prix ─────────────────────────────
@@ -240,9 +246,11 @@ def foil_price_entry(price_dict):
     }
 
 def _has_foil_price(pd):
-    """True si au moins un champ foil contient une valeur (avg-foil peut être None mais avg1-foil non)."""
+    """True si au moins un champ foil contient une valeur (avg-foil peut être None mais avg1-foil non).
+    trend-foil est exclu : Cardmarket y met 0 (pas None) comme sentinelle "pas de foil",
+    ce qui faisait passer des produits 100% non-foil pour foil-only."""
     return any(pd.get(k) is not None for k in
-               ["avg-foil", "low-foil", "trend-foil", "avg1-foil", "avg7-foil", "avg30-foil"])
+               ["avg-foil", "low-foil", "avg1-foil", "avg7-foil", "avg30-foil"])
 
 def is_foil_only(pd):
     if pd.get("avg-foil") is not None:
@@ -396,6 +404,39 @@ for (sc, norm), entry in swu_cards.items():
     for cn, vt in entry["all_variants"]:
         multi_idx[norm].append((sc, cn, vt))
 
+# ── Dédoublonnage des Bases multi-jetons ──────────────────────────────────────
+# Une même Base a souvent 2+ fiches CM distinctes selon le jeton imprimé au dos
+# ("Naval Intelligence HQ // Experience Token" vs "// Spy Token"), sans que nos
+# données de cartes permettent de savoir lequel est le bon. Faute de mieux, on
+# garde la fiche au prix le plus élevé (au sein de la même expansion) et on
+# écarte les autres avant le matching, plutôt que d'en garder une au hasard.
+def _product_price_rank(prod):
+    pr = cm_prices.get(prod["idProduct"], {})
+    val = pr.get("avg")
+    if val is None:
+        val = pr.get("avg-foil")
+    return val if val is not None else -1
+
+_token_dupe_groups = defaultdict(list)
+for prod in singles_data["products"]:
+    if "//" in prod["name"]:
+        base = cm_name_to_card_name(prod["name"])
+        _token_dupe_groups[(prod["idExpansion"], normalize(base))].append(prod)
+
+_excluded_dupe_ids = set()
+for (exp_id, norm_base), prods in _token_dupe_groups.items():
+    distinct_names = {p["name"] for p in prods}
+    if len(distinct_names) < 2:
+        continue
+    best = max(prods, key=_product_price_rank)
+    for p in prods:
+        if p["idProduct"] != best["idProduct"]:
+            _excluded_dupe_ids.add(p["idProduct"])
+
+if _excluded_dupe_ids:
+    print(f"  {len(_excluded_dupe_ids)} produit(s) écarté(s) pour collision jeton "
+          f"(carte Base présente sous 2+ jetons dos, on garde le prix le plus élevé)")
+
 # ── Groupement des produits CM par (set_code, norm_name) ─────────────────────
 print("\nGroupement produits CM...")
 
@@ -405,6 +446,8 @@ multi_matched = Counter()   # (exp_id, set_code) → nb produits matchés
 multi_orphans = []           # produits multi non matchés
 
 for prod in singles_data["products"]:
+    if prod["idProduct"] in _excluded_dupe_ids:
+        continue
     exp_id = prod["idExpansion"]
     if exp_id not in EXPANSION_MAP:
         unmapped_exp[exp_id] += 1
@@ -502,27 +545,44 @@ for key, swu_info in swu_cards.items():
     if is_weekly:
         std_key, foil_key = "weekly_play", "weekly_play_foil"
     elif is_special:
-        # Pour les sets spéciaux purs : la clé est celle de leur unique variant type
-        primary_vt = next((vt for _, vt in all_variants if vt != "Standard"), None)
-        std_key  = _VT_TO_KEY.get(primary_vt, "standard") if primary_vt else "standard"
-        foil_key = std_key  # pas de distinction foil/non-foil pour ces sets
+        # Pour les sets spéciaux purs : normalement la clé est celle de leur
+        # unique variant type. Mais certaines cartes ont plusieurs variantes au
+        # sein du même set spécial (ex: HK-47 en P26 a à la fois "SQ Prize Wall"
+        # et "SQ Event Pack") — dans ce cas, matching positionnel produit-CM /
+        # variante-SWU (comme pour les nouveaux sets) au lieu d'une seule clé
+        # qui n'en couvrirait qu'une et jetterait l'autre.
+        distinct_vts = {vt for _, vt in all_variants}
+        if len(distinct_vts) > 1:
+            special_variants = sorted(all_variants, key=lambda x: (x[0] if x[0] is not None else 9999))
+            cm_prods_sorted  = sorted(cm_data["standard"], key=lambda x: x[0])
+            for (idp, pr, _), (cn, vt) in zip(cm_prods_sorted, special_variants):
+                k = _VT_TO_KEY.get(vt, vt.lower().replace(" ", "_"))
+                if k not in prices_out:
+                    prices_out[k] = {"idProduct": idp, "card_number": cn, **price_entry(pr)}
+            std_key = foil_key = None
+        else:
+            primary_vt = next((vt for _, vt in all_variants if vt != "Standard"), None)
+            std_key  = (_VT_TO_KEY.get(primary_vt, primary_vt.lower().replace(" ", "_"))
+                        if primary_vt else "standard")
+            foil_key = std_key  # pas de distinction foil/non-foil pour ces sets
     else:
         std_key, foil_key = "standard", "standard_foil"
 
-    for idp, pr, _ in sorted(cm_data["standard"], key=lambda x: x[0]):
-        if is_foil_only(pr):
-            if foil_key not in prices_out:
-                prices_out[foil_key] = {"idProduct": idp, **price_entry(pr)}
-            # Anciens sets : un produit foil-only couvre quand même la variante non-foil
-            if is_old_set and std_key not in prices_out:
-                prices_out[std_key] = {"idProduct": idp, **price_entry(pr)}
-        else:
-            if std_key not in prices_out:
-                prices_out[std_key] = {"idProduct": idp, **price_entry(pr)}
-            # Anciens sets / multi-prods : avg-foil dans même produit (ou avg1-foil si avg-foil nul)
-            if _has_foil_price(pr) and foil_key not in prices_out and foil_key != std_key:
-                _pe = foil_price_entry if (is_old_set and card_type != "Leader") else price_entry
-                prices_out[foil_key] = {"idProduct": idp, **_pe(pr)}
+    if std_key is not None:
+        for idp, pr, _ in sorted(cm_data["standard"], key=lambda x: x[0]):
+            if is_foil_only(pr):
+                if foil_key not in prices_out:
+                    prices_out[foil_key] = {"idProduct": idp, **price_entry(pr)}
+                # Anciens sets : un produit foil-only couvre quand même la variante non-foil
+                if is_old_set and std_key not in prices_out:
+                    prices_out[std_key] = {"idProduct": idp, **price_entry(pr)}
+            else:
+                if std_key not in prices_out:
+                    prices_out[std_key] = {"idProduct": idp, **price_entry(pr)}
+                # Anciens sets / multi-prods : avg-foil dans même produit (ou avg1-foil si avg-foil nul)
+                if _has_foil_price(pr) and foil_key not in prices_out and foil_key != std_key:
+                    _pe = foil_price_entry if (is_old_set and card_type != "Leader") else price_entry
+                    prices_out[foil_key] = {"idProduct": idp, **_pe(pr)}
 
     # ── Weekly Play (anciens sets SOR/SHD/TWI) ─────────────────────────────
     if is_old_set and cm_data["weekly"]:
