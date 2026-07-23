@@ -78,43 +78,38 @@ L'app détecte automatiquement le nouveau set au prochain lancement (via le refr
 
 ## Mettre à jour les prix Cardmarket
 
-Les prix sont fournis par [Cardmarket](https://www.cardmarket.com) via leurs fichiers d'export JSON.
-Cardmarket ne fournit plus d'API directe — les fichiers sont disponibles dans l'espace développeur du compte.
+Les prix sont fournis par [Cardmarket](https://www.cardmarket.com) via leurs fichiers d'export JSON publics.
+Le suffixe `_21` dans les URLs est l'ID de catégorie SWU sur Cardmarket — il ne changera pas.
 
-### Fichiers à télécharger depuis Cardmarket
-
-| Fichier Cardmarket | À renommer en | Destination |
-|---|---|---|
-| `products_singles_21.json` | `products_singles.json` | `cardmarket/` |
-| `price_guide_21.json` (le plus récent) | `price_guide.json` | `cardmarket/` |
-
-> **Note :** le suffixe `_21` est l'ID de catégorie SWU sur Cardmarket — il ne changera pas.
-> Si Cardmarket publie plusieurs versions du price guide le même jour, prendre le fichier le plus récent.
-
-### Procédure de mise à jour
-
-```bash
-# Copier les fichiers renommés dans le repo
-cp ~/Desktop/products_singles.json cardmarket/
-cp ~/Desktop/price_guide.json cardmarket/
-
-git add cardmarket/
-git commit -m "Mise à jour prix Cardmarket [YYYY-MM-DD]"
-git push
-```
-
-**C'est tout.** GitHub Actions se charge du reste automatiquement.
+Tout est **automatique**, aucune manipulation manuelle requise :
 
 ### Ce que fait GitHub Actions
 
-Déclenchement automatique à chaque push modifiant `cardmarket/products_singles.json` ou `cardmarket/price_guide.json`.
+1. **`fetch_price_guide.yml`** (tous les jours à 00h01 UTC, ou déclenchement manuel) :
+   télécharge `price_guide_21.json` → `cardmarket/price_guide.json` et
+   `products_singles_21.json` → `cardmarket/products_singles.json`, puis commit/push si changement.
+2. **`generate_prices.yml`** (déclenché automatiquement à la suite du workflow ci-dessus,
+   ou à tout push modifiant `cardmarket/*.json`) :
+   - Exécute `scripts/generate_prices.py`
+   - Génère `prices/cardmarket_prices.json` — prix actuels par carte et variante
+   - Met à jour `prices/cardmarket_prices_history.json` — ajoute un snapshot daté (les anciens snapshots sont conservés)
+   - Commite et pousse les fichiers générés
 
-1. Exécute `scripts/generate_prices.py`
-2. Génère `prices/cardmarket_prices.json` — prix actuels par carte et variante
-3. Met à jour `prices/cardmarket_prices_history.json` — ajoute un snapshot daté (les anciens snapshots sont conservés)
-4. Commite et pousse les deux fichiers générés
+Les deux workflows peuvent aussi être relancés manuellement depuis l'onglet **Actions** du repo sur GitHub.
 
-Le workflow peut aussi être relancé manuellement depuis l'onglet **Actions** du repo sur GitHub.
+### Ajouter un nouveau set aux prix Cardmarket
+
+Rien à faire dans `scripts/generate_prices.py` : la liste des sets pris en charge
+(`SET_FILES`, `WEEKLY_PLAY_SETS`, `SPECIAL_PURE_SETS`) est dérivée automatiquement de
+`manifest.json` à chaque exécution. Il suffit d'avoir suivi la procédure
+["Ajouter un nouveau set"](#ajouter-un-nouveau-set) ci-dessus (fichier dans `sets/` + entrée
+dans `manifest.json`) pour que le set soit pris en compte au prochain run.
+
+Seul le mapping `EXPANSION_MAP_CONFIRMED` (idExpansion Cardmarket → set) reste manuel : au
+premier run suivant l'apparition d'un nouveau set chez Cardmarket, le script tente un
+auto-mapping par similarité de noms et l'affiche dans les logs avec `⚠️ À CONFIRMER` — il est
+recommandé de le reporter ensuite en dur dans `EXPANSION_MAP_CONFIRMED` pour fiabiliser les runs
+suivants.
 
 ### Historique des prix
 
@@ -139,7 +134,8 @@ L'app utilise cet historique pour afficher les graphes d'évolution des prix dan
 |---|---|
 | SOR, SHD, TWI, JTL, LOF, SEC, LAW | ~100% (Standard, Hyperspace, Foil, Prestige, Showcase) |
 | IBH, P25, P26 | 96–100% |
-| C24, C25, GG, J24, J25, JTLW, LOFW, SECW, TS26 | 0% — non disponibles sur Cardmarket |
+| C24, C25, GG, J24, J25, TS26 | 0% — non disponibles sur Cardmarket |
+| JTLP, LOFP, SECP, LAWP, ASH, ASHP | à revérifier après la correction du #98 (codes W→P) et du bug ASH — voir historique du repo |
 
 Les tokens (Experience, Shield, etc.) ne sont pas vendus séparément sur Cardmarket — normal.
 Les variantes **Prestige** et **Serialized Prestige** sont couvertes à partir de JTL.
