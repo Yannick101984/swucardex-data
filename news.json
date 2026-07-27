@@ -1,5 +1,13 @@
 [
   {
+    "id": "homeworlds-fr",
+    "title": "Mondes Natals",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_09_Article_First_Look_preview_56edb1b552.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/homeworlds-fr",
+    "date": "2026-07-26",
+    "summary": "Un premier aperçu du nouveau Set de Star Wars™: Unlimited"
+  },
+  {
     "id": "draft-primer-ashes-of-the-empire-fr",
     "title": "Jouer les Cendres de l’Empire au format Draft",
     "imageURL": "https://cdn.starwarsunlimited.com//SWH_08_Draft_Primer_preview_The_Cyborg_Mech_c21a4e901f.jpg",
