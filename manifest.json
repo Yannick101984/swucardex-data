@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "lastUpdated": "2026-07-18",
+  "lastUpdated": "2026-07-29",
   "latestMainSet": "law",
   "announcement": {
     "id": "ann-1781021226",
@@ -50,7 +50,7 @@
     },
     {
       "id": "jtl",
-      "dataVersion": 3,
+      "dataVersion": 4,
       "code": "JTL",
       "name": "Passage en Vitesse Lumière",
       "type": "main",
@@ -63,7 +63,7 @@
     },
     {
       "id": "lof",
-      "dataVersion": 3,
+      "dataVersion": 4,
       "code": "LOF",
       "name": "Légendes de la Force",
       "type": "main",
@@ -76,7 +76,7 @@
     },
     {
       "id": "sec",
-      "dataVersion": 3,
+      "dataVersion": 4,
       "code": "SEC",
       "name": "Secrets du Pouvoir",
       "type": "main",
@@ -141,7 +141,7 @@
     },
     {
       "id": "c25",
-      "dataVersion": 3,
+      "dataVersion": 4,
       "code": "C25",
       "name": "2025 Convention Exclusive",
       "type": "special",
@@ -167,7 +167,7 @@
     },
     {
       "id": "j25",
-      "dataVersion": 3,
+      "dataVersion": 4,
       "code": "J25",
       "name": "2025 Judge Program",
       "type": "promo",
