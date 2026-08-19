@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "lastUpdated": "2026-07-29",
+  "lastUpdated": "2026-08-19",
   "latestMainSet": "law",
   "announcement": {
     "id": "ann-1781021226",
@@ -232,7 +232,7 @@
     },
     {
       "id": "p26",
-      "dataVersion": 4,
+      "dataVersion": 5,
       "code": "P26",
       "name": "2026 Promo",
       "type": "promo",
