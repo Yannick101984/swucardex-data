@@ -241,7 +241,7 @@
       "foilShared": false,
       "logoURL": null,
       "artworkURL": null,
-      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/staging/sets/p26.json"
+      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/p26.json"
     },
     {
       "id": "secp",
@@ -306,7 +306,7 @@
       "foilShared": false,
       "logoURL": null,
       "artworkURL": null,
-      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/staging/sets/mv26.json"
+      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/mv26.json"
     },
     {
       "id": "c26",
@@ -319,7 +319,7 @@
       "foilShared": false,
       "logoURL": null,
       "artworkURL": null,
-      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/staging/sets/c26.json"
+      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/c26.json"
     },
     {
       "id": "ashp",
@@ -332,7 +332,7 @@
       "foilShared": false,
       "logoURL": null,
       "artworkURL": null,
-      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/staging/sets/ashp.json"
+      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/ashp.json"
     }
   ]
 }
