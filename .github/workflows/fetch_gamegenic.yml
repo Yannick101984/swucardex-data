@@ -1,0 +1,41 @@
+name: Mettre à jour le catalogue Gamegenic
+
+on:
+  schedule:
+    - cron: "30 2 * * 1"  # chaque lundi à 02h30 UTC
+  workflow_dispatch:       # déclenchement manuel depuis GitHub
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    strategy:
+      fail-fast: false
+      matrix:
+        branch: [main, staging]
+
+    steps:
+      - name: Checkout ${{ matrix.branch }}
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ matrix.branch }}
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Synchroniser le catalogue et télécharger les nouvelles images
+        run: python3 scripts/fetch_gamegenic.py --repo-root .
+
+      - name: Commit et push si modifié
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add accessories/catalogue.json accessories/images/
+          git diff --cached --quiet && echo "Aucun changement." || (
+            git commit -m "Auto: catalogue Gamegenic mis à jour [$(date '+%Y-%m-%d')]"
+            git push origin HEAD:${{ matrix.branch }}
+          )

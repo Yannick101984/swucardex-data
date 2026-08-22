@@ -1,0 +1,338 @@
+[
+  {
+    "setCode": "core",
+    "setName": "Gamme Core",
+    "slug": "star-wars-unlimited-battle-zone-game-mat",
+    "productGroup": "Battle Zone Game Mat",
+    "category": "Playmat"
+  },
+  {
+    "setCode": "core",
+    "setName": "Gamme Core",
+    "slug": "star-wars-unlimited-swu-core-products-casual-album-18-pocket",
+    "productGroup": "Casual Album 18-Pocket",
+    "category": "Album"
+  },
+  {
+    "setCode": "core",
+    "setName": "Gamme Core",
+    "slug": "star-wars-unlimited-damage-pad",
+    "productGroup": "Damage Pad",
+    "category": "Accessory"
+  },
+  {
+    "setCode": "core",
+    "setName": "Gamme Core",
+    "slug": "deck-pod",
+    "productGroup": "Deck Pod",
+    "category": "Deck Pod"
+  },
+  {
+    "setCode": "core",
+    "setName": "Gamme Core",
+    "slug": "double-deck-pod",
+    "productGroup": "Double Deck Pod",
+    "category": "Deck Pod"
+  },
+  {
+    "setCode": "core",
+    "setName": "Gamme Core",
+    "slug": "star-wars-unlimited-swu-core-products-game-mat",
+    "productGroup": "Game Mat",
+    "category": "Playmat"
+  },
+  {
+    "setCode": "core",
+    "setName": "Gamme Core",
+    "slug": "swu-game-mat-xl",
+    "productGroup": "Game Mat XL",
+    "category": "Playmat"
+  },
+  {
+    "setCode": "core",
+    "setName": "Gamme Core",
+    "slug": "star-wars-unlimited-swu-core-products-premium-art-sleeves",
+    "productGroup": "Premium Art Sleeves",
+    "category": "Sleeves"
+  },
+  {
+    "setCode": "core",
+    "setName": "Gamme Core",
+    "slug": "star-wars-unlimited-premium-cardport-xl",
+    "productGroup": "Premium Cardport XL – 24 Pocket",
+    "category": "Binder"
+  },
+  {
+    "setCode": "core",
+    "setName": "Gamme Core",
+    "slug": "star-wars-unlimited-premium-tokens-pro",
+    "productGroup": "Premium Tokens PRO",
+    "category": "Tokens"
+  },
+  {
+    "setCode": "core",
+    "setName": "Gamme Core",
+    "slug": "star-wars-unlimited-premium-tokens-pro-expansion-pack",
+    "productGroup": "Premium Tokens PRO – Expansion Pack",
+    "category": "Tokens"
+  },
+  {
+    "setCode": "core",
+    "setName": "Gamme Core",
+    "slug": "star-wars-unlimited-swu-core-products-soft-crate",
+    "productGroup": "Soft Crate",
+    "category": "Storage"
+  },
+  {
+    "setCode": "core",
+    "setName": "Gamme Core",
+    "slug": "star-wars-unlimited-twin-suns-deck-pod",
+    "productGroup": "Twin Suns Deck Pod",
+    "category": "Deck Pod"
+  },
+  {
+    "setCode": "core",
+    "setName": "Gamme Core",
+    "slug": "star-wars-unlimited-twin-suns-soft-crate",
+    "productGroup": "Twin Suns Soft Crate",
+    "category": "Storage"
+  },
+  {
+    "setCode": "core",
+    "setName": "Gamme Core",
+    "slug": "star-wars-unlimited-zip-up-album",
+    "productGroup": "Zip-Up Album 18-Pocket",
+    "category": "Album"
+  },
+  {
+    "setCode": "sor",
+    "setName": "Spark of Rebellion (Set1)",
+    "slug": "star-wars-unlimited-sor-game-mat",
+    "productGroup": "Game Mat",
+    "category": "Playmat"
+  },
+  {
+    "setCode": "sor",
+    "setName": "Spark of Rebellion (Set1)",
+    "slug": "star-wars-unlimited-sor-premium-art-sleeves",
+    "productGroup": "Premium Art Sleeves",
+    "category": "Sleeves"
+  },
+  {
+    "setCode": "sor",
+    "setName": "Spark of Rebellion (Set1)",
+    "slug": "star-wars-unlimited-sor-soft-crate",
+    "productGroup": "Soft Crate",
+    "category": "Storage"
+  },
+  {
+    "setCode": "shd",
+    "setName": "Shadows of the Galaxy (Set2)",
+    "slug": "star-wars-unlimited-shd-game-mat",
+    "productGroup": "Game Mat",
+    "category": "Playmat"
+  },
+  {
+    "setCode": "shd",
+    "setName": "Shadows of the Galaxy (Set2)",
+    "slug": "star-wars-unlimited-shd-premium-art-sleeves",
+    "productGroup": "Premium Art Sleeves",
+    "category": "Sleeves"
+  },
+  {
+    "setCode": "shd",
+    "setName": "Shadows of the Galaxy (Set2)",
+    "slug": "star-wars-unlimited-shd-soft-crate",
+    "productGroup": "Soft Crate",
+    "category": "Storage"
+  },
+  {
+    "setCode": "twi",
+    "setName": "Twilight of the Republic (Set3)",
+    "slug": "star-wars-unlimited-twi-game-mat",
+    "productGroup": "Game Mat",
+    "category": "Playmat"
+  },
+  {
+    "setCode": "twi",
+    "setName": "Twilight of the Republic (Set3)",
+    "slug": "star-wars-unlimited-twi-premium-art-sleeves",
+    "productGroup": "Premium Art Sleeves",
+    "category": "Sleeves"
+  },
+  {
+    "setCode": "twi",
+    "setName": "Twilight of the Republic (Set3)",
+    "slug": "star-wars-unlimited-twi-soft-crate",
+    "productGroup": "Soft Crate",
+    "category": "Storage"
+  },
+  {
+    "setCode": "jtl",
+    "setName": "Jump to Lightspeed (Set4)",
+    "slug": "star-wars-unlimited-jtl-casual-album-18-pocket",
+    "productGroup": "Casual Album 18-Pocket",
+    "category": "Album"
+  },
+  {
+    "setCode": "jtl",
+    "setName": "Jump to Lightspeed (Set4)",
+    "slug": "star-wars-unlimited-jtl-game-mat",
+    "productGroup": "Game Mat",
+    "category": "Playmat"
+  },
+  {
+    "setCode": "jtl",
+    "setName": "Jump to Lightspeed (Set4)",
+    "slug": "star-wars-unlimited-jtl-premium-art-sleeves",
+    "productGroup": "Premium Art Sleeves",
+    "category": "Sleeves"
+  },
+  {
+    "setCode": "jtl",
+    "setName": "Jump to Lightspeed (Set4)",
+    "slug": "star-wars-unlimited-jtl-soft-crate",
+    "productGroup": "Soft Crate",
+    "category": "Storage"
+  },
+  {
+    "setCode": "jtl",
+    "setName": "Jump to Lightspeed (Set4)",
+    "slug": "star-wars-unlimited-jtl-twin-suns-soft-crate",
+    "productGroup": "Twin Suns Soft Crate",
+    "category": "Storage"
+  },
+  {
+    "setCode": "jtl",
+    "setName": "Jump to Lightspeed (Set4)",
+    "slug": "star-wars-unlimited-jtl-xtra-wide-game-mat",
+    "productGroup": "Xtra-Wide Game Mat",
+    "category": "Playmat"
+  },
+  {
+    "setCode": "lof",
+    "setName": "Legends of the Force (Set5)",
+    "slug": "star-wars-unlimited-lof-casual-album-18-pocket",
+    "productGroup": "Casual Album 18-Pocket",
+    "category": "Album"
+  },
+  {
+    "setCode": "lof",
+    "setName": "Legends of the Force (Set5)",
+    "slug": "star-wars-unlimited-lof-game-mat",
+    "productGroup": "Game Mat",
+    "category": "Playmat"
+  },
+  {
+    "setCode": "lof",
+    "setName": "Legends of the Force (Set5)",
+    "slug": "star-wars-unlimited-lof-premium-art-sleeves",
+    "productGroup": "Premium Art Sleeves",
+    "category": "Sleeves"
+  },
+  {
+    "setCode": "lof",
+    "setName": "Legends of the Force (Set5)",
+    "slug": "star-wars-unlimited-lof-soft-crate",
+    "productGroup": "Soft Crate",
+    "category": "Storage"
+  },
+  {
+    "setCode": "sec",
+    "setName": "Secrets of Power (Set6)",
+    "slug": "star-wars-unlimited-sec-game-mat",
+    "productGroup": "Game Mat",
+    "category": "Playmat"
+  },
+  {
+    "setCode": "sec",
+    "setName": "Secrets of Power (Set6)",
+    "slug": "star-wars-unlimited-sec-premium-art-sleeves",
+    "productGroup": "Premium Art Sleeves",
+    "category": "Sleeves"
+  },
+  {
+    "setCode": "sec",
+    "setName": "Secrets of Power (Set6)",
+    "slug": "star-wars-unlimited-sec-soft-crate",
+    "productGroup": "Soft Crate",
+    "category": "Storage"
+  },
+  {
+    "setCode": "law",
+    "setName": "A Lawless Time (Set7)",
+    "slug": "star-wars-unlimited-law-casual-album-18-pocket",
+    "productGroup": "Casual Album 18-Pocket",
+    "category": "Album"
+  },
+  {
+    "setCode": "law",
+    "setName": "A Lawless Time (Set7)",
+    "slug": "star-wars-unlimited-law-game-mat",
+    "productGroup": "Game Mat",
+    "category": "Playmat"
+  },
+  {
+    "setCode": "law",
+    "setName": "A Lawless Time (Set7)",
+    "slug": "star-wars-unlimited-law-premium-art-sleeves",
+    "productGroup": "Premium Art Sleeves",
+    "category": "Sleeves"
+  },
+  {
+    "setCode": "law",
+    "setName": "A Lawless Time (Set7)",
+    "slug": "star-wars-unlimited-law-soft-crate",
+    "productGroup": "Soft Crate",
+    "category": "Storage"
+  },
+  {
+    "setCode": "ash",
+    "setName": "Ashes of the Empire (Set8)",
+    "slug": "star-wars-unlimited-ash-deck-pod",
+    "productGroup": "Deck Pod",
+    "category": "Deck Pod"
+  },
+  {
+    "setCode": "ash",
+    "setName": "Ashes of the Empire (Set8)",
+    "slug": "star-wars-unlimited-ash-double-deck-pod",
+    "productGroup": "Double Deck Pod",
+    "category": "Deck Pod"
+  },
+  {
+    "setCode": "ash",
+    "setName": "Ashes of the Empire (Set8)",
+    "slug": "star-wars-unlimited-ash-double-sided-game-mat",
+    "productGroup": "Double-Sided Game Mat",
+    "category": "Playmat"
+  },
+  {
+    "setCode": "ash",
+    "setName": "Ashes of the Empire (Set8)",
+    "slug": "star-wars-unlimited-ash-game-mat",
+    "productGroup": "Game Mat",
+    "category": "Playmat"
+  },
+  {
+    "setCode": "ash",
+    "setName": "Ashes of the Empire (Set8)",
+    "slug": "star-wars-unlimited-ash-premium-art-sleeves",
+    "productGroup": "Premium Art Sleeves",
+    "category": "Sleeves"
+  },
+  {
+    "setCode": "ash",
+    "setName": "Ashes of the Empire (Set8)",
+    "slug": "star-wars-unlimited-ash-shiny-game-mat",
+    "productGroup": "Shiny Game Mat",
+    "category": "Playmat"
+  },
+  {
+    "setCode": "ash",
+    "setName": "Ashes of the Empire (Set8)",
+    "slug": "star-wars-unlimited-ash-zip-up-album18-pocket",
+    "productGroup": "Zip-Up Album 18-Pocket",
+    "category": "Album"
+  }
+]
