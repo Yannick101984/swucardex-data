@@ -291,6 +291,102 @@ def download_image(url: str, dest: Path) -> bool:
         return False
 
 
+def _alphanum(s: str) -> str:
+    """Minuscules, retire tout sauf lettres/chiffres, supprime numéro de fin de version."""
+    s = re.sub(r"\s+\d+$", "", s.lower())
+    return re.sub(r"[^a-z0-9]", "", s)
+
+
+def _word_set(s: str) -> set[str]:
+    """Mots significatifs (min 2 chars), après remplacement hyphènes par espaces."""
+    s = re.sub(r"[-]", " ", s.lower())
+    return {w for w in re.sub(r"[^a-z0-9 ]", "", s).split() if len(w) >= 2}
+
+
+def _levenshtein(a: str, b: str) -> int:
+    """Distance d'édition simple (rejet rapide si différence de taille > 3)."""
+    if abs(len(a) - len(b)) > 3:
+        return 999
+    dp = list(range(len(b) + 1))
+    for ca in a:
+        prev, dp[0] = dp[0], dp[0] + 1
+        for j, cb in enumerate(b, 1):
+            prev, dp[j] = dp[j], prev if ca == cb else 1 + min(prev, dp[j], dp[j - 1])
+    return dp[len(b)]
+
+
+def _find_fuzzy_match(
+    set_code: str,
+    product_group: str,
+    clean_name: str,
+    attr_value: str,
+    catalogue: dict[str, dict],
+) -> str | None:
+    """
+    Cherche un item existant dans le catalogue qui correspond au même produit
+    mais avec un attr_value/nom différent (Gamegenic renomme parfois ses attributs).
+    Retourne l'ID de l'item existant si trouvé, None sinon.
+    """
+    candidates = [
+        item for item in catalogue.values()
+        if item["setCode"] == set_code and item["productGroup"] == product_group
+    ]
+    if not candidates:
+        return None
+
+    target_raw = clean_name or attr_value
+
+    # Variant générique sans discriminant (nom == groupe produit) avec plusieurs variants :
+    # impossible de déterminer lequel matcher → skip
+    if _alphanum(target_raw) == _alphanum(product_group) and len(candidates) > 1:
+        return None
+
+    target_an = _alphanum(target_raw)
+    target_words = _word_set(target_raw)
+    target_sorted = sorted(target_an)
+
+    for candidate in candidates:
+        cand_name = candidate.get("variantName", "")
+        cand_an = _alphanum(cand_name)
+        cand_words = _word_set(cand_name)
+
+        # 1. Correspondance alphanum exacte (ignore tirets/espaces/numéros de version)
+        if target_an == cand_an:
+            return candidate["id"]
+
+        # 2. L'un est contenu dans l'autre (ex: "Darth Maul" ⊂ "Darth Maul 2")
+        if target_an and cand_an:
+            if target_an in cand_an or cand_an in target_an:
+                return candidate["id"]
+
+        # 3. Mêmes caractères dans un ordre différent (ex: "C-3PO R2-D2" vs "R2-D2 C-3PO")
+        if target_sorted == sorted(cand_an):
+            return candidate["id"]
+
+        # 4. Tous les mots du plus court sont dans le plus long
+        # (ex: "Ahsoka Grievous" ⊆ "Ahsoka General Grievous",
+        #      "Obi Wan Darth Maul" ⊆ "Obi-Wan Kenobi Darth Maul")
+        if target_words and cand_words:
+            shorter, longer = (
+                (target_words, cand_words)
+                if len(target_words) <= len(cand_words)
+                else (cand_words, target_words)
+            )
+            if shorter and shorter.issubset(longer):
+                return candidate["id"]
+
+        # 5. Distance de Levenshtein ≤ 2 (ex: "millenium" vs "millennium")
+        if target_an and cand_an and _levenshtein(target_an, cand_an) <= 2:
+            return candidate["id"]
+
+    # Si le produit n'a qu'une seule variante dans le catalogue,
+    # c'est forcément le même article avec un attr_value différent
+    if len(candidates) == 1:
+        return candidates[0]["id"]
+
+    return None
+
+
 def sync_variants(
     products: list[dict],
     existing_catalogue_ids: dict[str, dict],
@@ -360,6 +456,35 @@ def sync_variants(
                         print(f"   ✓ déjà présent (pas d'attribut) : {item_id}")
                 else:
                     print(f"   ✓ déjà présent : {item_id}")
+                continue
+
+            # ID non trouvé : vérifier si un item existant correspond au même produit
+            # (Gamegenic peut changer les attr_value d'un produit sans changer l'article)
+            fuzzy = _find_fuzzy_match(
+                set_code, product_group, clean_name, attr_value, existing_catalogue_ids
+            )
+            if fuzzy:
+                fuzzy_item = existing_catalogue_ids[fuzzy]
+                current_direct = fuzzy_item.get("directUrl")
+                if not current_direct or current_direct == fuzzy_item.get("productPageUrl", ""):
+                    fuzzy_item["directUrl"] = direct_url
+                    if direct_url != product_url:
+                        backfilled += 1
+                        print(f"   ↺ directUrl (fuzzy→{fuzzy}) : {fuzzy}")
+                    else:
+                        print(f"   ✓ déjà présent (fuzzy, pas d'attribut) : {fuzzy}")
+                else:
+                    print(f"   ✓ déjà présent (fuzzy→{fuzzy})")
+                continue
+
+            # Si le nom du variant est générique (== groupe produit) et qu'il existe déjà
+            # des variants pour ce groupe, on ignore ce variant ambigu
+            existing_for_group = [
+                i for i in existing_catalogue_ids.values()
+                if i["setCode"] == set_code and i["productGroup"] == product_group
+            ]
+            if _alphanum(clean_name) == _alphanum(product_group) and existing_for_group:
+                print(f"   ~ ignoré (variant générique ambigu) : {item_id}")
                 continue
 
             img_filename = (
