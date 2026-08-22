@@ -19,6 +19,7 @@ Usage : python3 scripts/fetch_gamegenic.py --repo-root .
 from __future__ import annotations
 
 import argparse
+import html as html_module
 import json
 import re
 import sys
@@ -65,6 +66,13 @@ CATEGORY_KEYWORDS: list[tuple[str, str]] = [
 
 
 # ── Réseau ────────────────────────────────────────────────────────────────────
+
+def strip_html(text: str) -> str:
+    """Retire les balises HTML et décode les entités HTML."""
+    text = re.sub(r"<[^>]+>", " ", text)
+    text = html_module.unescape(text)
+    return re.sub(r"\s+", " ", text).strip()
+
 
 def fetch_json(url: str, use_jina: bool = False) -> dict | list | None:
     """Récupère du JSON depuis une URL, avec fallback via r.jina.ai."""
@@ -208,31 +216,50 @@ def fetch_product_variants(slug: str) -> list[dict]:
         return [{"id": product.get("id"), "name": product.get("name", ""), "imageUrl": img}]
 
     results: list[dict] = []
-    for var_id in variations:
+    for var_item in variations:
+        # L'API retourne soit un ID entier, soit un objet {"id": N, "attributes": [...]}
+        if isinstance(var_item, dict):
+            var_id = var_item.get("id")
+            pre_attrs = var_item.get("attributes", [])
+        else:
+            var_id = var_item
+            pre_attrs = []
+
         time.sleep(DELAY)
         var_data = fetch_with_fallback(f"{STORE_API}/{var_id}")
-        if not var_data or not isinstance(var_data, dict):
+
+        img = ""
+        var_name = ""
+        detail_attrs: list[dict] = []
+
+        if var_data and isinstance(var_data, dict):
+            images = var_data.get("images", [])
+            if images:
+                img = images[0].get("src", "")
+            var_name = var_data.get("name", "")
+            detail_attrs = var_data.get("attributes", [])
+        elif not pre_attrs:
             print(f"  [SKIP] variante {var_id} introuvable", file=sys.stderr)
             continue
-        img = ""
-        images = var_data.get("images", [])
-        if images:
-            img = images[0].get("src", "")
-        # Capturer le premier attribut pour construire l'URL directe de la variante
+
+        # Attribut : priorité aux données détaillées, sinon pré-extraites
         attr_param = ""
         attr_value = ""
-        for attr in var_data.get("attributes", []):
-            # Support des deux formats WooCommerce Store API (v1 et v2+)
-            slug = attr.get("slug", attr.get("attribute", ""))
+        for attr in (detail_attrs or pre_attrs):
+            # Formats possibles : {slug, value}, {attribute, value}, {name, value}
+            slug = attr.get("slug") or attr.get("attribute") or ""
+            name = attr.get("name", "")
             value = attr.get("value", "")
+            if not slug and name:
+                slug = name.lower().replace(" ", "_")
             if slug and value:
-                # Le param URL est toujours "pa_xxx" même si l'API retourne "xxx"
                 attr_param = slug if slug.startswith("pa_") else f"pa_{slug}"
                 attr_value = value
                 break
+
         results.append({
             "id": var_id,
-            "name": var_data.get("name", ""),
+            "name": var_name,
             "imageUrl": img,
             "attrParam": attr_param,
             "attrValue": attr_value,
@@ -269,9 +296,14 @@ def sync_variants(
     existing_catalogue_ids: dict[str, dict],
     images_dir: Path,
     dry_run: bool,
-) -> list[dict]:
-    """Traite tous les produits de products.json, retourne les nouveaux items de catalogue."""
+) -> tuple[list[dict], int]:
+    """
+    Traite tous les produits de products.json.
+    Retourne (nouveaux_items, nb_backfills).
+    Backfille aussi directUrl sur les items existants qui n'en ont pas encore.
+    """
     new_items: list[dict] = []
+    backfilled = 0
 
     for product in products:
         set_code = product["setCode"]
@@ -285,20 +317,49 @@ def sync_variants(
         variants = fetch_product_variants(slug)
 
         for var in variants:
-            variant_name = var["name"]
+            variant_name = strip_html(var["name"])
             clean_name = re.sub(
-                r"(?i)star\s*wars[™\s]*:?\s*unlimited\s*", "", variant_name
+                r"(?i)star\s*wars[™\s]*:?\s*unlimited\s*[™\s]*", "", variant_name
             ).strip()
             if clean_name.upper().startswith(product_group.upper()):
                 clean_name = clean_name[len(product_group):].strip("– -").strip()
-            if not clean_name:
-                clean_name = product_group
 
-            var_slug = slugify_variant(clean_name or str(var["id"]))
+            # Calculer directUrl dès maintenant (utilisé aussi pour le backfill)
+            attr_param = var.get("attrParam", "")
+            attr_value = var.get("attrValue", "")
+
+            # var_slug utilise la valeur d'attribut (format original des IDs)
+            # Si pas d'attr_value, on tombe sur clean_name ou product_group
+            if attr_value:
+                var_slug = slugify_variant(attr_value)
+            elif clean_name:
+                var_slug = slugify_variant(clean_name)
+            else:
+                var_slug = slugify_variant(str(var["id"]))
+
+            if not clean_name:
+                clean_name = attr_value.replace("-", " ").title() if attr_value else product_group
+
             item_id = make_item_id(set_code, product_group, var_slug)
+            direct_url = (
+                f"{product_url}?attribute_{attr_param}={attr_value}"
+                if attr_param and attr_value
+                else product_url
+            )
 
             if item_id in existing_catalogue_ids:
-                print(f"   ✓ déjà présent : {item_id}")
+                existing = existing_catalogue_ids[item_id]
+                current_direct = existing.get("directUrl")
+                # Backfill si directUrl absent ou identique à l'URL générique
+                if not current_direct or current_direct == existing.get("productPageUrl", ""):
+                    existing["directUrl"] = direct_url
+                    if direct_url != product_url:
+                        backfilled += 1
+                        print(f"   ↺ directUrl : {item_id}")
+                    else:
+                        print(f"   ✓ déjà présent (pas d'attribut) : {item_id}")
+                else:
+                    print(f"   ✓ déjà présent : {item_id}")
                 continue
 
             img_filename = (
@@ -313,15 +374,6 @@ def sync_variants(
                     print(f"   ↓ image : {img_filename}")
                 else:
                     img_url_github = var.get("imageUrl", "")
-
-            # URL directe avec pré-sélection de la variante (attribute WooCommerce)
-            attr_param = var.get("attrParam", "")
-            attr_value = var.get("attrValue", "")
-            direct_url = (
-                f"{product_url}?attribute_{attr_param}={attr_value}"
-                if attr_param and attr_value
-                else product_url
-            )
 
             new_item = {
                 "id": item_id,
@@ -342,7 +394,7 @@ def sync_variants(
 
         time.sleep(DELAY)
 
-    return new_items
+    return new_items, backfilled
 
 
 # ── Point d'entrée ────────────────────────────────────────────────────────────
@@ -396,20 +448,20 @@ def main() -> None:
     # ── Phase 2 : Synchronisation des variantes ───────────────────────────────
     print("→ Phase 2 : Synchronisation des variantes…")
     images_dir.mkdir(parents=True, exist_ok=True)
-    new_items = sync_variants(products, existing_catalogue_ids, images_dir, args.dry_run)
+    new_items, backfilled = sync_variants(products, existing_catalogue_ids, images_dir, args.dry_run)
 
-    print(f"\n{len(new_items)} nouvelle(s) variante(s) ajoutée(s).")
+    print(f"\n{len(new_items)} nouvelle(s) variante(s) ajoutée(s), {backfilled} directUrl backfillé(s).")
 
-    if new_items and not args.dry_run:
+    if (new_items or backfilled) and not args.dry_run:
         catalogue.extend(new_items)
         catalogue_path.write_text(
             json.dumps(catalogue, indent=2, ensure_ascii=False) + "\n"
         )
         print(f"catalogue.json mis à jour ({len(catalogue)} items total).")
-    elif not new_items:
+    elif not new_items and not backfilled:
         print("catalogue.json inchangé.")
 
-    if args.dry_run and (new_items or products_changed):
+    if args.dry_run and (new_items or backfilled or products_changed):
         print("\n[dry-run] Aucun fichier modifié.")
 
 
