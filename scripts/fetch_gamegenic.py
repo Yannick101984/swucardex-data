@@ -218,7 +218,25 @@ def fetch_product_variants(slug: str) -> list[dict]:
         images = var_data.get("images", [])
         if images:
             img = images[0].get("src", "")
-        results.append({"id": var_id, "name": var_data.get("name", ""), "imageUrl": img})
+        # Capturer le premier attribut pour construire l'URL directe de la variante
+        attr_param = ""
+        attr_value = ""
+        for attr in var_data.get("attributes", []):
+            # Support des deux formats WooCommerce Store API (v1 et v2+)
+            slug = attr.get("slug", attr.get("attribute", ""))
+            value = attr.get("value", "")
+            if slug and value:
+                # Le param URL est toujours "pa_xxx" même si l'API retourne "xxx"
+                attr_param = slug if slug.startswith("pa_") else f"pa_{slug}"
+                attr_value = value
+                break
+        results.append({
+            "id": var_id,
+            "name": var_data.get("name", ""),
+            "imageUrl": img,
+            "attrParam": attr_param,
+            "attrValue": attr_value,
+        })
     return results
 
 
@@ -296,6 +314,15 @@ def sync_variants(
                 else:
                     img_url_github = var.get("imageUrl", "")
 
+            # URL directe avec pré-sélection de la variante (attribute WooCommerce)
+            attr_param = var.get("attrParam", "")
+            attr_value = var.get("attrValue", "")
+            direct_url = (
+                f"{product_url}?attribute_{attr_param}={attr_value}"
+                if attr_param and attr_value
+                else product_url
+            )
+
             new_item = {
                 "id": item_id,
                 "setCode": set_code,
@@ -306,6 +333,7 @@ def sync_variants(
                 "variantSlug": var_slug,
                 "imageURL": img_url_github,
                 "productPageUrl": product_url,
+                "directUrl": direct_url,
                 "acquired": False,
             }
             new_items.append(new_item)
