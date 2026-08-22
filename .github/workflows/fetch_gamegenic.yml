@@ -34,7 +34,7 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add accessories/catalogue.json accessories/images/
+          git add accessories/catalogue.json accessories/images/ accessories/products.json
           git diff --cached --quiet && echo "Aucun changement." || (
             git commit -m "Auto: catalogue Gamegenic mis à jour [$(date '+%Y-%m-%d')]"
             git push origin HEAD:${{ matrix.branch }}
