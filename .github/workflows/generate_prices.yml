@@ -1,10 +1,6 @@
 name: Générer cardmarket_prices.json
 
 on:
-  workflow_run:
-    workflows: ["Récupérer catalogue + price_guide Cardmarket"]
-    types:
-      - completed
   push:
     paths:
       - "cardmarket/products_singles.json"
@@ -15,7 +11,6 @@ on:
 jobs:
   generate:
     runs-on: ubuntu-latest
-    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
     permissions:
       contents: write
 
