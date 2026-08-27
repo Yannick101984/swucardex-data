@@ -545,14 +545,6 @@
   },
   {
     "set_code": "SHD",
-    "en_name": "Hylobon Enforcer",
-    "card_number": 305,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
     "en_name": "First Light, Headquarters of the Crimson Dawn",
     "card_number": 313,
     "variant_type": "Hyperspace",
@@ -601,8 +593,8 @@
   },
   {
     "set_code": "SHD",
-    "en_name": "Niima Outpost Constables",
-    "card_number": 337,
+    "en_name": "Vigilant Pursuit Craft",
+    "card_number": 339,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -649,14 +641,6 @@
   },
   {
     "set_code": "SHD",
-    "en_name": "Maz Kanata, Pirate Queen",
-    "card_number": 365,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
     "en_name": "Echo, Restored",
     "card_number": 368,
     "variant_type": "Hyperspace",
@@ -689,16 +673,16 @@
   },
   {
     "set_code": "SHD",
-    "en_name": "Cobb Vanth, The Marshal",
-    "card_number": 384,
+    "en_name": "Privateer Crew",
+    "card_number": 382,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
   },
   {
     "set_code": "SHD",
-    "en_name": "Outflank",
-    "card_number": 397,
+    "en_name": "Cobb Vanth, The Marshal",
+    "card_number": 384,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -713,16 +697,16 @@
   },
   {
     "set_code": "SHD",
-    "en_name": "Give In to Your Anger",
-    "card_number": 413,
+    "en_name": "Koska Reeves, Loyal Nite Owl",
+    "card_number": 419,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
   },
   {
     "set_code": "SHD",
-    "en_name": "Koska Reeves, Loyal Nite Owl",
-    "card_number": 419,
+    "en_name": "Poe Dameron, Quick to Improvise",
+    "card_number": 422,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -745,8 +729,8 @@
   },
   {
     "set_code": "SHD",
-    "en_name": "IG-11, I Cannot Be Captured",
-    "card_number": 439,
+    "en_name": "Hotshot DL-44 Blaster",
+    "card_number": 443,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -825,16 +809,16 @@
   },
   {
     "set_code": "SHD",
-    "en_name": "Criminal Muscle",
-    "card_number": 477,
+    "en_name": "Privateer Scyk",
+    "card_number": 480,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
   },
   {
     "set_code": "SHD",
-    "en_name": "Privateer Scyk",
-    "card_number": 480,
+    "en_name": "Frontier Trader",
+    "card_number": 482,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -873,14 +857,6 @@
   },
   {
     "set_code": "SHD",
-    "en_name": "Look the Other Way",
-    "card_number": 494,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
     "en_name": "Bounty Posting",
     "card_number": 495,
     "variant_type": "Hyperspace",
@@ -905,8 +881,24 @@
   },
   {
     "set_code": "SHD",
+    "en_name": "No Bargain",
+    "card_number": 507,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
     "en_name": "Grey Squadron Y-Wing",
     "card_number": 508,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
+    "en_name": "Wookiee Warrior",
+    "card_number": 511,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -929,8 +921,8 @@
   },
   {
     "set_code": "SHD",
-    "en_name": "Lady Proxima, White Worm Matriarch",
-    "card_number": 516,
+    "en_name": "Bounty Guild Initiate",
+    "card_number": 515,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -1161,32 +1153,8 @@
   },
   {
     "set_code": "SOR",
-    "en_name": "The Ghost, Spectre Home Base",
-    "card_number": 316,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
     "en_name": "Bendu, The One in the Middle",
     "card_number": 321,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "System Patrol Craft",
-    "card_number": 331,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "Cargo Juggernaut",
-    "card_number": 333,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -1233,6 +1201,14 @@
   },
   {
     "set_code": "SOR",
+    "en_name": "Admiral Ackbar, Brilliant Strategist",
+    "card_number": 361,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
     "en_name": "Wedge Antilles, Star of the Rebellion",
     "card_number": 364,
     "variant_type": "Hyperspace Foil",
@@ -1241,16 +1217,8 @@
   },
   {
     "set_code": "SOR",
-    "en_name": "Attack Pattern Delta",
-    "card_number": 370,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "Steadfast Battalion",
-    "card_number": 380,
+    "en_name": "Rebel Assault",
+    "card_number": 367,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -1297,6 +1265,14 @@
   },
   {
     "set_code": "SOR",
+    "en_name": "Benthic \"Two Tubes\", Partisan Lieutenant",
+    "card_number": 419,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
     "en_name": "Wampa",
     "card_number": 427,
     "variant_type": "Hyperspace",
@@ -1305,16 +1281,16 @@
   },
   {
     "set_code": "SOR",
-    "en_name": "Snapshot Reflexes",
-    "card_number": 477,
+    "en_name": "Cantina Bouncer",
+    "card_number": 464,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
   },
   {
     "set_code": "SOR",
-    "en_name": "Disarm",
-    "card_number": 478,
+    "en_name": "Snapshot Reflexes",
+    "card_number": 477,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -1617,8 +1593,32 @@
   },
   {
     "set_code": "TWI",
+    "en_name": "Kashyyyk Defender",
+    "card_number": 317,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
+    "en_name": "Hello There",
+    "card_number": 325,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
     "en_name": "Padawan Starfighter",
     "card_number": 331,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
+    "en_name": "Royal Guard Attaché",
+    "card_number": 332,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -1665,8 +1665,8 @@
   },
   {
     "set_code": "TWI",
-    "en_name": "Admiral Trench, Holding the Line",
-    "card_number": 358,
+    "en_name": "Echo, Valiant ARC Trooper",
+    "card_number": 362,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -1713,14 +1713,6 @@
   },
   {
     "set_code": "TWI",
-    "en_name": "Steadfast Senator",
-    "card_number": 376,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
     "en_name": "Coruscant Guard",
     "card_number": 377,
     "variant_type": "Hyperspace",
@@ -1753,16 +1745,16 @@
   },
   {
     "set_code": "TWI",
-    "en_name": "Savage Opress, Monster",
-    "card_number": 405,
+    "en_name": "Self-Destruct",
+    "card_number": 408,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
   },
   {
     "set_code": "TWI",
-    "en_name": "Count Dooku, Fallen Jedi",
-    "card_number": 406,
+    "en_name": "Senatorial Corvette",
+    "card_number": 415,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -1787,14 +1779,6 @@
     "set_code": "TWI",
     "en_name": "Bold Recon Commando",
     "card_number": 428,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "Hevy, Staunch Martyr",
-    "card_number": 431,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -1857,6 +1841,14 @@
   },
   {
     "set_code": "TWI",
+    "en_name": "B1 Security Team",
+    "card_number": 472,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
     "en_name": "Lux Bonteri, Renegade Separatist",
     "card_number": 475,
     "variant_type": "Hyperspace",
@@ -1875,6 +1867,14 @@
     "set_code": "TWI",
     "en_name": "Shadowed Intentions",
     "card_number": 485,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
+    "en_name": "Super Battle Droid",
+    "card_number": 493,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -1929,16 +1929,16 @@
   },
   {
     "set_code": "TWI",
-    "en_name": "Eta-2 Light Interceptor",
-    "card_number": 505,
+    "en_name": "Drop In",
+    "card_number": 511,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
   },
   {
     "set_code": "TWI",
-    "en_name": "Drop In",
-    "card_number": 511,
+    "en_name": "Headhunter Squadron",
+    "card_number": 513,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
