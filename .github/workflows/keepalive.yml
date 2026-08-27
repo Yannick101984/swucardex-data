@@ -1,0 +1,25 @@
+name: Keep-alive
+
+on:
+  schedule:
+    - cron: "0 6 1 * *"  # 1er de chaque mois à 6h UTC
+  workflow_dispatch:
+
+jobs:
+  keepalive:
+    runs-on: ubuntu-latest
+    permissions:
+      actions: write
+    steps:
+      - name: Réactiver les workflows planifiés
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const workflows = ['fetch_price_guide.yml', 'generate_prices.yml'];
+            for (const workflow of workflows) {
+              await github.rest.actions.enableWorkflow({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                workflow_id: workflow,
+              });
+            }
