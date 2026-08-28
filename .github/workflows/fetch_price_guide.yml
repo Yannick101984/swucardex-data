@@ -2,7 +2,7 @@ name: Récupérer catalogue + price_guide Cardmarket
 
 on:
   schedule:
-    - cron: "1 0 * * *"   # tous les jours à 00h01 UTC
+    - cron: "37 3 * * *"   # tous les jours à 03h37 UTC (créneau peu chargé)
   workflow_dispatch:       # déclenchement manuel depuis GitHub
 
 jobs:
@@ -18,13 +18,11 @@ jobs:
 
       - name: Télécharger price_guide.json
         run: |
-          curl -sSL "https://downloads.s3.cardmarket.com/productCatalog/priceGuide/price_guide_21.json" \
-            -o cardmarket/price_guide.json
+          curl -sSL "https://downloads.s3.cardmarket.com/productCatalog/priceGuide/price_guide_21.json"             -o cardmarket/price_guide.json
 
       - name: Télécharger products_singles.json
         run: |
-          curl -sSL "https://downloads.s3.cardmarket.com/productCatalog/productList/products_singles_21.json" \
-            -o cardmarket/products_singles.json
+          curl -sSL "https://downloads.s3.cardmarket.com/productCatalog/productList/products_singles_21.json"             -o cardmarket/products_singles.json
 
       - name: Commit et push si modifié
         run: |
