@@ -2,7 +2,7 @@ name: Mettre à jour news.json (articles SWU)
 
 on:
   schedule:
-    - cron: "15 1 * * *"   # tous les jours à 01h15 UTC
+    - cron: "47 4 * * *"   # tous les jours à 04h47 UTC (créneau peu chargé)
   workflow_dispatch:        # déclenchement manuel depuis GitHub
 
 jobs:
