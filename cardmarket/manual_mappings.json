@@ -545,14 +545,6 @@
   },
   {
     "set_code": "SHD",
-    "en_name": "First Light, Headquarters of the Crimson Dawn",
-    "card_number": 313,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
     "en_name": "Kuiil, I Have Spoken",
     "card_number": 317,
     "variant_type": "Hyperspace",
@@ -571,6 +563,14 @@
     "set_code": "SHD",
     "en_name": "Midnight Repairs",
     "card_number": 329,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
+    "en_name": "Rickety Quadjumper",
+    "card_number": 332,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -721,6 +721,14 @@
   },
   {
     "set_code": "SHD",
+    "en_name": "Valiant Assault Ship",
+    "card_number": 420,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
     "en_name": "Poe Dameron, Quick to Improvise",
     "card_number": 422,
     "variant_type": "Hyperspace",
@@ -747,6 +755,14 @@
     "set_code": "SHD",
     "en_name": "House Kast Soldier",
     "card_number": 431,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
+    "en_name": "Krayt Dragon",
+    "card_number": 441,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -1225,14 +1241,6 @@
   },
   {
     "set_code": "SOR",
-    "en_name": "Academy Training",
-    "card_number": 384,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
     "en_name": "Hardpoint Heavy Blaster",
     "card_number": 385,
     "variant_type": "Hyperspace",
@@ -1681,22 +1689,6 @@
   },
   {
     "set_code": "TWI",
-    "en_name": "Shaak Ti, Unity Wins Wars",
-    "card_number": 366,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "Pelta Supply Frigate",
-    "card_number": 367,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
     "en_name": "Republic Defense Carrier",
     "card_number": 369,
     "variant_type": "Hyperspace",
@@ -1801,6 +1793,14 @@
   },
   {
     "set_code": "TWI",
+    "en_name": "Planetary Invasion",
+    "card_number": 444,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
     "en_name": "Soulless One, Customized for Grievous",
     "card_number": 445,
     "variant_type": "Hyperspace",
@@ -1819,14 +1819,6 @@
     "set_code": "TWI",
     "en_name": "Tactical Droid Commander",
     "card_number": 449,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "Ziro the Hutt, Colorful Schemer",
-    "card_number": 450,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -1899,14 +1891,6 @@
     "set_code": "TWI",
     "en_name": "Merciless Contest",
     "card_number": 500,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "Execute Order 66",
-    "card_number": 501,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
