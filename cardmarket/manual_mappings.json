@@ -280,38 +280,6 @@
     "note": ""
   },
   {
-    "set_code": "P26",
-    "en_name": "Han Solo, It'll Work",
-    "card_number": 236,
-    "variant_type": "SQ Top 8",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "P26",
-    "en_name": "Executor, Final Destruction of the Alliance",
-    "card_number": 237,
-    "variant_type": "SQ Top 4",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "P26",
-    "en_name": "Leia Organa, Vigilant for Danger",
-    "card_number": 238,
-    "variant_type": "SQ Finalist",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "P26",
-    "en_name": "Darth Vader, Meet Your Destiny",
-    "card_number": 239,
-    "variant_type": "SQ Champion",
-    "idProduct": null,
-    "note": ""
-  },
-  {
     "set_code": "SEC",
     "en_name": "Spy",
     "card_number": 1,
@@ -697,6 +665,14 @@
   },
   {
     "set_code": "SHD",
+    "en_name": "Scanning Officer",
+    "card_number": 383,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
     "en_name": "Kihraxz Heavy Fighter",
     "card_number": 387,
     "variant_type": "Hyperspace",
@@ -705,8 +681,24 @@
   },
   {
     "set_code": "SHD",
+    "en_name": "Bounty Hunter's Quarry",
+    "card_number": 392,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
     "en_name": "Punishing One, Dengar's Jumpmaster",
     "card_number": 406,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
+    "en_name": "Jango Fett, Renowned Bounty Hunter",
+    "card_number": 407,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -993,6 +985,14 @@
   },
   {
     "set_code": "SHD",
+    "en_name": "Rich Reward",
+    "card_number": 522,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
     "en_name": "Grogu, Irresistible",
     "card_number": 523,
     "variant_type": "Exclusivité de l’évènement",
@@ -1193,6 +1193,14 @@
   },
   {
     "set_code": "SOR",
+    "en_name": "Kanan Jarrus, Revealed Jedi",
+    "card_number": 313,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
     "en_name": "Moment of Peace",
     "card_number": 338,
     "variant_type": "Hyperspace",
@@ -1257,6 +1265,14 @@
   },
   {
     "set_code": "SOR",
+    "en_name": "Imperial Interceptor",
+    "card_number": 396,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
     "en_name": "Ruthless Raider",
     "card_number": 398,
     "variant_type": "Hyperspace Foil",
@@ -1313,16 +1329,32 @@
   },
   {
     "set_code": "SOR",
-    "en_name": "Underworld Thug",
-    "card_number": 505,
+    "en_name": "Don't Get Cocky",
+    "card_number": 485,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
   },
   {
     "set_code": "SOR",
-    "en_name": "Volunteer Soldier",
-    "card_number": 506,
+    "en_name": "TIE/ln Fighter",
+    "card_number": 487,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
+    "en_name": "TIE Advanced",
+    "card_number": 492,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
+    "en_name": "Underworld Thug",
+    "card_number": 505,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -1785,8 +1817,8 @@
   },
   {
     "set_code": "TWI",
-    "en_name": "Caught in the Crossfire",
-    "card_number": 442,
+    "en_name": "Clone Cohort",
+    "card_number": 436,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -1803,14 +1835,6 @@
     "set_code": "TWI",
     "en_name": "Soulless One, Customized for Grievous",
     "card_number": 445,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "Rush Clovis, Banking Clan Scion",
-    "card_number": 448,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -1859,6 +1883,14 @@
     "set_code": "TWI",
     "en_name": "Sanctioner's Shuttle",
     "card_number": 478,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
+    "en_name": "Prisoner of War",
+    "card_number": 491,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
