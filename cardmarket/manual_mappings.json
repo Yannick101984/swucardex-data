@@ -729,14 +729,6 @@
   },
   {
     "set_code": "SHD",
-    "en_name": "Bo-Katan Kryze, Fighting For Mandalore",
-    "card_number": 426,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
     "en_name": "Wild Rancor",
     "card_number": 427,
     "variant_type": "Hyperspace",
@@ -1201,14 +1193,6 @@
   },
   {
     "set_code": "SOR",
-    "en_name": "Moment of Peace",
-    "card_number": 338,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
     "en_name": "Repair",
     "card_number": 339,
     "variant_type": "Hyperspace Foil",
@@ -1315,6 +1299,14 @@
     "set_code": "SOR",
     "en_name": "Cantina Bouncer",
     "card_number": 464,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
+    "en_name": "Cunning",
+    "card_number": 465,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
