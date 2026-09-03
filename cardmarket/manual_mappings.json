@@ -225,54 +225,6 @@
   },
   {
     "set_code": "P26",
-    "en_name": "Hera Syndulla, Renegade General",
-    "card_number": 228,
-    "variant_type": "SQ Event Pack",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "P26",
-    "en_name": "Gallius Rax, Counselor to the Empire",
-    "card_number": 229,
-    "variant_type": "SQ Event Pack",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "P26",
-    "en_name": "Stockpile",
-    "card_number": 230,
-    "variant_type": "SQ Event Pack",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "P26",
-    "en_name": "Green Leader, Crynyd's Sacrifice",
-    "card_number": 231,
-    "variant_type": "SQ Event Pack",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "P26",
-    "en_name": "The Master Codebreaker, High Stakes",
-    "card_number": 232,
-    "variant_type": "SQ Event Pack",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "P26",
-    "en_name": "Jod Na Nawood, Keeping Secrets",
-    "card_number": 233,
-    "variant_type": "SQ Event Pack",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "P26",
     "en_name": "Pre Vizsla, Strong-Willed Ruler",
     "card_number": 235,
     "variant_type": "SQ Day Two",
@@ -332,14 +284,6 @@
     "en_name": "Legal Authority",
     "card_number": 1,
     "variant_type": "PQ Judge",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Moff Gideon, Formidable Commander",
-    "card_number": 1,
-    "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
   },
@@ -737,14 +681,6 @@
   },
   {
     "set_code": "SHD",
-    "en_name": "House Kast Soldier",
-    "card_number": 431,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
     "en_name": "Krayt Dragon",
     "card_number": 441,
     "variant_type": "Hyperspace",
@@ -795,14 +731,6 @@
     "set_code": "SHD",
     "en_name": "Zuckuss, Bounty Hunter for Hire",
     "card_number": 459,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Xanadu Blood, Cad Bane's Reward",
-    "card_number": 460,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -873,14 +801,6 @@
   },
   {
     "set_code": "SHD",
-    "en_name": "Enfys Nest, Marauder",
-    "card_number": 487,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
     "en_name": "Enticing Reward",
     "card_number": 490,
     "variant_type": "Hyperspace",
@@ -931,22 +851,6 @@
     "set_code": "SHD",
     "en_name": "Wookiee Warrior",
     "card_number": 511,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Tarfful, Kashyyyk Chieftain",
-    "card_number": 512,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "This Is The Way",
-    "card_number": 514,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -1907,14 +1811,6 @@
     "set_code": "TWI",
     "en_name": "Patrolling AAT",
     "card_number": 495,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "Merciless Contest",
-    "card_number": 500,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
