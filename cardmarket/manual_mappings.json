@@ -465,14 +465,6 @@
   },
   {
     "set_code": "SHD",
-    "en_name": "Rose Tico, Dedicated to the Cause",
-    "card_number": 320,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
     "en_name": "Midnight Repairs",
     "card_number": 329,
     "variant_type": "Hyperspace",
@@ -507,14 +499,6 @@
     "set_code": "SHD",
     "en_name": "Cargo Juggernaut",
     "card_number": 340,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Imprisoned",
-    "card_number": 345,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -633,16 +617,16 @@
   },
   {
     "set_code": "SHD",
-    "en_name": "Punishing One, Dengar's Jumpmaster",
-    "card_number": 406,
+    "en_name": "Jango Fett, Renowned Bounty Hunter",
+    "card_number": 407,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
   },
   {
     "set_code": "SHD",
-    "en_name": "Jango Fett, Renowned Bounty Hunter",
-    "card_number": 407,
+    "en_name": "Pre Vizsla, Power Hungry",
+    "card_number": 411,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -819,14 +803,6 @@
     "set_code": "SHD",
     "en_name": "Ruthless Assassin",
     "card_number": 501,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Toro Calican, Ambitious Upstart",
-    "card_number": 503,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -1249,6 +1225,14 @@
   },
   {
     "set_code": "SOR",
+    "en_name": "Medal Ceremony",
+    "card_number": 503,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
     "en_name": "Underworld Thug",
     "card_number": 505,
     "variant_type": "Hyperspace",
@@ -1577,14 +1561,6 @@
   },
   {
     "set_code": "TWI",
-    "en_name": "Guarding the Way",
-    "card_number": 347,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
     "en_name": "Disruptive Burst",
     "card_number": 348,
     "variant_type": "Hyperspace",
@@ -1595,14 +1571,6 @@
     "set_code": "TWI",
     "en_name": "Kraken, Confederate Tactician",
     "card_number": 356,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "Kalani, Analytical General",
-    "card_number": 357,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -1649,14 +1617,6 @@
   },
   {
     "set_code": "TWI",
-    "en_name": "501st Liberator",
-    "card_number": 379,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
     "en_name": "Baktoid Spider Droid",
     "card_number": 387,
     "variant_type": "Hyperspace",
@@ -1683,6 +1643,14 @@
     "set_code": "TWI",
     "en_name": "Senatorial Corvette",
     "card_number": 415,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
+    "en_name": "Twice the Pride",
+    "card_number": 422,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -1739,6 +1707,14 @@
     "set_code": "TWI",
     "en_name": "Tactical Droid Commander",
     "card_number": 449,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
+    "en_name": "Cad Bane, Hostage Taker",
+    "card_number": 452,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -1811,22 +1787,6 @@
     "set_code": "TWI",
     "en_name": "Patrolling AAT",
     "card_number": 495,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "Phase I Clone Trooper",
-    "card_number": 502,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "Republic Commando",
-    "card_number": 504,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
