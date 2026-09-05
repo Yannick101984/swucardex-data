@@ -457,6 +457,14 @@
   },
   {
     "set_code": "SHD",
+    "en_name": "Lando Calrissian, With Impeccable Taste",
+    "card_number": 296,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
     "en_name": "Kuiil, I Have Spoken",
     "card_number": 317,
     "variant_type": "Hyperspace",
@@ -737,8 +745,8 @@
   },
   {
     "set_code": "SHD",
-    "en_name": "Coruscant Dissident",
-    "card_number": 467,
+    "en_name": "L3-37, Droid Revolutionary",
+    "card_number": 465,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -795,6 +803,14 @@
     "set_code": "SHD",
     "en_name": "Bounty Posting",
     "card_number": 495,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
+    "en_name": "Swoop Down",
+    "card_number": 497,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -1537,6 +1553,14 @@
   },
   {
     "set_code": "TWI",
+    "en_name": "41st Elite Corps",
+    "card_number": 318,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
     "en_name": "Hello There",
     "card_number": 325,
     "variant_type": "Hyperspace",
@@ -1579,6 +1603,14 @@
     "set_code": "TWI",
     "en_name": "Echo, Valiant ARC Trooper",
     "card_number": 362,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
+    "en_name": "Advanced Recon Commando",
+    "card_number": 365,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -1659,6 +1691,14 @@
     "set_code": "TWI",
     "en_name": "Disaffected Senator",
     "card_number": 424,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
+    "en_name": "Clone Heavy Gunner",
+    "card_number": 425,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
