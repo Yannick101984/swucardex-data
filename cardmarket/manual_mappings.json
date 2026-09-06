@@ -737,6 +737,14 @@
   },
   {
     "set_code": "SHD",
+    "en_name": "Frozen in Carbonite",
+    "card_number": 462,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
     "en_name": "Cartel Turncoat",
     "card_number": 464,
     "variant_type": "Hyperspace",
@@ -787,6 +795,14 @@
     "set_code": "SHD",
     "en_name": "Tobias Beckett, I Trust No One",
     "card_number": 485,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
+    "en_name": "Wanted",
+    "card_number": 489,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -1049,6 +1065,14 @@
   },
   {
     "set_code": "SOR",
+    "en_name": "Iden Versio, Inferno Squad Commander",
+    "card_number": 270,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
     "en_name": "Security Complex",
     "card_number": 285,
     "variant_type": "Hyperspace Foil",
@@ -1091,14 +1115,6 @@
     "set_code": "SOR",
     "en_name": "Repair",
     "card_number": 339,
-    "variant_type": "Hyperspace Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "Admiral Piett, Captain of the Executor",
-    "card_number": 344,
     "variant_type": "Hyperspace Foil",
     "idProduct": null,
     "note": ""
@@ -1715,6 +1731,14 @@
     "set_code": "TWI",
     "en_name": "Bold Recon Commando",
     "card_number": 428,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
+    "en_name": "Heavy Persuader Tank",
+    "card_number": 434,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
