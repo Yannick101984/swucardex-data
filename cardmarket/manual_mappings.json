@@ -505,24 +505,8 @@
   },
   {
     "set_code": "SHD",
-    "en_name": "Cargo Juggernaut",
-    "card_number": 340,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
     "en_name": "Crosshair, Following Orders",
     "card_number": 356,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Maul, Shadow Collective Visionary",
-    "card_number": 359,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -881,14 +865,6 @@
   },
   {
     "set_code": "SHD",
-    "en_name": "Twin Pod Cloud Car",
-    "card_number": 520,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
     "en_name": "Rich Reward",
     "card_number": 522,
     "variant_type": "Hyperspace",
@@ -1185,6 +1161,14 @@
   },
   {
     "set_code": "SOR",
+    "en_name": "Zeb Orrelios, Headstrong Warrior",
+    "card_number": 409,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
     "en_name": "Benthic \"Two Tubes\", Partisan Lieutenant",
     "card_number": 419,
     "variant_type": "Hyperspace",
@@ -1225,14 +1209,6 @@
   },
   {
     "set_code": "SOR",
-    "en_name": "Snapshot Reflexes",
-    "card_number": 477,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
     "en_name": "Don't Get Cocky",
     "card_number": 485,
     "variant_type": "Hyperspace",
@@ -1259,14 +1235,6 @@
     "set_code": "SOR",
     "en_name": "Medal Ceremony",
     "card_number": 503,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "Underworld Thug",
-    "card_number": 505,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -1609,6 +1577,14 @@
   },
   {
     "set_code": "TWI",
+    "en_name": "Confederate Courier",
+    "card_number": 352,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
     "en_name": "Kraken, Confederate Tactician",
     "card_number": 356,
     "variant_type": "Hyperspace",
@@ -1761,14 +1737,6 @@
   },
   {
     "set_code": "TWI",
-    "en_name": "Soulless One, Customized for Grievous",
-    "card_number": 445,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
     "en_name": "Tactical Droid Commander",
     "card_number": 449,
     "variant_type": "Hyperspace",
@@ -1835,14 +1803,6 @@
     "set_code": "TWI",
     "en_name": "Super Battle Droid",
     "card_number": 493,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "Dwarf Spider Droid",
-    "card_number": 494,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
