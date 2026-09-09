@@ -465,6 +465,14 @@
   },
   {
     "set_code": "SHD",
+    "en_name": "Clan Saxon Gauntlet",
+    "card_number": 312,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
     "en_name": "Kuiil, I Have Spoken",
     "card_number": 317,
     "variant_type": "Hyperspace",
@@ -499,6 +507,14 @@
     "set_code": "SHD",
     "en_name": "Vigilant Pursuit Craft",
     "card_number": 339,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
+    "en_name": "Unexpected Escape",
+    "card_number": 349,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -609,6 +625,14 @@
   },
   {
     "set_code": "SHD",
+    "en_name": "Legal Authority",
+    "card_number": 393,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
     "en_name": "Jango Fett, Renowned Bounty Hunter",
     "card_number": 407,
     "variant_type": "Hyperspace",
@@ -619,14 +643,6 @@
     "set_code": "SHD",
     "en_name": "Pre Vizsla, Power Hungry",
     "card_number": 411,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Koska Reeves, Loyal Nite Owl",
-    "card_number": 419,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -657,16 +673,16 @@
   },
   {
     "set_code": "SHD",
-    "en_name": "Krayt Dragon",
-    "card_number": 441,
+    "en_name": "Hunting Nexu",
+    "card_number": 437,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
   },
   {
     "set_code": "SHD",
-    "en_name": "Hotshot DL-44 Blaster",
-    "card_number": 443,
+    "en_name": "Krayt Dragon",
+    "card_number": 441,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -763,14 +779,6 @@
     "set_code": "SHD",
     "en_name": "Frontier Trader",
     "card_number": 482,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Smuggler's Starfighter",
-    "card_number": 483,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -1105,14 +1113,6 @@
   },
   {
     "set_code": "SOR",
-    "en_name": "Wedge Antilles, Star of the Rebellion",
-    "card_number": 364,
-    "variant_type": "Hyperspace Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
     "en_name": "Rebel Assault",
     "card_number": 367,
     "variant_type": "Hyperspace",
@@ -1153,6 +1153,14 @@
   },
   {
     "set_code": "SOR",
+    "en_name": "Emperor Palpatine, Master of the Dark Side",
+    "card_number": 399,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
     "en_name": "Sabine Wren, Explosives Artist",
     "card_number": 405,
     "variant_type": "Hyperspace",
@@ -1163,6 +1171,14 @@
     "set_code": "SOR",
     "en_name": "Zeb Orrelios, Headstrong Warrior",
     "card_number": 409,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
+    "en_name": "Mace Windu, Party Crasher",
+    "card_number": 412,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -1193,8 +1209,16 @@
   },
   {
     "set_code": "SOR",
-    "en_name": "Cantina Bouncer",
-    "card_number": 464,
+    "en_name": "Mission Briefing",
+    "card_number": 434,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
+    "en_name": "Chimaera, Flagship of the Seventh Fleet",
+    "card_number": 448,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -1203,6 +1227,22 @@
     "set_code": "SOR",
     "en_name": "Cunning",
     "card_number": 465,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
+    "en_name": "Crafty Smuggler",
+    "card_number": 469,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
+    "en_name": "Sneak Attack",
+    "card_number": 481,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -1227,6 +1267,14 @@
     "set_code": "SOR",
     "en_name": "TIE Advanced",
     "card_number": 492,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
+    "en_name": "Galactic Ambition",
+    "card_number": 495,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -1635,6 +1683,14 @@
     "set_code": "TWI",
     "en_name": "Coruscant Guard",
     "card_number": 377,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
+    "en_name": "Republic ARC-170",
+    "card_number": 381,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
