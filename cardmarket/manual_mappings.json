@@ -1625,6 +1625,14 @@
   },
   {
     "set_code": "TWI",
+    "en_name": "MagnaGuard Wing Leader",
+    "card_number": 355,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
     "en_name": "Kraken, Confederate Tactician",
     "card_number": 356,
     "variant_type": "Hyperspace",
