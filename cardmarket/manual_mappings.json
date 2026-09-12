@@ -481,6 +481,14 @@
   },
   {
     "set_code": "SHD",
+    "en_name": "Mystic Reflection",
+    "card_number": 326,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
     "en_name": "Midnight Repairs",
     "card_number": 329,
     "variant_type": "Hyperspace",
@@ -649,6 +657,14 @@
   },
   {
     "set_code": "SHD",
+    "en_name": "Ruthlessness",
+    "card_number": 412,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
     "en_name": "Valiant Assault Ship",
     "card_number": 420,
     "variant_type": "Hyperspace",
@@ -777,16 +793,16 @@
   },
   {
     "set_code": "SHD",
-    "en_name": "Frontier Trader",
-    "card_number": 482,
+    "en_name": "Tobias Beckett, I Trust No One",
+    "card_number": 485,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
   },
   {
     "set_code": "SHD",
-    "en_name": "Tobias Beckett, I Trust No One",
-    "card_number": 485,
+    "en_name": "Fennec Shand, Loyal Sharpshooter",
+    "card_number": 488,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -843,22 +859,6 @@
     "set_code": "SHD",
     "en_name": "Grey Squadron Y-Wing",
     "card_number": 508,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Wookiee Warrior",
-    "card_number": 511,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Bounty Guild Initiate",
-    "card_number": 515,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -1089,6 +1089,22 @@
   },
   {
     "set_code": "SOR",
+    "en_name": "Death Trooper",
+    "card_number": 299,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
+    "en_name": "Del Meeko, Providing Overwatch",
+    "card_number": 300,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
     "en_name": "Kanan Jarrus, Revealed Jedi",
     "card_number": 313,
     "variant_type": "Hyperspace",
@@ -1107,14 +1123,6 @@
     "set_code": "SOR",
     "en_name": "Admiral Ackbar, Brilliant Strategist",
     "card_number": 361,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "Rebel Assault",
-    "card_number": 367,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -1227,6 +1235,14 @@
     "set_code": "SOR",
     "en_name": "Cunning",
     "card_number": 465,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
+    "en_name": "Mining Guild TIE Fighter",
+    "card_number": 468,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -1569,6 +1585,14 @@
   },
   {
     "set_code": "TWI",
+    "en_name": "A Fine Addition",
+    "card_number": 313,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
     "en_name": "Lethal Crackdown",
     "card_number": 314,
     "variant_type": "Hyperspace",
@@ -1593,8 +1617,32 @@
   },
   {
     "set_code": "TWI",
+    "en_name": "Finn, On the Run",
+    "card_number": 326,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
     "en_name": "Royal Guard Attaché",
     "card_number": 332,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
+    "en_name": "Multi-Troop Transport",
+    "card_number": 339,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
+    "en_name": "Roger Roger",
+    "card_number": 342,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -1635,6 +1683,14 @@
     "set_code": "TWI",
     "en_name": "Kraken, Confederate Tactician",
     "card_number": 356,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
+    "en_name": "Reprocess",
+    "card_number": 360,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -1809,6 +1865,14 @@
   },
   {
     "set_code": "TWI",
+    "en_name": "Independent Senator",
+    "card_number": 471,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
     "en_name": "B1 Security Team",
     "card_number": 472,
     "variant_type": "Hyperspace",
@@ -1843,14 +1907,6 @@
     "set_code": "TWI",
     "en_name": "Super Battle Droid",
     "card_number": 493,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "Patrolling AAT",
-    "card_number": 495,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
