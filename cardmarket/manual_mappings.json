@@ -785,14 +785,6 @@
   },
   {
     "set_code": "SHD",
-    "en_name": "Privateer Scyk",
-    "card_number": 480,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
     "en_name": "Tobias Beckett, I Trust No One",
     "card_number": 485,
     "variant_type": "Hyperspace",
@@ -1129,6 +1121,14 @@
   },
   {
     "set_code": "SOR",
+    "en_name": "Mercenary Company",
+    "card_number": 381,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
     "en_name": "Hardpoint Heavy Blaster",
     "card_number": 385,
     "variant_type": "Hyperspace",
@@ -1169,6 +1169,14 @@
   },
   {
     "set_code": "SOR",
+    "en_name": "Force Choke",
+    "card_number": 402,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
     "en_name": "Sabine Wren, Explosives Artist",
     "card_number": 405,
     "variant_type": "Hyperspace",
@@ -1187,14 +1195,6 @@
     "set_code": "SOR",
     "en_name": "Mace Windu, Party Crasher",
     "card_number": 412,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "Benthic \"Two Tubes\", Partisan Lieutenant",
-    "card_number": 419,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -1603,14 +1603,6 @@
     "set_code": "TWI",
     "en_name": "41st Elite Corps",
     "card_number": 318,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "Hello There",
-    "card_number": 325,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
