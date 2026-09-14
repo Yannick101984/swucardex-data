@@ -705,14 +705,6 @@
   },
   {
     "set_code": "SHD",
-    "en_name": "Death Mark",
-    "card_number": 445,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
     "en_name": "Pillage",
     "card_number": 450,
     "variant_type": "Hyperspace",
@@ -1689,14 +1681,6 @@
   },
   {
     "set_code": "TWI",
-    "en_name": "Echo, Valiant ARC Trooper",
-    "card_number": 362,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
     "en_name": "Advanced Recon Commando",
     "card_number": 365,
     "variant_type": "Hyperspace",
@@ -1857,6 +1841,14 @@
   },
   {
     "set_code": "TWI",
+    "en_name": "Clone Dive Trooper",
+    "card_number": 470,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
     "en_name": "Independent Senator",
     "card_number": 471,
     "variant_type": "Hyperspace",
@@ -1897,24 +1889,8 @@
   },
   {
     "set_code": "TWI",
-    "en_name": "Super Battle Droid",
-    "card_number": 493,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
     "en_name": "Drop In",
     "card_number": 511,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "Headhunter Squadron",
-    "card_number": 513,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
