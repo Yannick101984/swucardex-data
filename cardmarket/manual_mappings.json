@@ -497,6 +497,14 @@
   },
   {
     "set_code": "SHD",
+    "en_name": "Moisture Farmer",
+    "card_number": 330,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
     "en_name": "Rickety Quadjumper",
     "card_number": 332,
     "variant_type": "Hyperspace",
@@ -523,6 +531,14 @@
     "set_code": "SHD",
     "en_name": "Unexpected Escape",
     "card_number": 349,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
+    "en_name": "Salacious Crumb, Obnoxious Pet",
+    "card_number": 353,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -731,14 +747,6 @@
     "set_code": "SHD",
     "en_name": "Zuckuss, Bounty Hunter for Hire",
     "card_number": 459,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Dryden Vos, Offering No Escape",
-    "card_number": 461,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -1217,6 +1225,14 @@
   },
   {
     "set_code": "SOR",
+    "en_name": "Bossk, Deadly Stalker",
+    "card_number": 445,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
     "en_name": "Chimaera, Flagship of the Seventh Fleet",
     "card_number": 448,
     "variant_type": "Hyperspace",
@@ -1603,14 +1619,6 @@
     "set_code": "TWI",
     "en_name": "Finn, On the Run",
     "card_number": 326,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "Royal Guard Attaché",
-    "card_number": 332,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
