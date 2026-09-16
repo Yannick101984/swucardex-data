@@ -489,14 +489,6 @@
   },
   {
     "set_code": "SHD",
-    "en_name": "Midnight Repairs",
-    "card_number": 329,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
     "en_name": "Moisture Farmer",
     "card_number": 330,
     "variant_type": "Hyperspace",
@@ -569,14 +561,6 @@
   },
   {
     "set_code": "SHD",
-    "en_name": "Modded Cohort",
-    "card_number": 369,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
     "en_name": "Adelphi Patrol Wing",
     "card_number": 370,
     "variant_type": "Hyperspace",
@@ -609,14 +593,6 @@
   },
   {
     "set_code": "SHD",
-    "en_name": "Gamorrean Retainer",
-    "card_number": 381,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
     "en_name": "Privateer Crew",
     "card_number": 382,
     "variant_type": "Hyperspace",
@@ -627,14 +603,6 @@
     "set_code": "SHD",
     "en_name": "Scanning Officer",
     "card_number": 383,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Kihraxz Heavy Fighter",
-    "card_number": 387,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -737,14 +705,6 @@
   },
   {
     "set_code": "SHD",
-    "en_name": "Slaver's Freighter",
-    "card_number": 458,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
     "en_name": "Zuckuss, Bounty Hunter for Hire",
     "card_number": 459,
     "variant_type": "Hyperspace",
@@ -755,14 +715,6 @@
     "set_code": "SHD",
     "en_name": "Frozen in Carbonite",
     "card_number": 462,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Cartel Turncoat",
-    "card_number": 464,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -803,14 +755,6 @@
     "set_code": "SHD",
     "en_name": "Wanted",
     "card_number": 489,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Enticing Reward",
-    "card_number": 490,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -1113,6 +1057,14 @@
   },
   {
     "set_code": "SOR",
+    "en_name": "The Emperor's Legion",
+    "card_number": 355,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
     "en_name": "Admiral Ackbar, Brilliant Strategist",
     "card_number": 361,
     "variant_type": "Hyperspace",
@@ -1201,14 +1153,6 @@
   },
   {
     "set_code": "SOR",
-    "en_name": "Disabling Fang Fighter",
-    "card_number": 425,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
     "en_name": "Wampa",
     "card_number": 427,
     "variant_type": "Hyperspace",
@@ -1227,6 +1171,14 @@
     "set_code": "SOR",
     "en_name": "Bossk, Deadly Stalker",
     "card_number": 445,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
+    "en_name": "Fett's Firespray, Pursuing the Bounty",
+    "card_number": 447,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -1307,14 +1259,6 @@
     "set_code": "SOR",
     "en_name": "Medal Ceremony",
     "card_number": 503,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "Corellian Freighter",
-    "card_number": 508,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -1585,8 +1529,8 @@
   },
   {
     "set_code": "TWI",
-    "en_name": "Providence Destroyer",
-    "card_number": 311,
+    "en_name": "Droideka Security",
+    "card_number": 310,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
