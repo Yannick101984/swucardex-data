@@ -48,6 +48,6358 @@
     "note": ""
   },
   {
+    "set_code": "CST",
+    "en_name": "Leia Organa, Vigilant for Danger",
+    "card_number": 2,
+    "variant_type": "Costco Exclusive",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "CST",
+    "en_name": "Han Solo, It'll Work",
+    "card_number": 3,
+    "variant_type": "Costco Exclusive",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Asajj Ventress, No Time For Regret",
+    "card_number": 1,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Shield",
+    "card_number": 1,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Maz Kanata, Eclectic Pirate Queen",
+    "card_number": 2,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Weakness",
+    "card_number": 2,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Beast",
+    "card_number": 3,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Doctor Hemlock, Emotion Has No Place Here",
+    "card_number": 3,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Beast",
+    "card_number": 4,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Grand Moff Tarkin, Tyrant of the Outer Rim",
+    "card_number": 4,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Beast",
+    "card_number": 5,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Jar Jar Binks, Bombad General",
+    "card_number": 5,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Omega, Close Your Eyes and Focus",
+    "card_number": 6,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Shield",
+    "card_number": 6,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Darth Vader, Might of the Empire",
+    "card_number": 7,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Weakness",
+    "card_number": 7,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Beast",
+    "card_number": 8,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "General Grievous, Separatist Warlord",
+    "card_number": 8,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Beast",
+    "card_number": 9,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Chewbacca, Relentless Rebel",
+    "card_number": 9,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Beast",
+    "card_number": 10,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Tarfful, Fighting from the Shadowlands",
+    "card_number": 10,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Darth Sidious, There Is No Mercy",
+    "card_number": 11,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Poggle the Lesser, Let the Executions Begin",
+    "card_number": 12,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Cham Syndulla, Hammer of Ryloth",
+    "card_number": 13,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Wicket, Few Greater Battles to Fight",
+    "card_number": 14,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Bossk, Cruel Hunter",
+    "card_number": 15,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Maul, Old Master",
+    "card_number": 16,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Osha, Haunted By Her Past",
+    "card_number": 17,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "The Warrior, Deft Duelist",
+    "card_number": 18,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Dune Sea",
+    "card_number": 19,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Great Grass Plains",
+    "card_number": 20,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Kachirho",
+    "card_number": 21,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Shield Generator Complex",
+    "card_number": 22,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Bright Tree Village",
+    "card_number": 23,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Origin Tree",
+    "card_number": 24,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Theed Palace",
+    "card_number": 25,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Tusken Camp",
+    "card_number": 26,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Bioweapons Lab",
+    "card_number": 27,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Jundland Wastes",
+    "card_number": 28,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Dendroid Wilds",
+    "card_number": 29,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Shadowlands",
+    "card_number": 30,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Kyyyalstaad Swamp",
+    "card_number": 31,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Mos Eisley",
+    "card_number": 32,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Otoh Gunga",
+    "card_number": 33,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Research Station 9",
+    "card_number": 34,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Hunter, Everyone Get to Cover!",
+    "card_number": 35,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Kelnacca, Solitary Master",
+    "card_number": 36,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Bacta Tank",
+    "card_number": 37,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Bestial Bond",
+    "card_number": 38,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Mother Talzin, Pledged to the Sisterhood",
+    "card_number": 39,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Talzin's Shuttle, Mysterious Arrival",
+    "card_number": 40,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Keeper of Skara Nal, Awoken",
+    "card_number": 41,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Dooku, Corruption Must Be Eradicated",
+    "card_number": 42,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Darth Vader, Any Methods Necessary",
+    "card_number": 43,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Ima-Gun Di, Holding Out For Resupply",
+    "card_number": 44,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Logray, Bright Tree Shaman",
+    "card_number": 45,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Krrsantan, Santo",
+    "card_number": 46,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Eravana, Hauling Rathtars",
+    "card_number": 47,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Vernestra Rwoh, We Should Handle This Ourselves",
+    "card_number": 48,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Greater Sarlacc",
+    "card_number": 49,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Low Altitude Combat",
+    "card_number": 50,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Third Sister, Cycle of Vengeance",
+    "card_number": 51,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "A'Koba, Restless Raider",
+    "card_number": 52,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Fett's Firespray, Settling the Score",
+    "card_number": 53,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Seismic Detonation",
+    "card_number": 54,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Mae, Kill the Dream",
+    "card_number": 55,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Yoda, Trickster in Exile",
+    "card_number": 56,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Boss Lyonie, Hypnotized",
+    "card_number": 57,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Mysterious Disappearance",
+    "card_number": 58,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Clone X Assassin",
+    "card_number": 59,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Vice Admiral Rampart, A New Era of Safety",
+    "card_number": 60,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Director Krennic, The Work Has Stalled",
+    "card_number": 61,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Nuvo Vindi, Blue Shadow Perfected",
+    "card_number": 62,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Rho Medical Shuttle",
+    "card_number": 63,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Scorch, Imperial Commando",
+    "card_number": 64,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Clone of the Zillo Beast, Emperor's Experiment",
+    "card_number": 65,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Carrion Spike, Harbinger of Tyranny",
+    "card_number": 66,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "The Great Progenitor, First of the Drengir",
+    "card_number": 67,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Imperial Commandos",
+    "card_number": 68,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Imperial Venator",
+    "card_number": 69,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Dark Sanctum",
+    "card_number": 70,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Ravage",
+    "card_number": 71,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Grand Army Marine",
+    "card_number": 72,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Peppi Bow, Shaak Herder",
+    "card_number": 73,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Yord Fandar, Devoutly Disciplined",
+    "card_number": 74,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Wookiee Protector",
+    "card_number": 75,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Yanna, Sanctuary Elder",
+    "card_number": 76,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Boss Nass, Otoh Gunga Boss",
+    "card_number": 77,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Qui-Gon Jinn, We'll Handle This",
+    "card_number": 78,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Radiant VII, Negotiating for Naboo",
+    "card_number": 79,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Fambaa Shield Team",
+    "card_number": 80,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Alliance Shield Generator",
+    "card_number": 81,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Nala Se, Silent Survivor",
+    "card_number": 82,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Batcher, Loyal Hound",
+    "card_number": 83,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Gunga City Guard",
+    "card_number": 84,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Remote Scout",
+    "card_number": 85,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "N-1 Patroller",
+    "card_number": 86,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Venomous Wyyyshokk",
+    "card_number": 87,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Numa, Still Fighting",
+    "card_number": 88,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Territorial Mudhorn",
+    "card_number": 89,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Opee Sea Killer",
+    "card_number": 90,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Pelta Relief Frigate",
+    "card_number": 91,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Starlit Purrgil",
+    "card_number": 92,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Coastal Catamarans",
+    "card_number": 93,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Sando Aqua Monster",
+    "card_number": 94,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Carbonite Chamber",
+    "card_number": 95,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Devotion",
+    "card_number": 96,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Dire Prowess",
+    "card_number": 97,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Resonate",
+    "card_number": 98,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Always a Bigger Fish",
+    "card_number": 99,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Torrent",
+    "card_number": 100,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Trust Yourself",
+    "card_number": 101,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Dragon's Might",
+    "card_number": 102,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Disposable B1",
+    "card_number": 103,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Garnac, Let the Hunt Begin!",
+    "card_number": 104,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Nute Gunray, Perfectly Legal",
+    "card_number": 105,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Secessionist Convert",
+    "card_number": 106,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Stormtrooper Patrol",
+    "card_number": 107,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "The First Legion, Vader's Fist",
+    "card_number": 108,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Tireless Magnaguard",
+    "card_number": 109,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Emperor Palpatine, Consolidating Power",
+    "card_number": 110,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Invasion Lander",
+    "card_number": 111,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Military Academy",
+    "card_number": 112,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Sinister War Memorial",
+    "card_number": 113,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Breach",
+    "card_number": 114,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Leia Organa, These Are My Friends",
+    "card_number": 115,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Ewok Brigade",
+    "card_number": 116,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Chewbacca, Resourceful Wookiee",
+    "card_number": 117,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Ryyk Blademaster",
+    "card_number": 118,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Saw Gerrera, Shadowlands Insurgent",
+    "card_number": 119,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Auzituck Avenger",
+    "card_number": 120,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Hijacked AT-ST",
+    "card_number": 121,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Boga, Loyal Varactyl",
+    "card_number": 122,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "King Grakchawwaa, King of Kashyyyk",
+    "card_number": 123,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Luminara Unduli, Besieged General",
+    "card_number": 124,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "The Marauder, A New Home",
+    "card_number": 125,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Verdant Fortress",
+    "card_number": 126,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Chewbacca's Bowcaster, Handcrafted Tradition",
+    "card_number": 127,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Mace Windu, Austere Centrist",
+    "card_number": 128,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Child of Dathomir",
+    "card_number": 129,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Emerie Karr, For Your Own Good",
+    "card_number": 130,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Soaring Can-Cell",
+    "card_number": 131,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Tibidee Mate",
+    "card_number": 132,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Wroshyr Rebel",
+    "card_number": 133,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Zam Wesell, Not What She Seems",
+    "card_number": 134,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Arena Reek, Fixture of Ceremony",
+    "card_number": 135,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Lifetree Caravan",
+    "card_number": 136,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "V-19 Skirmisher",
+    "card_number": 137,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Commander Gree, Of the 41st Elite Corps",
+    "card_number": 138,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Flock of Mynocks",
+    "card_number": 139,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Assault Frigate",
+    "card_number": 140,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Rex, Outserved His Purpose",
+    "card_number": 141,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Wookiee Rangers",
+    "card_number": 142,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Banking Clan Warship",
+    "card_number": 143,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Howler Pack",
+    "card_number": 144,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Origin Tree Shyyyo",
+    "card_number": 145,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Outer Rim Garrison",
+    "card_number": 146,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Beast Lair",
+    "card_number": 147,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Local Support",
+    "card_number": 148,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Log Trap",
+    "card_number": 149,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Migrate",
+    "card_number": 150,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Overgrowth",
+    "card_number": 151,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Babwa Venomor, Burning Kashyyyk",
+    "card_number": 152,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Poacher's Starfighter",
+    "card_number": 153,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Dooku's Solar Sailer, Droid Army Portent",
+    "card_number": 154,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Filthy Dianoga",
+    "card_number": 155,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Arena Acklay, Screaming Predator",
+    "card_number": 156,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Corpo Thugs",
+    "card_number": 157,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Battle-Scarred Destroyer",
+    "card_number": 158,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "General Grievous, Scourge of Dathomir",
+    "card_number": 159,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Noxious Refinery",
+    "card_number": 160,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Raze to Ruin",
+    "card_number": 161,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Teebo, Striped Hunter",
+    "card_number": 162,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Champions of Endor",
+    "card_number": 163,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Chief Chirpa, Defiant Elder",
+    "card_number": 164,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Commandeered Tour Shuttle",
+    "card_number": 165,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Gungi, Fighting for Kashyyyk",
+    "card_number": 166,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Dune Sea Nomads",
+    "card_number": 167,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Ezra Bridger, What Are You Afraid Of?",
+    "card_number": 168,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Crosshair, I've Changed",
+    "card_number": 169,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Han Solo, My Team's Ready",
+    "card_number": 170,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Trap Field",
+    "card_number": 171,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Heavy Ion Cannon",
+    "card_number": 172,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Rebel Operation",
+    "card_number": 173,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Maul, Only Revenge Remains",
+    "card_number": 174,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Fennec Shand, A Ship For A Life",
+    "card_number": 175,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Village Troublemaker",
+    "card_number": 176,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Adamant Ewoks",
+    "card_number": 177,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Desperate Nantex",
+    "card_number": 178,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Feisty Blurrg",
+    "card_number": 179,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Stormchaser",
+    "card_number": 180,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Tusken Bantha Rider",
+    "card_number": 181,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Arena Nexu, Starved for Prey",
+    "card_number": 182,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Nightsister Prodigy",
+    "card_number": 183,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Aggrocrab",
+    "card_number": 184,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Ty Yorrick, Monster Hunter",
+    "card_number": 185,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Mining Guild Trespasser",
+    "card_number": 186,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Dathomiri Rancor",
+    "card_number": 187,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Giant Gorax",
+    "card_number": 188,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Neebray Manta",
+    "card_number": 189,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Enraged",
+    "card_number": 190,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Hunter's Instinct",
+    "card_number": 191,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Volley Fire",
+    "card_number": 192,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Nightfall",
+    "card_number": 193,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Run Amok",
+    "card_number": 194,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Catch the Scent",
+    "card_number": 195,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Qimir, Everyone Has a Weakness",
+    "card_number": 196,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Cid Scaleback, Can't Be Trusted",
+    "card_number": 197,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Treacherous Pyke",
+    "card_number": 198,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Geonosian Picador",
+    "card_number": 199,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Rish Loo, Traitorous Minister",
+    "card_number": 200,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Sandtrooper Squad",
+    "card_number": 201,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Inferno Squad, We Can Grieve Later",
+    "card_number": 202,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Victor Squadron, In Attack Formation",
+    "card_number": 203,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Nightbrother, Maul's Gauntlet",
+    "card_number": 204,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Intelligence Agency",
+    "card_number": 205,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "The Tarkin Doctrine, Protect and Punish",
+    "card_number": 206,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Maim",
+    "card_number": 207,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Luke Skywalker, Dreaming Farmboy",
+    "card_number": 208,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Corona Squadron X-Wing",
+    "card_number": 209,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Sol, Compassionate Guardian",
+    "card_number": 210,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Tech, I Thought It Was Obvious",
+    "card_number": 211,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "The Chieftain, Here Since the Oceans Dried",
+    "card_number": 212,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Tribubble Bongo Sub",
+    "card_number": 213,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Phee Genoa, Liberator of Ancient Wonders",
+    "card_number": 214,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "L3-37, We're Programmed to Learn",
+    "card_number": 215,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Insurgent Camp",
+    "card_number": 216,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Don't Touch Anything",
+    "card_number": 217,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "New Tactics",
+    "card_number": 218,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Jaxxon, I Can Hear You Breathing!",
+    "card_number": 219,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Clever Trapper",
+    "card_number": 220,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Teeka, You're in Luck",
+    "card_number": 221,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Sandcrawler Sales Team",
+    "card_number": 222,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Therm Scissorpunch, Boastful Gambler",
+    "card_number": 223,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Tusken Raider",
+    "card_number": 224,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Boba Fett, Family Found",
+    "card_number": 225,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Gungan Battle Wagon",
+    "card_number": 226,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Horizon Chaser",
+    "card_number": 227,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Lakeside Shaaks",
+    "card_number": 228,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Lurking Wampa",
+    "card_number": 229,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Raiding Party",
+    "card_number": 230,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Dragonboat Freighter",
+    "card_number": 231,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Mon Cal Cruiser",
+    "card_number": 232,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Awakened Exogorth",
+    "card_number": 233,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Ritual Dragon",
+    "card_number": 234,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Gaderffii Stick",
+    "card_number": 235,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Booma Ball",
+    "card_number": 236,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Easy Prey",
+    "card_number": 237,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Exploit Confidence",
+    "card_number": 238,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Pounce",
+    "card_number": 239,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Sandstorm",
+    "card_number": 240,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Howl",
+    "card_number": 241,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Occupation Officer",
+    "card_number": 242,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Sun Fac, Poggle's Second",
+    "card_number": 243,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Separatist Harbinger",
+    "card_number": 244,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Trandoshan Collaborator",
+    "card_number": 245,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Pyke Sarisa",
+    "card_number": 246,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Surveillance Cruiser",
+    "card_number": 247,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Defoliator Tank",
+    "card_number": 248,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Frenzied Tri-Fighters",
+    "card_number": 249,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Imperial Cavalry",
+    "card_number": 250,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Blockade Ship",
+    "card_number": 251,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Villainous Ambition",
+    "card_number": 252,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Forced Pacification",
+    "card_number": 253,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Captain Tarpals, Grand Army Captain",
+    "card_number": 254,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "C-3PO, Captivating Storyteller",
+    "card_number": 255,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Jedi Interceptor",
+    "card_number": 256,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Ewok Archers",
+    "card_number": 257,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Ryloth Revolutionary Rider",
+    "card_number": 258,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Pack Guardian",
+    "card_number": 259,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Queen Amidala, Retaking Theed",
+    "card_number": 260,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Ben Kenobi, Don't Be Afraid",
+    "card_number": 261,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Mylaya Rider",
+    "card_number": 262,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Wrecker, Wrecking the Empire",
+    "card_number": 263,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Heroic Bravery",
+    "card_number": 264,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Twi'lek Kalikori",
+    "card_number": 265,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Familiar Strategem",
+    "card_number": 266,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Renew",
+    "card_number": 267,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Offworld Jawa",
+    "card_number": 268,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Friendly Eopie",
+    "card_number": 269,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Wild Space Wanderer",
+    "card_number": 270,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Landing Pad",
+    "card_number": 271,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Growth",
+    "card_number": 272,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Asajj Ventress, No Time For Regret",
+    "card_number": 273,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Maz Kanata, Eclectic Pirate Queen",
+    "card_number": 274,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Doctor Hemlock, Emotion Has No Place Here",
+    "card_number": 275,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Grand Moff Tarkin, Tyrant of the Outer Rim",
+    "card_number": 276,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Jar Jar Binks, Bombad General",
+    "card_number": 277,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Omega, Close Your Eyes and Focus",
+    "card_number": 278,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Darth Vader, Might of the Empire",
+    "card_number": 279,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "General Grievous, Separatist Warlord",
+    "card_number": 280,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Chewbacca, Relentless Rebel",
+    "card_number": 281,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Tarfful, Fighting from the Shadowlands",
+    "card_number": 282,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Darth Sidious, There Is No Mercy",
+    "card_number": 283,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Poggle the Lesser, Let the Executions Begin",
+    "card_number": 284,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Cham Syndulla, Hammer of Ryloth",
+    "card_number": 285,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Wicket, Few Greater Battles to Fight",
+    "card_number": 286,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Bossk, Cruel Hunter",
+    "card_number": 287,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Maul, Old Master",
+    "card_number": 288,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Osha, Haunted By Her Past",
+    "card_number": 289,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "The Warrior, Deft Duelist",
+    "card_number": 290,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Dune Sea",
+    "card_number": 291,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Great Grass Plains",
+    "card_number": 292,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Kachirho",
+    "card_number": 293,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Shield Generator Complex",
+    "card_number": 294,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Bright Tree Village",
+    "card_number": 295,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Origin Tree",
+    "card_number": 296,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Theed Palace",
+    "card_number": 297,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Tusken Camp",
+    "card_number": 298,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Bioweapons Lab",
+    "card_number": 299,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Jundland Wastes",
+    "card_number": 300,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Dendroid Wilds",
+    "card_number": 301,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Shadowlands",
+    "card_number": 302,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Kyyyalstaad Swamp",
+    "card_number": 303,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Mos Eisley",
+    "card_number": 304,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Otoh Gunga",
+    "card_number": 305,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Research Station 9",
+    "card_number": 306,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Hunter, Everyone Get to Cover!",
+    "card_number": 307,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Kelnacca, Solitary Master",
+    "card_number": 308,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Bacta Tank",
+    "card_number": 309,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Bestial Bond",
+    "card_number": 310,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Mother Talzin, Pledged to the Sisterhood",
+    "card_number": 311,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Talzin's Shuttle, Mysterious Arrival",
+    "card_number": 312,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Keeper of Skara Nal, Awoken",
+    "card_number": 313,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Dooku, Corruption Must Be Eradicated",
+    "card_number": 314,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Darth Vader, Any Methods Necessary",
+    "card_number": 315,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Ima-Gun Di, Holding Out For Resupply",
+    "card_number": 316,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Logray, Bright Tree Shaman",
+    "card_number": 317,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Krrsantan, Santo",
+    "card_number": 318,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Eravana, Hauling Rathtars",
+    "card_number": 319,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Vernestra Rwoh, We Should Handle This Ourselves",
+    "card_number": 320,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Greater Sarlacc",
+    "card_number": 321,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Low Altitude Combat",
+    "card_number": 322,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Third Sister, Cycle of Vengeance",
+    "card_number": 323,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "A'Koba, Restless Raider",
+    "card_number": 324,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Fett's Firespray, Settling the Score",
+    "card_number": 325,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Seismic Detonation",
+    "card_number": 326,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Mae, Kill the Dream",
+    "card_number": 327,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Yoda, Trickster in Exile",
+    "card_number": 328,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Boss Lyonie, Hypnotized",
+    "card_number": 329,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Mysterious Disappearance",
+    "card_number": 330,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Clone X Assassin",
+    "card_number": 331,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Vice Admiral Rampart, A New Era of Safety",
+    "card_number": 332,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Director Krennic, The Work Has Stalled",
+    "card_number": 333,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Nuvo Vindi, Blue Shadow Perfected",
+    "card_number": 334,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Rho Medical Shuttle",
+    "card_number": 335,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Scorch, Imperial Commando",
+    "card_number": 336,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Clone of the Zillo Beast, Emperor's Experiment",
+    "card_number": 337,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Carrion Spike, Harbinger of Tyranny",
+    "card_number": 338,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "The Great Progenitor, First of the Drengir",
+    "card_number": 339,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Imperial Commandos",
+    "card_number": 340,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Imperial Venator",
+    "card_number": 341,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Dark Sanctum",
+    "card_number": 342,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Ravage",
+    "card_number": 343,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Grand Army Marine",
+    "card_number": 344,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Peppi Bow, Shaak Herder",
+    "card_number": 345,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Yord Fandar, Devoutly Disciplined",
+    "card_number": 346,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Wookiee Protector",
+    "card_number": 347,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Yanna, Sanctuary Elder",
+    "card_number": 348,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Boss Nass, Otoh Gunga Boss",
+    "card_number": 349,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Qui-Gon Jinn, We'll Handle This",
+    "card_number": 350,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Radiant VII, Negotiating for Naboo",
+    "card_number": 351,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Fambaa Shield Team",
+    "card_number": 352,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Alliance Shield Generator",
+    "card_number": 353,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Nala Se, Silent Survivor",
+    "card_number": 354,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Batcher, Loyal Hound",
+    "card_number": 355,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Gunga City Guard",
+    "card_number": 356,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Remote Scout",
+    "card_number": 357,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "N-1 Patroller",
+    "card_number": 358,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Venomous Wyyyshokk",
+    "card_number": 359,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Numa, Still Fighting",
+    "card_number": 360,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Territorial Mudhorn",
+    "card_number": 361,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Opee Sea Killer",
+    "card_number": 362,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Pelta Relief Frigate",
+    "card_number": 363,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Starlit Purrgil",
+    "card_number": 364,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Coastal Catamarans",
+    "card_number": 365,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Sando Aqua Monster",
+    "card_number": 366,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Carbonite Chamber",
+    "card_number": 367,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Devotion",
+    "card_number": 368,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Dire Prowess",
+    "card_number": 369,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Resonate",
+    "card_number": 370,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Always a Bigger Fish",
+    "card_number": 371,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Torrent",
+    "card_number": 372,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Trust Yourself",
+    "card_number": 373,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Dragon's Might",
+    "card_number": 374,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Disposable B1",
+    "card_number": 375,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Garnac, Let the Hunt Begin!",
+    "card_number": 376,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Nute Gunray, Perfectly Legal",
+    "card_number": 377,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Secessionist Convert",
+    "card_number": 378,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Stormtrooper Patrol",
+    "card_number": 379,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "The First Legion, Vader's Fist",
+    "card_number": 380,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Tireless Magnaguard",
+    "card_number": 381,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Emperor Palpatine, Consolidating Power",
+    "card_number": 382,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Invasion Lander",
+    "card_number": 383,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Military Academy",
+    "card_number": 384,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Sinister War Memorial",
+    "card_number": 385,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Breach",
+    "card_number": 386,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Leia Organa, These Are My Friends",
+    "card_number": 387,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Ewok Brigade",
+    "card_number": 388,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Chewbacca, Resourceful Wookiee",
+    "card_number": 389,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Ryyk Blademaster",
+    "card_number": 390,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Saw Gerrera, Shadowlands Insurgent",
+    "card_number": 391,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Auzituck Avenger",
+    "card_number": 392,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Hijacked AT-ST",
+    "card_number": 393,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Boga, Loyal Varactyl",
+    "card_number": 394,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "King Grakchawwaa, King of Kashyyyk",
+    "card_number": 395,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Luminara Unduli, Besieged General",
+    "card_number": 396,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "The Marauder, A New Home",
+    "card_number": 397,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Verdant Fortress",
+    "card_number": 398,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Chewbacca's Bowcaster, Handcrafted Tradition",
+    "card_number": 399,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Mace Windu, Austere Centrist",
+    "card_number": 400,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Child of Dathomir",
+    "card_number": 401,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Emerie Karr, For Your Own Good",
+    "card_number": 402,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Soaring Can-Cell",
+    "card_number": 403,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Tibidee Mate",
+    "card_number": 404,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Wroshyr Rebel",
+    "card_number": 405,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Zam Wesell, Not What She Seems",
+    "card_number": 406,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Arena Reek, Fixture of Ceremony",
+    "card_number": 407,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Lifetree Caravan",
+    "card_number": 408,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "V-19 Skirmisher",
+    "card_number": 409,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Commander Gree, Of the 41st Elite Corps",
+    "card_number": 410,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Flock of Mynocks",
+    "card_number": 411,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Assault Frigate",
+    "card_number": 412,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Rex, Outserved His Purpose",
+    "card_number": 413,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Wookiee Rangers",
+    "card_number": 414,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Banking Clan Warship",
+    "card_number": 415,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Howler Pack",
+    "card_number": 416,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Origin Tree Shyyyo",
+    "card_number": 417,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Outer Rim Garrison",
+    "card_number": 418,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Beast Lair",
+    "card_number": 419,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Local Support",
+    "card_number": 420,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Log Trap",
+    "card_number": 421,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Migrate",
+    "card_number": 422,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Overgrowth",
+    "card_number": 423,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Babwa Venomor, Burning Kashyyyk",
+    "card_number": 424,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Poacher's Starfighter",
+    "card_number": 425,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Dooku's Solar Sailer, Droid Army Portent",
+    "card_number": 426,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Filthy Dianoga",
+    "card_number": 427,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Arena Acklay, Screaming Predator",
+    "card_number": 428,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Corpo Thugs",
+    "card_number": 429,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Battle-Scarred Destroyer",
+    "card_number": 430,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "General Grievous, Scourge of Dathomir",
+    "card_number": 431,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Noxious Refinery",
+    "card_number": 432,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Raze to Ruin",
+    "card_number": 433,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Teebo, Striped Hunter",
+    "card_number": 434,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Champions of Endor",
+    "card_number": 435,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Chief Chirpa, Defiant Elder",
+    "card_number": 436,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Commandeered Tour Shuttle",
+    "card_number": 437,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Gungi, Fighting for Kashyyyk",
+    "card_number": 438,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Dune Sea Nomads",
+    "card_number": 439,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Ezra Bridger, What Are You Afraid Of?",
+    "card_number": 440,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Crosshair, I've Changed",
+    "card_number": 441,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Han Solo, My Team's Ready",
+    "card_number": 442,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Trap Field",
+    "card_number": 443,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Heavy Ion Cannon",
+    "card_number": 444,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Rebel Operation",
+    "card_number": 445,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Maul, Only Revenge Remains",
+    "card_number": 446,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Fennec Shand, A Ship For A Life",
+    "card_number": 447,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Village Troublemaker",
+    "card_number": 448,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Adamant Ewoks",
+    "card_number": 449,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Desperate Nantex",
+    "card_number": 450,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Feisty Blurrg",
+    "card_number": 451,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Stormchaser",
+    "card_number": 452,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Tusken Bantha Rider",
+    "card_number": 453,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Arena Nexu, Starved for Prey",
+    "card_number": 454,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Nightsister Prodigy",
+    "card_number": 455,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Aggrocrab",
+    "card_number": 456,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Ty Yorrick, Monster Hunter",
+    "card_number": 457,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Mining Guild Trespasser",
+    "card_number": 458,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Dathomiri Rancor",
+    "card_number": 459,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Giant Gorax",
+    "card_number": 460,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Neebray Manta",
+    "card_number": 461,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Enraged",
+    "card_number": 462,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Hunter's Instinct",
+    "card_number": 463,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Volley Fire",
+    "card_number": 464,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Nightfall",
+    "card_number": 465,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Run Amok",
+    "card_number": 466,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Catch the Scent",
+    "card_number": 467,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Qimir, Everyone Has a Weakness",
+    "card_number": 468,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Cid Scaleback, Can't Be Trusted",
+    "card_number": 469,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Treacherous Pyke",
+    "card_number": 470,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Geonosian Picador",
+    "card_number": 471,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Rish Loo, Traitorous Minister",
+    "card_number": 472,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Sandtrooper Squad",
+    "card_number": 473,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Inferno Squad, We Can Grieve Later",
+    "card_number": 474,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Victor Squadron, In Attack Formation",
+    "card_number": 475,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Nightbrother, Maul's Gauntlet",
+    "card_number": 476,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Intelligence Agency",
+    "card_number": 477,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "The Tarkin Doctrine, Protect and Punish",
+    "card_number": 478,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Maim",
+    "card_number": 479,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Luke Skywalker, Dreaming Farmboy",
+    "card_number": 480,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Corona Squadron X-Wing",
+    "card_number": 481,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Sol, Compassionate Guardian",
+    "card_number": 482,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Tech, I Thought It Was Obvious",
+    "card_number": 483,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "The Chieftain, Here Since the Oceans Dried",
+    "card_number": 484,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Tribubble Bongo Sub",
+    "card_number": 485,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Phee Genoa, Liberator of Ancient Wonders",
+    "card_number": 486,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "L3-37, We're Programmed to Learn",
+    "card_number": 487,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Insurgent Camp",
+    "card_number": 488,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Don't Touch Anything",
+    "card_number": 489,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "New Tactics",
+    "card_number": 490,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Jaxxon, I Can Hear You Breathing!",
+    "card_number": 491,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Clever Trapper",
+    "card_number": 492,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Teeka, You're in Luck",
+    "card_number": 493,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Sandcrawler Sales Team",
+    "card_number": 494,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Therm Scissorpunch, Boastful Gambler",
+    "card_number": 495,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Tusken Raider",
+    "card_number": 496,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Boba Fett, Family Found",
+    "card_number": 497,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Gungan Battle Wagon",
+    "card_number": 498,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Horizon Chaser",
+    "card_number": 499,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Lakeside Shaaks",
+    "card_number": 500,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Lurking Wampa",
+    "card_number": 501,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Raiding Party",
+    "card_number": 502,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Dragonboat Freighter",
+    "card_number": 503,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Mon Cal Cruiser",
+    "card_number": 504,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Awakened Exogorth",
+    "card_number": 505,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Ritual Dragon",
+    "card_number": 506,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Gaderffii Stick",
+    "card_number": 507,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Booma Ball",
+    "card_number": 508,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Easy Prey",
+    "card_number": 509,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Exploit Confidence",
+    "card_number": 510,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Pounce",
+    "card_number": 511,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Sandstorm",
+    "card_number": 512,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Howl",
+    "card_number": 513,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Occupation Officer",
+    "card_number": 514,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Sun Fac, Poggle's Second",
+    "card_number": 515,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Separatist Harbinger",
+    "card_number": 516,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Trandoshan Collaborator",
+    "card_number": 517,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Pyke Sarisa",
+    "card_number": 518,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Surveillance Cruiser",
+    "card_number": 519,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Defoliator Tank",
+    "card_number": 520,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Frenzied Tri-Fighters",
+    "card_number": 521,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Imperial Cavalry",
+    "card_number": 522,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Blockade Ship",
+    "card_number": 523,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Villainous Ambition",
+    "card_number": 524,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Forced Pacification",
+    "card_number": 525,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Captain Tarpals, Grand Army Captain",
+    "card_number": 526,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "C-3PO, Captivating Storyteller",
+    "card_number": 527,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Jedi Interceptor",
+    "card_number": 528,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Ewok Archers",
+    "card_number": 529,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Ryloth Revolutionary Rider",
+    "card_number": 530,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Pack Guardian",
+    "card_number": 531,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Queen Amidala, Retaking Theed",
+    "card_number": 532,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Ben Kenobi, Don't Be Afraid",
+    "card_number": 533,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Mylaya Rider",
+    "card_number": 534,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Wrecker, Wrecking the Empire",
+    "card_number": 535,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Heroic Bravery",
+    "card_number": 536,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Twi'lek Kalikori",
+    "card_number": 537,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Familiar Strategem",
+    "card_number": 538,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Renew",
+    "card_number": 539,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Offworld Jawa",
+    "card_number": 540,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Friendly Eopie",
+    "card_number": 541,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Wild Space Wanderer",
+    "card_number": 542,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Landing Pad",
+    "card_number": 543,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Growth",
+    "card_number": 544,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Hunter, Everyone Get to Cover!",
+    "card_number": 545,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Kelnacca, Solitary Master",
+    "card_number": 546,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Bacta Tank",
+    "card_number": 547,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Bestial Bond",
+    "card_number": 548,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Mother Talzin, Pledged to the Sisterhood",
+    "card_number": 549,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Talzin's Shuttle, Mysterious Arrival",
+    "card_number": 550,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Keeper of Skara Nal, Awoken",
+    "card_number": 551,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Dooku, Corruption Must Be Eradicated",
+    "card_number": 552,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Darth Vader, Any Methods Necessary",
+    "card_number": 553,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Ima-Gun Di, Holding Out For Resupply",
+    "card_number": 554,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Logray, Bright Tree Shaman",
+    "card_number": 555,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Krrsantan, Santo",
+    "card_number": 556,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Eravana, Hauling Rathtars",
+    "card_number": 557,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Vernestra Rwoh, We Should Handle This Ourselves",
+    "card_number": 558,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Greater Sarlacc",
+    "card_number": 559,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Low Altitude Combat",
+    "card_number": 560,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Third Sister, Cycle of Vengeance",
+    "card_number": 561,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "A'Koba, Restless Raider",
+    "card_number": 562,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Fett's Firespray, Settling the Score",
+    "card_number": 563,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Seismic Detonation",
+    "card_number": 564,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Mae, Kill the Dream",
+    "card_number": 565,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Yoda, Trickster in Exile",
+    "card_number": 566,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Boss Lyonie, Hypnotized",
+    "card_number": 567,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Mysterious Disappearance",
+    "card_number": 568,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Clone X Assassin",
+    "card_number": 569,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Vice Admiral Rampart, A New Era of Safety",
+    "card_number": 570,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Director Krennic, The Work Has Stalled",
+    "card_number": 571,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Nuvo Vindi, Blue Shadow Perfected",
+    "card_number": 572,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Rho Medical Shuttle",
+    "card_number": 573,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Scorch, Imperial Commando",
+    "card_number": 574,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Clone of the Zillo Beast, Emperor's Experiment",
+    "card_number": 575,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Carrion Spike, Harbinger of Tyranny",
+    "card_number": 576,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "The Great Progenitor, First of the Drengir",
+    "card_number": 577,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Imperial Commandos",
+    "card_number": 578,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Imperial Venator",
+    "card_number": 579,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Dark Sanctum",
+    "card_number": 580,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Ravage",
+    "card_number": 581,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Grand Army Marine",
+    "card_number": 582,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Peppi Bow, Shaak Herder",
+    "card_number": 583,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Yord Fandar, Devoutly Disciplined",
+    "card_number": 584,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Wookiee Protector",
+    "card_number": 585,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Yanna, Sanctuary Elder",
+    "card_number": 586,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Boss Nass, Otoh Gunga Boss",
+    "card_number": 587,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Qui-Gon Jinn, We'll Handle This",
+    "card_number": 588,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Radiant VII, Negotiating for Naboo",
+    "card_number": 589,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Fambaa Shield Team",
+    "card_number": 590,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Alliance Shield Generator",
+    "card_number": 591,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Nala Se, Silent Survivor",
+    "card_number": 592,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Batcher, Loyal Hound",
+    "card_number": 593,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Gunga City Guard",
+    "card_number": 594,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Remote Scout",
+    "card_number": 595,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "N-1 Patroller",
+    "card_number": 596,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Venomous Wyyyshokk",
+    "card_number": 597,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Numa, Still Fighting",
+    "card_number": 598,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Territorial Mudhorn",
+    "card_number": 599,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Opee Sea Killer",
+    "card_number": 600,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Pelta Relief Frigate",
+    "card_number": 601,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Starlit Purrgil",
+    "card_number": 602,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Coastal Catamarans",
+    "card_number": 603,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Sando Aqua Monster",
+    "card_number": 604,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Carbonite Chamber",
+    "card_number": 605,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Devotion",
+    "card_number": 606,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Dire Prowess",
+    "card_number": 607,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Resonate",
+    "card_number": 608,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Always a Bigger Fish",
+    "card_number": 609,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Torrent",
+    "card_number": 610,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Trust Yourself",
+    "card_number": 611,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Dragon's Might",
+    "card_number": 612,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Disposable B1",
+    "card_number": 613,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Garnac, Let the Hunt Begin!",
+    "card_number": 614,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Nute Gunray, Perfectly Legal",
+    "card_number": 615,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Secessionist Convert",
+    "card_number": 616,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Stormtrooper Patrol",
+    "card_number": 617,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "The First Legion, Vader's Fist",
+    "card_number": 618,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Tireless Magnaguard",
+    "card_number": 619,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Emperor Palpatine, Consolidating Power",
+    "card_number": 620,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Invasion Lander",
+    "card_number": 621,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Military Academy",
+    "card_number": 622,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Sinister War Memorial",
+    "card_number": 623,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Breach",
+    "card_number": 624,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Leia Organa, These Are My Friends",
+    "card_number": 625,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Ewok Brigade",
+    "card_number": 626,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Chewbacca, Resourceful Wookiee",
+    "card_number": 627,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Ryyk Blademaster",
+    "card_number": 628,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Saw Gerrera, Shadowlands Insurgent",
+    "card_number": 629,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Auzituck Avenger",
+    "card_number": 630,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Hijacked AT-ST",
+    "card_number": 631,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Boga, Loyal Varactyl",
+    "card_number": 632,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "King Grakchawwaa, King of Kashyyyk",
+    "card_number": 633,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Luminara Unduli, Besieged General",
+    "card_number": 634,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "The Marauder, A New Home",
+    "card_number": 635,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Verdant Fortress",
+    "card_number": 636,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Chewbacca's Bowcaster, Handcrafted Tradition",
+    "card_number": 637,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Mace Windu, Austere Centrist",
+    "card_number": 638,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Child of Dathomir",
+    "card_number": 639,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Emerie Karr, For Your Own Good",
+    "card_number": 640,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Soaring Can-Cell",
+    "card_number": 641,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Tibidee Mate",
+    "card_number": 642,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Wroshyr Rebel",
+    "card_number": 643,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Zam Wesell, Not What She Seems",
+    "card_number": 644,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Arena Reek, Fixture of Ceremony",
+    "card_number": 645,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Lifetree Caravan",
+    "card_number": 646,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "V-19 Skirmisher",
+    "card_number": 647,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Commander Gree, Of the 41st Elite Corps",
+    "card_number": 648,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Flock of Mynocks",
+    "card_number": 649,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Assault Frigate",
+    "card_number": 650,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Rex, Outserved His Purpose",
+    "card_number": 651,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Wookiee Rangers",
+    "card_number": 652,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Banking Clan Warship",
+    "card_number": 653,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Howler Pack",
+    "card_number": 654,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Origin Tree Shyyyo",
+    "card_number": 655,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Outer Rim Garrison",
+    "card_number": 656,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Beast Lair",
+    "card_number": 657,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Local Support",
+    "card_number": 658,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Log Trap",
+    "card_number": 659,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Migrate",
+    "card_number": 660,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Overgrowth",
+    "card_number": 661,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Babwa Venomor, Burning Kashyyyk",
+    "card_number": 662,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Poacher's Starfighter",
+    "card_number": 663,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Dooku's Solar Sailer, Droid Army Portent",
+    "card_number": 664,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Filthy Dianoga",
+    "card_number": 665,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Arena Acklay, Screaming Predator",
+    "card_number": 666,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Corpo Thugs",
+    "card_number": 667,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Battle-Scarred Destroyer",
+    "card_number": 668,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "General Grievous, Scourge of Dathomir",
+    "card_number": 669,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Noxious Refinery",
+    "card_number": 670,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Raze to Ruin",
+    "card_number": 671,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Teebo, Striped Hunter",
+    "card_number": 672,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Champions of Endor",
+    "card_number": 673,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Chief Chirpa, Defiant Elder",
+    "card_number": 674,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Commandeered Tour Shuttle",
+    "card_number": 675,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Gungi, Fighting for Kashyyyk",
+    "card_number": 676,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Dune Sea Nomads",
+    "card_number": 677,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Ezra Bridger, What Are You Afraid Of?",
+    "card_number": 678,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Crosshair, I've Changed",
+    "card_number": 679,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Han Solo, My Team's Ready",
+    "card_number": 680,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Trap Field",
+    "card_number": 681,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Heavy Ion Cannon",
+    "card_number": 682,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Rebel Operation",
+    "card_number": 683,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Maul, Only Revenge Remains",
+    "card_number": 684,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Fennec Shand, A Ship For A Life",
+    "card_number": 685,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Village Troublemaker",
+    "card_number": 686,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Adamant Ewoks",
+    "card_number": 687,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Desperate Nantex",
+    "card_number": 688,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Feisty Blurrg",
+    "card_number": 689,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Stormchaser",
+    "card_number": 690,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Tusken Bantha Rider",
+    "card_number": 691,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Arena Nexu, Starved for Prey",
+    "card_number": 692,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Nightsister Prodigy",
+    "card_number": 693,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Aggrocrab",
+    "card_number": 694,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Ty Yorrick, Monster Hunter",
+    "card_number": 695,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Mining Guild Trespasser",
+    "card_number": 696,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Dathomiri Rancor",
+    "card_number": 697,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Giant Gorax",
+    "card_number": 698,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Neebray Manta",
+    "card_number": 699,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Enraged",
+    "card_number": 700,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Hunter's Instinct",
+    "card_number": 701,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Volley Fire",
+    "card_number": 702,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Nightfall",
+    "card_number": 703,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Run Amok",
+    "card_number": 704,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Catch the Scent",
+    "card_number": 705,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Qimir, Everyone Has a Weakness",
+    "card_number": 706,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Cid Scaleback, Can't Be Trusted",
+    "card_number": 707,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Treacherous Pyke",
+    "card_number": 708,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Geonosian Picador",
+    "card_number": 709,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Rish Loo, Traitorous Minister",
+    "card_number": 710,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Sandtrooper Squad",
+    "card_number": 711,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Inferno Squad, We Can Grieve Later",
+    "card_number": 712,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Victor Squadron, In Attack Formation",
+    "card_number": 713,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Nightbrother, Maul's Gauntlet",
+    "card_number": 714,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Intelligence Agency",
+    "card_number": 715,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "The Tarkin Doctrine, Protect and Punish",
+    "card_number": 716,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Maim",
+    "card_number": 717,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Luke Skywalker, Dreaming Farmboy",
+    "card_number": 718,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Corona Squadron X-Wing",
+    "card_number": 719,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Sol, Compassionate Guardian",
+    "card_number": 720,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Tech, I Thought It Was Obvious",
+    "card_number": 721,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "The Chieftain, Here Since the Oceans Dried",
+    "card_number": 722,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Tribubble Bongo Sub",
+    "card_number": 723,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Phee Genoa, Liberator of Ancient Wonders",
+    "card_number": 724,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "L3-37, We're Programmed to Learn",
+    "card_number": 725,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Insurgent Camp",
+    "card_number": 726,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Don't Touch Anything",
+    "card_number": 727,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "New Tactics",
+    "card_number": 728,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Jaxxon, I Can Hear You Breathing!",
+    "card_number": 729,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Clever Trapper",
+    "card_number": 730,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Teeka, You're in Luck",
+    "card_number": 731,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Sandcrawler Sales Team",
+    "card_number": 732,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Therm Scissorpunch, Boastful Gambler",
+    "card_number": 733,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Tusken Raider",
+    "card_number": 734,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Boba Fett, Family Found",
+    "card_number": 735,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Gungan Battle Wagon",
+    "card_number": 736,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Horizon Chaser",
+    "card_number": 737,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Lakeside Shaaks",
+    "card_number": 738,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Lurking Wampa",
+    "card_number": 739,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Raiding Party",
+    "card_number": 740,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Dragonboat Freighter",
+    "card_number": 741,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Mon Cal Cruiser",
+    "card_number": 742,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Awakened Exogorth",
+    "card_number": 743,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Ritual Dragon",
+    "card_number": 744,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Gaderffii Stick",
+    "card_number": 745,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Booma Ball",
+    "card_number": 746,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Easy Prey",
+    "card_number": 747,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Exploit Confidence",
+    "card_number": 748,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Pounce",
+    "card_number": 749,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Sandstorm",
+    "card_number": 750,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Howl",
+    "card_number": 751,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Occupation Officer",
+    "card_number": 752,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Sun Fac, Poggle's Second",
+    "card_number": 753,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Separatist Harbinger",
+    "card_number": 754,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Trandoshan Collaborator",
+    "card_number": 755,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Pyke Sarisa",
+    "card_number": 756,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Surveillance Cruiser",
+    "card_number": 757,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Defoliator Tank",
+    "card_number": 758,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Frenzied Tri-Fighters",
+    "card_number": 759,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Imperial Cavalry",
+    "card_number": 760,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Blockade Ship",
+    "card_number": 761,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Villainous Ambition",
+    "card_number": 762,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Forced Pacification",
+    "card_number": 763,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Captain Tarpals, Grand Army Captain",
+    "card_number": 764,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "C-3PO, Captivating Storyteller",
+    "card_number": 765,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Jedi Interceptor",
+    "card_number": 766,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Ewok Archers",
+    "card_number": 767,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Ryloth Revolutionary Rider",
+    "card_number": 768,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Pack Guardian",
+    "card_number": 769,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Queen Amidala, Retaking Theed",
+    "card_number": 770,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Ben Kenobi, Don't Be Afraid",
+    "card_number": 771,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Mylaya Rider",
+    "card_number": 772,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Wrecker, Wrecking the Empire",
+    "card_number": 773,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Heroic Bravery",
+    "card_number": 774,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Twi'lek Kalikori",
+    "card_number": 775,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Familiar Strategem",
+    "card_number": 776,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Renew",
+    "card_number": 777,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Offworld Jawa",
+    "card_number": 778,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Friendly Eopie",
+    "card_number": 779,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Wild Space Wanderer",
+    "card_number": 780,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Landing Pad",
+    "card_number": 781,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Growth",
+    "card_number": 782,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
     "set_code": "JTL",
     "en_name": "TIE Fighter",
     "card_number": 1,
@@ -577,14 +6929,6 @@
   },
   {
     "set_code": "SHD",
-    "en_name": "Enterprising Lackeys",
-    "card_number": 376,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
     "en_name": "Collections Starhopper",
     "card_number": 380,
     "variant_type": "Hyperspace",
@@ -665,14 +7009,6 @@
   },
   {
     "set_code": "SHD",
-    "en_name": "Wild Rancor",
-    "card_number": 427,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
     "en_name": "Hunting Nexu",
     "card_number": 437,
     "variant_type": "Hyperspace",
@@ -691,14 +7027,6 @@
     "set_code": "SHD",
     "en_name": "Pillage",
     "card_number": 450,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Bazine Netal, Spy for the First Order",
-    "card_number": 453,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -1089,14 +7417,6 @@
   },
   {
     "set_code": "SOR",
-    "en_name": "Traitorous",
-    "card_number": 386,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
     "en_name": "Imperial Interceptor",
     "card_number": 396,
     "variant_type": "Hyperspace",
@@ -1147,14 +7467,6 @@
     "set_code": "SOR",
     "en_name": "Mace Windu, Party Crasher",
     "card_number": 412,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "Wampa",
-    "card_number": 427,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -1617,14 +7929,6 @@
   },
   {
     "set_code": "TWI",
-    "en_name": "Kraken, Confederate Tactician",
-    "card_number": 356,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
     "en_name": "Reprocess",
     "card_number": 360,
     "variant_type": "Hyperspace",
@@ -1643,14 +7947,6 @@
     "set_code": "TWI",
     "en_name": "Mas Amedda, Vice Chair",
     "card_number": 372,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "Manufactured Soldiers",
-    "card_number": 373,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -1827,6 +8123,14 @@
     "set_code": "TWI",
     "en_name": "Sanctioner's Shuttle",
     "card_number": 478,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
+    "en_name": "Shadowed Intentions",
+    "card_number": 485,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
