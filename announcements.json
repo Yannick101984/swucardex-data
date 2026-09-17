@@ -1,5 +1,21 @@
 [
   {
+    "id": "ann-1789625276",
+    "title": "Nouveaux sets ajoutés : CST, HMW",
+    "detail": null,
+    "color": "#007A3E",
+    "url": null,
+    "imageURL": null,
+    "date": "2026-09-17",
+    "changes": {
+      "added": [
+        "CST",
+        "HMW"
+      ],
+      "updated": null
+    }
+  },
+  {
     "id": "ann-v1.3.0-update",
     "title": "v1.3.0 disponible ! Onglet Accessoires, actus SWU dans l'app et journal de partie conservé entre les sessions.",
     "detail": null,

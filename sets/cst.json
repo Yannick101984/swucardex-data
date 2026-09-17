@@ -1,0 +1,1177 @@
+{
+  "data": [
+    {
+      "id": 63730,
+      "attributes": {
+        "cardNumber": 2,
+        "title": "Leia Organa",
+        "subtitle": "Vigilant for Danger",
+        "cardCount": 0,
+        "artist": "Johnny Morrow",
+        "artFrontHorizontal": false,
+        "artBackHorizontal": null,
+        "hasFoil": true,
+        "cost": 3,
+        "hp": 4,
+        "power": 3,
+        "text": "Support \nOn Attack: You may deal 1 damage to this unit. If you do, heal 2 damage from your base.",
+        "textStyled": "<p><strong>Support</strong>&nbsp;</p><p><strong>On Attack:</strong> You may deal 1 damage to this unit. If you do, heal 2 damage from your base.</p>",
+        "deployBox": null,
+        "deployBoxStyled": null,
+        "epicAction": null,
+        "epicActionStyled": null,
+        "linkHtml": "<a href=\"/cards?cid=8379900881\" class=\"card-tooltip\" data-card=\"8379900881\">Leia Organa</a>",
+        "cardId": null,
+        "createdAt": "2026-09-15T18:46:51.755Z",
+        "updatedAt": "2026-09-15T19:05:47.905Z",
+        "publishedAt": "2026-09-15T18:50:20.401Z",
+        "locale": "fr",
+        "hyperspace": false,
+        "unique": false,
+        "showcase": false,
+        "cardUid": "8379900881",
+        "rules": null,
+        "rulesStyled": null,
+        "serialCode": "CST110002",
+        "upgradeHp": null,
+        "upgradePower": null,
+        "artFront": {
+          "data": {
+            "id": 66019,
+            "attributes": {
+              "name": "CST110002EN_Leia-Organa.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 716,
+              "height": 1000,
+              "formats": {
+                "card": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//card_CST_110002_EN_Leia_Organa_57fe4b354e.png",
+                  "hash": "card_CST_110002_EN_Leia_Organa_57fe4b354e",
+                  "mime": "image/png",
+                  "name": "card_CST110002EN_Leia-Organa.png",
+                  "path": null,
+                  "size": 256.51,
+                  "width": 286,
+                  "height": 400,
+                  "sizeInBytes": 256513
+                },
+                "small": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//small_CST_110002_EN_Leia_Organa_57fe4b354e.png",
+                  "hash": "small_CST_110002_EN_Leia_Organa_57fe4b354e",
+                  "mime": "image/png",
+                  "name": "small_CST110002EN_Leia-Organa.png",
+                  "path": null,
+                  "size": 374.2,
+                  "width": 358,
+                  "height": 500,
+                  "sizeInBytes": 374195
+                },
+                "medium": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//medium_CST_110002_EN_Leia_Organa_57fe4b354e.png",
+                  "hash": "medium_CST_110002_EN_Leia_Organa_57fe4b354e",
+                  "mime": "image/png",
+                  "name": "medium_CST110002EN_Leia-Organa.png",
+                  "path": null,
+                  "size": 679.45,
+                  "width": 501,
+                  "height": 700,
+                  "sizeInBytes": 679448
+                },
+                "xsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xsmall_CST_110002_EN_Leia_Organa_57fe4b354e.png",
+                  "hash": "xsmall_CST_110002_EN_Leia_Organa_57fe4b354e",
+                  "mime": "image/png",
+                  "name": "xsmall_CST110002EN_Leia-Organa.png",
+                  "path": null,
+                  "size": 155.75,
+                  "width": 215,
+                  "height": 300,
+                  "sizeInBytes": 155747
+                },
+                "xxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxsmall_CST_110002_EN_Leia_Organa_57fe4b354e.png",
+                  "hash": "xxsmall_CST_110002_EN_Leia_Organa_57fe4b354e",
+                  "mime": "image/png",
+                  "name": "xxsmall_CST110002EN_Leia-Organa.png",
+                  "path": null,
+                  "size": 77.31,
+                  "width": 143,
+                  "height": 200,
+                  "sizeInBytes": 77308
+                },
+                "xxxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxxsmall_CST_110002_EN_Leia_Organa_57fe4b354e.png",
+                  "hash": "xxxsmall_CST_110002_EN_Leia_Organa_57fe4b354e",
+                  "mime": "image/png",
+                  "name": "xxxsmall_CST110002EN_Leia-Organa.png",
+                  "path": null,
+                  "size": 45.97,
+                  "width": 107,
+                  "height": 150,
+                  "sizeInBytes": 45965
+                },
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//thumbnail_CST_110002_EN_Leia_Organa_57fe4b354e.png",
+                  "hash": "thumbnail_CST_110002_EN_Leia_Organa_57fe4b354e",
+                  "mime": "image/png",
+                  "name": "thumbnail_CST110002EN_Leia-Organa.png",
+                  "path": null,
+                  "size": 113.07,
+                  "width": 179,
+                  "height": 250,
+                  "sizeInBytes": 113071
+                }
+              },
+              "hash": "CST_110002_EN_Leia_Organa_57fe4b354e",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 273.66,
+              "url": "https://cdn.starwarsunlimited.com//CST_110002_EN_Leia_Organa_57fe4b354e.png",
+              "previewUrl": null,
+              "provider": "aws-s3",
+              "provider_metadata": null,
+              "createdAt": "2026-09-15T18:18:17.514Z",
+              "updatedAt": "2026-09-15T18:18:17.514Z"
+            }
+          }
+        },
+        "artBack": {
+          "data": null
+        },
+        "artThumbnail": {
+          "data": {
+            "id": 66020,
+            "attributes": {
+              "name": "CST110002EN_Leia-Organa_Thumbnail.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 300,
+              "height": 100,
+              "formats": {
+                "xxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxsmall_CST_110002_EN_Leia_Organa_Thumbnail_8c438794ff.png",
+                  "hash": "xxsmall_CST_110002_EN_Leia_Organa_Thumbnail_8c438794ff",
+                  "mime": "image/png",
+                  "name": "xxsmall_CST110002EN_Leia-Organa_Thumbnail.png",
+                  "path": null,
+                  "size": 31.74,
+                  "width": 200,
+                  "height": 67,
+                  "sizeInBytes": 31736
+                },
+                "xxxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxxsmall_CST_110002_EN_Leia_Organa_Thumbnail_8c438794ff.png",
+                  "hash": "xxxsmall_CST_110002_EN_Leia_Organa_Thumbnail_8c438794ff",
+                  "mime": "image/png",
+                  "name": "xxxsmall_CST110002EN_Leia-Organa_Thumbnail.png",
+                  "path": null,
+                  "size": 18.75,
+                  "width": 150,
+                  "height": 50,
+                  "sizeInBytes": 18746
+                },
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//thumbnail_CST_110002_EN_Leia_Organa_Thumbnail_8c438794ff.png",
+                  "hash": "thumbnail_CST_110002_EN_Leia_Organa_Thumbnail_8c438794ff",
+                  "mime": "image/png",
+                  "name": "thumbnail_CST110002EN_Leia-Organa_Thumbnail.png",
+                  "path": null,
+                  "size": 46.71,
+                  "width": 250,
+                  "height": 83,
+                  "sizeInBytes": 46711
+                }
+              },
+              "hash": "CST_110002_EN_Leia_Organa_Thumbnail_8c438794ff",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 20.52,
+              "url": "https://cdn.starwarsunlimited.com//CST_110002_EN_Leia_Organa_Thumbnail_8c438794ff.png",
+              "previewUrl": null,
+              "provider": "aws-s3",
+              "provider_metadata": null,
+              "createdAt": "2026-09-15T18:18:33.373Z",
+              "updatedAt": "2026-09-15T18:18:33.373Z"
+            }
+          }
+        },
+        "localizations": {
+          "data": [
+            {
+              "id": 63732,
+              "attributes": {
+                "title": "Leia Organa",
+                "subtitle": "Vigilant for Danger",
+                "cardNumber": 2,
+                "cardCount": 0,
+                "artist": "Johnny Morrow",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": 3,
+                "hp": 4,
+                "power": 3,
+                "text": "Support \nOn Attack: You may deal 1 damage to this unit. If you do, heal 2 damage from your base.",
+                "textStyled": "<p><strong>Support</strong>&nbsp;</p><p><strong>On Attack:</strong> You may deal 1 damage to this unit. If you do, heal 2 damage from your base.</p>",
+                "deployBox": null,
+                "deployBoxStyled": null,
+                "epicAction": null,
+                "epicActionStyled": null,
+                "linkHtml": "<a href=\"/cards?cid=8379900881\" class=\"card-tooltip\" data-card=\"8379900881\">Leia Organa</a>",
+                "cardId": null,
+                "createdAt": "2026-09-15T18:49:55.455Z",
+                "updatedAt": "2026-09-15T19:05:47.836Z",
+                "publishedAt": "2026-09-15T18:50:03.007Z",
+                "locale": "it",
+                "hyperspace": false,
+                "unique": false,
+                "showcase": false,
+                "cardUid": "8379900881",
+                "rules": null,
+                "rulesStyled": null,
+                "serialCode": "CST110002",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            },
+            {
+              "id": 63731,
+              "attributes": {
+                "title": "Leia Organa",
+                "subtitle": "Vigilant for Danger",
+                "cardNumber": 2,
+                "cardCount": 0,
+                "artist": "Johnny Morrow",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": 3,
+                "hp": 4,
+                "power": 3,
+                "text": "Support \nOn Attack: You may deal 1 damage to this unit. If you do, heal 2 damage from your base.",
+                "textStyled": "<p><strong>Support</strong>&nbsp;</p><p><strong>On Attack:</strong> You may deal 1 damage to this unit. If you do, heal 2 damage from your base.</p>",
+                "deployBox": null,
+                "deployBoxStyled": null,
+                "epicAction": null,
+                "epicActionStyled": null,
+                "linkHtml": "<a href=\"/cards?cid=8379900881\" class=\"card-tooltip\" data-card=\"8379900881\">Leia Organa</a>",
+                "cardId": null,
+                "createdAt": "2026-09-15T18:48:28.735Z",
+                "updatedAt": "2026-09-15T19:05:47.887Z",
+                "publishedAt": "2026-09-15T18:50:25.068Z",
+                "locale": "es",
+                "hyperspace": false,
+                "unique": false,
+                "showcase": false,
+                "cardUid": "8379900881",
+                "rules": null,
+                "rulesStyled": null,
+                "serialCode": "CST110002",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            },
+            {
+              "id": 63728,
+              "attributes": {
+                "title": "Leia Organa",
+                "subtitle": "Vigilant for Danger",
+                "cardNumber": 2,
+                "cardCount": 0,
+                "artist": "Johnny Morrow",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": 3,
+                "hp": 4,
+                "power": 3,
+                "text": "Support \nOn Attack: You may deal 1 damage to this unit. If you do, heal 2 damage from your base.",
+                "textStyled": "<p><strong>Support</strong>&nbsp;</p><p><strong>On Attack:</strong> You may deal 1 damage to this unit. If you do, heal 2 damage from your base.</p>",
+                "deployBox": null,
+                "deployBoxStyled": null,
+                "epicAction": null,
+                "epicActionStyled": null,
+                "linkHtml": "<a href=\"/cards?cid=8379900881\" class=\"card-tooltip\" data-card=\"8379900881\">Leia Organa</a>",
+                "cardId": null,
+                "createdAt": "2026-09-15T18:27:35.201Z",
+                "updatedAt": "2026-09-15T19:05:47.920Z",
+                "publishedAt": "2026-09-15T18:50:08.610Z",
+                "locale": "en",
+                "hyperspace": false,
+                "unique": false,
+                "showcase": false,
+                "cardUid": "8379900881",
+                "rules": null,
+                "rulesStyled": null,
+                "serialCode": "CST110002",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            },
+            {
+              "id": 63729,
+              "attributes": {
+                "title": "Leia Organa",
+                "subtitle": "Vigilant for Danger",
+                "cardNumber": 2,
+                "cardCount": 0,
+                "artist": "Johnny Morrow",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": 3,
+                "hp": 4,
+                "power": 3,
+                "text": "Support \nOn Attack: You may deal 1 damage to this unit. If you do, heal 2 damage from your base.",
+                "textStyled": "<p><strong>Support</strong>&nbsp;</p><p><strong>On Attack:</strong> You may deal 1 damage to this unit. If you do, heal 2 damage from your base.</p>",
+                "deployBox": null,
+                "deployBoxStyled": null,
+                "epicAction": null,
+                "epicActionStyled": null,
+                "linkHtml": "<a href=\"/cards?cid=8379900881\" class=\"card-tooltip\" data-card=\"8379900881\">Leia Organa</a>",
+                "cardId": null,
+                "createdAt": "2026-09-15T18:44:24.012Z",
+                "updatedAt": "2026-09-15T19:05:47.937Z",
+                "publishedAt": "2026-09-15T18:50:15.153Z",
+                "locale": "de",
+                "hyperspace": false,
+                "unique": false,
+                "showcase": false,
+                "cardUid": "8379900881",
+                "rules": null,
+                "rulesStyled": null,
+                "serialCode": "CST110002",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "data": [
+            {
+              "id": 4,
+              "attributes": {
+                "name": "Vigilance",
+                "description": "<p>Un jeu défensif, avec des capacités pour soigner les dégâts, retirer du jeu les unités dangereuses, protéger sa base des attaques ennemies. Cette affinité est idéale pour les joueurs qui savent temporiser, en encaissant les assauts les plus meurtriers.</p>",
+                "color": "#4073d4",
+                "createdAt": "2023-08-10T21:02:26.776Z",
+                "updatedAt": "2024-07-15T21:32:24.096Z",
+                "publishedAt": "2024-01-02T18:25:33.755Z",
+                "locale": "fr",
+                "englishName": "Vigilance",
+                "sortValue": 1
+              }
+            },
+            {
+              "id": 24,
+              "attributes": {
+                "name": "Héroïsme",
+                "description": "<p>Lutter pour la paix et la justice avec des cartes représentant les «&nbsp;gentils&nbsp;» de la galaxie Star Wars. Cette affinité est idéale pour ceux qui souhaitent que leurs cartes se soutiennent et se protègent mutuellement tout en attaquant. Cette affinité est souvent associée à une autre affinité sur la carte.</p>",
+                "color": "#ffffff",
+                "createdAt": "2023-08-10T21:17:26.974Z",
+                "updatedAt": "2024-07-15T21:41:00.637Z",
+                "publishedAt": "2024-01-02T18:25:10.259Z",
+                "locale": "fr",
+                "englishName": "Heroism",
+                "sortValue": 25
+              }
+            }
+          ]
+        },
+        "aspectDuplicates": {
+          "data": []
+        },
+        "type": {
+          "data": {
+            "id": 29,
+            "attributes": {
+              "name": "Unité",
+              "description": "",
+              "value": "Unit",
+              "createdAt": "2023-08-15T18:04:32.553Z",
+              "updatedAt": "2024-04-25T13:52:29.937Z",
+              "publishedAt": "2024-01-04T21:29:14.943Z",
+              "locale": "fr",
+              "sortValue": 3
+            }
+          }
+        },
+        "type2": {
+          "data": null
+        },
+        "traits": {
+          "data": [
+            {
+              "id": 39,
+              "attributes": {
+                "name": "Rebelle",
+                "description": "",
+                "createdAt": "2023-08-15T14:41:39.554Z",
+                "updatedAt": "2024-01-04T21:20:25.621Z",
+                "publishedAt": "2024-01-04T21:20:25.617Z",
+                "locale": "fr"
+              }
+            },
+            {
+              "id": 14,
+              "attributes": {
+                "name": "Officiel",
+                "description": "",
+                "createdAt": "2023-08-15T14:38:52.136Z",
+                "updatedAt": "2024-01-04T21:08:45.141Z",
+                "publishedAt": "2024-01-04T21:08:45.138Z",
+                "locale": "fr"
+              }
+            }
+          ]
+        },
+        "arenas": {
+          "data": [
+            {
+              "id": 4,
+              "attributes": {
+                "name": "Terrestre",
+                "description": null,
+                "createdAt": "2023-08-15T14:32:20.801Z",
+                "updatedAt": "2024-01-04T16:49:07.912Z",
+                "publishedAt": "2023-08-18T21:37:40.768Z",
+                "locale": "fr"
+              }
+            }
+          ]
+        },
+        "keywords": {
+          "data": [
+            {
+              "id": 84,
+              "attributes": {
+                "name": "Soutien",
+                "description": null,
+                "createdAt": "2026-05-15T15:40:42.456Z",
+                "updatedAt": "2026-05-27T21:41:09.386Z",
+                "publishedAt": "2026-05-27T21:41:09.382Z",
+                "locale": "fr"
+              }
+            }
+          ]
+        },
+        "rarity": {
+          "data": {
+            "id": 24,
+            "attributes": {
+              "name": "Spéciale",
+              "character": "S",
+              "color": "#000000",
+              "createdAt": "2023-08-14T21:34:27.979Z",
+              "updatedAt": "2024-04-25T14:06:09.057Z",
+              "publishedAt": "2024-01-04T16:42:01.831Z",
+              "locale": "fr",
+              "englishName": "Special",
+              "sortValue": 1
+            }
+          }
+        },
+        "expansion": {
+          "data": {
+            "id": 140,
+            "attributes": {
+              "name": "Costco Exclusive",
+              "description": null,
+              "code": "CST",
+              "createdAt": "2026-09-15T18:24:14.094Z",
+              "updatedAt": "2026-09-15T18:24:30.240Z",
+              "publishedAt": "2026-09-15T18:24:15.256Z",
+              "locale": "fr",
+              "sortValue": 95,
+              "leaderboardStartDate": null,
+              "leaderboardEndDate": null
+            }
+          }
+        },
+        "variantTypes": {
+          "data": [
+            {
+              "id": 333,
+              "attributes": {
+                "name": "Costco Exclusive",
+                "description": null,
+                "createdAt": "2026-09-15T18:22:37.559Z",
+                "updatedAt": "2026-09-15T18:23:01.044Z",
+                "publishedAt": "2026-09-15T18:22:38.740Z",
+                "locale": "fr",
+                "variantId": "11",
+                "foil": null,
+                "sortValue": 110,
+                "icon": {
+                  "data": {
+                    "id": 8701,
+                    "attributes": {
+                      "name": "icon_standard.png",
+                      "alternativeText": null,
+                      "caption": null,
+                      "width": 144,
+                      "height": 144,
+                      "formats": null,
+                      "hash": "icon_standard_7dbd7cd8e6",
+                      "ext": ".png",
+                      "mime": "image/png",
+                      "size": 0.39,
+                      "url": "https://cdn.starwarsunlimited.com//icon_standard_7dbd7cd8e6.png",
+                      "previewUrl": null,
+                      "provider": "aws-s3",
+                      "provider_metadata": null,
+                      "createdAt": "2024-07-15T14:40:17.066Z",
+                      "updatedAt": "2024-07-15T14:40:17.066Z"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "variantOf": {
+          "data": null
+        },
+        "reprintOf": {
+          "data": {
+            "id": 51980,
+            "attributes": {
+              "title": "Leia Organa",
+              "subtitle": "Vigilante Face Au Danger",
+              "cardNumber": 59,
+              "cardCount": 264,
+              "artist": "Axel Hutt",
+              "artFrontHorizontal": false,
+              "artBackHorizontal": null,
+              "hasFoil": true,
+              "cost": 3,
+              "hp": 4,
+              "power": 3,
+              "text": "Soutien (Quand vous jouez cette unité, vous pouvez attaquer avec une autre unité. Pour cette attaque, l'unité attaquante gagne les autres capacités de cette unité.)\nEn attaque : vous pouvez infliger 1 dégât à cette unité. Dans ce cas, soignez 2 dégâts de votre base.",
+              "textStyled": "<p><strong>Soutien</strong> (<i>Quand vous jouez cette unité, vous pouvez attaquer avec une autre unité. Pour cette attaque, l'unité attaquante gagne les autres capacités de cette unité.</i>)</p><p><strong>En attaque :</strong> vous pouvez infliger 1 dégât à cette unité. Dans ce cas, soignez 2 dégâts de votre base.</p>",
+              "deployBox": null,
+              "deployBoxStyled": null,
+              "epicAction": "",
+              "epicActionStyled": "<p></p>",
+              "linkHtml": "<a href=\"/cards?cid=8288798287\" class=\"card-tooltip\" data-card=\"8288798287\">Leia Organa</a>",
+              "cardId": null,
+              "createdAt": "2026-05-19T15:29:07.428Z",
+              "updatedAt": "2026-05-27T21:24:16.529Z",
+              "publishedAt": "2025-03-05T06:00:00.000Z",
+              "locale": "fr",
+              "hyperspace": false,
+              "unique": true,
+              "showcase": false,
+              "cardUid": "8288798287",
+              "rules": null,
+              "rulesStyled": null,
+              "serialCode": "08010059",
+              "upgradeHp": null,
+              "upgradePower": null
+            }
+          }
+        },
+        "validationId": "8288798287"
+      }
+    },
+    {
+      "id": 63735,
+      "attributes": {
+        "cardNumber": 3,
+        "title": "Han Solo",
+        "subtitle": "It'll Work",
+        "cardCount": 0,
+        "artist": "Johnny Morrow",
+        "artFrontHorizontal": false,
+        "artBackHorizontal": null,
+        "hasFoil": true,
+        "cost": 4,
+        "hp": 7,
+        "power": 3,
+        "text": "Saboteur\nWhen Played: Deal 3 damage to this unit. Give 3 Advantage tokens to a unit.",
+        "textStyled": "<p><strong>Saboteur</strong></p><p><strong>When Played:</strong> Deal 3 damage to this unit. Give 3 Advantage tokens to a unit.</p>",
+        "deployBox": null,
+        "deployBoxStyled": null,
+        "epicAction": null,
+        "epicActionStyled": null,
+        "linkHtml": "<a href=\"/cards?cid=7176555854\" class=\"card-tooltip\" data-card=\"7176555854\">Han Solo</a>",
+        "cardId": null,
+        "createdAt": "2026-09-15T19:00:14.877Z",
+        "updatedAt": "2026-09-15T19:04:40.830Z",
+        "publishedAt": "2026-09-15T19:04:36.388Z",
+        "locale": "fr",
+        "hyperspace": false,
+        "unique": false,
+        "showcase": false,
+        "cardUid": "7176555854",
+        "rules": null,
+        "rulesStyled": null,
+        "serialCode": "CST110003",
+        "upgradeHp": null,
+        "upgradePower": null,
+        "artFront": {
+          "data": {
+            "id": 66021,
+            "attributes": {
+              "name": "CST110003EN_Han-Solo.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 716,
+              "height": 1000,
+              "formats": {
+                "card": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//card_CST_110003_EN_Han_Solo_961bcc1301.png",
+                  "hash": "card_CST_110003_EN_Han_Solo_961bcc1301",
+                  "mime": "image/png",
+                  "name": "card_CST110003EN_Han-Solo.png",
+                  "path": null,
+                  "size": 263.95,
+                  "width": 286,
+                  "height": 400,
+                  "sizeInBytes": 263951
+                },
+                "small": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//small_CST_110003_EN_Han_Solo_961bcc1301.png",
+                  "hash": "small_CST_110003_EN_Han_Solo_961bcc1301",
+                  "mime": "image/png",
+                  "name": "small_CST110003EN_Han-Solo.png",
+                  "path": null,
+                  "size": 389.19,
+                  "width": 358,
+                  "height": 500,
+                  "sizeInBytes": 389187
+                },
+                "medium": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//medium_CST_110003_EN_Han_Solo_961bcc1301.png",
+                  "hash": "medium_CST_110003_EN_Han_Solo_961bcc1301",
+                  "mime": "image/png",
+                  "name": "medium_CST110003EN_Han-Solo.png",
+                  "path": null,
+                  "size": 716.56,
+                  "width": 501,
+                  "height": 700,
+                  "sizeInBytes": 716558
+                },
+                "xsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xsmall_CST_110003_EN_Han_Solo_961bcc1301.png",
+                  "hash": "xsmall_CST_110003_EN_Han_Solo_961bcc1301",
+                  "mime": "image/png",
+                  "name": "xsmall_CST110003EN_Han-Solo.png",
+                  "path": null,
+                  "size": 159.47,
+                  "width": 215,
+                  "height": 300,
+                  "sizeInBytes": 159469
+                },
+                "xxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxsmall_CST_110003_EN_Han_Solo_961bcc1301.png",
+                  "hash": "xxsmall_CST_110003_EN_Han_Solo_961bcc1301",
+                  "mime": "image/png",
+                  "name": "xxsmall_CST110003EN_Han-Solo.png",
+                  "path": null,
+                  "size": 77.76,
+                  "width": 143,
+                  "height": 200,
+                  "sizeInBytes": 77762
+                },
+                "xxxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxxsmall_CST_110003_EN_Han_Solo_961bcc1301.png",
+                  "hash": "xxxsmall_CST_110003_EN_Han_Solo_961bcc1301",
+                  "mime": "image/png",
+                  "name": "xxxsmall_CST110003EN_Han-Solo.png",
+                  "path": null,
+                  "size": 46.44,
+                  "width": 107,
+                  "height": 150,
+                  "sizeInBytes": 46444
+                },
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//thumbnail_CST_110003_EN_Han_Solo_961bcc1301.png",
+                  "hash": "thumbnail_CST_110003_EN_Han_Solo_961bcc1301",
+                  "mime": "image/png",
+                  "name": "thumbnail_CST110003EN_Han-Solo.png",
+                  "path": null,
+                  "size": 114.79,
+                  "width": 179,
+                  "height": 250,
+                  "sizeInBytes": 114794
+                }
+              },
+              "hash": "CST_110003_EN_Han_Solo_961bcc1301",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 276.75,
+              "url": "https://cdn.starwarsunlimited.com//CST_110003_EN_Han_Solo_961bcc1301.png",
+              "previewUrl": null,
+              "provider": "aws-s3",
+              "provider_metadata": null,
+              "createdAt": "2026-09-15T18:52:02.137Z",
+              "updatedAt": "2026-09-15T18:52:02.137Z"
+            }
+          }
+        },
+        "artBack": {
+          "data": null
+        },
+        "artThumbnail": {
+          "data": {
+            "id": 66022,
+            "attributes": {
+              "name": "CST110003EN_Han-Solo_Thumbnail.png",
+              "alternativeText": null,
+              "caption": null,
+              "width": 300,
+              "height": 100,
+              "formats": {
+                "xxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxsmall_CST_110003_EN_Han_Solo_Thumbnail_89dc7cc377.png",
+                  "hash": "xxsmall_CST_110003_EN_Han_Solo_Thumbnail_89dc7cc377",
+                  "mime": "image/png",
+                  "name": "xxsmall_CST110003EN_Han-Solo_Thumbnail.png",
+                  "path": null,
+                  "size": 33.96,
+                  "width": 200,
+                  "height": 67,
+                  "sizeInBytes": 33962
+                },
+                "xxxsmall": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//xxxsmall_CST_110003_EN_Han_Solo_Thumbnail_89dc7cc377.png",
+                  "hash": "xxxsmall_CST_110003_EN_Han_Solo_Thumbnail_89dc7cc377",
+                  "mime": "image/png",
+                  "name": "xxxsmall_CST110003EN_Han-Solo_Thumbnail.png",
+                  "path": null,
+                  "size": 19.91,
+                  "width": 150,
+                  "height": 50,
+                  "sizeInBytes": 19910
+                },
+                "thumbnail": {
+                  "ext": ".png",
+                  "url": "https://cdn.starwarsunlimited.com//thumbnail_CST_110003_EN_Han_Solo_Thumbnail_89dc7cc377.png",
+                  "hash": "thumbnail_CST_110003_EN_Han_Solo_Thumbnail_89dc7cc377",
+                  "mime": "image/png",
+                  "name": "thumbnail_CST110003EN_Han-Solo_Thumbnail.png",
+                  "path": null,
+                  "size": 50.16,
+                  "width": 250,
+                  "height": 83,
+                  "sizeInBytes": 50164
+                }
+              },
+              "hash": "CST_110003_EN_Han_Solo_Thumbnail_89dc7cc377",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 22.07,
+              "url": "https://cdn.starwarsunlimited.com//CST_110003_EN_Han_Solo_Thumbnail_89dc7cc377.png",
+              "previewUrl": null,
+              "provider": "aws-s3",
+              "provider_metadata": null,
+              "createdAt": "2026-09-15T18:52:11.484Z",
+              "updatedAt": "2026-09-15T18:52:11.484Z"
+            }
+          }
+        },
+        "localizations": {
+          "data": [
+            {
+              "id": 63737,
+              "attributes": {
+                "title": "Han Solo",
+                "subtitle": "It'll Work",
+                "cardNumber": 3,
+                "cardCount": 0,
+                "artist": "Johnny Morrow",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": 4,
+                "hp": 7,
+                "power": 3,
+                "text": "Saboteur\nWhen Played: Deal 3 damage to this unit. Give 3 Advantage tokens to a unit.",
+                "textStyled": "<p><strong>Saboteur</strong></p><p><strong>When Played:</strong> Deal 3 damage to this unit. Give 3 Advantage tokens to a unit.</p>",
+                "deployBox": null,
+                "deployBoxStyled": null,
+                "epicAction": null,
+                "epicActionStyled": null,
+                "linkHtml": "<a href=\"/cards?cid=7176555854\" class=\"card-tooltip\" data-card=\"7176555854\">Han Solo</a>",
+                "cardId": null,
+                "createdAt": "2026-09-15T19:04:16.077Z",
+                "updatedAt": "2026-09-15T19:04:40.813Z",
+                "publishedAt": "2026-09-15T19:04:21.044Z",
+                "locale": "it",
+                "hyperspace": false,
+                "unique": false,
+                "showcase": false,
+                "cardUid": "7176555854",
+                "rules": null,
+                "rulesStyled": null,
+                "serialCode": "CST110003",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            },
+            {
+              "id": 63736,
+              "attributes": {
+                "title": "Han Solo",
+                "subtitle": "It'll Work",
+                "cardNumber": 3,
+                "cardCount": 0,
+                "artist": "Johnny Morrow",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": 4,
+                "hp": 7,
+                "power": 3,
+                "text": "Saboteur\nWhen Played: Deal 3 damage to this unit. Give 3 Advantage tokens to a unit.",
+                "textStyled": "<p><strong>Saboteur</strong></p><p><strong>When Played:</strong> Deal 3 damage to this unit. Give 3 Advantage tokens to a unit.</p>",
+                "deployBox": null,
+                "deployBoxStyled": null,
+                "epicAction": null,
+                "epicActionStyled": null,
+                "linkHtml": "<a href=\"/cards?cid=7176555854\" class=\"card-tooltip\" data-card=\"7176555854\">Han Solo</a>",
+                "cardId": null,
+                "createdAt": "2026-09-15T19:01:39.910Z",
+                "updatedAt": "2026-09-15T19:04:40.772Z",
+                "publishedAt": "2026-09-15T19:04:40.764Z",
+                "locale": "es",
+                "hyperspace": false,
+                "unique": false,
+                "showcase": false,
+                "cardUid": "7176555854",
+                "rules": null,
+                "rulesStyled": null,
+                "serialCode": "CST110003",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            },
+            {
+              "id": 63733,
+              "attributes": {
+                "title": "Han Solo",
+                "subtitle": "It'll Work",
+                "cardNumber": 3,
+                "cardCount": 0,
+                "artist": "Johnny Morrow",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": 4,
+                "hp": 7,
+                "power": 3,
+                "text": "Saboteur\nWhen Played: Deal 3 damage to this unit. Give 3 Advantage tokens to a unit.",
+                "textStyled": "<p><strong>Saboteur</strong></p><p><strong>When Played:</strong> Deal 3 damage to this unit. Give 3 Advantage tokens to a unit.</p>",
+                "deployBox": null,
+                "deployBoxStyled": null,
+                "epicAction": null,
+                "epicActionStyled": null,
+                "linkHtml": "<a href=\"/cards?cid=7176555854\" class=\"card-tooltip\" data-card=\"7176555854\">Han Solo</a>",
+                "cardId": null,
+                "createdAt": "2026-09-15T18:54:49.102Z",
+                "updatedAt": "2026-09-15T19:04:40.848Z",
+                "publishedAt": "2026-09-15T19:04:27.627Z",
+                "locale": "en",
+                "hyperspace": false,
+                "unique": false,
+                "showcase": false,
+                "cardUid": "7176555854",
+                "rules": null,
+                "rulesStyled": null,
+                "serialCode": "CST110003",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            },
+            {
+              "id": 63734,
+              "attributes": {
+                "title": "Han Solo",
+                "subtitle": "It'll Work",
+                "cardNumber": 3,
+                "cardCount": 0,
+                "artist": "Johnny Morrow",
+                "artFrontHorizontal": false,
+                "artBackHorizontal": null,
+                "hasFoil": true,
+                "cost": 4,
+                "hp": 7,
+                "power": 3,
+                "text": "Saboteur\nWhen Played: Deal 3 damage to this unit. Give 3 Advantage tokens to a unit.",
+                "textStyled": "<p><strong>Saboteur</strong></p><p><strong>When Played:</strong> Deal 3 damage to this unit. Give 3 Advantage tokens to a unit.</p>",
+                "deployBox": null,
+                "deployBoxStyled": null,
+                "epicAction": null,
+                "epicActionStyled": null,
+                "linkHtml": "<a href=\"/cards?cid=7176555854\" class=\"card-tooltip\" data-card=\"7176555854\">Han Solo</a>",
+                "cardId": null,
+                "createdAt": "2026-09-15T18:57:50.409Z",
+                "updatedAt": "2026-09-15T19:04:40.865Z",
+                "publishedAt": "2026-09-15T19:04:32.168Z",
+                "locale": "de",
+                "hyperspace": false,
+                "unique": false,
+                "showcase": false,
+                "cardUid": "7176555854",
+                "rules": null,
+                "rulesStyled": null,
+                "serialCode": "CST110003",
+                "upgradeHp": null,
+                "upgradePower": null
+              }
+            }
+          ]
+        },
+        "aspects": {
+          "data": [
+            {
+              "id": 14,
+              "attributes": {
+                "name": "Agressivité",
+                "description": "<p>Attaquer avec un maximum d’efficacité et infliger énormément de dégâts. Cette affinité convient parfaitement aux joueurs qui aiment un style de jeu rapide et agressif, brisant les défenses adverses et se ruant vers la victoire quel que soit le prix à payer.</p>",
+                "color": "#d30808",
+                "createdAt": "2023-08-10T21:10:46.362Z",
+                "updatedAt": "2024-07-15T21:39:33.927Z",
+                "publishedAt": "2024-01-02T18:23:52.395Z",
+                "locale": "fr",
+                "englishName": "Aggression",
+                "sortValue": 10
+              }
+            },
+            {
+              "id": 24,
+              "attributes": {
+                "name": "Héroïsme",
+                "description": "<p>Lutter pour la paix et la justice avec des cartes représentant les «&nbsp;gentils&nbsp;» de la galaxie Star Wars. Cette affinité est idéale pour ceux qui souhaitent que leurs cartes se soutiennent et se protègent mutuellement tout en attaquant. Cette affinité est souvent associée à une autre affinité sur la carte.</p>",
+                "color": "#ffffff",
+                "createdAt": "2023-08-10T21:17:26.974Z",
+                "updatedAt": "2024-07-15T21:41:00.637Z",
+                "publishedAt": "2024-01-02T18:25:10.259Z",
+                "locale": "fr",
+                "englishName": "Heroism",
+                "sortValue": 25
+              }
+            }
+          ]
+        },
+        "aspectDuplicates": {
+          "data": []
+        },
+        "type": {
+          "data": {
+            "id": 29,
+            "attributes": {
+              "name": "Unité",
+              "description": "",
+              "value": "Unit",
+              "createdAt": "2023-08-15T18:04:32.553Z",
+              "updatedAt": "2024-04-25T13:52:29.937Z",
+              "publishedAt": "2024-01-04T21:29:14.943Z",
+              "locale": "fr",
+              "sortValue": 3
+            }
+          }
+        },
+        "type2": {
+          "data": null
+        },
+        "traits": {
+          "data": [
+            {
+              "id": 39,
+              "attributes": {
+                "name": "Rebelle",
+                "description": "",
+                "createdAt": "2023-08-15T14:41:39.554Z",
+                "updatedAt": "2024-01-04T21:20:25.621Z",
+                "publishedAt": "2024-01-04T21:20:25.617Z",
+                "locale": "fr"
+              }
+            },
+            {
+              "id": 14,
+              "attributes": {
+                "name": "Officiel",
+                "description": "",
+                "createdAt": "2023-08-15T14:38:52.136Z",
+                "updatedAt": "2024-01-04T21:08:45.141Z",
+                "publishedAt": "2024-01-04T21:08:45.138Z",
+                "locale": "fr"
+              }
+            }
+          ]
+        },
+        "arenas": {
+          "data": [
+            {
+              "id": 4,
+              "attributes": {
+                "name": "Terrestre",
+                "description": null,
+                "createdAt": "2023-08-15T14:32:20.801Z",
+                "updatedAt": "2024-01-04T16:49:07.912Z",
+                "publishedAt": "2023-08-18T21:37:40.768Z",
+                "locale": "fr"
+              }
+            }
+          ]
+        },
+        "keywords": {
+          "data": [
+            {
+              "id": 4,
+              "attributes": {
+                "name": "Saboteur",
+                "description": "",
+                "createdAt": "2023-11-21T19:15:20.718Z",
+                "updatedAt": "2023-11-28T16:57:22.434Z",
+                "publishedAt": "2023-11-28T16:57:22.429Z",
+                "locale": "fr"
+              }
+            }
+          ]
+        },
+        "rarity": {
+          "data": {
+            "id": 24,
+            "attributes": {
+              "name": "Spéciale",
+              "character": "S",
+              "color": "#000000",
+              "createdAt": "2023-08-14T21:34:27.979Z",
+              "updatedAt": "2024-04-25T14:06:09.057Z",
+              "publishedAt": "2024-01-04T16:42:01.831Z",
+              "locale": "fr",
+              "englishName": "Special",
+              "sortValue": 1
+            }
+          }
+        },
+        "expansion": {
+          "data": {
+            "id": 140,
+            "attributes": {
+              "name": "Costco Exclusive",
+              "description": null,
+              "code": "CST",
+              "createdAt": "2026-09-15T18:24:14.094Z",
+              "updatedAt": "2026-09-15T18:24:30.240Z",
+              "publishedAt": "2026-09-15T18:24:15.256Z",
+              "locale": "fr",
+              "sortValue": 95,
+              "leaderboardStartDate": null,
+              "leaderboardEndDate": null
+            }
+          }
+        },
+        "variantTypes": {
+          "data": [
+            {
+              "id": 333,
+              "attributes": {
+                "name": "Costco Exclusive",
+                "description": null,
+                "createdAt": "2026-09-15T18:22:37.559Z",
+                "updatedAt": "2026-09-15T18:23:01.044Z",
+                "publishedAt": "2026-09-15T18:22:38.740Z",
+                "locale": "fr",
+                "variantId": "11",
+                "foil": null,
+                "sortValue": 110,
+                "icon": {
+                  "data": {
+                    "id": 8701,
+                    "attributes": {
+                      "name": "icon_standard.png",
+                      "alternativeText": null,
+                      "caption": null,
+                      "width": 144,
+                      "height": 144,
+                      "formats": null,
+                      "hash": "icon_standard_7dbd7cd8e6",
+                      "ext": ".png",
+                      "mime": "image/png",
+                      "size": 0.39,
+                      "url": "https://cdn.starwarsunlimited.com//icon_standard_7dbd7cd8e6.png",
+                      "previewUrl": null,
+                      "provider": "aws-s3",
+                      "provider_metadata": null,
+                      "createdAt": "2024-07-15T14:40:17.066Z",
+                      "updatedAt": "2024-07-15T14:40:17.066Z"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "variantOf": {
+          "data": null
+        },
+        "reprintOf": {
+          "data": {
+            "id": 52474,
+            "attributes": {
+              "title": "Han Solo",
+              "subtitle": "Ça Va Marcher",
+              "cardNumber": 158,
+              "cardCount": 264,
+              "artist": "Axel Hutt",
+              "artFrontHorizontal": false,
+              "artBackHorizontal": null,
+              "hasFoil": true,
+              "cost": 4,
+              "hp": 7,
+              "power": 3,
+              "text": "Saboteur (Quand cette unité attaque, ignorez Sentinelle et éliminez les Boucliers du défenseur.)\nUne fois jouée : infligez 3 dégâts à cette unité. Donnez 3 jetons Avantage à une unité.",
+              "textStyled": "<p><strong>Saboteur</strong> (<i>Quand cette unité attaque, ignorez Sentinelle et éliminez les Boucliers du défenseur.</i>)</p><p><strong>Une fois jouée :</strong> infligez 3 dégâts à cette unité. Donnez 3 jetons Avantage à une unité.</p>",
+              "deployBox": null,
+              "deployBoxStyled": null,
+              "epicAction": "",
+              "epicActionStyled": "<p></p>",
+              "linkHtml": "<a href=\"/cards?cid=8474739433\" class=\"card-tooltip\" data-card=\"8474739433\">Han Solo</a>",
+              "cardId": null,
+              "createdAt": "2026-05-19T15:32:30.742Z",
+              "updatedAt": "2026-05-27T21:24:48.799Z",
+              "publishedAt": "2025-03-05T06:00:00.000Z",
+              "locale": "fr",
+              "hyperspace": false,
+              "unique": true,
+              "showcase": false,
+              "cardUid": "8474739433",
+              "rules": null,
+              "rulesStyled": null,
+              "serialCode": "08010158",
+              "upgradeHp": null,
+              "upgradePower": null
+            }
+          }
+        },
+        "validationId": "8474739433"
+      }
+    }
+  ],
+  "variants": []
+}

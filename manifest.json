@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "lastUpdated": "2026-08-19",
-  "latestMainSet": "law",
+  "lastUpdated": "2026-09-17",
+  "latestMainSet": "hmw",
   "announcement": {
     "id": "ann-1781021226",
     "text": "Nouvelles cartes ajoutées - LAW",
@@ -333,6 +333,32 @@
       "logoURL": null,
       "artworkURL": null,
       "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/ashp.json"
+    },
+    {
+      "id": "cst",
+      "dataVersion": 1,
+      "code": "CST",
+      "name": "Costco Exclusive",
+      "type": "special",
+      "order": 18,
+      "color": "#888888",
+      "foilShared": false,
+      "logoURL": null,
+      "artworkURL": null,
+      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/cst.json"
+    },
+    {
+      "id": "hmw",
+      "dataVersion": 1,
+      "code": "HMW",
+      "name": "Mondes Natals",
+      "type": "main",
+      "order": 9,
+      "color": "#007A3E",
+      "foilShared": false,
+      "logoURL": null,
+      "artworkURL": null,
+      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/hmw.json"
     }
   ]
 }
