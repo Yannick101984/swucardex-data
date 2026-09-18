@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "lastUpdated": "2026-09-17",
+  "lastUpdated": "2026-09-18",
   "latestMainSet": "hmw",
   "announcement": {
     "id": "ann-1781021226",
@@ -349,15 +349,15 @@
     },
     {
       "id": "hmw",
-      "dataVersion": 1,
+      "dataVersion": 2,
       "code": "HMW",
       "name": "Mondes Natals",
       "type": "main",
       "order": 9,
       "color": "#007A3E",
       "foilShared": false,
-      "logoURL": null,
-      "artworkURL": null,
+      "logoURL": "https://cdn.starwarsunlimited.com//medium_Homeworlds_Logo_FR_ad5853f414.png",
+      "artworkURL": "https://cdn.starwarsunlimited.com//large_SWH_09_HMW_Key_Art_2f48009949.png",
       "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/hmw.json"
     }
   ]
