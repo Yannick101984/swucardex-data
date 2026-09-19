@@ -31,6 +31,43 @@ swucardex-data/
 
 ---
 
+## Stratégie de branches : `main` vs `staging`
+
+**`main`** est l'unique source de vérité pour la production (App Store) — c'est la branche
+que lisent les builds Release de l'app. **`staging`** est utilisée par les builds Debug
+(TestFlight interne / device de dev) pour tester des changements de **code** (scripts,
+workflows) avant de les valider sur `main`. `staging` n'a **jamais** vocation à porter de la
+donnée qui lui serait propre :
+
+- Les fichiers alimentés par des crons GitHub Actions (`sets/*.json`, `manifest.json`,
+  `news.json`, `announcements.json`, `cardmarket/*.json`, `prices/*.json`) ne sont générés
+  que sur `main` — les déclencheurs `schedule` de GitHub Actions ne s'exécutent que depuis la
+  branche par défaut, quel que soit le `ref` explicitement checkouté dans le job.
+- Exceptions historiques : `fetch_news.yml` et `fetch_gamegenic.yml` tournent en matrice sur
+  `[main, staging]` et poussent directement sur les deux branches. C'est sans risque (ce sont
+  des snapshots idempotents, pas des historiques cumulés), mais redondant : `staging` reçoit
+  quand même l'état de `main` via la promotion ci-dessous.
+- **`promote_staging.yml`** (déclenchement manuel, publication TestFlight/App Store) fusionne
+  `staging` → `main` avec `-X theirs` (le code de `staging` gagne), puis **restaure
+  explicitement la version de `main`** pour tous les fichiers de données listés ci-dessus. Ça
+  évite de rejouer l'incident du 2026-07-23 (86 jours d'historique de prix effacés par une
+  version figée de `staging` — voir swucardex-data#5).
+
+En résumé : si tu veux tester un changement de script/workflow, fais-le sur `staging`, vérifie
+via `workflow_dispatch` (les workflows `swu_sync_sets.yml` / `swu_compare_sets.yml` acceptent
+un input `branch` pour cibler `staging` manuellement), puis promeus vers `main` une fois
+validé. Ne pousse jamais de donnée directement sur `staging` en espérant qu'elle survive à la
+prochaine promotion — elle sera écrasée par la version de `main`.
+
+Si `staging` a dérivé de `main` (contenu différent alors qu'aucune promotion en cours), le
+resynchroniser entièrement plutôt que de merger :
+
+```bash
+git push origin main:refs/heads/staging --force
+```
+
+---
+
 ## Ajouter un nouveau set
 
 ### 1. Préparer le JSON du set
