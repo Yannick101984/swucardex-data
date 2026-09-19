@@ -2,16 +2,27 @@
 """
 Synchronise accessories/catalogue.json avec les variantes live de gamegenic.com.
 
-Phase 1 — Découverte automatique :
-  Pagine l'API WooCommerce de gamegenic.com, détecte les nouveaux produits SWU
-  dont le slug correspond au pattern d'un set connu, et met à jour products.json.
+Détection des sets — entièrement automatique :
+  Chaque produit SWU sur gamegenic.com est rangé dans une catégorie WooCommerce
+  imbriquée sous "starwarsunlimited/{slug-du-set}" (ex: "starwarsunlimited/homeworlds"),
+  dont le nom humain est fourni par Gamegenic lui-même (ex: "Homeworlds").
+  Un seul appel API (`?category=starwarsunlimited`) suffit à tout découvrir :
+  aucun set à ajouter à la main, plus jamais.
 
-Phase 2 — Synchronisation des variantes :
-  Pour chaque produit de products.json, récupère les variantes absentes,
-  télécharge leurs images dans accessories/images/, met à jour catalogue.json.
+  LEGACY_CODE_BY_SLUG ne sert qu'à conserver les identifiants courts déjà utilisés
+  par les sets ajoutés avant ce mécanisme (sor, shd… ash). Elle ne doit plus jamais
+  grandir : les nouveaux sets utilisent directement le slug de catégorie Gamegenic.
 
-Pour ajouter un nouveau set : ajouter son code dans KNOWN_SETS ci-dessous.
-Le reste (découverte des produits, images, catalogue) est entièrement automatique.
+  L'ordre d'affichage dans l'app (le plus récent en premier) est lui aussi automatique :
+  chaque nouvel item reçoit un champ `setOrder` (AAAAMM) déduit de la date d'upload
+  de son image sur gamegenic.com.
+
+Rapidité :
+  Le nom+la valeur de chaque variante sont déjà présents dans la réponse de l'appel
+  unique de découverte (`variations[].attributes`). Un item déjà connu ne déclenche
+  donc AUCUNE requête réseau supplémentaire — seuls les items réellement nouveaux
+  (nom + image manquants) déclenchent un appel `products/{id}` + téléchargement.
+  Un run sans nouveauté = 1 seul appel réseau au total.
 
 Usage : python3 scripts/fetch_gamegenic.py --repo-root .
 """
@@ -32,24 +43,26 @@ STORE_API = "https://www.gamegenic.com/wp-json/wc/store/products"
 JINA_PREFIX = "https://r.jina.ai/"
 BASE_IMG_URL = "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/"
 USER_AGENT = "Mozilla/5.0 (compatible; swucardex-gamegenic-bot/1.0)"
-DELAY = 1.5  # secondes entre chaque requête réseau
+DELAY = 1.5  # secondes entre deux requêtes réseau (uniquement pour les items nouveaux)
 
-# ── À METTRE À JOUR pour chaque nouveau set SWU ──────────────────────────────
-# Le script auto-découvre tous les produits dont le slug commence par
-# "star-wars-unlimited-{setCode}-". Il suffit d'ajouter le nouveau code ici.
-KNOWN_SETS: dict[str, str] = {
-    "sor": "Spark of Rebellion",
-    "shd": "Shadows of the Galaxy",
-    "twi": "Twilight of the Republic",
-    "jtl": "Jump to Lightspeed",
-    "lof": "Legends of the Force",
-    "sec": "Secrets of Power",
-    "law": "A Lawless Time",
-    "ash": "Ashes of the Empire",
-    "hmw": "Homeworlds",
+# Figée : uniquement les sets ajoutés avant l'auto-détection par catégorie.
+# Ne plus jamais ajouter de ligne ici — les nouveaux sets utilisent le slug Gamegenic tel quel.
+LEGACY_CODE_BY_SLUG: dict[str, str] = {
+    "spark-of-rebellion": "sor",
+    "shadows-of-the-galaxy": "shd",
+    "twilight-of-the-republic": "twi",
+    "jump-to-lightspeed": "jtl",
+    "legends-of-the-force": "lof",
+    "secrets-of-power": "sec",
+    "a-lawless-time": "law",
+    "ashes-of-the-empire": "ash",
+    "swu-core-products": "core",
+    "homeworlds": "hmw",
 }
 
-# Mots-clés dans le slug → catégorie (ordre important : plus spécifique en premier)
+SET_CATEGORY_RE = re.compile(r"/product-category/starwarsunlimited/([a-z0-9-]+)/?$")
+
+# Mots-clés dans le slug → catégorie d'accessoire (ordre important : plus spécifique en premier)
 CATEGORY_KEYWORDS: list[tuple[str, str]] = [
     ("card-back", "Sleeves"),
     ("sleeve", "Sleeves"),
@@ -106,24 +119,22 @@ def fetch_with_fallback(url: str) -> dict | list | None:
     return data
 
 
-# ── Phase 1 : Découverte automatique ─────────────────────────────────────────
-
-def fetch_all_swu_products_from_api() -> list[dict]:
+def fetch_all_swu_products() -> list[dict]:
     """
-    Pagine l'API WooCommerce et retourne tous les produits dont le slug
-    contient 'star-wars-unlimited'.
+    Un seul point d'entrée réseau (paginé par sécurité) : tous les produits
+    rangés dans la catégorie WooCommerce "starwarsunlimited". Chaque produit
+    porte déjà sa catégorie de set imbriquée + ses variantes + ses images.
     """
     results: list[dict] = []
     page = 1
-    print("→ Phase 1 : Découverte des produits SWU sur gamegenic.com…")
+    print("→ Découverte des produits SWU sur gamegenic.com…")
     while True:
-        url = f"{STORE_API}?search=star&per_page=100&page={page}"
+        url = f"{STORE_API}?category=starwarsunlimited&per_page=100&page={page}"
         data = fetch_with_fallback(url)
         if not data or not isinstance(data, list):
             break
-        swu = [p for p in data if "star-wars-unlimited" in p.get("slug", "")]
-        results.extend(swu)
-        print(f"  page {page} : {len(data)} produits, {len(swu)} SWU retenus")
+        results.extend(data)
+        print(f"  page {page} : {len(data)} produits")
         if len(data) < 100:
             break
         page += 1
@@ -132,18 +143,28 @@ def fetch_all_swu_products_from_api() -> list[dict]:
     return results
 
 
-def detect_set_from_slug(slug: str) -> tuple[str, str] | None:
+# ── Détection automatique du set ──────────────────────────────────────────────
+
+def detect_set_category(categories: list[dict]) -> tuple[str, str] | None:
     """
-    Retourne (setCode, setName) si le slug suit le pattern
-    'star-wars-unlimited-{KNOWN_SET_CODE}-…'.
+    Retourne (categorySlug, setName) à partir de la catégorie WooCommerce
+    imbriquée directement sous "starwarsunlimited/" (ex: "homeworlds" / "Homeworlds").
     """
-    prefix = "star-wars-unlimited-"
-    if not slug.startswith(prefix):
-        return None
-    candidate = slug[len(prefix):].split("-")[0].lower()
-    if candidate in KNOWN_SETS:
-        return candidate, KNOWN_SETS[candidate]
+    for c in categories or []:
+        m = SET_CATEGORY_RE.search(c.get("link", ""))
+        if m and c.get("slug") != "starwarsunlimited":
+            return c["slug"], html_module.unescape(c.get("name", "")).strip()
     return None
+
+
+def resolve_set_code(category_slug: str) -> str:
+    return LEGACY_CODE_BY_SLUG.get(category_slug, category_slug)
+
+
+def extract_release_month(image_url: str) -> int | None:
+    """AAAAMM déduit de la date d'upload de l'image (chemin /uploads/AAAA/MM/)."""
+    m = re.search(r"/uploads/(\d{4})/(\d{2})/", image_url or "")
+    return int(m.group(1)) * 100 + int(m.group(2)) if m else None
 
 
 def detect_category_from_slug(slug: str) -> str:
@@ -156,118 +177,35 @@ def detect_category_from_slug(slug: str) -> str:
 def clean_product_name(raw_name: str, set_name: str) -> str:
     """Extrait le nom du groupe produit depuis le nom WooCommerce brut."""
     raw_name = strip_html(raw_name)
-    # Supprimer le préfixe "Star Wars: Unlimited – " ou similaire
     name = re.sub(r"(?i)star\s*wars[™\s]*:\s*unlimited\s*[-–—]*\s*", "", raw_name).strip()
-    # Supprimer le nom du set s'il est en tête
     if set_name and name.upper().startswith(set_name.upper()):
         name = name[len(set_name):].strip("– -").strip()
     name = name.title() if name.isupper() else name
     return name or raw_name
 
 
-def discover_new_products(
-    api_products: list[dict],
-    existing_slugs: set[str],
-) -> list[dict]:
-    """
-    Retourne les nouvelles entrées à ajouter à products.json.
-    Seuls les produits dont le slug correspond à un set connu sont traités ;
-    les produits core à slug irrégulier restent gérés manuellement dans products.json.
-    """
-    new_entries: list[dict] = []
-    for p in api_products:
-        slug = p.get("slug", "")
-        if slug in existing_slugs:
-            continue
-        set_info = detect_set_from_slug(slug)
-        if not set_info:
-            continue
-        set_code, set_name = set_info
-        category = detect_category_from_slug(slug)
-        product_group = clean_product_name(p.get("name", slug), set_name)
-        entry = {
-            "setCode": set_code,
-            "setName": set_name,
-            "slug": slug,
-            "productGroup": product_group,
-            "category": category,
-        }
-        new_entries.append(entry)
-        print(f"  + nouveau : {slug} ({set_code} / {product_group} / {category})")
-    return new_entries
+def derive_clean_variant_name(raw_name: str, product_group: str) -> str:
+    variant_name = strip_html(raw_name)
+    clean = re.sub(
+        r"(?i)star\s*wars[™\s]*:?\s*unlimited\s*[™\s]*", "", variant_name
+    ).strip()
+    if clean.upper().startswith(product_group.upper()):
+        clean = clean[len(product_group):].strip("– -").strip()
+    return clean
 
 
-# ── Phase 2 : Synchronisation des variantes ───────────────────────────────────
-
-def fetch_product_variants(slug: str) -> list[dict]:
-    """Retourne la liste des variantes WooCommerce pour un slug produit."""
-    url = f"{STORE_API}?slug={slug}"
-    data = fetch_with_fallback(url)
-    if not data or not isinstance(data, list) or len(data) == 0:
-        print(f"  [SKIP] produit introuvable : {slug}", file=sys.stderr)
-        return []
-
-    product = data[0]
-    variations = product.get("variations", [])
-
-    if not variations:
-        # Produit simple sans variantes
-        img = ""
-        images = product.get("images", [])
-        if images:
-            img = images[0].get("src", "")
-        return [{"id": product.get("id"), "name": product.get("name", ""), "imageUrl": img}]
-
-    results: list[dict] = []
-    for var_item in variations:
-        # L'API retourne soit un ID entier, soit un objet {"id": N, "attributes": [...]}
-        if isinstance(var_item, dict):
-            var_id = var_item.get("id")
-            pre_attrs = var_item.get("attributes", [])
-        else:
-            var_id = var_item
-            pre_attrs = []
-
-        time.sleep(DELAY)
-        var_data = fetch_with_fallback(f"{STORE_API}/{var_id}")
-
-        img = ""
-        var_name = ""
-        detail_attrs: list[dict] = []
-
-        if var_data and isinstance(var_data, dict):
-            images = var_data.get("images", [])
-            if images:
-                img = images[0].get("src", "")
-            var_name = var_data.get("name", "")
-            detail_attrs = var_data.get("attributes", [])
-        elif not pre_attrs:
-            print(f"  [SKIP] variante {var_id} introuvable", file=sys.stderr)
-            continue
-
-        # Attribut : priorité aux données détaillées, sinon pré-extraites
-        attr_param = ""
-        attr_value = ""
-        for attr in (detail_attrs or pre_attrs):
-            # Formats possibles : {slug, value}, {attribute, value}, {name, value}
-            slug = attr.get("slug") or attr.get("attribute") or ""
-            name = attr.get("name", "")
-            value = attr.get("value", "")
-            if not slug and name:
-                slug = name.lower().replace(" ", "_")
-            if slug and value:
-                attr_param = slug if slug.startswith("pa_") else f"pa_{slug}"
-                attr_value = value
-                break
-
-        results.append({
-            "id": var_id,
-            "name": var_name,
-            "imageUrl": img,
-            "attrParam": attr_param,
-            "attrValue": attr_value,
-        })
-    return results
+def compute_attr(attrs: list[dict]) -> tuple[str, str]:
+    """Formats possibles : {slug, value}, {attribute, value}, {name, value}."""
+    for attr in attrs or []:
+        slug = attr.get("slug") or attr.get("attribute") or ""
+        name = attr.get("name", "")
+        value = attr.get("value", "")
+        if not slug and name:
+            slug = name.lower().replace(" ", "_")
+        if slug and value:
+            param = slug if slug.startswith("pa_") else f"pa_{slug}"
+            return param, value
+    return "", ""
 
 
 def make_item_id(set_code: str, product_group: str, variant_slug: str) -> str:
@@ -328,7 +266,6 @@ def _find_fuzzy_match(
     """
     Cherche un item existant dans le catalogue qui correspond au même produit
     mais avec un attr_value/nom différent (Gamegenic renomme parfois ses attributs).
-    Retourne l'ID de l'item existant si trouvé, None sinon.
     """
     candidates = [
         item for item in catalogue.values()
@@ -339,8 +276,6 @@ def _find_fuzzy_match(
 
     target_raw = clean_name or attr_value
 
-    # Variant générique sans discriminant (nom == groupe produit) avec plusieurs variants :
-    # impossible de déterminer lequel matcher → skip
     if _alphanum(target_raw) == _alphanum(product_group) and len(candidates) > 1:
         return None
 
@@ -353,22 +288,16 @@ def _find_fuzzy_match(
         cand_an = _alphanum(cand_name)
         cand_words = _word_set(cand_name)
 
-        # 1. Correspondance alphanum exacte (ignore tirets/espaces/numéros de version)
         if target_an == cand_an:
             return candidate["id"]
 
-        # 2. L'un est contenu dans l'autre (ex: "Darth Maul" ⊂ "Darth Maul 2")
         if target_an and cand_an:
             if target_an in cand_an or cand_an in target_an:
                 return candidate["id"]
 
-        # 3. Mêmes caractères dans un ordre différent (ex: "C-3PO R2-D2" vs "R2-D2 C-3PO")
         if target_sorted == sorted(cand_an):
             return candidate["id"]
 
-        # 4. Tous les mots du plus court sont dans le plus long
-        # (ex: "Ahsoka Grievous" ⊆ "Ahsoka General Grievous",
-        #      "Obi Wan Darth Maul" ⊆ "Obi-Wan Kenobi Darth Maul")
         if target_words and cand_words:
             shorter, longer = (
                 (target_words, cand_words)
@@ -378,110 +307,178 @@ def _find_fuzzy_match(
             if shorter and shorter.issubset(longer):
                 return candidate["id"]
 
-        # 5. Distance de Levenshtein ≤ 2 (ex: "millenium" vs "millennium")
         if target_an and cand_an and _levenshtein(target_an, cand_an) <= 2:
             return candidate["id"]
 
-    # Si le produit n'a qu'une seule variante dans le catalogue,
-    # c'est forcément le même article avec un attr_value différent
     if len(candidates) == 1:
         return candidates[0]["id"]
 
     return None
 
 
-def sync_variants(
-    products: list[dict],
+# ── Synchronisation ────────────────────────────────────────────────────────────
+
+def backfill_direct_url(item: dict, direct_url: str) -> bool:
+    current = item.get("directUrl")
+    if current and current != item.get("productPageUrl", ""):
+        return False
+    if direct_url == current:
+        return False
+    item["directUrl"] = direct_url
+    return direct_url != item.get("productPageUrl", direct_url)
+
+
+def sync(
+    api_products: list[dict],
+    products_meta: list[dict],
     existing_catalogue_ids: dict[str, dict],
     images_dir: Path,
     dry_run: bool,
-) -> tuple[list[dict], int]:
-    """
-    Traite tous les produits de products.json.
-    Retourne (nouveaux_items, nb_backfills).
-    Backfille aussi directUrl sur les items existants qui n'en ont pas encore.
-    """
-    new_items: list[dict] = []
+) -> tuple[int, int, int]:
+    """Retourne (nouveaux produits, nouvelles variantes, directUrl backfillés)."""
+    known_slugs = {p["slug"] for p in products_meta}
+    meta_by_slug = {p["slug"]: p for p in products_meta}
+    new_products = 0
+    new_items = 0
     backfilled = 0
 
-    for product in products:
-        set_code = product["setCode"]
-        set_name = product["setName"]
-        slug = product["slug"]
-        product_group = product["productGroup"]
-        category = product["category"]
-        product_url = f"https://www.gamegenic.com/product/{slug}/"
+    for product in api_products:
+        slug = product.get("slug", "")
+        product_url = product.get("permalink") or f"https://www.gamegenic.com/product/{slug}/"
 
-        print(f"→ {set_code} / {product_group} ({slug})")
-        variants = fetch_product_variants(slug)
+        if slug in known_slugs:
+            meta = meta_by_slug[slug]
+            set_code = meta["setCode"]
+            product_group = meta["productGroup"]
+        else:
+            set_info = detect_set_category(product.get("categories", []))
+            if not set_info:
+                print(f"  [SKIP] pas de catégorie de set détectée : {slug}", file=sys.stderr)
+                continue
+            category_slug, set_name = set_info
+            set_code = resolve_set_code(category_slug)
+            product_group = clean_product_name(product.get("name", slug), set_name)
+            meta = {
+                "setCode": set_code,
+                "setName": set_name,
+                "slug": slug,
+                "productGroup": product_group,
+                "category": detect_category_from_slug(slug),
+            }
+            products_meta.append(meta)
+            meta_by_slug[slug] = meta
+            known_slugs.add(slug)
+            new_products += 1
+            print(f"→ nouveau produit : {slug} ({set_code} / {product_group})")
 
-        for var in variants:
-            variant_name = strip_html(var["name"])
-            clean_name = re.sub(
-                r"(?i)star\s*wars[™\s]*:?\s*unlimited\s*[™\s]*", "", variant_name
-            ).strip()
-            if clean_name.upper().startswith(product_group.upper()):
-                clean_name = clean_name[len(product_group):].strip("– -").strip()
+        set_name = meta["setName"]
+        item_category = meta["category"]
+        variations = product.get("variations", [])
 
-            # Calculer directUrl dès maintenant (utilisé aussi pour le backfill)
-            attr_param = var.get("attrParam", "")
-            attr_value = var.get("attrValue", "")
+        # Produit simple (pas de variantes) : tout est déjà dans la réponse.
+        if not variations:
+            raw_name = product.get("name", "")
+            images = product.get("images", [])
+            image_url = images[0].get("src", "") if images else ""
+            clean_name = derive_clean_variant_name(raw_name, product_group)
+            var_slug = slugify_variant(clean_name) if clean_name else slugify_variant(str(product.get("id")))
+            if not clean_name:
+                clean_name = product_group
+            item_id = make_item_id(set_code, product_group, var_slug)
 
-            # var_slug utilise la valeur d'attribut (format original des IDs)
-            # Si pas d'attr_value, on tombe sur clean_name ou product_group
+            if item_id in existing_catalogue_ids:
+                if backfill_direct_url(existing_catalogue_ids[item_id], product_url):
+                    backfilled += 1
+                continue
+
+            new_items += 1
+            img_filename = f"{set_code}_{slug.replace('star-wars-unlimited-', '')}_{var_slug}.jpg"
+            img_dest = images_dir / img_filename
+            img_url_github = BASE_IMG_URL + img_filename
+            if image_url and not dry_run and download_image(image_url, img_dest):
+                print(f"   ↓ image : {img_filename}")
+            elif image_url:
+                img_url_github = image_url
+
+            entry = {
+                "id": item_id, "setCode": set_code, "setName": set_name,
+                "productGroup": product_group, "category": item_category,
+                "variantName": clean_name, "variantSlug": var_slug,
+                "imageURL": img_url_github, "productPageUrl": product_url,
+                "directUrl": product_url, "acquired": False,
+                "setOrder": extract_release_month(image_url),
+            }
+            existing_catalogue_ids[item_id] = entry
+            print(f"   + ajouté : {item_id} ({clean_name})")
+            continue
+
+        # Produit à variantes.
+        for var_item in variations:
+            var_id = var_item.get("id") if isinstance(var_item, dict) else var_item
+            pre_attrs = var_item.get("attributes", []) if isinstance(var_item, dict) else []
+            attr_param, attr_value = compute_attr(pre_attrs)
+
+            if attr_value:
+                var_slug = slugify_variant(attr_value)
+                item_id = make_item_id(set_code, product_group, var_slug)
+                direct_url = f"{product_url}?attribute_{attr_param}={attr_value}"
+
+                if item_id in existing_catalogue_ids:
+                    if backfill_direct_url(existing_catalogue_ids[item_id], direct_url):
+                        backfilled += 1
+                    continue
+
+                fuzzy = _find_fuzzy_match(
+                    set_code, product_group, attr_value.replace("-", " ").title(),
+                    attr_value, existing_catalogue_ids,
+                )
+                if fuzzy:
+                    if backfill_direct_url(existing_catalogue_ids[fuzzy], direct_url):
+                        backfilled += 1
+                    continue
+
+            # Pas trouvé (ou pas d'attribut pré-extrait) : c'est potentiellement
+            # nouveau, il faut les données complètes (nom + image).
+            time.sleep(DELAY)
+            var_data = fetch_with_fallback(f"{STORE_API}/{var_id}")
+            if not var_data or not isinstance(var_data, dict):
+                print(f"  [SKIP] variante {var_id} introuvable", file=sys.stderr)
+                continue
+
+            raw_name = var_data.get("name", "")
+            images = var_data.get("images", [])
+            image_url = images[0].get("src", "") if images else ""
+            attr_param2, attr_value2 = compute_attr(var_data.get("attributes", []) or pre_attrs)
+            if attr_value2:
+                attr_param, attr_value = attr_param2, attr_value2
+
+            clean_name = derive_clean_variant_name(raw_name, product_group)
             if attr_value:
                 var_slug = slugify_variant(attr_value)
             elif clean_name:
                 var_slug = slugify_variant(clean_name)
             else:
-                var_slug = slugify_variant(str(var["id"]))
-
+                var_slug = slugify_variant(str(var_id))
             if not clean_name:
                 clean_name = attr_value.replace("-", " ").title() if attr_value else product_group
 
             item_id = make_item_id(set_code, product_group, var_slug)
             direct_url = (
                 f"{product_url}?attribute_{attr_param}={attr_value}"
-                if attr_param and attr_value
-                else product_url
+                if attr_param and attr_value else product_url
             )
 
             if item_id in existing_catalogue_ids:
-                existing = existing_catalogue_ids[item_id]
-                current_direct = existing.get("directUrl")
-                # Backfill si directUrl absent ou identique à l'URL générique
-                if not current_direct or current_direct == existing.get("productPageUrl", ""):
-                    existing["directUrl"] = direct_url
-                    if direct_url != product_url:
-                        backfilled += 1
-                        print(f"   ↺ directUrl : {item_id}")
-                    else:
-                        print(f"   ✓ déjà présent (pas d'attribut) : {item_id}")
-                else:
-                    print(f"   ✓ déjà présent : {item_id}")
+                if backfill_direct_url(existing_catalogue_ids[item_id], direct_url):
+                    backfilled += 1
                 continue
 
-            # ID non trouvé : vérifier si un item existant correspond au même produit
-            # (Gamegenic peut changer les attr_value d'un produit sans changer l'article)
-            fuzzy = _find_fuzzy_match(
-                set_code, product_group, clean_name, attr_value, existing_catalogue_ids
-            )
+            fuzzy = _find_fuzzy_match(set_code, product_group, clean_name, attr_value, existing_catalogue_ids)
             if fuzzy:
-                fuzzy_item = existing_catalogue_ids[fuzzy]
-                current_direct = fuzzy_item.get("directUrl")
-                if not current_direct or current_direct == fuzzy_item.get("productPageUrl", ""):
-                    fuzzy_item["directUrl"] = direct_url
-                    if direct_url != product_url:
-                        backfilled += 1
-                        print(f"   ↺ directUrl (fuzzy→{fuzzy}) : {fuzzy}")
-                    else:
-                        print(f"   ✓ déjà présent (fuzzy, pas d'attribut) : {fuzzy}")
-                else:
-                    print(f"   ✓ déjà présent (fuzzy→{fuzzy})")
+                if backfill_direct_url(existing_catalogue_ids[fuzzy], direct_url):
+                    backfilled += 1
                 continue
 
-            # Si le nom du variant est générique (== groupe produit) et qu'il existe déjà
-            # des variants pour ce groupe, on ignore ce variant ambigu
             existing_for_group = [
                 i for i in existing_catalogue_ids.values()
                 if i["setCode"] == set_code and i["productGroup"] == product_group
@@ -490,39 +487,27 @@ def sync_variants(
                 print(f"   ~ ignoré (variant générique ambigu) : {item_id}")
                 continue
 
-            img_filename = (
-                f"{set_code}_{slug.replace('star-wars-unlimited-', '')}_{var_slug}.jpg"
-            )
+            new_items += 1
+            img_filename = f"{set_code}_{slug.replace('star-wars-unlimited-', '')}_{var_slug}.jpg"
             img_dest = images_dir / img_filename
             img_url_github = BASE_IMG_URL + img_filename
+            if image_url and not dry_run and download_image(image_url, img_dest):
+                print(f"   ↓ image : {img_filename}")
+            elif image_url:
+                img_url_github = image_url
 
-            if var.get("imageUrl") and not dry_run:
-                ok = download_image(var["imageUrl"], img_dest)
-                if ok:
-                    print(f"   ↓ image : {img_filename}")
-                else:
-                    img_url_github = var.get("imageUrl", "")
-
-            new_item = {
-                "id": item_id,
-                "setCode": set_code,
-                "setName": set_name,
-                "productGroup": product_group,
-                "category": category,
-                "variantName": clean_name,
-                "variantSlug": var_slug,
-                "imageURL": img_url_github,
-                "productPageUrl": product_url,
-                "directUrl": direct_url,
-                "acquired": False,
+            entry = {
+                "id": item_id, "setCode": set_code, "setName": set_name,
+                "productGroup": product_group, "category": item_category,
+                "variantName": clean_name, "variantSlug": var_slug,
+                "imageURL": img_url_github, "productPageUrl": product_url,
+                "directUrl": direct_url, "acquired": False,
+                "setOrder": extract_release_month(image_url),
             }
-            new_items.append(new_item)
-            existing_catalogue_ids[item_id] = new_item
+            existing_catalogue_ids[item_id] = entry
             print(f"   + ajouté : {item_id} ({clean_name})")
 
-        time.sleep(DELAY)
-
-    return new_items, backfilled
+    return new_products, new_items, backfilled
 
 
 # ── Point d'entrée ────────────────────────────────────────────────────────────
@@ -531,11 +516,6 @@ def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--repo-root", default=".", help="Racine du repo swucardex-data")
     parser.add_argument("--dry-run", action="store_true", help="Ne pas écrire de fichiers")
-    parser.add_argument(
-        "--skip-discovery",
-        action="store_true",
-        help="Sauter la phase de découverte (utiliser products.json tel quel)",
-    )
     args = parser.parse_args()
 
     root = Path(args.repo_root)
@@ -547,50 +527,35 @@ def main() -> None:
     if not products_path.exists():
         sys.exit(f"Fichier produits introuvable : {products_path}")
 
-    products: list[dict] = json.loads(products_path.read_text())
+    products_meta: list[dict] = json.loads(products_path.read_text())
     catalogue: list[dict] = json.loads(catalogue_path.read_text()) if catalogue_path.exists() else []
     existing_catalogue_ids: dict[str, dict] = {item["id"]: item for item in catalogue}
-    existing_slugs: set[str] = {p["slug"] for p in products}
-    products_changed = False
 
-    # ── Phase 1 : Découverte ──────────────────────────────────────────────────
-    if not args.skip_discovery:
-        api_products = fetch_all_swu_products_from_api()
-        new_products = discover_new_products(api_products, existing_slugs)
-        if new_products:
-            products.extend(new_products)
-            existing_slugs.update(p["slug"] for p in new_products)
-            products_changed = True
-            print(f"  {len(new_products)} nouveau(x) produit(s) ajouté(s) à products.json.")
-            if not args.dry_run:
-                products_path.write_text(
-                    json.dumps(products, indent=2, ensure_ascii=False) + "\n"
-                )
-        else:
-            print("  Aucun nouveau produit détecté.")
-    else:
-        print("→ Phase 1 ignorée (--skip-discovery).")
+    api_products = fetch_all_swu_products()
 
-    print()
-
-    # ── Phase 2 : Synchronisation des variantes ───────────────────────────────
-    print("→ Phase 2 : Synchronisation des variantes…")
     images_dir.mkdir(parents=True, exist_ok=True)
-    new_items, backfilled = sync_variants(products, existing_catalogue_ids, images_dir, args.dry_run)
+    new_products, new_items, backfilled = sync(
+        api_products, products_meta, existing_catalogue_ids, images_dir, args.dry_run
+    )
 
-    print(f"\n{len(new_items)} nouvelle(s) variante(s) ajoutée(s), {backfilled} directUrl backfillé(s).")
+    print(
+        f"\n{new_products} nouveau(x) produit(s), {new_items} nouvelle(s) variante(s), "
+        f"{backfilled} directUrl backfillé(s)."
+    )
 
-    if (new_items or backfilled) and not args.dry_run:
-        catalogue.extend(new_items)
+    if args.dry_run:
+        print("[dry-run] Aucun fichier modifié.")
+        return
+
+    if new_products:
+        products_path.write_text(json.dumps(products_meta, indent=2, ensure_ascii=False) + "\n")
+    if new_items or backfilled:
         catalogue_path.write_text(
-            json.dumps(catalogue, indent=2, ensure_ascii=False) + "\n"
+            json.dumps(list(existing_catalogue_ids.values()), indent=2, ensure_ascii=False) + "\n"
         )
-        print(f"catalogue.json mis à jour ({len(catalogue)} items total).")
-    elif not new_items and not backfilled:
-        print("catalogue.json inchangé.")
-
-    if args.dry_run and (new_items or backfilled or products_changed):
-        print("\n[dry-run] Aucun fichier modifié.")
+        print(f"catalogue.json mis à jour ({len(existing_catalogue_ids)} items total).")
+    if not (new_products or new_items or backfilled):
+        print("Rien à mettre à jour.")
 
 
 if __name__ == "__main__":

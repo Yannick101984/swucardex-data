@@ -11,7 +11,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/core_battle-zone-game-mat_twin-suns.jpg",
     "id": "core_twin-suns_battle-zone-game-mat",
-    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-battle-zone-game-mat/?attribute_pa_color=black"
+    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-battle-zone-game-mat/?attribute_pa_color=black",
+    "setOrder": 202309
   },
   {
     "setCode": "core",
@@ -25,7 +26,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/core_casual-album-18-pocket_card-back-blue.jpg",
     "id": "core_card-back-blue_casual-album-18-pocket",
-    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-swu-core-products-casual-album-18-pocket/?attribute_pa_color=card-back-blue"
+    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-swu-core-products-casual-album-18-pocket/?attribute_pa_color=card-back-blue",
+    "setOrder": 202309
   },
   {
     "setCode": "core",
@@ -39,7 +41,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/core_casual-album-18-pocket_unlimited-pattern.jpg",
     "id": "core_unlimited-pattern_casual-album-18-pocket",
-    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-swu-core-products-casual-album-18-pocket/?attribute_pa_color=unlimited-pattern"
+    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-swu-core-products-casual-album-18-pocket/?attribute_pa_color=unlimited-pattern",
+    "setOrder": 202309
   },
   {
     "setCode": "core",
@@ -53,7 +56,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/core_damage-pad_black.jpg",
     "id": "core_black_damage-pad",
-    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-damage-pad/?attribute_pa_color=black"
+    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-damage-pad/?attribute_pa_color=black",
+    "setOrder": 202309
   },
   {
     "setCode": "core",
@@ -67,7 +71,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/core_damage-pad_white.jpg",
     "id": "core_white_damage-pad",
-    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-damage-pad/?attribute_pa_color=white"
+    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-damage-pad/?attribute_pa_color=white",
+    "setOrder": 202309
   },
   {
     "setCode": "core",
@@ -80,7 +85,9 @@
     "productPageUrl": "https://www.gamegenic.com/product/deck-pod/",
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/core_deck-pod_black.jpg",
-    "id": "core_black_deck-pod"
+    "id": "core_black_deck-pod",
+    "setOrder": 202309,
+    "directUrl": "https://www.gamegenic.com/product/deck-pod/?attribute_pa_color=black"
   },
   {
     "setCode": "core",
@@ -93,7 +100,9 @@
     "productPageUrl": "https://www.gamegenic.com/product/deck-pod/",
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/core_deck-pod_blue.jpg",
-    "id": "core_blue_deck-pod"
+    "id": "core_blue_deck-pod",
+    "setOrder": 202309,
+    "directUrl": "https://www.gamegenic.com/product/deck-pod/?attribute_pa_color=blue"
   },
   {
     "setCode": "core",
@@ -106,7 +115,9 @@
     "productPageUrl": "https://www.gamegenic.com/product/deck-pod/",
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/core_deck-pod_green.jpg",
-    "id": "core_green_deck-pod"
+    "id": "core_green_deck-pod",
+    "setOrder": 202309,
+    "directUrl": "https://www.gamegenic.com/product/deck-pod/?attribute_pa_color=green"
   },
   {
     "setCode": "core",
@@ -119,7 +130,9 @@
     "productPageUrl": "https://www.gamegenic.com/product/deck-pod/",
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/core_deck-pod_red.jpg",
-    "id": "core_red_deck-pod"
+    "id": "core_red_deck-pod",
+    "setOrder": 202309,
+    "directUrl": "https://www.gamegenic.com/product/deck-pod/?attribute_pa_color=red"
   },
   {
     "setCode": "core",
@@ -132,7 +145,9 @@
     "productPageUrl": "https://www.gamegenic.com/product/deck-pod/",
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/core_deck-pod_white-black.jpg",
-    "id": "core_white-black_deck-pod"
+    "id": "core_white-black_deck-pod",
+    "setOrder": 202309,
+    "directUrl": "https://www.gamegenic.com/product/deck-pod/?attribute_pa_color=white-black"
   },
   {
     "setCode": "core",
@@ -145,7 +160,9 @@
     "productPageUrl": "https://www.gamegenic.com/product/deck-pod/",
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/core_deck-pod_yellow.jpg",
-    "id": "core_yellow_deck-pod"
+    "id": "core_yellow_deck-pod",
+    "setOrder": 202309,
+    "directUrl": "https://www.gamegenic.com/product/deck-pod/?attribute_pa_color=yellow"
   },
   {
     "setCode": "core",
@@ -159,7 +176,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/core_double-deck-pod_black.jpg",
     "id": "core_black_double-deck-pod",
-    "directUrl": "https://www.gamegenic.com/product/double-deck-pod/?attribute_pa_color=black"
+    "directUrl": "https://www.gamegenic.com/product/double-deck-pod/?attribute_pa_color=black",
+    "setOrder": 202309
   },
   {
     "setCode": "core",
@@ -173,7 +191,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/core_double-deck-pod_blue.jpg",
     "id": "core_blue_double-deck-pod",
-    "directUrl": "https://www.gamegenic.com/product/double-deck-pod/?attribute_pa_color=blue"
+    "directUrl": "https://www.gamegenic.com/product/double-deck-pod/?attribute_pa_color=blue",
+    "setOrder": 202309
   },
   {
     "setCode": "core",
@@ -187,7 +206,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/core_double-deck-pod_green.jpg",
     "id": "core_green_double-deck-pod",
-    "directUrl": "https://www.gamegenic.com/product/double-deck-pod/?attribute_pa_color=green"
+    "directUrl": "https://www.gamegenic.com/product/double-deck-pod/?attribute_pa_color=green",
+    "setOrder": 202309
   },
   {
     "setCode": "core",
@@ -201,7 +221,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/core_double-deck-pod_red.jpg",
     "id": "core_red_double-deck-pod",
-    "directUrl": "https://www.gamegenic.com/product/double-deck-pod/?attribute_pa_color=red"
+    "directUrl": "https://www.gamegenic.com/product/double-deck-pod/?attribute_pa_color=red",
+    "setOrder": 202309
   },
   {
     "setCode": "core",
@@ -215,7 +236,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/core_double-deck-pod_white-black.jpg",
     "id": "core_white-black_double-deck-pod",
-    "directUrl": "https://www.gamegenic.com/product/double-deck-pod/?attribute_pa_color=white-black"
+    "directUrl": "https://www.gamegenic.com/product/double-deck-pod/?attribute_pa_color=white-black",
+    "setOrder": 202309
   },
   {
     "setCode": "core",
@@ -229,7 +251,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/core_double-deck-pod_yellow.jpg",
     "id": "core_yellow_double-deck-pod",
-    "directUrl": "https://www.gamegenic.com/product/double-deck-pod/?attribute_pa_color=yellow"
+    "directUrl": "https://www.gamegenic.com/product/double-deck-pod/?attribute_pa_color=yellow",
+    "setOrder": 202309
   },
   {
     "setCode": "core",
@@ -243,7 +266,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/core_game-mat_death-star.jpg",
     "id": "core_death-star_game-mat",
-    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-swu-core-products-game-mat/?attribute_pa_color=death-star"
+    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-swu-core-products-game-mat/?attribute_pa_color=death-star",
+    "setOrder": 202309
   },
   {
     "setCode": "core",
@@ -257,7 +281,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/core_game-mat_speeder-bike-chase.jpg",
     "id": "core_speeder-bike-chase_game-mat",
-    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-swu-core-products-game-mat/?attribute_pa_color=speeder-bike-chase"
+    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-swu-core-products-game-mat/?attribute_pa_color=speeder-bike-chase",
+    "setOrder": 202309
   },
   {
     "setCode": "core",
@@ -271,7 +296,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/core_game-mat_unlimited-pattern.jpg",
     "id": "core_unlimited-pattern_game-mat",
-    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-swu-core-products-game-mat/?attribute_pa_color=unlimited-pattern"
+    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-swu-core-products-game-mat/?attribute_pa_color=unlimited-pattern",
+    "setOrder": 202309
   },
   {
     "setCode": "core",
@@ -285,7 +311,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/core_game-mat-xl_death-star.jpg",
     "id": "core_death-star_game-mat-xl",
-    "directUrl": "https://www.gamegenic.com/product/swu-game-mat-xl/?attribute_pa_color=hyperspace"
+    "directUrl": "https://www.gamegenic.com/product/swu-game-mat-xl/?attribute_pa_color=hyperspace",
+    "setOrder": 202309
   },
   {
     "setCode": "core",
@@ -299,7 +326,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/core_premium-art-sleeves_card-back-black.jpg",
     "id": "core_card-back-black_premium-art-sleeves",
-    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-swu-core-products-premium-art-sleeves/?attribute_pa_color=card-back-black"
+    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-swu-core-products-premium-art-sleeves/?attribute_pa_color=card-back-black",
+    "setOrder": 202309
   },
   {
     "setCode": "core",
@@ -313,7 +341,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/core_premium-art-sleeves_card-back-blue.jpg",
     "id": "core_card-back-blue_premium-art-sleeves",
-    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-swu-core-products-premium-art-sleeves/?attribute_pa_color=card-back-blue"
+    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-swu-core-products-premium-art-sleeves/?attribute_pa_color=card-back-blue",
+    "setOrder": 202309
   },
   {
     "setCode": "core",
@@ -327,7 +356,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/core_premium-art-sleeves_card-back-green.jpg",
     "id": "core_card-back-green_premium-art-sleeves",
-    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-swu-core-products-premium-art-sleeves/?attribute_pa_color=card-back-green"
+    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-swu-core-products-premium-art-sleeves/?attribute_pa_color=card-back-green",
+    "setOrder": 202309
   },
   {
     "setCode": "core",
@@ -341,7 +371,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/core_premium-art-sleeves_card-back-magenta.jpg",
     "id": "core_card-back-magenta_premium-art-sleeves",
-    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-swu-core-products-premium-art-sleeves/?attribute_pa_color=card-back-magenta"
+    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-swu-core-products-premium-art-sleeves/?attribute_pa_color=card-back-magenta",
+    "setOrder": 202309
   },
   {
     "setCode": "core",
@@ -355,7 +386,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/core_premium-art-sleeves_card-back-orange.jpg",
     "id": "core_card-back-orange_premium-art-sleeves",
-    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-swu-core-products-premium-art-sleeves/?attribute_pa_color=card-back-orange"
+    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-swu-core-products-premium-art-sleeves/?attribute_pa_color=card-back-orange",
+    "setOrder": 202309
   },
   {
     "setCode": "core",
@@ -369,7 +401,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/core_premium-art-sleeves_card-back-red.jpg",
     "id": "core_card-back-red_premium-art-sleeves",
-    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-swu-core-products-premium-art-sleeves/?attribute_pa_color=card-back-red"
+    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-swu-core-products-premium-art-sleeves/?attribute_pa_color=card-back-red",
+    "setOrder": 202309
   },
   {
     "setCode": "core",
@@ -383,7 +416,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/core_premium-art-sleeves_card-back-white.jpg",
     "id": "core_card-back-white_premium-art-sleeves",
-    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-swu-core-products-premium-art-sleeves/?attribute_pa_color=card-back-white"
+    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-swu-core-products-premium-art-sleeves/?attribute_pa_color=card-back-white",
+    "setOrder": 202309
   },
   {
     "setCode": "core",
@@ -397,7 +431,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/core_premium-art-sleeves_card-back-yellow.jpg",
     "id": "core_card-back-yellow_premium-art-sleeves",
-    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-swu-core-products-premium-art-sleeves/?attribute_pa_color=card-back-yellow"
+    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-swu-core-products-premium-art-sleeves/?attribute_pa_color=card-back-yellow",
+    "setOrder": 202309
   },
   {
     "setCode": "core",
@@ -411,7 +446,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/core_premium-art-sleeves_unlimited-pattern.jpg",
     "id": "core_unlimited-pattern_premium-art-sleeves",
-    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-swu-core-products-premium-art-sleeves/?attribute_pa_color=unlimited-pattern"
+    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-swu-core-products-premium-art-sleeves/?attribute_pa_color=unlimited-pattern",
+    "setOrder": 202309
   },
   {
     "setCode": "core",
@@ -425,7 +461,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/core_premium-cardport-xl-24-pocket_24-pocket.jpg",
     "id": "core_24-pocket_premium-cardport-xl-–-24-pocket",
-    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-premium-cardport-xl/?attribute_pa_color=black"
+    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-premium-cardport-xl/?attribute_pa_color=black",
+    "setOrder": 202309
   },
   {
     "setCode": "core",
@@ -439,7 +476,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/core_premium-tokens-pro_multicolor.jpg",
     "id": "core_multicolor_premium-tokens-pro",
-    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-premium-tokens-pro/?attribute_pa_color=multicolor-pack"
+    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-premium-tokens-pro/?attribute_pa_color=multicolor-pack",
+    "setOrder": 202309
   },
   {
     "setCode": "core",
@@ -453,7 +491,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/core_premium-tokens-pro-expansion-pack_expansion-pack.jpg",
     "id": "core_expansion-pack_premium-tokens-pro-–-expansion-pack",
-    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-premium-tokens-pro-expansion-pack/?attribute_pa_color=multicolor-pack"
+    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-premium-tokens-pro-expansion-pack/?attribute_pa_color=multicolor-pack",
+    "setOrder": 202309
   },
   {
     "setCode": "core",
@@ -467,7 +506,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/core_soft-crate_black-white.jpg",
     "id": "core_black-white_soft-crate",
-    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-swu-core-products-soft-crate/?attribute_pa_color=black-white"
+    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-swu-core-products-soft-crate/?attribute_pa_color=black-white",
+    "setOrder": 202309
   },
   {
     "setCode": "core",
@@ -481,7 +521,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/core_soft-crate_unlimited-pattern.jpg",
     "id": "core_unlimited-pattern_soft-crate",
-    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-swu-core-products-soft-crate/?attribute_pa_color=unlimited-pattern"
+    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-swu-core-products-soft-crate/?attribute_pa_color=unlimited-pattern",
+    "setOrder": 202309
   },
   {
     "setCode": "core",
@@ -495,7 +536,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/core_soft-crate_white-black.jpg",
     "id": "core_white-black_soft-crate",
-    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-swu-core-products-soft-crate/?attribute_pa_color=white-black"
+    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-swu-core-products-soft-crate/?attribute_pa_color=white-black",
+    "setOrder": 202309
   },
   {
     "setCode": "core",
@@ -509,7 +551,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/core_twin-suns-deck-pod_black.jpg",
     "id": "core_black_twin-suns-deck-pod",
-    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-twin-suns-deck-pod/?attribute_pa_color=black"
+    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-twin-suns-deck-pod/?attribute_pa_color=black",
+    "setOrder": 202309
   },
   {
     "setCode": "core",
@@ -523,7 +566,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/core_twin-suns-deck-pod_blue.jpg",
     "id": "core_blue_twin-suns-deck-pod",
-    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-twin-suns-deck-pod/?attribute_pa_color=blue"
+    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-twin-suns-deck-pod/?attribute_pa_color=blue",
+    "setOrder": 202309
   },
   {
     "setCode": "core",
@@ -537,7 +581,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/core_twin-suns-deck-pod_green.jpg",
     "id": "core_green_twin-suns-deck-pod",
-    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-twin-suns-deck-pod/?attribute_pa_color=green"
+    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-twin-suns-deck-pod/?attribute_pa_color=green",
+    "setOrder": 202309
   },
   {
     "setCode": "core",
@@ -551,7 +596,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/core_twin-suns-deck-pod_red.jpg",
     "id": "core_red_twin-suns-deck-pod",
-    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-twin-suns-deck-pod/?attribute_pa_color=red"
+    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-twin-suns-deck-pod/?attribute_pa_color=red",
+    "setOrder": 202309
   },
   {
     "setCode": "core",
@@ -565,7 +611,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/core_twin-suns-deck-pod_white.jpg",
     "id": "core_white_twin-suns-deck-pod",
-    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-twin-suns-deck-pod/?attribute_pa_color=white-black"
+    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-twin-suns-deck-pod/?attribute_pa_color=white-black",
+    "setOrder": 202309
   },
   {
     "setCode": "core",
@@ -579,7 +626,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/core_twin-suns-deck-pod_yellow.jpg",
     "id": "core_yellow_twin-suns-deck-pod",
-    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-twin-suns-deck-pod/?attribute_pa_color=yellow"
+    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-twin-suns-deck-pod/?attribute_pa_color=yellow",
+    "setOrder": 202309
   },
   {
     "setCode": "core",
@@ -593,7 +641,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/core_twin-suns-soft-crate_card-back-blue.jpg",
     "id": "core_card-back-blue_twin-suns-soft-crate",
-    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-twin-suns-soft-crate/?attribute_pa_color=card-back-blue"
+    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-twin-suns-soft-crate/?attribute_pa_color=card-back-blue",
+    "setOrder": 202309
   },
   {
     "setCode": "core",
@@ -607,7 +656,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/core_zip-up-album-18-pocket_black.jpg",
     "id": "core_black_zip-up-album-18-pocket",
-    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-zip-up-album/?attribute_pa_color=black"
+    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-zip-up-album/?attribute_pa_color=black",
+    "setOrder": 202309
   },
   {
     "setCode": "sor",
@@ -621,7 +671,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/sor_game-mat_darth-vader.jpg",
     "id": "sor_darth-vader_game-mat",
-    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-sor-game-mat/?attribute_pa_color=darth-vader-3"
+    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-sor-game-mat/?attribute_pa_color=darth-vader-3",
+    "setOrder": 202309
   },
   {
     "setCode": "sor",
@@ -635,7 +686,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/sor_game-mat_tie-fighter.jpg",
     "id": "sor_tie-fighter_game-mat",
-    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-sor-game-mat/?attribute_pa_color=tie-fighter"
+    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-sor-game-mat/?attribute_pa_color=tie-fighter",
+    "setOrder": 202309
   },
   {
     "setCode": "sor",
@@ -649,7 +701,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/sor_game-mat_x-wing.jpg",
     "id": "sor_x-wing_game-mat",
-    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-sor-game-mat/?attribute_pa_color=x-wing"
+    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-sor-game-mat/?attribute_pa_color=x-wing",
+    "setOrder": 202309
   },
   {
     "setCode": "sor",
@@ -663,7 +716,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/sor_premium-art-sleeves_darth-vader.jpg",
     "id": "sor_darth-vader_premium-art-sleeves",
-    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-sor-premium-art-sleeves/?attribute_pa_color=darth-vader-2"
+    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-sor-premium-art-sleeves/?attribute_pa_color=darth-vader-2",
+    "setOrder": 202309
   },
   {
     "setCode": "sor",
@@ -677,7 +731,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/sor_premium-art-sleeves_luke-skywalker.jpg",
     "id": "sor_luke-skywalker_premium-art-sleeves",
-    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-sor-premium-art-sleeves/?attribute_pa_color=luke-skywalker"
+    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-sor-premium-art-sleeves/?attribute_pa_color=luke-skywalker",
+    "setOrder": 202309
   },
   {
     "setCode": "sor",
@@ -691,7 +746,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/sor_soft-crate_darth-vader.jpg",
     "id": "sor_darth-vader_soft-crate",
-    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-sor-soft-crate/?attribute_pa_color=darth-vader"
+    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-sor-soft-crate/?attribute_pa_color=darth-vader",
+    "setOrder": 202309
   },
   {
     "setCode": "sor",
@@ -705,7 +761,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/sor_soft-crate_luke-vader.jpg",
     "id": "sor_luke-vader_soft-crate",
-    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-sor-soft-crate/?attribute_pa_color=luke-vader"
+    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-sor-soft-crate/?attribute_pa_color=luke-vader",
+    "setOrder": 202309
   },
   {
     "setCode": "sor",
@@ -719,7 +776,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/sor_soft-crate_x-wing-tie-fighter.jpg",
     "id": "sor_x-wing-tie-fighter_soft-crate",
-    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-sor-soft-crate/?attribute_pa_color=xwing-tiefighter"
+    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-sor-soft-crate/?attribute_pa_color=xwing-tiefighter",
+    "setOrder": 202309
   },
   {
     "setCode": "shd",
@@ -733,7 +791,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/shd_game-mat_mandalorian.jpg",
     "id": "shd_mandalorian_game-mat",
-    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-shd-game-mat/?attribute_pa_color=mandalorian-gamemat"
+    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-shd-game-mat/?attribute_pa_color=mandalorian-gamemat",
+    "setOrder": 202404
   },
   {
     "setCode": "shd",
@@ -747,7 +806,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/shd_game-mat_rancor.jpg",
     "id": "shd_rancor_game-mat",
-    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-shd-game-mat/?attribute_pa_color=rancor"
+    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-shd-game-mat/?attribute_pa_color=rancor",
+    "setOrder": 202404
   },
   {
     "setCode": "shd",
@@ -761,7 +821,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/shd_premium-art-sleeves_kylo-ren.jpg",
     "id": "shd_kylo-ren_premium-art-sleeves",
-    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-shd-premium-art-sleeves/?attribute_pa_color=kylo-ren"
+    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-shd-premium-art-sleeves/?attribute_pa_color=kylo-ren",
+    "setOrder": 202404
   },
   {
     "setCode": "shd",
@@ -775,7 +836,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/shd_premium-art-sleeves_mandalorian.jpg",
     "id": "shd_mandalorian_premium-art-sleeves",
-    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-shd-premium-art-sleeves/?attribute_pa_color=mandalorian"
+    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-shd-premium-art-sleeves/?attribute_pa_color=mandalorian",
+    "setOrder": 202404
   },
   {
     "setCode": "shd",
@@ -789,7 +851,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/shd_premium-art-sleeves_moff-gideon.jpg",
     "id": "shd_moff-gideon_premium-art-sleeves",
-    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-shd-premium-art-sleeves/?attribute_pa_color=moff-gideon"
+    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-shd-premium-art-sleeves/?attribute_pa_color=moff-gideon",
+    "setOrder": 202404
   },
   {
     "setCode": "shd",
@@ -803,7 +866,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/shd_premium-art-sleeves_rey.jpg",
     "id": "shd_rey_premium-art-sleeves",
-    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-shd-premium-art-sleeves/?attribute_pa_color=rey"
+    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-shd-premium-art-sleeves/?attribute_pa_color=rey",
+    "setOrder": 202404
   },
   {
     "setCode": "shd",
@@ -817,7 +881,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/shd_soft-crate_mandalorian-moff-gideon.jpg",
     "id": "shd_mandalorian-moff-gideon_soft-crate",
-    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-shd-soft-crate/?attribute_pa_color=mandalorian-moffgideon"
+    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-shd-soft-crate/?attribute_pa_color=mandalorian-moffgideon",
+    "setOrder": 202404
   },
   {
     "setCode": "shd",
@@ -831,7 +896,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/shd_soft-crate_rey-kylo-ren.jpg",
     "id": "shd_rey-kylo-ren_soft-crate",
-    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-shd-soft-crate/?attribute_pa_color=rey-kyloren"
+    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-shd-soft-crate/?attribute_pa_color=rey-kyloren",
+    "setOrder": 202404
   },
   {
     "setCode": "twi",
@@ -845,7 +911,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/twi_game-mat_battle-droids.jpg",
     "id": "twi_battle-droids_game-mat",
-    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-twi-game-mat/?attribute_pa_color=battle-droids"
+    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-twi-game-mat/?attribute_pa_color=battle-droids",
+    "setOrder": 202409
   },
   {
     "setCode": "twi",
@@ -859,7 +926,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/twi_game-mat_darth-maul.jpg",
     "id": "twi_darth-maul_game-mat",
-    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-twi-game-mat/?attribute_pa_color=darth-maul-gamemat"
+    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-twi-game-mat/?attribute_pa_color=darth-maul-gamemat",
+    "setOrder": 202409
   },
   {
     "setCode": "twi",
@@ -873,7 +941,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/twi_game-mat_yoda.jpg",
     "id": "twi_yoda_game-mat",
-    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-twi-game-mat/?attribute_pa_color=yoda"
+    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-twi-game-mat/?attribute_pa_color=yoda",
+    "setOrder": 202409
   },
   {
     "setCode": "twi",
@@ -887,7 +956,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/twi_premium-art-sleeves_ahsoka-tano.jpg",
     "id": "twi_ahsoka-tano_premium-art-sleeves",
-    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-twi-premium-art-sleeves/?attribute_pa_color=ahsoka-tano"
+    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-twi-premium-art-sleeves/?attribute_pa_color=ahsoka-tano",
+    "setOrder": 202409
   },
   {
     "setCode": "twi",
@@ -901,7 +971,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/twi_premium-art-sleeves_darth-maul.jpg",
     "id": "twi_darth-maul_premium-art-sleeves",
-    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-twi-premium-art-sleeves/?attribute_pa_color=darth-maul"
+    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-twi-premium-art-sleeves/?attribute_pa_color=darth-maul",
+    "setOrder": 202409
   },
   {
     "setCode": "twi",
@@ -915,7 +986,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/twi_premium-art-sleeves_general-grievous.jpg",
     "id": "twi_general-grievous_premium-art-sleeves",
-    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-twi-premium-art-sleeves/?attribute_pa_color=general-grievous"
+    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-twi-premium-art-sleeves/?attribute_pa_color=general-grievous",
+    "setOrder": 202409
   },
   {
     "setCode": "twi",
@@ -929,7 +1001,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/twi_premium-art-sleeves_obi-wan-kenobi.jpg",
     "id": "twi_obi-wan-kenobi_premium-art-sleeves",
-    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-twi-premium-art-sleeves/?attribute_pa_color=obi-wan-kenobi"
+    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-twi-premium-art-sleeves/?attribute_pa_color=obi-wan-kenobi",
+    "setOrder": 202409
   },
   {
     "setCode": "twi",
@@ -943,7 +1016,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/twi_soft-crate_ahsoka-general-grievous.jpg",
     "id": "twi_ahsoka-general-grievous_soft-crate",
-    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-twi-soft-crate/?attribute_pa_color=ahsoka-grievous"
+    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-twi-soft-crate/?attribute_pa_color=ahsoka-grievous",
+    "setOrder": 202409
   },
   {
     "setCode": "twi",
@@ -957,7 +1031,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/twi_soft-crate_obi-wan-kenobi-darth-maul.jpg",
     "id": "twi_obi-wan-kenobi-darth-maul_soft-crate",
-    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-twi-soft-crate/?attribute_pa_color=obi-wan-darth-maul"
+    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-twi-soft-crate/?attribute_pa_color=obi-wan-darth-maul",
+    "setOrder": 202409
   },
   {
     "setCode": "jtl",
@@ -971,7 +1046,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/jtl_casual-album-18-pocket_x-wing-tie-fighter.jpg",
     "id": "jtl_x-wing-tie-fighter_casual-album-18-pocket",
-    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-jtl-casual-album-18-pocket/?attribute_pa_color=xwing-tiefighter"
+    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-jtl-casual-album-18-pocket/?attribute_pa_color=xwing-tiefighter",
+    "setOrder": 202501
   },
   {
     "setCode": "jtl",
@@ -985,7 +1061,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/jtl_game-mat_battle-of-scarif.jpg",
     "id": "jtl_battle-of-scarif_game-mat",
-    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-jtl-game-mat/?attribute_pa_color=battle-of-scarif"
+    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-jtl-game-mat/?attribute_pa_color=battle-of-scarif",
+    "setOrder": 202501
   },
   {
     "setCode": "jtl",
@@ -999,7 +1076,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/jtl_game-mat_fetts-firespray.jpg",
     "id": "jtl_fetts-firespray_game-mat",
-    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-jtl-game-mat/?attribute_pa_color=fetts-firespray"
+    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-jtl-game-mat/?attribute_pa_color=fetts-firespray",
+    "setOrder": 202501
   },
   {
     "setCode": "jtl",
@@ -1013,7 +1091,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/jtl_game-mat_stormtrooper.jpg",
     "id": "jtl_stormtrooper_game-mat",
-    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-jtl-game-mat/?attribute_pa_color=stormtrooper"
+    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-jtl-game-mat/?attribute_pa_color=stormtrooper",
+    "setOrder": 202501
   },
   {
     "setCode": "jtl",
@@ -1027,7 +1106,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/jtl_premium-art-sleeves_admiral-ackbar.jpg",
     "id": "jtl_admiral-ackbar_premium-art-sleeves",
-    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-jtl-premium-art-sleeves/?attribute_pa_color=admiral-ackbar"
+    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-jtl-premium-art-sleeves/?attribute_pa_color=admiral-ackbar",
+    "setOrder": 202501
   },
   {
     "setCode": "jtl",
@@ -1041,7 +1121,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/jtl_premium-art-sleeves_boba-fett.jpg",
     "id": "jtl_boba-fett_premium-art-sleeves",
-    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-jtl-premium-art-sleeves/?attribute_pa_color=boba-fett"
+    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-jtl-premium-art-sleeves/?attribute_pa_color=boba-fett",
+    "setOrder": 202501
   },
   {
     "setCode": "jtl",
@@ -1055,7 +1136,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/jtl_premium-art-sleeves_han-solo.jpg",
     "id": "jtl_han-solo_premium-art-sleeves",
-    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-jtl-premium-art-sleeves/?attribute_pa_color=han-solo"
+    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-jtl-premium-art-sleeves/?attribute_pa_color=han-solo",
+    "setOrder": 202501
   },
   {
     "setCode": "jtl",
@@ -1069,7 +1151,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/jtl_premium-art-sleeves_stormtrooper.jpg",
     "id": "jtl_stormtrooper_premium-art-sleeves",
-    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-jtl-premium-art-sleeves/?attribute_pa_color=stormtrooper"
+    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-jtl-premium-art-sleeves/?attribute_pa_color=stormtrooper",
+    "setOrder": 202501
   },
   {
     "setCode": "jtl",
@@ -1083,7 +1166,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/jtl_soft-crate_boba-fett-fetts-firespray.jpg",
     "id": "jtl_boba-fett-fetts-firespray_soft-crate",
-    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-jtl-soft-crate/?attribute_pa_color=boba-fett-fetts-firespray"
+    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-jtl-soft-crate/?attribute_pa_color=boba-fett-fetts-firespray",
+    "setOrder": 202501
   },
   {
     "setCode": "jtl",
@@ -1097,7 +1181,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/jtl_soft-crate_captain-phasma-stormtrooper.jpg",
     "id": "jtl_captain-phasma-stormtrooper_soft-crate",
-    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-jtl-soft-crate/?attribute_pa_color=captain-phasma-stormtrooper"
+    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-jtl-soft-crate/?attribute_pa_color=captain-phasma-stormtrooper",
+    "setOrder": 202501
   },
   {
     "setCode": "jtl",
@@ -1111,7 +1196,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/jtl_soft-crate_han-solo-millennium-falcon.jpg",
     "id": "jtl_han-solo-millennium-falcon_soft-crate",
-    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-jtl-soft-crate/?attribute_pa_color=han-solo-millenium-falcon"
+    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-jtl-soft-crate/?attribute_pa_color=han-solo-millenium-falcon",
+    "setOrder": 202501
   },
   {
     "setCode": "jtl",
@@ -1125,7 +1211,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/jtl_twin-suns-soft-crate_battle-of-scarif.jpg",
     "id": "jtl_battle-of-scarif_twin-suns-soft-crate",
-    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-jtl-twin-suns-soft-crate/?attribute_pa_color=battle-of-scarif"
+    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-jtl-twin-suns-soft-crate/?attribute_pa_color=battle-of-scarif",
+    "setOrder": 202501
   },
   {
     "setCode": "jtl",
@@ -1139,7 +1226,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/jtl_xtra-wide-game-mat_millennium-falcon.jpg",
     "id": "jtl_millennium-falcon_xtra-wide-game-mat",
-    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-jtl-xtra-wide-game-mat/?attribute_pa_color=millennium-falcon"
+    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-jtl-xtra-wide-game-mat/?attribute_pa_color=millennium-falcon",
+    "setOrder": 202501
   },
   {
     "setCode": "lof",
@@ -1153,7 +1241,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/lof_casual-album-18-pocket_qui-gon-jinn-darth-maul.jpg",
     "id": "lof_qui-gon-jinn-darth-maul_casual-album-18-pocket",
-    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-lof-casual-album-18-pocket/?attribute_pa_color=qui-gon-jinn-darth-maul"
+    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-lof-casual-album-18-pocket/?attribute_pa_color=qui-gon-jinn-darth-maul",
+    "setOrder": 202507
   },
   {
     "setCode": "lof",
@@ -1167,7 +1256,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/lof_game-mat_baylan-shin-hati.jpg",
     "id": "lof_baylan-shin-hati_game-mat",
-    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-lof-game-mat/?attribute_pa_color=baylan-shin-hati"
+    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-lof-game-mat/?attribute_pa_color=baylan-shin-hati",
+    "setOrder": 202507
   },
   {
     "setCode": "lof",
@@ -1181,7 +1271,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/lof_game-mat_dagobah.jpg",
     "id": "lof_dagobah_game-mat",
-    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-lof-game-mat/?attribute_pa_color=dagobah"
+    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-lof-game-mat/?attribute_pa_color=dagobah",
+    "setOrder": 202507
   },
   {
     "setCode": "lof",
@@ -1195,7 +1286,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/lof_game-mat_darth-maul.jpg",
     "id": "lof_darth-maul_game-mat",
-    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-lof-game-mat/?attribute_pa_color=darth-maul-2"
+    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-lof-game-mat/?attribute_pa_color=darth-maul-2",
+    "setOrder": 202507
   },
   {
     "setCode": "lof",
@@ -1209,7 +1301,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/lof_game-mat_qui-gon-jinn.jpg",
     "id": "lof_qui-gon-jinn_game-mat",
-    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-lof-game-mat/?attribute_pa_color=qui-gon-jinn"
+    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-lof-game-mat/?attribute_pa_color=qui-gon-jinn",
+    "setOrder": 202507
   },
   {
     "setCode": "lof",
@@ -1223,7 +1316,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/lof_premium-art-sleeves_darth-maul.jpg",
     "id": "lof_darth-maul_premium-art-sleeves",
-    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-lof-premium-art-sleeves/?attribute_pa_color=darth-maul-2"
+    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-lof-premium-art-sleeves/?attribute_pa_color=darth-maul-2",
+    "setOrder": 202507
   },
   {
     "setCode": "lof",
@@ -1237,7 +1331,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/lof_premium-art-sleeves_grogu.jpg",
     "id": "lof_grogu_premium-art-sleeves",
-    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-lof-premium-art-sleeves/?attribute_pa_color=grogu"
+    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-lof-premium-art-sleeves/?attribute_pa_color=grogu",
+    "setOrder": 202507
   },
   {
     "setCode": "lof",
@@ -1251,7 +1346,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/lof_premium-art-sleeves_qui-gon-jinn.jpg",
     "id": "lof_qui-gon-jinn_premium-art-sleeves",
-    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-lof-premium-art-sleeves/?attribute_pa_color=qui-gon-jinn"
+    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-lof-premium-art-sleeves/?attribute_pa_color=qui-gon-jinn",
+    "setOrder": 202507
   },
   {
     "setCode": "lof",
@@ -1265,7 +1361,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/lof_soft-crate_darth-maul.jpg",
     "id": "lof_darth-maul_soft-crate",
-    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-lof-soft-crate/?attribute_pa_color=darth-maul-2"
+    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-lof-soft-crate/?attribute_pa_color=darth-maul-2",
+    "setOrder": 202507
   },
   {
     "setCode": "lof",
@@ -1279,7 +1376,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/lof_soft-crate_qui-gon-jinn.jpg",
     "id": "lof_qui-gon-jinn_soft-crate",
-    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-lof-soft-crate/?attribute_pa_color=qui-gon-jinn"
+    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-lof-soft-crate/?attribute_pa_color=qui-gon-jinn",
+    "setOrder": 202507
   },
   {
     "setCode": "sec",
@@ -1293,7 +1391,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/sec_game-mat_cassian-andor.jpg",
     "id": "sec_cassian-andor_game-mat",
-    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-sec-game-mat/?attribute_pa_color=cassian-andor"
+    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-sec-game-mat/?attribute_pa_color=cassian-andor",
+    "setOrder": 202511
   },
   {
     "setCode": "sec",
@@ -1307,7 +1406,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/sec_game-mat_chancellor-palpatine.jpg",
     "id": "sec_chancellor-palpatine_game-mat",
-    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-sec-game-mat/?attribute_pa_color=chancellor-palpatine"
+    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-sec-game-mat/?attribute_pa_color=chancellor-palpatine",
+    "setOrder": 202511
   },
   {
     "setCode": "sec",
@@ -1321,7 +1421,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/sec_game-mat_galactic-senate.jpg",
     "id": "sec_galactic-senate_game-mat",
-    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-sec-game-mat/?attribute_pa_color=galactic-senate"
+    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-sec-game-mat/?attribute_pa_color=galactic-senate",
+    "setOrder": 202511
   },
   {
     "setCode": "sec",
@@ -1335,7 +1436,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/sec_game-mat_restore-freedom.jpg",
     "id": "sec_restore-freedom_game-mat",
-    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-sec-game-mat/?attribute_pa_color=restore-freedom"
+    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-sec-game-mat/?attribute_pa_color=restore-freedom",
+    "setOrder": 202511
   },
   {
     "setCode": "sec",
@@ -1349,7 +1451,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/sec_premium-art-sleeves_cassian-andor.jpg",
     "id": "sec_cassian-andor_premium-art-sleeves",
-    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-sec-premium-art-sleeves/?attribute_pa_color=cassian-andor"
+    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-sec-premium-art-sleeves/?attribute_pa_color=cassian-andor",
+    "setOrder": 202511
   },
   {
     "setCode": "sec",
@@ -1363,7 +1466,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/sec_premium-art-sleeves_chancellor-palpatine.jpg",
     "id": "sec_chancellor-palpatine_premium-art-sleeves",
-    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-sec-premium-art-sleeves/?attribute_pa_color=chancellor-palpatine"
+    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-sec-premium-art-sleeves/?attribute_pa_color=chancellor-palpatine",
+    "setOrder": 202511
   },
   {
     "setCode": "sec",
@@ -1377,7 +1481,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/sec_premium-art-sleeves_dedra-meero.jpg",
     "id": "sec_dedra-meero_premium-art-sleeves",
-    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-sec-premium-art-sleeves/?attribute_pa_color=dedra-meero"
+    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-sec-premium-art-sleeves/?attribute_pa_color=dedra-meero",
+    "setOrder": 202511
   },
   {
     "setCode": "sec",
@@ -1391,7 +1496,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/sec_premium-art-sleeves_padme-amidala.jpg",
     "id": "sec_padme-amidala_premium-art-sleeves",
-    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-sec-premium-art-sleeves/?attribute_pa_color=padme-amidala"
+    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-sec-premium-art-sleeves/?attribute_pa_color=padme-amidala",
+    "setOrder": 202511
   },
   {
     "setCode": "sec",
@@ -1405,7 +1511,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/sec_soft-crate_cassian-andor-dedra-meero.jpg",
     "id": "sec_cassian-andor-dedra-meero_soft-crate",
-    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-sec-soft-crate/?attribute_pa_color=cassian-andor-dedra-meero"
+    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-sec-soft-crate/?attribute_pa_color=cassian-andor-dedra-meero",
+    "setOrder": 202511
   },
   {
     "setCode": "sec",
@@ -1419,7 +1526,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/sec_soft-crate_padme-palpatine.jpg",
     "id": "sec_padme-palpatine_soft-crate",
-    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-sec-soft-crate/?attribute_pa_color=palpatine-padme-amidala"
+    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-sec-soft-crate/?attribute_pa_color=palpatine-padme-amidala",
+    "setOrder": 202511
   },
   {
     "setCode": "law",
@@ -1433,7 +1541,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/law_casual-album-18-pocket_c-3po-r2-d2.jpg",
     "id": "law_c-3po-r2-d2_casual-album-18-pocket",
-    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-law-casual-album-18-pocket/?attribute_pa_color=c-3po-r2-d2"
+    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-law-casual-album-18-pocket/?attribute_pa_color=c-3po-r2-d2",
+    "setOrder": 202602
   },
   {
     "setCode": "law",
@@ -1447,7 +1556,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/law_casual-album-18-pocket_darth-vader-unstoppable.jpg",
     "id": "law_darth-vader-unstoppable_casual-album-18-pocket",
-    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-law-casual-album-18-pocket/?attribute_pa_color=darth-vader-unstoppable"
+    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-law-casual-album-18-pocket/?attribute_pa_color=darth-vader-unstoppable",
+    "setOrder": 202602
   },
   {
     "setCode": "law",
@@ -1461,7 +1571,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/law_casual-album-18-pocket_leia-organa-jabba-the-hutt.jpg",
     "id": "law_leia-organa-jabba-the-hutt_casual-album-18-pocket",
-    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-law-casual-album-18-pocket/?attribute_pa_color=leia-organa-jabba-the-hutt"
+    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-law-casual-album-18-pocket/?attribute_pa_color=leia-organa-jabba-the-hutt",
+    "setOrder": 202602
   },
   {
     "setCode": "law",
@@ -1475,7 +1586,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/law_game-mat_anakins-podracer.jpg",
     "id": "law_anakins-podracer_game-mat",
-    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-law-game-mat/?attribute_pa_color=anakins-podracer"
+    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-law-game-mat/?attribute_pa_color=anakins-podracer",
+    "setOrder": 202602
   },
   {
     "setCode": "law",
@@ -1489,7 +1601,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/law_game-mat_darth-vader-unstoppable.jpg",
     "id": "law_darth-vader-unstoppable_game-mat",
-    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-law-game-mat/?attribute_pa_color=darth-vader-unstoppable"
+    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-law-game-mat/?attribute_pa_color=darth-vader-unstoppable",
+    "setOrder": 202602
   },
   {
     "setCode": "law",
@@ -1503,7 +1616,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/law_game-mat_great-pit-of-carkoon.jpg",
     "id": "law_great-pit-of-carkoon_game-mat",
-    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-law-game-mat/?attribute_pa_color=great-pit-of-carkoon"
+    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-law-game-mat/?attribute_pa_color=great-pit-of-carkoon",
+    "setOrder": 202602
   },
   {
     "setCode": "law",
@@ -1517,7 +1631,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/law_game-mat_jabba-the-hutt.jpg",
     "id": "law_jabba-the-hutt_game-mat",
-    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-law-game-mat/?attribute_pa_color=jabba-the-hutt"
+    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-law-game-mat/?attribute_pa_color=jabba-the-hutt",
+    "setOrder": 202602
   },
   {
     "setCode": "law",
@@ -1531,7 +1646,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/law_premium-art-sleeves_c-3po.jpg",
     "id": "law_c-3po_premium-art-sleeves",
-    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-law-premium-art-sleeves/?attribute_pa_color=c-3po"
+    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-law-premium-art-sleeves/?attribute_pa_color=c-3po",
+    "setOrder": 202602
   },
   {
     "setCode": "law",
@@ -1545,7 +1661,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/law_premium-art-sleeves_darth-vader-unstoppable.jpg",
     "id": "law_darth-vader-unstoppable_premium-art-sleeves",
-    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-law-premium-art-sleeves/?attribute_pa_color=darth-vader-unstoppable"
+    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-law-premium-art-sleeves/?attribute_pa_color=darth-vader-unstoppable",
+    "setOrder": 202602
   },
   {
     "setCode": "law",
@@ -1559,7 +1676,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/law_premium-art-sleeves_director-krennic.jpg",
     "id": "law_director-krennic_premium-art-sleeves",
-    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-law-premium-art-sleeves/?attribute_pa_color=director-krennic"
+    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-law-premium-art-sleeves/?attribute_pa_color=director-krennic",
+    "setOrder": 202602
   },
   {
     "setCode": "law",
@@ -1573,7 +1691,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/law_premium-art-sleeves_jabba-the-hutt.jpg",
     "id": "law_jabba-the-hutt_premium-art-sleeves",
-    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-law-premium-art-sleeves/?attribute_pa_color=jabba-the-hutt"
+    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-law-premium-art-sleeves/?attribute_pa_color=jabba-the-hutt",
+    "setOrder": 202602
   },
   {
     "setCode": "law",
@@ -1587,7 +1706,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/law_premium-art-sleeves_leia-organa.jpg",
     "id": "law_leia-organa_premium-art-sleeves",
-    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-law-premium-art-sleeves/?attribute_pa_color=leia-organa"
+    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-law-premium-art-sleeves/?attribute_pa_color=leia-organa",
+    "setOrder": 202602
   },
   {
     "setCode": "law",
@@ -1601,7 +1721,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/law_premium-art-sleeves_r2-d2.jpg",
     "id": "law_r2-d2_premium-art-sleeves",
-    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-law-premium-art-sleeves/?attribute_pa_color=r2-d2"
+    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-law-premium-art-sleeves/?attribute_pa_color=r2-d2",
+    "setOrder": 202602
   },
   {
     "setCode": "law",
@@ -1615,7 +1736,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/law_soft-crate_darth-vader-director-krennic.jpg",
     "id": "law_darth-vader-director-krennic_soft-crate",
-    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-law-soft-crate/?attribute_pa_color=darth-vader-director-krennic"
+    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-law-soft-crate/?attribute_pa_color=darth-vader-director-krennic",
+    "setOrder": 202602
   },
   {
     "setCode": "law",
@@ -1629,7 +1751,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/law_soft-crate_leia-organa-jabba-the-hutt.jpg",
     "id": "law_leia-organa-jabba-the-hutt_soft-crate",
-    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-law-soft-crate/?attribute_pa_color=leia-organa-jabba-the-hutt"
+    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-law-soft-crate/?attribute_pa_color=leia-organa-jabba-the-hutt",
+    "setOrder": 202602
   },
   {
     "setCode": "law",
@@ -1643,7 +1766,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/law_soft-crate_r2-d2-c-3po.jpg",
     "id": "law_r2-d2-c-3po_soft-crate",
-    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-law-soft-crate/?attribute_pa_color=c-3po-r2-d2"
+    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-law-soft-crate/?attribute_pa_color=c-3po-r2-d2",
+    "setOrder": 202602
   },
   {
     "setCode": "ash",
@@ -1657,7 +1781,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/ash_deck-pod_jedi-luke-skywalker-emperor-palpatine.jpg",
     "id": "ash_jedi-luke-skywalker-emperor-palpatine_deck-pod",
-    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-ash-deck-pod/?attribute_pa_color_variations=jedi-luke-skywalker-emperor-palpatine"
+    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-ash-deck-pod/?attribute_pa_color_variations=jedi-luke-skywalker-emperor-palpatine",
+    "setOrder": 202604
   },
   {
     "setCode": "ash",
@@ -1671,7 +1796,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/ash_deck-pod_the-mandalorian-grogu.jpg",
     "id": "ash_the-mandalorian-grogu_deck-pod",
-    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-ash-deck-pod/?attribute_pa_color_variations=the-mandalorian-grogu"
+    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-ash-deck-pod/?attribute_pa_color_variations=the-mandalorian-grogu",
+    "setOrder": 202604
   },
   {
     "setCode": "ash",
@@ -1685,7 +1811,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/ash_double-deck-pod_star-destroyers.jpg",
     "id": "ash_star-destroyers_double-deck-pod",
-    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-ash-double-deck-pod/?attribute_pa_color_variations=star-destroyers"
+    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-ash-double-deck-pod/?attribute_pa_color_variations=star-destroyers",
+    "setOrder": 202604
   },
   {
     "setCode": "ash",
@@ -1699,7 +1826,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/ash_double-sided-game-mat_jedi-luke-skywalker-emperor-palpatine.jpg",
     "id": "ash_jedi-luke-skywalker-emperor-palpatine_double-sided-game-mat",
-    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-ash-double-sided-game-mat/?attribute_pa_color_variations=jedi-luke-skywalker-emperor-palpatine"
+    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-ash-double-sided-game-mat/?attribute_pa_color_variations=jedi-luke-skywalker-emperor-palpatine",
+    "setOrder": 202604
   },
   {
     "setCode": "ash",
@@ -1713,7 +1841,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/ash_game-mat_bo-katan-kryze.jpg",
     "id": "ash_bo-katan-kryze_game-mat",
-    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-ash-game-mat/?attribute_pa_color_variations=bo-katan-kryze"
+    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-ash-game-mat/?attribute_pa_color_variations=bo-katan-kryze",
+    "setOrder": 202604
   },
   {
     "setCode": "ash",
@@ -1727,7 +1856,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/ash_game-mat_cad-bane.jpg",
     "id": "ash_cad-bane_game-mat",
-    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-ash-game-mat/?attribute_pa_color_variations=cad-bane"
+    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-ash-game-mat/?attribute_pa_color_variations=cad-bane",
+    "setOrder": 202604
   },
   {
     "setCode": "ash",
@@ -1741,7 +1871,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/ash_premium-art-sleeves_cad-bane.jpg",
     "id": "ash_cad-bane_premium-art-sleeves",
-    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-ash-premium-art-sleeves/?attribute_pa_color_variations=cad-bane"
+    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-ash-premium-art-sleeves/?attribute_pa_color_variations=cad-bane",
+    "setOrder": 202604
   },
   {
     "setCode": "ash",
@@ -1755,7 +1886,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/ash_premium-art-sleeves_emperor-palpatine.jpg",
     "id": "ash_emperor-palpatine_premium-art-sleeves",
-    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-ash-premium-art-sleeves/?attribute_pa_color_variations=emperor-palpatine"
+    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-ash-premium-art-sleeves/?attribute_pa_color_variations=emperor-palpatine",
+    "setOrder": 202604
   },
   {
     "setCode": "ash",
@@ -1769,7 +1901,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/ash_premium-art-sleeves_jedi-luke-skywalker.jpg",
     "id": "ash_jedi-luke-skywalker_premium-art-sleeves",
-    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-ash-premium-art-sleeves/?attribute_pa_color_variations=jedi-luke-skywalker"
+    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-ash-premium-art-sleeves/?attribute_pa_color_variations=jedi-luke-skywalker",
+    "setOrder": 202604
   },
   {
     "setCode": "ash",
@@ -1783,7 +1916,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/ash_premium-art-sleeves_the-armorer.jpg",
     "id": "ash_the-armorer_premium-art-sleeves",
-    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-ash-premium-art-sleeves/?attribute_pa_color_variations=the-armorer"
+    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-ash-premium-art-sleeves/?attribute_pa_color_variations=the-armorer",
+    "setOrder": 202604
   },
   {
     "setCode": "ash",
@@ -1797,7 +1931,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/ash_shiny-game-mat_the-armorer.jpg",
     "id": "ash_the-armorer_shiny-game-mat",
-    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-ash-shiny-game-mat/?attribute_pa_color_variations=the-armorer"
+    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-ash-shiny-game-mat/?attribute_pa_color_variations=the-armorer",
+    "setOrder": 202604
   },
   {
     "setCode": "ash",
@@ -1811,7 +1946,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/ash_zip-up-album-18-pocket_jedi-luke-skywalker-emperor-palpatine.jpg",
     "id": "ash_jedi-luke-skywalker-emperor-palpatine_zip-up-album-18-pocket",
-    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-ash-zip-up-album18-pocket/?attribute_pa_color_variations=jedi-luke-skywalker-emperor-palpatine"
+    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-ash-zip-up-album18-pocket/?attribute_pa_color_variations=jedi-luke-skywalker-emperor-palpatine",
+    "setOrder": 202604
   },
   {
     "setCode": "ash",
@@ -1825,7 +1961,8 @@
     "acquired": false,
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/ash_zip-up-album-18-pocket_the-armorer-whistling-birds.jpg",
     "id": "ash_the-armorer-whistling-birds_zip-up-album-18-pocket",
-    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-ash-zip-up-album18-pocket/?attribute_pa_color_variations=the-armorer-whistling-birds"
+    "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-ash-zip-up-album18-pocket/?attribute_pa_color_variations=the-armorer-whistling-birds",
+    "setOrder": 202604
   },
   {
     "id": "hmw_black_cards-shuttle",
@@ -1838,7 +1975,8 @@
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/hmw_hmw-cards-shuttle_black.jpg",
     "productPageUrl": "https://www.gamegenic.com/product/star-wars-unlimited-hmw-cards-shuttle/",
     "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-hmw-cards-shuttle/?attribute_pa_color_variations=black",
-    "acquired": false
+    "acquired": false,
+    "setOrder": 202609
   },
   {
     "id": "hmw_black_premium-cardport-slipcase-ring-binder-–-18-pocket",
@@ -1851,7 +1989,8 @@
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/hmw_hmw-premium-cardport-xl-slipcase-ring-binder-18-pocket_black.jpg",
     "productPageUrl": "https://www.gamegenic.com/product/star-wars-unlimited-hmw-premium-cardport-xl-slipcase-ring-binder-18-pocket/",
     "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-hmw-premium-cardport-xl-slipcase-ring-binder-18-pocket/?attribute_pa_color_variations=black",
-    "acquired": false
+    "acquired": false,
+    "setOrder": 202609
   },
   {
     "id": "hmw_chewbacca_game-mat",
@@ -1864,7 +2003,8 @@
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/hmw_hmw-game-mat_chewbacca.jpg",
     "productPageUrl": "https://www.gamegenic.com/product/star-wars-unlimited-hmw-game-mat/",
     "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-hmw-game-mat/?attribute_pa_color_variations=chewbacca",
-    "acquired": false
+    "acquired": false,
+    "setOrder": 202609
   },
   {
     "id": "hmw_the-death-star_game-mat-xl",
@@ -1877,7 +2017,8 @@
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/hmw_hmw-game-mat-xl_the-death-star.jpg",
     "productPageUrl": "https://www.gamegenic.com/product/star-wars-unlimited-hmw-game-mat-xl/",
     "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-hmw-game-mat-xl/?attribute_pa_color_variations=the-death-star",
-    "acquired": false
+    "acquired": false,
+    "setOrder": 202609
   },
   {
     "id": "hmw_victor-squadron_shiny-game-mat",
@@ -1890,7 +2031,8 @@
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/hmw_hmw-shiny-game-mat_victor-squadron.jpg",
     "productPageUrl": "https://www.gamegenic.com/product/star-wars-unlimited-hmw-shiny-game-mat/",
     "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-hmw-shiny-game-mat/?attribute_pa_color_variations=victor-squadron",
-    "acquired": false
+    "acquired": false,
+    "setOrder": 202609
   },
   {
     "id": "hmw_wicket-ewok-archers_double-sided-game-mat",
@@ -1903,7 +2045,8 @@
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/hmw_hmw-double-sided-game-mat_wicket-ewok-archers.jpg",
     "productPageUrl": "https://www.gamegenic.com/product/star-wars-unlimited-hmw-double-sided-game-mat/",
     "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-hmw-double-sided-game-mat/?attribute_pa_color_variations=wicket-ewok-archers",
-    "acquired": false
+    "acquired": false,
+    "setOrder": 202609
   },
   {
     "id": "hmw_grand-moff-tarkin_premium-art-sleeves",
@@ -1916,7 +2059,8 @@
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/hmw_hmw-premium-art-sleeves_grand-moff-tarkin.jpg",
     "productPageUrl": "https://www.gamegenic.com/product/star-wars-unlimited-hmw-premium-art-sleeves/",
     "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-hmw-premium-art-sleeves/?attribute_pa_color_variations=grand-moff-tarkin",
-    "acquired": false
+    "acquired": false,
+    "setOrder": 202609
   },
   {
     "id": "hmw_the-chieftain-akobe_zip-up-album-18-pocket",
@@ -1929,7 +2073,8 @@
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/hmw_hmw-zip-up-album18-pocket_the-chieftain-akobe.jpg",
     "productPageUrl": "https://www.gamegenic.com/product/star-wars-unlimited-hmw-zip-up-album18-pocket/",
     "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-hmw-zip-up-album18-pocket/?attribute_pa_color_variations=the-chieftain-akobe",
-    "acquired": false
+    "acquired": false,
+    "setOrder": 202609
   },
   {
     "id": "hmw_jar-jar-binks_soft-crate",
@@ -1942,7 +2087,8 @@
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/hmw_hmw-soft-crate_jar-jar-binks.jpg",
     "productPageUrl": "https://www.gamegenic.com/product/star-wars-unlimited-hmw-soft-crate/",
     "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-hmw-soft-crate/?attribute_pa_color_variations=jar-jar-binks",
-    "acquired": false
+    "acquired": false,
+    "setOrder": 202609
   },
   {
     "id": "hmw_darth-vader-grand-moff-tarkin_deck-pod",
@@ -1955,6 +2101,7 @@
     "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/hmw_hmw-deck-pod_darth-vader-grand-moff-tarkin.jpg",
     "productPageUrl": "https://www.gamegenic.com/product/star-wars-unlimited-hmw-deck-pod/",
     "directUrl": "https://www.gamegenic.com/product/star-wars-unlimited-hmw-deck-pod/?attribute_pa_color_variations=darth-vader-grand-moff-tarkin",
-    "acquired": false
+    "acquired": false,
+    "setOrder": 202609
   }
 ]
