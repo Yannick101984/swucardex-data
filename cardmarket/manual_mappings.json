@@ -6849,14 +6849,6 @@
   },
   {
     "set_code": "SHD",
-    "en_name": "Rickety Quadjumper",
-    "card_number": 332,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
     "en_name": "Val, Loyal to the End",
     "card_number": 333,
     "variant_type": "Hyperspace",
@@ -6993,14 +6985,6 @@
   },
   {
     "set_code": "SHD",
-    "en_name": "Valiant Assault Ship",
-    "card_number": 420,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
     "en_name": "Poe Dameron, Quick to Improvise",
     "card_number": 422,
     "variant_type": "Hyperspace",
@@ -7051,6 +7035,14 @@
     "set_code": "SHD",
     "en_name": "L3-37, Droid Revolutionary",
     "card_number": 465,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
+    "en_name": "Liberated Slaves",
+    "card_number": 468,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -7115,14 +7107,6 @@
     "set_code": "SHD",
     "en_name": "No Bargain",
     "card_number": 507,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Grey Squadron Y-Wing",
-    "card_number": 508,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -7369,14 +7353,6 @@
   },
   {
     "set_code": "SOR",
-    "en_name": "Kanan Jarrus, Revealed Jedi",
-    "card_number": 313,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
     "en_name": "Repair",
     "card_number": 339,
     "variant_type": "Hyperspace Foil",
@@ -7417,14 +7393,6 @@
   },
   {
     "set_code": "SOR",
-    "en_name": "Imperial Interceptor",
-    "card_number": 396,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
     "en_name": "Ruthless Raider",
     "card_number": 398,
     "variant_type": "Hyperspace Foil",
@@ -7449,14 +7417,6 @@
   },
   {
     "set_code": "SOR",
-    "en_name": "Sabine Wren, Explosives Artist",
-    "card_number": 405,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
     "en_name": "Zeb Orrelios, Headstrong Warrior",
     "card_number": 409,
     "variant_type": "Hyperspace",
@@ -7467,6 +7427,14 @@
     "set_code": "SOR",
     "en_name": "Mace Windu, Party Crasher",
     "card_number": 412,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
+    "en_name": "Heroic Sacrifice",
+    "card_number": 413,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -7531,30 +7499,6 @@
     "set_code": "SOR",
     "en_name": "Sneak Attack",
     "card_number": 481,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "Don't Get Cocky",
-    "card_number": 485,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "TIE/ln Fighter",
-    "card_number": 487,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "TIE Advanced",
-    "card_number": 492,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -8035,14 +7979,6 @@
     "set_code": "TWI",
     "en_name": "Clone Cohort",
     "card_number": 436,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "Planetary Invasion",
-    "card_number": 444,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
