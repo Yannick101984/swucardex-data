@@ -5,12 +5,6 @@ on:
     # Chaque lundi à 8h UTC
     - cron: '0 8 * * 1'
   workflow_dispatch:
-    inputs:
-      branch:
-        description: 'Branche cible (main par défaut)'
-        required: false
-        default: 'main'
-        type: string
 
 jobs:
   sync:
@@ -18,13 +12,16 @@ jobs:
     permissions:
       contents: write
 
+    strategy:
+      fail-fast: false
+      matrix:
+        branch: [main, staging]
+
     steps:
-      - name: Checkout
+      - name: Checkout ${{ matrix.branch }}
         uses: actions/checkout@v4
         with:
-          # Toujours travailler sur main (données de référence).
-          # En workflow_dispatch, le champ "branch" permet de cibler staging pour tester.
-          ref: ${{ inputs.branch || 'main' }}
+          ref: ${{ matrix.branch }}
 
       - name: Setup Python 3.11
         uses: actions/setup-python@v5
@@ -35,6 +32,11 @@ jobs:
         run: pip install requests Pillow
 
       - name: Détecter et ajouter les nouveaux sets
+        env:
+          # GITHUB_REF_NAME vaut toujours la branche par défaut sur un trigger
+          # schedule, même si le checkout ci-dessus cible staging — on force la
+          # valeur pour que les dataURL générés référencent la bonne branche.
+          GITHUB_REF_NAME: ${{ matrix.branch }}
         run: python3 scripts/sync_sets.py --mode sync
 
       - name: Commit et push si changements
@@ -46,5 +48,5 @@ jobs:
             echo "Aucun nouveau set — rien à commiter."
           else
             git commit -m "Auto [sync]: nouveau(x) set(s) SWU ajouté(s) [$(date '+%Y-%m-%d')] [skip ci]"
-            git push
+            git push origin HEAD:${{ matrix.branch }}
           fi
