@@ -334,5 +334,75 @@
     "slug": "star-wars-unlimited-ash-zip-up-album18-pocket",
     "productGroup": "Zip-Up Album 18-Pocket",
     "category": "Album"
+  },
+  {
+    "setCode": "hmw",
+    "setName": "Homeworlds",
+    "slug": "star-wars-unlimited-hmw-cards-shuttle",
+    "productGroup": "Cards Shuttle",
+    "category": "Accessory"
+  },
+  {
+    "setCode": "hmw",
+    "setName": "Homeworlds",
+    "slug": "star-wars-unlimited-hmw-premium-cardport-xl-slipcase-ring-binder-18-pocket",
+    "productGroup": "Premium Cardport Slipcase Ring Binder – 18 Pocket",
+    "category": "Binder"
+  },
+  {
+    "setCode": "hmw",
+    "setName": "Homeworlds",
+    "slug": "star-wars-unlimited-hmw-game-mat",
+    "productGroup": "Game Mat",
+    "category": "Playmat"
+  },
+  {
+    "setCode": "hmw",
+    "setName": "Homeworlds",
+    "slug": "star-wars-unlimited-hmw-game-mat-xl",
+    "productGroup": "Game Mat XL",
+    "category": "Playmat"
+  },
+  {
+    "setCode": "hmw",
+    "setName": "Homeworlds",
+    "slug": "star-wars-unlimited-hmw-shiny-game-mat",
+    "productGroup": "Shiny Game Mat",
+    "category": "Playmat"
+  },
+  {
+    "setCode": "hmw",
+    "setName": "Homeworlds",
+    "slug": "star-wars-unlimited-hmw-double-sided-game-mat",
+    "productGroup": "Double-Sided Game Mat",
+    "category": "Playmat"
+  },
+  {
+    "setCode": "hmw",
+    "setName": "Homeworlds",
+    "slug": "star-wars-unlimited-hmw-premium-art-sleeves",
+    "productGroup": "Premium Art Sleeves",
+    "category": "Sleeves"
+  },
+  {
+    "setCode": "hmw",
+    "setName": "Homeworlds",
+    "slug": "star-wars-unlimited-hmw-zip-up-album18-pocket",
+    "productGroup": "Zip-Up Album 18-Pocket",
+    "category": "Album"
+  },
+  {
+    "setCode": "hmw",
+    "setName": "Homeworlds",
+    "slug": "star-wars-unlimited-hmw-soft-crate",
+    "productGroup": "Soft Crate",
+    "category": "Accessory"
+  },
+  {
+    "setCode": "hmw",
+    "setName": "Homeworlds",
+    "slug": "star-wars-unlimited-hmw-deck-pod",
+    "productGroup": "Deck Pod",
+    "category": "Deck Pod"
   }
 ]

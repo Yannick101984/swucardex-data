@@ -46,6 +46,7 @@ KNOWN_SETS: dict[str, str] = {
     "sec": "Secrets of Power",
     "law": "A Lawless Time",
     "ash": "Ashes of the Empire",
+    "hmw": "Homeworlds",
 }
 
 # Mots-clés dans le slug → catégorie (ordre important : plus spécifique en premier)
@@ -116,7 +117,7 @@ def fetch_all_swu_products_from_api() -> list[dict]:
     page = 1
     print("→ Phase 1 : Découverte des produits SWU sur gamegenic.com…")
     while True:
-        url = f"{STORE_API}?search=star+wars+unlimited&per_page=100&page={page}"
+        url = f"{STORE_API}?search=star&per_page=100&page={page}"
         data = fetch_with_fallback(url)
         if not data or not isinstance(data, list):
             break
@@ -154,11 +155,13 @@ def detect_category_from_slug(slug: str) -> str:
 
 def clean_product_name(raw_name: str, set_name: str) -> str:
     """Extrait le nom du groupe produit depuis le nom WooCommerce brut."""
+    raw_name = strip_html(raw_name)
     # Supprimer le préfixe "Star Wars: Unlimited – " ou similaire
     name = re.sub(r"(?i)star\s*wars[™\s]*:\s*unlimited\s*[-–—]*\s*", "", raw_name).strip()
     # Supprimer le nom du set s'il est en tête
     if set_name and name.upper().startswith(set_name.upper()):
         name = name[len(set_name):].strip("– -").strip()
+    name = name.title() if name.isupper() else name
     return name or raw_name
 
 
