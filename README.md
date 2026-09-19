@@ -36,31 +36,32 @@ swucardex-data/
 **`main`** est l'unique source de vérité pour la production (App Store) — c'est la branche
 que lisent les builds Release de l'app. **`staging`** est utilisée par les builds Debug
 (TestFlight interne / device de dev) pour tester des changements de **code** (scripts,
-workflows) avant de les valider sur `main`. `staging` n'a **jamais** vocation à porter de la
-donnée qui lui serait propre :
+workflows) avant de les valider sur `main`.
 
-- Les fichiers alimentés par des crons GitHub Actions (`sets/*.json`, `manifest.json`,
-  `news.json`, `announcements.json`, `cardmarket/*.json`, `prices/*.json`) ne sont générés
-  que sur `main` — les déclencheurs `schedule` de GitHub Actions ne s'exécutent que depuis la
-  branche par défaut, quel que soit le `ref` explicitement checkouté dans le job.
-- Exceptions historiques : `fetch_news.yml` et `fetch_gamegenic.yml` tournent en matrice sur
-  `[main, staging]` et poussent directement sur les deux branches. C'est sans risque (ce sont
-  des snapshots idempotents, pas des historiques cumulés), mais redondant : `staging` reçoit
-  quand même l'état de `main` via la promotion ci-dessous.
-- **`promote_staging.yml`** (déclenchement manuel, publication TestFlight/App Store) fusionne
-  `staging` → `main` avec `-X theirs` (le code de `staging` gagne), puis **restaure
-  explicitement la version de `main`** pour tous les fichiers de données listés ci-dessus. Ça
-  évite de rejouer l'incident du 2026-07-23 (86 jours d'historique de prix effacés par une
-  version figée de `staging` — voir swucardex-data#5).
+Tous les workflows qui génèrent de la donnée tournent en matrice `[main, staging]` et
+poussent indépendamment sur les deux branches (`fetch_news.yml`, `fetch_gamegenic.yml`,
+`fetch_price_guide.yml` + `generate_prices.yml`, `swu_sync_sets.yml`, `swu_compare_sets.yml`) :
+chaque branche exécute le même script contre la même source externe et commite son propre
+résultat. `staging` reste donc à jour automatiquement sans jamais dépendre d'une promotion —
+et le code (scripts/workflows) reste librement testable sur `staging` sans qu'un cron nocturne
+ne l'écrase, puisque seuls les fichiers de données sont touchés par ces jobs.
 
-En résumé : si tu veux tester un changement de script/workflow, fais-le sur `staging`, vérifie
-via `workflow_dispatch` (les workflows `swu_sync_sets.yml` / `swu_compare_sets.yml` acceptent
-un input `branch` pour cibler `staging` manuellement), puis promeus vers `main` une fois
-validé. Ne pousse jamais de donnée directement sur `staging` en espérant qu'elle survive à la
-prochaine promotion — elle sera écrasée par la version de `main`.
+Point d'attention pour les crons déclenchés par `schedule` : la variable `GITHUB_REF_NAME`
+vaut toujours la branche par défaut (`main`), même quand le job checkout `staging` via
+`ref: ${{ matrix.branch }}`. Le step qui appelle `scripts/sync_sets.py` force donc
+`GITHUB_REF_NAME` à `${{ matrix.branch }}` dans son `env:` pour que les `dataURL` générés dans
+`manifest.json` référencent la bonne branche sur chaque leg de la matrice.
 
-Si `staging` a dérivé de `main` (contenu différent alors qu'aucune promotion en cours), le
-resynchroniser entièrement plutôt que de merger :
+**`promote_staging.yml`** (déclenchement manuel, publication TestFlight/App Store) reste le
+mécanisme pour faire passer un changement de **code** de `staging` vers `main` : il fusionne
+`staging` → `main` avec `-X theirs` (le code de `staging` gagne), puis **restaure
+explicitement la version de `main`** pour tous les fichiers de données. Ça évite de rejouer
+l'incident du 2026-07-23 (86 jours d'historique de prix effacés par une version figée de
+`staging` — voir swucardex-data#5) dans le cas où les deux branches auraient malgré tout
+diverger sur la donnée (panne d'un cron, ajout manuel, etc.).
+
+Si `staging` dérive quand même de `main` (contenu différent en dehors d'un test de code en
+cours), le resynchroniser entièrement plutôt que de merger :
 
 ```bash
 git push origin main:refs/heads/staging --force

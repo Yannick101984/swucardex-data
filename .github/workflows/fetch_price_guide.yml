@@ -12,9 +12,16 @@ jobs:
       contents: write
       actions: write
 
+    strategy:
+      fail-fast: false
+      matrix:
+        branch: [main, staging]
+
     steps:
-      - name: Checkout repo
+      - name: Checkout ${{ matrix.branch }}
         uses: actions/checkout@v4
+        with:
+          ref: ${{ matrix.branch }}
 
       - name: Télécharger price_guide.json
         run: |
@@ -31,7 +38,7 @@ jobs:
           git add cardmarket/price_guide.json cardmarket/products_singles.json
           git diff --cached --quiet && echo "Aucun changement." || (
             git commit -m "Auto: catalogue + price_guide Cardmarket mis à jour [$(date '+%Y-%m-%d')]"
-            git push
+            git push origin HEAD:${{ matrix.branch }}
           )
 
       - name: Déclencher generate_prices.json
@@ -42,5 +49,5 @@ jobs:
               owner: context.repo.owner,
               repo: context.repo.repo,
               workflow_id: 'generate_prices.yml',
-              ref: 'main'
+              ref: '${{ matrix.branch }}'
             });
