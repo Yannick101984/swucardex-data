@@ -32,7 +32,7 @@ ANNOUNCEMENTS_PATH = os.path.join(_HERE, '..', 'announcements.json')
 
 # ─── Config ───────────────────────────────────────────────────────────────────
 REPO   = "Yannick101984/swucardex-data"
-BRANCH = os.environ.get("GITHUB_REF_NAME", "staging")
+BRANCH = os.environ.get("GITHUB_REF_NAME", "main")
 
 COMPARE_EXCLUDED = {'SOR', 'TWI', 'SHD'}
 
