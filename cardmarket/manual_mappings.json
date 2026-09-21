@@ -7353,6 +7353,14 @@
   },
   {
     "set_code": "SOR",
+    "en_name": "Rukh, Thrawn's Assassin",
+    "card_number": 349,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
     "en_name": "The Emperor's Legion",
     "card_number": 355,
     "variant_type": "Hyperspace",
@@ -7465,8 +7473,16 @@
   },
   {
     "set_code": "SOR",
-    "en_name": "Cunning",
-    "card_number": 465,
+    "en_name": "Chopper, Metal Menace",
+    "card_number": 451,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
+    "en_name": "Ezra Bridger, Resourceful Troublemaker",
+    "card_number": 454,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -7491,6 +7507,14 @@
     "set_code": "SOR",
     "en_name": "Sneak Attack",
     "card_number": 481,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
+    "en_name": "General Veers, Blizzard Force Commander",
+    "card_number": 491,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
