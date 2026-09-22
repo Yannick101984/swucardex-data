@@ -6699,6 +6699,14 @@
     "set_code": "SHD",
     "en_name": "The Mandalorian, Sworn To The Creed",
     "card_number": 2,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
+    "en_name": "The Mandalorian, Sworn To The Creed",
+    "card_number": 2,
     "variant_type": "Prerelease Judge",
     "idProduct": null,
     "note": ""
@@ -6921,14 +6929,6 @@
   },
   {
     "set_code": "SHD",
-    "en_name": "Collections Starhopper",
-    "card_number": 380,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
     "en_name": "Privateer Crew",
     "card_number": 382,
     "variant_type": "Hyperspace",
@@ -7067,14 +7067,6 @@
     "set_code": "SHD",
     "en_name": "Wanted",
     "card_number": 489,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Bounty Posting",
-    "card_number": 495,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -7371,6 +7363,14 @@
     "set_code": "SOR",
     "en_name": "Admiral Ackbar, Brilliant Strategist",
     "card_number": 361,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
+    "en_name": "General Krell, Heartless Tactician",
+    "card_number": 369,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
