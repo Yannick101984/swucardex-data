@@ -6817,8 +6817,8 @@
   },
   {
     "set_code": "SHD",
-    "en_name": "Lando Calrissian, With Impeccable Taste",
-    "card_number": 296,
+    "en_name": "Doctor Pershing, Experimenting With Life",
+    "card_number": 306,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -6889,14 +6889,6 @@
   },
   {
     "set_code": "SHD",
-    "en_name": "Crosshair, Following Orders",
-    "card_number": 356,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
     "en_name": "Palpatine's Return",
     "card_number": 363,
     "variant_type": "Hyperspace",
@@ -6923,6 +6915,14 @@
     "set_code": "SHD",
     "en_name": "Rule with Respect",
     "card_number": 375,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
+    "en_name": "Enforced Loyalty",
+    "card_number": 377,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -7067,14 +7067,6 @@
     "set_code": "SHD",
     "en_name": "Wanted",
     "card_number": 489,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Swoop Down",
-    "card_number": 497,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -7817,16 +7809,16 @@
   },
   {
     "set_code": "TWI",
-    "en_name": "41st Elite Corps",
-    "card_number": 318,
+    "en_name": "Satine Kryze, Committed to Peace",
+    "card_number": 320,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
   },
   {
     "set_code": "TWI",
-    "en_name": "Satine Kryze, Committed to Peace",
-    "card_number": 320,
+    "en_name": "For The Republic",
+    "card_number": 324,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -7897,14 +7889,6 @@
   },
   {
     "set_code": "TWI",
-    "en_name": "Advanced Recon Commando",
-    "card_number": 365,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
     "en_name": "Mas Amedda, Vice Chair",
     "card_number": 372,
     "variant_type": "Hyperspace",
@@ -7929,8 +7913,8 @@
   },
   {
     "set_code": "TWI",
-    "en_name": "Baktoid Spider Droid",
-    "card_number": 387,
+    "en_name": "Subjugating Starfighter",
+    "card_number": 382,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -7961,22 +7945,6 @@
   },
   {
     "set_code": "TWI",
-    "en_name": "Clone Heavy Gunner",
-    "card_number": 425,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "Dendup's Loyalist",
-    "card_number": 426,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
     "en_name": "Bold Recon Commando",
     "card_number": 428,
     "variant_type": "Hyperspace",
@@ -7993,30 +7961,6 @@
   },
   {
     "set_code": "TWI",
-    "en_name": "Clone Cohort",
-    "card_number": 436,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "Tactical Droid Commander",
-    "card_number": 449,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "Cad Bane, Hostage Taker",
-    "card_number": 452,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
     "en_name": "Enfys Nest, Champion of Justice",
     "card_number": 463,
     "variant_type": "Hyperspace",
@@ -8025,8 +7969,8 @@
   },
   {
     "set_code": "TWI",
-    "en_name": "Creative Thinking",
-    "card_number": 465,
+    "en_name": "Clear the Field",
+    "card_number": 464,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -8051,22 +7995,6 @@
     "set_code": "TWI",
     "en_name": "B1 Security Team",
     "card_number": 472,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "Lux Bonteri, Renegade Separatist",
-    "card_number": 475,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "Sanctioner's Shuttle",
-    "card_number": 478,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
