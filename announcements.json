@@ -1,5 +1,20 @@
 [
   {
+    "id": "ann-1790464037",
+    "title": "Nouveau set ajouté : Mondes Natals Weekly Play - HMWP",
+    "detail": null,
+    "color": "#7C3AED",
+    "url": null,
+    "imageURL": null,
+    "date": "2026-09-26",
+    "changes": {
+      "added": [
+        "HMWP"
+      ],
+      "updated": null
+    }
+  },
+  {
     "id": "ann-v1.4.0-update",
     "title": "v1.4.0 disponible ! Nouveau scanner OCR, recherche avancée et import de deck via QR code.",
     "detail": null,
