@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "lastUpdated": "2026-09-18",
+  "lastUpdated": "2026-09-26",
   "latestMainSet": "hmw",
   "announcement": {
     "id": "ann-1781021226",
@@ -359,6 +359,19 @@
       "logoURL": "https://cdn.starwarsunlimited.com//medium_Homeworlds_Logo_FR_ad5853f414.png",
       "artworkURL": "https://cdn.starwarsunlimited.com//large_SWH_09_HMW_Key_Art_2f48009949.png",
       "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/hmw.json"
+    },
+    {
+      "id": "hmwp",
+      "dataVersion": 1,
+      "code": "HMWP",
+      "name": "Mondes Natals Weekly Play",
+      "type": "special",
+      "order": 19,
+      "color": "#888888",
+      "foilShared": false,
+      "logoURL": null,
+      "artworkURL": null,
+      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/hmwp.json"
     }
   ]
 }

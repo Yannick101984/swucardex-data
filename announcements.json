@@ -1,5 +1,20 @@
 [
   {
+    "id": "ann-1790464038",
+    "title": "Nouveau set ajouté : Mondes Natals Weekly Play - HMWP",
+    "detail": null,
+    "color": "#7C3AED",
+    "url": null,
+    "imageURL": null,
+    "date": "2026-09-26",
+    "changes": {
+      "added": [
+        "HMWP"
+      ],
+      "updated": null
+    }
+  },
+  {
     "id": "ann-1789625276",
     "title": "Nouveaux sets ajoutés : CST, HMW",
     "detail": null,
