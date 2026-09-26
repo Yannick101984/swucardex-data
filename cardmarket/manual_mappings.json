@@ -6897,14 +6897,6 @@
   },
   {
     "set_code": "SHD",
-    "en_name": "Adelphi Patrol Wing",
-    "card_number": 370,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
     "en_name": "Rule with Respect",
     "card_number": 375,
     "variant_type": "Hyperspace",
@@ -7761,14 +7753,6 @@
   },
   {
     "set_code": "TWI",
-    "en_name": "Calculating MagnaGuard",
-    "card_number": 306,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
     "en_name": "Droideka Security",
     "card_number": 310,
     "variant_type": "Hyperspace",
@@ -7931,14 +7915,6 @@
     "set_code": "TWI",
     "en_name": "Bold Recon Commando",
     "card_number": 428,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "Heavy Persuader Tank",
-    "card_number": 434,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
