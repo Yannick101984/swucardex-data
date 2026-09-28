@@ -7177,14 +7177,6 @@
   },
   {
     "set_code": "SHD",
-    "en_name": "Unexpected Escape",
-    "card_number": 349,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
     "en_name": "Fell the Dragon",
     "card_number": 351,
     "variant_type": "Hyperspace",
@@ -7243,14 +7235,6 @@
     "set_code": "SHD",
     "en_name": "Scanning Officer",
     "card_number": 383,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Legal Authority",
-    "card_number": 393,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -7323,6 +7307,14 @@
     "set_code": "SHD",
     "en_name": "Liberated Slaves",
     "card_number": 468,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
+    "en_name": "Spare the Target",
+    "card_number": 474,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -7651,6 +7643,14 @@
     "set_code": "SOR",
     "en_name": "Hardpoint Heavy Blaster",
     "card_number": 385,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
+    "en_name": "Strike True",
+    "card_number": 391,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
