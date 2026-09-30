@@ -7145,6 +7145,14 @@
   },
   {
     "set_code": "SHD",
+    "en_name": "Chewbacca, Pykesbane",
+    "card_number": 325,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
     "en_name": "Mystic Reflection",
     "card_number": 326,
     "variant_type": "Hyperspace",
@@ -7195,6 +7203,14 @@
     "set_code": "SHD",
     "en_name": "Palpatine's Return",
     "card_number": 363,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
+    "en_name": "Freetown Backup",
+    "card_number": 366,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -7281,14 +7297,6 @@
   },
   {
     "set_code": "SHD",
-    "en_name": "Pillage",
-    "card_number": 450,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
     "en_name": "Zuckuss, Bounty Hunter for Hire",
     "card_number": 459,
     "variant_type": "Hyperspace",
@@ -7329,6 +7337,14 @@
   },
   {
     "set_code": "SHD",
+    "en_name": "Smuggler's Starfighter",
+    "card_number": 483,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
     "en_name": "Tobias Beckett, I Trust No One",
     "card_number": 485,
     "variant_type": "Hyperspace",
@@ -7361,8 +7377,24 @@
   },
   {
     "set_code": "SHD",
+    "en_name": "Tech, Source of Insight",
+    "card_number": 510,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
     "en_name": "Mercenary Gunship",
     "card_number": 517,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
+    "en_name": "Street Gang Recruiter",
+    "card_number": 521,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -8107,14 +8139,6 @@
     "set_code": "TWI",
     "en_name": "The Invasion of Christophsis",
     "card_number": 351,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "MagnaGuard Wing Leader",
-    "card_number": 355,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
