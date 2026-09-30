@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "lastUpdated": "2026-09-26",
+  "lastUpdated": "2026-09-30",
   "latestMainSet": "hmw",
   "announcement": {
     "id": "ann-1781021226",
@@ -232,7 +232,7 @@
     },
     {
       "id": "p26",
-      "dataVersion": 5,
+      "dataVersion": 6,
       "code": "P26",
       "name": "2026 Promo",
       "type": "promo",
@@ -349,7 +349,7 @@
     },
     {
       "id": "hmw",
-      "dataVersion": 2,
+      "dataVersion": 3,
       "code": "HMW",
       "name": "Mondes Natals",
       "type": "main",
