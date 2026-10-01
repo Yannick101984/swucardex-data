@@ -9,22 +9,24 @@
       "Subtitle": "Capitaine De L'Executor",
       "type": "Unit",
       "VariantType": "Hyperspace",
-      "Rarity": "Uncommon",
+      "Rarity": "Peu Commune",
       "Cost": "2",
       "Power": "1",
       "HP": "4",
       "Aspects": [
         "Commandement",
-        "Infâmie"
+        "InfÃ¢mie"
       ],
       "Traits": [
-        "Impérial",
+        "ImpÃ©rial",
         "Officiel"
       ],
       "Arenas": [
         "Ground"
       ],
-      "isMainCard": false
+      "isMainCard": false,
+      "Artist": "Denis Medri",
+      "FrontText": "Chaque unité non-leader amie qui coûte 6 ou plus gagne Embuscade. (Après que vous avez joué cette unité, elle peut se redresser et attaquer une unité ennemie.)"
     }
   ]
 }
