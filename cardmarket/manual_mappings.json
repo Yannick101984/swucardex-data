@@ -6400,6 +6400,1302 @@
     "note": ""
   },
   {
+    "set_code": "HMW",
+    "en_name": "Asajj Ventress, No Time For Regret",
+    "card_number": 783,
+    "variant_type": "Showcase",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Maz Kanata, Eclectic Pirate Queen",
+    "card_number": 784,
+    "variant_type": "Showcase",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Doctor Hemlock, Emotion Has No Place Here",
+    "card_number": 785,
+    "variant_type": "Showcase",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Grand Moff Tarkin, Tyrant of the Outer Rim",
+    "card_number": 786,
+    "variant_type": "Showcase",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Jar Jar Binks, Bombad General",
+    "card_number": 787,
+    "variant_type": "Showcase",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Omega, Close Your Eyes and Focus",
+    "card_number": 788,
+    "variant_type": "Showcase",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Darth Vader, Might of the Empire",
+    "card_number": 789,
+    "variant_type": "Showcase",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "General Grievous, Separatist Warlord",
+    "card_number": 790,
+    "variant_type": "Showcase",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Chewbacca, Relentless Rebel",
+    "card_number": 791,
+    "variant_type": "Showcase",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Tarfful, Fighting from the Shadowlands",
+    "card_number": 792,
+    "variant_type": "Showcase",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Darth Sidious, There Is No Mercy",
+    "card_number": 793,
+    "variant_type": "Showcase",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Poggle the Lesser, Let the Executions Begin",
+    "card_number": 794,
+    "variant_type": "Showcase",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Cham Syndulla, Hammer of Ryloth",
+    "card_number": 795,
+    "variant_type": "Showcase",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Wicket, Few Greater Battles to Fight",
+    "card_number": 796,
+    "variant_type": "Showcase",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Bossk, Cruel Hunter",
+    "card_number": 797,
+    "variant_type": "Showcase",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Maul, Old Master",
+    "card_number": 798,
+    "variant_type": "Showcase",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Osha, Haunted By Her Past",
+    "card_number": 799,
+    "variant_type": "Showcase",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "The Warrior, Deft Duelist",
+    "card_number": 800,
+    "variant_type": "Showcase",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Logray, Bright Tree Shaman",
+    "card_number": 801,
+    "variant_type": "Standard Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Krrsantan, Santo",
+    "card_number": 802,
+    "variant_type": "Standard Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "A'Koba, Restless Raider",
+    "card_number": 803,
+    "variant_type": "Standard Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Scorch, Imperial Commando",
+    "card_number": 804,
+    "variant_type": "Standard Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Peppi Bow, Shaak Herder",
+    "card_number": 805,
+    "variant_type": "Standard Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Yanna, Sanctuary Elder",
+    "card_number": 806,
+    "variant_type": "Standard Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Boss Nass, Otoh Gunga Boss",
+    "card_number": 807,
+    "variant_type": "Standard Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Fambaa Shield Team",
+    "card_number": 808,
+    "variant_type": "Standard Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Garnac, Let the Hunt Begin!",
+    "card_number": 809,
+    "variant_type": "Standard Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "The First Legion, Vader's Fist",
+    "card_number": 810,
+    "variant_type": "Standard Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Chewbacca, Resourceful Wookiee",
+    "card_number": 811,
+    "variant_type": "Standard Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Boga, Loyal Varactyl",
+    "card_number": 812,
+    "variant_type": "Standard Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "King Grakchawwaa, King of Kashyyyk",
+    "card_number": 813,
+    "variant_type": "Standard Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Babwa Venomor, Burning Kashyyyk",
+    "card_number": 814,
+    "variant_type": "Standard Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Arena Acklay, Screaming Predator",
+    "card_number": 815,
+    "variant_type": "Standard Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "General Grievous, Scourge of Dathomir",
+    "card_number": 816,
+    "variant_type": "Standard Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Teebo, Striped Hunter",
+    "card_number": 817,
+    "variant_type": "Standard Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Chief Chirpa, Defiant Elder",
+    "card_number": 818,
+    "variant_type": "Standard Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Gungi, Fighting for Kashyyyk",
+    "card_number": 819,
+    "variant_type": "Standard Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "The Chieftain, Here Since the Oceans Dried",
+    "card_number": 820,
+    "variant_type": "Standard Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Captain Tarpals, Grand Army Captain",
+    "card_number": 821,
+    "variant_type": "Standard Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Keeper of Skara Nal, Awoken",
+    "card_number": 822,
+    "variant_type": "Standard Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Greater Sarlacc",
+    "card_number": 823,
+    "variant_type": "Standard Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Clone of the Zillo Beast, Emperor's Experiment",
+    "card_number": 824,
+    "variant_type": "Standard Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "The Great Progenitor, First of the Drengir",
+    "card_number": 825,
+    "variant_type": "Standard Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Sando Aqua Monster",
+    "card_number": 826,
+    "variant_type": "Standard Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Invasion Lander",
+    "card_number": 827,
+    "variant_type": "Standard Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Origin Tree Shyyyo",
+    "card_number": 828,
+    "variant_type": "Standard Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Battle-Scarred Destroyer",
+    "card_number": 829,
+    "variant_type": "Standard Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Dathomiri Rancor",
+    "card_number": 830,
+    "variant_type": "Standard Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Giant Gorax",
+    "card_number": 831,
+    "variant_type": "Standard Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Awakened Exogorth",
+    "card_number": 832,
+    "variant_type": "Standard Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Ritual Dragon",
+    "card_number": 833,
+    "variant_type": "Standard Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Third Sister, Cycle of Vengeance",
+    "card_number": 834,
+    "variant_type": "Standard Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Mae, Kill the Dream",
+    "card_number": 835,
+    "variant_type": "Standard Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Emperor Palpatine, Consolidating Power",
+    "card_number": 836,
+    "variant_type": "Standard Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Qui-Gon Jinn, We'll Handle This",
+    "card_number": 837,
+    "variant_type": "Standard Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Luminara Unduli, Besieged General",
+    "card_number": 838,
+    "variant_type": "Standard Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Sol, Compassionate Guardian",
+    "card_number": 839,
+    "variant_type": "Standard Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Mother Talzin, Pledged to the Sisterhood",
+    "card_number": 840,
+    "variant_type": "Standard Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Vernestra Rwoh, We Should Handle This Ourselves",
+    "card_number": 841,
+    "variant_type": "Standard Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Maul, Only Revenge Remains",
+    "card_number": 842,
+    "variant_type": "Standard Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Fett's Firespray, Settling the Score",
+    "card_number": 843,
+    "variant_type": "Standard Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Yord Fandar, Devoutly Disciplined",
+    "card_number": 844,
+    "variant_type": "Standard Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Saw Gerrera, Shadowlands Insurgent",
+    "card_number": 845,
+    "variant_type": "Standard Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Qimir, Everyone Has a Weakness",
+    "card_number": 846,
+    "variant_type": "Standard Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Luke Skywalker, Dreaming Farmboy",
+    "card_number": 847,
+    "variant_type": "Standard Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Queen Amidala, Retaking Theed",
+    "card_number": 848,
+    "variant_type": "Standard Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Logray, Bright Tree Shaman",
+    "card_number": 849,
+    "variant_type": "Foil Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Krrsantan, Santo",
+    "card_number": 850,
+    "variant_type": "Foil Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "A'Koba, Restless Raider",
+    "card_number": 851,
+    "variant_type": "Foil Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Scorch, Imperial Commando",
+    "card_number": 852,
+    "variant_type": "Foil Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Peppi Bow, Shaak Herder",
+    "card_number": 853,
+    "variant_type": "Foil Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Yanna, Sanctuary Elder",
+    "card_number": 854,
+    "variant_type": "Foil Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Boss Nass, Otoh Gunga Boss",
+    "card_number": 855,
+    "variant_type": "Foil Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Fambaa Shield Team",
+    "card_number": 856,
+    "variant_type": "Foil Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Garnac, Let the Hunt Begin!",
+    "card_number": 857,
+    "variant_type": "Foil Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "The First Legion, Vader's Fist",
+    "card_number": 858,
+    "variant_type": "Foil Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Chewbacca, Resourceful Wookiee",
+    "card_number": 859,
+    "variant_type": "Foil Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Boga, Loyal Varactyl",
+    "card_number": 860,
+    "variant_type": "Foil Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "King Grakchawwaa, King of Kashyyyk",
+    "card_number": 861,
+    "variant_type": "Foil Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Babwa Venomor, Burning Kashyyyk",
+    "card_number": 862,
+    "variant_type": "Foil Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Arena Acklay, Screaming Predator",
+    "card_number": 863,
+    "variant_type": "Foil Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "General Grievous, Scourge of Dathomir",
+    "card_number": 864,
+    "variant_type": "Foil Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Teebo, Striped Hunter",
+    "card_number": 865,
+    "variant_type": "Foil Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Chief Chirpa, Defiant Elder",
+    "card_number": 866,
+    "variant_type": "Foil Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Gungi, Fighting for Kashyyyk",
+    "card_number": 867,
+    "variant_type": "Foil Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "The Chieftain, Here Since the Oceans Dried",
+    "card_number": 868,
+    "variant_type": "Foil Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Captain Tarpals, Grand Army Captain",
+    "card_number": 869,
+    "variant_type": "Foil Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Keeper of Skara Nal, Awoken",
+    "card_number": 870,
+    "variant_type": "Foil Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Greater Sarlacc",
+    "card_number": 871,
+    "variant_type": "Foil Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Clone of the Zillo Beast, Emperor's Experiment",
+    "card_number": 872,
+    "variant_type": "Foil Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "The Great Progenitor, First of the Drengir",
+    "card_number": 873,
+    "variant_type": "Foil Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Sando Aqua Monster",
+    "card_number": 874,
+    "variant_type": "Foil Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Invasion Lander",
+    "card_number": 875,
+    "variant_type": "Foil Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Origin Tree Shyyyo",
+    "card_number": 876,
+    "variant_type": "Foil Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Battle-Scarred Destroyer",
+    "card_number": 877,
+    "variant_type": "Foil Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Dathomiri Rancor",
+    "card_number": 878,
+    "variant_type": "Foil Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Giant Gorax",
+    "card_number": 879,
+    "variant_type": "Foil Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Awakened Exogorth",
+    "card_number": 880,
+    "variant_type": "Foil Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Ritual Dragon",
+    "card_number": 881,
+    "variant_type": "Foil Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Third Sister, Cycle of Vengeance",
+    "card_number": 882,
+    "variant_type": "Foil Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Mae, Kill the Dream",
+    "card_number": 883,
+    "variant_type": "Foil Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Emperor Palpatine, Consolidating Power",
+    "card_number": 884,
+    "variant_type": "Foil Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Qui-Gon Jinn, We'll Handle This",
+    "card_number": 885,
+    "variant_type": "Foil Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Luminara Unduli, Besieged General",
+    "card_number": 886,
+    "variant_type": "Foil Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Sol, Compassionate Guardian",
+    "card_number": 887,
+    "variant_type": "Foil Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Mother Talzin, Pledged to the Sisterhood",
+    "card_number": 888,
+    "variant_type": "Foil Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Vernestra Rwoh, We Should Handle This Ourselves",
+    "card_number": 889,
+    "variant_type": "Foil Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Maul, Only Revenge Remains",
+    "card_number": 890,
+    "variant_type": "Foil Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Fett's Firespray, Settling the Score",
+    "card_number": 891,
+    "variant_type": "Foil Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Yord Fandar, Devoutly Disciplined",
+    "card_number": 892,
+    "variant_type": "Foil Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Saw Gerrera, Shadowlands Insurgent",
+    "card_number": 893,
+    "variant_type": "Foil Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Qimir, Everyone Has a Weakness",
+    "card_number": 894,
+    "variant_type": "Foil Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Luke Skywalker, Dreaming Farmboy",
+    "card_number": 895,
+    "variant_type": "Foil Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Queen Amidala, Retaking Theed",
+    "card_number": 896,
+    "variant_type": "Foil Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Logray, Bright Tree Shaman",
+    "card_number": 897,
+    "variant_type": "Serialized Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Krrsantan, Santo",
+    "card_number": 898,
+    "variant_type": "Serialized Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "A'Koba, Restless Raider",
+    "card_number": 899,
+    "variant_type": "Serialized Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Scorch, Imperial Commando",
+    "card_number": 900,
+    "variant_type": "Serialized Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Peppi Bow, Shaak Herder",
+    "card_number": 901,
+    "variant_type": "Serialized Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Yanna, Sanctuary Elder",
+    "card_number": 902,
+    "variant_type": "Serialized Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Boss Nass, Otoh Gunga Boss",
+    "card_number": 903,
+    "variant_type": "Serialized Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Fambaa Shield Team",
+    "card_number": 904,
+    "variant_type": "Serialized Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Garnac, Let the Hunt Begin!",
+    "card_number": 905,
+    "variant_type": "Serialized Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "The First Legion, Vader's Fist",
+    "card_number": 906,
+    "variant_type": "Serialized Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Chewbacca, Resourceful Wookiee",
+    "card_number": 907,
+    "variant_type": "Serialized Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Boga, Loyal Varactyl",
+    "card_number": 908,
+    "variant_type": "Serialized Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "King Grakchawwaa, King of Kashyyyk",
+    "card_number": 909,
+    "variant_type": "Serialized Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Babwa Venomor, Burning Kashyyyk",
+    "card_number": 910,
+    "variant_type": "Serialized Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Arena Acklay, Screaming Predator",
+    "card_number": 911,
+    "variant_type": "Serialized Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "General Grievous, Scourge of Dathomir",
+    "card_number": 912,
+    "variant_type": "Serialized Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Teebo, Striped Hunter",
+    "card_number": 913,
+    "variant_type": "Serialized Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Chief Chirpa, Defiant Elder",
+    "card_number": 914,
+    "variant_type": "Serialized Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Gungi, Fighting for Kashyyyk",
+    "card_number": 915,
+    "variant_type": "Serialized Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "The Chieftain, Here Since the Oceans Dried",
+    "card_number": 916,
+    "variant_type": "Serialized Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Captain Tarpals, Grand Army Captain",
+    "card_number": 917,
+    "variant_type": "Serialized Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Keeper of Skara Nal, Awoken",
+    "card_number": 918,
+    "variant_type": "Serialized Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Greater Sarlacc",
+    "card_number": 919,
+    "variant_type": "Serialized Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Clone of the Zillo Beast, Emperor's Experiment",
+    "card_number": 920,
+    "variant_type": "Serialized Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "The Great Progenitor, First of the Drengir",
+    "card_number": 921,
+    "variant_type": "Serialized Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Sando Aqua Monster",
+    "card_number": 922,
+    "variant_type": "Serialized Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Invasion Lander",
+    "card_number": 923,
+    "variant_type": "Serialized Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Origin Tree Shyyyo",
+    "card_number": 924,
+    "variant_type": "Serialized Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Battle-Scarred Destroyer",
+    "card_number": 925,
+    "variant_type": "Serialized Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Dathomiri Rancor",
+    "card_number": 926,
+    "variant_type": "Serialized Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Giant Gorax",
+    "card_number": 927,
+    "variant_type": "Serialized Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Awakened Exogorth",
+    "card_number": 928,
+    "variant_type": "Serialized Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Ritual Dragon",
+    "card_number": 929,
+    "variant_type": "Serialized Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Third Sister, Cycle of Vengeance",
+    "card_number": 930,
+    "variant_type": "Serialized Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Mae, Kill the Dream",
+    "card_number": 931,
+    "variant_type": "Serialized Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Emperor Palpatine, Consolidating Power",
+    "card_number": 932,
+    "variant_type": "Serialized Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Qui-Gon Jinn, We'll Handle This",
+    "card_number": 933,
+    "variant_type": "Serialized Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Luminara Unduli, Besieged General",
+    "card_number": 934,
+    "variant_type": "Serialized Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Sol, Compassionate Guardian",
+    "card_number": 935,
+    "variant_type": "Serialized Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Mother Talzin, Pledged to the Sisterhood",
+    "card_number": 936,
+    "variant_type": "Serialized Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Vernestra Rwoh, We Should Handle This Ourselves",
+    "card_number": 937,
+    "variant_type": "Serialized Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Maul, Only Revenge Remains",
+    "card_number": 938,
+    "variant_type": "Serialized Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Fett's Firespray, Settling the Score",
+    "card_number": 939,
+    "variant_type": "Serialized Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Yord Fandar, Devoutly Disciplined",
+    "card_number": 940,
+    "variant_type": "Serialized Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Saw Gerrera, Shadowlands Insurgent",
+    "card_number": 941,
+    "variant_type": "Serialized Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Qimir, Everyone Has a Weakness",
+    "card_number": 942,
+    "variant_type": "Serialized Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Luke Skywalker, Dreaming Farmboy",
+    "card_number": 943,
+    "variant_type": "Serialized Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "HMW",
+    "en_name": "Queen Amidala, Retaking Theed",
+    "card_number": 944,
+    "variant_type": "Serialized Prestige",
+    "idProduct": null,
+    "note": ""
+  },
+  {
     "set_code": "HMWP",
     "en_name": "Eravana, Hauling Rathtars",
     "card_number": 1,
@@ -6884,6 +8180,102 @@
     "en_name": "Razor Crest, Outfitted Armament",
     "card_number": 2,
     "variant_type": "Movie Promo",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "P26",
+    "en_name": "Mace Windu, Austere Centrist",
+    "card_number": 26,
+    "variant_type": "SS Participation",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "P26",
+    "en_name": "Mace Windu, Austere Centrist",
+    "card_number": 27,
+    "variant_type": "SS Judge",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "P26",
+    "en_name": "Emperor Palpatine, Consolidating Power",
+    "card_number": 28,
+    "variant_type": "SS Top 8",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "P26",
+    "en_name": "Emperor Palpatine, Consolidating Power",
+    "card_number": 29,
+    "variant_type": "SS Top 4",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "P26",
+    "en_name": "Emperor Palpatine, Consolidating Power",
+    "card_number": 30,
+    "variant_type": "SS Finalist",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "P26",
+    "en_name": "Emperor Palpatine, Consolidating Power",
+    "card_number": 31,
+    "variant_type": "SS Champion",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "P26",
+    "en_name": "Fett's Firespray, Settling the Score",
+    "card_number": 32,
+    "variant_type": "PQ Participation",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "P26",
+    "en_name": "Fett's Firespray, Settling the Score",
+    "card_number": 33,
+    "variant_type": "PQ Judge",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "P26",
+    "en_name": "Qui-Gon Jinn, We'll Handle This",
+    "card_number": 34,
+    "variant_type": "PQ Top 8",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "P26",
+    "en_name": "Qui-Gon Jinn, We'll Handle This",
+    "card_number": 35,
+    "variant_type": "PQ Top 4",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "P26",
+    "en_name": "Qui-Gon Jinn, We'll Handle This",
+    "card_number": 36,
+    "variant_type": "PQ Finalist",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "P26",
+    "en_name": "Qui-Gon Jinn, We'll Handle This",
+    "card_number": 37,
+    "variant_type": "PQ Champion",
     "idProduct": null,
     "note": ""
   },
