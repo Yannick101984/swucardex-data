@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "patches": [],
+  "additions": [
+    {
+      "Set": "SOR",
+      "Number": "344",
+      "Name": "Amiral Piett",
+      "Subtitle": "Capitaine De L'Executor",
+      "type": "Unit",
+      "VariantType": "Hyperspace",
+      "Rarity": "Uncommon",
+      "Cost": "2",
+      "Power": "1",
+      "HP": "4",
+      "Aspects": [
+        "Commandement",
+        "Infâmie"
+      ],
+      "Traits": [
+        "Impérial",
+        "Officiel"
+      ],
+      "Arenas": [
+        "Ground"
+      ],
+      "isMainCard": false
+    }
+  ]
+}
