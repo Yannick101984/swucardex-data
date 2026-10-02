@@ -1673,654 +1673,6 @@
   },
   {
     "set_code": "HMW",
-    "en_name": "Volley Fire",
-    "card_number": 192,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMW",
-    "en_name": "Nightfall",
-    "card_number": 193,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMW",
-    "en_name": "Run Amok",
-    "card_number": 194,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMW",
-    "en_name": "Catch the Scent",
-    "card_number": 195,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMW",
-    "en_name": "Qimir, Everyone Has a Weakness",
-    "card_number": 196,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMW",
-    "en_name": "Cid Scaleback, Can't Be Trusted",
-    "card_number": 197,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMW",
-    "en_name": "Treacherous Pyke",
-    "card_number": 198,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMW",
-    "en_name": "Geonosian Picador",
-    "card_number": 199,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMW",
-    "en_name": "Rish Loo, Traitorous Minister",
-    "card_number": 200,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMW",
-    "en_name": "Sandtrooper Squad",
-    "card_number": 201,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMW",
-    "en_name": "Inferno Squad, We Can Grieve Later",
-    "card_number": 202,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMW",
-    "en_name": "Victor Squadron, In Attack Formation",
-    "card_number": 203,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMW",
-    "en_name": "Nightbrother, Maul's Gauntlet",
-    "card_number": 204,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMW",
-    "en_name": "Intelligence Agency",
-    "card_number": 205,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMW",
-    "en_name": "The Tarkin Doctrine, Protect and Punish",
-    "card_number": 206,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMW",
-    "en_name": "Maim",
-    "card_number": 207,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMW",
-    "en_name": "Luke Skywalker, Dreaming Farmboy",
-    "card_number": 208,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMW",
-    "en_name": "Corona Squadron X-Wing",
-    "card_number": 209,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMW",
-    "en_name": "Sol, Compassionate Guardian",
-    "card_number": 210,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMW",
-    "en_name": "Tech, I Thought It Was Obvious",
-    "card_number": 211,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMW",
-    "en_name": "The Chieftain, Here Since the Oceans Dried",
-    "card_number": 212,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMW",
-    "en_name": "Tribubble Bongo Sub",
-    "card_number": 213,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMW",
-    "en_name": "Phee Genoa, Liberator of Ancient Wonders",
-    "card_number": 214,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMW",
-    "en_name": "L3-37, We're Programmed to Learn",
-    "card_number": 215,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMW",
-    "en_name": "Insurgent Camp",
-    "card_number": 216,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMW",
-    "en_name": "Don't Touch Anything",
-    "card_number": 217,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMW",
-    "en_name": "New Tactics",
-    "card_number": 218,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMW",
-    "en_name": "Jaxxon, I Can Hear You Breathing!",
-    "card_number": 219,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMW",
-    "en_name": "Clever Trapper",
-    "card_number": 220,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMW",
-    "en_name": "Teeka, You're in Luck",
-    "card_number": 221,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMW",
-    "en_name": "Sandcrawler Sales Team",
-    "card_number": 222,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMW",
-    "en_name": "Therm Scissorpunch, Boastful Gambler",
-    "card_number": 223,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMW",
-    "en_name": "Tusken Raider",
-    "card_number": 224,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMW",
-    "en_name": "Boba Fett, Family Found",
-    "card_number": 225,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMW",
-    "en_name": "Gungan Battle Wagon",
-    "card_number": 226,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMW",
-    "en_name": "Horizon Chaser",
-    "card_number": 227,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMW",
-    "en_name": "Lakeside Shaaks",
-    "card_number": 228,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMW",
-    "en_name": "Lurking Wampa",
-    "card_number": 229,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMW",
-    "en_name": "Raiding Party",
-    "card_number": 230,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMW",
-    "en_name": "Dragonboat Freighter",
-    "card_number": 231,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMW",
-    "en_name": "Mon Cal Cruiser",
-    "card_number": 232,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMW",
-    "en_name": "Awakened Exogorth",
-    "card_number": 233,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMW",
-    "en_name": "Ritual Dragon",
-    "card_number": 234,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMW",
-    "en_name": "Gaderffii Stick",
-    "card_number": 235,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMW",
-    "en_name": "Booma Ball",
-    "card_number": 236,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMW",
-    "en_name": "Easy Prey",
-    "card_number": 237,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMW",
-    "en_name": "Exploit Confidence",
-    "card_number": 238,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMW",
-    "en_name": "Pounce",
-    "card_number": 239,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMW",
-    "en_name": "Sandstorm",
-    "card_number": 240,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMW",
-    "en_name": "Howl",
-    "card_number": 241,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMW",
-    "en_name": "Occupation Officer",
-    "card_number": 242,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMW",
-    "en_name": "Sun Fac, Poggle's Second",
-    "card_number": 243,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMW",
-    "en_name": "Separatist Harbinger",
-    "card_number": 244,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMW",
-    "en_name": "Trandoshan Collaborator",
-    "card_number": 245,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMW",
-    "en_name": "Pyke Sarisa",
-    "card_number": 246,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMW",
-    "en_name": "Surveillance Cruiser",
-    "card_number": 247,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMW",
-    "en_name": "Defoliator Tank",
-    "card_number": 248,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMW",
-    "en_name": "Frenzied Tri-Fighters",
-    "card_number": 249,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMW",
-    "en_name": "Imperial Cavalry",
-    "card_number": 250,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMW",
-    "en_name": "Blockade Ship",
-    "card_number": 251,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMW",
-    "en_name": "Villainous Ambition",
-    "card_number": 252,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMW",
-    "en_name": "Forced Pacification",
-    "card_number": 253,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMW",
-    "en_name": "Captain Tarpals, Grand Army Captain",
-    "card_number": 254,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMW",
-    "en_name": "C-3PO, Captivating Storyteller",
-    "card_number": 255,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMW",
-    "en_name": "Jedi Interceptor",
-    "card_number": 256,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMW",
-    "en_name": "Ewok Archers",
-    "card_number": 257,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMW",
-    "en_name": "Ryloth Revolutionary Rider",
-    "card_number": 258,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMW",
-    "en_name": "Pack Guardian",
-    "card_number": 259,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMW",
-    "en_name": "Queen Amidala, Retaking Theed",
-    "card_number": 260,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMW",
-    "en_name": "Ben Kenobi, Don't Be Afraid",
-    "card_number": 261,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMW",
-    "en_name": "Mylaya Rider",
-    "card_number": 262,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMW",
-    "en_name": "Wrecker, Wrecking the Empire",
-    "card_number": 263,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMW",
-    "en_name": "Heroic Bravery",
-    "card_number": 264,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMW",
-    "en_name": "Twi'lek Kalikori",
-    "card_number": 265,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMW",
-    "en_name": "Familiar Strategem",
-    "card_number": 266,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMW",
-    "en_name": "Renew",
-    "card_number": 267,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMW",
-    "en_name": "Offworld Jawa",
-    "card_number": 268,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMW",
-    "en_name": "Friendly Eopie",
-    "card_number": 269,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMW",
-    "en_name": "Wild Space Wanderer",
-    "card_number": 270,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMW",
-    "en_name": "Landing Pad",
-    "card_number": 271,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMW",
-    "en_name": "Growth",
-    "card_number": 272,
-    "variant_type": "Standard",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMW",
     "en_name": "Asajj Ventress, No Time For Regret",
     "card_number": 273,
     "variant_type": "Hyperspace",
@@ -8545,14 +7897,6 @@
   },
   {
     "set_code": "SHD",
-    "en_name": "Mystic Reflection",
-    "card_number": 326,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
     "en_name": "Moisture Farmer",
     "card_number": 330,
     "variant_type": "Hyperspace",
@@ -8609,22 +7953,6 @@
   },
   {
     "set_code": "SHD",
-    "en_name": "Echo, Restored",
-    "card_number": 368,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Rule with Respect",
-    "card_number": 375,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
     "en_name": "Enforced Loyalty",
     "card_number": 377,
     "variant_type": "Hyperspace",
@@ -8657,14 +7985,6 @@
   },
   {
     "set_code": "SHD",
-    "en_name": "Ruthlessness",
-    "card_number": 412,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
     "en_name": "Poe Dameron, Quick to Improvise",
     "card_number": 422,
     "variant_type": "Hyperspace",
@@ -8683,14 +8003,6 @@
     "set_code": "SHD",
     "en_name": "Desperate Attack",
     "card_number": 448,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Zuckuss, Bounty Hunter for Hire",
-    "card_number": 459,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -8745,24 +8057,8 @@
   },
   {
     "set_code": "SHD",
-    "en_name": "Fennec Shand, Loyal Sharpshooter",
-    "card_number": 488,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
     "en_name": "Ruthless Assassin",
     "card_number": 501,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "No Bargain",
-    "card_number": 507,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -8993,22 +8289,6 @@
   },
   {
     "set_code": "SOR",
-    "en_name": "Death Trooper",
-    "card_number": 299,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "Del Meeko, Providing Overwatch",
-    "card_number": 300,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
     "en_name": "Repair",
     "card_number": 339,
     "variant_type": "Hyperspace Foil",
@@ -9113,6 +8393,14 @@
   },
   {
     "set_code": "SOR",
+    "en_name": "Force Throw",
+    "card_number": 430,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
     "en_name": "Precision Fire",
     "card_number": 431,
     "variant_type": "Hyperspace",
@@ -9163,14 +8451,6 @@
     "set_code": "SOR",
     "en_name": "Ezra Bridger, Resourceful Troublemaker",
     "card_number": 454,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "Mining Guild TIE Fighter",
-    "card_number": 468,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -9457,24 +8737,16 @@
   },
   {
     "set_code": "TWI",
-    "en_name": "A Fine Addition",
-    "card_number": 313,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "Lethal Crackdown",
-    "card_number": 314,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
     "en_name": "Satine Kryze, Committed to Peace",
     "card_number": 320,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
+    "en_name": "Luminara Unduli, Soft-Spoken Master",
+    "card_number": 323,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -9489,30 +8761,6 @@
   },
   {
     "set_code": "TWI",
-    "en_name": "Finn, On the Run",
-    "card_number": 326,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "Multi-Troop Transport",
-    "card_number": 339,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "Roger Roger",
-    "card_number": 342,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
     "en_name": "Grievous Reassembly",
     "card_number": 346,
     "variant_type": "Hyperspace",
@@ -9521,24 +8769,8 @@
   },
   {
     "set_code": "TWI",
-    "en_name": "Disruptive Burst",
-    "card_number": 348,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
     "en_name": "The Invasion of Christophsis",
     "card_number": 351,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "Reprocess",
-    "card_number": 360,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -9617,6 +8849,14 @@
   },
   {
     "set_code": "TWI",
+    "en_name": "Unnatural Life",
+    "card_number": 454,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
     "en_name": "Enfys Nest, Champion of Justice",
     "card_number": 463,
     "variant_type": "Hyperspace",
@@ -9635,14 +8875,6 @@
     "set_code": "TWI",
     "en_name": "Clone Dive Trooper",
     "card_number": 470,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "Independent Senator",
-    "card_number": 471,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
