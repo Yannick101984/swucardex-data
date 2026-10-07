@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "lastUpdated": "2026-09-30",
+  "lastUpdated": "2026-10-07",
   "latestMainSet": "hmw",
   "announcement": {
     "id": "ann-1781021226",
@@ -232,7 +232,7 @@
     },
     {
       "id": "p26",
-      "dataVersion": 6,
+      "dataVersion": 7,
       "code": "P26",
       "name": "2026 Promo",
       "type": "promo",
@@ -284,7 +284,7 @@
     },
     {
       "id": "ash",
-      "dataVersion": 5,
+      "dataVersion": 6,
       "code": "ASH",
       "name": "Cendres de l'Empire",
       "type": "main",
@@ -297,7 +297,7 @@
     },
     {
       "id": "mv26",
-      "dataVersion": 2,
+      "dataVersion": 3,
       "code": "MV26",
       "name": "The Mandalorian and Grogu Movie Promo",
       "type": "special",
@@ -310,7 +310,7 @@
     },
     {
       "id": "c26",
-      "dataVersion": 1,
+      "dataVersion": 2,
       "code": "C26",
       "name": "2026 Convention Exclusive",
       "type": "special",
@@ -323,7 +323,7 @@
     },
     {
       "id": "ashp",
-      "dataVersion": 1,
+      "dataVersion": 2,
       "code": "ASHP",
       "name": "Cendres de l’Empire Weekly Play",
       "type": "special",
@@ -349,7 +349,7 @@
     },
     {
       "id": "hmw",
-      "dataVersion": 3,
+      "dataVersion": 4,
       "code": "HMW",
       "name": "Mondes Natals",
       "type": "main",
@@ -362,7 +362,7 @@
     },
     {
       "id": "hmwp",
-      "dataVersion": 1,
+      "dataVersion": 2,
       "code": "HMWP",
       "name": "Mondes Natals Weekly Play",
       "type": "special",
