@@ -1009,6 +1009,14 @@
   },
   {
     "set_code": "SHD",
+    "en_name": "Cartel Turncoat",
+    "card_number": 464,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
     "en_name": "L3-37, Droid Revolutionary",
     "card_number": 465,
     "variant_type": "Hyperspace",
@@ -1305,14 +1313,6 @@
   },
   {
     "set_code": "SOR",
-    "en_name": "The Emperor's Legion",
-    "card_number": 355,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
     "en_name": "Wedge Antilles, Star of the Rebellion",
     "card_number": 364,
     "variant_type": "Hyperspace Foil",
@@ -1387,14 +1387,6 @@
     "set_code": "SOR",
     "en_name": "Mission Briefing",
     "card_number": 434,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "Fett's Firespray, Pursuing the Bounty",
-    "card_number": 447,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -1697,14 +1689,6 @@
   },
   {
     "set_code": "TWI",
-    "en_name": "Droideka Security",
-    "card_number": 310,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
     "en_name": "Satine Kryze, Committed to Peace",
     "card_number": 320,
     "variant_type": "Hyperspace",
@@ -1729,14 +1713,6 @@
   },
   {
     "set_code": "TWI",
-    "en_name": "Grievous Reassembly",
-    "card_number": 346,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
     "en_name": "The Invasion of Christophsis",
     "card_number": 351,
     "variant_type": "Hyperspace",
@@ -1747,14 +1723,6 @@
     "set_code": "TWI",
     "en_name": "Mas Amedda, Vice Chair",
     "card_number": 372,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "Coruscant Guard",
-    "card_number": 377,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -1835,6 +1803,14 @@
     "set_code": "TWI",
     "en_name": "Clear the Field",
     "card_number": 464,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
+    "en_name": "Jar Jar Binks, Foolish Gungan",
+    "card_number": 467,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
