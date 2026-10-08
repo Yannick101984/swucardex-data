@@ -28,6 +28,30 @@
       "Artist": "Denis Medri",
       "FrontText": "Chaque unité non-leader amie qui coûte 6 ou plus gagne Embuscade. (Après que vous avez joué cette unité, elle peut se redresser et attaquer une unité ennemie.)",
       "FrontArt": "https://cdn.starwarsunlimited.com//SWH_01_344_Admiral_Piett_HYP_65761d1da0.png"
+    },
+    {
+      "Set": "SOR",
+      "Number": "01",
+      "Name": "Infanterie de Marine",
+      "type": "Unit",
+      "VariantType": "Weekly Play",
+      "Rarity": "Commune",
+      "Cost": "2",
+      "Power": "3",
+      "HP": "3",
+      "Aspects": [
+        "Commandement",
+        "Héroïsme"
+      ],
+      "Traits": [
+        "Rebelle",
+        "Soldat"
+      ],
+      "Arenas": [
+        "Terrestre"
+      ],
+      "FrontArt": "https://cdn.starwarsunlimited.com//SWOP_0103_001_Batllefield_Marine_OP_35470403a9.png",
+      "isMainCard": false
     }
   ]
 }
