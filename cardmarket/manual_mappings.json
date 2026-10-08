@@ -1817,14 +1817,6 @@
   },
   {
     "set_code": "TWI",
-    "en_name": "Shadowed Intentions",
-    "card_number": 485,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
     "en_name": "In Pursuit",
     "card_number": 486,
     "variant_type": "Hyperspace",
