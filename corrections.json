@@ -20,7 +20,7 @@
       "apply": {},
       "migrate": {
         "from": "SOR-339-Réparation-Standard",
-        "to": "SOR-339-Réparation-Weekly Play"
+        "to": "SOR-339-Réparation-Hyperspace"
       }
     }
   ],
@@ -110,7 +110,7 @@
       "Number": "339",
       "Name": "Réparation",
       "type": "Event",
-      "VariantType": "Weekly Play",
+      "VariantType": "Hyperspace",
       "Rarity": "Commune",
       "Cost": "1",
       "Aspects": [
