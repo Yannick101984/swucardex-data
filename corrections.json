@@ -1,6 +1,18 @@
 {
   "version": 1,
-  "patches": [],
+  "patches": [
+    {
+      "match": {
+        "Set": "SOR",
+        "Number": "__addition__"
+      },
+      "apply": {},
+      "migrate": {
+        "from": "SOR-01-Infanterie de Marine-Weekly Play",
+        "to": "SOR-1-Infanterie de Marine-Weekly Play"
+      }
+    }
+  ],
   "additions": [
     {
       "Set": "SOR",
@@ -31,7 +43,7 @@
     },
     {
       "Set": "SOR",
-      "Number": "01",
+      "Number": "1",
       "Name": "Infanterie de Marine",
       "type": "Unit",
       "VariantType": "Weekly Play",
@@ -51,7 +63,8 @@
         "Terrestre"
       ],
       "FrontArt": "https://cdn.starwarsunlimited.com//SWOP_0103_001_Batllefield_Marine_OP_35470403a9.png",
-      "isMainCard": false
+      "isMainCard": false,
+      "parentCardId": "1039"
     }
   ]
 }
