@@ -112,6 +112,25 @@
       "FrontArt": "https://cdn.starwarsunlimited.com//SWH_01_339_Repair_HYP_408446ecab.png",
       "isMainCard": false,
       "parentCardId": "87"
+    },
+    {
+      "Set": "SOR",
+      "Number": "12",
+      "Name": "Réapprovisionnement",
+      "type": "Event",
+      "VariantType": "Weekly Play",
+      "Rarity": "Rare",
+      "Cost": "3",
+      "Aspects": [
+        "Commandement"
+      ],
+      "Traits": [
+        "Réserve"
+      ],
+      "FrontText": "Mettez cet évènement en jeu en tant que ressource.",
+      "FrontArt": "https://cdn.starwarsunlimited.com//SWOP_0103_012_Resupply_OP_94c5001547.png",
+      "isMainCard": false,
+      "parentCardId": "112"
     }
   ]
 }
