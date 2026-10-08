@@ -93,6 +93,25 @@
       "FrontArt": "https://cdn.starwarsunlimited.com//SWH_01fr_398_Raider_Impitoyable_HYP_20971ba466.png",
       "isMainCard": false,
       "parentCardId": "721"
+    },
+    {
+      "Set": "SOR",
+      "Number": "339",
+      "Name": "Réparation",
+      "type": "Event",
+      "VariantType": "Standard",
+      "Rarity": "Commune",
+      "Cost": "1",
+      "Aspects": [
+        "Vigilance"
+      ],
+      "Traits": [
+        "Réserve"
+      ],
+      "FrontText": "Soignez 3 dégâts d'une unité ou d'une base.",
+      "FrontArt": "https://cdn.starwarsunlimited.com//SWH_01_339_Repair_HYP_408446ecab.png",
+      "isMainCard": false,
+      "parentCardId": "87"
     }
   ]
 }
