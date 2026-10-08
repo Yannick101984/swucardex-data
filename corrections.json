@@ -39,7 +39,8 @@
       "isMainCard": false,
       "Artist": "Denis Medri",
       "FrontText": "Chaque unité non-leader amie qui coûte 6 ou plus gagne Embuscade. (Après que vous avez joué cette unité, elle peut se redresser et attaquer une unité ennemie.)",
-      "FrontArt": "https://cdn.starwarsunlimited.com//SWH_01_344_Admiral_Piett_HYP_65761d1da0.png"
+      "FrontArt": "https://cdn.starwarsunlimited.com//SWH_01_344_Admiral_Piett_HYP_65761d1da0.png",
+      "parentCardId": "831"
     },
     {
       "Set": "SOR",
