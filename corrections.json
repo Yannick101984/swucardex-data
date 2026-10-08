@@ -66,6 +66,33 @@
       "FrontArt": "https://cdn.starwarsunlimited.com//SWOP_0103_001_Batllefield_Marine_OP_35470403a9.png",
       "isMainCard": false,
       "parentCardId": "1039"
+    },
+    {
+      "Set": "SOR",
+      "Number": "398",
+      "Name": "Raider Impitoyable",
+      "type": "Unit",
+      "VariantType": "Hyperspace",
+      "Rarity": "Peu Commune",
+      "Cost": "6",
+      "Power": "4",
+      "HP": "6",
+      "Aspects": [
+        "Agressivité",
+        "Infâmie"
+      ],
+      "Traits": [
+        "Impérial",
+        "Vaisseau Capital",
+        "Véhicule"
+      ],
+      "Arenas": [
+        "Spatiale"
+      ],
+      "FrontText": "Une fois jouée/Une fois éliminée : infligez 2 dégâts à une base ennemie et 2 dégâts à une unité ennemie.",
+      "FrontArt": "https://cdn.starwarsunlimited.com//SWH_01fr_398_Raider_Impitoyable_HYP_20971ba466.png",
+      "isMainCard": false,
+      "parentCardId": "721"
     }
   ]
 }
