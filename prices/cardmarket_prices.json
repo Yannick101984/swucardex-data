@@ -174111,9 +174111,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "standard_prestige": {
           "idProduct": 915373,
-          "card_number": 549,
+          "card_number": 840,
           "avg": null,
           "low": 11.95,
           "trend": null,
@@ -174127,9 +174127,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "standard_prestige": {
+        "foil_prestige": {
           "idProduct": 915397,
-          "card_number": 840,
+          "card_number": 888,
           "avg": 5,
           "low": 6,
           "trend": 6,
@@ -174143,9 +174143,9 @@
           "avg7_foil": 5.5,
           "avg30_foil": 5.5
         },
-        "foil_prestige": {
+        "serialized_prestige": {
           "idProduct": 915535,
-          "card_number": 888,
+          "card_number": 936,
           "avg": null,
           "low": null,
           "trend": null,
@@ -174159,9 +174159,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "serialized_prestige": {
+        "hyperspace_foil": {
           "idProduct": 915536,
-          "card_number": 936,
+          "card_number": 549,
           "avg": null,
           "low": null,
           "trend": null,
@@ -174282,9 +174282,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "standard_prestige": {
           "idProduct": 915345,
-          "card_number": 551,
+          "card_number": 822,
           "avg": null,
           "low": 13.89,
           "trend": null,
@@ -174298,9 +174298,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "standard_prestige": {
+        "foil_prestige": {
           "idProduct": 915399,
-          "card_number": 822,
+          "card_number": 870,
           "avg": null,
           "low": 9,
           "trend": null,
@@ -174314,9 +174314,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "foil_prestige": {
+        "serialized_prestige": {
           "idProduct": 915476,
-          "card_number": 870,
+          "card_number": 918,
           "avg": null,
           "low": null,
           "trend": null,
@@ -174330,9 +174330,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "serialized_prestige": {
+        "hyperspace_foil": {
           "idProduct": 915477,
-          "card_number": 918,
+          "card_number": 551,
           "avg": null,
           "low": null,
           "trend": null,
@@ -174573,9 +174573,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "standard_prestige": {
           "idProduct": 915315,
-          "card_number": 555,
+          "card_number": 801,
           "avg": 3,
           "low": 6,
           "trend": 3,
@@ -174589,9 +174589,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "standard_prestige": {
+        "foil_prestige": {
           "idProduct": 915403,
-          "card_number": 801,
+          "card_number": 849,
           "avg": null,
           "low": 1,
           "trend": null,
@@ -174605,9 +174605,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "foil_prestige": {
+        "serialized_prestige": {
           "idProduct": 915434,
-          "card_number": 849,
+          "card_number": 897,
           "avg": null,
           "low": 10,
           "trend": null,
@@ -174621,9 +174621,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "serialized_prestige": {
+        "hyperspace_foil": {
           "idProduct": 915435,
-          "card_number": 897,
+          "card_number": 555,
           "avg": null,
           "low": null,
           "trend": null,
@@ -174684,9 +174684,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "standard_prestige": {
           "idProduct": 915316,
-          "card_number": 556,
+          "card_number": 802,
           "avg": null,
           "low": 4.5,
           "trend": null,
@@ -174700,9 +174700,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "standard_prestige": {
+        "foil_prestige": {
           "idProduct": 915404,
-          "card_number": 802,
+          "card_number": 850,
           "avg": 3,
           "low": 1,
           "trend": 3,
@@ -174716,9 +174716,9 @@
           "avg7_foil": 3,
           "avg30_foil": 3
         },
-        "foil_prestige": {
+        "serialized_prestige": {
           "idProduct": 915436,
-          "card_number": 850,
+          "card_number": 898,
           "avg": null,
           "low": null,
           "trend": null,
@@ -174732,9 +174732,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "serialized_prestige": {
+        "hyperspace_foil": {
           "idProduct": 915437,
-          "card_number": 898,
+          "card_number": 556,
           "avg": null,
           "low": null,
           "trend": null,
@@ -174855,9 +174855,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "standard_prestige": {
           "idProduct": 915374,
-          "card_number": 558,
+          "card_number": 841,
           "avg": null,
           "low": 30,
           "trend": null,
@@ -174871,9 +174871,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "standard_prestige": {
+        "foil_prestige": {
           "idProduct": 915406,
-          "card_number": 841,
+          "card_number": 889,
           "avg": null,
           "low": 41,
           "trend": null,
@@ -174887,9 +174887,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "foil_prestige": {
+        "serialized_prestige": {
           "idProduct": 915537,
-          "card_number": 889,
+          "card_number": 937,
           "avg": null,
           "low": null,
           "trend": null,
@@ -174903,9 +174903,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "serialized_prestige": {
+        "hyperspace_foil": {
           "idProduct": 915538,
-          "card_number": 937,
+          "card_number": 558,
           "avg": null,
           "low": null,
           "trend": null,
@@ -174966,9 +174966,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "standard_prestige": {
           "idProduct": 915346,
-          "card_number": 559,
+          "card_number": 823,
           "avg": 10,
           "low": 9.95,
           "trend": 10,
@@ -174982,9 +174982,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "standard_prestige": {
+        "foil_prestige": {
           "idProduct": 915407,
-          "card_number": 823,
+          "card_number": 871,
           "avg": 5,
           "low": 5.25,
           "trend": 5,
@@ -174998,9 +174998,9 @@
           "avg7_foil": 5,
           "avg30_foil": 5
         },
-        "foil_prestige": {
+        "serialized_prestige": {
           "idProduct": 915478,
-          "card_number": 871,
+          "card_number": 919,
           "avg": null,
           "low": null,
           "trend": null,
@@ -175014,9 +175014,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "serialized_prestige": {
+        "hyperspace_foil": {
           "idProduct": 915479,
-          "card_number": 919,
+          "card_number": 559,
           "avg": null,
           "low": null,
           "trend": null,
@@ -175137,9 +175137,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "standard_prestige": {
           "idProduct": 915359,
-          "card_number": 561,
+          "card_number": 834,
           "avg": null,
           "low": 9.95,
           "trend": null,
@@ -175153,9 +175153,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "standard_prestige": {
+        "foil_prestige": {
           "idProduct": 915409,
-          "card_number": 834,
+          "card_number": 882,
           "avg": null,
           "low": 20,
           "trend": null,
@@ -175169,9 +175169,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "foil_prestige": {
+        "serialized_prestige": {
           "idProduct": 915523,
-          "card_number": 882,
+          "card_number": 930,
           "avg": null,
           "low": null,
           "trend": null,
@@ -175185,9 +175185,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "serialized_prestige": {
+        "hyperspace_foil": {
           "idProduct": 915524,
-          "card_number": 930,
+          "card_number": 561,
           "avg": null,
           "low": null,
           "trend": null,
@@ -175248,9 +175248,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "standard_prestige": {
           "idProduct": 915317,
-          "card_number": 562,
+          "card_number": 803,
           "avg": 2.98,
           "low": 2,
           "trend": null,
@@ -175264,9 +175264,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "standard_prestige": {
+        "foil_prestige": {
           "idProduct": 915410,
-          "card_number": 803,
+          "card_number": 851,
           "avg": null,
           "low": 5,
           "trend": null,
@@ -175280,9 +175280,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "foil_prestige": {
+        "serialized_prestige": {
           "idProduct": 915438,
-          "card_number": 851,
+          "card_number": 899,
           "avg": null,
           "low": null,
           "trend": null,
@@ -175296,9 +175296,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "serialized_prestige": {
+        "hyperspace_foil": {
           "idProduct": 915439,
-          "card_number": 899,
+          "card_number": 562,
           "avg": null,
           "low": null,
           "trend": null,
@@ -175359,9 +175359,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "standard_prestige": {
           "idProduct": 915376,
-          "card_number": 563,
+          "card_number": 843,
           "avg": null,
           "low": 6,
           "trend": null,
@@ -175375,9 +175375,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "standard_prestige": {
+        "foil_prestige": {
           "idProduct": 915411,
-          "card_number": 843,
+          "card_number": 891,
           "avg": null,
           "low": 16.04,
           "trend": null,
@@ -175391,9 +175391,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "foil_prestige": {
+        "serialized_prestige": {
           "idProduct": 915541,
-          "card_number": 891,
+          "card_number": 939,
           "avg": null,
           "low": null,
           "trend": null,
@@ -175407,9 +175407,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "serialized_prestige": {
+        "hyperspace_foil": {
           "idProduct": 915542,
-          "card_number": 939,
+          "card_number": 563,
           "avg": null,
           "low": 200,
           "trend": null,
@@ -175530,9 +175530,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "standard_prestige": {
           "idProduct": 915361,
-          "card_number": 565,
+          "card_number": 835,
           "avg": null,
           "low": 29.99,
           "trend": null,
@@ -175546,9 +175546,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "standard_prestige": {
+        "foil_prestige": {
           "idProduct": 915413,
-          "card_number": 835,
+          "card_number": 883,
           "avg": 48,
           "low": 40,
           "trend": 48,
@@ -175562,9 +175562,9 @@
           "avg7_foil": 48,
           "avg30_foil": 48
         },
-        "foil_prestige": {
+        "serialized_prestige": {
           "idProduct": 915525,
-          "card_number": 883,
+          "card_number": 931,
           "avg": null,
           "low": 49.99,
           "trend": null,
@@ -175578,9 +175578,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "serialized_prestige": {
+        "hyperspace_foil": {
           "idProduct": 915526,
-          "card_number": 931,
+          "card_number": 565,
           "avg": null,
           "low": null,
           "trend": null,
@@ -176121,9 +176121,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "standard_prestige": {
           "idProduct": 915318,
-          "card_number": 574,
+          "card_number": 804,
           "avg": null,
           "low": 3.93,
           "trend": null,
@@ -176137,9 +176137,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "standard_prestige": {
+        "foil_prestige": {
           "idProduct": 915422,
-          "card_number": 804,
+          "card_number": 852,
           "avg": null,
           "low": 10,
           "trend": null,
@@ -176153,9 +176153,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "foil_prestige": {
+        "serialized_prestige": {
           "idProduct": 915440,
-          "card_number": 852,
+          "card_number": 900,
           "avg": null,
           "low": null,
           "trend": null,
@@ -176169,9 +176169,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "serialized_prestige": {
+        "hyperspace_foil": {
           "idProduct": 915441,
-          "card_number": 900,
+          "card_number": 574,
           "avg": null,
           "low": null,
           "trend": null,
@@ -176232,9 +176232,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "standard_prestige": {
           "idProduct": 915347,
-          "card_number": 575,
+          "card_number": 824,
           "avg": 6,
           "low": 6.99,
           "trend": 7.83,
@@ -176248,9 +176248,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "standard_prestige": {
+        "foil_prestige": {
           "idProduct": 915423,
-          "card_number": 824,
+          "card_number": 872,
           "avg": 15,
           "low": 9.89,
           "trend": 15,
@@ -176264,9 +176264,9 @@
           "avg7_foil": 15,
           "avg30_foil": 15
         },
-        "foil_prestige": {
+        "serialized_prestige": {
           "idProduct": 915480,
-          "card_number": 872,
+          "card_number": 920,
           "avg": null,
           "low": null,
           "trend": null,
@@ -176280,9 +176280,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "serialized_prestige": {
+        "hyperspace_foil": {
           "idProduct": 915481,
-          "card_number": 920,
+          "card_number": 575,
           "avg": null,
           "low": null,
           "trend": null,
@@ -176403,9 +176403,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "standard_prestige": {
           "idProduct": 915348,
-          "card_number": 577,
+          "card_number": 825,
           "avg": null,
           "low": 12,
           "trend": null,
@@ -176419,9 +176419,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "standard_prestige": {
+        "foil_prestige": {
           "idProduct": 915425,
-          "card_number": 825,
+          "card_number": 873,
           "avg": null,
           "low": 17,
           "trend": null,
@@ -176435,9 +176435,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "foil_prestige": {
+        "serialized_prestige": {
           "idProduct": 915482,
-          "card_number": 873,
+          "card_number": 921,
           "avg": null,
           "low": 39.99,
           "trend": null,
@@ -176451,9 +176451,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "serialized_prestige": {
+        "hyperspace_foil": {
           "idProduct": 915483,
-          "card_number": 921,
+          "card_number": 577,
           "avg": null,
           "low": null,
           "trend": null,
@@ -176814,9 +176814,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "standard_prestige": {
           "idProduct": 915319,
-          "card_number": 583,
+          "card_number": 805,
           "avg": null,
           "low": 1.5,
           "trend": null,
@@ -176830,9 +176830,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "standard_prestige": {
+        "foil_prestige": {
           "idProduct": 915431,
-          "card_number": 805,
+          "card_number": 853,
           "avg": null,
           "low": 0.2,
           "trend": null,
@@ -176846,9 +176846,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "foil_prestige": {
+        "serialized_prestige": {
           "idProduct": 915442,
-          "card_number": 853,
+          "card_number": 901,
           "avg": null,
           "low": null,
           "trend": null,
@@ -176862,9 +176862,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "serialized_prestige": {
+        "hyperspace_foil": {
           "idProduct": 915443,
-          "card_number": 901,
+          "card_number": 583,
           "avg": null,
           "low": null,
           "trend": null,
@@ -176925,9 +176925,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "standard_prestige": {
           "idProduct": 915377,
-          "card_number": 584,
+          "card_number": 844,
           "avg": null,
           "low": 9.9,
           "trend": null,
@@ -176941,9 +176941,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "standard_prestige": {
+        "foil_prestige": {
           "idProduct": 915432,
-          "card_number": 844,
+          "card_number": 892,
           "avg": null,
           "low": 20,
           "trend": null,
@@ -176957,9 +176957,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "foil_prestige": {
+        "serialized_prestige": {
           "idProduct": 915543,
-          "card_number": 892,
+          "card_number": 940,
           "avg": null,
           "low": 19.9,
           "trend": null,
@@ -176973,9 +176973,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "serialized_prestige": {
+        "hyperspace_foil": {
           "idProduct": 915544,
-          "card_number": 940,
+          "card_number": 584,
           "avg": null,
           "low": null,
           "trend": null,
@@ -177096,9 +177096,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "standard_prestige": {
           "idProduct": 915320,
-          "card_number": 586,
+          "card_number": 806,
           "avg": null,
           "low": 13.5,
           "trend": null,
@@ -177112,9 +177112,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "standard_prestige": {
+        "foil_prestige": {
           "idProduct": 915444,
-          "card_number": 806,
+          "card_number": 854,
           "avg": null,
           "low": 7.99,
           "trend": null,
@@ -177128,9 +177128,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "foil_prestige": {
+        "serialized_prestige": {
           "idProduct": 915445,
-          "card_number": 854,
+          "card_number": 902,
           "avg": null,
           "low": null,
           "trend": null,
@@ -177144,9 +177144,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "serialized_prestige": {
+        "hyperspace_foil": {
           "idProduct": 915500,
-          "card_number": 902,
+          "card_number": 586,
           "avg": 1,
           "low": 0.2,
           "trend": 1,
@@ -177207,9 +177207,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "standard_prestige": {
           "idProduct": 915321,
-          "card_number": 587,
+          "card_number": 807,
           "avg": null,
           "low": 11.99,
           "trend": null,
@@ -177223,9 +177223,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "standard_prestige": {
+        "foil_prestige": {
           "idProduct": 915446,
-          "card_number": 807,
+          "card_number": 855,
           "avg": null,
           "low": 30,
           "trend": null,
@@ -177239,9 +177239,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "foil_prestige": {
+        "serialized_prestige": {
           "idProduct": 915447,
-          "card_number": 855,
+          "card_number": 903,
           "avg": null,
           "low": 149.99,
           "trend": null,
@@ -177255,9 +177255,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "serialized_prestige": {
+        "hyperspace_foil": {
           "idProduct": 915501,
-          "card_number": 903,
+          "card_number": 587,
           "avg": null,
           "low": 9,
           "trend": null,
@@ -177318,9 +177318,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "standard_prestige": {
           "idProduct": 915364,
-          "card_number": 588,
+          "card_number": 837,
           "avg": 28,
           "low": 20,
           "trend": 28,
@@ -177334,9 +177334,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "standard_prestige": {
+        "foil_prestige": {
           "idProduct": 915502,
-          "card_number": 837,
+          "card_number": 885,
           "avg": null,
           "low": 42,
           "trend": null,
@@ -177350,9 +177350,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "foil_prestige": {
+        "serialized_prestige": {
           "idProduct": 915529,
-          "card_number": 885,
+          "card_number": 933,
           "avg": null,
           "low": 50,
           "trend": null,
@@ -177366,9 +177366,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "serialized_prestige": {
+        "hyperspace_foil": {
           "idProduct": 915530,
-          "card_number": 933,
+          "card_number": 588,
           "avg": null,
           "low": null,
           "trend": null,
@@ -177489,9 +177489,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "standard_prestige": {
           "idProduct": 915322,
-          "card_number": 590,
+          "card_number": 808,
           "avg": null,
           "low": 5.99,
           "trend": null,
@@ -177505,9 +177505,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "standard_prestige": {
+        "foil_prestige": {
           "idProduct": 915448,
-          "card_number": 808,
+          "card_number": 856,
           "avg": null,
           "low": 4.99,
           "trend": null,
@@ -177521,9 +177521,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "foil_prestige": {
+        "serialized_prestige": {
           "idProduct": 915449,
-          "card_number": 856,
+          "card_number": 904,
           "avg": null,
           "low": null,
           "trend": null,
@@ -177537,9 +177537,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "serialized_prestige": {
+        "hyperspace_foil": {
           "idProduct": 915504,
-          "card_number": 904,
+          "card_number": 590,
           "avg": 0.1,
           "low": 0.1,
           "trend": 0.1,
@@ -178380,9 +178380,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "standard_prestige": {
           "idProduct": 915349,
-          "card_number": 604,
+          "card_number": 826,
           "avg": 30,
           "low": 18.2,
           "trend": 23.99,
@@ -178396,9 +178396,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "standard_prestige": {
+        "foil_prestige": {
           "idProduct": 915484,
-          "card_number": 826,
+          "card_number": 874,
           "avg": null,
           "low": 45,
           "trend": null,
@@ -178412,9 +178412,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "foil_prestige": {
+        "serialized_prestige": {
           "idProduct": 915485,
-          "card_number": 874,
+          "card_number": 922,
           "avg": null,
           "low": null,
           "trend": null,
@@ -178428,9 +178428,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "serialized_prestige": {
+        "hyperspace_foil": {
           "idProduct": 915518,
-          "card_number": 922,
+          "card_number": 604,
           "avg": 30,
           "low": 34.98,
           "trend": 37.99,
@@ -179031,9 +179031,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "standard_prestige": {
           "idProduct": 915324,
-          "card_number": 614,
+          "card_number": 809,
           "avg": null,
           "low": 15,
           "trend": null,
@@ -179047,24 +179047,8 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "standard_prestige": {
-          "idProduct": 915450,
-          "card_number": 809,
-          "avg": null,
-          "low": null,
-          "trend": null,
-          "avg_foil": null,
-          "low_foil": null,
-          "trend_foil": null,
-          "avg1": null,
-          "avg7": null,
-          "avg30": null,
-          "avg1_foil": null,
-          "avg7_foil": null,
-          "avg30_foil": null
-        },
         "foil_prestige": {
-          "idProduct": 915451,
+          "idProduct": 915450,
           "card_number": 857,
           "avg": null,
           "low": null,
@@ -179080,8 +179064,24 @@
           "avg30_foil": null
         },
         "serialized_prestige": {
-          "idProduct": 915554,
+          "idProduct": 915451,
           "card_number": 905,
+          "avg": null,
+          "low": null,
+          "trend": null,
+          "avg_foil": null,
+          "low_foil": null,
+          "trend_foil": null,
+          "avg1": null,
+          "avg7": null,
+          "avg30": null,
+          "avg1_foil": null,
+          "avg7_foil": null,
+          "avg30_foil": null
+        },
+        "hyperspace_foil": {
+          "idProduct": 915554,
+          "card_number": 614,
           "avg": null,
           "low": 4.99,
           "trend": null,
@@ -179322,9 +179322,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "standard_prestige": {
           "idProduct": 915326,
-          "card_number": 618,
+          "card_number": 810,
           "avg": null,
           "low": 15,
           "trend": null,
@@ -179338,24 +179338,8 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "standard_prestige": {
-          "idProduct": 915452,
-          "card_number": 810,
-          "avg": null,
-          "low": null,
-          "trend": null,
-          "avg_foil": null,
-          "low_foil": null,
-          "trend_foil": null,
-          "avg1": null,
-          "avg7": null,
-          "avg30": null,
-          "avg1_foil": null,
-          "avg7_foil": null,
-          "avg30_foil": null
-        },
         "foil_prestige": {
-          "idProduct": 915453,
+          "idProduct": 915452,
           "card_number": 858,
           "avg": null,
           "low": null,
@@ -179371,8 +179355,24 @@
           "avg30_foil": null
         },
         "serialized_prestige": {
-          "idProduct": 915561,
+          "idProduct": 915453,
           "card_number": 906,
+          "avg": null,
+          "low": null,
+          "trend": null,
+          "avg_foil": null,
+          "low_foil": null,
+          "trend_foil": null,
+          "avg1": null,
+          "avg7": null,
+          "avg30": null,
+          "avg1_foil": null,
+          "avg7_foil": null,
+          "avg30_foil": null
+        },
+        "hyperspace_foil": {
+          "idProduct": 915561,
+          "card_number": 618,
           "avg": null,
           "low": 9.99,
           "trend": null,
@@ -179493,9 +179493,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "standard_prestige": {
           "idProduct": 915363,
-          "card_number": 620,
+          "card_number": 836,
           "avg": 29.99,
           "low": 26.99,
           "trend": 27,
@@ -179509,24 +179509,8 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "standard_prestige": {
-          "idProduct": 915527,
-          "card_number": 836,
-          "avg": null,
-          "low": null,
-          "trend": null,
-          "avg_foil": null,
-          "low_foil": null,
-          "trend_foil": null,
-          "avg1": null,
-          "avg7": null,
-          "avg30": null,
-          "avg1_foil": null,
-          "avg7_foil": null,
-          "avg30_foil": null
-        },
         "foil_prestige": {
-          "idProduct": 915528,
+          "idProduct": 915527,
           "card_number": 884,
           "avg": null,
           "low": null,
@@ -179542,8 +179526,24 @@
           "avg30_foil": null
         },
         "serialized_prestige": {
-          "idProduct": 915564,
+          "idProduct": 915528,
           "card_number": 932,
+          "avg": null,
+          "low": null,
+          "trend": null,
+          "avg_foil": null,
+          "low_foil": null,
+          "trend_foil": null,
+          "avg1": null,
+          "avg7": null,
+          "avg30": null,
+          "avg1_foil": null,
+          "avg7_foil": null,
+          "avg30_foil": null
+        },
+        "hyperspace_foil": {
+          "idProduct": 915564,
+          "card_number": 620,
           "avg": 40,
           "low": 29.95,
           "trend": 40,
@@ -179604,9 +179604,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "standard_prestige": {
           "idProduct": 915350,
-          "card_number": 621,
+          "card_number": 827,
           "avg": null,
           "low": 5,
           "trend": null,
@@ -179620,9 +179620,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "standard_prestige": {
+        "foil_prestige": {
           "idProduct": 915486,
-          "card_number": 827,
+          "card_number": 875,
           "avg": null,
           "low": 7.5,
           "trend": null,
@@ -179636,9 +179636,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "foil_prestige": {
+        "serialized_prestige": {
           "idProduct": 915487,
-          "card_number": 875,
+          "card_number": 923,
           "avg": null,
           "low": null,
           "trend": null,
@@ -179652,9 +179652,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "serialized_prestige": {
+        "hyperspace_foil": {
           "idProduct": 915565,
-          "card_number": 923,
+          "card_number": 621,
           "avg": 0.1,
           "low": 0.05,
           "trend": 0.1,
@@ -180015,9 +180015,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "standard_prestige": {
           "idProduct": 915328,
-          "card_number": 627,
+          "card_number": 811,
           "avg": 5.96,
           "low": 5.97,
           "trend": 5.96,
@@ -180031,24 +180031,8 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "standard_prestige": {
-          "idProduct": 915454,
-          "card_number": 811,
-          "avg": null,
-          "low": null,
-          "trend": null,
-          "avg_foil": null,
-          "low_foil": null,
-          "trend_foil": null,
-          "avg1": null,
-          "avg7": null,
-          "avg30": null,
-          "avg1_foil": null,
-          "avg7_foil": null,
-          "avg30_foil": null
-        },
         "foil_prestige": {
-          "idProduct": 915455,
+          "idProduct": 915454,
           "card_number": 859,
           "avg": null,
           "low": null,
@@ -180064,8 +180048,24 @@
           "avg30_foil": null
         },
         "serialized_prestige": {
-          "idProduct": 915571,
+          "idProduct": 915455,
           "card_number": 907,
+          "avg": null,
+          "low": null,
+          "trend": null,
+          "avg_foil": null,
+          "low_foil": null,
+          "trend_foil": null,
+          "avg1": null,
+          "avg7": null,
+          "avg30": null,
+          "avg1_foil": null,
+          "avg7_foil": null,
+          "avg30_foil": null
+        },
+        "hyperspace_foil": {
+          "idProduct": 915571,
+          "card_number": 627,
           "avg": null,
           "low": 4,
           "trend": null,
@@ -180186,9 +180186,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "standard_prestige": {
           "idProduct": 915378,
-          "card_number": 629,
+          "card_number": 845,
           "avg": null,
           "low": 7.99,
           "trend": null,
@@ -180202,24 +180202,8 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "standard_prestige": {
-          "idProduct": 915546,
-          "card_number": 845,
-          "avg": null,
-          "low": null,
-          "trend": null,
-          "avg_foil": null,
-          "low_foil": null,
-          "trend_foil": null,
-          "avg1": null,
-          "avg7": null,
-          "avg30": null,
-          "avg1_foil": null,
-          "avg7_foil": null,
-          "avg30_foil": null
-        },
         "foil_prestige": {
-          "idProduct": 915548,
+          "idProduct": 915546,
           "card_number": 893,
           "avg": null,
           "low": null,
@@ -180235,8 +180219,24 @@
           "avg30_foil": null
         },
         "serialized_prestige": {
-          "idProduct": 915573,
+          "idProduct": 915548,
           "card_number": 941,
+          "avg": null,
+          "low": null,
+          "trend": null,
+          "avg_foil": null,
+          "low_foil": null,
+          "trend_foil": null,
+          "avg1": null,
+          "avg7": null,
+          "avg30": null,
+          "avg1_foil": null,
+          "avg7_foil": null,
+          "avg30_foil": null
+        },
+        "hyperspace_foil": {
+          "idProduct": 915573,
+          "card_number": 629,
           "avg": null,
           "low": 19.95,
           "trend": null,
@@ -180417,9 +180417,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "standard_prestige": {
           "idProduct": 915330,
-          "card_number": 632,
+          "card_number": 812,
           "avg": null,
           "low": 4.98,
           "trend": null,
@@ -180433,9 +180433,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "standard_prestige": {
+        "foil_prestige": {
           "idProduct": 915456,
-          "card_number": 812,
+          "card_number": 860,
           "avg": null,
           "low": 14,
           "trend": null,
@@ -180449,9 +180449,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "foil_prestige": {
+        "serialized_prestige": {
           "idProduct": 915457,
-          "card_number": 860,
+          "card_number": 908,
           "avg": null,
           "low": null,
           "trend": null,
@@ -180465,9 +180465,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "serialized_prestige": {
+        "hyperspace_foil": {
           "idProduct": 915576,
-          "card_number": 908,
+          "card_number": 632,
           "avg": null,
           "low": 4.49,
           "trend": null,
@@ -180528,9 +180528,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "standard_prestige": {
           "idProduct": 915332,
-          "card_number": 633,
+          "card_number": 813,
           "avg": null,
           "low": 10,
           "trend": null,
@@ -180544,24 +180544,8 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "standard_prestige": {
-          "idProduct": 915458,
-          "card_number": 813,
-          "avg": null,
-          "low": null,
-          "trend": null,
-          "avg_foil": null,
-          "low_foil": null,
-          "trend_foil": null,
-          "avg1": null,
-          "avg7": null,
-          "avg30": null,
-          "avg1_foil": null,
-          "avg7_foil": null,
-          "avg30_foil": null
-        },
         "foil_prestige": {
-          "idProduct": 915459,
+          "idProduct": 915458,
           "card_number": 861,
           "avg": null,
           "low": null,
@@ -180577,8 +180561,24 @@
           "avg30_foil": null
         },
         "serialized_prestige": {
-          "idProduct": 915577,
+          "idProduct": 915459,
           "card_number": 909,
+          "avg": null,
+          "low": null,
+          "trend": null,
+          "avg_foil": null,
+          "low_foil": null,
+          "trend_foil": null,
+          "avg1": null,
+          "avg7": null,
+          "avg30": null,
+          "avg1_foil": null,
+          "avg7_foil": null,
+          "avg30_foil": null
+        },
+        "hyperspace_foil": {
+          "idProduct": 915577,
+          "card_number": 633,
           "avg": null,
           "low": 10,
           "trend": null,
@@ -180639,9 +180639,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "standard_prestige": {
           "idProduct": 915369,
-          "card_number": 634,
+          "card_number": 838,
           "avg": null,
           "low": 25,
           "trend": null,
@@ -180655,9 +180655,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "standard_prestige": {
+        "foil_prestige": {
           "idProduct": 915531,
-          "card_number": 838,
+          "card_number": 886,
           "avg": null,
           "low": 45,
           "trend": null,
@@ -180671,9 +180671,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "foil_prestige": {
+        "serialized_prestige": {
           "idProduct": 915532,
-          "card_number": 886,
+          "card_number": 934,
           "avg": null,
           "low": null,
           "trend": null,
@@ -180687,9 +180687,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "serialized_prestige": {
+        "hyperspace_foil": {
           "idProduct": 915578,
-          "card_number": 934,
+          "card_number": 634,
           "avg": null,
           "low": 35,
           "trend": null,
@@ -181950,9 +181950,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "standard_prestige": {
           "idProduct": 915351,
-          "card_number": 655,
+          "card_number": 828,
           "avg": 10,
           "low": 13,
           "trend": 10,
@@ -181966,9 +181966,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "standard_prestige": {
+        "foil_prestige": {
           "idProduct": 915488,
-          "card_number": 828,
+          "card_number": 876,
           "avg": null,
           "low": 49.9,
           "trend": null,
@@ -181982,9 +181982,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "foil_prestige": {
+        "serialized_prestige": {
           "idProduct": 915489,
-          "card_number": 876,
+          "card_number": 924,
           "avg": null,
           "low": null,
           "trend": null,
@@ -181998,9 +181998,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "serialized_prestige": {
+        "hyperspace_foil": {
           "idProduct": 915600,
-          "card_number": 924,
+          "card_number": 655,
           "avg": null,
           "low": 28,
           "trend": null,
@@ -182421,9 +182421,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "standard_prestige": {
           "idProduct": 915334,
-          "card_number": 662,
+          "card_number": 814,
           "avg": 2.48,
           "low": 2.5,
           "trend": null,
@@ -182437,9 +182437,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "standard_prestige": {
+        "foil_prestige": {
           "idProduct": 915460,
-          "card_number": 814,
+          "card_number": 862,
           "avg": null,
           "low": 15,
           "trend": null,
@@ -182453,9 +182453,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "foil_prestige": {
+        "serialized_prestige": {
           "idProduct": 915461,
-          "card_number": 862,
+          "card_number": 910,
           "avg": null,
           "low": null,
           "trend": null,
@@ -182469,9 +182469,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "serialized_prestige": {
+        "hyperspace_foil": {
           "idProduct": 915607,
-          "card_number": 910,
+          "card_number": 662,
           "avg": null,
           "low": 3.95,
           "trend": null,
@@ -182712,9 +182712,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "standard_prestige": {
           "idProduct": 915336,
-          "card_number": 666,
+          "card_number": 815,
           "avg": null,
           "low": 10,
           "trend": null,
@@ -182728,24 +182728,8 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "standard_prestige": {
-          "idProduct": 915462,
-          "card_number": 815,
-          "avg": null,
-          "low": null,
-          "trend": null,
-          "avg_foil": null,
-          "low_foil": null,
-          "trend_foil": null,
-          "avg1": null,
-          "avg7": null,
-          "avg30": null,
-          "avg1_foil": null,
-          "avg7_foil": null,
-          "avg30_foil": null
-        },
         "foil_prestige": {
-          "idProduct": 915463,
+          "idProduct": 915462,
           "card_number": 863,
           "avg": null,
           "low": null,
@@ -182761,8 +182745,24 @@
           "avg30_foil": null
         },
         "serialized_prestige": {
-          "idProduct": 915611,
+          "idProduct": 915463,
           "card_number": 911,
+          "avg": null,
+          "low": null,
+          "trend": null,
+          "avg_foil": null,
+          "low_foil": null,
+          "trend_foil": null,
+          "avg1": null,
+          "avg7": null,
+          "avg30": null,
+          "avg1_foil": null,
+          "avg7_foil": null,
+          "avg30_foil": null
+        },
+        "hyperspace_foil": {
+          "idProduct": 915611,
+          "card_number": 666,
           "avg": 2,
           "low": 1.95,
           "trend": 2,
@@ -182883,9 +182883,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "standard_prestige": {
           "idProduct": 915352,
-          "card_number": 668,
+          "card_number": 829,
           "avg": null,
           "low": 1,
           "trend": null,
@@ -182899,24 +182899,8 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "standard_prestige": {
-          "idProduct": 915490,
-          "card_number": 829,
-          "avg": null,
-          "low": null,
-          "trend": null,
-          "avg_foil": null,
-          "low_foil": null,
-          "trend_foil": null,
-          "avg1": null,
-          "avg7": null,
-          "avg30": null,
-          "avg1_foil": null,
-          "avg7_foil": null,
-          "avg30_foil": null
-        },
         "foil_prestige": {
-          "idProduct": 915491,
+          "idProduct": 915490,
           "card_number": 877,
           "avg": null,
           "low": null,
@@ -182932,8 +182916,24 @@
           "avg30_foil": null
         },
         "serialized_prestige": {
-          "idProduct": 915614,
+          "idProduct": 915491,
           "card_number": 925,
+          "avg": null,
+          "low": null,
+          "trend": null,
+          "avg_foil": null,
+          "low_foil": null,
+          "trend_foil": null,
+          "avg1": null,
+          "avg7": null,
+          "avg30": null,
+          "avg1_foil": null,
+          "avg7_foil": null,
+          "avg30_foil": null
+        },
+        "hyperspace_foil": {
+          "idProduct": 915614,
+          "card_number": 668,
           "avg": 1,
           "low": 0.7,
           "trend": 1,
@@ -182994,9 +182994,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "standard_prestige": {
           "idProduct": 915337,
-          "card_number": 669,
+          "card_number": 816,
           "avg": null,
           "low": 25,
           "trend": null,
@@ -183010,24 +183010,8 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "standard_prestige": {
-          "idProduct": 915464,
-          "card_number": 816,
-          "avg": null,
-          "low": null,
-          "trend": null,
-          "avg_foil": null,
-          "low_foil": null,
-          "trend_foil": null,
-          "avg1": null,
-          "avg7": null,
-          "avg30": null,
-          "avg1_foil": null,
-          "avg7_foil": null,
-          "avg30_foil": null
-        },
         "foil_prestige": {
-          "idProduct": 915465,
+          "idProduct": 915464,
           "card_number": 864,
           "avg": null,
           "low": null,
@@ -183043,8 +183027,24 @@
           "avg30_foil": null
         },
         "serialized_prestige": {
-          "idProduct": 915615,
+          "idProduct": 915465,
           "card_number": 912,
+          "avg": null,
+          "low": null,
+          "trend": null,
+          "avg_foil": null,
+          "low_foil": null,
+          "trend_foil": null,
+          "avg1": null,
+          "avg7": null,
+          "avg30": null,
+          "avg1_foil": null,
+          "avg7_foil": null,
+          "avg30_foil": null
+        },
+        "hyperspace_foil": {
+          "idProduct": 915615,
+          "card_number": 669,
           "avg": null,
           "low": 30,
           "trend": null,
@@ -183225,9 +183225,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "standard_prestige": {
           "idProduct": 915340,
-          "card_number": 672,
+          "card_number": 817,
           "avg": null,
           "low": 19.99,
           "trend": null,
@@ -183241,24 +183241,8 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "standard_prestige": {
-          "idProduct": 915466,
-          "card_number": 817,
-          "avg": null,
-          "low": null,
-          "trend": null,
-          "avg_foil": null,
-          "low_foil": null,
-          "trend_foil": null,
-          "avg1": null,
-          "avg7": null,
-          "avg30": null,
-          "avg1_foil": null,
-          "avg7_foil": null,
-          "avg30_foil": null
-        },
         "foil_prestige": {
-          "idProduct": 915467,
+          "idProduct": 915466,
           "card_number": 865,
           "avg": null,
           "low": null,
@@ -183274,8 +183258,24 @@
           "avg30_foil": null
         },
         "serialized_prestige": {
-          "idProduct": 915618,
+          "idProduct": 915467,
           "card_number": 913,
+          "avg": null,
+          "low": null,
+          "trend": null,
+          "avg_foil": null,
+          "low_foil": null,
+          "trend_foil": null,
+          "avg1": null,
+          "avg7": null,
+          "avg30": null,
+          "avg1_foil": null,
+          "avg7_foil": null,
+          "avg30_foil": null
+        },
+        "hyperspace_foil": {
+          "idProduct": 915618,
+          "card_number": 672,
           "avg": null,
           "low": 5,
           "trend": null,
@@ -183396,9 +183396,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "standard_prestige": {
           "idProduct": 915341,
-          "card_number": 674,
+          "card_number": 818,
           "avg": null,
           "low": 19.45,
           "trend": null,
@@ -183412,9 +183412,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "standard_prestige": {
+        "foil_prestige": {
           "idProduct": 915468,
-          "card_number": 818,
+          "card_number": 866,
           "avg": null,
           "low": 25,
           "trend": null,
@@ -183428,9 +183428,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "foil_prestige": {
+        "serialized_prestige": {
           "idProduct": 915469,
-          "card_number": 866,
+          "card_number": 914,
           "avg": null,
           "low": null,
           "trend": null,
@@ -183444,9 +183444,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "serialized_prestige": {
+        "hyperspace_foil": {
           "idProduct": 915620,
-          "card_number": 914,
+          "card_number": 674,
           "avg": null,
           "low": 1.5,
           "trend": null,
@@ -183567,9 +183567,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "standard_prestige": {
           "idProduct": 915342,
-          "card_number": 676,
+          "card_number": 819,
           "avg": null,
           "low": 5,
           "trend": null,
@@ -183583,9 +183583,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "standard_prestige": {
+        "foil_prestige": {
           "idProduct": 915470,
-          "card_number": 819,
+          "card_number": 867,
           "avg": null,
           "low": null,
           "trend": null,
@@ -183599,9 +183599,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "foil_prestige": {
+        "serialized_prestige": {
           "idProduct": 915471,
-          "card_number": 867,
+          "card_number": 915,
           "avg": null,
           "low": 500,
           "trend": null,
@@ -183615,9 +183615,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "serialized_prestige": {
+        "hyperspace_foil": {
           "idProduct": 915622,
-          "card_number": 915,
+          "card_number": 676,
           "avg": null,
           "low": 1.99,
           "trend": null,
@@ -184098,9 +184098,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "standard_prestige": {
           "idProduct": 915375,
-          "card_number": 684,
+          "card_number": 842,
           "avg": 8,
           "low": 7,
           "trend": 8,
@@ -184114,24 +184114,8 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "standard_prestige": {
-          "idProduct": 915539,
-          "card_number": 842,
-          "avg": null,
-          "low": null,
-          "trend": null,
-          "avg_foil": null,
-          "low_foil": null,
-          "trend_foil": null,
-          "avg1": null,
-          "avg7": null,
-          "avg30": null,
-          "avg1_foil": null,
-          "avg7_foil": null,
-          "avg30_foil": null
-        },
         "foil_prestige": {
-          "idProduct": 915540,
+          "idProduct": 915539,
           "card_number": 890,
           "avg": null,
           "low": null,
@@ -184147,8 +184131,24 @@
           "avg30_foil": null
         },
         "serialized_prestige": {
-          "idProduct": 915630,
+          "idProduct": 915540,
           "card_number": 938,
+          "avg": null,
+          "low": null,
+          "trend": null,
+          "avg_foil": null,
+          "low_foil": null,
+          "trend_foil": null,
+          "avg1": null,
+          "avg7": null,
+          "avg30": null,
+          "avg1_foil": null,
+          "avg7_foil": null,
+          "avg30_foil": null
+        },
+        "hyperspace_foil": {
+          "idProduct": 915630,
+          "card_number": 684,
           "avg": null,
           "low": 14.99,
           "trend": null,
@@ -184929,9 +184929,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "standard_prestige": {
           "idProduct": 915353,
-          "card_number": 697,
+          "card_number": 830,
           "avg": null,
           "low": 8.99,
           "trend": null,
@@ -184945,9 +184945,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "standard_prestige": {
+        "foil_prestige": {
           "idProduct": 915492,
-          "card_number": 830,
+          "card_number": 878,
           "avg": null,
           "low": 50,
           "trend": null,
@@ -184961,9 +184961,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "foil_prestige": {
+        "serialized_prestige": {
           "idProduct": 915493,
-          "card_number": 878,
+          "card_number": 926,
           "avg": null,
           "low": null,
           "trend": null,
@@ -184977,9 +184977,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "serialized_prestige": {
+        "hyperspace_foil": {
           "idProduct": 915643,
-          "card_number": 926,
+          "card_number": 697,
           "avg": 0.1,
           "low": 0.1,
           "trend": 0.1,
@@ -185040,9 +185040,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "standard_prestige": {
           "idProduct": 915354,
-          "card_number": 698,
+          "card_number": 831,
           "avg": 19.99,
           "low": 21,
           "trend": 19.99,
@@ -185056,9 +185056,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "standard_prestige": {
+        "foil_prestige": {
           "idProduct": 915494,
-          "card_number": 831,
+          "card_number": 879,
           "avg": null,
           "low": 49.9,
           "trend": null,
@@ -185072,9 +185072,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "foil_prestige": {
+        "serialized_prestige": {
           "idProduct": 915495,
-          "card_number": 879,
+          "card_number": 927,
           "avg": null,
           "low": null,
           "trend": null,
@@ -185088,9 +185088,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "serialized_prestige": {
+        "hyperspace_foil": {
           "idProduct": 915644,
-          "card_number": 927,
+          "card_number": 698,
           "avg": null,
           "low": 13,
           "trend": null,
@@ -185571,9 +185571,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "standard_prestige": {
           "idProduct": 915379,
-          "card_number": 706,
+          "card_number": 846,
           "avg": null,
           "low": 5.88,
           "trend": null,
@@ -185587,9 +185587,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "standard_prestige": {
+        "foil_prestige": {
           "idProduct": 915551,
-          "card_number": 846,
+          "card_number": 894,
           "avg": null,
           "low": 12,
           "trend": null,
@@ -185603,9 +185603,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "foil_prestige": {
+        "serialized_prestige": {
           "idProduct": 915553,
-          "card_number": 894,
+          "card_number": 942,
           "avg": null,
           "low": null,
           "trend": null,
@@ -185619,9 +185619,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "serialized_prestige": {
+        "hyperspace_foil": {
           "idProduct": 915652,
-          "card_number": 942,
+          "card_number": 706,
           "avg": null,
           "low": 7,
           "trend": null,
@@ -186342,9 +186342,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "standard_prestige": {
           "idProduct": 915380,
-          "card_number": 718,
+          "card_number": 847,
           "avg": 9.99,
           "low": 9,
           "trend": 9.99,
@@ -186358,9 +186358,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "standard_prestige": {
+        "foil_prestige": {
           "idProduct": 915555,
-          "card_number": 847,
+          "card_number": 895,
           "avg": null,
           "low": 45,
           "trend": null,
@@ -186374,9 +186374,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "foil_prestige": {
+        "serialized_prestige": {
           "idProduct": 915557,
-          "card_number": 895,
+          "card_number": 943,
           "avg": null,
           "low": null,
           "trend": null,
@@ -186390,9 +186390,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "serialized_prestige": {
+        "hyperspace_foil": {
           "idProduct": 915664,
-          "card_number": 943,
+          "card_number": 718,
           "avg": null,
           "low": 21.95,
           "trend": null,
@@ -186513,9 +186513,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "standard_prestige": {
           "idProduct": 915371,
-          "card_number": 720,
+          "card_number": 839,
           "avg": null,
           "low": 10,
           "trend": null,
@@ -186529,9 +186529,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "standard_prestige": {
+        "foil_prestige": {
           "idProduct": 915533,
-          "card_number": 839,
+          "card_number": 887,
           "avg": null,
           "low": 15,
           "trend": null,
@@ -186545,9 +186545,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "foil_prestige": {
+        "serialized_prestige": {
           "idProduct": 915534,
-          "card_number": 887,
+          "card_number": 935,
           "avg": null,
           "low": null,
           "trend": null,
@@ -186561,9 +186561,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "serialized_prestige": {
+        "hyperspace_foil": {
           "idProduct": 915666,
-          "card_number": 935,
+          "card_number": 720,
           "avg": null,
           "low": 1.95,
           "trend": null,
@@ -186684,9 +186684,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "standard_prestige": {
           "idProduct": 915343,
-          "card_number": 722,
+          "card_number": 820,
           "avg": 5,
           "low": 3.99,
           "trend": 5,
@@ -186700,9 +186700,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "standard_prestige": {
+        "foil_prestige": {
           "idProduct": 915472,
-          "card_number": 820,
+          "card_number": 868,
           "avg": null,
           "low": 12,
           "trend": null,
@@ -186716,9 +186716,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "foil_prestige": {
+        "serialized_prestige": {
           "idProduct": 915473,
-          "card_number": 868,
+          "card_number": 916,
           "avg": null,
           "low": 1500,
           "trend": null,
@@ -186732,9 +186732,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "serialized_prestige": {
+        "hyperspace_foil": {
           "idProduct": 915668,
-          "card_number": 916,
+          "card_number": 722,
           "avg": null,
           "low": 9.75,
           "trend": null,
@@ -187995,9 +187995,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "standard_prestige": {
           "idProduct": 915355,
-          "card_number": 743,
+          "card_number": 832,
           "avg": null,
           "low": 2,
           "trend": null,
@@ -188011,24 +188011,8 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "standard_prestige": {
-          "idProduct": 915496,
-          "card_number": 832,
-          "avg": null,
-          "low": null,
-          "trend": null,
-          "avg_foil": null,
-          "low_foil": null,
-          "trend_foil": null,
-          "avg1": null,
-          "avg7": null,
-          "avg30": null,
-          "avg1_foil": null,
-          "avg7_foil": null,
-          "avg30_foil": null
-        },
         "foil_prestige": {
-          "idProduct": 915497,
+          "idProduct": 915496,
           "card_number": 880,
           "avg": null,
           "low": null,
@@ -188044,8 +188028,24 @@
           "avg30_foil": null
         },
         "serialized_prestige": {
-          "idProduct": 915690,
+          "idProduct": 915497,
           "card_number": 928,
+          "avg": null,
+          "low": null,
+          "trend": null,
+          "avg_foil": null,
+          "low_foil": null,
+          "trend_foil": null,
+          "avg1": null,
+          "avg7": null,
+          "avg30": null,
+          "avg1_foil": null,
+          "avg7_foil": null,
+          "avg30_foil": null
+        },
+        "hyperspace_foil": {
+          "idProduct": 915690,
+          "card_number": 743,
           "avg": null,
           "low": 1.84,
           "trend": null,
@@ -188106,9 +188106,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "standard_prestige": {
           "idProduct": 915358,
-          "card_number": 744,
+          "card_number": 833,
           "avg": null,
           "low": 19.74,
           "trend": null,
@@ -188122,24 +188122,8 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "standard_prestige": {
-          "idProduct": 915498,
-          "card_number": 833,
-          "avg": null,
-          "low": null,
-          "trend": null,
-          "avg_foil": null,
-          "low_foil": null,
-          "trend_foil": null,
-          "avg1": null,
-          "avg7": null,
-          "avg30": null,
-          "avg1_foil": null,
-          "avg7_foil": null,
-          "avg30_foil": null
-        },
         "foil_prestige": {
-          "idProduct": 915499,
+          "idProduct": 915498,
           "card_number": 881,
           "avg": null,
           "low": null,
@@ -188155,8 +188139,24 @@
           "avg30_foil": null
         },
         "serialized_prestige": {
-          "idProduct": 915689,
+          "idProduct": 915499,
           "card_number": 929,
+          "avg": null,
+          "low": null,
+          "trend": null,
+          "avg_foil": null,
+          "low_foil": null,
+          "trend_foil": null,
+          "avg1": null,
+          "avg7": null,
+          "avg30": null,
+          "avg1_foil": null,
+          "avg7_foil": null,
+          "avg30_foil": null
+        },
+        "hyperspace_foil": {
+          "idProduct": 915689,
+          "card_number": 744,
           "avg": null,
           "low": 48.95,
           "trend": null,
@@ -189357,9 +189357,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "standard_prestige": {
           "idProduct": 915344,
-          "card_number": 764,
+          "card_number": 821,
           "avg": null,
           "low": 11.5,
           "trend": null,
@@ -189373,9 +189373,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "standard_prestige": {
+        "foil_prestige": {
           "idProduct": 915474,
-          "card_number": 821,
+          "card_number": 869,
           "avg": null,
           "low": 14.99,
           "trend": null,
@@ -189389,9 +189389,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "foil_prestige": {
+        "serialized_prestige": {
           "idProduct": 915475,
-          "card_number": 869,
+          "card_number": 917,
           "avg": null,
           "low": null,
           "trend": null,
@@ -189405,9 +189405,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "serialized_prestige": {
+        "hyperspace_foil": {
           "idProduct": 915710,
-          "card_number": 917,
+          "card_number": 764,
           "avg": null,
           "low": 2.99,
           "trend": null,
@@ -189768,9 +189768,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "hyperspace_foil": {
+        "standard_prestige": {
           "idProduct": 915381,
-          "card_number": 770,
+          "card_number": 848,
           "avg": null,
           "low": 6.95,
           "trend": null,
@@ -189784,9 +189784,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "standard_prestige": {
+        "foil_prestige": {
           "idProduct": 915560,
-          "card_number": 848,
+          "card_number": 896,
           "avg": null,
           "low": 12.99,
           "trend": null,
@@ -189800,9 +189800,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "foil_prestige": {
+        "serialized_prestige": {
           "idProduct": 915563,
-          "card_number": 896,
+          "card_number": 944,
           "avg": null,
           "low": null,
           "trend": null,
@@ -189816,9 +189816,9 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "serialized_prestige": {
+        "hyperspace_foil": {
           "idProduct": 915716,
-          "card_number": 944,
+          "card_number": 770,
           "avg": null,
           "low": 5,
           "trend": null,
