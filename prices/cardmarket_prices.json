@@ -190564,7 +190564,7 @@
         "Weekly Play Foil"
       ],
       "prices": {
-        "weekly_play": {
+        "weekly_play_foil": {
           "idProduct": 915747,
           "avg": null,
           "low": 5,
@@ -190579,7 +190579,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "weekly_play_foil": {
+        "weekly_play": {
           "idProduct": 915817,
           "avg": null,
           "low": 2.99,
@@ -190606,7 +190606,7 @@
         "Weekly Play Foil"
       ],
       "prices": {
-        "weekly_play": {
+        "weekly_play_foil": {
           "idProduct": 915798,
           "avg": null,
           "low": 5,
@@ -190621,7 +190621,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "weekly_play_foil": {
+        "weekly_play": {
           "idProduct": 915818,
           "avg": null,
           "low": 3,
@@ -190662,21 +190662,6 @@
           "avg1_foil": null,
           "avg7_foil": null,
           "avg30_foil": null
-        },
-        "weekly_play_foil": {
-          "idProduct": 915819,
-          "avg": null,
-          "low": 0.9,
-          "trend": null,
-          "avg_foil": null,
-          "low_foil": null,
-          "trend_foil": null,
-          "avg1": null,
-          "avg7": null,
-          "avg30": null,
-          "avg1_foil": null,
-          "avg7_foil": null,
-          "avg30_foil": null
         }
       }
     },
@@ -190690,7 +190675,7 @@
         "Weekly Play Foil"
       ],
       "prices": {
-        "weekly_play": {
+        "weekly_play_foil": {
           "idProduct": 915800,
           "avg": null,
           "low": 2,
@@ -190705,7 +190690,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "weekly_play_foil": {
+        "weekly_play": {
           "idProduct": 915820,
           "avg": null,
           "low": 0.9,
@@ -190732,7 +190717,7 @@
         "Weekly Play Foil"
       ],
       "prices": {
-        "weekly_play": {
+        "weekly_play_foil": {
           "idProduct": 915801,
           "avg": null,
           "low": 1,
@@ -190747,7 +190732,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "weekly_play_foil": {
+        "weekly_play": {
           "idProduct": 915821,
           "avg": null,
           "low": 0.09,
@@ -190774,7 +190759,7 @@
         "Weekly Play Foil"
       ],
       "prices": {
-        "weekly_play": {
+        "weekly_play_foil": {
           "idProduct": 915802,
           "avg": null,
           "low": 3,
@@ -190789,7 +190774,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "weekly_play_foil": {
+        "weekly_play": {
           "idProduct": 915822,
           "avg": null,
           "low": 8,
@@ -190816,7 +190801,7 @@
         "Weekly Play Foil"
       ],
       "prices": {
-        "weekly_play": {
+        "weekly_play_foil": {
           "idProduct": 915803,
           "avg": 1,
           "low": 0.2,
@@ -190831,7 +190816,7 @@
           "avg7_foil": 1,
           "avg30_foil": 1
         },
-        "weekly_play_foil": {
+        "weekly_play": {
           "idProduct": 915823,
           "avg": null,
           "low": 0.09,
@@ -190858,7 +190843,7 @@
         "Weekly Play Foil"
       ],
       "prices": {
-        "weekly_play": {
+        "weekly_play_foil": {
           "idProduct": 915804,
           "avg": null,
           "low": 3,
@@ -190873,7 +190858,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "weekly_play_foil": {
+        "weekly_play": {
           "idProduct": 915824,
           "avg": null,
           "low": 1,
@@ -190914,21 +190899,6 @@
           "avg1_foil": null,
           "avg7_foil": null,
           "avg30_foil": null
-        },
-        "weekly_play_foil": {
-          "idProduct": 915825,
-          "avg": null,
-          "low": 3.75,
-          "trend": null,
-          "avg_foil": null,
-          "low_foil": null,
-          "trend_foil": null,
-          "avg1": null,
-          "avg7": null,
-          "avg30": null,
-          "avg1_foil": null,
-          "avg7_foil": null,
-          "avg30_foil": null
         }
       }
     },
@@ -190942,7 +190912,7 @@
         "Weekly Play Foil"
       ],
       "prices": {
-        "weekly_play": {
+        "weekly_play_foil": {
           "idProduct": 915806,
           "avg": 4,
           "low": 4,
@@ -190957,7 +190927,7 @@
           "avg7_foil": 4,
           "avg30_foil": 4
         },
-        "weekly_play_foil": {
+        "weekly_play": {
           "idProduct": 915826,
           "avg": null,
           "low": 1.99,
@@ -190984,7 +190954,7 @@
         "Weekly Play Foil"
       ],
       "prices": {
-        "weekly_play": {
+        "weekly_play_foil": {
           "idProduct": 915807,
           "avg": null,
           "low": 30,
@@ -190999,7 +190969,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "weekly_play_foil": {
+        "weekly_play": {
           "idProduct": 915827,
           "avg": null,
           "low": 15,
@@ -191026,7 +190996,7 @@
         "Weekly Play Foil"
       ],
       "prices": {
-        "weekly_play": {
+        "weekly_play_foil": {
           "idProduct": 915808,
           "avg": null,
           "low": 3,
@@ -191041,7 +191011,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "weekly_play_foil": {
+        "weekly_play": {
           "idProduct": 915828,
           "avg": null,
           "low": 2.5,
@@ -191068,7 +191038,7 @@
         "Weekly Play Foil"
       ],
       "prices": {
-        "weekly_play": {
+        "weekly_play_foil": {
           "idProduct": 915809,
           "avg": null,
           "low": 9.9,
@@ -191083,7 +191053,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "weekly_play_foil": {
+        "weekly_play": {
           "idProduct": 915829,
           "avg": null,
           "low": 2,
@@ -191110,7 +191080,7 @@
         "Weekly Play Foil"
       ],
       "prices": {
-        "weekly_play": {
+        "weekly_play_foil": {
           "idProduct": 915810,
           "avg": 2,
           "low": 2,
@@ -191125,7 +191095,7 @@
           "avg7_foil": 2,
           "avg30_foil": 2
         },
-        "weekly_play_foil": {
+        "weekly_play": {
           "idProduct": 915830,
           "avg": null,
           "low": 0.2,
@@ -191152,7 +191122,7 @@
         "Weekly Play Foil"
       ],
       "prices": {
-        "weekly_play": {
+        "weekly_play_foil": {
           "idProduct": 915811,
           "avg": 5,
           "low": 4,
@@ -191167,7 +191137,7 @@
           "avg7_foil": 4,
           "avg30_foil": 4
         },
-        "weekly_play_foil": {
+        "weekly_play": {
           "idProduct": 915831,
           "avg": null,
           "low": 2,
@@ -191194,7 +191164,7 @@
         "Weekly Play Foil"
       ],
       "prices": {
-        "weekly_play": {
+        "weekly_play_foil": {
           "idProduct": 915812,
           "avg": 1,
           "low": 0.2,
@@ -191209,7 +191179,7 @@
           "avg7_foil": 1,
           "avg30_foil": 1
         },
-        "weekly_play_foil": {
+        "weekly_play": {
           "idProduct": 915832,
           "avg": null,
           "low": 0.1,
@@ -191236,7 +191206,7 @@
         "Weekly Play Foil"
       ],
       "prices": {
-        "weekly_play": {
+        "weekly_play_foil": {
           "idProduct": 915813,
           "avg": null,
           "low": 3,
@@ -191251,7 +191221,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "weekly_play_foil": {
+        "weekly_play": {
           "idProduct": 915833,
           "avg": null,
           "low": 1.9,
@@ -191278,7 +191248,7 @@
         "Weekly Play Foil"
       ],
       "prices": {
-        "weekly_play": {
+        "weekly_play_foil": {
           "idProduct": 915814,
           "avg": 1,
           "low": 3,
@@ -191293,7 +191263,7 @@
           "avg7_foil": 1,
           "avg30_foil": 1
         },
-        "weekly_play_foil": {
+        "weekly_play": {
           "idProduct": 915834,
           "avg": 2.94,
           "low": 2,
@@ -191320,7 +191290,7 @@
         "Weekly Play Foil"
       ],
       "prices": {
-        "weekly_play": {
+        "weekly_play_foil": {
           "idProduct": 915815,
           "avg": 1,
           "low": 4,
@@ -191335,7 +191305,7 @@
           "avg7_foil": 1,
           "avg30_foil": 1
         },
-        "weekly_play_foil": {
+        "weekly_play": {
           "idProduct": 915835,
           "avg": null,
           "low": 0.05,
@@ -191362,7 +191332,7 @@
         "Weekly Play Foil"
       ],
       "prices": {
-        "weekly_play": {
+        "weekly_play_foil": {
           "idProduct": 915816,
           "avg": null,
           "low": 1,
@@ -191377,7 +191347,7 @@
           "avg7_foil": null,
           "avg30_foil": null
         },
-        "weekly_play_foil": {
+        "weekly_play": {
           "idProduct": 915836,
           "avg": null,
           "low": 0.5,
