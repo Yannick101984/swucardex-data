@@ -65,14 +65,6 @@
   },
   {
     "set_code": "HMWP",
-    "en_name": "Yanna, Sanctuary Elder",
-    "card_number": 23,
-    "variant_type": "Weekly Play Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMWP",
     "en_name": "Zam Wesell, Not What She Seems",
     "card_number": 29,
     "variant_type": "Weekly Play Foil",
@@ -641,6 +633,14 @@
   },
   {
     "set_code": "SHD",
+    "en_name": "Sundari Peacekeeper",
+    "card_number": 367,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
     "en_name": "The Marauder, Shuttling the Bad Batch",
     "card_number": 371,
     "variant_type": "Hyperspace",
@@ -721,14 +721,6 @@
   },
   {
     "set_code": "SHD",
-    "en_name": "Liberated Slaves",
-    "card_number": 468,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
     "en_name": "Spare the Target",
     "card_number": 474,
     "variant_type": "Hyperspace",
@@ -747,14 +739,6 @@
     "set_code": "SHD",
     "en_name": "Smuggler's Starfighter",
     "card_number": 483,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Tobias Beckett, I Trust No One",
-    "card_number": 485,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -985,6 +969,22 @@
   },
   {
     "set_code": "SOR",
+    "en_name": "Kanan Jarrus, Revealed Jedi",
+    "card_number": 313,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
+    "en_name": "Rugged Survivors",
+    "card_number": 332,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
     "en_name": "Cargo Juggernaut",
     "card_number": 333,
     "variant_type": "Hyperspace",
@@ -1019,14 +1019,6 @@
     "set_code": "SOR",
     "en_name": "General Krell, Heartless Tactician",
     "card_number": 369,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "Hardpoint Heavy Blaster",
-    "card_number": 385,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
