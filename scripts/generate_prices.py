@@ -573,16 +573,7 @@ for key, swu_info in swu_cards.items():
     else:
         std_key, foil_key = "standard", "standard_foil"
 
-    # Weekly Play (JTLP+) : Cardmarket crée 2 produits par carte, V1 (idProduct le plus bas) =
-    # non-foil, V2 = foil. Constaté sur 100/100 cartes JTLP/LOFP/SECP/LAWP/ASHP et confirmé sur
-    # Cardmarket pour HMWP (Eravana V1/V2). Les champs de prix ne suffisent pas à les distinguer :
-    # sur HMWP, le produit non-foil porte des prix foil → foil/non-foil inversés par la règle générale.
-    weekly_pair = is_weekly and std_key is not None and len(cm_data["standard"]) == 2
-    if weekly_pair:
-        (id_nf, pr_nf, _), (id_f, pr_f, _) = sorted(cm_data["standard"], key=lambda x: x[0])
-        prices_out[std_key]  = {"idProduct": id_nf, **price_entry(pr_nf)}
-        prices_out[foil_key] = {"idProduct": id_f,  **price_entry(pr_f)}
-    elif std_key is not None:
+    if std_key is not None:
         for idp, pr, _ in sorted(cm_data["standard"], key=lambda x: x[0]):
             if is_foil_only(pr):
                 if foil_key not in prices_out:
