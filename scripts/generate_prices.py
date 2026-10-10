@@ -100,6 +100,11 @@ EXPANSION_MAP_CONFIRMED = {
                                  # cartes ASH, score de similarité 20/20 identique
                                  # pour ASH et ASHP, "ASH" gagnait par hasard d'ordre
                                  # d'itération — polluait aussi 15 prix ASH)
+    # HMW
+    6759: ("HMW",  "standard"), 6788: ("HMW",  "variants"),
+    6798: ("HMWP", "standard"), # "Homeworlds Organized Play" (Weekly Play HMW) : même
+                                 # erreur d'auto-détection que ASHP (classée HMW variants) —
+                                 # laissait les 40 cartes HMWP sans prix et polluait 3 prix HMW
 }
 
 # Priorité de set pour les expansions multi-sets (premier set prioritaire)
@@ -156,6 +161,16 @@ _STD_EXP_VT  = {"Standard", "Standard Foil"}
 _VAR_EXP_VT  = {
     "Hyperspace", "Hyperspace Foil", "Showcase",
     "Standard Prestige", "Foil Prestige", "Serialized Prestige",
+}
+
+# Ordre de création des produits CM (idProduct croissant) par carte, quand il diffère
+# de l'ordre des numéros SWU (défaut : HS, HSF, Showcase, Prestige… par numéro).
+# HMW : Cardmarket a créé les Hyperspace Foil en dernier. Confirmé sur Cardmarket
+# (adresses d'image) pour Yanna, Sanctuary Elder : HS #915051, SP #915320,
+# FP #915444, Ser #915445, HSF #915500 ; cohérent foil/non-foil sur 48/48 cartes Prestige.
+_CM_VARIANT_ORDER = {
+    "HMW": ["Hyperspace", "Showcase", "Standard Prestige", "Foil Prestige",
+            "Serialized Prestige", "Hyperspace Foil"],
 }
 
 # Pour les anciens sets (SOR/SHD/TWI)
@@ -671,6 +686,10 @@ for key, swu_info in swu_cards.items():
         expected_variants = [
             (cn, vt) for cn, vt in all_variants if vt in _VAR_EXP_VT
         ]
+        if set_code in _CM_VARIANT_ORDER:
+            # Tri stable : l'ordre des numéros est conservé à variante égale
+            _order = _CM_VARIANT_ORDER[set_code]
+            expected_variants.sort(key=lambda x: _order.index(x[1]) if x[1] in _order else len(_order))
 
         # Si plus de produits CM que de variantes SWU (ex : bases multi-tokens)
         # → favoriser les produits avec des données de prix
@@ -729,11 +748,21 @@ if manual_overrides:
     applied = 0
     for (sc, n, pk), idp in manual_overrides.items():
         pr = cm_prices.get(idp, {})
-        pe = {"idProduct": idp, **price_entry(pr)}
+        # Variante foil sur un produit mixte (foil + non-foil) : prix foil promus,
+        # comme le fait le matching automatique (cf. foil_price_entry)
+        if "foil" in pk and pr and not is_foil_only(pr) and _has_foil_price(pr):
+            pe = {"idProduct": idp, **foil_price_entry(pr)}
+        else:
+            pe = {"idProduct": idp, **price_entry(pr)}
         if (sc, n) in pt_idx:
-            if pk not in pt_idx[(sc, n)]["prices"]:
-                pt_idx[(sc, n)]["prices"][pk] = pe
-                applied += 1
+            # L'override manuel est prioritaire : il remplace un mapping automatique
+            # éventuellement faux (on conserve card_number s'il était présent)
+            existing = pt_idx[(sc, n)]["prices"].get(pk)
+            if existing and "card_number" in existing:
+                pe = {"idProduct": idp, "card_number": existing["card_number"],
+                      **{k: v for k, v in pe.items() if k != "idProduct"}}
+            pt_idx[(sc, n)]["prices"][pk] = pe
+            applied += 1
         else:
             # Carte entièrement absente du price_table → la créer
             swu_key = (sc, n)
@@ -897,10 +926,18 @@ if os.path.exists(MANUAL_PATH):
 
 # Fusionne : entrées non couvertes + overrides préservés
 manual_result = []
+used_manual_keys = set()
 for entry in uncovered_entries:
     pk = _VT_TO_KEY.get(entry["variant_type"], entry["variant_type"].lower().replace(" ", "_"))
     k  = (entry["set_code"], normalize(entry["en_name"]), pk)
+    if k in existing_manual_map:
+        used_manual_keys.add(k)
     manual_result.append(existing_manual_map.get(k, entry))
+
+# Les overrides renseignés sont conservés même si la variante est désormais couverte
+# (c'est justement l'override qui la couvre) — sinon ils seraient perdus au run suivant
+manual_result.extend(m for k, m in existing_manual_map.items() if k not in used_manual_keys)
+manual_result.sort(key=lambda x: (x["set_code"], x.get("card_number") or 0))
 
 with open(MANUAL_PATH, "w") as f:
     json.dump(manual_result, f, ensure_ascii=False, indent=2)
