@@ -65,320 +65,8 @@
   },
   {
     "set_code": "HMWP",
-    "en_name": "Eravana, Hauling Rathtars",
-    "card_number": 1,
-    "variant_type": "Weekly Play",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMWP",
-    "en_name": "Scorch, Imperial Commando",
-    "card_number": 2,
-    "variant_type": "Weekly Play",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMWP",
-    "en_name": "Yanna, Sanctuary Elder",
-    "card_number": 3,
-    "variant_type": "Weekly Play",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMWP",
-    "en_name": "Batcher, Loyal Hound",
-    "card_number": 4,
-    "variant_type": "Weekly Play",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMWP",
-    "en_name": "Gunga City Guard",
-    "card_number": 5,
-    "variant_type": "Weekly Play",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMWP",
-    "en_name": "Always a Bigger Fish",
-    "card_number": 6,
-    "variant_type": "Weekly Play",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMWP",
-    "en_name": "Invasion Lander",
-    "card_number": 7,
-    "variant_type": "Weekly Play",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMWP",
-    "en_name": "Boga, Loyal Varactyl",
-    "card_number": 8,
-    "variant_type": "Weekly Play",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMWP",
-    "en_name": "Zam Wesell, Not What She Seems",
-    "card_number": 9,
-    "variant_type": "Weekly Play",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMWP",
-    "en_name": "Arena Acklay, Screaming Predator",
-    "card_number": 10,
-    "variant_type": "Weekly Play",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMWP",
-    "en_name": "General Grievous, Scourge of Dathomir",
-    "card_number": 11,
-    "variant_type": "Weekly Play",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMWP",
-    "en_name": "Teebo, Striped Hunter",
-    "card_number": 12,
-    "variant_type": "Weekly Play",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMWP",
-    "en_name": "Chief Chirpa, Defiant Elder",
-    "card_number": 13,
-    "variant_type": "Weekly Play",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMWP",
-    "en_name": "Adamant Ewoks",
-    "card_number": 14,
-    "variant_type": "Weekly Play",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMWP",
-    "en_name": "Inferno Squad, We Can Grieve Later",
-    "card_number": 15,
-    "variant_type": "Weekly Play",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMWP",
-    "en_name": "Tribubble Bongo Sub",
-    "card_number": 16,
-    "variant_type": "Weekly Play",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMWP",
-    "en_name": "Don't Touch Anything",
-    "card_number": 17,
-    "variant_type": "Weekly Play",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMWP",
-    "en_name": "New Tactics",
-    "card_number": 18,
-    "variant_type": "Weekly Play",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMWP",
-    "en_name": "Tusken Raider",
-    "card_number": 19,
-    "variant_type": "Weekly Play",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMWP",
-    "en_name": "Trandoshan Collaborator",
-    "card_number": 20,
-    "variant_type": "Weekly Play",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMWP",
-    "en_name": "Eravana, Hauling Rathtars",
-    "card_number": 21,
-    "variant_type": "Weekly Play Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMWP",
-    "en_name": "Scorch, Imperial Commando",
-    "card_number": 22,
-    "variant_type": "Weekly Play Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMWP",
-    "en_name": "Yanna, Sanctuary Elder",
-    "card_number": 23,
-    "variant_type": "Weekly Play Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMWP",
-    "en_name": "Batcher, Loyal Hound",
-    "card_number": 24,
-    "variant_type": "Weekly Play Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMWP",
-    "en_name": "Gunga City Guard",
-    "card_number": 25,
-    "variant_type": "Weekly Play Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMWP",
-    "en_name": "Always a Bigger Fish",
-    "card_number": 26,
-    "variant_type": "Weekly Play Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMWP",
-    "en_name": "Invasion Lander",
-    "card_number": 27,
-    "variant_type": "Weekly Play Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMWP",
-    "en_name": "Boga, Loyal Varactyl",
-    "card_number": 28,
-    "variant_type": "Weekly Play Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMWP",
     "en_name": "Zam Wesell, Not What She Seems",
     "card_number": 29,
-    "variant_type": "Weekly Play Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMWP",
-    "en_name": "Arena Acklay, Screaming Predator",
-    "card_number": 30,
-    "variant_type": "Weekly Play Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMWP",
-    "en_name": "General Grievous, Scourge of Dathomir",
-    "card_number": 31,
-    "variant_type": "Weekly Play Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMWP",
-    "en_name": "Teebo, Striped Hunter",
-    "card_number": 32,
-    "variant_type": "Weekly Play Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMWP",
-    "en_name": "Chief Chirpa, Defiant Elder",
-    "card_number": 33,
-    "variant_type": "Weekly Play Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMWP",
-    "en_name": "Adamant Ewoks",
-    "card_number": 34,
-    "variant_type": "Weekly Play Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMWP",
-    "en_name": "Inferno Squad, We Can Grieve Later",
-    "card_number": 35,
-    "variant_type": "Weekly Play Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMWP",
-    "en_name": "Tribubble Bongo Sub",
-    "card_number": 36,
-    "variant_type": "Weekly Play Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMWP",
-    "en_name": "Don't Touch Anything",
-    "card_number": 37,
-    "variant_type": "Weekly Play Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMWP",
-    "en_name": "New Tactics",
-    "card_number": 38,
-    "variant_type": "Weekly Play Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMWP",
-    "en_name": "Tusken Raider",
-    "card_number": 39,
-    "variant_type": "Weekly Play Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "HMWP",
-    "en_name": "Trandoshan Collaborator",
-    "card_number": 40,
     "variant_type": "Weekly Play Foil",
     "idProduct": null,
     "note": ""
@@ -945,6 +633,14 @@
   },
   {
     "set_code": "SHD",
+    "en_name": "Sundari Peacekeeper",
+    "card_number": 367,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
     "en_name": "The Marauder, Shuttling the Bad Batch",
     "card_number": 371,
     "variant_type": "Hyperspace",
@@ -1025,14 +721,6 @@
   },
   {
     "set_code": "SHD",
-    "en_name": "Liberated Slaves",
-    "card_number": 468,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
     "en_name": "Spare the Target",
     "card_number": 474,
     "variant_type": "Hyperspace",
@@ -1051,14 +739,6 @@
     "set_code": "SHD",
     "en_name": "Smuggler's Starfighter",
     "card_number": 483,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Tobias Beckett, I Trust No One",
-    "card_number": 485,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -1289,6 +969,22 @@
   },
   {
     "set_code": "SOR",
+    "en_name": "Kanan Jarrus, Revealed Jedi",
+    "card_number": 313,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
+    "en_name": "Rugged Survivors",
+    "card_number": 332,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
     "en_name": "Cargo Juggernaut",
     "card_number": 333,
     "variant_type": "Hyperspace",
@@ -1323,14 +1019,6 @@
     "set_code": "SOR",
     "en_name": "General Krell, Heartless Tactician",
     "card_number": 369,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "Hardpoint Heavy Blaster",
-    "card_number": 385,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
