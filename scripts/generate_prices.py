@@ -163,6 +163,16 @@ _VAR_EXP_VT  = {
     "Standard Prestige", "Foil Prestige", "Serialized Prestige",
 }
 
+# Ordre de création des produits CM (idProduct croissant) par carte, quand il diffère
+# de l'ordre des numéros SWU (défaut : HS, HSF, Showcase, Prestige… par numéro).
+# HMW : Cardmarket a créé les Hyperspace Foil en dernier. Confirmé sur Cardmarket
+# (adresses d'image) pour Yanna, Sanctuary Elder : HS #915051, SP #915320,
+# FP #915444, Ser #915445, HSF #915500 ; cohérent foil/non-foil sur 48/48 cartes Prestige.
+_CM_VARIANT_ORDER = {
+    "HMW": ["Hyperspace", "Showcase", "Standard Prestige", "Foil Prestige",
+            "Serialized Prestige", "Hyperspace Foil"],
+}
+
 # Pour les anciens sets (SOR/SHD/TWI)
 _OLD_VT_NONFOIL_ORDER  = ["Hyperspace", "Standard Prestige"]
 _OLD_VT_FOIL_ORDER     = ["Showcase", "Hyperspace Foil", "Foil Prestige", "Serialized Prestige"]
@@ -676,6 +686,10 @@ for key, swu_info in swu_cards.items():
         expected_variants = [
             (cn, vt) for cn, vt in all_variants if vt in _VAR_EXP_VT
         ]
+        if set_code in _CM_VARIANT_ORDER:
+            # Tri stable : l'ordre des numéros est conservé à variante égale
+            _order = _CM_VARIANT_ORDER[set_code]
+            expected_variants.sort(key=lambda x: _order.index(x[1]) if x[1] in _order else len(_order))
 
         # Si plus de produits CM que de variantes SWU (ex : bases multi-tokens)
         # → favoriser les produits avec des données de prix
