@@ -100,6 +100,11 @@ EXPANSION_MAP_CONFIRMED = {
                                  # cartes ASH, score de similarité 20/20 identique
                                  # pour ASH et ASHP, "ASH" gagnait par hasard d'ordre
                                  # d'itération — polluait aussi 15 prix ASH)
+    # HMW
+    6759: ("HMW",  "standard"), 6788: ("HMW",  "variants"),
+    6798: ("HMWP", "standard"), # "Homeworlds Organized Play" (Weekly Play HMW) : même
+                                 # erreur d'auto-détection que ASHP (classée HMW variants) —
+                                 # laissait les 40 cartes HMWP sans prix et polluait 3 prix HMW
 }
 
 # Priorité de set pour les expansions multi-sets (premier set prioritaire)
@@ -568,7 +573,16 @@ for key, swu_info in swu_cards.items():
     else:
         std_key, foil_key = "standard", "standard_foil"
 
-    if std_key is not None:
+    # Weekly Play (JTLP+) : Cardmarket crée 2 produits par carte, V1 (idProduct le plus bas) =
+    # non-foil, V2 = foil. Constaté sur 100/100 cartes JTLP/LOFP/SECP/LAWP/ASHP et confirmé sur
+    # Cardmarket pour HMWP (Eravana V1/V2). Les champs de prix ne suffisent pas à les distinguer :
+    # sur HMWP, le produit non-foil porte des prix foil → foil/non-foil inversés par la règle générale.
+    weekly_pair = is_weekly and std_key is not None and len(cm_data["standard"]) == 2
+    if weekly_pair:
+        (id_nf, pr_nf, _), (id_f, pr_f, _) = sorted(cm_data["standard"], key=lambda x: x[0])
+        prices_out[std_key]  = {"idProduct": id_nf, **price_entry(pr_nf)}
+        prices_out[foil_key] = {"idProduct": id_f,  **price_entry(pr_f)}
+    elif std_key is not None:
         for idp, pr, _ in sorted(cm_data["standard"], key=lambda x: x[0]):
             if is_foil_only(pr):
                 if foil_key not in prices_out:
@@ -729,11 +743,21 @@ if manual_overrides:
     applied = 0
     for (sc, n, pk), idp in manual_overrides.items():
         pr = cm_prices.get(idp, {})
-        pe = {"idProduct": idp, **price_entry(pr)}
+        # Variante foil sur un produit mixte (foil + non-foil) : prix foil promus,
+        # comme le fait le matching automatique (cf. foil_price_entry)
+        if "foil" in pk and pr and not is_foil_only(pr) and _has_foil_price(pr):
+            pe = {"idProduct": idp, **foil_price_entry(pr)}
+        else:
+            pe = {"idProduct": idp, **price_entry(pr)}
         if (sc, n) in pt_idx:
-            if pk not in pt_idx[(sc, n)]["prices"]:
-                pt_idx[(sc, n)]["prices"][pk] = pe
-                applied += 1
+            # L'override manuel est prioritaire : il remplace un mapping automatique
+            # éventuellement faux (on conserve card_number s'il était présent)
+            existing = pt_idx[(sc, n)]["prices"].get(pk)
+            if existing and "card_number" in existing:
+                pe = {"idProduct": idp, "card_number": existing["card_number"],
+                      **{k: v for k, v in pe.items() if k != "idProduct"}}
+            pt_idx[(sc, n)]["prices"][pk] = pe
+            applied += 1
         else:
             # Carte entièrement absente du price_table → la créer
             swu_key = (sc, n)
@@ -897,10 +921,18 @@ if os.path.exists(MANUAL_PATH):
 
 # Fusionne : entrées non couvertes + overrides préservés
 manual_result = []
+used_manual_keys = set()
 for entry in uncovered_entries:
     pk = _VT_TO_KEY.get(entry["variant_type"], entry["variant_type"].lower().replace(" ", "_"))
     k  = (entry["set_code"], normalize(entry["en_name"]), pk)
+    if k in existing_manual_map:
+        used_manual_keys.add(k)
     manual_result.append(existing_manual_map.get(k, entry))
+
+# Les overrides renseignés sont conservés même si la variante est désormais couverte
+# (c'est justement l'override qui la couvre) — sinon ils seraient perdus au run suivant
+manual_result.extend(m for k, m in existing_manual_map.items() if k not in used_manual_keys)
+manual_result.sort(key=lambda x: (x["set_code"], x.get("card_number") or 0))
 
 with open(MANUAL_PATH, "w") as f:
     json.dump(manual_result, f, ensure_ascii=False, indent=2)
