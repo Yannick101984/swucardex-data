@@ -180,6 +180,22 @@ Les variantes **Prestige** et **Serialized Prestige** sont couvertes à partir d
 
 ---
 
+## Annonces in-app
+
+| Fichier | Lu par | Contenu |
+|---|---|---|
+| `announcements.json` | iOS | annonces communes + annonces de mise à jour iOS (lien App Store) |
+| `announcements-android.json` | Android | annonces communes + annonces de mise à jour Android (lien Play Store) |
+
+- **Annonce de MAJ iOS** → `announcements.json` uniquement.
+- **Annonce de MAJ Android** → `announcements-android.json` uniquement.
+- **Annonce commune** (nouvelles cartes, règles, sets, soutien…) → les **deux** fichiers, avec le **même `id`**.
+  `scripts/sync_sets.py` le fait automatiquement pour les annonces de cartes et de règles.
+
+Même schéma pour les deux fichiers : tableau d'objets `id`, `title`, `detail`, `color`, `url`, `imageURL`, `date`, `changes`, le plus récent en premier.
+
+---
+
 ## URLs utilisées par l'app
 
 ```
@@ -187,4 +203,6 @@ Manifest    : https://raw.githubusercontent.com/Yannick101984/swucardex-data/mai
 Set JSON    : https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/{id}.json
 Prix actuels: https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/prices/cardmarket_prices.json
 Historique  : https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/prices/cardmarket_prices_history.json
+Annonces iOS     : https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/announcements.json
+Annonces Android : https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/announcements-android.json
 ```
