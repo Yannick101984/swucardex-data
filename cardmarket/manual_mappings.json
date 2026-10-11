@@ -617,14 +617,6 @@
   },
   {
     "set_code": "SHD",
-    "en_name": "Fell the Dragon",
-    "card_number": 351,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
     "en_name": "Freetown Backup",
     "card_number": 366,
     "variant_type": "Hyperspace",
@@ -665,8 +657,24 @@
   },
   {
     "set_code": "SHD",
-    "en_name": "Scanning Officer",
-    "card_number": 383,
+    "en_name": "Bounty Hunter's Quarry",
+    "card_number": 392,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
+    "en_name": "Choose Sides",
+    "card_number": 401,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
+    "en_name": "Jango Fett, Renowned Bounty Hunter",
+    "card_number": 407,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -683,14 +691,6 @@
     "set_code": "SHD",
     "en_name": "Poe Dameron, Quick to Improvise",
     "card_number": 422,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "The Chaos of War",
-    "card_number": 428,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -763,14 +763,6 @@
     "set_code": "SHD",
     "en_name": "Street Gang Recruiter",
     "card_number": 521,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Rich Reward",
-    "card_number": 522,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -1377,14 +1369,6 @@
   },
   {
     "set_code": "TWI",
-    "en_name": "Satine Kryze, Committed to Peace",
-    "card_number": 320,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
     "en_name": "Luminara Unduli, Soft-Spoken Master",
     "card_number": 323,
     "variant_type": "Hyperspace",
@@ -1433,6 +1417,14 @@
   },
   {
     "set_code": "TWI",
+    "en_name": "Darth Maul, Revenge At Last",
+    "card_number": 403,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
     "en_name": "Jyn Erso, Stardust",
     "card_number": 411,
     "variant_type": "Hyperspace",
@@ -1443,14 +1435,6 @@
     "set_code": "TWI",
     "en_name": "Jesse, Hard-Fighting Patriot",
     "card_number": 413,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "Saw Gerrera, Resistance is Not Terrorism",
-    "card_number": 417,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -1507,6 +1491,14 @@
     "set_code": "TWI",
     "en_name": "In Pursuit",
     "card_number": 486,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
+    "en_name": "Now There Are Two of Them",
+    "card_number": 490,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
