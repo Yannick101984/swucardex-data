@@ -993,14 +993,6 @@
   },
   {
     "set_code": "SOR",
-    "en_name": "Rukh, Thrawn's Assassin",
-    "card_number": 349,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
     "en_name": "Wedge Antilles, Star of the Rebellion",
     "card_number": 364,
     "variant_type": "Hyperspace Foil",
@@ -1089,24 +1081,8 @@
   },
   {
     "set_code": "SOR",
-    "en_name": "Ezra Bridger, Resourceful Troublemaker",
-    "card_number": 454,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
     "en_name": "Viper Probe Droid",
     "card_number": 489,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "General Veers, Blizzard Force Commander",
-    "card_number": 491,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
