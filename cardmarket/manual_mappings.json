@@ -395,6 +395,14 @@
     "set_code": "SHD",
     "en_name": "Moff Gideon, Formidable Commander",
     "card_number": 1,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
+    "en_name": "Moff Gideon, Formidable Commander",
+    "card_number": 1,
     "variant_type": "Prerelease Judge",
     "idProduct": null,
     "note": ""
@@ -577,14 +585,6 @@
   },
   {
     "set_code": "SHD",
-    "en_name": "Doctor Pershing, Experimenting With Life",
-    "card_number": 306,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
     "en_name": "Chewbacca, Pykesbane",
     "card_number": 325,
     "variant_type": "Hyperspace",
@@ -715,6 +715,14 @@
     "set_code": "SHD",
     "en_name": "Smuggler's Starfighter",
     "card_number": 483,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
+    "en_name": "Altering the Deal",
+    "card_number": 506,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -1305,6 +1313,14 @@
   },
   {
     "set_code": "TWI",
+    "en_name": "General Grievous, Trophy Collector",
+    "card_number": 307,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
     "en_name": "Luminara Unduli, Soft-Spoken Master",
     "card_number": 323,
     "variant_type": "Hyperspace",
@@ -1337,14 +1353,6 @@
   },
   {
     "set_code": "TWI",
-    "en_name": "Subjugating Starfighter",
-    "card_number": 382,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
     "en_name": "Resupply",
     "card_number": 395,
     "variant_type": "Hyperspace",
@@ -1371,14 +1379,6 @@
     "set_code": "TWI",
     "en_name": "Jesse, Hard-Fighting Patriot",
     "card_number": 413,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "Bold Recon Commando",
-    "card_number": 428,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
