@@ -1,5 +1,20 @@
 [
   {
+    "id": "ann-1792094099",
+    "title": "Nouveau set ajouté : Icons 2027 Edition - IC27",
+    "detail": null,
+    "color": "#888888",
+    "url": null,
+    "imageURL": null,
+    "date": "2026-10-15",
+    "changes": {
+      "added": [
+        "IC27"
+      ],
+      "updated": null
+    }
+  },
+  {
     "id": "ann-v1.5.0-update",
     "title": "v1.5.0 disponible ! Nouvel onglet Échange : wishlist, Bourse et partage par QR code",
     "detail": null,

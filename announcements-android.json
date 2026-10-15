@@ -1,5 +1,20 @@
 [
   {
+    "id": "ann-1792094099",
+    "title": "Nouveau set ajouté : Icons 2027 Edition - IC27",
+    "detail": null,
+    "color": "#888888",
+    "url": null,
+    "imageURL": null,
+    "date": "2026-10-15",
+    "changes": {
+      "added": [
+        "IC27"
+      ],
+      "updated": null
+    }
+  },
+  {
     "id": "ann-android-v1.5.0-update",
     "title": "v1.5.0 disponible !",
     "detail": "Nouveautés 1.5.0 :\n• Nouvel onglet Échange : wishlist, Bourse, partage QR/CSV\n• Statistiques : valeur détaillée, top par extension, nouveaux objectifs\n• Scanner plus fiable : prix, détail carte, mode Vérif. amélioré\n• Recherche sans accents, decks et import améliorés\n• Combat : sauvegarde fiable, compteur corrigé\n• Nombreuses corrections et une interface plus fluide\n\n👉 Touchez « En savoir plus » ci-dessous pour mettre à jour l'application sur le Play Store.",
