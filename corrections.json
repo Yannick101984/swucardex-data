@@ -31,7 +31,18 @@
       "apply": {},
       "migrate": {
         "from": "SOR-unknown-Cassian Andor-Hyperspace",
-        "to": "SOR-13-Cassian Andor-Hyperspace"
+        "to": "SOR-279-Cassian Andor-Hyperspace"
+      }
+    },
+    {
+      "match": {
+        "Set": "SOR",
+        "Number": "__addition__"
+      },
+      "apply": {},
+      "migrate": {
+        "from": "SOR-13-Cassian Andor-Hyperspace",
+        "to": "SOR-279-Cassian Andor-Hyperspace"
       }
     }
   ],
@@ -178,7 +189,7 @@
       "FrontArt": "https://starwarsunlimited.com/_next/image?url=https%3A%2F%2Fcdn.starwarsunlimited.com%2F%2FSWH_01_279_Cassian_Andor_Leader_HYP_970655d1c3.png&w=1200&q=75",
       "isMainCard": false,
       "parentCardId": "570",
-      "Number": "13"
+      "Number": "279"
     }
   ]
 }
