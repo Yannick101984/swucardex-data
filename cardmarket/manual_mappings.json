@@ -977,9 +977,25 @@
   },
   {
     "set_code": "SOR",
+    "en_name": "Admiral Piett, Captain of the Executor",
+    "card_number": 344,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
     "en_name": "Wedge Antilles, Star of the Rebellion",
     "card_number": 364,
     "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
+    "en_name": "Command",
+    "card_number": 371,
+    "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
   },
@@ -1025,14 +1041,6 @@
   },
   {
     "set_code": "SOR",
-    "en_name": "Precision Fire",
-    "card_number": 431,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
     "en_name": "Mission Briefing",
     "card_number": 434,
     "variant_type": "Hyperspace",
@@ -1043,14 +1051,6 @@
     "set_code": "SOR",
     "en_name": "Chimaera, Flagship of the Seventh Fleet",
     "card_number": 448,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "Chopper, Metal Menace",
-    "card_number": 451,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
