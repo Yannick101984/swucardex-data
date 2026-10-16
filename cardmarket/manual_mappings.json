@@ -64,6 +64,150 @@
     "note": ""
   },
   {
+    "set_code": "IC27",
+    "en_name": "Darth Vader, No One to Stop Us",
+    "card_number": 1,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Experience",
+    "card_number": 1,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Shield",
+    "card_number": 2,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Princess Leia, On a Diplomatic Mission",
+    "card_number": 8,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Echo Base",
+    "card_number": 10,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "KCM Mining Facility",
+    "card_number": 11,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Rune Haako, Scheming Second",
+    "card_number": 16,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Blizzard One, Veers at the Helm",
+    "card_number": 25,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Darth Sidious, Move Against the Jedi",
+    "card_number": 26,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Resilient",
+    "card_number": 52,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Academy Training",
+    "card_number": 93,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Eighth Brother, Ill-Fated Escape",
+    "card_number": 99,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Grogu, Irresistible",
+    "card_number": 154,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Han Solo, Scruffy-Looking Nerf Herder",
+    "card_number": 161,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "I've Got A Bad Feeling",
+    "card_number": 166,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Consumed by the Dark Side",
+    "card_number": 184,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "R2-D2, Ignoring Protocol",
+    "card_number": 186,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Jar Jar Binks, Bumbling Representative",
+    "card_number": 187,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
     "set_code": "JTL",
     "en_name": "TIE Fighter",
     "card_number": 1,
@@ -977,9 +1121,25 @@
   },
   {
     "set_code": "SOR",
+    "en_name": "Admiral Piett, Captain of the Executor",
+    "card_number": 344,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
     "en_name": "Wedge Antilles, Star of the Rebellion",
     "card_number": 364,
     "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
+    "en_name": "Command",
+    "card_number": 371,
+    "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
   },
@@ -1025,14 +1185,6 @@
   },
   {
     "set_code": "SOR",
-    "en_name": "Precision Fire",
-    "card_number": 431,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
     "en_name": "Mission Briefing",
     "card_number": 434,
     "variant_type": "Hyperspace",
@@ -1043,14 +1195,6 @@
     "set_code": "SOR",
     "en_name": "Chimaera, Flagship of the Seventh Fleet",
     "card_number": 448,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "Chopper, Metal Menace",
-    "card_number": 451,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
