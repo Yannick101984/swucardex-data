@@ -2,8 +2,9 @@ name: SWU — Détection nouveaux sets
 
 on:
   schedule:
-    # Chaque lundi à 8h UTC
-    - cron: '0 8 * * 1'
+    # Jeudi et samedi à 5h07 UTC : le site officiel publie surtout le mercredi
+    # en fin de journée (UTC), avec des rattrapages jeudi/vendredi.
+    - cron: '7 5 * * 4,6'
   workflow_dispatch:
 
 jobs:
