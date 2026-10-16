@@ -5,11 +5,12 @@ Synchronisation automatique des sets Star Wars Unlimited.
 Modes :
   sync    — Détecte les nouveaux sets, scrape les cartes, ajoute les JSONs,
              met à jour manifest.json (entrée de set, latestMainSet).
-             Écrit une annonce dans announcements.json.
+             Écrit une annonce dans announcements.json et announcements-android.json.
   compare — Compare les sets existants (hors SOR/TWI/SHD) avec l'API,
              met à jour les JSONs si des différences sont trouvées,
              bumpe dataVersion dans le manifest et écrit une annonce détaillée
-             (liste des cartes ajoutées / règles modifiées) dans announcements.json.
+             (liste des cartes ajoutées / règles modifiées) dans announcements.json
+             et announcements-android.json.
 """
 
 import argparse
@@ -29,10 +30,12 @@ _HERE              = os.path.dirname(os.path.abspath(__file__))
 SETS_DIR           = os.path.join(_HERE, '..', 'sets')
 MANIFEST_PATH      = os.path.join(_HERE, '..', 'manifest.json')
 ANNOUNCEMENTS_PATH = os.path.join(_HERE, '..', 'announcements.json')
+# Lu uniquement par l'app Android (les annonces de release iOS restent dans announcements.json)
+ANNOUNCEMENTS_ANDROID_PATH = os.path.join(_HERE, '..', 'announcements-android.json')
 
 # ─── Config ───────────────────────────────────────────────────────────────────
 REPO   = "Yannick101984/swucardex-data"
-BRANCH = os.environ.get("GITHUB_REF_NAME", "staging")
+BRANCH = os.environ.get("GITHUB_REF_NAME", "main")
 
 COMPARE_EXCLUDED = {'SOR', 'TWI', 'SHD'}
 
@@ -350,16 +353,17 @@ def save_set_json(manifest_code, cards):
 
 # ─── Helpers announcements ────────────────────────────────────────────────────
 
-def load_announcements():
-    if not os.path.isfile(ANNOUNCEMENTS_PATH):
+def load_announcements(path=ANNOUNCEMENTS_PATH):
+    if not os.path.isfile(path):
         return []
-    with open(ANNOUNCEMENTS_PATH, encoding='utf-8') as f:
+    with open(path, encoding='utf-8') as f:
         return json.load(f)
 
 
 def write_announcement_entry(title, color, changes_obj, detail=None):
     """
-    Prépend une nouvelle annonce dans announcements.json.
+    Prépend une nouvelle annonce dans announcements.json (iOS) et announcements-android.json (Android),
+    avec le même id pour que le marquage « lu » reste cohérent entre les deux.
     - title       : titre court affiché dans la liste (ex: "Nouvelles cartes ajoutées - LAW")
     - color       : hex couleur de l'en-tête du modal (ex: "#7C3AED")
     - changes_obj : {"added": [...codes...], "updated": [...codes...]} ou None par champ
@@ -376,12 +380,13 @@ def write_announcement_entry(title, color, changes_obj, detail=None):
         "date":     today,
         "changes":  changes_obj,
     }
-    announcements = load_announcements()
-    announcements.insert(0, entry)
-    with open(ANNOUNCEMENTS_PATH, 'w', encoding='utf-8') as f:
-        json.dump(announcements, f, indent=2, ensure_ascii=False)
-        f.write("\n")
-    print(f"  📣 Annonce écrite dans announcements.json : {title}")
+    for path in (ANNOUNCEMENTS_PATH, ANNOUNCEMENTS_ANDROID_PATH):
+        announcements = load_announcements(path)
+        announcements.insert(0, entry)
+        with open(path, 'w', encoding='utf-8') as f:
+            json.dump(announcements, f, indent=2, ensure_ascii=False)
+            f.write("\n")
+    print(f"  📣 Annonce écrite dans announcements.json et announcements-android.json : {title}")
 
 
 # ─── Flatten pour comparaison ─────────────────────────────────────────────────

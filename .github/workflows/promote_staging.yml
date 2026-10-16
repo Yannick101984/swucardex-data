@@ -43,7 +43,7 @@ jobs:
           # ces chemins après le merge, staging ne devant apporter que du code
           # (scripts/, workflows, README).
           git checkout origin/main -- \
-            sets/ manifest.json news.json announcements.json \
+            sets/ manifest.json news.json announcements.json announcements-android.json \
             cardmarket/price_guide.json cardmarket/products_singles.json \
             cardmarket/manual_mappings.json \
             prices/cardmarket_prices.json prices/cardmarket_prices_history.json \

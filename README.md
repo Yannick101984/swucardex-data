@@ -31,6 +31,44 @@ swucardex-data/
 
 ---
 
+## Stratégie de branches : `main` vs `staging`
+
+**`main`** est l'unique source de vérité pour la production (App Store) — c'est la branche
+que lisent les builds Release de l'app. **`staging`** est utilisée par les builds Debug
+(TestFlight interne / device de dev) pour tester des changements de **code** (scripts,
+workflows) avant de les valider sur `main`.
+
+Tous les workflows qui génèrent de la donnée tournent en matrice `[main, staging]` et
+poussent indépendamment sur les deux branches (`fetch_news.yml`, `fetch_gamegenic.yml`,
+`fetch_price_guide.yml` + `generate_prices.yml`, `swu_sync_sets.yml`, `swu_compare_sets.yml`) :
+chaque branche exécute le même script contre la même source externe et commite son propre
+résultat. `staging` reste donc à jour automatiquement sans jamais dépendre d'une promotion —
+et le code (scripts/workflows) reste librement testable sur `staging` sans qu'un cron nocturne
+ne l'écrase, puisque seuls les fichiers de données sont touchés par ces jobs.
+
+Point d'attention pour les crons déclenchés par `schedule` : la variable `GITHUB_REF_NAME`
+vaut toujours la branche par défaut (`main`), même quand le job checkout `staging` via
+`ref: ${{ matrix.branch }}`. Le step qui appelle `scripts/sync_sets.py` force donc
+`GITHUB_REF_NAME` à `${{ matrix.branch }}` dans son `env:` pour que les `dataURL` générés dans
+`manifest.json` référencent la bonne branche sur chaque leg de la matrice.
+
+**`promote_staging.yml`** (déclenchement manuel, publication TestFlight/App Store) reste le
+mécanisme pour faire passer un changement de **code** de `staging` vers `main` : il fusionne
+`staging` → `main` avec `-X theirs` (le code de `staging` gagne), puis **restaure
+explicitement la version de `main`** pour tous les fichiers de données. Ça évite de rejouer
+l'incident du 2026-07-23 (86 jours d'historique de prix effacés par une version figée de
+`staging` — voir swucardex-data#5) dans le cas où les deux branches auraient malgré tout
+diverger sur la donnée (panne d'un cron, ajout manuel, etc.).
+
+Si `staging` dérive quand même de `main` (contenu différent en dehors d'un test de code en
+cours), le resynchroniser entièrement plutôt que de merger :
+
+```bash
+git push origin main:refs/heads/staging --force
+```
+
+---
+
 ## Ajouter un nouveau set
 
 ### 1. Préparer le JSON du set
@@ -142,6 +180,22 @@ Les variantes **Prestige** et **Serialized Prestige** sont couvertes à partir d
 
 ---
 
+## Annonces in-app
+
+| Fichier | Lu par | Contenu |
+|---|---|---|
+| `announcements.json` | iOS | annonces communes + annonces de mise à jour iOS (lien App Store) |
+| `announcements-android.json` | Android | annonces communes + annonces de mise à jour Android (lien Play Store) |
+
+- **Annonce de MAJ iOS** → `announcements.json` uniquement.
+- **Annonce de MAJ Android** → `announcements-android.json` uniquement.
+- **Annonce commune** (nouvelles cartes, règles, sets, soutien…) → les **deux** fichiers, avec le **même `id`**.
+  `scripts/sync_sets.py` le fait automatiquement pour les annonces de cartes et de règles.
+
+Même schéma pour les deux fichiers : tableau d'objets `id`, `title`, `detail`, `color`, `url`, `imageURL`, `date`, `changes`, le plus récent en premier.
+
+---
+
 ## URLs utilisées par l'app
 
 ```
@@ -149,4 +203,6 @@ Manifest    : https://raw.githubusercontent.com/Yannick101984/swucardex-data/mai
 Set JSON    : https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/{id}.json
 Prix actuels: https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/prices/cardmarket_prices.json
 Historique  : https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/prices/cardmarket_prices_history.json
+Annonces iOS     : https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/announcements.json
+Annonces Android : https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/announcements-android.json
 ```

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "lastUpdated": "2026-10-16",
+  "lastUpdated": "2026-10-15",
   "latestMainSet": "ic27",
   "announcement": {
     "id": "ann-1781021226",
@@ -375,7 +375,7 @@
     },
     {
       "id": "ic27",
-      "dataVersion": 1,
+      "dataVersion": 2,
       "code": "IC27",
       "name": "Icons 2027 Edition",
       "type": "main",
@@ -383,7 +383,7 @@
       "color": "#888888",
       "foilShared": false,
       "logoURL": "https://cdn.starwarsunlimited.com//xlarge_Icons_2027_Logo_FR_96397d5464.png",
-      "artworkURL": null,
+      "artworkURL": "https://cdn.starwarsunlimited.com//large_SWH_Header_ICONS_Key_Art_b8d4f770ec.png",
       "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/ic27.json"
     }
   ]
