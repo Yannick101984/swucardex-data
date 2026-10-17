@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "lastUpdated": "2026-10-15",
+  "lastUpdated": "2026-10-17",
   "latestMainSet": "ic27",
   "announcement": {
     "id": "ann-1781021226",
@@ -375,7 +375,7 @@
     },
     {
       "id": "ic27",
-      "dataVersion": 2,
+      "dataVersion": 3,
       "code": "IC27",
       "name": "Icons 2027 Edition",
       "type": "main",
