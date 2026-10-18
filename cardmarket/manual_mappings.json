@@ -97,6 +97,14 @@
   },
   {
     "set_code": "IC27",
+    "en_name": "City in the Clouds",
+    "card_number": 9,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
     "en_name": "Echo Base",
     "card_number": 10,
     "variant_type": "Standard",
@@ -113,8 +121,56 @@
   },
   {
     "set_code": "IC27",
+    "en_name": "Mos Eisley",
+    "card_number": 12,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Onyx Squadron Brute",
+    "card_number": 15,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
     "en_name": "Rune Haako, Scheming Second",
     "card_number": 16,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Death Trooper",
+    "card_number": 17,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Admiral Piett, In Command Now",
+    "card_number": 20,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Moff Gideon, Cold Calling",
+    "card_number": 22,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Grand Admiral Thrawn, Listen to Me Carefully",
+    "card_number": 24,
     "variant_type": "Standard",
     "idProduct": null,
     "note": ""
@@ -137,8 +193,80 @@
   },
   {
     "set_code": "IC27",
+    "en_name": "AT-AT Suppressor",
+    "card_number": 27,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Avenger, Hunting the Rebels",
+    "card_number": 28,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Lethal Crackdown",
+    "card_number": 30,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
     "en_name": "Resilient",
     "card_number": 52,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Phoenix Squadron A-Wing",
+    "card_number": 73,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Red Leader, Wait For My Signal",
+    "card_number": 75,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Qui-Gon Jinn, Unwavering Belief",
+    "card_number": 79,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Bright Hope, Narrow Escape",
+    "card_number": 80,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Luke Skywalker, Do You Read Me?",
+    "card_number": 82,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Inspiring Mentor",
+    "card_number": 85,
     "variant_type": "Standard",
     "idProduct": null,
     "note": ""
@@ -153,8 +281,48 @@
   },
   {
     "set_code": "IC27",
+    "en_name": "Death Star Stormtrooper",
+    "card_number": 97,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Commander Pyre, Golden Menace",
+    "card_number": 98,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
     "en_name": "Eighth Brother, Ill-Fated Escape",
     "card_number": 99,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "General Veers, Leading the Assault",
+    "card_number": 105,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Savage Opress, Monster",
+    "card_number": 108,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "DRK-1 Probe Droid",
+    "card_number": 129,
     "variant_type": "Standard",
     "idProduct": null,
     "note": ""
@@ -177,6 +345,14 @@
   },
   {
     "set_code": "IC27",
+    "en_name": "Millennium Falcon, Bucket of Bolts",
+    "card_number": 164,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
     "en_name": "I've Got A Bad Feeling",
     "card_number": 166,
     "variant_type": "Standard",
@@ -185,8 +361,72 @@
   },
   {
     "set_code": "IC27",
+    "en_name": "A-Wing",
+    "card_number": 169,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Hidden Sharpshooter",
+    "card_number": 173,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Shoot First",
+    "card_number": 175,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "TIE/ln Fighter",
+    "card_number": 178,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Super Battle Droid",
+    "card_number": 180,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Rogue-class Starfighter",
+    "card_number": 181,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "HK-87 Assassin Droid",
+    "card_number": 182,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
     "en_name": "Consumed by the Dark Side",
     "card_number": 184,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "I Am Your Father",
+    "card_number": 185,
     "variant_type": "Standard",
     "idProduct": null,
     "note": ""
@@ -203,6 +443,46 @@
     "set_code": "IC27",
     "en_name": "Jar Jar Binks, Bumbling Representative",
     "card_number": 187,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "C-3PO, Protocol Droid",
+    "card_number": 188,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Phase I Clone Trooper",
+    "card_number": 189,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Dilapidated Ski Speeder",
+    "card_number": 190,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Medical Frigate",
+    "card_number": 191,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Eta-2 Light Interceptor",
+    "card_number": 192,
     "variant_type": "Standard",
     "idProduct": null,
     "note": ""
@@ -721,14 +1001,6 @@
   },
   {
     "set_code": "SHD",
-    "en_name": "Gar Saxon, Viceroy of Mandalore",
-    "card_number": 281,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
     "en_name": "The Client, Dictated by Discretion",
     "card_number": 308,
     "variant_type": "Hyperspace",
@@ -825,6 +1097,22 @@
   },
   {
     "set_code": "SHD",
+    "en_name": "Heroic Renegade",
+    "card_number": 415,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
+    "en_name": "Disabling Fang Fighter",
+    "card_number": 435,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
     "en_name": "Desperate Attack",
     "card_number": 448,
     "variant_type": "Hyperspace",
@@ -851,14 +1139,6 @@
     "set_code": "SHD",
     "en_name": "Spare the Target",
     "card_number": 474,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "A New Adventure",
-    "card_number": 475,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -1081,6 +1361,14 @@
   },
   {
     "set_code": "SOR",
+    "en_name": "Energy Conversion Lab",
+    "card_number": 288,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
     "en_name": "Tarkintown",
     "card_number": 291,
     "variant_type": "Hyperspace",
@@ -1177,24 +1465,8 @@
   },
   {
     "set_code": "SOR",
-    "en_name": "Cantina Braggart",
-    "card_number": 420,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
     "en_name": "Force Throw",
     "card_number": 430,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "Mission Briefing",
-    "card_number": 434,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -1505,24 +1777,8 @@
   },
   {
     "set_code": "TWI",
-    "en_name": "Resupply",
-    "card_number": 395,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
     "en_name": "Darth Maul, Revenge At Last",
     "card_number": 403,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "Jyn Erso, Stardust",
-    "card_number": 411,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
