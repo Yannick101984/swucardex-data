@@ -1025,6 +1025,14 @@
   },
   {
     "set_code": "SHD",
+    "en_name": "Niima Outpost Constables",
+    "card_number": 337,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
     "en_name": "Vigilant Pursuit Craft",
     "card_number": 339,
     "variant_type": "Hyperspace",
@@ -1051,6 +1059,14 @@
     "set_code": "SHD",
     "en_name": "The Marauder, Shuttling the Bad Batch",
     "card_number": 371,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
+    "en_name": "Spark of Hope",
+    "card_number": 374,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -1121,6 +1137,14 @@
   },
   {
     "set_code": "SHD",
+    "en_name": "Kintan Intimidator",
+    "card_number": 452,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
     "en_name": "Cartel Turncoat",
     "card_number": 464,
     "variant_type": "Hyperspace",
@@ -1131,14 +1155,6 @@
     "set_code": "SHD",
     "en_name": "L3-37, Droid Revolutionary",
     "card_number": 465,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Spare the Target",
-    "card_number": 474,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -1441,14 +1457,6 @@
   },
   {
     "set_code": "SOR",
-    "en_name": "Strike True",
-    "card_number": 391,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
     "en_name": "Ruthless Raider",
     "card_number": 398,
     "variant_type": "Hyperspace Foil",
@@ -1475,6 +1483,14 @@
     "set_code": "SOR",
     "en_name": "Chimaera, Flagship of the Seventh Fleet",
     "card_number": 448,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
+    "en_name": "Cantina Bouncer",
+    "card_number": 464,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -1753,14 +1769,6 @@
   },
   {
     "set_code": "TWI",
-    "en_name": "For The Republic",
-    "card_number": 324,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
     "en_name": "The Invasion of Christophsis",
     "card_number": 351,
     "variant_type": "Hyperspace",
@@ -1787,6 +1795,14 @@
     "set_code": "TWI",
     "en_name": "Jesse, Hard-Fighting Patriot",
     "card_number": 413,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
+    "en_name": "Mister Bones, I Performed Violence",
+    "card_number": 421,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
