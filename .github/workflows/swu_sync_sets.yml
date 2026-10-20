@@ -12,6 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+      issues: write
 
     strategy:
       fail-fast: false
@@ -33,6 +34,7 @@ jobs:
         run: pip install requests Pillow
 
       - name: Détecter et ajouter les nouveaux sets
+        id: sync
         env:
           # GITHUB_REF_NAME vaut toujours la branche par défaut sur un trigger
           # schedule, même si le checkout ci-dessus cible staging — on force la
@@ -51,3 +53,24 @@ jobs:
             git commit -m "Auto [sync]: nouveau(x) set(s) SWU ajouté(s) [$(date '+%Y-%m-%d')] [skip ci]"
             git push origin HEAD:${{ matrix.branch }}
           fi
+
+      # rotation.json est tenu à la main : un set qu'il ne classe pas ne compte pas
+      # dans la rotation Premier de l'app. Une seule issue par set (main uniquement,
+      # staging détecte les mêmes sets).
+      - name: Issue de classement dans rotation.json
+        if: matrix.branch == 'main' && steps.sync.outputs.unclassified != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+          UNCLASSIFIED: ${{ steps.sync.outputs.unclassified }}
+        run: |
+          for code in ${UNCLASSIFIED//,/ }; do
+            title="Rotation : classer $code dans rotation.json"
+            if gh issue list --state open --search "\"$title\" in:title" --json number --jq 'length' | grep -qx 0; then
+              gh issue create --title "$title" --body "Le set **$code** vient d'être ajouté au manifest par \`sync_sets.py\`, mais il ne figure dans aucun bloc de \`rotation.json\`. Tant que c'est le cas, il ne compte pas dans la rotation Premier de l'app.
+
+          - Set principal ou mini-set (comme Icons) : l'ajouter au bloc de sa marque de rotation, avec sa date de sortie officielle dans \`legalFrom\`. S'il ouvre un nouveau bloc, renseigner aussi \`legalUntil\` sur le bloc qui sort de rotation.
+          - Promo, Weekly Play, convention : rien à faire, fermer cette issue.
+
+          Voir README, section « Rotation Premier »."
+            fi
+          done
