@@ -22,6 +22,28 @@
         "from": "SOR-339-Réparation-Standard",
         "to": "SOR-339-Réparation-Hyperspace"
       }
+    },
+    {
+      "match": {
+        "Set": "SOR",
+        "Number": "__addition__"
+      },
+      "apply": {},
+      "migrate": {
+        "from": "SOR-unknown-Cassian Andor-Hyperspace",
+        "to": "SOR-279-Cassian Andor-Hyperspace"
+      }
+    },
+    {
+      "match": {
+        "Set": "SOR",
+        "Number": "__addition__"
+      },
+      "apply": {},
+      "migrate": {
+        "from": "SOR-13-Cassian Andor-Hyperspace",
+        "to": "SOR-279-Cassian Andor-Hyperspace"
+      }
     }
   ],
   "additions": [
@@ -142,6 +164,32 @@
       "FrontArt": "https://cdn.starwarsunlimited.com//SWOP_0103_012_Resupply_OP_94c5001547.png",
       "isMainCard": false,
       "parentCardId": "112"
+    },
+    {
+      "Set": "SOR",
+      "Name": "Cassian Andor",
+      "Subtitle": "Dévoué À La Rébellion",
+      "type": "Leader",
+      "VariantType": "Hyperspace",
+      "Rarity": "Rare",
+      "Cost": "6",
+      "Power": "4",
+      "HP": "6",
+      "Aspects": [
+        "Agressivité",
+        "Héroïsme"
+      ],
+      "Traits": [
+        "Rebelle"
+      ],
+      "Arenas": [
+        "Terrestre"
+      ],
+      "FrontText": "Action [1 ressource, Inclinez] : si vous avez infligé au moins 3 dégâts à une base ennemie à cette phase, piochez une carte.",
+      "FrontArt": "https://starwarsunlimited.com/_next/image?url=https%3A%2F%2Fcdn.starwarsunlimited.com%2F%2FSWH_01_279_Cassian_Andor_Leader_HYP_970655d1c3.png&w=1200&q=75",
+      "isMainCard": false,
+      "parentCardId": "570",
+      "Number": "279"
     }
   ]
 }
