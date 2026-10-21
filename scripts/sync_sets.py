@@ -29,6 +29,8 @@ from datetime import date
 _HERE              = os.path.dirname(os.path.abspath(__file__))
 SETS_DIR           = os.path.join(_HERE, '..', 'sets')
 MANIFEST_PATH      = os.path.join(_HERE, '..', 'manifest.json')
+# Tenu à la main : jamais écrit par ce script (voir README, « Rotation Premier »)
+ROTATION_PATH      = os.path.join(_HERE, '..', 'rotation.json')
 ANNOUNCEMENTS_PATH = os.path.join(_HERE, '..', 'announcements.json')
 # Lu uniquement par l'app Android (les annonces de release iOS restent dans announcements.json)
 ANNOUNCEMENTS_ANDROID_PATH = os.path.join(_HERE, '..', 'announcements-android.json')
@@ -321,6 +323,34 @@ def save_manifest(manifest):
         f.write("\n")
 
 
+def rotation_classified_codes():
+    """Codes des sets présents dans un bloc de rotation Premier de rotation.json."""
+    try:
+        with open(ROTATION_PATH, encoding='utf-8') as f:
+            rotation = json.load(f)
+    except (OSError, ValueError) as e:
+        print(f"  ⚠️  rotation.json illisible : {e}")
+        return set()
+    blocks = rotation.get('premier', {}).get('blocks', [])
+    return {code.upper() for block in blocks for code in block.get('sets', [])}
+
+
+def report_unclassified_sets(added):
+    """
+    Signale les sets ajoutés absents de rotation.json : le workflow lit la sortie
+    `unclassified` (GITHUB_OUTPUT) pour ouvrir une issue de classement.
+    """
+    classified = rotation_classified_codes()
+    unclassified = [code for code, _ in added if code.upper() not in classified]
+    if not unclassified:
+        return
+    print(f"   ⚠️  Absents de rotation.json : {unclassified} — à classer à la main")
+    output = os.environ.get('GITHUB_OUTPUT')
+    if output:
+        with open(output, 'a', encoding='utf-8') as f:
+            f.write(f"unclassified={','.join(unclassified)}\n")
+
+
 def known_api_codes(manifest):
     """
     {api_code (upper) → entrée manifest}
@@ -526,6 +556,7 @@ def sync_mode():
     print(f"\n🎉 {len(added)} set(s) ajouté(s) : {[c for c, _ in added]}")
     if added_main:
         print(f"   Sets MAIN : {added_main} — latestMainSet mis à jour")
+    report_unclassified_sets(added)
 
 
 # ─── MODE COMPARE ─────────────────────────────────────────────────────────────

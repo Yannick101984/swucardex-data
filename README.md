@@ -10,6 +10,7 @@ Contient les cartes Star Wars Unlimited, le manifest des sets, et les prix Cardm
 ```
 swucardex-data/
 ├── manifest.json                        # Manifest des sets (chargé au démarrage de l'app)
+├── rotation.json                        # Rotation Premier, tenue à la main (voir plus bas)
 ├── sets/                                # JSONs des cartes par set
 │   ├── sor.json                         # Étincelle de Rébellion
 │   ├── shd.json                         # Ombres de la Galaxie
@@ -112,6 +113,10 @@ git push
 
 L'app détecte automatiquement le nouveau set au prochain lancement (via le refresh du manifest).
 
+### 5. Classer le set dans `rotation.json`
+
+Voir « Rotation Premier » ci-dessous. Tant que le set n'y figure pas, il ne compte pas dans la rotation.
+
 ---
 
 ## Mettre à jour les prix Cardmarket
@@ -196,10 +201,36 @@ Même schéma pour les deux fichiers : tableau d'objets `id`, `title`, `detail`,
 
 ---
 
+## Rotation Premier (`rotation.json`)
+
+La légalité en Premier ne se déduit pas des données récupérées automatiquement. L'API officielle ne donne ni date de sortie, ni marque de rotation, ni distinction entre set principal et mini-set (cas d'IC27). Ce fichier est donc **tenu à la main**. `sync_sets.py` ne le modifie jamais : il ouvre une issue « Rotation : classer … » quand il ajoute un set absent du fichier.
+
+```json
+{
+  "premier": {
+    "blocks": [
+      { "mark": "A", "sets": ["JTL", "LOF", "IBH", "SEC"], "legalUntil": null }
+    ],
+    "legalFrom": { "IC27": "2026-11-20" }
+  }
+}
+```
+
+- `blocks` : un bloc par marque de rotation (A, B, C…). Tous les sets d'un bloc sortent de rotation ensemble, à la date `legalUntil`. Cette date est exclue (le jour même, le bloc n'est plus légal). `null` veut dire pas encore annoncée.
+- `legalFrom` : date de sortie officielle d'un set, le jour même inclus. Elle sert surtout pour un set publié en avant-première. Si le set n'y figure pas, il est légal dès qu'il apparaît dans un bloc.
+- Une carte est légale si au moins une de ses impressions est dans un set légal. Les réimpressions, promos et Weekly Play suivent donc la carte d'origine.
+- Un set absent du fichier ne décide jamais de la légalité. Promos, Weekly Play et conventions n'ont pas besoin d'y figurer.
+- Dates au format `AAAA-MM-JJ`. Il faut mettre à jour `lastUpdated` à chaque modification.
+
+**À l'annonce d'un nouveau set principal** : l'ajouter au bloc de sa marque avec sa date de sortie dans `legalFrom`. Si ce set ouvre un nouveau bloc, il faut aussi renseigner `legalUntil` sur le bloc qui sort de rotation.
+
+---
+
 ## URLs utilisées par l'app
 
 ```
 Manifest    : https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/manifest.json
+Rotation    : https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/rotation.json
 Set JSON    : https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/{id}.json
 Prix actuels: https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/prices/cardmarket_prices.json
 Historique  : https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/prices/cardmarket_prices_history.json
