@@ -1009,14 +1009,6 @@
   },
   {
     "set_code": "SHD",
-    "en_name": "Chewbacca, Pykesbane",
-    "card_number": 325,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
     "en_name": "Val, Loyal to the End",
     "card_number": 333,
     "variant_type": "Hyperspace",
@@ -1027,14 +1019,6 @@
     "set_code": "SHD",
     "en_name": "Niima Outpost Constables",
     "card_number": 337,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Vigilant Pursuit Craft",
-    "card_number": 339,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -1129,14 +1113,6 @@
   },
   {
     "set_code": "SHD",
-    "en_name": "Desperate Attack",
-    "card_number": 448,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
     "en_name": "Kintan Intimidator",
     "card_number": 452,
     "variant_type": "Hyperspace",
@@ -1161,8 +1137,8 @@
   },
   {
     "set_code": "SHD",
-    "en_name": "Smuggler's Starfighter",
-    "card_number": 483,
+    "en_name": "Final Showdown",
+    "card_number": 476,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -1177,24 +1153,8 @@
   },
   {
     "set_code": "SHD",
-    "en_name": "Tech, Source of Insight",
-    "card_number": 510,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
     "en_name": "Mercenary Gunship",
     "card_number": 517,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Street Gang Recruiter",
-    "card_number": 521,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -1771,6 +1731,14 @@
     "set_code": "TWI",
     "en_name": "The Invasion of Christophsis",
     "card_number": 351,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
+    "en_name": "Petition the Senate",
+    "card_number": 371,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
