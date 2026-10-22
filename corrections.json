@@ -190,16 +190,6 @@
       "isMainCard": false,
       "parentCardId": "570",
       "Number": "279"
-    },
-    {
-      "Set": "IC27",
-      "Number": "999",
-      "Name": "Test 522",
-      "type": "Unit",
-      "VariantType": "Standard",
-      "Rarity": "Commune",
-      "isMainCard": true,
-      "jsonId": "test-522"
     }
   ]
 }
