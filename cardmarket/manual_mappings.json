@@ -1433,14 +1433,6 @@
   },
   {
     "set_code": "SOR",
-    "en_name": "Force Throw",
-    "card_number": 430,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
     "en_name": "Chimaera, Flagship of the Seventh Fleet",
     "card_number": 448,
     "variant_type": "Hyperspace",
@@ -1721,8 +1713,8 @@
   },
   {
     "set_code": "TWI",
-    "en_name": "Luminara Unduli, Soft-Spoken Master",
-    "card_number": 323,
+    "en_name": "Ki-Adi-Mundi, Composed and Confident",
+    "card_number": 337,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -1777,14 +1769,6 @@
   },
   {
     "set_code": "TWI",
-    "en_name": "Unnatural Life",
-    "card_number": 454,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
     "en_name": "Enfys Nest, Champion of Justice",
     "card_number": 463,
     "variant_type": "Hyperspace",
@@ -1803,6 +1787,14 @@
     "set_code": "TWI",
     "en_name": "Jar Jar Binks, Foolish Gungan",
     "card_number": 467,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
+    "en_name": "Chancellor Palpatine, Wartime Chancellor",
+    "card_number": 468,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
