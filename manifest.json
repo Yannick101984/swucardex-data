@@ -89,7 +89,7 @@
     },
     {
       "id": "law",
-      "dataVersion": 5,
+      "dataVersion": 4,
       "code": "LAW",
       "name": "Sans Foi Ni Loi",
       "type": "main",
