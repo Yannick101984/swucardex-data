@@ -32,7 +32,9 @@ from __future__ import annotations
 import argparse
 import html as html_module
 import json
+import os
 import re
+import subprocess
 import sys
 import time
 import urllib.error
@@ -41,7 +43,9 @@ from pathlib import Path
 
 STORE_API = "https://www.gamegenic.com/wp-json/wc/store/products"
 JINA_PREFIX = "https://r.jina.ai/"
-BASE_IMG_URL = "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/accessories/images/"
+RAW_REPO_URL = "https://raw.githubusercontent.com/Yannick101984/swucardex-data/"
+# Branches publiées : chacune doit référencer ses propres images (#19).
+DATA_BRANCHES = ("main", "staging")
 USER_AGENT = "Mozilla/5.0 (compatible; swucardex-gamegenic-bot/1.0)"
 DELAY = 1.5  # secondes entre deux requêtes réseau (uniquement pour les items nouveaux)
 
@@ -77,6 +81,47 @@ CATEGORY_KEYWORDS: list[tuple[str, str]] = [
     ("storage", "Storage"),
     ("damage-pad", "Accessory"),
 ]
+
+
+# ── Branche ───────────────────────────────────────────────────────────────────
+
+def detect_branch() -> str:
+    """Branche courante : GITHUB_REF_NAME (forcé par le workflow), sinon git."""
+    branch = os.environ.get("GITHUB_REF_NAME")
+    if branch:
+        return branch
+    try:
+        return subprocess.run(
+            ["git", "rev-parse", "--abbrev-ref", "HEAD"],
+            cwd=Path(__file__).parent, capture_output=True, text=True, check=True,
+        ).stdout.strip()
+    except (OSError, subprocess.CalledProcessError):
+        return "main"
+
+
+CURRENT_BRANCH = detect_branch()
+BRANCH = CURRENT_BRANCH if CURRENT_BRANCH in DATA_BRANCHES else "main"
+BASE_IMG_URL = f"{RAW_REPO_URL}{BRANCH}/accessories/images/"
+
+
+def normalize_image_urls(catalogue: dict[str, dict]) -> int:
+    """
+    Fait pointer les imageURL hébergées sur le repo vers la branche courante : un
+    merge main → staging ramène des URLs /main/, le run suivant les corrige.
+    Hors main/staging (branche de travail locale) : on ne touche à rien.
+    """
+    if CURRENT_BRANCH not in DATA_BRANCHES:
+        return 0
+    pattern = re.compile(re.escape(RAW_REPO_URL) + r"[^/]+/")
+    fixed = 0
+    for item in catalogue.values():
+        url = item.get("imageURL", "")
+        if url.startswith(RAW_REPO_URL):
+            new_url = pattern.sub(f"{RAW_REPO_URL}{CURRENT_BRANCH}/", url, count=1)
+            if new_url != url:
+                item["imageURL"] = new_url
+                fixed += 1
+    return fixed
 
 
 # ── Réseau ────────────────────────────────────────────────────────────────────
@@ -579,9 +624,11 @@ def main() -> None:
         api_products, products_meta, existing_catalogue_ids, images_dir, args.dry_run
     )
 
+    relinked = normalize_image_urls(existing_catalogue_ids)
+
     print(
         f"\n{new_products} nouveau(x) produit(s), {new_items} nouvelle(s) variante(s), "
-        f"{backfilled} directUrl mis à jour."
+        f"{backfilled} directUrl mis à jour, {relinked} imageURL réécrite(s) vers {BRANCH}."
     )
 
     if args.dry_run:
@@ -590,12 +637,12 @@ def main() -> None:
 
     if new_products:
         products_path.write_text(json.dumps(products_meta, indent=2, ensure_ascii=False) + "\n")
-    if new_items or backfilled:
+    if new_items or backfilled or relinked:
         catalogue_path.write_text(
             json.dumps(list(existing_catalogue_ids.values()), indent=2, ensure_ascii=False) + "\n"
         )
         print(f"catalogue.json mis à jour ({len(existing_catalogue_ids)} items total).")
-    if not (new_products or new_items or backfilled):
+    if not (new_products or new_items or backfilled or relinked):
         print("Rien à mettre à jour.")
 
 
