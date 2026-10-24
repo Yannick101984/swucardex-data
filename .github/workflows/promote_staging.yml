@@ -50,6 +50,12 @@ jobs:
             2>/dev/null || true
           git diff --cached --quiet || git commit -m "chore: restaure les données cron de main après promotion [skip ci]"
 
+          # Le catalogue d'accessoires vient de staging : ses imageURL pointent
+          # vers /staging/ (#19). La production doit lire les images de main.
+          sed -i 's#swucardex-data/staging/#swucardex-data/main/#g' accessories/catalogue.json
+          git add accessories/catalogue.json
+          git diff --cached --quiet || git commit -m "chore: imageURL des accessoires repointées vers main [skip ci]"
+
           git push origin main
 
       - name: Résumé

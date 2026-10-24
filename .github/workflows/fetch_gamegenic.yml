@@ -28,6 +28,10 @@ jobs:
           python-version: "3.11"
 
       - name: Synchroniser le catalogue et télécharger les nouvelles images
+        env:
+          # GITHUB_REF_NAME vaut toujours la branche par défaut sur un trigger
+          # schedule : on force la branche pour que les imageURL la référencent.
+          GITHUB_REF_NAME: ${{ matrix.branch }}
         run: python3 scripts/fetch_gamegenic.py --repo-root .
 
       - name: Commit et push si modifié
