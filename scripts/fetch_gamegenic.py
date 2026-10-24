@@ -79,6 +79,8 @@ CATEGORY_KEYWORDS: list[tuple[str, str]] = [
     ("album", "Album"),
     ("token", "Tokens"),
     ("storage", "Storage"),
+    ("crate", "Storage"),
+    ("shuttle", "Storage"),
     ("damage-pad", "Accessory"),
 ]
 
@@ -382,6 +384,26 @@ def _find_fuzzy_match(
     return None
 
 
+def sort_catalogue(items: list[dict]) -> list[dict]:
+    """
+    L'app affiche les accessoires d'un set dans l'ordre du fichier : on les
+    groupe par catégorie, puis produit, puis variante (#29). L'ordre des sets
+    (première apparition) est conservé.
+    """
+    set_rank: dict[str, int] = {}
+    for item in items:
+        set_rank.setdefault(item["setCode"], len(set_rank))
+    return sorted(
+        items,
+        key=lambda i: (
+            set_rank[i["setCode"]],
+            i.get("category", ""),
+            i.get("productGroup", ""),
+            i.get("variantSlug", ""),
+        ),
+    )
+
+
 # ── Synchronisation ────────────────────────────────────────────────────────────
 
 def backfill_direct_url(item: dict, direct_url: str) -> bool:
@@ -625,10 +647,13 @@ def main() -> None:
     )
 
     relinked = normalize_image_urls(existing_catalogue_ids)
+    sorted_items = sort_catalogue(list(existing_catalogue_ids.values()))
+    reordered = [i["id"] for i in sorted_items] != [i["id"] for i in catalogue]
 
     print(
         f"\n{new_products} nouveau(x) produit(s), {new_items} nouvelle(s) variante(s), "
-        f"{backfilled} directUrl mis à jour, {relinked} imageURL réécrite(s) vers {BRANCH}."
+        f"{backfilled} directUrl mis à jour, {relinked} imageURL réécrite(s) vers {BRANCH}"
+        + (", catalogue retrié." if reordered else ".")
     )
 
     if args.dry_run:
@@ -637,12 +662,12 @@ def main() -> None:
 
     if new_products:
         products_path.write_text(json.dumps(products_meta, indent=2, ensure_ascii=False) + "\n")
-    if new_items or backfilled or relinked:
+    if new_items or backfilled or relinked or reordered:
         catalogue_path.write_text(
-            json.dumps(list(existing_catalogue_ids.values()), indent=2, ensure_ascii=False) + "\n"
+            json.dumps(sorted_items, indent=2, ensure_ascii=False) + "\n"
         )
         print(f"catalogue.json mis à jour ({len(existing_catalogue_ids)} items total).")
-    if not (new_products or new_items or backfilled or relinked):
+    if not (new_products or new_items or backfilled or relinked or reordered):
         print("Rien à mettre à jour.")
 
 
