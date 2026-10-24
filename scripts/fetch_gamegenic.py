@@ -163,7 +163,8 @@ def resolve_set_code(category_slug: str) -> str:
 
 def extract_release_month(image_url: str) -> int | None:
     """AAAAMM déduit de la date d'upload de l'image (chemin /uploads/AAAA/MM/)."""
-    m = re.search(r"/uploads/(\d{4})/(\d{2})/", image_url or "")
+    # Chemins vus : /uploads/AAAA/MM/… et /uploads/image-converter/AAAA/MM/… (CDN Asmodee)
+    m = re.search(r"/uploads/(?:[^/]+/)*?(\d{4})/(\d{2})/", image_url or "")
     return int(m.group(1)) * 100 + int(m.group(2)) if m else None
 
 
@@ -194,12 +195,24 @@ def derive_clean_variant_name(raw_name: str, product_group: str) -> str:
     return clean
 
 
-def compute_attr(attrs: list[dict]) -> tuple[str, str]:
-    """Formats possibles : {slug, value}, {attribute, value}, {name, value}."""
+def compute_attr(attrs: list[dict], product_attrs: list[dict] | None = None) -> tuple[str, str]:
+    """
+    Formats possibles : {slug, value}, {attribute, value}, {name, value}.
+    La page produit attend la taxonomie de l'attribut (ex: "pa_swu-homeworlds"),
+    pas son nom humain ("COLOR VARIATIONS") : on la retrouve dans les attributs
+    du produit via le nom, sinon on retombe sur le nom.
+    """
+    taxonomy_by_name = {
+        a.get("name", ""): a["taxonomy"]
+        for a in product_attrs or []
+        if a.get("taxonomy")
+    }
     for attr in attrs or []:
         slug = attr.get("slug") or attr.get("attribute") or ""
         name = attr.get("name", "")
         value = attr.get("value", "")
+        if not slug and name in taxonomy_by_name:
+            slug = taxonomy_by_name[name]
         if not slug and name:
             slug = name.lower().replace(" ", "_")
         if slug and value:
@@ -262,14 +275,19 @@ def _find_fuzzy_match(
     clean_name: str,
     attr_value: str,
     catalogue: dict[str, dict],
+    claimed: set[str],
+    unmatched_count: int,
 ) -> str | None:
     """
     Cherche un item existant dans le catalogue qui correspond au même produit
     mais avec un attr_value/nom différent (Gamegenic renomme parfois ses attributs).
+    claimed : items déjà associés à une autre variante API du produit (exclus).
+    unmatched_count : nombre de variantes API du produit sans item exact.
     """
     candidates = [
         item for item in catalogue.values()
         if item["setCode"] == set_code and item["productGroup"] == product_group
+        and item["id"] not in claimed
     ]
     if not candidates:
         return None
@@ -310,7 +328,10 @@ def _find_fuzzy_match(
         if target_an and cand_an and _levenshtein(target_an, cand_an) <= 2:
             return candidate["id"]
 
-    if len(candidates) == 1:
+    # Repli « renommage » : une seule variante API inconnue face à un seul item
+    # orphelin. S'il y a plus de variantes inconnues que d'items orphelins, ce
+    # sont de nouvelles variantes, pas des renommages (cf. #26, Homeworlds).
+    if len(candidates) == 1 and unmatched_count == 1:
         return candidates[0]["id"]
 
     return None
@@ -319,13 +340,11 @@ def _find_fuzzy_match(
 # ── Synchronisation ────────────────────────────────────────────────────────────
 
 def backfill_direct_url(item: dict, direct_url: str) -> bool:
-    current = item.get("directUrl")
-    if current and current != item.get("productPageUrl", ""):
-        return False
-    if direct_url == current:
+    """Réécrit toujours le directUrl calculé depuis l'API (suit les renommages)."""
+    if item.get("directUrl") == direct_url:
         return False
     item["directUrl"] = direct_url
-    return direct_url != item.get("productPageUrl", direct_url)
+    return True
 
 
 def sync(
@@ -335,7 +354,7 @@ def sync(
     images_dir: Path,
     dry_run: bool,
 ) -> tuple[int, int, int]:
-    """Retourne (nouveaux produits, nouvelles variantes, directUrl backfillés)."""
+    """Retourne (nouveaux produits, nouvelles variantes, directUrl mis à jour)."""
     known_slugs = {p["slug"] for p in products_meta}
     meta_by_slug = {p["slug"]: p for p in products_meta}
     new_products = 0
@@ -374,6 +393,20 @@ def sync(
         set_name = meta["setName"]
         item_category = meta["category"]
         variations = product.get("variations", [])
+        product_attrs = product.get("attributes", [])
+
+        # Items déjà associés exactement à une variante API : le fuzzy ne doit
+        # pas les rattacher à une autre variante (sinon directUrl écrasé).
+        claimed: set[str] = set()
+        unmatched_count = 0
+        for var_item in variations:
+            pre = var_item.get("attributes", []) if isinstance(var_item, dict) else []
+            _, value = compute_attr(pre, product_attrs)
+            exact_id = make_item_id(set_code, product_group, slugify_variant(value)) if value else ""
+            if exact_id in existing_catalogue_ids:
+                claimed.add(exact_id)
+            else:
+                unmatched_count += 1
 
         # Produit simple (pas de variantes) : tout est déjà dans la réponse.
         if not variations:
@@ -416,7 +449,7 @@ def sync(
         for var_item in variations:
             var_id = var_item.get("id") if isinstance(var_item, dict) else var_item
             pre_attrs = var_item.get("attributes", []) if isinstance(var_item, dict) else []
-            attr_param, attr_value = compute_attr(pre_attrs)
+            attr_param, attr_value = compute_attr(pre_attrs, product_attrs)
 
             if attr_value:
                 var_slug = slugify_variant(attr_value)
@@ -430,9 +463,10 @@ def sync(
 
                 fuzzy = _find_fuzzy_match(
                     set_code, product_group, attr_value.replace("-", " ").title(),
-                    attr_value, existing_catalogue_ids,
+                    attr_value, existing_catalogue_ids, claimed, unmatched_count,
                 )
                 if fuzzy:
+                    claimed.add(fuzzy)
                     if backfill_direct_url(existing_catalogue_ids[fuzzy], direct_url):
                         backfilled += 1
                     continue
@@ -448,7 +482,9 @@ def sync(
             raw_name = var_data.get("name", "")
             images = var_data.get("images", [])
             image_url = images[0].get("src", "") if images else ""
-            attr_param2, attr_value2 = compute_attr(var_data.get("attributes", []) or pre_attrs)
+            attr_param2, attr_value2 = compute_attr(
+                var_data.get("attributes", []) or pre_attrs, product_attrs
+            )
             if attr_value2:
                 attr_param, attr_value = attr_param2, attr_value2
 
@@ -473,8 +509,12 @@ def sync(
                     backfilled += 1
                 continue
 
-            fuzzy = _find_fuzzy_match(set_code, product_group, clean_name, attr_value, existing_catalogue_ids)
+            fuzzy = _find_fuzzy_match(
+                set_code, product_group, clean_name, attr_value,
+                existing_catalogue_ids, claimed, unmatched_count,
+            )
             if fuzzy:
+                claimed.add(fuzzy)
                 if backfill_direct_url(existing_catalogue_ids[fuzzy], direct_url):
                     backfilled += 1
                 continue
@@ -505,6 +545,7 @@ def sync(
                 "setOrder": extract_release_month(image_url),
             }
             existing_catalogue_ids[item_id] = entry
+            claimed.add(item_id)
             print(f"   + ajouté : {item_id} ({clean_name})")
 
     return new_products, new_items, backfilled
@@ -540,7 +581,7 @@ def main() -> None:
 
     print(
         f"\n{new_products} nouveau(x) produit(s), {new_items} nouvelle(s) variante(s), "
-        f"{backfilled} directUrl backfillé(s)."
+        f"{backfilled} directUrl mis à jour."
     )
 
     if args.dry_run:
