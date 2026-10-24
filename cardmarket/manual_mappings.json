@@ -1041,14 +1041,6 @@
   },
   {
     "set_code": "SHD",
-    "en_name": "The Marauder, Shuttling the Bad Batch",
-    "card_number": 371,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
     "en_name": "Spark of Hope",
     "card_number": 374,
     "variant_type": "Hyperspace",
@@ -1377,14 +1369,6 @@
   },
   {
     "set_code": "SOR",
-    "en_name": "Cargo Juggernaut",
-    "card_number": 333,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
     "en_name": "Repair",
     "card_number": 339,
     "variant_type": "Hyperspace Foil",
@@ -1433,8 +1417,16 @@
   },
   {
     "set_code": "SOR",
-    "en_name": "Chimaera, Flagship of the Seventh Fleet",
-    "card_number": 448,
+    "en_name": "Wolffe, Suspicious Veteran",
+    "card_number": 423,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
+    "en_name": "Vanguard Ace",
+    "card_number": 453,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -1769,6 +1761,14 @@
   },
   {
     "set_code": "TWI",
+    "en_name": "Kit Fisto, The Smiling Jedi",
+    "card_number": 432,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
     "en_name": "Enfys Nest, Champion of Justice",
     "card_number": 463,
     "variant_type": "Hyperspace",
@@ -1795,14 +1795,6 @@
     "set_code": "TWI",
     "en_name": "Chancellor Palpatine, Wartime Chancellor",
     "card_number": 468,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "In Pursuit",
-    "card_number": 486,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
