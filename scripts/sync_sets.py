@@ -18,6 +18,7 @@ import io
 import json
 import os
 import re
+import subprocess
 import sys
 import time
 import urllib.request
@@ -37,7 +38,26 @@ ANNOUNCEMENTS_ANDROID_PATH = os.path.join(_HERE, '..', 'announcements-android.js
 
 # ─── Config ───────────────────────────────────────────────────────────────────
 REPO   = "Yannick101984/swucardex-data"
-BRANCH = os.environ.get("GITHUB_REF_NAME", "main")
+# Branches publiées : chacune doit référencer ses propres fichiers (#19).
+DATA_BRANCHES = ("main", "staging")
+
+
+def detect_branch():
+    """Branche courante : GITHUB_REF_NAME (forcé par les workflows), sinon git."""
+    branch = os.environ.get("GITHUB_REF_NAME")
+    if branch:
+        return branch
+    try:
+        return subprocess.run(
+            ["git", "rev-parse", "--abbrev-ref", "HEAD"],
+            cwd=_HERE, capture_output=True, text=True, check=True,
+        ).stdout.strip()
+    except (OSError, subprocess.CalledProcessError):
+        return "main"
+
+
+CURRENT_BRANCH = detect_branch()
+BRANCH = CURRENT_BRANCH if CURRENT_BRANCH in DATA_BRANCHES else "main"
 
 COMPARE_EXCLUDED = {'SOR', 'TWI', 'SHD'}
 
@@ -349,6 +369,28 @@ def report_unclassified_sets(added):
     if output:
         with open(output, 'a', encoding='utf-8') as f:
             f.write(f"unclassified={','.join(unclassified)}\n")
+
+
+def normalize_data_urls(manifest):
+    """
+    Fait pointer toutes les dataURL du manifest vers la branche courante : un
+    merge main → staging ramène des URLs /main/, le run suivant les corrige.
+    Hors main/staging (branche de travail locale) : on ne touche à rien.
+    Retourne le nombre d'URLs réécrites.
+    """
+    if CURRENT_BRANCH not in DATA_BRANCHES:
+        return 0
+    prefix = f"https://raw.githubusercontent.com/{REPO}/"
+    pattern = re.compile(re.escape(prefix) + r"[^/]+/")
+    fixed = 0
+    for entry in manifest['sets']:
+        url = entry.get('dataURL', '')
+        if url.startswith(prefix):
+            new_url = pattern.sub(f"{prefix}{CURRENT_BRANCH}/", url, count=1)
+            if new_url != url:
+                entry['dataURL'] = new_url
+                fixed += 1
+    return fixed
 
 
 def known_api_codes(manifest):
@@ -706,6 +748,12 @@ def main():
         sync_mode()
     else:
         compare_mode()
+
+    manifest = load_manifest()
+    fixed = normalize_data_urls(manifest)
+    if fixed:
+        save_manifest(manifest)
+        print(f"\n🔗 {fixed} dataURL réécrite(s) vers {CURRENT_BRANCH}.")
 
 
 if __name__ == '__main__':
