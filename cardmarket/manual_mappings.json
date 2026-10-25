@@ -1057,6 +1057,14 @@
   },
   {
     "set_code": "SHD",
+    "en_name": "Outlaw Corona",
+    "card_number": 385,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
     "en_name": "Bounty Hunter's Quarry",
     "card_number": 392,
     "variant_type": "Hyperspace",
@@ -1131,6 +1139,14 @@
     "set_code": "SHD",
     "en_name": "Final Showdown",
     "card_number": 476,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
+    "en_name": "Enfys Nest, Marauder",
+    "card_number": 487,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
