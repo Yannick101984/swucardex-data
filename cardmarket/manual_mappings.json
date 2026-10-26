@@ -1721,6 +1721,14 @@
   },
   {
     "set_code": "TWI",
+    "en_name": "Daughter of Dathomir",
+    "card_number": 335,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
     "en_name": "Ki-Adi-Mundi, Composed and Confident",
     "card_number": 337,
     "variant_type": "Hyperspace",
@@ -1755,14 +1763,6 @@
     "set_code": "TWI",
     "en_name": "Darth Maul, Revenge At Last",
     "card_number": 403,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "Jesse, Hard-Fighting Patriot",
-    "card_number": 413,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
