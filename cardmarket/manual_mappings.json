@@ -1121,14 +1121,6 @@
   },
   {
     "set_code": "SHD",
-    "en_name": "Cartel Turncoat",
-    "card_number": 464,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
     "en_name": "L3-37, Droid Revolutionary",
     "card_number": 465,
     "variant_type": "Hyperspace",
@@ -1377,6 +1369,14 @@
   },
   {
     "set_code": "SOR",
+    "en_name": "Luke Skywalker, Jedi Knight",
+    "card_number": 317,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
     "en_name": "Rugged Survivors",
     "card_number": 332,
     "variant_type": "Hyperspace",
@@ -1435,6 +1435,14 @@
     "set_code": "SOR",
     "en_name": "Wolffe, Suspicious Veteran",
     "card_number": 423,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
+    "en_name": "Fett's Firespray, Pursuing the Bounty",
+    "card_number": 447,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -1755,6 +1763,14 @@
     "set_code": "TWI",
     "en_name": "Mas Amedda, Vice Chair",
     "card_number": 372,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
+    "en_name": "Bo-Katan Kryze, Death Watch Lieutenant",
+    "card_number": 398,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
