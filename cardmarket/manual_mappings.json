@@ -1105,6 +1105,14 @@
   },
   {
     "set_code": "SHD",
+    "en_name": "Wild Rancor",
+    "card_number": 427,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
     "en_name": "Disabling Fang Fighter",
     "card_number": 435,
     "variant_type": "Hyperspace",
