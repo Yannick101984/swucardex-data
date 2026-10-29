@@ -1,5 +1,20 @@
 [
   {
+    "id": "ann-1793274553",
+    "title": "Nouvelles cartes ajoutées - P26",
+    "detail": "Nouvelles cartes :\n- P26 240 - Maul\n- P26 241 - Fett's Firespray\n- P26 242 - Gar Saxon\n- P26 243 - Captain Rex\n- P26 244 - Redemption\n- P26 245 - Take Cover\n- P26 246 - Garnac\n- P26 247 - Red Leader\n- P26 248 - Grand Inquisitor\n- P26 249 - Adamant Ewoks\n- P26 250 - Victor Squadron\n- P26 251 - Luke Skywalker\n- P26 252 - Maul\n- P26 253 - Fett's Firespray\n- P26 254 - Gar Saxon\n- P26 255 - Captain Rex\n- P26 256 - Redemption\n- P26 257 - Take Cover\n- P26 258 - Garnac\n- P26 259 - Red Leader\n- P26 260 - Grand Inquisitor\n- P26 261 - Adamant Ewoks\n- P26 262 - Victor Squadron\n- P26 263 - Luke Skywalker\n- P26 264 - Ima-Gun Di\n- P26 265 - Nuvo Vindi\n- P26 266 - Admiral Holdo\n- P26 267 - Verdant Fortress\n- P26 268 - Operation Cinder\n- P26 269 - I've Got A Bad Feeling\n- P26 270 - Mae\n- P26 271 - Luminara Unduli\n- P26 272 - Boba Fett\n- P26 273 - Jar Jar Binks\n- P26 274 - Wicket\n- P26 275 - Chewbacca\n- P26 279 - Paz Vizsla\n- P26 280 - Shadow of Stygeon Prime\n- P26 281 - K-2SO\n- P26 282 - Jabba the Hutt\n- P26 283 - The Cyborg Mech\n- P26 284 - Boba Fett's Rancor\n- P26 285 - Maul\n- P26 286 - Captain Rex\n- P26 287 - The Stranger\n- P26 288 - Boba Fett\n- P26 289 - The Mandalorian",
+    "color": "#7C3AED",
+    "url": null,
+    "imageURL": null,
+    "date": "2026-10-29",
+    "changes": {
+      "added": [
+        "P26"
+      ],
+      "updated": null
+    }
+  },
+  {
     "id": "ann-v1.5.1-update",
     "title": "v1.5.1 disponible ! Rotation Premier à jour, cartes bannies et import de collection fiabilisés",
     "detail": null,
