@@ -1009,6 +1009,14 @@
   },
   {
     "set_code": "SHD",
+    "en_name": "Brutal Traditions",
+    "card_number": 315,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
     "en_name": "Val, Loyal to the End",
     "card_number": 333,
     "variant_type": "Hyperspace",
@@ -1123,6 +1131,14 @@
     "set_code": "SHD",
     "en_name": "Kintan Intimidator",
     "card_number": 452,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
+    "en_name": "Lurking TIE Phantom",
+    "card_number": 456,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -1731,6 +1747,14 @@
     "set_code": "TWI",
     "en_name": "General Grievous, Trophy Collector",
     "card_number": 307,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
+    "en_name": "A Fine Addition",
+    "card_number": 313,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
