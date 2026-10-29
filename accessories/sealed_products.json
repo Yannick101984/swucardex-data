@@ -1,5 +1,32 @@
 [
   {
+    "id": "sor_sealed_booster_leia-organa",
+    "setCode": "sor",
+    "productGroup": "Booster",
+    "category": "Booster",
+    "variantName": "Leia Organa",
+    "sourceImageUrl": "https://media.play-in.com/img/product/swu-booster-fr.jpg",
+    "productPageUrl": "https://starwarsunlimited.com/products/set-1-spark-of-rebellion"
+  },
+  {
+    "id": "sor_sealed_booster_chewbacca",
+    "setCode": "sor",
+    "productGroup": "Booster",
+    "category": "Booster",
+    "variantName": "Chewbacca",
+    "sourceImageUrl": "https://media.play-in.com/img/product/secondary/booster-16-cartes-star-wars-unlimited-etincelle-de-rebellion-chewie.jpg",
+    "productPageUrl": "https://starwarsunlimited.com/products/set-1-spark-of-rebellion"
+  },
+  {
+    "id": "sor_sealed_booster_grand-amiral-thrawn",
+    "setCode": "sor",
+    "productGroup": "Booster",
+    "category": "Booster",
+    "variantName": "Grand Amiral Thrawn",
+    "sourceImageUrl": "https://media.play-in.com/img/product/secondary/booster-16-cartes-star-wars-unlimited-etincelle-de-rebellion-thrawn.jpg",
+    "productPageUrl": "https://starwarsunlimited.com/products/set-1-spark-of-rebellion"
+  },
+  {
     "id": "sor_sealed_booster-display",
     "setCode": "sor",
     "productGroup": "Display de boosters",
@@ -25,6 +52,24 @@
     "variantName": "Boîte d'avant-première",
     "sourceImageUrl": "https://cdn.starwarsunlimited.com/SWH_Button_Prerelease_Box_1e40fd81ed.png",
     "productPageUrl": "https://starwarsunlimited.com/products/set-1-spark-of-rebellion"
+  },
+  {
+    "id": "shd_sealed_booster_lando-calrissian",
+    "setCode": "shd",
+    "productGroup": "Booster",
+    "category": "Booster",
+    "variantName": "Lando Calrissian",
+    "sourceImageUrl": "https://media.play-in.com/img/product/booster-star-wars-ombres-de-la-galaxie-fr.jpg",
+    "productPageUrl": "https://starwarsunlimited.com/products/set-2-shadows-of-the-galaxy"
+  },
+  {
+    "id": "shd_sealed_booster_boba-fett",
+    "setCode": "shd",
+    "productGroup": "Booster",
+    "category": "Booster",
+    "variantName": "Boba Fett",
+    "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0574/4692/4324/files/f52bdbb3aed123dbe5fa7e304a2b59af9b234f16_Asset_SEA_PAC_SWU_FFGSWH0202EN.jpg",
+    "productPageUrl": "https://starwarsunlimited.com/products/set-2-shadows-of-the-galaxy"
   },
   {
     "id": "shd_sealed_booster-display",
@@ -54,6 +99,24 @@
     "productPageUrl": "https://starwarsunlimited.com/products/set-2-shadows-of-the-galaxy"
   },
   {
+    "id": "twi_sealed_booster_yoda",
+    "setCode": "twi",
+    "productGroup": "Booster",
+    "category": "Booster",
+    "variantName": "Yoda",
+    "sourceImageUrl": "https://ludivers.net/10433-large_default/star-wars-unlimited-crepuscule-de-la-republique-booster.jpg",
+    "productPageUrl": "https://starwarsunlimited.com/products/set-3-twilight-of-the-republic"
+  },
+  {
+    "id": "twi_sealed_booster_commandant-clone-cody",
+    "setCode": "twi",
+    "productGroup": "Booster",
+    "category": "Booster",
+    "variantName": "Commandant Clone Cody",
+    "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0574/4692/4324/files/9a64606f42e51aeeb9d56b86a30fdc771e9761e4_Asset_SEA_PAC_SWU_FFGSWH0302EN.jpg",
+    "productPageUrl": "https://starwarsunlimited.com/products/set-3-twilight-of-the-republic"
+  },
+  {
     "id": "twi_sealed_booster-display",
     "setCode": "twi",
     "productGroup": "Display de boosters",
@@ -79,6 +142,24 @@
     "variantName": "Boîte d'avant-première",
     "sourceImageUrl": "https://cdn.starwarsunlimited.com/SWH_03_Button_Prerelease_Box_EN_3371939422.png",
     "productPageUrl": "https://starwarsunlimited.com/products/set-3-twilight-of-the-republic"
+  },
+  {
+    "id": "jtl_sealed_booster_poe-dameron",
+    "setCode": "jtl",
+    "productGroup": "Booster",
+    "category": "Booster",
+    "variantName": "Poe Dameron",
+    "sourceImageUrl": "https://media.play-in.com/img/product/booster-jtl-fr.jpg",
+    "productPageUrl": "https://starwarsunlimited.com/products/set-4-jump-to-lightspeed"
+  },
+  {
+    "id": "jtl_sealed_booster_faucon-millenium",
+    "setCode": "jtl",
+    "productGroup": "Booster",
+    "category": "Booster",
+    "variantName": "Faucon Millenium",
+    "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0574/4692/4324/files/d8e31d91b15aeb1a344e304b7e7e7e44ea650c31_Asset_SEA_PAC_SWU_FFGSWH0402EN.jpg",
+    "productPageUrl": "https://starwarsunlimited.com/products/set-4-jump-to-lightspeed"
   },
   {
     "id": "jtl_sealed_booster-display",
@@ -126,6 +207,15 @@
     "productPageUrl": "https://starwarsunlimited.com/products/set-4-jump-to-lightspeed"
   },
   {
+    "id": "lof_sealed_booster_yoda",
+    "setCode": "lof",
+    "productGroup": "Booster",
+    "category": "Booster",
+    "variantName": "Yoda",
+    "sourceImageUrl": "https://media.play-in.com/img/product/booster-legendes-de-la-force-star-wars-unlimited-fr.jpg",
+    "productPageUrl": "https://starwarsunlimited.com/products/set-5-legends-of-the-force"
+  },
+  {
     "id": "lof_sealed_booster-display",
     "setCode": "lof",
     "productGroup": "Display de boosters",
@@ -157,7 +247,7 @@
     "setCode": "lof",
     "productGroup": "Deck Spotlight",
     "category": "Starter Deck",
-    "variantName": "Darth Maul",
+    "variantName": "Dark Maul",
     "sourceImageUrl": "https://cdn.starwarsunlimited.com/SWH_05_Button_Spotlight_Deck_B_EN_e3e95899f9.png",
     "productPageUrl": "https://starwarsunlimited.com/products/set-5-legends-of-the-force"
   },
@@ -169,6 +259,33 @@
     "variantName": "Boîte d'avant-première",
     "sourceImageUrl": "https://cdn.starwarsunlimited.com/SWH_05_Button_Prerelease_Box_EN_a6799a5943.png",
     "productPageUrl": "https://starwarsunlimited.com/products/set-5-legends-of-the-force"
+  },
+  {
+    "id": "sec_sealed_booster_wrap-1",
+    "setCode": "sec",
+    "productGroup": "Booster",
+    "category": "Booster",
+    "variantName": "Illustration 1",
+    "sourceImageUrl": "https://ludivers.net/12096-large_default/star-wars-unlimited-secrets-du-pouvoir-booster.jpg",
+    "productPageUrl": "https://starwarsunlimited.com/products/set-6-secrets-of-power"
+  },
+  {
+    "id": "sec_sealed_booster_jabba-le-hutt",
+    "setCode": "sec",
+    "productGroup": "Booster",
+    "category": "Booster",
+    "variantName": "Jabba le Hutt",
+    "sourceImageUrl": "https://ludivers.net/12097-large_default/star-wars-unlimited-secrets-du-pouvoir-booster.jpg",
+    "productPageUrl": "https://starwarsunlimited.com/products/set-6-secrets-of-power"
+  },
+  {
+    "id": "sec_sealed_booster_mon-mothma",
+    "setCode": "sec",
+    "productGroup": "Booster",
+    "category": "Booster",
+    "variantName": "Mon Mothma",
+    "sourceImageUrl": "https://ludivers.net/12098-large_default/star-wars-unlimited-secrets-du-pouvoir-booster.jpg",
+    "productPageUrl": "https://starwarsunlimited.com/products/set-6-secrets-of-power"
   },
   {
     "id": "sec_sealed_booster-display",
@@ -202,7 +319,7 @@
     "setCode": "sec",
     "productGroup": "Deck Spotlight",
     "category": "Starter Deck",
-    "variantName": "Chancellor Palpatine",
+    "variantName": "Chancelier Palpatine",
     "sourceImageUrl": "https://cdn.starwarsunlimited.com/SWH_06_Button_Spotlight_Deck_B_EN_28e5e804f9.png",
     "productPageUrl": "https://starwarsunlimited.com/products/set-6-secrets-of-power"
   },
@@ -214,6 +331,24 @@
     "variantName": "Boîte d'avant-première",
     "sourceImageUrl": "https://cdn.starwarsunlimited.com/SWH_06_Button_Prerelease_Box_EN_27ed19b769.png",
     "productPageUrl": "https://starwarsunlimited.com/products/set-6-secrets-of-power"
+  },
+  {
+    "id": "law_sealed_booster_lando-calrissian",
+    "setCode": "law",
+    "productGroup": "Booster",
+    "category": "Booster",
+    "variantName": "Lando Calrissian",
+    "sourceImageUrl": "https://ludivers.net/13232-large_default/star-wars-unlimited-sans-foi-ni-loi-booster.jpg",
+    "productPageUrl": "https://starwarsunlimited.com/products/set-7-a-lawless-time"
+  },
+  {
+    "id": "law_sealed_booster_boba-fett",
+    "setCode": "law",
+    "productGroup": "Booster",
+    "category": "Booster",
+    "variantName": "Boba Fett",
+    "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0574/4692/4324/files/d1db906cf675082216d42d404586f44e44b755dd_Asset_SEA_PAC_SWU_FFGSWH0702EN.jpg",
+    "productPageUrl": "https://starwarsunlimited.com/products/set-7-a-lawless-time"
   },
   {
     "id": "law_sealed_booster-display",
@@ -247,7 +382,7 @@
     "setCode": "law",
     "productGroup": "Deck Spotlight",
     "category": "Starter Deck",
-    "variantName": "Jabba the Hutt",
+    "variantName": "Jabba le Hutt",
     "sourceImageUrl": "https://cdn.starwarsunlimited.com/SWH_07_Button_Spotlight_Deck_B_EN_8eab29e98d.png",
     "productPageUrl": "https://starwarsunlimited.com/products/set-7-a-lawless-time"
   },
@@ -259,6 +394,15 @@
     "variantName": "Boîte d'avant-première",
     "sourceImageUrl": "https://cdn.starwarsunlimited.com/SWH_07_Button_Prerelease_Box_EN_ed3a648901.png",
     "productPageUrl": "https://starwarsunlimited.com/products/set-7-a-lawless-time"
+  },
+  {
+    "id": "ash_sealed_booster_moff-gideon",
+    "setCode": "ash",
+    "productGroup": "Booster",
+    "category": "Booster",
+    "variantName": "Moff Gideon",
+    "sourceImageUrl": "https://cdn.shopify.com/s/files/1/0574/4692/4324/files/f4025b890b405c7de804d669ba9870c1d8ae4c77_Asset_SEA_PAC_SWU_FFGSWH0802EN.webp",
+    "productPageUrl": "https://starwarsunlimited.com/products/set-8-ashes-of-the-empire"
   },
   {
     "id": "ash_sealed_booster-display",
@@ -292,7 +436,7 @@
     "setCode": "ash",
     "productGroup": "Deck Spotlight",
     "category": "Starter Deck",
-    "variantName": "Emperor Palpatine",
+    "variantName": "Empereur Palpatine",
     "sourceImageUrl": "https://cdn.starwarsunlimited.com/SWH_08_Button_Spotlight_Deck_B_EN_6d9669d45e.png",
     "productPageUrl": "https://starwarsunlimited.com/products/set-8-ashes-of-the-empire"
   },
@@ -304,6 +448,24 @@
     "variantName": "Boîte d'avant-première",
     "sourceImageUrl": "https://cdn.starwarsunlimited.com/SWH_08_Button_Prerelease_Box_EN_5d6e45018a.png",
     "productPageUrl": "https://starwarsunlimited.com/products/set-8-ashes-of-the-empire"
+  },
+  {
+    "id": "hmw_sealed_booster_general-grievous",
+    "setCode": "hmw",
+    "productGroup": "Booster",
+    "category": "Booster",
+    "variantName": "Général Grievous",
+    "sourceImageUrl": "https://ludivers.net/14177-large_default/star-wars-unlimited-mondes-natals-booster.jpg",
+    "productPageUrl": "https://starwarsunlimited.com/products/set-9-homeworlds"
+  },
+  {
+    "id": "hmw_sealed_booster_ewoks",
+    "setCode": "hmw",
+    "productGroup": "Booster",
+    "category": "Booster",
+    "variantName": "Ewoks",
+    "sourceImageUrl": "https://ludivers.net/14178-large_default/star-wars-unlimited-mondes-natals-booster.jpg",
+    "productPageUrl": "https://starwarsunlimited.com/products/set-9-homeworlds"
   },
   {
     "id": "hmw_sealed_booster-display",

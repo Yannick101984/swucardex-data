@@ -26,7 +26,9 @@ Rapidité :
 
 Produits scellés (#668) :
   accessories/sealed_products.json (boosters, displays, decks préconstruits, boîtes
-  d'avant-première) est relevé à la main sur starwarsunlimited.com. Chaque run le
+  d'avant-première) est relevé à la main : starwarsunlimited.com pour les boîtes et
+  decks, revendeurs FR (visuels FR) ou visuels officiels EN pour chaque illustration
+  de booster ; `sourceImageUrl` garde la trace de la source. Chaque run le
   fusionne dans le catalogue, avec ses images, en tête de son set. Ajouter un produit
   = ajouter une entrée ; ne jamais changer un `id` publié (clé de possession dans l'app).
 
@@ -656,7 +658,9 @@ def merge_sealed(
             continue
         set_name, set_order = set_info[set_code]
         source_url = product["sourceImageUrl"]
-        img_filename = f"{product['id']}{Path(source_url).suffix}"
+        # Images versionnées et parfois retouchées (fond transparent, pastille de
+        # revendeur retirée) : le téléchargement ne sert que si le fichier manque.
+        img_filename = f"{product['id']}.png"
         img_url_github = BASE_IMG_URL + img_filename
         if dry_run or not download_image(source_url, images_dir / img_filename):
             img_url_github = source_url
