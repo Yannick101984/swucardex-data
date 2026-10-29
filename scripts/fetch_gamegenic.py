@@ -93,7 +93,8 @@ CATEGORY_KEYWORDS: list[tuple[str, str]] = [
 ]
 
 # Produits scellés officiels (accessories/sealed_products.json, relevés à la main) :
-# catégories dans leur ordre d'affichage, en tête de chaque set (#668).
+# catégories dans leur ordre d'affichage, en tête de chaque set (#668). L'app les
+# reconnaît au champ `sealed` des items, pas à cette liste.
 SEALED_CATEGORIES: tuple[str, ...] = ("Booster", "Display", "Starter Deck", "Prerelease")
 
 
@@ -672,6 +673,7 @@ def merge_sealed(
             "variantSlug": slugify_variant(product["variantName"]),
             "imageURL": img_url_github, "productPageUrl": product["productPageUrl"],
             "directUrl": None, "acquired": False, "setOrder": set_order,
+            "sealed": True,  # l'app range ces items à part, sans liste de catégories à tenir à jour
         }
         if existing_catalogue_ids.get(product["id"]) != entry:
             existing_catalogue_ids[product["id"]] = entry

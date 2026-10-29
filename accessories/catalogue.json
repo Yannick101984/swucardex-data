@@ -671,7 +671,8 @@
     "productPageUrl": "https://starwarsunlimited.com/products/set-1-spark-of-rebellion",
     "directUrl": null,
     "acquired": false,
-    "setOrder": 202309
+    "setOrder": 202309,
+    "sealed": true
   },
   {
     "id": "sor_sealed_booster_grand-amiral-thrawn",
@@ -685,7 +686,8 @@
     "productPageUrl": "https://starwarsunlimited.com/products/set-1-spark-of-rebellion",
     "directUrl": null,
     "acquired": false,
-    "setOrder": 202309
+    "setOrder": 202309,
+    "sealed": true
   },
   {
     "id": "sor_sealed_booster_leia-organa",
@@ -699,7 +701,8 @@
     "productPageUrl": "https://starwarsunlimited.com/products/set-1-spark-of-rebellion",
     "directUrl": null,
     "acquired": false,
-    "setOrder": 202309
+    "setOrder": 202309,
+    "sealed": true
   },
   {
     "id": "sor_sealed_booster-display",
@@ -713,7 +716,8 @@
     "productPageUrl": "https://starwarsunlimited.com/products/set-1-spark-of-rebellion",
     "directUrl": null,
     "acquired": false,
-    "setOrder": 202309
+    "setOrder": 202309,
+    "sealed": true
   },
   {
     "id": "sor_sealed_two-player-starter",
@@ -727,7 +731,8 @@
     "productPageUrl": "https://starwarsunlimited.com/products/set-1-spark-of-rebellion",
     "directUrl": null,
     "acquired": false,
-    "setOrder": 202309
+    "setOrder": 202309,
+    "sealed": true
   },
   {
     "id": "sor_sealed_prerelease-box",
@@ -741,7 +746,8 @@
     "productPageUrl": "https://starwarsunlimited.com/products/set-1-spark-of-rebellion",
     "directUrl": null,
     "acquired": false,
-    "setOrder": 202309
+    "setOrder": 202309,
+    "sealed": true
   },
   {
     "setCode": "sor",
@@ -875,7 +881,8 @@
     "productPageUrl": "https://starwarsunlimited.com/products/set-2-shadows-of-the-galaxy",
     "directUrl": null,
     "acquired": false,
-    "setOrder": 202404
+    "setOrder": 202404,
+    "sealed": true
   },
   {
     "id": "shd_sealed_booster_lando-calrissian",
@@ -889,7 +896,8 @@
     "productPageUrl": "https://starwarsunlimited.com/products/set-2-shadows-of-the-galaxy",
     "directUrl": null,
     "acquired": false,
-    "setOrder": 202404
+    "setOrder": 202404,
+    "sealed": true
   },
   {
     "id": "shd_sealed_booster-display",
@@ -903,7 +911,8 @@
     "productPageUrl": "https://starwarsunlimited.com/products/set-2-shadows-of-the-galaxy",
     "directUrl": null,
     "acquired": false,
-    "setOrder": 202404
+    "setOrder": 202404,
+    "sealed": true
   },
   {
     "id": "shd_sealed_two-player-starter",
@@ -917,7 +926,8 @@
     "productPageUrl": "https://starwarsunlimited.com/products/set-2-shadows-of-the-galaxy",
     "directUrl": null,
     "acquired": false,
-    "setOrder": 202404
+    "setOrder": 202404,
+    "sealed": true
   },
   {
     "id": "shd_sealed_prerelease-box",
@@ -931,7 +941,8 @@
     "productPageUrl": "https://starwarsunlimited.com/products/set-2-shadows-of-the-galaxy",
     "directUrl": null,
     "acquired": false,
-    "setOrder": 202404
+    "setOrder": 202404,
+    "sealed": true
   },
   {
     "setCode": "shd",
@@ -1065,7 +1076,8 @@
     "productPageUrl": "https://starwarsunlimited.com/products/set-3-twilight-of-the-republic",
     "directUrl": null,
     "acquired": false,
-    "setOrder": 202409
+    "setOrder": 202409,
+    "sealed": true
   },
   {
     "id": "twi_sealed_booster_yoda",
@@ -1079,7 +1091,8 @@
     "productPageUrl": "https://starwarsunlimited.com/products/set-3-twilight-of-the-republic",
     "directUrl": null,
     "acquired": false,
-    "setOrder": 202409
+    "setOrder": 202409,
+    "sealed": true
   },
   {
     "id": "twi_sealed_booster-display",
@@ -1093,7 +1106,8 @@
     "productPageUrl": "https://starwarsunlimited.com/products/set-3-twilight-of-the-republic",
     "directUrl": null,
     "acquired": false,
-    "setOrder": 202409
+    "setOrder": 202409,
+    "sealed": true
   },
   {
     "id": "twi_sealed_two-player-starter",
@@ -1107,7 +1121,8 @@
     "productPageUrl": "https://starwarsunlimited.com/products/set-3-twilight-of-the-republic",
     "directUrl": null,
     "acquired": false,
-    "setOrder": 202409
+    "setOrder": 202409,
+    "sealed": true
   },
   {
     "id": "twi_sealed_prerelease-box",
@@ -1121,7 +1136,8 @@
     "productPageUrl": "https://starwarsunlimited.com/products/set-3-twilight-of-the-republic",
     "directUrl": null,
     "acquired": false,
-    "setOrder": 202409
+    "setOrder": 202409,
+    "sealed": true
   },
   {
     "setCode": "twi",
@@ -1270,7 +1286,8 @@
     "productPageUrl": "https://starwarsunlimited.com/products/set-4-jump-to-lightspeed",
     "directUrl": null,
     "acquired": false,
-    "setOrder": 202501
+    "setOrder": 202501,
+    "sealed": true
   },
   {
     "id": "jtl_sealed_booster_poe-dameron",
@@ -1284,7 +1301,8 @@
     "productPageUrl": "https://starwarsunlimited.com/products/set-4-jump-to-lightspeed",
     "directUrl": null,
     "acquired": false,
-    "setOrder": 202501
+    "setOrder": 202501,
+    "sealed": true
   },
   {
     "id": "jtl_sealed_booster-display",
@@ -1298,7 +1316,8 @@
     "productPageUrl": "https://starwarsunlimited.com/products/set-4-jump-to-lightspeed",
     "directUrl": null,
     "acquired": false,
-    "setOrder": 202501
+    "setOrder": 202501,
+    "sealed": true
   },
   {
     "id": "jtl_sealed_carbonite-booster-display",
@@ -1312,7 +1331,8 @@
     "productPageUrl": "https://starwarsunlimited.com/products/set-4-jump-to-lightspeed",
     "directUrl": null,
     "acquired": false,
-    "setOrder": 202501
+    "setOrder": 202501,
+    "sealed": true
   },
   {
     "id": "jtl_sealed_spotlight-deck_boba-fett",
@@ -1326,7 +1346,8 @@
     "productPageUrl": "https://starwarsunlimited.com/products/set-4-jump-to-lightspeed",
     "directUrl": null,
     "acquired": false,
-    "setOrder": 202501
+    "setOrder": 202501,
+    "sealed": true
   },
   {
     "id": "jtl_sealed_spotlight-deck_han-solo",
@@ -1340,7 +1361,8 @@
     "productPageUrl": "https://starwarsunlimited.com/products/set-4-jump-to-lightspeed",
     "directUrl": null,
     "acquired": false,
-    "setOrder": 202501
+    "setOrder": 202501,
+    "sealed": true
   },
   {
     "id": "jtl_sealed_prerelease-box",
@@ -1354,7 +1376,8 @@
     "productPageUrl": "https://starwarsunlimited.com/products/set-4-jump-to-lightspeed",
     "directUrl": null,
     "acquired": false,
-    "setOrder": 202501
+    "setOrder": 202501,
+    "sealed": true
   },
   {
     "setCode": "jtl",
@@ -1563,7 +1586,8 @@
     "productPageUrl": "https://starwarsunlimited.com/products/set-5-legends-of-the-force",
     "directUrl": null,
     "acquired": false,
-    "setOrder": 202507
+    "setOrder": 202507,
+    "sealed": true
   },
   {
     "id": "lof_sealed_booster-display",
@@ -1577,7 +1601,8 @@
     "productPageUrl": "https://starwarsunlimited.com/products/set-5-legends-of-the-force",
     "directUrl": null,
     "acquired": false,
-    "setOrder": 202507
+    "setOrder": 202507,
+    "sealed": true
   },
   {
     "id": "lof_sealed_carbonite-booster-display",
@@ -1591,7 +1616,8 @@
     "productPageUrl": "https://starwarsunlimited.com/products/set-5-legends-of-the-force",
     "directUrl": null,
     "acquired": false,
-    "setOrder": 202507
+    "setOrder": 202507,
+    "sealed": true
   },
   {
     "id": "lof_sealed_spotlight-deck_darth-maul",
@@ -1605,7 +1631,8 @@
     "productPageUrl": "https://starwarsunlimited.com/products/set-5-legends-of-the-force",
     "directUrl": null,
     "acquired": false,
-    "setOrder": 202507
+    "setOrder": 202507,
+    "sealed": true
   },
   {
     "id": "lof_sealed_spotlight-deck_qui-gon-jinn",
@@ -1619,7 +1646,8 @@
     "productPageUrl": "https://starwarsunlimited.com/products/set-5-legends-of-the-force",
     "directUrl": null,
     "acquired": false,
-    "setOrder": 202507
+    "setOrder": 202507,
+    "sealed": true
   },
   {
     "id": "lof_sealed_prerelease-box",
@@ -1633,7 +1661,8 @@
     "productPageUrl": "https://starwarsunlimited.com/products/set-5-legends-of-the-force",
     "directUrl": null,
     "acquired": false,
-    "setOrder": 202507
+    "setOrder": 202507,
+    "sealed": true
   },
   {
     "setCode": "lof",
@@ -1797,7 +1826,8 @@
     "productPageUrl": "https://starwarsunlimited.com/products/set-6-secrets-of-power",
     "directUrl": null,
     "acquired": false,
-    "setOrder": 202511
+    "setOrder": 202511,
+    "sealed": true
   },
   {
     "id": "sec_sealed_booster_jabba-le-hutt",
@@ -1811,7 +1841,8 @@
     "productPageUrl": "https://starwarsunlimited.com/products/set-6-secrets-of-power",
     "directUrl": null,
     "acquired": false,
-    "setOrder": 202511
+    "setOrder": 202511,
+    "sealed": true
   },
   {
     "id": "sec_sealed_booster_mon-mothma",
@@ -1825,7 +1856,8 @@
     "productPageUrl": "https://starwarsunlimited.com/products/set-6-secrets-of-power",
     "directUrl": null,
     "acquired": false,
-    "setOrder": 202511
+    "setOrder": 202511,
+    "sealed": true
   },
   {
     "id": "sec_sealed_booster-display",
@@ -1839,7 +1871,8 @@
     "productPageUrl": "https://starwarsunlimited.com/products/set-6-secrets-of-power",
     "directUrl": null,
     "acquired": false,
-    "setOrder": 202511
+    "setOrder": 202511,
+    "sealed": true
   },
   {
     "id": "sec_sealed_carbonite-booster-display",
@@ -1853,7 +1886,8 @@
     "productPageUrl": "https://starwarsunlimited.com/products/set-6-secrets-of-power",
     "directUrl": null,
     "acquired": false,
-    "setOrder": 202511
+    "setOrder": 202511,
+    "sealed": true
   },
   {
     "id": "sec_sealed_spotlight-deck_chancellor-palpatine",
@@ -1867,7 +1901,8 @@
     "productPageUrl": "https://starwarsunlimited.com/products/set-6-secrets-of-power",
     "directUrl": null,
     "acquired": false,
-    "setOrder": 202511
+    "setOrder": 202511,
+    "sealed": true
   },
   {
     "id": "sec_sealed_spotlight-deck_padme-amidala",
@@ -1881,7 +1916,8 @@
     "productPageUrl": "https://starwarsunlimited.com/products/set-6-secrets-of-power",
     "directUrl": null,
     "acquired": false,
-    "setOrder": 202511
+    "setOrder": 202511,
+    "sealed": true
   },
   {
     "id": "sec_sealed_prerelease-box",
@@ -1895,7 +1931,8 @@
     "productPageUrl": "https://starwarsunlimited.com/products/set-6-secrets-of-power",
     "directUrl": null,
     "acquired": false,
-    "setOrder": 202511
+    "setOrder": 202511,
+    "sealed": true
   },
   {
     "setCode": "sec",
@@ -2059,7 +2096,8 @@
     "productPageUrl": "https://starwarsunlimited.com/products/set-7-a-lawless-time",
     "directUrl": null,
     "acquired": false,
-    "setOrder": 202602
+    "setOrder": 202602,
+    "sealed": true
   },
   {
     "id": "law_sealed_booster_lando-calrissian",
@@ -2073,7 +2111,8 @@
     "productPageUrl": "https://starwarsunlimited.com/products/set-7-a-lawless-time",
     "directUrl": null,
     "acquired": false,
-    "setOrder": 202602
+    "setOrder": 202602,
+    "sealed": true
   },
   {
     "id": "law_sealed_booster-display",
@@ -2087,7 +2126,8 @@
     "productPageUrl": "https://starwarsunlimited.com/products/set-7-a-lawless-time",
     "directUrl": null,
     "acquired": false,
-    "setOrder": 202602
+    "setOrder": 202602,
+    "sealed": true
   },
   {
     "id": "law_sealed_carbonite-booster-display",
@@ -2101,7 +2141,8 @@
     "productPageUrl": "https://starwarsunlimited.com/products/set-7-a-lawless-time",
     "directUrl": null,
     "acquired": false,
-    "setOrder": 202602
+    "setOrder": 202602,
+    "sealed": true
   },
   {
     "id": "law_sealed_spotlight-deck_jabba-the-hutt",
@@ -2115,7 +2156,8 @@
     "productPageUrl": "https://starwarsunlimited.com/products/set-7-a-lawless-time",
     "directUrl": null,
     "acquired": false,
-    "setOrder": 202602
+    "setOrder": 202602,
+    "sealed": true
   },
   {
     "id": "law_sealed_spotlight-deck_leia-organa",
@@ -2129,7 +2171,8 @@
     "productPageUrl": "https://starwarsunlimited.com/products/set-7-a-lawless-time",
     "directUrl": null,
     "acquired": false,
-    "setOrder": 202602
+    "setOrder": 202602,
+    "sealed": true
   },
   {
     "id": "law_sealed_prerelease-box",
@@ -2143,7 +2186,8 @@
     "productPageUrl": "https://starwarsunlimited.com/products/set-7-a-lawless-time",
     "directUrl": null,
     "acquired": false,
-    "setOrder": 202602
+    "setOrder": 202602,
+    "sealed": true
   },
   {
     "setCode": "law",
@@ -2397,7 +2441,8 @@
     "productPageUrl": "https://starwarsunlimited.com/products/set-8-ashes-of-the-empire",
     "directUrl": null,
     "acquired": false,
-    "setOrder": 202604
+    "setOrder": 202604,
+    "sealed": true
   },
   {
     "id": "ash_sealed_booster-display",
@@ -2411,7 +2456,8 @@
     "productPageUrl": "https://starwarsunlimited.com/products/set-8-ashes-of-the-empire",
     "directUrl": null,
     "acquired": false,
-    "setOrder": 202604
+    "setOrder": 202604,
+    "sealed": true
   },
   {
     "id": "ash_sealed_carbonite-booster-display",
@@ -2425,7 +2471,8 @@
     "productPageUrl": "https://starwarsunlimited.com/products/set-8-ashes-of-the-empire",
     "directUrl": null,
     "acquired": false,
-    "setOrder": 202604
+    "setOrder": 202604,
+    "sealed": true
   },
   {
     "id": "ash_sealed_spotlight-deck_emperor-palpatine",
@@ -2439,7 +2486,8 @@
     "productPageUrl": "https://starwarsunlimited.com/products/set-8-ashes-of-the-empire",
     "directUrl": null,
     "acquired": false,
-    "setOrder": 202604
+    "setOrder": 202604,
+    "sealed": true
   },
   {
     "id": "ash_sealed_spotlight-deck_luke-skywalker",
@@ -2453,7 +2501,8 @@
     "productPageUrl": "https://starwarsunlimited.com/products/set-8-ashes-of-the-empire",
     "directUrl": null,
     "acquired": false,
-    "setOrder": 202604
+    "setOrder": 202604,
+    "sealed": true
   },
   {
     "id": "ash_sealed_prerelease-box",
@@ -2467,7 +2516,8 @@
     "productPageUrl": "https://starwarsunlimited.com/products/set-8-ashes-of-the-empire",
     "directUrl": null,
     "acquired": false,
-    "setOrder": 202604
+    "setOrder": 202604,
+    "sealed": true
   },
   {
     "setCode": "ash",
@@ -2676,7 +2726,8 @@
     "productPageUrl": "https://starwarsunlimited.com/products/set-9-homeworlds",
     "directUrl": null,
     "acquired": false,
-    "setOrder": 202609
+    "setOrder": 202609,
+    "sealed": true
   },
   {
     "id": "hmw_sealed_booster_general-grievous",
@@ -2690,7 +2741,8 @@
     "productPageUrl": "https://starwarsunlimited.com/products/set-9-homeworlds",
     "directUrl": null,
     "acquired": false,
-    "setOrder": 202609
+    "setOrder": 202609,
+    "sealed": true
   },
   {
     "id": "hmw_sealed_booster-display",
@@ -2704,7 +2756,8 @@
     "productPageUrl": "https://starwarsunlimited.com/products/set-9-homeworlds",
     "directUrl": null,
     "acquired": false,
-    "setOrder": 202609
+    "setOrder": 202609,
+    "sealed": true
   },
   {
     "id": "hmw_sealed_carbonite-booster-display",
@@ -2718,7 +2771,8 @@
     "productPageUrl": "https://starwarsunlimited.com/products/set-9-homeworlds",
     "directUrl": null,
     "acquired": false,
-    "setOrder": 202609
+    "setOrder": 202609,
+    "sealed": true
   },
   {
     "id": "hmw_sealed_spotlight-deck_chewbacca",
@@ -2732,7 +2786,8 @@
     "productPageUrl": "https://starwarsunlimited.com/products/set-9-homeworlds",
     "directUrl": null,
     "acquired": false,
-    "setOrder": 202609
+    "setOrder": 202609,
+    "sealed": true
   },
   {
     "id": "hmw_sealed_spotlight-deck_grand-moff-tarkin",
@@ -2746,7 +2801,8 @@
     "productPageUrl": "https://starwarsunlimited.com/products/set-9-homeworlds",
     "directUrl": null,
     "acquired": false,
-    "setOrder": 202609
+    "setOrder": 202609,
+    "sealed": true
   },
   {
     "id": "hmw_sealed_prerelease-box",
@@ -2760,7 +2816,8 @@
     "productPageUrl": "https://starwarsunlimited.com/products/set-9-homeworlds",
     "directUrl": null,
     "acquired": false,
-    "setOrder": 202609
+    "setOrder": 202609,
+    "sealed": true
   },
   {
     "id": "hmw_the-chieftain-akobe_zip-up-album-18-pocket",
