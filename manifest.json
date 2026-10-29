@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "lastUpdated": "2026-10-17",
+  "lastUpdated": "2026-10-29",
   "latestMainSet": "ic27",
   "announcement": {
     "id": "ann-1781021226",
@@ -232,7 +232,7 @@
     },
     {
       "id": "p26",
-      "dataVersion": 7,
+      "dataVersion": 8,
       "code": "P26",
       "name": "2026 Promo",
       "type": "promo",
