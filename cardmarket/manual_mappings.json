@@ -1465,30 +1465,6 @@
   },
   {
     "set_code": "SHD",
-    "en_name": "Bounty Hunter's Quarry",
-    "card_number": 392,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Choose Sides",
-    "card_number": 401,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Jango Fett, Renowned Bounty Hunter",
-    "card_number": 407,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
     "en_name": "Pre Vizsla, Power Hungry",
     "card_number": 411,
     "variant_type": "Hyperspace",
@@ -2233,6 +2209,14 @@
   },
   {
     "set_code": "TWI",
+    "en_name": "Unlimited Power",
+    "card_number": 423,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
     "en_name": "Kit Fisto, The Smiling Jedi",
     "card_number": 432,
     "variant_type": "Hyperspace",
@@ -2275,6 +2259,14 @@
     "set_code": "TWI",
     "en_name": "Chancellor Palpatine, Wartime Chancellor",
     "card_number": 468,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
+    "en_name": "Geonosis Patrol Fighter",
+    "card_number": 480,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
