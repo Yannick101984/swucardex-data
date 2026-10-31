@@ -1,5 +1,21 @@
 [
   {
+    "id": "ticket-takeoff-fr",
+    "title": "Ouverture de la vente des billets d’entrée",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_GC_27_Article_Early_Bird_preview_df5f32cce4.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/ticket-takeoff-fr",
+    "date": "2026-10-30",
+    "summary": "Les forfaits d’entrée pour les Galactics 2027"
+  },
+  {
+    "id": "community-education-program-announcement-fr",
+    "title": "Community Education Program Announcement",
+    "imageURL": "https://cdn.starwarsunlimited.com//SWH_FFG_Tabletop_Partnership_Article_preview_1_fbc1ea9405.jpg",
+    "link": "https://starwarsunlimited.com/fr/articles/community-education-program-announcement-fr",
+    "date": "2026-10-30",
+    "summary": "Announcing a New Partnership with Tabletop Academy, part of Collēctīvus Holdings, for the Official Fantasy Flight Gamesthe Official Community Education Program"
+  },
+  {
     "id": "iconic-musings-fr",
     "title": "Iconic Musings",
     "imageURL": "https://cdn.starwarsunlimited.com//SWHA_027_Icons_Article_preview_aa8acb71fc.jpg",
