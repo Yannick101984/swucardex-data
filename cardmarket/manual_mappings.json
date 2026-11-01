@@ -1393,6 +1393,14 @@
   },
   {
     "set_code": "SHD",
+    "en_name": "Lom Pyke, Dealer in Truths",
+    "card_number": 309,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
     "en_name": "Brutal Traditions",
     "card_number": 315,
     "variant_type": "Hyperspace",
@@ -1809,6 +1817,14 @@
   },
   {
     "set_code": "SOR",
+    "en_name": "For a Cause I Believe In",
+    "card_number": 415,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
     "en_name": "Wolffe, Suspicious Veteran",
     "card_number": 423,
     "variant_type": "Hyperspace",
@@ -1817,8 +1833,24 @@
   },
   {
     "set_code": "SOR",
+    "en_name": "Smoke and Cinders",
+    "card_number": 437,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
     "en_name": "Fett's Firespray, Pursuing the Bounty",
     "card_number": 447,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
+    "en_name": "I Had No Choice",
+    "card_number": 450,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
