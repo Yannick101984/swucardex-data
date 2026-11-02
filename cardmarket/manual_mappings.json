@@ -1425,6 +1425,14 @@
   },
   {
     "set_code": "SHD",
+    "en_name": "Vambrace Grappleshot",
+    "card_number": 347,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
     "en_name": "Freetown Backup",
     "card_number": 366,
     "variant_type": "Hyperspace",
@@ -1443,6 +1451,14 @@
     "set_code": "SHD",
     "en_name": "Spark of Hope",
     "card_number": 374,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
+    "en_name": "Enforced Loyalty",
+    "card_number": 377,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -1489,6 +1505,14 @@
   },
   {
     "set_code": "SHD",
+    "en_name": "Ketsu Onyo, Old Friend",
+    "card_number": 416,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
     "en_name": "Wild Rancor",
     "card_number": 427,
     "variant_type": "Hyperspace",
@@ -1505,6 +1529,14 @@
   },
   {
     "set_code": "SHD",
+    "en_name": "Armed to the Teeth",
+    "card_number": 444,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
     "en_name": "Kintan Intimidator",
     "card_number": 452,
     "variant_type": "Hyperspace",
@@ -1515,6 +1547,14 @@
     "set_code": "SHD",
     "en_name": "Lurking TIE Phantom",
     "card_number": 456,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
+    "en_name": "Dryden Vos, Offering No Escape",
+    "card_number": 461,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -1547,14 +1587,6 @@
     "set_code": "SHD",
     "en_name": "Altering the Deal",
     "card_number": 506,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Mercenary Gunship",
-    "card_number": 517,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
