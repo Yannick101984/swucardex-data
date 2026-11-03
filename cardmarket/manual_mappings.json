@@ -1841,6 +1841,14 @@
   },
   {
     "set_code": "SOR",
+    "en_name": "Seventh Sister, Implacable Inquisitor",
+    "card_number": 397,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SOR",
     "en_name": "Ruthless Raider",
     "card_number": 398,
     "variant_type": "Hyperspace Foil",
@@ -2339,6 +2347,14 @@
     "set_code": "TWI",
     "en_name": "Now There Are Two of Them",
     "card_number": 490,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
+    "en_name": "Merciless Contest",
+    "card_number": 500,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
