@@ -1585,8 +1585,8 @@
   },
   {
     "set_code": "SHD",
-    "en_name": "Altering the Deal",
-    "card_number": 506,
+    "en_name": "Swoop Down",
+    "card_number": 497,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -2355,6 +2355,14 @@
     "set_code": "TWI",
     "en_name": "Merciless Contest",
     "card_number": 500,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
+    "en_name": "AT-TE Vanguard",
+    "card_number": 508,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
