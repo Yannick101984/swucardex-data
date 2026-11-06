@@ -1385,14 +1385,6 @@
   },
   {
     "set_code": "SHD",
-    "en_name": "The Client, Dictated by Discretion",
-    "card_number": 308,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
     "en_name": "Lom Pyke, Dealer in Truths",
     "card_number": 309,
     "variant_type": "Hyperspace",
@@ -1563,6 +1555,14 @@
     "set_code": "SHD",
     "en_name": "L3-37, Droid Revolutionary",
     "card_number": 465,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
+    "en_name": "Principled Outlaw",
+    "card_number": 469,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
