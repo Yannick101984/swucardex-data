@@ -81,8 +81,56 @@
   },
   {
     "set_code": "IC27",
+    "en_name": "Rey, In Balance",
+    "card_number": 2,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
     "en_name": "Shield",
     "card_number": 2,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Kylo Ren, Supreme Leader",
+    "card_number": 3,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Mace Windu, Here With Backup",
+    "card_number": 4,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Darth Maul, Mechanism of Menace",
+    "card_number": 5,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Luke Skywalker, I Have to Face Him",
+    "card_number": 6,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Asajj Ventress, Bald and Beautiful",
+    "card_number": 7,
     "variant_type": "Standard",
     "idProduct": null,
     "note": ""
@@ -129,6 +177,22 @@
   },
   {
     "set_code": "IC27",
+    "en_name": "Nute Gunray, Ring Ring, Space Calling",
+    "card_number": 13,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Dryden Vos, Thumb-Spiking the Scale",
+    "card_number": 14,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
     "en_name": "Onyx Squadron Brute",
     "card_number": 15,
     "variant_type": "Standard",
@@ -153,6 +217,22 @@
   },
   {
     "set_code": "IC27",
+    "en_name": "Magistrate's Scout",
+    "card_number": 18,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Soulless One, Soulless Fun",
+    "card_number": 19,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
     "en_name": "Admiral Piett, In Command Now",
     "card_number": 20,
     "variant_type": "Standard",
@@ -161,8 +241,24 @@
   },
   {
     "set_code": "IC27",
+    "en_name": "General Grievous, Four-Armed Menace",
+    "card_number": 21,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
     "en_name": "Moff Gideon, Cold Calling",
     "card_number": 22,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Grand Moff Tarkin, Cracking Down on Lothal",
+    "card_number": 23,
     "variant_type": "Standard",
     "idProduct": null,
     "note": ""
@@ -209,8 +305,184 @@
   },
   {
     "set_code": "IC27",
+    "en_name": "Chimaera, Grand Admiral's Might",
+    "card_number": 29,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
     "en_name": "Lethal Crackdown",
     "card_number": 30,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "BB-8, Frazzled Friend",
+    "card_number": 31,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Kaydel Connix, Keep Going!",
+    "card_number": 32,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Clan Wren Rescuer",
+    "card_number": 33,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Obi-Wan's Interceptor, Nothing Too Fancy",
+    "card_number": 34,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Yoda, A Disturbing Puzzle",
+    "card_number": 35,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Concord Dawn Interceptors",
+    "card_number": 36,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Finn, Stand and Fight",
+    "card_number": 37,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Admiral Holdo, We Are the Spark",
+    "card_number": 38,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Ahsoka Tano, Not on My Death Watch",
+    "card_number": 39,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Rose Tico, In the Fight",
+    "card_number": 40,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Captain Rex, Staunch Advocate",
+    "card_number": 41,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Obi-Wan Kenobi, I Sense a Trap",
+    "card_number": 42,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Raddus, Hope of the Resistance",
+    "card_number": 43,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Hello There",
+    "card_number": 44,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Qi'ra, Survivor",
+    "card_number": 45,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Vigilant Defense",
+    "card_number": 46,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Moisture Farmer",
+    "card_number": 47,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Desperate Commando",
+    "card_number": 48,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Dexter Jettster, OBI-WANNNN!!!",
+    "card_number": 49,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Rotunda Senate Guards",
+    "card_number": 50,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Munificent Frigate",
+    "card_number": 51,
     "variant_type": "Standard",
     "idProduct": null,
     "note": ""
@@ -225,6 +497,166 @@
   },
   {
     "set_code": "IC27",
+    "en_name": "Disciples' Devotion",
+    "card_number": 53,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Moment of Peace",
+    "card_number": 54,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Betrayed Trust",
+    "card_number": 55,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Allegiant General Pryde, Heartless Efficiency",
+    "card_number": 56,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Director Krennic, Architect of Annihilation",
+    "card_number": 57,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "General Veers, Prepared",
+    "card_number": 58,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Exegol Patroller",
+    "card_number": 59,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Jabba the Hutt, Bounties Left and Right",
+    "card_number": 60,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Knight of Ren",
+    "card_number": 61,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Admiral Motti, Conan in Command",
+    "card_number": 62,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Kylo's TIE Silencer, Follow My Lead",
+    "card_number": 63,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Captain Phasma, On My Command",
+    "card_number": 64,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Darth Maul, Mindful Apprentice",
+    "card_number": 65,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Mother Talzin, The Time Has Come",
+    "card_number": 66,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Darth Vader, Useless to Resist",
+    "card_number": 67,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Devastator, Lord Vader's Flagship",
+    "card_number": 68,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Apology Accepted",
+    "card_number": 69,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "C-3PO, Impulse Buy",
+    "card_number": 70,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Avar Kriss, For Light and Life",
+    "card_number": 71,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Lor San Tekka, Secret Keeper",
+    "card_number": 72,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
     "en_name": "Phoenix Squadron A-Wing",
     "card_number": 73,
     "variant_type": "Standard",
@@ -233,8 +665,40 @@
   },
   {
     "set_code": "IC27",
+    "en_name": "Advanced Recon Commando",
+    "card_number": 74,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
     "en_name": "Red Leader, Wait For My Signal",
     "card_number": 75,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Clone Commander Cody, Loyal to the Republic",
+    "card_number": 76,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Mon Mothma, Truth is an Abyss",
+    "card_number": 77,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Anakin Skywalker, Destined for Darkness",
+    "card_number": 78,
     "variant_type": "Standard",
     "idProduct": null,
     "note": ""
@@ -257,8 +721,32 @@
   },
   {
     "set_code": "IC27",
+    "en_name": "Mace Windu, Dropping By",
+    "card_number": 81,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
     "en_name": "Luke Skywalker, Do You Read Me?",
     "card_number": 82,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Padmé Amidala, With Great Pleasure",
+    "card_number": 83,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Negotiator, Prepare the Troops",
+    "card_number": 84,
     "variant_type": "Standard",
     "idProduct": null,
     "note": ""
@@ -273,8 +761,88 @@
   },
   {
     "set_code": "IC27",
+    "en_name": "Enfys Nest, No More!",
+    "card_number": 86,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Issue a Command",
+    "card_number": 87,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Senator's Aide",
+    "card_number": 88,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Maz Kanata, It Calls to You",
+    "card_number": 89,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Homestead Militia",
+    "card_number": 90,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Defenders of the Forest",
+    "card_number": 91,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Resupply Carrier",
+    "card_number": 92,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
     "en_name": "Academy Training",
     "card_number": 93,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Dogfight",
+    "card_number": 94,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Tandem Assault",
+    "card_number": 95,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Moment of Glory",
+    "card_number": 96,
     "variant_type": "Standard",
     "idProduct": null,
     "note": ""
@@ -305,8 +873,64 @@
   },
   {
     "set_code": "IC27",
+    "en_name": "Special Forces TIE Fighter",
+    "card_number": 100,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "General Hux, Fire Ventral Cannons!",
+    "card_number": 101,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Third Sister, Reckless",
+    "card_number": 102,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Grand Inquisitor, How the Mighty Will Fall",
+    "card_number": 103,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "The Inquisitor's TIE, Would Rather Win",
+    "card_number": 104,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
     "en_name": "General Veers, Leading the Assault",
     "card_number": 105,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Kylo Ren, Relentless",
+    "card_number": 106,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Aurra Sing, Getting Even",
+    "card_number": 107,
     "variant_type": "Standard",
     "idProduct": null,
     "note": ""
@@ -321,8 +945,360 @@
   },
   {
     "set_code": "IC27",
+    "en_name": "Supreme Leader Snoke, Darkness Rising",
+    "card_number": 109,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Supremacy, Destroy the Resistance",
+    "card_number": 110,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Battle Fury",
+    "card_number": 111,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Rebellious Functionary",
+    "card_number": 112,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Ezra Bridger, Down With the Freedom",
+    "card_number": 113,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Cassian Andor, Blending In",
+    "card_number": 114,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Poe Dameron, Hero of the Resistance",
+    "card_number": 115,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Black One, Draw Fire, Twice",
+    "card_number": 116,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Hera Syndulla, Against the Odds",
+    "card_number": 117,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Jedi Knight",
+    "card_number": 118,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Sabine Wren, Liberator of Krownest",
+    "card_number": 119,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Rey, Embracing Destiny",
+    "card_number": 120,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Kanan Jarrus, Sometimes I Hate Being Right",
+    "card_number": 121,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "The Ghost, Whale Watching",
+    "card_number": 122,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Jyn Erso, Her Father's Revenge",
+    "card_number": 123,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "K-2SO, Evacuate the Vault Door",
+    "card_number": 124,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Bold Resistance",
+    "card_number": 125,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Saw Gerrera, For the Cause",
+    "card_number": 126,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Act of Aggression",
+    "card_number": 127,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Reckless Rebel",
+    "card_number": 128,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
     "en_name": "DRK-1 Probe Droid",
     "card_number": 129,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Cartel Interceptor",
+    "card_number": 130,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Cham Syndulla, Rallying Ryloth",
+    "card_number": 131,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Insurgent Saboteurs",
+    "card_number": 132,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Infiltrator's Skill",
+    "card_number": 133,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Desperate Attack",
+    "card_number": 134,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Power Failure",
+    "card_number": 135,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Open Fire",
+    "card_number": 136,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Kintan Intimidator",
+    "card_number": 137,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Banshee, Scream Machine",
+    "card_number": 138,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Bib Fortuna, Jabba's Majordomo",
+    "card_number": 139,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Separatist Commando",
+    "card_number": 140,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Banking Clan Shuttle",
+    "card_number": 141,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Greedo, Big-Timer",
+    "card_number": 142,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Wat Tambor, Warped Warbling",
+    "card_number": 143,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Jango Fett, Straight Shooter",
+    "card_number": 144,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Poggle the Lesser, Secret Designs",
+    "card_number": 145,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Boba Fett, Compensated If He Dies",
+    "card_number": 146,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Asajj Ventress, Death From Above",
+    "card_number": 147,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Count Dooku, Silver-Tongued",
+    "card_number": 148,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "The Invisible Hand, Confederate Might",
+    "card_number": 149,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Frozen in Carbonite",
+    "card_number": 150,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "R2-D2, The First Protagonist",
+    "card_number": 151,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Bravo Squadron Fighter",
+    "card_number": 152,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Greef Karga, I Celebrate Your Success",
+    "card_number": 153,
     "variant_type": "Standard",
     "idProduct": null,
     "note": ""
@@ -337,8 +1313,72 @@
   },
   {
     "set_code": "IC27",
+    "en_name": "Han Solo, Gamblin' Man",
+    "card_number": 155,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "J-Type Nubian Starship",
+    "card_number": 156,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "The Mandalorian, From the Shadows",
+    "card_number": 157,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Millennium Falcon, Ya-Hoo!",
+    "card_number": 158,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Princess Leia, Calculated Distraction",
+    "card_number": 159,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Tantive IV, For Alderaan",
+    "card_number": 160,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
     "en_name": "Han Solo, Scruffy-Looking Nerf Herder",
     "card_number": 161,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Chewbacca, Cool Backpack",
+    "card_number": 162,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Bo-Katan Kryze, Right Place, Right Time",
+    "card_number": 163,
     "variant_type": "Standard",
     "idProduct": null,
     "note": ""
@@ -353,8 +1393,32 @@
   },
   {
     "set_code": "IC27",
+    "en_name": "Luke Skywalker, Overplaying His Hand",
+    "card_number": 165,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
     "en_name": "I've Got A Bad Feeling",
     "card_number": 166,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Lando Calrissian, Check This Out",
+    "card_number": 167,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Cunning Ploy",
+    "card_number": 168,
     "variant_type": "Standard",
     "idProduct": null,
     "note": ""
@@ -369,8 +1433,40 @@
   },
   {
     "set_code": "IC27",
+    "en_name": "B1 Security Team",
+    "card_number": 170,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Swoop Racer",
+    "card_number": 171,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Razor Crest, Stay Off the Ice",
+    "card_number": 172,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
     "en_name": "Hidden Sharpshooter",
     "card_number": 173,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Preparation",
+    "card_number": 174,
     "variant_type": "Standard",
     "idProduct": null,
     "note": ""
@@ -385,8 +1481,32 @@
   },
   {
     "set_code": "IC27",
+    "en_name": "Breaking In",
+    "card_number": 176,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Force Illusion",
+    "card_number": 177,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
     "en_name": "TIE/ln Fighter",
     "card_number": 178,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Morgan Elsbeth, Tales Based on Truths",
+    "card_number": 179,
     "variant_type": "Standard",
     "idProduct": null,
     "note": ""
@@ -411,6 +1531,14 @@
     "set_code": "IC27",
     "en_name": "HK-87 Assassin Droid",
     "card_number": 182,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "AT-ST",
+    "card_number": 183,
     "variant_type": "Standard",
     "idProduct": null,
     "note": ""
@@ -484,6 +1612,2998 @@
     "en_name": "Eta-2 Light Interceptor",
     "card_number": 192,
     "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Coordinated Front",
+    "card_number": 193,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "You're My Only Hope",
+    "card_number": 194,
+    "variant_type": "Standard",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Darth Vader, No One to Stop Us",
+    "card_number": 195,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Rey, In Balance",
+    "card_number": 196,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Kylo Ren, Supreme Leader",
+    "card_number": 197,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Mace Windu, Here With Backup",
+    "card_number": 198,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Darth Maul, Mechanism of Menace",
+    "card_number": 199,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Luke Skywalker, I Have to Face Him",
+    "card_number": 200,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Asajj Ventress, Bald and Beautiful",
+    "card_number": 201,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Princess Leia, On a Diplomatic Mission",
+    "card_number": 202,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Nute Gunray, Ring Ring, Space Calling",
+    "card_number": 203,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Dryden Vos, Thumb-Spiking the Scale",
+    "card_number": 204,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Onyx Squadron Brute",
+    "card_number": 205,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Rune Haako, Scheming Second",
+    "card_number": 206,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Magistrate's Scout",
+    "card_number": 207,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Soulless One, Soulless Fun",
+    "card_number": 208,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Admiral Piett, In Command Now",
+    "card_number": 209,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "General Grievous, Four-Armed Menace",
+    "card_number": 210,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Moff Gideon, Cold Calling",
+    "card_number": 211,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Grand Moff Tarkin, Cracking Down on Lothal",
+    "card_number": 212,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Grand Admiral Thrawn, Listen to Me Carefully",
+    "card_number": 213,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Blizzard One, Veers at the Helm",
+    "card_number": 214,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Darth Sidious, Move Against the Jedi",
+    "card_number": 215,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "AT-AT Suppressor",
+    "card_number": 216,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Avenger, Hunting the Rebels",
+    "card_number": 217,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Chimaera, Grand Admiral's Might",
+    "card_number": 218,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Lethal Crackdown",
+    "card_number": 219,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "BB-8, Frazzled Friend",
+    "card_number": 220,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Kaydel Connix, Keep Going!",
+    "card_number": 221,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Clan Wren Rescuer",
+    "card_number": 222,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Obi-Wan's Interceptor, Nothing Too Fancy",
+    "card_number": 223,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Yoda, A Disturbing Puzzle",
+    "card_number": 224,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Concord Dawn Interceptors",
+    "card_number": 225,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Finn, Stand and Fight",
+    "card_number": 226,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Admiral Holdo, We Are the Spark",
+    "card_number": 227,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Ahsoka Tano, Not on My Death Watch",
+    "card_number": 228,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Rose Tico, In the Fight",
+    "card_number": 229,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Captain Rex, Staunch Advocate",
+    "card_number": 230,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Obi-Wan Kenobi, I Sense a Trap",
+    "card_number": 231,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Raddus, Hope of the Resistance",
+    "card_number": 232,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Hello There",
+    "card_number": 233,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Qi'ra, Survivor",
+    "card_number": 234,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Vigilant Defense",
+    "card_number": 235,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Moisture Farmer",
+    "card_number": 236,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Desperate Commando",
+    "card_number": 237,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Dexter Jettster, OBI-WANNNN!!!",
+    "card_number": 238,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Rotunda Senate Guards",
+    "card_number": 239,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Munificent Frigate",
+    "card_number": 240,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Resilient",
+    "card_number": 241,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Disciples' Devotion",
+    "card_number": 242,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Moment of Peace",
+    "card_number": 243,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Betrayed Trust",
+    "card_number": 244,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Allegiant General Pryde, Heartless Efficiency",
+    "card_number": 245,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Director Krennic, Architect of Annihilation",
+    "card_number": 246,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "General Veers, Prepared",
+    "card_number": 247,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Exegol Patroller",
+    "card_number": 248,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Jabba the Hutt, Bounties Left and Right",
+    "card_number": 249,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Knight of Ren",
+    "card_number": 250,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Admiral Motti, Conan in Command",
+    "card_number": 251,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Kylo's TIE Silencer, Follow My Lead",
+    "card_number": 252,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Captain Phasma, On My Command",
+    "card_number": 253,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Darth Maul, Mindful Apprentice",
+    "card_number": 254,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Mother Talzin, The Time Has Come",
+    "card_number": 255,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Darth Vader, Useless to Resist",
+    "card_number": 256,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Devastator, Lord Vader's Flagship",
+    "card_number": 257,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Apology Accepted",
+    "card_number": 258,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "C-3PO, Impulse Buy",
+    "card_number": 259,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Avar Kriss, For Light and Life",
+    "card_number": 260,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Lor San Tekka, Secret Keeper",
+    "card_number": 261,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Phoenix Squadron A-Wing",
+    "card_number": 262,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Advanced Recon Commando",
+    "card_number": 263,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Red Leader, Wait For My Signal",
+    "card_number": 264,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Clone Commander Cody, Loyal to the Republic",
+    "card_number": 265,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Mon Mothma, Truth is an Abyss",
+    "card_number": 266,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Anakin Skywalker, Destined for Darkness",
+    "card_number": 267,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Qui-Gon Jinn, Unwavering Belief",
+    "card_number": 268,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Bright Hope, Narrow Escape",
+    "card_number": 269,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Mace Windu, Dropping By",
+    "card_number": 270,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Luke Skywalker, Do You Read Me?",
+    "card_number": 271,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Padmé Amidala, With Great Pleasure",
+    "card_number": 272,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Negotiator, Prepare the Troops",
+    "card_number": 273,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Inspiring Mentor",
+    "card_number": 274,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Enfys Nest, No More!",
+    "card_number": 275,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Issue a Command",
+    "card_number": 276,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Senator's Aide",
+    "card_number": 277,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Maz Kanata, It Calls to You",
+    "card_number": 278,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Homestead Militia",
+    "card_number": 279,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Defenders of the Forest",
+    "card_number": 280,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Resupply Carrier",
+    "card_number": 281,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Academy Training",
+    "card_number": 282,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Dogfight",
+    "card_number": 283,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Tandem Assault",
+    "card_number": 284,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Moment of Glory",
+    "card_number": 285,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Death Star Stormtrooper",
+    "card_number": 286,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Commander Pyre, Golden Menace",
+    "card_number": 287,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Eighth Brother, Ill-Fated Escape",
+    "card_number": 288,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Special Forces TIE Fighter",
+    "card_number": 289,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "General Hux, Fire Ventral Cannons!",
+    "card_number": 290,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Third Sister, Reckless",
+    "card_number": 291,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Grand Inquisitor, How the Mighty Will Fall",
+    "card_number": 292,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "The Inquisitor's TIE, Would Rather Win",
+    "card_number": 293,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "General Veers, Leading the Assault",
+    "card_number": 294,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Kylo Ren, Relentless",
+    "card_number": 295,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Aurra Sing, Getting Even",
+    "card_number": 296,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Savage Opress, Monster",
+    "card_number": 297,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Supreme Leader Snoke, Darkness Rising",
+    "card_number": 298,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Supremacy, Destroy the Resistance",
+    "card_number": 299,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Battle Fury",
+    "card_number": 300,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Rebellious Functionary",
+    "card_number": 301,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Ezra Bridger, Down With the Freedom",
+    "card_number": 302,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Cassian Andor, Blending In",
+    "card_number": 303,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Poe Dameron, Hero of the Resistance",
+    "card_number": 304,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Black One, Draw Fire, Twice",
+    "card_number": 305,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Hera Syndulla, Against the Odds",
+    "card_number": 306,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Jedi Knight",
+    "card_number": 307,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Sabine Wren, Liberator of Krownest",
+    "card_number": 308,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Rey, Embracing Destiny",
+    "card_number": 309,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Kanan Jarrus, Sometimes I Hate Being Right",
+    "card_number": 310,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "The Ghost, Whale Watching",
+    "card_number": 311,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Jyn Erso, Her Father's Revenge",
+    "card_number": 312,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "K-2SO, Evacuate the Vault Door",
+    "card_number": 313,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Bold Resistance",
+    "card_number": 314,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Saw Gerrera, For the Cause",
+    "card_number": 315,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Act of Aggression",
+    "card_number": 316,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Reckless Rebel",
+    "card_number": 317,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "DRK-1 Probe Droid",
+    "card_number": 318,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Cartel Interceptor",
+    "card_number": 319,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Cham Syndulla, Rallying Ryloth",
+    "card_number": 320,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Insurgent Saboteurs",
+    "card_number": 321,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Infiltrator's Skill",
+    "card_number": 322,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Desperate Attack",
+    "card_number": 323,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Power Failure",
+    "card_number": 324,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Open Fire",
+    "card_number": 325,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Kintan Intimidator",
+    "card_number": 326,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Banshee, Scream Machine",
+    "card_number": 327,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Bib Fortuna, Jabba's Majordomo",
+    "card_number": 328,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Separatist Commando",
+    "card_number": 329,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Banking Clan Shuttle",
+    "card_number": 330,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Greedo, Big-Timer",
+    "card_number": 331,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Wat Tambor, Warped Warbling",
+    "card_number": 332,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Jango Fett, Straight Shooter",
+    "card_number": 333,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Poggle the Lesser, Secret Designs",
+    "card_number": 334,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Boba Fett, Compensated If He Dies",
+    "card_number": 335,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Asajj Ventress, Death From Above",
+    "card_number": 336,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Count Dooku, Silver-Tongued",
+    "card_number": 337,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "The Invisible Hand, Confederate Might",
+    "card_number": 338,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Frozen in Carbonite",
+    "card_number": 339,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "R2-D2, The First Protagonist",
+    "card_number": 340,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Bravo Squadron Fighter",
+    "card_number": 341,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Greef Karga, I Celebrate Your Success",
+    "card_number": 342,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Grogu, Irresistible",
+    "card_number": 343,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Han Solo, Gamblin' Man",
+    "card_number": 344,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "J-Type Nubian Starship",
+    "card_number": 345,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "The Mandalorian, From the Shadows",
+    "card_number": 346,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Millennium Falcon, Ya-Hoo!",
+    "card_number": 347,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Princess Leia, Calculated Distraction",
+    "card_number": 348,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Tantive IV, For Alderaan",
+    "card_number": 349,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Han Solo, Scruffy-Looking Nerf Herder",
+    "card_number": 350,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Chewbacca, Cool Backpack",
+    "card_number": 351,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Bo-Katan Kryze, Right Place, Right Time",
+    "card_number": 352,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Millennium Falcon, Bucket of Bolts",
+    "card_number": 353,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Luke Skywalker, Overplaying His Hand",
+    "card_number": 354,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "I've Got A Bad Feeling",
+    "card_number": 355,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Lando Calrissian, Check This Out",
+    "card_number": 356,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Cunning Ploy",
+    "card_number": 357,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "A-Wing",
+    "card_number": 358,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "B1 Security Team",
+    "card_number": 359,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Swoop Racer",
+    "card_number": 360,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Razor Crest, Stay Off the Ice",
+    "card_number": 361,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Hidden Sharpshooter",
+    "card_number": 362,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Preparation",
+    "card_number": 363,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Shoot First",
+    "card_number": 364,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Breaking In",
+    "card_number": 365,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Force Illusion",
+    "card_number": 366,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "TIE/ln Fighter",
+    "card_number": 367,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Morgan Elsbeth, Tales Based on Truths",
+    "card_number": 368,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Super Battle Droid",
+    "card_number": 369,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Rogue-class Starfighter",
+    "card_number": 370,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "AT-ST",
+    "card_number": 371,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Consumed by the Dark Side",
+    "card_number": 372,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "I Am Your Father",
+    "card_number": 373,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Jar Jar Binks, Bumbling Representative",
+    "card_number": 374,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Phase I Clone Trooper",
+    "card_number": 375,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Dilapidated Ski Speeder",
+    "card_number": 376,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Medical Frigate",
+    "card_number": 377,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Eta-2 Light Interceptor",
+    "card_number": 378,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Coordinated Front",
+    "card_number": 379,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "You're My Only Hope",
+    "card_number": 380,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Nute Gunray, Ring Ring, Space Calling",
+    "card_number": 381,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Dryden Vos, Thumb-Spiking the Scale",
+    "card_number": 382,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Onyx Squadron Brute",
+    "card_number": 383,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Rune Haako, Scheming Second",
+    "card_number": 384,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Magistrate's Scout",
+    "card_number": 385,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Soulless One, Soulless Fun",
+    "card_number": 386,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Admiral Piett, In Command Now",
+    "card_number": 387,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "General Grievous, Four-Armed Menace",
+    "card_number": 388,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Moff Gideon, Cold Calling",
+    "card_number": 389,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Grand Moff Tarkin, Cracking Down on Lothal",
+    "card_number": 390,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Grand Admiral Thrawn, Listen to Me Carefully",
+    "card_number": 391,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Blizzard One, Veers at the Helm",
+    "card_number": 392,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Darth Sidious, Move Against the Jedi",
+    "card_number": 393,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "AT-AT Suppressor",
+    "card_number": 394,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Avenger, Hunting the Rebels",
+    "card_number": 395,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Chimaera, Grand Admiral's Might",
+    "card_number": 396,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Lethal Crackdown",
+    "card_number": 397,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "BB-8, Frazzled Friend",
+    "card_number": 398,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Kaydel Connix, Keep Going!",
+    "card_number": 399,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Clan Wren Rescuer",
+    "card_number": 400,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Obi-Wan's Interceptor, Nothing Too Fancy",
+    "card_number": 401,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Yoda, A Disturbing Puzzle",
+    "card_number": 402,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Concord Dawn Interceptors",
+    "card_number": 403,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Finn, Stand and Fight",
+    "card_number": 404,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Admiral Holdo, We Are the Spark",
+    "card_number": 405,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Ahsoka Tano, Not on My Death Watch",
+    "card_number": 406,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Rose Tico, In the Fight",
+    "card_number": 407,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Captain Rex, Staunch Advocate",
+    "card_number": 408,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Obi-Wan Kenobi, I Sense a Trap",
+    "card_number": 409,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Raddus, Hope of the Resistance",
+    "card_number": 410,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Hello There",
+    "card_number": 411,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Qi'ra, Survivor",
+    "card_number": 412,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Vigilant Defense",
+    "card_number": 413,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Moisture Farmer",
+    "card_number": 414,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Desperate Commando",
+    "card_number": 415,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Dexter Jettster, OBI-WANNNN!!!",
+    "card_number": 416,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Rotunda Senate Guards",
+    "card_number": 417,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Munificent Frigate",
+    "card_number": 418,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Resilient",
+    "card_number": 419,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Disciples' Devotion",
+    "card_number": 420,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Moment of Peace",
+    "card_number": 421,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Betrayed Trust",
+    "card_number": 422,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Allegiant General Pryde, Heartless Efficiency",
+    "card_number": 423,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Director Krennic, Architect of Annihilation",
+    "card_number": 424,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "General Veers, Prepared",
+    "card_number": 425,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Exegol Patroller",
+    "card_number": 426,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Jabba the Hutt, Bounties Left and Right",
+    "card_number": 427,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Knight of Ren",
+    "card_number": 428,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Admiral Motti, Conan in Command",
+    "card_number": 429,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Kylo's TIE Silencer, Follow My Lead",
+    "card_number": 430,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Captain Phasma, On My Command",
+    "card_number": 431,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Darth Maul, Mindful Apprentice",
+    "card_number": 432,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Mother Talzin, The Time Has Come",
+    "card_number": 433,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Darth Vader, Useless to Resist",
+    "card_number": 434,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Devastator, Lord Vader's Flagship",
+    "card_number": 435,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Apology Accepted",
+    "card_number": 436,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "C-3PO, Impulse Buy",
+    "card_number": 437,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Avar Kriss, For Light and Life",
+    "card_number": 438,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Lor San Tekka, Secret Keeper",
+    "card_number": 439,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Phoenix Squadron A-Wing",
+    "card_number": 440,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Advanced Recon Commando",
+    "card_number": 441,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Red Leader, Wait For My Signal",
+    "card_number": 442,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Clone Commander Cody, Loyal to the Republic",
+    "card_number": 443,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Mon Mothma, Truth is an Abyss",
+    "card_number": 444,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Anakin Skywalker, Destined for Darkness",
+    "card_number": 445,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Qui-Gon Jinn, Unwavering Belief",
+    "card_number": 446,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Bright Hope, Narrow Escape",
+    "card_number": 447,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Mace Windu, Dropping By",
+    "card_number": 448,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Luke Skywalker, Do You Read Me?",
+    "card_number": 449,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Padmé Amidala, With Great Pleasure",
+    "card_number": 450,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Negotiator, Prepare the Troops",
+    "card_number": 451,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Inspiring Mentor",
+    "card_number": 452,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Enfys Nest, No More!",
+    "card_number": 453,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Issue a Command",
+    "card_number": 454,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Senator's Aide",
+    "card_number": 455,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Maz Kanata, It Calls to You",
+    "card_number": 456,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Homestead Militia",
+    "card_number": 457,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Defenders of the Forest",
+    "card_number": 458,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Resupply Carrier",
+    "card_number": 459,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Academy Training",
+    "card_number": 460,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Dogfight",
+    "card_number": 461,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Tandem Assault",
+    "card_number": 462,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Moment of Glory",
+    "card_number": 463,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Death Star Stormtrooper",
+    "card_number": 464,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Commander Pyre, Golden Menace",
+    "card_number": 465,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Eighth Brother, Ill-Fated Escape",
+    "card_number": 466,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Special Forces TIE Fighter",
+    "card_number": 467,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "General Hux, Fire Ventral Cannons!",
+    "card_number": 468,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Third Sister, Reckless",
+    "card_number": 469,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Grand Inquisitor, How the Mighty Will Fall",
+    "card_number": 470,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "The Inquisitor's TIE, Would Rather Win",
+    "card_number": 471,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "General Veers, Leading the Assault",
+    "card_number": 472,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Kylo Ren, Relentless",
+    "card_number": 473,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Aurra Sing, Getting Even",
+    "card_number": 474,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Savage Opress, Monster",
+    "card_number": 475,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Supreme Leader Snoke, Darkness Rising",
+    "card_number": 476,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Supremacy, Destroy the Resistance",
+    "card_number": 477,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Battle Fury",
+    "card_number": 478,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Rebellious Functionary",
+    "card_number": 479,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Ezra Bridger, Down With the Freedom",
+    "card_number": 480,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Cassian Andor, Blending In",
+    "card_number": 481,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Poe Dameron, Hero of the Resistance",
+    "card_number": 482,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Black One, Draw Fire, Twice",
+    "card_number": 483,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Hera Syndulla, Against the Odds",
+    "card_number": 484,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Jedi Knight",
+    "card_number": 485,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Sabine Wren, Liberator of Krownest",
+    "card_number": 486,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Rey, Embracing Destiny",
+    "card_number": 487,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Kanan Jarrus, Sometimes I Hate Being Right",
+    "card_number": 488,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "The Ghost, Whale Watching",
+    "card_number": 489,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Jyn Erso, Her Father's Revenge",
+    "card_number": 490,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "K-2SO, Evacuate the Vault Door",
+    "card_number": 491,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Bold Resistance",
+    "card_number": 492,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Saw Gerrera, For the Cause",
+    "card_number": 493,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Act of Aggression",
+    "card_number": 494,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Reckless Rebel",
+    "card_number": 495,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "DRK-1 Probe Droid",
+    "card_number": 496,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Cartel Interceptor",
+    "card_number": 497,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Cham Syndulla, Rallying Ryloth",
+    "card_number": 498,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Insurgent Saboteurs",
+    "card_number": 499,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Infiltrator's Skill",
+    "card_number": 500,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Desperate Attack",
+    "card_number": 501,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Power Failure",
+    "card_number": 502,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Open Fire",
+    "card_number": 503,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Kintan Intimidator",
+    "card_number": 504,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Banshee, Scream Machine",
+    "card_number": 505,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Bib Fortuna, Jabba's Majordomo",
+    "card_number": 506,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Separatist Commando",
+    "card_number": 507,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Banking Clan Shuttle",
+    "card_number": 508,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Greedo, Big-Timer",
+    "card_number": 509,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Wat Tambor, Warped Warbling",
+    "card_number": 510,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Jango Fett, Straight Shooter",
+    "card_number": 511,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Poggle the Lesser, Secret Designs",
+    "card_number": 512,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Boba Fett, Compensated If He Dies",
+    "card_number": 513,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Asajj Ventress, Death From Above",
+    "card_number": 514,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Count Dooku, Silver-Tongued",
+    "card_number": 515,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "The Invisible Hand, Confederate Might",
+    "card_number": 516,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Frozen in Carbonite",
+    "card_number": 517,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "R2-D2, The First Protagonist",
+    "card_number": 518,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Bravo Squadron Fighter",
+    "card_number": 519,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Greef Karga, I Celebrate Your Success",
+    "card_number": 520,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Grogu, Irresistible",
+    "card_number": 521,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Han Solo, Gamblin' Man",
+    "card_number": 522,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "J-Type Nubian Starship",
+    "card_number": 523,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "The Mandalorian, From the Shadows",
+    "card_number": 524,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Millennium Falcon, Ya-Hoo!",
+    "card_number": 525,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Princess Leia, Calculated Distraction",
+    "card_number": 526,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Tantive IV, For Alderaan",
+    "card_number": 527,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Han Solo, Scruffy-Looking Nerf Herder",
+    "card_number": 528,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Chewbacca, Cool Backpack",
+    "card_number": 529,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Bo-Katan Kryze, Right Place, Right Time",
+    "card_number": 530,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Millennium Falcon, Bucket of Bolts",
+    "card_number": 531,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Luke Skywalker, Overplaying His Hand",
+    "card_number": 532,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "I've Got A Bad Feeling",
+    "card_number": 533,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Lando Calrissian, Check This Out",
+    "card_number": 534,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Cunning Ploy",
+    "card_number": 535,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "A-Wing",
+    "card_number": 536,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "B1 Security Team",
+    "card_number": 537,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Swoop Racer",
+    "card_number": 538,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Razor Crest, Stay Off the Ice",
+    "card_number": 539,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Hidden Sharpshooter",
+    "card_number": 540,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Preparation",
+    "card_number": 541,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Shoot First",
+    "card_number": 542,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Breaking In",
+    "card_number": 543,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Force Illusion",
+    "card_number": 544,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "TIE/ln Fighter",
+    "card_number": 545,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Morgan Elsbeth, Tales Based on Truths",
+    "card_number": 546,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Super Battle Droid",
+    "card_number": 547,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Rogue-class Starfighter",
+    "card_number": 548,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "AT-ST",
+    "card_number": 549,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Consumed by the Dark Side",
+    "card_number": 550,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "I Am Your Father",
+    "card_number": 551,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Jar Jar Binks, Bumbling Representative",
+    "card_number": 552,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Phase I Clone Trooper",
+    "card_number": 553,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Dilapidated Ski Speeder",
+    "card_number": 554,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Medical Frigate",
+    "card_number": 555,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Eta-2 Light Interceptor",
+    "card_number": 556,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Coordinated Front",
+    "card_number": 557,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "You're My Only Hope",
+    "card_number": 558,
+    "variant_type": "Hyperspace Foil",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Darth Vader, No One to Stop Us",
+    "card_number": 559,
+    "variant_type": "Showcase",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Rey, In Balance",
+    "card_number": 560,
+    "variant_type": "Showcase",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Kylo Ren, Supreme Leader",
+    "card_number": 561,
+    "variant_type": "Showcase",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Mace Windu, Here With Backup",
+    "card_number": 562,
+    "variant_type": "Showcase",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Darth Maul, Mechanism of Menace",
+    "card_number": 563,
+    "variant_type": "Showcase",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Luke Skywalker, I Have to Face Him",
+    "card_number": 564,
+    "variant_type": "Showcase",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Asajj Ventress, Bald and Beautiful",
+    "card_number": 565,
+    "variant_type": "Showcase",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "IC27",
+    "en_name": "Princess Leia, On a Diplomatic Mission",
+    "card_number": 566,
+    "variant_type": "Showcase",
     "idProduct": null,
     "note": ""
   },
@@ -1417,6 +5537,14 @@
   },
   {
     "set_code": "SHD",
+    "en_name": "Top Target",
+    "card_number": 344,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
     "en_name": "Vambrace Grappleshot",
     "card_number": 347,
     "variant_type": "Hyperspace",
@@ -1513,14 +5641,6 @@
   },
   {
     "set_code": "SHD",
-    "en_name": "Disabling Fang Fighter",
-    "card_number": 435,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
     "en_name": "Armed to the Teeth",
     "card_number": 444,
     "variant_type": "Hyperspace",
@@ -1579,6 +5699,14 @@
     "set_code": "SHD",
     "en_name": "Enfys Nest, Marauder",
     "card_number": 487,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
+    "en_name": "Wanted",
+    "card_number": 489,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -1915,14 +6043,6 @@
     "set_code": "SOR",
     "en_name": "Smuggling Compartment",
     "card_number": 476,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "Viper Probe Droid",
-    "card_number": 489,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -2379,6 +6499,14 @@
     "set_code": "TWI",
     "en_name": "AT-TE Vanguard",
     "card_number": 508,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
+    "en_name": "Drop In",
+    "card_number": 511,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
