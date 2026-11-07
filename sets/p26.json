@@ -94039,9 +94039,45 @@
           "data": null
         },
         "reprintOf": {
-          "data": null
+          "data": {
+            "id": 66091,
+            "attributes": {
+              "title": "Capitaine Rex",
+              "subtitle": "Fervent Défenseur",
+              "cardNumber": 41,
+              "cardCount": 194,
+              "artist": "Johnny Morrow",
+              "artFrontHorizontal": false,
+              "artBackHorizontal": null,
+              "hasFoil": true,
+              "cost": 7,
+              "hp": 5,
+              "power": 7,
+              "text": "Sentinelle\nProtégée\nRécupération 3",
+              "textStyled": "<p><strong>Sentinelle</strong></p><p><strong>Protégée</strong></p><p><strong>Récupération 3</strong></p>",
+              "deployBox": null,
+              "deployBoxStyled": null,
+              "epicAction": "",
+              "epicActionStyled": "<p></p>",
+              "linkHtml": "<a href=\"/cards?cid=0382017405\" class=\"card-tooltip\" data-card=\"0382017405\">Capitaine Rex</a>",
+              "cardId": null,
+              "createdAt": "2026-10-09T20:03:38.235Z",
+              "updatedAt": "2026-11-06T20:31:08.701Z",
+              "publishedAt": "2025-03-05T06:00:00.000Z",
+              "locale": "fr",
+              "hyperspace": false,
+              "unique": true,
+              "showcase": false,
+              "cardUid": "0382017405",
+              "rules": null,
+              "rulesStyled": null,
+              "serialCode": "ic27010041",
+              "upgradeHp": null,
+              "upgradePower": null
+            }
+          }
         },
-        "validationId": "9703210918"
+        "validationId": "0382017405"
       }
     },
     {
@@ -96931,9 +96967,45 @@
           "data": null
         },
         "reprintOf": {
-          "data": null
+          "data": {
+            "id": 66401,
+            "attributes": {
+              "title": "Grand Inquisiteur",
+              "subtitle": "Comment Faire Chuter Les Puissants",
+              "cardNumber": 103,
+              "cardCount": 194,
+              "artist": "Kevin Sidharta",
+              "artFrontHorizontal": false,
+              "artBackHorizontal": null,
+              "hasFoil": true,
+              "cost": 4,
+              "hp": 6,
+              "power": 3,
+              "text": "Tant que cette unité est endommagée, elle gagne Raid 3 et Saboteur.",
+              "textStyled": "<p>Tant que cette unité est endommagée, elle gagne <strong>Raid 3</strong> et <strong>Saboteur</strong>.</p>",
+              "deployBox": null,
+              "deployBoxStyled": null,
+              "epicAction": "",
+              "epicActionStyled": "<p></p>",
+              "linkHtml": "<a href=\"/cards?cid=4369298974\" class=\"card-tooltip\" data-card=\"4369298974\">Grand Inquisiteur</a>",
+              "cardId": null,
+              "createdAt": "2026-10-09T20:05:57.397Z",
+              "updatedAt": "2026-11-06T20:32:09.383Z",
+              "publishedAt": "2025-03-05T06:00:00.000Z",
+              "locale": "fr",
+              "hyperspace": false,
+              "unique": true,
+              "showcase": false,
+              "cardUid": "4369298974",
+              "rules": null,
+              "rulesStyled": null,
+              "serialCode": "ic27010103",
+              "upgradeHp": null,
+              "upgradePower": null
+            }
+          }
         },
-        "validationId": "7949660930"
+        "validationId": "4369298974"
       }
     },
     {
@@ -100351,9 +100423,45 @@
           "data": null
         },
         "reprintOf": {
-          "data": null
+          "data": {
+            "id": 66076,
+            "attributes": {
+              "title": "Amiral Holdo",
+              "subtitle": "Nous Sommes L'Étincelle",
+              "cardNumber": 38,
+              "cardCount": 194,
+              "artist": "JB Casacop",
+              "artFrontHorizontal": false,
+              "artBackHorizontal": null,
+              "hasFoil": true,
+              "cost": 5,
+              "hp": 7,
+              "power": 3,
+              "text": "Piochez 1 carte de plus lors de la phase de regroupement.",
+              "textStyled": "<p>Piochez 1 carte de plus lors de la phase de regroupement.</p>",
+              "deployBox": null,
+              "deployBoxStyled": null,
+              "epicAction": "",
+              "epicActionStyled": "<p></p>",
+              "linkHtml": "<a href=\"/cards?cid=1700178112\" class=\"card-tooltip\" data-card=\"1700178112\">Amiral Holdo</a>",
+              "cardId": null,
+              "createdAt": "2026-10-09T20:03:31.886Z",
+              "updatedAt": "2026-11-06T20:31:05.193Z",
+              "publishedAt": "2025-03-05T06:00:00.000Z",
+              "locale": "fr",
+              "hyperspace": false,
+              "unique": true,
+              "showcase": false,
+              "cardUid": "1700178112",
+              "rules": null,
+              "rulesStyled": null,
+              "serialCode": "ic27010038",
+              "upgradeHp": null,
+              "upgradePower": null
+            }
+          }
         },
-        "validationId": "5883053949"
+        "validationId": "1700178112"
       }
     },
     {
