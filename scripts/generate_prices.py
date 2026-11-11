@@ -107,6 +107,35 @@ EXPANSION_MAP_CONFIRMED = {
                                  # laissait les 40 cartes HMWP sans prix et polluait 3 prix HMW
 }
 
+# Nom de chaque extension tel que Cardmarket l'affiche : l'app l'ajoute après le nom de la carte
+# dans l'export « Wants » (« 1 <carte> (<extension>) », SWUCardex#252). Extension absente =
+# nom non confirmé : la ligne part sans extension et Cardmarket retrouve la carte par son nom.
+# Les expansions "multi" (5626, 6023, 6418) n'ont pas de nom confirmé.
+EXPANSION_NAMES = {
+    5618: "Spark of Rebellion",        5638: "Spark of Rebellion: Extras",
+    5688: "Spark of Rebellion: Organized Play",
+    5769: "Shadows of the Galaxy",     5781: "Shadows of the Galaxy: Extras",
+    5839: "Shadows of the Galaxy: Organized Play",
+    5888: "Twilight of the Republic",  5937: "Twilight of the Republic: Extras",
+    5939: "Twilight of the Republic: Organized Play",
+    5995: "Jump to Lightspeed",        6074: "Jump to Lightspeed: Extras",
+    6075: "Jump to Lightspeed: Organized Play",
+    6105: "Legends of the Force",      6188: "Legends of the Force: Extras",
+    6206: "Legends of the Force: Organized Play",
+    6268: "Intro Battle: Hoth",
+    6101: "2025 Promos",
+    6333: "Secrets of Power",          6364: "Secrets of Power: Extras",
+    6386: "Secrets of Power: Organized Play",
+    6451: "A Lawless Time",            6452: "A Lawless Time: Extras",
+    6453: "A Lawless Time: Organized Play",
+    6472: "2026 Promos",
+    6532: "2026 Twin Suns",
+    6591: "Ashes of the Empire",       6642: "Ashes of the Empire: Extras",
+    6643: "Ashes of the Empire: Organized Play",
+    6759: "Homeworlds",                6788: "Homeworlds: Extras",
+    6798: "Homeworlds: Organized Play",
+}
+
 # Priorité de set pour les expansions multi-sets (premier set prioritaire)
 # 5626 = SOR special : C24 (Conv. Exclusive SOR) > GG > C25 > J25 > P25 > C26
 # 6023 = JTL special : J24 > J25 > P25 > P26
@@ -837,6 +866,13 @@ for sc in sorted(check_sets):
     bar = "█" * int(pct / 5) + "░" * (20 - int(pct / 5))
     print(f"    {sc:6s} {bar} {produced:4d}/{expected:4d} ({pct:.0f}%)")
 
+# ── Extension Cardmarket de chaque variante (export « Wants », SWUCardex#252) ──
+for e in price_table:
+    for v in e["prices"].values():
+        prod = cm_products.get(v.get("idProduct"))
+        if prod:
+            v["idExpansion"] = prod["idExpansion"]
+
 # ── Export prix courants ──────────────────────────────────────────────────────
 price_date    = prices_data.get("createdAt", "")
 snapshot_date = price_date[:10] if price_date else "unknown"
@@ -844,7 +880,10 @@ snapshot_date = price_date[:10] if price_date else "unknown"
 output = {
     "version":       2,
     "priceDate":     price_date,
-    "expansion_map": {str(k): {"set_code": v[0], "role": v[1]} for k, v in EXPANSION_MAP.items()},
+    "expansion_map": {
+        str(k): {"set_code": v[0], "role": v[1], **({"name": EXPANSION_NAMES[k]} if k in EXPANSION_NAMES else {})}
+        for k, v in EXPANSION_MAP.items()
+    },
     "prices":        price_table,
 }
 os.makedirs(OUT_DIR, exist_ok=True)
