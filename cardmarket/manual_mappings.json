@@ -5553,14 +5553,6 @@
   },
   {
     "set_code": "SHD",
-    "en_name": "Freetown Backup",
-    "card_number": 366,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
     "en_name": "Echo, Restored",
     "card_number": 368,
     "variant_type": "Hyperspace",
@@ -5577,16 +5569,16 @@
   },
   {
     "set_code": "SHD",
-    "en_name": "Enforced Loyalty",
-    "card_number": 377,
+    "en_name": "Enterprising Lackeys",
+    "card_number": 376,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
   },
   {
     "set_code": "SHD",
-    "en_name": "Privateer Crew",
-    "card_number": 382,
+    "en_name": "Enforced Loyalty",
+    "card_number": 377,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
