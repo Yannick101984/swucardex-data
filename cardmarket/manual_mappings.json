@@ -5681,14 +5681,6 @@
   },
   {
     "set_code": "SHD",
-    "en_name": "Final Showdown",
-    "card_number": 476,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
     "en_name": "Enfys Nest, Marauder",
     "card_number": 487,
     "variant_type": "Hyperspace",
@@ -6347,14 +6339,6 @@
     "set_code": "TWI",
     "en_name": "Synchronized Strike",
     "card_number": 370,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "Petition the Senate",
-    "card_number": 371,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
