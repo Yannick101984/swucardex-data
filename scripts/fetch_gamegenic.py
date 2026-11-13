@@ -24,6 +24,14 @@ Rapidité :
   (nom + image manquants) déclenchent un appel `products/{id}` + téléchargement.
   Un run sans nouveauté = 1 seul appel réseau au total.
 
+Produits scellés (#668) :
+  accessories/sealed_products.json (boosters, displays, decks préconstruits, boîtes
+  d'avant-première) est relevé à la main : starwarsunlimited.com pour les boîtes et
+  decks, revendeurs FR (visuels FR) ou visuels officiels EN pour chaque illustration
+  de booster ; `sourceImageUrl` garde la trace de la source. Chaque run le
+  fusionne dans le catalogue, avec ses images, en tête de son set. Ajouter un produit
+  = ajouter une entrée ; ne jamais changer un `id` publié (clé de possession dans l'app).
+
 Usage : python3 scripts/fetch_gamegenic.py --repo-root .
 """
 
@@ -83,6 +91,11 @@ CATEGORY_KEYWORDS: list[tuple[str, str]] = [
     ("shuttle", "Storage"),
     ("damage-pad", "Accessory"),
 ]
+
+# Produits scellés officiels (accessories/sealed_products.json, relevés à la main) :
+# catégories dans leur ordre d'affichage, en tête de chaque set (#668). L'app les
+# reconnaît au champ `sealed` des items, pas à cette liste.
+SEALED_CATEGORIES: tuple[str, ...] = ("Booster", "Display", "Starter Deck", "Prerelease")
 
 
 # ── Branche ───────────────────────────────────────────────────────────────────
@@ -388,15 +401,18 @@ def sort_catalogue(items: list[dict]) -> list[dict]:
     """
     L'app affiche les accessoires d'un set dans l'ordre du fichier : on les
     groupe par catégorie, puis produit, puis variante (#29). L'ordre des sets
-    (première apparition) est conservé.
+    (première apparition) est conservé. Les produits scellés passent en tête
+    de leur set, dans l'ordre de SEALED_CATEGORIES (#668).
     """
     set_rank: dict[str, int] = {}
     for item in items:
         set_rank.setdefault(item["setCode"], len(set_rank))
+    sealed_rank = {category: rank for rank, category in enumerate(SEALED_CATEGORIES)}
     return sorted(
         items,
         key=lambda i: (
             set_rank[i["setCode"]],
+            sealed_rank.get(i.get("category", ""), len(SEALED_CATEGORIES)),
             i.get("category", ""),
             i.get("productGroup", ""),
             i.get("variantSlug", ""),
@@ -618,6 +634,54 @@ def sync(
     return new_products, new_items, backfilled
 
 
+def merge_sealed(
+    sealed: list[dict],
+    existing_catalogue_ids: dict[str, dict],
+    images_dir: Path,
+    dry_run: bool,
+) -> int:
+    """
+    Fusionne les produits scellés (#668) dans le catalogue. Le nom et le setOrder
+    du set viennent des accessoires Gamegenic du même set, pour que l'app les
+    range dans la même section. L'`id` est la clé de possession dans l'app : il
+    ne doit jamais changer. Retourne le nombre d'items ajoutés ou modifiés.
+    """
+    set_info: dict[str, tuple[str, int | None]] = {}
+    for item in existing_catalogue_ids.values():
+        if item.get("category") not in SEALED_CATEGORIES:
+            set_info.setdefault(item["setCode"], (item["setName"], item.get("setOrder")))
+
+    changed = 0
+    for product in sealed:
+        set_code = product["setCode"]
+        if set_code not in set_info:
+            print(f"  [SKIP] set inconnu du catalogue : {product['id']}", file=sys.stderr)
+            continue
+        set_name, set_order = set_info[set_code]
+        source_url = product["sourceImageUrl"]
+        # Images versionnées et parfois retouchées (fond transparent, pastille de
+        # revendeur retirée) : le téléchargement ne sert que si le fichier manque.
+        img_filename = f"{product['id']}.png"
+        img_url_github = BASE_IMG_URL + img_filename
+        if dry_run or not download_image(source_url, images_dir / img_filename):
+            img_url_github = source_url
+
+        entry = {
+            "id": product["id"], "setCode": set_code, "setName": set_name,
+            "productGroup": product["productGroup"], "category": product["category"],
+            "variantName": product["variantName"],
+            "variantSlug": slugify_variant(product["variantName"]),
+            "imageURL": img_url_github, "productPageUrl": product["productPageUrl"],
+            "directUrl": None, "acquired": False, "setOrder": set_order,
+            "sealed": True,  # l'app range ces items à part, sans liste de catégories à tenir à jour
+        }
+        if existing_catalogue_ids.get(product["id"]) != entry:
+            existing_catalogue_ids[product["id"]] = entry
+            changed += 1
+            print(f"   + scellé : {product['id']}")
+    return changed
+
+
 # ── Point d'entrée ────────────────────────────────────────────────────────────
 
 def main() -> None:
@@ -631,6 +695,7 @@ def main() -> None:
     images_dir = accessories_dir / "images"
     products_path = accessories_dir / "products.json"
     catalogue_path = accessories_dir / "catalogue.json"
+    sealed_path = accessories_dir / "sealed_products.json"
 
     if not products_path.exists():
         sys.exit(f"Fichier produits introuvable : {products_path}")
@@ -646,12 +711,16 @@ def main() -> None:
         api_products, products_meta, existing_catalogue_ids, images_dir, args.dry_run
     )
 
+    sealed: list[dict] = json.loads(sealed_path.read_text()) if sealed_path.exists() else []
+    sealed_changed = merge_sealed(sealed, existing_catalogue_ids, images_dir, args.dry_run)
+
     relinked = normalize_image_urls(existing_catalogue_ids)
     sorted_items = sort_catalogue(list(existing_catalogue_ids.values()))
     reordered = [i["id"] for i in sorted_items] != [i["id"] for i in catalogue]
 
     print(
         f"\n{new_products} nouveau(x) produit(s), {new_items} nouvelle(s) variante(s), "
+        f"{sealed_changed} produit(s) scellé(s) ajouté(s) ou modifié(s), "
         f"{backfilled} directUrl mis à jour, {relinked} imageURL réécrite(s) vers {BRANCH}"
         + (", catalogue retrié." if reordered else ".")
     )
@@ -662,12 +731,12 @@ def main() -> None:
 
     if new_products:
         products_path.write_text(json.dumps(products_meta, indent=2, ensure_ascii=False) + "\n")
-    if new_items or backfilled or relinked or reordered:
+    if new_items or sealed_changed or backfilled or relinked or reordered:
         catalogue_path.write_text(
             json.dumps(sorted_items, indent=2, ensure_ascii=False) + "\n"
         )
         print(f"catalogue.json mis à jour ({len(existing_catalogue_ids)} items total).")
-    if not (new_products or new_items or backfilled or relinked or reordered):
+    if not (new_products or new_items or sealed_changed or backfilled or relinked or reordered):
         print("Rien à mettre à jour.")
 
 

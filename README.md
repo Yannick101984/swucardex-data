@@ -11,6 +11,7 @@ Contient les cartes Star Wars Unlimited, le manifest des sets, et les prix Cardm
 swucardex-data/
 ├── manifest.json                        # Manifest des sets (chargé au démarrage de l'app)
 ├── rotation.json                        # Rotation Premier, tenue à la main (voir plus bas)
+├── prebuilt_decks.json                  # Decks préconstruits officiels, tenus à la main (voir plus bas)
 ├── sets/                                # JSONs des cartes par set
 │   ├── sor.json                         # Étincelle de Rébellion
 │   ├── shd.json                         # Ombres de la Galaxie
@@ -226,11 +227,47 @@ La légalité en Premier ne se déduit pas des données récupérées automatiqu
 
 ---
 
+## Decks préconstruits (`prebuilt_decks.json`)
+
+Listes des decks préconstruits officiels (starters deux joueurs, Spotlight Decks, Bataille d'intro, Twin Suns), affichées dans l'onglet « Préconstruits » du Deck Manager (#232). Ce fichier est **tenu à la main** : l'API officielle ne décrit pas le contenu des produits.
+
+```json
+{
+  "version": 1,
+  "lastUpdated": "2026-10-29",
+  "products": [
+    {
+      "id": "law-spotlight", "name": "Sans Foi Ni Loi — Spotlight", "set": "LAW", "format": "premier",
+      "decks": [
+        {
+          "id": "law-leia", "name": "Leia Organa",
+          "leader": { "id": "LAW_010", "count": 1 },
+          "base": { "id": "LAW_020", "count": 1 },
+          "deck": [{ "id": "LAW_037", "count": 3 }],
+          "sideboard": [],
+          "sources": ["Liste officielle FFG (image de l'article starwarsunlimited.com)"]
+        }
+      ]
+    }
+  ]
+}
+```
+
+- `products` : un produit par boîte vendue, du plus récent au plus ancien (ordre d'affichage). `format` vaut `premier` ou `twinSuns`. L'app passe d'elle-même un deck en Éternel quand une de ses cartes est sortie de rotation (`rotation.json`).
+- Les decks utilisent le format JSON de SWUDB : `leader`, `secondleader` (Twin Suns uniquement), `base`, `deck` et `sideboard`, avec des identifiants `SET_NNN` (le numéro de nos `sets/*.json`, sur 3 chiffres).
+- Une carte réimprimée peut garder l'identifiant de son set d'origine. Une même carte sous plusieurs numéros (IBH : un numéro par exemplaire) n'a qu'une entrée, avec le total des exemplaires.
+- Un deck fait 50 cartes (80 en Twin Suns), leader(s) et base non compris. Il faut au plus 3 exemplaires par carte (1 en Twin Suns).
+- `sources` indique d'où vient la liste. Les images officielles des articles starwarsunlimited.com font foi. Attention, sur ces images, les cartes JTL marquées * ont un numéro supérieur de 2 à celui de nos données : il faut les retrouver par leur nom.
+- Il faut mettre à jour `lastUpdated` à chaque modification : l'app garde la version la plus récente entre son cache et le fichier fourni avec l'app.
+
+---
+
 ## URLs utilisées par l'app
 
 ```
 Manifest    : https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/manifest.json
 Rotation    : https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/rotation.json
+Préconstruits: https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/prebuilt_decks.json
 Set JSON    : https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/{id}.json
 Prix actuels: https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/prices/cardmarket_prices.json
 Historique  : https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/prices/cardmarket_prices_history.json
