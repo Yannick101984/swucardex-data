@@ -252,6 +252,15 @@
     "productPageUrl": "https://starwarsunlimited.com/products/set-5-legends-of-the-force"
   },
   {
+    "id": "lof_sealed_booster_mere-talzin",
+    "setCode": "lof",
+    "productGroup": "Booster",
+    "category": "Booster",
+    "variantName": "Mère Talzin",
+    "sourceImageUrl": "",
+    "productPageUrl": "https://starwarsunlimited.com/products/set-5-legends-of-the-force"
+  },
+  {
     "id": "lof_sealed_booster-display",
     "setCode": "lof",
     "productGroup": "Display de boosters",

@@ -1635,6 +1635,21 @@
     "sealed": true
   },
   {
+    "id": "lof_sealed_booster_mere-talzin",
+    "setCode": "lof",
+    "setName": "Legends of the Force (Set5)",
+    "productGroup": "Booster",
+    "category": "Booster",
+    "variantName": "Mère Talzin",
+    "variantSlug": "m-re-talzin",
+    "imageURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/staging/accessories/images/lof_sealed_booster_mere-talzin.png",
+    "productPageUrl": "https://starwarsunlimited.com/products/set-5-legends-of-the-force",
+    "directUrl": null,
+    "acquired": false,
+    "setOrder": 202507,
+    "sealed": true
+  },
+  {
     "id": "lof_sealed_booster_yoda",
     "setCode": "lof",
     "setName": "Legends of the Force (Set5)",
