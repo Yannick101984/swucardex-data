@@ -5657,6 +5657,14 @@
   },
   {
     "set_code": "SHD",
+    "en_name": "Zuckuss, Bounty Hunter for Hire",
+    "card_number": 459,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
     "en_name": "Dryden Vos, Offering No Escape",
     "card_number": 461,
     "variant_type": "Hyperspace",
@@ -6281,6 +6289,14 @@
   },
   {
     "set_code": "TWI",
+    "en_name": "On Top of Things",
+    "card_number": 19,
+    "variant_type": "Weekly Play",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
     "en_name": "General Grievous, Trophy Collector",
     "card_number": 307,
     "variant_type": "Hyperspace",
@@ -6339,14 +6355,6 @@
     "set_code": "TWI",
     "en_name": "Synchronized Strike",
     "card_number": 370,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "Mas Amedda, Vice Chair",
-    "card_number": 372,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -6417,6 +6425,14 @@
   },
   {
     "set_code": "TWI",
+    "en_name": "Sabine Wren, You Can Count On Me",
+    "card_number": 460,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "TWI",
     "en_name": "Enfys Nest, Champion of Justice",
     "card_number": 463,
     "variant_type": "Hyperspace",
@@ -6435,14 +6451,6 @@
     "set_code": "TWI",
     "en_name": "Jar Jar Binks, Foolish Gungan",
     "card_number": 467,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "Chancellor Palpatine, Wartime Chancellor",
-    "card_number": 468,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
