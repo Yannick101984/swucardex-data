@@ -5977,14 +5977,6 @@
   },
   {
     "set_code": "SOR",
-    "en_name": "Wolffe, Suspicious Veteran",
-    "card_number": 423,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
     "en_name": "Smoke and Cinders",
     "card_number": 437,
     "variant_type": "Hyperspace",
@@ -6003,14 +5995,6 @@
     "set_code": "SOR",
     "en_name": "I Had No Choice",
     "card_number": 450,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "Vanguard Ace",
-    "card_number": 453,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
