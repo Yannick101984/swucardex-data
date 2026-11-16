@@ -5585,14 +5585,6 @@
   },
   {
     "set_code": "SHD",
-    "en_name": "Outlaw Corona",
-    "card_number": 385,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
     "en_name": "Discerning Veteran",
     "card_number": 389,
     "variant_type": "Hyperspace",
@@ -5627,6 +5619,14 @@
     "set_code": "SHD",
     "en_name": "Wild Rancor",
     "card_number": 427,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
+    "en_name": "Covetous Rivals",
+    "card_number": 440,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -5683,14 +5683,6 @@
     "set_code": "SHD",
     "en_name": "Principled Outlaw",
     "card_number": 469,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Enfys Nest, Marauder",
-    "card_number": 487,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
