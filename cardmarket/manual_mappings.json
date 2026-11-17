@@ -6289,14 +6289,6 @@
   },
   {
     "set_code": "TWI",
-    "en_name": "Daughter of Dathomir",
-    "card_number": 335,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
     "en_name": "Ki-Adi-Mundi, Composed and Confident",
     "card_number": 337,
     "variant_type": "Hyperspace",
@@ -6377,16 +6369,16 @@
   },
   {
     "set_code": "TWI",
-    "en_name": "Kit Fisto, The Smiling Jedi",
-    "card_number": 432,
+    "en_name": "Clone Cohort",
+    "card_number": 436,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
   },
   {
     "set_code": "TWI",
-    "en_name": "Clone Cohort",
-    "card_number": 436,
+    "en_name": "Blood Sport",
+    "card_number": 440,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
