@@ -11,6 +11,11 @@ Modes :
              bumpe dataVersion dans le manifest et écrit une annonce détaillée
              (liste des cartes ajoutées / règles modifiées) dans announcements.json
              et announcements-android.json.
+  v3      : régénère tous les fichiers compacts sets/v3/ depuis les JSON bruts
+             locaux (aucun appel à l'API) et renseigne dataURLv3 / langPacksURL.
+
+Chaque JSON brut écrit par sync ou compare est accompagné de son fichier v3
+(SWUCardex#43, voir compact_format.py).
 """
 
 import argparse
@@ -25,6 +30,8 @@ import urllib.request
 import requests
 from collections import Counter
 from datetime import date
+
+from compact_format import write_v3
 
 # ─── Paths ────────────────────────────────────────────────────────────────────
 _HERE              = os.path.dirname(os.path.abspath(__file__))
@@ -43,10 +50,16 @@ DATA_BRANCHES = ("main", "staging")
 
 
 def detect_branch():
-    """Branche courante : GITHUB_REF_NAME (forcé par les workflows), sinon git."""
-    branch = os.environ.get("GITHUB_REF_NAME")
-    if branch:
-        return branch
+    """
+    Branche courante : DATA_BRANCH (passé par les workflows matriciels), sinon
+    GITHUB_REF_NAME, sinon git. GitHub interdit de redéfinir GITHUB_REF_NAME : sur
+    un déclenchement schedule, elle vaut toujours main, même dans le job staging
+    (swucardex-data#36).
+    """
+    for name in ("DATA_BRANCH", "GITHUB_REF_NAME"):
+        branch = os.environ.get(name)
+        if branch:
+            return branch
     try:
         return subprocess.run(
             ["git", "rev-parse", "--abbrev-ref", "HEAD"],
@@ -80,16 +93,22 @@ HEADERS_HTML = {**HEADERS, 'Accept': 'text/html,application/xhtml+xml'}
 
 # ─── Helpers réseau ───────────────────────────────────────────────────────────
 
-def api_get(path, params=None, retries=3):
+def api_get(path, params=None, retries=3, timeout=30):
     url = f"{API_BASE}/{path}"
     for attempt in range(retries):
         try:
-            r = requests.get(url, params=params, headers=HEADERS, timeout=30)
+            r = requests.get(url, params=params, headers=HEADERS, timeout=timeout)
             if r.status_code == 200:
                 return r.json()
             if r.status_code == 429:
                 wait = int(r.headers.get('Retry-After', 60))
                 print(f"⏳ Rate limit — attente {wait}s...")
+                time.sleep(wait)
+                continue
+            if r.status_code >= 500 and attempt < retries - 1:
+                # Erreur passagère du serveur (502/503) : nouvelle tentative espacée
+                wait = 20 * (attempt + 1)
+                print(f"⏳ HTTP {r.status_code}, nouvelle tentative dans {wait}s...")
                 time.sleep(wait)
                 continue
             print(f"⚠️  HTTP {r.status_code} pour {url}")
@@ -371,12 +390,39 @@ def report_unclassified_sets(added):
             f.write(f"unclassified={','.join(unclassified)}\n")
 
 
+# URLs de fichiers du repo portées par chaque set du manifest
+SET_URL_KEYS = ("dataURL", "dataURLv3", "langPacksURL")
+
+
+def raw_url(path):
+    return f"https://raw.githubusercontent.com/{REPO}/{BRANCH}/{path}"
+
+
+def ensure_compact_urls(entry):
+    """
+    Ajoute à une entrée de set les URLs des formats compacts (SWUCardex#43, #834) :
+    dataURLv3 et langPacksURL ({locale} remplacé côté app par fr, en, de, es, it).
+    Retourne True si l'entrée a changé.
+    """
+    set_id = entry['id']
+    wanted = {
+        "dataURLv3":    raw_url(f"sets/v3/{set_id}.json"),
+        "langPacksURL": raw_url(f"sets/lang/{{locale}}/{set_id}.json"),
+    }
+    changed = False
+    for key, url in wanted.items():
+        if key not in entry:
+            entry[key] = url
+            changed = True
+    return changed
+
+
 def normalize_data_urls(manifest):
     """
-    Fait pointer toutes les dataURL du manifest vers la branche courante : un
-    merge main → staging ramène des URLs /main/, le run suivant les corrige.
-    Hors main/staging (branche de travail locale) : on ne touche à rien.
-    Retourne le nombre d'URLs réécrites.
+    Fait pointer toutes les URLs de fichiers des sets (SET_URL_KEYS) vers la
+    branche courante : un merge main → staging ramène des URLs /main/, le run
+    suivant les corrige. Hors main/staging (branche de travail locale) : on ne
+    touche à rien. Retourne le nombre d'URLs réécrites.
     """
     if CURRENT_BRANCH not in DATA_BRANCHES:
         return 0
@@ -384,12 +430,13 @@ def normalize_data_urls(manifest):
     pattern = re.compile(re.escape(prefix) + r"[^/]+/")
     fixed = 0
     for entry in manifest['sets']:
-        url = entry.get('dataURL', '')
-        if url.startswith(prefix):
-            new_url = pattern.sub(f"{prefix}{CURRENT_BRANCH}/", url, count=1)
-            if new_url != url:
-                entry['dataURL'] = new_url
-                fixed += 1
+        for key in SET_URL_KEYS:
+            url = entry.get(key, '')
+            if url.startswith(prefix):
+                new_url = pattern.sub(f"{prefix}{CURRENT_BRANCH}/", url, count=1)
+                if new_url != url:
+                    entry[key] = new_url
+                    fixed += 1
     return fixed
 
 
@@ -420,6 +467,8 @@ def save_set_json(manifest_code, cards):
         json.dump({"data": data_cards, "variants": variant_cards}, f, indent=2, ensure_ascii=False)
         f.write("\n")
     print(f"  💾 sets/{manifest_code.lower()}.json ({len(data_cards)} principales + {len(variant_cards)} variantes)")
+    write_v3(manifest_code, data_cards + variant_cards)
+    print(f"  💾 sets/v3/{manifest_code.lower()}.json")
     return path
 
 
@@ -558,11 +607,9 @@ def sync_mode():
             "foilShared":  foil_shared,
             "logoURL":     logo_url,
             "artworkURL":  artwork_url,
-            "dataURL":     (
-                f"https://raw.githubusercontent.com/{REPO}/{BRANCH}"
-                f"/sets/{api_code.lower()}.json"
-            ),
+            "dataURL":     raw_url(f"sets/{api_code.lower()}.json"),
         }
+        ensure_compact_urls(entry)
         manifest['sets'].append(entry)
         added.append((api_code, name))
         if is_main:
@@ -735,19 +782,45 @@ def compare_mode():
     print(f"\n🎉 Changements : {len(new_cards_items)} nouvelles cartes, {len(rules_items)} règles.")
 
 
+# ─── MODE V3 ──────────────────────────────────────────────────────────────────
+
+def v3_mode():
+    print("\n🗜️  MODE V3 : régénération des fichiers compacts")
+    print("=" * 60)
+    manifest = load_manifest()
+    written = 0
+    for entry in manifest['sets']:
+        code = entry['code'].upper()
+        path = set_file_path(code)
+        if not os.path.isfile(path):
+            print(f"⚠️  {code} : fichier brut absent, ignoré")
+            continue
+        with open(path, encoding='utf-8') as f:
+            raw = json.load(f)
+        if write_v3(code, raw.get('data', []) + raw.get('variants', [])):
+            written += 1
+            print(f"  💾 sets/v3/{code.lower()}.json")
+    urls_added = sum(ensure_compact_urls(entry) for entry in manifest['sets'])
+    if urls_added:
+        save_manifest(manifest)
+    print(f"\n✅ {written} fichier(s) v3 écrit(s), {urls_added} entrée(s) du manifest complétée(s).")
+
+
 # ─── Main ─────────────────────────────────────────────────────────────────────
 
 def main():
     parser = argparse.ArgumentParser(description="Synchronisation automatique des sets SWU")
     parser.add_argument(
-        '--mode', choices=['sync', 'compare'], required=True,
-        help="sync: nouveaux sets | compare: mise à jour sets existants",
+        '--mode', choices=['sync', 'compare', 'v3'], required=True,
+        help="sync: nouveaux sets | compare: mise à jour sets existants | v3: fichiers compacts",
     )
     args = parser.parse_args()
     if args.mode == 'sync':
         sync_mode()
-    else:
+    elif args.mode == 'compare':
         compare_mode()
+    else:
+        v3_mode()
 
     manifest = load_manifest()
     fixed = normalize_data_urls(manifest)
