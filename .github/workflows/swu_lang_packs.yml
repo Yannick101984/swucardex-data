@@ -1,0 +1,101 @@
+name: SWU - Format v3 et packs langue
+
+# Fichiers compacts lus par les apps (SWUCardex#43, SWUCardex#834) :
+# - sets/v3/        régénérés depuis les JSON bruts (aucun appel à l'API)
+# - sets/lang/      packs langue fr/en/de/es/it
+#
+# Ménager l'API officielle (éviter un blocage) :
+# - mensuel (les textes traduits et les images changent rarement), plus un
+#   lancement manuel à la sortie d'un set, limité à ce set ;
+# - scrape une seule fois (checkout staging), main reprend les mêmes packs (--reuse) ;
+# - pack fr construit depuis les JSON bruts locaux : seules en/de/es/it interrogent l'API.
+#
+# Aussi à lancer après une promotion staging → main : la promotion restaure
+# sets/ et manifest.json de main, les fichiers générés sur staging n'y arrivent pas.
+
+on:
+  schedule:
+    # Le 1er du mois à 4h17 UTC
+    - cron: '17 4 1 * *'
+  workflow_dispatch:
+    inputs:
+      sets:
+        description: 'ids de sets séparés par des virgules (vide : tous)'
+        required: false
+        type: string
+
+concurrency:
+  group: lang-packs
+  cancel-in-progress: false
+
+jobs:
+  lang-packs:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          path: main
+
+      - name: Checkout staging
+        uses: actions/checkout@v4
+        with:
+          ref: staging
+          path: staging
+
+      - name: Setup Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Installer les dépendances
+        run: pip install requests
+
+      # Scrape sur staging, qui porte toujours la dernière version des scripts
+      - name: staging - v3 et packs langue (scrape)
+        working-directory: staging
+        env:
+          DATA_BRANCH: staging
+          SETS: ${{ inputs.sets }}
+        run: |
+          python3 scripts/sync_sets.py --mode v3
+          python3 scripts/sync_lang_packs.py ${SETS:+--sets "$SETS"}
+          python3 scripts/check_compact.py
+
+      # main reprend les packs de staging, sans requête. Ignoré tant que les
+      # scripts n'ont pas été promus sur main.
+      - name: main - v3 et packs langue (repris de staging)
+        working-directory: main
+        env:
+          DATA_BRANCH: main
+          SETS: ${{ inputs.sets }}
+        run: |
+          if [ ! -f scripts/sync_lang_packs.py ]; then
+            echo "Scripts pas encore promus sur main : branche ignorée."
+            exit 0
+          fi
+          python3 scripts/sync_sets.py --mode v3
+          python3 scripts/sync_lang_packs.py --reuse ../staging ${SETS:+--sets "$SETS"}
+          python3 scripts/check_compact.py
+
+      - name: Commit et push si changements
+        run: |
+          for branch in staging main; do
+            cd "$GITHUB_WORKSPACE/$branch"
+            git config user.name  "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add sets/v3 sets/lang manifest.json
+            if git diff --cached --quiet; then
+              echo "$branch : aucun changement, rien à commiter."
+              continue
+            fi
+            git commit -m "Auto [lang]: format v3 et packs langue [$(date '+%Y-%m-%d')] [skip ci]"
+            # Un workflow de prix a pu pousser pendant le scrape
+            git pull --rebase origin "$branch"
+            git push origin "HEAD:$branch"
+          done
