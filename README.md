@@ -23,6 +23,7 @@ swucardex-data/
 │   ├── ...                              # Sets spéciaux et promos
 │   ├── v3/{id}.json                     # Format compact v3, généré (voir « Formats compacts »)
 │   └── lang/{locale}/{id}.json          # Packs langue fr/en/de/es/it, générés
+│       └── pending.json                 # Cartes pas encore trouvées par langue (staging)
 ├── cardmarket/                          # Fichiers source Cardmarket (mis à jour manuellement)
 │   ├── products_singles.json            # Catalogue des singles (nom, idExpansion, idMetacard)
 │   └── price_guide.json                 # Prix actuels (avg, low, trend, foil…)
@@ -336,14 +337,24 @@ Comme `dataURL`, ces URLs pointent vers la branche qui les porte (`main` ou `sta
 
 - `sync_sets.py` écrit le v3 à chaque JSON brut écrit (modes `sync` et `compare`) ;
   `--mode v3` régénère tous les v3 depuis les fichiers locaux, sans appel à l'API.
-- `sync_lang_packs.py [--sets sor,shd] [--locales de,it] [--reuse DIR]` génère les packs.
-- Workflow **« SWU - Format v3 et packs langue »** : le 1er du mois, et à la demande (à la sortie
-  d'un set, avec ce set en paramètre). Avant la promotion du workflow sur main :
+- `sync_lang_packs.py [--sets sor,shd] [--locales de,it] [--full | --reuse DIR]` tient les packs
+  à jour en **mode incrémental** : le JSON brut français sert de référence, seules les cartes
+  absentes du pack d'une langue sont demandées (filtre `cardUid`, lots de 100). Une langue sans
+  pack pour un set (nouveau set) est récupérée en entier. Les cartes déjà présentes ne sont ni
+  retirées ni redemandées ; `--full` re-scrape tout (textes ou images corrigés dans une langue).
+- Carte introuvable dans une langue (pas encore publiée) : notée dans `sets/lang/pending.json`
+  avec la date de sa première absence et redemandée à chaque passage, puis abandonnée au bout
+  de 60 jours (elle n'existe sans doute pas dans cette langue). `--full` remet les abandons à zéro.
+- Workflow **« SWU - Format v3 et packs langue »** : appelé à la fin de chaque « Comparaison et
+  mise à jour des sets » (jeudi et samedi), pas de planification propre. Un passage sans carte
+  manquante ne fait aucune requête. Lancement manuel possible (liste de sets, case « Tout
+  re-scraper »). Avant la promotion du workflow sur main :
   `gh workflow run swu_lang_packs.yml --ref staging`.
 - **Économie de requêtes sur l'API officielle** (éviter un blocage) : le pack `fr` vient des JSON
   bruts locaux (aucune requête), pages de 250 cartes (maximum de l'API) avec 3 s de pause, un seul
   scrape par run (sur `staging`, `main` reprend les mêmes packs avec `--reuse`). Un run complet
-  représente environ 270 requêtes par mois, contre ~1 400 par mois pour les runs sync/compare existants.
+  (`--full`) représente environ 270 requêtes ; un passage incrémental, une requête par set et par
+  langue où il manque des cartes, zéro sinon.
 - Pagination triée par numéro **puis par id** : sans second critère, l'ordre des cartes de même
   numéro varie d'une page à l'autre et une carte peut être lue deux fois, une autre jamais
   (même défaut dans `fetch_cards`, swucardex-data#40).

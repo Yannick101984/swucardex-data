@@ -2,26 +2,37 @@
 """
 Packs langue des sets (SWUCardex#834).
 
-Pour chaque set du manifest et chaque langue (fr, en, de, es, it), récupère les
-cartes du set dans cette langue et écrit sets/lang/{locale}/{id}.json : textes
-affichés et images de chaque carte, indexés par cardUid (identique dans toutes
-les langues, aucun lien obligatoire avec la VF).
+Pour chaque set du manifest et chaque langue (fr, en, de, es, it), tient à jour
+sets/lang/{locale}/{id}.json : textes affichés et images de chaque carte, indexés
+par cardUid (identique dans toutes les langues, aucun lien obligatoire avec la VF).
 
 Manifest, par set :
   langPacksURL    : URL avec {locale} (posée par sync_sets.py)
   langPackLocales : langues ayant un pack non vide
   langPackVersion : augmenté quand au moins un pack du set change
 
-Une carte absente d'une langue est simplement absente de son pack. Un set dont
-une langue n'a pas pu être récupérée en entier garde ses packs actuels.
+Mode incrémental (par défaut) : seules les cartes manquantes sont demandées.
+- Pack fr construit depuis le JSON brut local, déjà scrapé en français : aucune requête.
+  Il sert de référence : une carte du JSON brut absente du pack d'une langue est
+  « manquante » dans cette langue.
+- Langue sans pack pour ce set (nouveau set) : tout le set est récupéré dans cette langue.
+- Sinon : seules les cartes manquantes sont demandées (filtre cardUid). Un set sans
+  carte manquante ne coûte aucune requête.
+- Carte toujours introuvable (pas encore publiée dans cette langue) : notée dans
+  sets/lang/pending.json avec sa date, et redemandée automatiquement au passage
+  suivant (le workflow tourne après chaque comparaison des sets). Abandonnée au bout
+  de RETRY_DAYS jours : elle n'existe sans doute pas dans cette langue.
+- Les cartes déjà présentes dans un pack ne sont jamais retirées ni redemandées.
+  --full re-scrape tout (correction de textes ou d'images d'une langue) et remet
+  à zéro les abandons.
 
 Économie de requêtes sur l'API officielle (éviter un blocage) :
 - pages de 250 cartes (maximum accepté par l'API), 3 s de pause entre deux pages ;
-- pack fr construit depuis le JSON brut local, déjà scrapé en français : aucune requête ;
+- cartes manquantes demandées par lots de UID_BATCH ;
 - --reuse DIR : reprend les packs déjà générés dans un autre checkout (DIR/sets/lang)
-  au lieu de scraper. Le workflow scrape une fois pour main, puis réutilise pour staging.
+  au lieu de scraper. Le workflow scrape une fois sur staging, puis main réutilise.
 
-Usage : python3 scripts/sync_lang_packs.py [--sets sor,shd] [--locales de,it] [--reuse DIR]
+Usage : python3 scripts/sync_lang_packs.py [--sets sor,shd] [--locales de,it] [--full | --reuse DIR]
 """
 
 import argparse
@@ -29,6 +40,7 @@ import json
 import os
 import sys
 import time
+from datetime import date, timedelta
 
 from compact_format import (
     LANG_PACK_LOCALES, card_to_lang_entry, lang_pack_path, render_lang_pack, write_if_changed,
@@ -40,9 +52,11 @@ from sync_sets import (
 
 PAGE_SIZE   = 250   # maximum accepté par l'API (au-delà, elle répond quand même 250)
 PAGE_PAUSE  = 3     # secondes entre deux requêtes : ménager l'API officielle
-SET_PAUSE   = 3
 PAGE_TIMEOUT = 120  # une page de 250 cartes met 7 à 15 s, parfois bien plus
 LOCAL_LOCALE = "fr" # langue des JSON bruts de sets/ : pack construit sans requête
+UID_BATCH   = 100   # cardUid par requête en mode incrémental (longueur de l'URL)
+RETRY_DAYS  = 60    # au-delà, une carte manquante n'est plus redemandée
+PENDING_PATH = os.path.join(os.path.dirname(os.path.dirname(lang_pack_path(LOCAL_LOCALE, 'x'))), 'pending.json')
 
 
 def fetch_locale_cards(api_code, locale):
@@ -80,6 +94,45 @@ def fetch_locale_cards(api_code, locale):
     return cards
 
 
+def fetch_cards_by_uid(locale, uids):
+    """Cartes d'une langue parmi `uids`, None si une requête échoue."""
+    cards = []
+    for start in range(0, len(uids), UID_BATCH):
+        params = {'locale': locale, 'pagination[pageSize]': str(PAGE_SIZE)}
+        for i, uid in enumerate(uids[start:start + UID_BATCH]):
+            params[f'filters[$and][0][cardUid][$in][{i}]'] = uid
+        data = api_get("card-list", params, timeout=PAGE_TIMEOUT)
+        if not data or 'data' not in data:
+            print(f"    ❌ {locale} : requête par cardUid illisible")
+            return None
+        cards.extend(data['data'])
+        time.sleep(PAGE_PAUSE)
+    return cards
+
+
+def read_pack(locale, code):
+    """Cartes du pack actuel {cardUid: entrée}, None s'il n'existe pas."""
+    try:
+        with open(lang_pack_path(locale, code), encoding='utf-8') as f:
+            return json.load(f).get('cards', {})
+    except (OSError, ValueError):
+        return None
+
+
+def load_pending():
+    try:
+        with open(PENDING_PATH, encoding='utf-8') as f:
+            return json.load(f)
+    except (OSError, ValueError):
+        return {}
+
+
+def save_pending(pending):
+    text = json.dumps(pending, ensure_ascii=False, indent=1, sort_keys=True) + "\n"
+    if write_if_changed(PENDING_PATH, text):
+        print("\n📝 sets/lang/pending.json mis à jour")
+
+
 def build_entries(cards):
     """[(cardUid, entrée)] triés par numéro puis cardUid ; cartes sans cardUid ignorées."""
     by_uid = {}
@@ -111,28 +164,34 @@ def reused_text(reuse_dir, locale, code):
         return ''
 
 
-def sync_set(entry, locales, reuse_dir=None):
+def sync_set(entry, locales, pending, reuse_dir=None, full=False):
     """Met à jour les packs d'un set. Retourne True si le manifest a changé."""
     code     = entry['code'].upper()
     api_code = entry.get('displayCode', code).upper()
     print(f"\n📦 {code}")
 
     rendered = {}
-    for locale in locales:
-        if reuse_dir:
+    if reuse_dir:
+        for locale in locales:
             rendered[locale] = reused_text(reuse_dir, locale, code) or None
-            continue
-        if locale == LOCAL_LOCALE:
-            cards = local_cards(code)
-        else:
-            cards = fetch_locale_cards(api_code, locale)
-            time.sleep(PAGE_PAUSE)
-        if cards is None:
-            print(f"  ⏭️  {code} : packs inchangés (langue {locale} incomplète)")
+    else:
+        fr_cards = local_cards(code)
+        if fr_cards is None:
+            print(f"  ⏭️  {code} : JSON brut absent, packs inchangés")
             return False
-        entries = build_entries(cards)
-        print(f"    {locale} : {len(entries)} cartes")
-        rendered[locale] = render_lang_pack(locale, code, entries) if entries else None
+        reference = build_entries(fr_cards)
+        set_pending = pending.setdefault(entry['id'], {})
+        for locale in locales:
+            if locale == LOCAL_LOCALE:
+                rendered[locale] = render_lang_pack(locale, code, reference) if reference else None
+                print(f"    {locale} : {len(reference)} cartes (JSON brut)")
+                continue
+            entries = sync_locale(code, api_code, locale, reference, set_pending, full)
+            rendered[locale] = render_lang_pack(locale, code, entries) if entries else None
+        for locale in [loc for loc, uids in set_pending.items() if not uids]:
+            del set_pending[locale]
+        if not set_pending:
+            del pending[entry['id']]
 
     changed = False
     for locale, text in rendered.items():
@@ -141,11 +200,8 @@ def sync_set(entry, locales, reuse_dir=None):
             changed = True
 
     manifest_changed = ensure_compact_urls(entry)
-    available = sorted(
-        (loc for loc in LANG_PACK_LOCALES
-         if rendered.get(loc) is not None or (loc not in rendered and _pack_exists(loc, code))),
-        key=LANG_PACK_LOCALES.index,
-    )
+    # rendered[locale] None = pack laissé tel quel : la liste suit les fichiers présents
+    available = [loc for loc in LANG_PACK_LOCALES if _pack_exists(loc, code)]
     if entry.get('langPackLocales') != available:
         entry['langPackLocales'] = available
         manifest_changed = True
@@ -153,6 +209,49 @@ def sync_set(entry, locales, reuse_dir=None):
         entry['langPackVersion'] = entry.get('langPackVersion', 0) + 1
         manifest_changed = True
     return manifest_changed
+
+
+def sync_locale(code, api_code, locale, reference, set_pending, full):
+    """
+    Entrées du pack d'une langue après mise à jour, None pour le laisser tel quel.
+    Tient à jour set_pending[locale] = {cardUid: date de la première absence}.
+    """
+    today = date.today()
+    current = None if full else read_pack(locale, code)
+    waiting = {} if full else set_pending.get(locale, {})
+    missing = [uid for uid, _ in reference if current is None or uid not in current]
+    abandoned = [uid for uid in missing if uid in waiting
+                 and today - date.fromisoformat(waiting[uid]) > timedelta(days=RETRY_DAYS)]
+    wanted = [uid for uid in missing if uid not in abandoned]
+
+    if not wanted:
+        detail = f", {len(abandoned)} abandonnée(s)" if abandoned else ""
+        print(f"    {locale} : rien à demander{detail}, aucune requête")
+        set_pending[locale] = {uid: waiting[uid] for uid in abandoned}
+        return None
+
+    if current is None:
+        cards = fetch_locale_cards(api_code, locale)
+        time.sleep(PAGE_PAUSE)
+    else:
+        cards = fetch_cards_by_uid(locale, wanted)
+    if cards is None:
+        print(f"    ⏭️  {locale} : échec, nouvelle tentative au prochain passage")
+        set_pending[locale] = {uid: waiting.get(uid, today.isoformat()) for uid in missing}
+        return None
+
+    fetched = build_entries(cards)
+    merged = dict(current or {})
+    merged.update(fetched)
+    still = [uid for uid, _ in reference if uid not in merged]
+    set_pending[locale] = {uid: waiting.get(uid, today.isoformat()) for uid in still}
+    found = len([uid for uid, _ in fetched if current is None or uid not in current])
+    print(f"    {locale} : {found} carte(s) récupérée(s), {len(still)} toujours manquante(s)"
+          + (f" dont {len(abandoned)} abandonnée(s)" if abandoned else ""))
+    if current is None:
+        return fetched
+    # cartes déjà présentes dans leur ordre, nouvelles ajoutées à la suite
+    return list(current.items()) + [(uid, e) for uid, e in fetched if uid not in current]
 
 
 def _pack_exists(locale, code):
@@ -168,7 +267,11 @@ def main():
     parser.add_argument('--sets', help="ids de sets séparés par des virgules (défaut : tous)")
     parser.add_argument('--locales', help="langues séparées par des virgules (défaut : fr,en,de,es,it)")
     parser.add_argument('--reuse', metavar='DIR', help="reprendre les packs de DIR/sets/lang sans scraper")
+    parser.add_argument('--full', action='store_true',
+                        help="re-scraper toutes les cartes au lieu des seules manquantes")
     args = parser.parse_args()
+    if args.full and args.reuse:
+        sys.exit("--full et --reuse sont incompatibles")
 
     locales = args.locales.split(',') if args.locales else list(LANG_PACK_LOCALES)
     unknown = [loc for loc in locales if loc not in LANG_PACK_LOCALES]
@@ -180,13 +283,14 @@ def main():
     print("=" * 60)
     manifest = load_manifest()
     manifest_changed = False
+    pending = load_pending()
     for entry in manifest['sets']:
         if wanted and entry['id'] not in wanted:
             continue
-        manifest_changed |= sync_set(entry, locales, args.reuse)
-        if not args.reuse:
-            time.sleep(SET_PAUSE)
+        manifest_changed |= sync_set(entry, locales, pending, args.reuse, args.full)
 
+    if not args.reuse:
+        save_pending(pending)
     manifest_changed |= normalize_data_urls(manifest) > 0
     if manifest_changed:
         save_manifest(manifest)

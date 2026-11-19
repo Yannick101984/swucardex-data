@@ -4,9 +4,15 @@ name: SWU - Format v3 et packs langue
 # - sets/v3/        régénérés depuis les JSON bruts (aucun appel à l'API)
 # - sets/lang/      packs langue fr/en/de/es/it
 #
+# Déclenchement : appelé par « Comparaison et mise à jour des sets » après
+# chaque passage (jeudi et samedi), pas de planification propre. Lancement
+# manuel possible (tous sets ou une liste, --full pour tout re-scraper).
+#
 # Ménager l'API officielle (éviter un blocage) :
-# - mensuel (les textes traduits et les images changent rarement), plus un
-#   lancement manuel à la sortie d'un set, limité à ce set ;
+# - mode incrémental : seules les cartes absentes des packs sont demandées
+#   (nouvelles cartes, cartes pas encore publiées dans une langue, notées dans
+#   sets/lang/pending.json et redemandées à chaque passage pendant 60 jours) ;
+#   un passage sans carte manquante ne fait aucune requête ;
 # - scrape une seule fois (checkout staging), main reprend les mêmes packs (--reuse) ;
 # - pack fr construit depuis les JSON bruts locaux : seules en/de/es/it interrogent l'API.
 #
@@ -14,15 +20,18 @@ name: SWU - Format v3 et packs langue
 # sets/ et manifest.json de main, les fichiers générés sur staging n'y arrivent pas.
 
 on:
-  schedule:
-    # Le 1er du mois à 4h17 UTC
-    - cron: '17 4 1 * *'
+  workflow_call:
   workflow_dispatch:
     inputs:
       sets:
         description: 'ids de sets séparés par des virgules (vide : tous)'
         required: false
         type: string
+      full:
+        description: 'Tout re-scraper (textes ou images corrigés dans une langue)'
+        required: false
+        type: boolean
+        default: false
 
 concurrency:
   group: lang-packs
@@ -62,9 +71,10 @@ jobs:
         env:
           DATA_BRANCH: staging
           SETS: ${{ inputs.sets }}
+          FULL: ${{ inputs.full && '--full' || '' }}
         run: |
           python3 scripts/sync_sets.py --mode v3
-          python3 scripts/sync_lang_packs.py ${SETS:+--sets "$SETS"}
+          python3 scripts/sync_lang_packs.py ${SETS:+--sets "$SETS"} $FULL
           python3 scripts/check_compact.py
 
       # main reprend les packs de staging, sans requête. Ignoré tant que les
