@@ -561,6 +561,14 @@
   },
   {
     "set_code": "SHD",
+    "en_name": "The Chaos of War",
+    "card_number": 428,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
     "en_name": "Covetous Rivals",
     "card_number": 440,
     "variant_type": "Hyperspace",
@@ -1241,14 +1249,6 @@
   },
   {
     "set_code": "TWI",
-    "en_name": "Darth Maul, Revenge At Last",
-    "card_number": 403,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
     "en_name": "Mister Bones, I Performed Violence",
     "card_number": 421,
     "variant_type": "Hyperspace",
@@ -1281,14 +1281,6 @@
   },
   {
     "set_code": "TWI",
-    "en_name": "Wolf Pack Escort",
-    "card_number": 456,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
     "en_name": "Sabine Wren, You Can Count On Me",
     "card_number": 460,
     "variant_type": "Hyperspace",
@@ -1305,16 +1297,16 @@
   },
   {
     "set_code": "TWI",
-    "en_name": "Geonosis Patrol Fighter",
-    "card_number": 480,
+    "en_name": "Now There Are Two of Them",
+    "card_number": 490,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
   },
   {
     "set_code": "TWI",
-    "en_name": "Now There Are Two of Them",
-    "card_number": 490,
+    "en_name": "Droid Deployment",
+    "card_number": 499,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
