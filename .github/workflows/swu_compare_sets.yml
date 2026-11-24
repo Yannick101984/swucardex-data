@@ -55,3 +55,14 @@ jobs:
             git commit -m "Auto [compare]: mise à jour sets SWU [$(date '+%Y-%m-%d')] [skip ci]"
             git push origin HEAD:${{ matrix.branch }}
           fi
+
+  # Packs langue (SWUCardex#834), après les deux branches : le scrape se fait sur
+  # staging et main reprend les mêmes packs. Seules les cartes absentes des packs
+  # sont demandées (nouvelles ou pas encore publiées dans une langue) : un passage
+  # sans carte manquante ne fait aucune requête.
+  lang-packs:
+    needs: compare
+    if: ${{ !cancelled() }}
+    permissions:
+      contents: write
+    uses: ./.github/workflows/swu_lang_packs.yml
