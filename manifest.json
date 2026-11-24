@@ -20,7 +20,17 @@
       "foilShared": true,
       "logoURL": "https://cdn.starwarsunlimited.com//xxlarge_spark_of_rebellion_Logo_29fa5414fd.png",
       "artworkURL": "https://cdn.starwarsunlimited.com//large_spark_of_rebellion_Key_Art_a47029d8d7.jpg",
-      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/sor.json"
+      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/sor.json",
+      "dataURLv3": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/v3/sor.json",
+      "langPacksURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/lang/{locale}/sor.json",
+      "langPackLocales": [
+        "fr",
+        "en",
+        "de",
+        "es",
+        "it"
+      ],
+      "langPackVersion": 3
     },
     {
       "id": "shd",
@@ -33,7 +43,17 @@
       "foilShared": true,
       "logoURL": "https://cdn.starwarsunlimited.com//large_shadows_of_the_galaxy_Logo_91948b8327.png",
       "artworkURL": "https://cdn.starwarsunlimited.com//large_shadows_of_the_galaxy_Key_Art_2433d22074.jpg",
-      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/shd.json"
+      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/shd.json",
+      "dataURLv3": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/v3/shd.json",
+      "langPacksURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/lang/{locale}/shd.json",
+      "langPackLocales": [
+        "fr",
+        "en",
+        "de",
+        "es",
+        "it"
+      ],
+      "langPackVersion": 1
     },
     {
       "id": "twi",
@@ -46,7 +66,17 @@
       "foilShared": true,
       "logoURL": "https://cdn.starwarsunlimited.com//xlarge_Twilight_of_the_Republic_Logo_FR_4843a3a8fd.png",
       "artworkURL": "https://cdn.starwarsunlimited.com//large_SWH_03_Key_Art_171e033574.png",
-      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/twi.json"
+      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/twi.json",
+      "dataURLv3": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/v3/twi.json",
+      "langPacksURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/lang/{locale}/twi.json",
+      "langPackLocales": [
+        "fr",
+        "en",
+        "de",
+        "es",
+        "it"
+      ],
+      "langPackVersion": 1
     },
     {
       "id": "jtl",
@@ -59,7 +89,17 @@
       "foilShared": false,
       "logoURL": "https://cdn.starwarsunlimited.com//xlarge_SWH_04fr_Logo_fbdc080793.png",
       "artworkURL": "https://cdn.starwarsunlimited.com//large_SWH_04_Key_Art_7ebe605a3b.jpg",
-      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/jtl.json"
+      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/jtl.json",
+      "dataURLv3": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/v3/jtl.json",
+      "langPacksURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/lang/{locale}/jtl.json",
+      "langPackLocales": [
+        "fr",
+        "en",
+        "de",
+        "es",
+        "it"
+      ],
+      "langPackVersion": 1
     },
     {
       "id": "lof",
@@ -72,7 +112,17 @@
       "foilShared": false,
       "logoURL": "https://cdn.starwarsunlimited.com//medium_Legends_of_the_Force_Logo_FR_41693db6a1.png",
       "artworkURL": "https://cdn.starwarsunlimited.com//large_Legends_of_the_Force_Key_Art_f4849d8f16.jpg",
-      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/lof.json"
+      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/lof.json",
+      "dataURLv3": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/v3/lof.json",
+      "langPacksURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/lang/{locale}/lof.json",
+      "langPackLocales": [
+        "fr",
+        "en",
+        "de",
+        "es",
+        "it"
+      ],
+      "langPackVersion": 1
     },
     {
       "id": "sec",
@@ -85,7 +135,17 @@
       "foilShared": false,
       "logoURL": "https://cdn.starwarsunlimited.com//xxlarge_Secrets_of_Power_logo_FR_11eebec08f.png",
       "artworkURL": "https://cdn.starwarsunlimited.com//large_SWH_06_Key_Art_5972c74fd2.jpg",
-      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/sec.json"
+      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/sec.json",
+      "dataURLv3": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/v3/sec.json",
+      "langPacksURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/lang/{locale}/sec.json",
+      "langPackLocales": [
+        "fr",
+        "en",
+        "de",
+        "es",
+        "it"
+      ],
+      "langPackVersion": 1
     },
     {
       "id": "law",
@@ -98,7 +158,17 @@
       "foilShared": false,
       "logoURL": "https://cdn.starwarsunlimited.com//xlarge_SWH_07fr_Logo_b459d80222.png",
       "artworkURL": "https://cdn.starwarsunlimited.com//large_SWH_07_K_Ey_Art_070a872699.jpg",
-      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/law.json"
+      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/law.json",
+      "dataURLv3": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/v3/law.json",
+      "langPacksURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/lang/{locale}/law.json",
+      "langPackLocales": [
+        "fr",
+        "en",
+        "de",
+        "es",
+        "it"
+      ],
+      "langPackVersion": 1
     },
     {
       "id": "gg",
@@ -111,7 +181,17 @@
       "foilShared": false,
       "logoURL": null,
       "artworkURL": null,
-      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/gg.json"
+      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/gg.json",
+      "dataURLv3": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/v3/gg.json",
+      "langPacksURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/lang/{locale}/gg.json",
+      "langPackLocales": [
+        "fr",
+        "en",
+        "de",
+        "es",
+        "it"
+      ],
+      "langPackVersion": 1
     },
     {
       "id": "ibh",
@@ -124,7 +204,17 @@
       "foilShared": false,
       "logoURL": "https://cdn.starwarsunlimited.com//xlarge_Intro_Battle_Hoth_Logo_FR_c83cec94ef.png",
       "artworkURL": "https://cdn.starwarsunlimited.com//large_Intro_Battle_Hoth_Key_Art_0e20193f29.jpg",
-      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/ibh.json"
+      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/ibh.json",
+      "dataURLv3": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/v3/ibh.json",
+      "langPacksURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/lang/{locale}/ibh.json",
+      "langPackLocales": [
+        "fr",
+        "en",
+        "de",
+        "es",
+        "it"
+      ],
+      "langPackVersion": 1
     },
     {
       "id": "c24",
@@ -137,7 +227,17 @@
       "foilShared": false,
       "logoURL": null,
       "artworkURL": null,
-      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/c24.json"
+      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/c24.json",
+      "dataURLv3": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/v3/c24.json",
+      "langPacksURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/lang/{locale}/c24.json",
+      "langPackLocales": [
+        "fr",
+        "en",
+        "de",
+        "es",
+        "it"
+      ],
+      "langPackVersion": 1
     },
     {
       "id": "c25",
@@ -150,7 +250,17 @@
       "foilShared": false,
       "logoURL": null,
       "artworkURL": null,
-      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/c25.json"
+      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/c25.json",
+      "dataURLv3": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/v3/c25.json",
+      "langPacksURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/lang/{locale}/c25.json",
+      "langPackLocales": [
+        "fr",
+        "en",
+        "de",
+        "es",
+        "it"
+      ],
+      "langPackVersion": 1
     },
     {
       "id": "j24",
@@ -163,7 +273,17 @@
       "foilShared": false,
       "logoURL": null,
       "artworkURL": null,
-      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/j24.json"
+      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/j24.json",
+      "dataURLv3": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/v3/j24.json",
+      "langPacksURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/lang/{locale}/j24.json",
+      "langPackLocales": [
+        "fr",
+        "en",
+        "de",
+        "es",
+        "it"
+      ],
+      "langPackVersion": 1
     },
     {
       "id": "j25",
@@ -176,7 +296,17 @@
       "foilShared": false,
       "logoURL": null,
       "artworkURL": null,
-      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/j25.json"
+      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/j25.json",
+      "dataURLv3": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/v3/j25.json",
+      "langPacksURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/lang/{locale}/j25.json",
+      "langPackLocales": [
+        "fr",
+        "en",
+        "de",
+        "es",
+        "it"
+      ],
+      "langPackVersion": 1
     },
     {
       "id": "lofp",
@@ -189,7 +319,17 @@
       "foilShared": false,
       "logoURL": null,
       "artworkURL": null,
-      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/lofp.json"
+      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/lofp.json",
+      "dataURLv3": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/v3/lofp.json",
+      "langPacksURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/lang/{locale}/lofp.json",
+      "langPackLocales": [
+        "fr",
+        "en",
+        "de",
+        "es",
+        "it"
+      ],
+      "langPackVersion": 1
     },
     {
       "id": "jtlp",
@@ -202,7 +342,17 @@
       "foilShared": false,
       "logoURL": null,
       "artworkURL": null,
-      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/jtlp.json"
+      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/jtlp.json",
+      "dataURLv3": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/v3/jtlp.json",
+      "langPacksURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/lang/{locale}/jtlp.json",
+      "langPackLocales": [
+        "fr",
+        "en",
+        "de",
+        "es",
+        "it"
+      ],
+      "langPackVersion": 1
     },
     {
       "id": "g25",
@@ -215,7 +365,17 @@
       "foilShared": false,
       "logoURL": null,
       "artworkURL": null,
-      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/g25.json"
+      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/g25.json",
+      "dataURLv3": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/v3/g25.json",
+      "langPacksURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/lang/{locale}/g25.json",
+      "langPackLocales": [
+        "fr",
+        "en",
+        "de",
+        "es",
+        "it"
+      ],
+      "langPackVersion": 1
     },
     {
       "id": "p25",
@@ -228,7 +388,17 @@
       "foilShared": false,
       "logoURL": null,
       "artworkURL": null,
-      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/p25.json"
+      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/p25.json",
+      "dataURLv3": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/v3/p25.json",
+      "langPacksURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/lang/{locale}/p25.json",
+      "langPackLocales": [
+        "fr",
+        "en",
+        "de",
+        "es",
+        "it"
+      ],
+      "langPackVersion": 1
     },
     {
       "id": "p26",
@@ -241,7 +411,17 @@
       "foilShared": false,
       "logoURL": null,
       "artworkURL": null,
-      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/p26.json"
+      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/p26.json",
+      "dataURLv3": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/v3/p26.json",
+      "langPacksURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/lang/{locale}/p26.json",
+      "langPackLocales": [
+        "fr",
+        "en",
+        "de",
+        "es",
+        "it"
+      ],
+      "langPackVersion": 1
     },
     {
       "id": "secp",
@@ -254,7 +434,17 @@
       "foilShared": false,
       "logoURL": null,
       "artworkURL": null,
-      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/secp.json"
+      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/secp.json",
+      "dataURLv3": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/v3/secp.json",
+      "langPacksURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/lang/{locale}/secp.json",
+      "langPackLocales": [
+        "fr",
+        "en",
+        "de",
+        "es",
+        "it"
+      ],
+      "langPackVersion": 1
     },
     {
       "id": "lawp",
@@ -267,7 +457,17 @@
       "foilShared": false,
       "logoURL": null,
       "artworkURL": null,
-      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/lawp.json"
+      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/lawp.json",
+      "dataURLv3": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/v3/lawp.json",
+      "langPacksURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/lang/{locale}/lawp.json",
+      "langPackLocales": [
+        "fr",
+        "en",
+        "de",
+        "es",
+        "it"
+      ],
+      "langPackVersion": 1
     },
     {
       "id": "ts26",
@@ -280,7 +480,17 @@
       "foilShared": false,
       "logoURL": null,
       "artworkURL": null,
-      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/ts26.json"
+      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/ts26.json",
+      "dataURLv3": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/v3/ts26.json",
+      "langPacksURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/lang/{locale}/ts26.json",
+      "langPackLocales": [
+        "fr",
+        "en",
+        "de",
+        "es",
+        "it"
+      ],
+      "langPackVersion": 1
     },
     {
       "id": "ash",
@@ -293,7 +503,17 @@
       "foilShared": false,
       "logoURL": "https://cdn.starwarsunlimited.com//xlarge_Ashes_of_the_Empire_Logo_FR_09dca0ae47.png",
       "artworkURL": "https://cdn.starwarsunlimited.com//large_SWH_08_Key_Art_c29a904dcb.jpg",
-      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/ash.json"
+      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/ash.json",
+      "dataURLv3": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/v3/ash.json",
+      "langPacksURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/lang/{locale}/ash.json",
+      "langPackLocales": [
+        "fr",
+        "en",
+        "de",
+        "es",
+        "it"
+      ],
+      "langPackVersion": 1
     },
     {
       "id": "mv26",
@@ -306,7 +526,17 @@
       "foilShared": false,
       "logoURL": null,
       "artworkURL": null,
-      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/mv26.json"
+      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/mv26.json",
+      "dataURLv3": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/v3/mv26.json",
+      "langPacksURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/lang/{locale}/mv26.json",
+      "langPackLocales": [
+        "fr",
+        "en",
+        "de",
+        "es",
+        "it"
+      ],
+      "langPackVersion": 1
     },
     {
       "id": "c26",
@@ -319,7 +549,17 @@
       "foilShared": false,
       "logoURL": null,
       "artworkURL": null,
-      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/c26.json"
+      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/c26.json",
+      "dataURLv3": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/v3/c26.json",
+      "langPacksURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/lang/{locale}/c26.json",
+      "langPackLocales": [
+        "fr",
+        "en",
+        "de",
+        "es",
+        "it"
+      ],
+      "langPackVersion": 1
     },
     {
       "id": "ashp",
@@ -332,7 +572,17 @@
       "foilShared": false,
       "logoURL": null,
       "artworkURL": null,
-      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/ashp.json"
+      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/ashp.json",
+      "dataURLv3": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/v3/ashp.json",
+      "langPacksURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/lang/{locale}/ashp.json",
+      "langPackLocales": [
+        "fr",
+        "en",
+        "de",
+        "es",
+        "it"
+      ],
+      "langPackVersion": 1
     },
     {
       "id": "cst",
@@ -345,7 +595,17 @@
       "foilShared": false,
       "logoURL": null,
       "artworkURL": null,
-      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/cst.json"
+      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/cst.json",
+      "dataURLv3": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/v3/cst.json",
+      "langPacksURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/lang/{locale}/cst.json",
+      "langPackLocales": [
+        "fr",
+        "en",
+        "de",
+        "es",
+        "it"
+      ],
+      "langPackVersion": 1
     },
     {
       "id": "hmw",
@@ -358,7 +618,17 @@
       "foilShared": false,
       "logoURL": "https://cdn.starwarsunlimited.com//medium_Homeworlds_Logo_FR_ad5853f414.png",
       "artworkURL": "https://cdn.starwarsunlimited.com//large_SWH_09_HMW_Key_Art_2f48009949.png",
-      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/hmw.json"
+      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/hmw.json",
+      "dataURLv3": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/v3/hmw.json",
+      "langPacksURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/lang/{locale}/hmw.json",
+      "langPackLocales": [
+        "fr",
+        "en",
+        "de",
+        "es",
+        "it"
+      ],
+      "langPackVersion": 1
     },
     {
       "id": "hmwp",
@@ -371,7 +641,17 @@
       "foilShared": false,
       "logoURL": null,
       "artworkURL": null,
-      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/hmwp.json"
+      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/hmwp.json",
+      "dataURLv3": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/v3/hmwp.json",
+      "langPacksURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/lang/{locale}/hmwp.json",
+      "langPackLocales": [
+        "fr",
+        "en",
+        "de",
+        "es",
+        "it"
+      ],
+      "langPackVersion": 1
     },
     {
       "id": "ic27",
@@ -384,7 +664,17 @@
       "foilShared": false,
       "logoURL": "https://cdn.starwarsunlimited.com//xlarge_Icons_2027_Logo_FR_96397d5464.png",
       "artworkURL": "https://cdn.starwarsunlimited.com//large_SWH_Header_ICONS_Key_Art_b8d4f770ec.png",
-      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/ic27.json"
+      "dataURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/ic27.json",
+      "dataURLv3": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/v3/ic27.json",
+      "langPacksURL": "https://raw.githubusercontent.com/Yannick101984/swucardex-data/main/sets/lang/{locale}/ic27.json",
+      "langPackLocales": [
+        "fr",
+        "en",
+        "de",
+        "es",
+        "it"
+      ],
+      "langPackVersion": 1
     }
   ]
 }

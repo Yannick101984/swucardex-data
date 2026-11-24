@@ -36,11 +36,15 @@ jobs:
       - name: Détecter et ajouter les nouveaux sets
         id: sync
         env:
-          # GITHUB_REF_NAME vaut toujours la branche par défaut sur un trigger
-          # schedule, même si le checkout ci-dessus cible staging — on force la
-          # valeur pour que les dataURL générés référencent la bonne branche.
-          GITHUB_REF_NAME: ${{ matrix.branch }}
+          # GitHub interdit de redéfinir GITHUB_REF_NAME (elle vaut main sur un
+          # trigger schedule, même dans le job staging) : sync_sets.py lit
+          # DATA_BRANCH en priorité (swucardex-data#36).
+          DATA_BRANCH: ${{ matrix.branch }}
         run: python3 scripts/sync_sets.py --mode sync
+
+      # Mêmes cartes et mêmes Card.id entre JSON brut et v3 (SWUCardex#43), sinon rien n'est commité
+      - name: Contrôler les formats compacts
+        run: python3 scripts/check_compact.py
 
       - name: Commit et push si changements
         run: |
