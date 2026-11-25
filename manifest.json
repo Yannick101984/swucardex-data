@@ -57,7 +57,7 @@
     },
     {
       "id": "twi",
-      "dataVersion": 1,
+      "dataVersion": 2,
       "code": "TWI",
       "name": "Crépuscule de la République",
       "type": "main",
