@@ -473,22 +473,6 @@
   },
   {
     "set_code": "SHD",
-    "en_name": "Lom Pyke, Dealer in Truths",
-    "card_number": 309,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Val, Loyal to the End",
-    "card_number": 333,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
     "en_name": "Top Target",
     "card_number": 344,
     "variant_type": "Hyperspace",
@@ -513,6 +497,14 @@
   },
   {
     "set_code": "SHD",
+    "en_name": "Outland TIE Vanguard",
+    "card_number": 354,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
     "en_name": "Inspiring Mentor",
     "card_number": 373,
     "variant_type": "Hyperspace",
@@ -529,8 +521,16 @@
   },
   {
     "set_code": "SHD",
-    "en_name": "Enforced Loyalty",
-    "card_number": 377,
+    "en_name": "The Darksaber",
+    "card_number": 395,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
+    "en_name": "Death Watch Loyalist",
+    "card_number": 405,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -553,14 +553,6 @@
   },
   {
     "set_code": "SHD",
-    "en_name": "Ketsu Onyo, Old Friend",
-    "card_number": 416,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
     "en_name": "The Chaos of War",
     "card_number": 428,
     "variant_type": "Hyperspace",
@@ -571,14 +563,6 @@
     "set_code": "SHD",
     "en_name": "Covetous Rivals",
     "card_number": 440,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Armed to the Teeth",
-    "card_number": 444,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -603,22 +587,6 @@
     "set_code": "SHD",
     "en_name": "Zuckuss, Bounty Hunter for Hire",
     "card_number": 459,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "Dryden Vos, Offering No Escape",
-    "card_number": 461,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SHD",
-    "en_name": "L3-37, Droid Revolutionary",
-    "card_number": 465,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -892,30 +860,6 @@
     "en_name": "Ruthless Raider",
     "card_number": 398,
     "variant_type": "Hyperspace Foil",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "For a Cause I Believe In",
-    "card_number": 415,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "Smoke and Cinders",
-    "card_number": 437,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "SOR",
-    "en_name": "I Had No Choice",
-    "card_number": 450,
-    "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
   },
