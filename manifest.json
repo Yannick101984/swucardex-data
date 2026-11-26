@@ -30,7 +30,7 @@
         "es",
         "it"
       ],
-      "langPackVersion": 3
+      "langPackVersion": 4
     },
     {
       "id": "shd",
@@ -260,7 +260,7 @@
         "es",
         "it"
       ],
-      "langPackVersion": 1
+      "langPackVersion": 2
     },
     {
       "id": "j24",
