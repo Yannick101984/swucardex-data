@@ -473,6 +473,22 @@
   },
   {
     "set_code": "SHD",
+    "en_name": "Doctor Pershing, Experimenting With Life",
+    "card_number": 306,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
+    "en_name": "Survivors' Gauntlet",
+    "card_number": 338,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
     "en_name": "Top Target",
     "card_number": 344,
     "variant_type": "Hyperspace",
@@ -497,8 +513,32 @@
   },
   {
     "set_code": "SHD",
+    "en_name": "Evidence of the Crime",
+    "card_number": 350,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
+    "en_name": "Fell the Dragon",
+    "card_number": 351,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
     "en_name": "Outland TIE Vanguard",
     "card_number": 354,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
+    "en_name": "The Marauder, Shuttling the Bad Batch",
+    "card_number": 371,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -561,6 +601,14 @@
   },
   {
     "set_code": "SHD",
+    "en_name": "Stolen Landspeeder",
+    "card_number": 430,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
     "en_name": "Covetous Rivals",
     "card_number": 440,
     "variant_type": "Hyperspace",
@@ -569,8 +617,24 @@
   },
   {
     "set_code": "SHD",
+    "en_name": "Vambrace Flamethrower",
+    "card_number": 446,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
     "en_name": "Kintan Intimidator",
     "card_number": 452,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
+    "en_name": "Bazine Netal, Spy for the First Order",
+    "card_number": 453,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -587,6 +651,14 @@
     "set_code": "SHD",
     "en_name": "Zuckuss, Bounty Hunter for Hire",
     "card_number": 459,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
+    "en_name": "Coruscant Dissident",
+    "card_number": 467,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -617,8 +689,16 @@
   },
   {
     "set_code": "SHD",
-    "en_name": "Swoop Down",
-    "card_number": 497,
+    "en_name": "Bounty Posting",
+    "card_number": 495,
+    "variant_type": "Hyperspace",
+    "idProduct": null,
+    "note": ""
+  },
+  {
+    "set_code": "SHD",
+    "en_name": "Altering the Deal",
+    "card_number": 506,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -1113,8 +1193,8 @@
   },
   {
     "set_code": "TWI",
-    "en_name": "General Grievous, Trophy Collector",
-    "card_number": 307,
+    "en_name": "41st Elite Corps",
+    "card_number": 318,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
@@ -1251,14 +1331,6 @@
     "set_code": "TWI",
     "en_name": "Droid Deployment",
     "card_number": 499,
-    "variant_type": "Hyperspace",
-    "idProduct": null,
-    "note": ""
-  },
-  {
-    "set_code": "TWI",
-    "en_name": "AT-TE Vanguard",
-    "card_number": 508,
     "variant_type": "Hyperspace",
     "idProduct": null,
     "note": ""
